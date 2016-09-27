@@ -12,7 +12,7 @@ fi
 files_with_whitespace=`git diff-index --check --cached $against | # Find all changed files
                        sed '/^[+-]/d' |                           # Remove lines which start with + or -
                        sed -E 's/:[0-9]+:.*//' |                  # Remove end of lines which contains numbers, etc.
-                       sed '/\.adoc\$/!d' |                       # Only process .adoc file
+                       sed '/\.(adoc|md)\$/!d' |                  # Only process specific files
                        uniq`                                      # Remove duplicate files
 
 # Change field separator to newline so that for correctly iterates over lines
@@ -28,10 +28,10 @@ for FILE in $files_with_whitespace ; do
     git add "$FILE"
 done
 
-# Detect too long lines in .m and .h files:
+# Detect too long lines in .adoc and .md files:
 changed_source_files=`git diff-index --cached $against --numstat |
                       cut -f3 |
-                      egrep '\.adoc$'`
+                      egrep '\.(adoc|md)$'`
 
 if [[ -n "$changed_source_files" ]]; then
     found_offenses=''

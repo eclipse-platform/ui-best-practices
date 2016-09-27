@@ -35,8 +35,9 @@ in AsciiDoc format, the build script, and generated output. The build script is
 configured to generate output for a specific version of the document and running
 the build (`make`) may overwrite any existing document.
 
-The output files (eg., `*.html`) may be live documents that may be included by other documents
-found in the repository and also externally, so take care with what you commit.
+The output files (eg., `*.html`) may be live documents that may be included by
+other documents found in the repository and also externally, so take care with
+what you commit.
 
 ### Installing Asciidoctor
 Asciidoctor is required for generating the output files. Please have a look at
@@ -50,9 +51,9 @@ Ensure that lines in `.adoc` files are *hard wrapped* at 80 columns. This makes 
 much easier to view the diffs in git. How you do this depends on your particular
 text editor.
 
-As a sanity check, please copy the `scripts/githooks/pre-commit` file over to your
-`.git/hooks` folder. The script will run automatically before you make a commit
-and warn you if you have lines longer than 80 characters.
+As a sanity check, please install the Git hooks contained in this repository
+by running `bin/git/install-hooks`. The script will run automatically before you
+make a commit and warn you if you have lines longer than 80 characters.
 
 Sometimes, it is *not* possible to break at 80 columns, e.g., because you have a
 URL that cannot be split across lines. In that case, you can use `git commit
