@@ -35,7 +35,7 @@ in AsciiDoc format, the build script, and generated output. The build script is
 configured to generate output for a specific version of the document and running
 the build (`make`) may overwrite any existing document.
 
-The output files (eg., `*.html) may be live documents that may be included by other documents
+The output files (eg., `*.html`) may be live documents that may be included by other documents
 found in the repository and also externally, so take care with what you commit.
 
 ### Installing Asciidoctor
@@ -46,7 +46,7 @@ For PDF generartion you also need to install
 [Asciidoctor PDF Support](http://asciidoctor.org/docs/convert-asciidoc-to-pdf/).
 
 ### Making changes
-Ensure that lines in `.adoc files are *hard wrapped* at 80 columns. This makes it
+Ensure that lines in `.adoc` files are *hard wrapped* at 80 columns. This makes it
 much easier to view the diffs in git. How you do this depends on your particular
 text editor.
 
