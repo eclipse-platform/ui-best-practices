@@ -3,9 +3,9 @@ Contributing to Eclipse UI Best Practices
 
 Thank you for your interest in this project. 
 
-_Please have a look at the [README](README.md) for
+Please have a look at the [README](README.md) for
 further information how to use the code base and 
-how to submit changes, improvements, etc._
+how to submit changes, improvements, etc.
 
 
 Contributor Agreement & Developer's Certificate of Origin
