@@ -1,8 +1,11 @@
 Contributing to Eclipse UI Best Practices
 =========================================
 
-Thanks for your interest in this project. Please have a look at the [README](README.md) for
-further information how to use the code base and how to submit changes, improvements, etc.
+Thank you for your interest in this project. 
+
+_Please have a look at the [README](README.md) for
+further information how to use the code base and 
+how to submit changes, improvements, etc._
 
 
 Contributor Agreement & Developer's Certificate of Origin
