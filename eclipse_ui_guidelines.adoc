@@ -13,37 +13,31 @@ Practices Working Group]*
 *Last major revision: November 2007* +
 *Convertion into Asciidoc: September 2016*
 
-[.line-through]#Note: Please use the
-http://wiki.eclipse.org/index.php/Talk:User_Interface_Guidelines[discussion
-page] to add comments instead of embedding them in this document.#
+NOTE: Please use the
+https://github.com/eclipse-architecture/ui-best-practices[discussion
+page] to add comments instead of embedding them in this document.
+
+:toc:
 
 
-[[notice]]
-Notice
-^^^^^^
-
+== Notice
 Your feedback can influence the ideas and guidelines described here. If
 you have suggestions, please provide us with your feedback on the
 mailto:platform-ui-dev@eclipse.org?subject=UI%20Guidelines%20v2.1%20Feedback[UI
 mailing list] or on the
-http://wiki.eclipse.org/index.php/Talk:User_Interface_Guidelines[discussion
+https://github.com/eclipse-architecture/ui-best-practices[discussion
 page].
 
-[[ui-checklist]]
-UI Checklist
-~~~~~~~~~~~~
 
-The link:UI_Checklist[UI Checklist] is a shortlist of the most relevant
-and easy to apply Eclipse **link:User_Interface_Guidelines[User
-Interface Guidelines]**. Start by using link:UI_Checklist[ this list],
-referring to the linked guideline items for details, then use the
-link:User_Interface_Guidelines#Checklist_For_Developers[ Full Checklist]
-for additional guidance. For comments please use .
+== UI Checklist
+The xref:_checklist_for_developers[UI Checklist] is a shortlist of the most relevant
+and easy to apply Eclipse **User Interface Guidelines**. 
+Start by using link:ui_checklist.adoc[this list], referring to the linked guideline items for details, 
+then use the <<_checklist_for_developers,Full Checklist>> for additional guidance. 
+For comments please use the 
+https://github.com/eclipse-architecture/ui-best-practices/issues[UI Best Practices GitHub Issues].
 
-[[introduction]]
-Introduction
-~~~~~~~~~~~~
-
+== Introduction
 In this document the Eclipse user interface guidelines are defined.
 
 Eclipse is a universal tool platform - an open, extensible IDE for
@@ -3177,15 +3171,13 @@ quick, enable the command optimistically and display an appropriate
 message if the command is invoked, but cannot be completed.
 ________________________________________________________________________________
 
-[[dialogs]]
-Dialogs
-^^^^^^^
+=== Dialogs
+
 
 A dialog is used for modal interaction with the user. It can be used to
 solicit information, or provide feedback.
-[[initialization]]
-Initialization
-++++++++++++++
+
+==== Initialization
 
 When a dialog first opens, the initial focus should be given to the
 first control where information is required from the user. This control
@@ -3194,21 +3186,12 @@ where information is required. If the dialog provides simple feedback,
 or requires simple confirmation from the user, the initial focus may
 also be assigned to the default button.
 
-image:images/guidelineIndicator.png[]
-**Guideline 4.1**
-
-________________________________________________________________________________
+TIP: [guideline4.1]**Guideline 4.1** +
 When a dialog opens, set the initial focus to the first input control in
 the container. If there are no input controls, the initial focus should
 be assigned to the default button.
-________________________________________________________________________________
 
-'''
-
-[[multiple-item-selection]]
-Multiple Item Selection
-+++++++++++++++++++++++
-
+==== Multiple Item Selection
 Slush Bucket widgets (also known as the Twin Box design) should flow
 from the left to the right with the source objects on the left and
 selected files on the right.
@@ -3235,9 +3218,7 @@ the source objects on the left hand side. It should have the control
 buttons in this order: 'Add ->', '', '
 ________________________________________________________________________________
 
-[[wizards]]
-Wizards
-^^^^^^^
+=== Wizards
 
 In Eclipse, a wizard is commonly used for the creation of new resources,
 resource import, or resource export. It can also be used for the
@@ -3255,9 +3236,7 @@ ________________________________________________________________________________
 
 '''
 
-[[appearance-1]]
-Appearance
-++++++++++
+==== Appearance
 
 At the top of each wizard is a header, containing a banner graphic and a
 text area. The banner graphic contains an image representing the wizard
@@ -3274,20 +3253,12 @@ should appear.
 
 image::images/wizardAppearance.png[wizardAppearance,title="wizardAppearance"]
 
-image:images/guidelineIndicator.png[]
-**Guideline 5.2**
-
-________________________________________________________________________________
+TIP: [guideline5.2]**Guideline 5.2** +
 Each wizard must contain a header with a banner graphic and a text area
 for user feedback. It must also contain Back, Next, Finish, and Cancel
 buttons in the footer.
-________________________________________________________________________________
 
-'''
-
-[[initialization-1]]
-Initialization
-++++++++++++++
+==== Initialization
 
 When a wizard first opens, the focus should be placed in the first field
 requiring information (see Guidelines 3.1). The header should be used to
@@ -3300,14 +3271,8 @@ user hasn't done anything yet.
 
 image::images/badWizardInit.png[badWizardInit,title="badWizardInit"]
 
-image:images/guidelineIndicator.png[]
-**Guideline 5.3**
-
-_____________________________________________________
+TIP: [guideline5.3]**Guideline 5.3** +
 Start the wizard with a prompt, not an error message.
-_____________________________________________________
-
-'''
 
 The initial state of the wizard should be derived from the context where
 it is opened. For instance, in the New File wizard, the current
@@ -3323,19 +3288,10 @@ file.
 
 image::images/wizardFieldPopulation.png[wizardFieldPopulation,title="wizardFieldPopulation"]
 
-image:images/guidelineIndicator.png[]
-**Guideline 5.4**
-
-____________________________________________________________________
+TIP: [guideline5.4]**Guideline 5.4** +
 Seed the fields within the wizard using the current workbench state.
-____________________________________________________________________
 
-'''
-
-[[validation-of-data]]
-Validation of Data
-++++++++++++++++++
-
+==== Validation of Data
 Information validation within a wizard should be done in tab order. If
 the first required field is empty, an informative prompt should be shown
 in the text area, directing the user to fill in the field. If the first
@@ -3388,10 +3344,7 @@ _____________________________________________________
 
 '''
 
-[[browse-buttons]]
-Browse Buttons
-++++++++++++++
-
+==== Browse Buttons
 An edit field and "Browse..." button combination should be used whenever
 an existing object is referenced within a wizard. The edit field is used
 for direct input of the existing object, and the Browse button is used
@@ -3403,15 +3356,10 @@ pressed, a Browse Dialog will appear, and the user can select a super
 class. This pattern should be used whenever a link will be established
 between a new object and an old one. The "Browse..." button should be
 located to the right of the edit field.
-image:images/guidelineIndicator.png[]
-**Guideline 5.8**
 
-__________________________________________________________________________
+TIP: [guideline5.8]**Guideline 5.8** +
 Use a Browse Button whenever an existing object is referenced in a
 wizard.
-__________________________________________________________________________
-
-'''
 
 In the Browse Dialog, invalid choices should not appear. When the dialog
 is closed, and focus returns to the parent control, refresh the
@@ -3422,10 +3370,8 @@ An example of valid and invalid filtering is shown in the following
 snapshot.
 
 image::images/folderSelection.png[folderSelection,title="fig:folderSelection"]
-[[wizard-completion]]
-Wizard Completion
-+++++++++++++++++
 
+==== Wizard Completion
 The New Resource and Import Wizards commonly create new files, folders,
 and projects within the workbench. If a single file is created, the
 wizard should open the file in an editor in the active page. If more
@@ -3529,23 +3475,17 @@ be a Project; otherwise, use the term "Folder name". Do not qualify the
 term.
 ________________________________________________________________________________
 
-[[editors]]
-Editors
-^^^^^^^
+=== Editors
 
 An editor is a visual component within a workbench page. It is used to
 interact with the primary content, which may be a document or data
 object. In every case, this content is the primary focus of attention
 and a reflection of the primary task.
-image:images/guidelineIndicator.png[]
-**Guideline 6.1**
 
-___________________________________________________________________________
+TIP: [guideline6.1]**Guideline 6.1** +
 Use an editor to edit or browse a file, document, or other primary
 content.
-___________________________________________________________________________
 
-'''
 
 Modifications made in an editor follow an open-save-close lifecycle
 model. When an editor first opens, the editor contents should be
@@ -3555,46 +3495,26 @@ appear in the editor tab. The modifications should be buffered within
 the edit model, until such a time as the user explicitly saves them. At
 that point, the modifications should be committed to the model storage.
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.2**
-
-________________________________________________________________________________
+TIP: [guideline6.2]**Guideline 6.2** +
 Modifications made in an editor should follow an open-save-close
 lifecycle model.
-________________________________________________________________________________
-
-'''
 
 An editor is document or input-centric. Each editor has an input, and
 only one editor can exist for each editor input within a page. This
 policy has been designed to simplify part management.
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.3**
-
-________________________________________________________________________________
+TIP: [guideline6.3]**Guideline 6.3** +
 Only one instance of an editor may exist, for each editor input, within
 a perspective.
-________________________________________________________________________________
-
-'''
 
 In addition, it should be possible to open a separate instance of an
 editor for each different input.
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.4**
-
-________________________________________________________________________________
+TIP: [guideline6.4]**Guideline 6.4** +
 It must be possible to open a separate instance of an editor for each
 different input.
-________________________________________________________________________________
 
-'''
-
-[[appearance-2]]
-Appearance
-++++++++++
+==== Appearance
 
 The editor should be labeled with the name of the resource being edited;
 not with the name of the editor.
@@ -3625,9 +3545,7 @@ ________________________________________________________________________________
 
 '''
 
-[[menus]]
-Menus
-+++++
+==== Menus
 
 An editor may contribute items directly to the window menu bar. All of
 the commands available in the editor should be displayed in the window
@@ -3635,15 +3553,9 @@ menu bar, for accessibility and clarity. Exceptions are for the obvious
 commands, e.g., basic navigations such as next / previous character,
 line, word.
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.7**
-
-________________________________________________________________________________
+TIP: [guideline6.7]**Guideline 6.7** +
 All of the commands, except for the obvious commands, available in the
 editor should be added to the window menu bar.
-________________________________________________________________________________
-
-'''
 
 The following format is recommended, to ensure consistency across
 Eclipse and better ease of use.
@@ -3678,20 +3590,12 @@ IWorkbenchActionConstants.java (see below).
 
 ` /**`` * From IWorkbenchActionConstants.`` * Standard global commands in a workbench window.`` */`` public static final String [] GLOBAL_ACTIONS = {`` UNDO,`` REDO,`` CUT,`` COPY,`` PASTE,`` PRINT,`` DELETE,`` FIND,`` SELECT_ALL,`` BOOKMARK`` };`
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.9**
-
-________________________________________________________________________________
+TIP: [guideline6.9]**Guideline 6.9** +
 If an editor has support for Cut, Copy, Paste, or any of the global
 commands, these commands must be executable from the same commands in
 the window menu bar and toolbar.
-________________________________________________________________________________
 
-'''
-
-[[toolbars]]
-Toolbars
-++++++++
+==== Toolbars
 
 An editor may contribute commands directly to the window toolbar. The
 toolbar is used to expose the _most commonly used_ commands in an
@@ -3715,9 +3619,7 @@ with editors of the same type. This reduces the flash which occurs when
 you switch between editors, reduces the number of images and commands in
 the product, and creates a better feel of integration.
 
-[[context-menus]]
-Context Menus
-+++++++++++++
+==== Context Menus
 
 A context menu should be used for context sensitive interaction with the
 objects in an editor. If an object is selected in an editor, and the
@@ -4173,14 +4075,8 @@ only the active editor. It should not target the active view. This leads
 to a situation where the File > Save command is in contradiction to the
 Save command within the view.
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.2**
-
-___________________________________________________________
+TIP: [guideline7.2]**Guideline 7.2** +
 Modifications made within a view must be saved immediately.
-___________________________________________________________
-
-'''
 
 Within a perspective, only one instance of a particular view can be
 opened. This policy is designed to simplify part management for a user.
@@ -4312,9 +4208,7 @@ ________________________________________________________________________________
 
 '''
 
-[[menus-1]]
 Menus
-+++++
 
 Use the view pulldown menu for presentation commands, not
 selection-oriented commands. These are commands which affect the
@@ -4323,15 +4217,10 @@ put presentation commands in the context menu. For instance, the Sort
 and Filter commands within the Navigator view affect the presentation of
 resources, but do not affect the resources themselves.
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.10**
-
-________________________________________________________________________________
+TIP: [guideline7.10]**Guideline 7.10** +
 Use the view pulldown menu for presentation commands, not
 selection-oriented commands.
-________________________________________________________________________________
 
-'''
 
 For consistency with other views in Eclipse, each view should adopt a
 common order for commands within the pulldown menu. This order is shown
@@ -4377,47 +4266,31 @@ ___________________________________________________________
 Use the standard order of commands for view pulldown menus.
 ___________________________________________________________
 
-'''
 
-[[toolbars-1]]
-Toolbars
-++++++++
-
+==== Toolbars
 The toolbar is used to expose the most commonly used commands in a view.
 Any command which appears in the toolbar must also appear in the menu
 (either the context menu or the view menu), but there is no need to
 duplicate every command in the menu within the toolbar.
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.12**
-
-________________________________________________________________________________
+TIP: [guideline7.12]**Guideline 7.12:**  +   
 Put only the most commonly used commands on the toolbar. Any command on
 a toolbar must also appear in a menu, either the context menu or the
 view menu.
-________________________________________________________________________________
+
 
 '''
 
-[[context-menus-1]]
-Context Menus
-+++++++++++++
-
+==== Context Menus
 A context menu should be used for context sensitive interaction with the
 objects in a view. If an object is selected in a view, and the context
 menu is opened, the context menu should contain only actions which are
 appropriate for the selection. Actions which affect the presentation of
 the view should not appear in the context menu.
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.13**
-
-________________________________________________________________________________
+TIP: [guideline7.13]**Guideline 7.13** +
 Fill the context menu with selection oriented actions, not presentation
 actions.
-________________________________________________________________________________
-
-'''
 
 For consistency with other views in Eclipse, each view should adopt a
 common order for commands within the context menu. This order is shown
@@ -4524,9 +4397,8 @@ _____________________________________________________________
 
 '''
 
-[[integration-with-the-window-menu-bar-and-toolbar]]
-Integration with the Window Menu Bar and Toolbar
-++++++++++++++++++++++++++++++++++++++++++++++++
+==== Integration with the Window Menu Bar and Toolbar
+
 
 The window menu bar contains a number of global commands, such as Cut,
 Copy, and Paste within the Edit menu. These commands target the active
@@ -4543,16 +4415,11 @@ Find/Replace, Add Bookmark, Add Task Navigate menu: Go Into, Back, Forward, Up O
 Back, Forward Project menu: Open Project, Close Project, Build Project, Rebuild
 Project
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.19**
-
-________________________________________________________________________________
+TIP: [guideline7.19]**Guideline 7.19** +
 If a view has support for Cut, Copy, Paste, or any of the global
 commands, these commands must be executable from the same commands in
 the window menu bar and toolbar.
-________________________________________________________________________________
 
-'''
 
 Although a view can't directly contribute to the main menubar or toolbar
 in Eclipse v2.1, it can still cause commands to appear there using
@@ -4564,9 +4431,8 @@ main menubar, and only frequently used commands are on the context
 menu. In addition, the primary perspective(s) for such views (e.g., the Java
 and Java Browsing perspectives) should already have these action sets
 associated with the perspective, to improve UI stability.
-[[persistence]]
-Persistence
-+++++++++++
+
+==== Persistence
 
 One of the primary goals for the platform UI is to provide efficient
 interaction with the workspace. In the platform this is promoted by
@@ -4584,22 +4450,14 @@ expansion state, is saved between sessions. For more information on the
 implementation of persistence, see
 "http://www.eclipse.org/articles/viewArticle/ViewArticle2.html[Creating
 an Eclipse View]".
-image:images/guidelineIndicator.png[]
-**Guideline 7.20**
 
-________________________________________________
+TIP: [guideline7.20]**Guideline 7.20** +
 Persist the state of each view between sessions.
-________________________________________________
 
 
-'''
+==== Interaction with Editors
 
-[[interaction-with-editors]]
-Interaction with Editors
-++++++++++++++++++++++++
-
-*Link with Editor*
-
+===== Link with Editor
 Navigation views should support "Link with Editor" on the view menu.
 This feature works on a per-view setting. If it's expected that users
 will toggle it frequently, then it can also go on the toolbar, but this
@@ -4638,7 +4496,7 @@ ___________________________________________________________________
 Navigation views should support "Link with Editor" on the view menu
 ___________________________________________________________________
 
-----
+'''
 
 There exist two main modes for opening an editor from a view: single
 click and double click mode. Views should show the following behavior
@@ -6191,100 +6049,58 @@ does not conflict with the basic image decoration provided by Eclipse.
 The top left corner is the second best place although it conflicts with
 the binary project decorator. The bottom left and top right should be
 avoided as they are decorated outside of the decorator mechanism
-[[checklist-for-developers]]
-Checklist For Developers
-~~~~~~~~~~~~~~~~~~~~~~~~
+
+== Checklist For Developers
 
 Here is a checklist for developers who are developing UI plugins. This
 _could_ be used for certification purposes.
-[[general-ui-guidelines-1]]
-General UI Guidelines
-^^^^^^^^^^^^^^^^^^^^^
 
-[[the-spirit-of-eclipse-1]]
-The Spirit of Eclipse
-+++++++++++++++++++++
+=== General UI Guidelines
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-**Guideline 1.1**
+==== The Spirit of Eclipse
 
-________________________________________________________________________________
+TIP: [guideline1.1]*Guideline 1.1* +
 Follow and apply good user interface design principles: user in control,
 directness, consistency, forgiveness, feedback, aesthetics, and
 simplicity.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 1.2**
-
-________________________________________________________
+TIP: [guideline1.2]*Guideline 1.2* +
 Follow the platform lead for user interface conventions.
-________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 1.3**
-
-________________________________________________________________________________
+TIP: [guideline1.3]*Guideline 1.3* +
 Be careful not to mix UI metaphors. It may blur the original concept,
 and your own application.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 1.4**
-
-________________________________________________________________________________
+TIP: [guideline1.4]*Guideline 1.4* +
 If you have an interesting idea, work with the Eclipse community to make
 Eclipse a better platform for all.
-________________________________________________________________________________
 
-[[capitalization-1]]
-Capitalization
-++++++++++++++
+==== Capitalization
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 1.5**
 
-________________________________________________________________________________
+TIP: [guideline1.5]*Guideline 1.5* +
 Use Headline style capitalization for menus, tooltip and all titles,
 including those used for windows, dialogs, tabs, column headings and
 push buttons. Capitalize the first and last words, and all nouns,
 pronouns, adjectives, verbs and adverbs. Do not include ending
 punctuation.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 1.6**
 
-________________________________________________________________________________
+TIP: [guideline1.6]*Guideline 1.6* +
 Use Sentence style capitalization for all control labels in a dialog or
 window, including those for check boxes, radio buttons, group labels,
 and simple text fields. Capitalize the first letter of the first word,
 and any proper names such as the word Java.
-________________________________________________________________________________
 
-[[language-1]]
-Language
-++++++++
-
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 1.7**
-
-______________________________________________________________
+==== Language
+TIP: [guideline1.7]*Guideline 1.7* +
 Create localized version of the resources within your plug-in.
-______________________________________________________________
 
-[[error-handling-1]]
-Error Handling
-++++++++++++++
-
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 1.8**
-
-________________________________________________________________________________
+==== Error Handling
+TIP: [guideline1.8]*Guideline 1.8* +
 When an error occurs which requires either an explicit user input or
 immediate attention from users, communicate the occurrence with a modal
 dialog.
-________________________________________________________________________________
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
 Guideline 1.9**
@@ -6295,43 +6111,22 @@ with a dialog, and log it.
 ________________________________________________________________________________
 
 
-[[ui-graphics]]
-UI Graphics
-^^^^^^^^^^^
+=== UI Graphics
 
-[[design-1]]
-Design
-++++++
-
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-* Guideline 2.1*
-
-____________________________________________________________
+==== Design
+TIP: [guideline2.1]*Guideline 2.1* +
 Follow the visual style established for Eclipse UI graphics.
-____________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-* Guideline 2.2*
-
-________________________________________________________________________
+TIP: [guideline2.2]*Guideline 2.2* +
 Use a common color palette as the basis for creating graphical elements.
-________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-* Guideline 2.3*
-
-________________________________________________________________________________
+TIP: [guideline2.3]*Guideline 2.3* +
 Re-use the core visual concepts to maintain consistent representation
 and meaning across Eclipse plug-ins.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-* Guideline 2.4*
-
-________________________________________________________________________________
+TIP: [guideline2.4]*Guideline 2.4* +
 Re-use existing graphics from the Common Elements library or other
 Eclipse-based plugins.
-________________________________________________________________________________
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
 * Guideline 2.5*
@@ -7390,15 +7185,11 @@ Start out with a single preference page. Then evolve to more if you need
 to.
 ____________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 15.4**
-
-________________________________________________________________________________
+TIP: [guideline15.4]*Guideline 15.4* +
 If you create a preference group, use the root page for frequently used
 preferences, or those preferences which have wide spread effect.
 Specialize within the sub pages. The root preference page should not be
 blank.
-________________________________________________________________________________
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
 Guideline 15.5**
