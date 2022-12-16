@@ -13,37 +13,31 @@ Practices Working Group]*
 *Last major revision: November 2007* +
 *Convertion into Asciidoc: September 2016*
 
-[.line-through]#Note: Please use the
-http://wiki.eclipse.org/index.php/Talk:User_Interface_Guidelines[discussion
-page] to add comments instead of embedding them in this document.#
+NOTE: Please use the
+https://github.com/eclipse-platform/ui-best-practices/discussions[discussion
+page] to add comments instead of embedding them in this document.
+
+:toc:
 
 
-[[notice]]
-Notice
-^^^^^^
-
+== Notice
 Your feedback can influence the ideas and guidelines described here. If
 you have suggestions, please provide us with your feedback on the
 mailto:platform-ui-dev@eclipse.org?subject=UI%20Guidelines%20v2.1%20Feedback[UI
 mailing list] or on the
-http://wiki.eclipse.org/index.php/Talk:User_Interface_Guidelines[discussion
+https://github.com/eclipse-platform/ui-best-practices/discussions[discussion
 page].
 
-[[ui-checklist]]
-UI Checklist
-~~~~~~~~~~~~
 
-The link:UI_Checklist[UI Checklist] is a shortlist of the most relevant
-and easy to apply Eclipse **link:User_Interface_Guidelines[User
-Interface Guidelines]**. Start by using link:UI_Checklist[ this list],
-referring to the linked guideline items for details, then use the
-link:User_Interface_Guidelines#Checklist_For_Developers[ Full Checklist]
-for additional guidance. For comments please use .
+== UI Checklist
+The xref:_checklist_for_developers[UI Checklist] is a shortlist of the most relevant
+and easy to apply Eclipse **User Interface Guidelines**. 
+Start by using link:ui_checklist.adoc[this list], referring to the linked guideline items for details, 
+then use the <<_checklist_for_developers,Full Checklist>> for additional guidance. 
+For comments please use the 
+https://github.com/eclipse-platform/ui-best-practices/issues[UI Best Practices GitHub Issues].
 
-[[introduction]]
-Introduction
-~~~~~~~~~~~~
-
+== Introduction
 In this document the Eclipse user interface guidelines are defined.
 
 Eclipse is a universal tool platform - an open, extensible IDE for
@@ -67,9 +61,7 @@ an easier learning curve for your customers.
 These guidelines are intended for use by designers and implementors of
 an Eclipse user interface extension.
 
-[[the-workbench]]
-The Workbench
-^^^^^^^^^^^^^
+=== The Workbench
 
 To start out, let's take a look at the Eclipse workbench user interface,
 and the various components within it.
@@ -120,9 +112,8 @@ menu, and tool items to the platform. These contributions are defined
 using XML, and once registered, integrate seamlessly with the components
 which already exist in the platform.
 
-[[projects-folders-and-files]]
-Projects, Folders and Files
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=== Projects, Folders and Files
+
 
 Eclipse can be used to create many different kinds of content - Java
 files, Web content, graphics, video - almost anything you can imagine.
@@ -131,9 +122,7 @@ The workspace consists of one or more top level projects. Each project
 contains a collection of folders and files. These objects are known as
 __resources__.
 
-[[getting-started]]
-Getting Started
-~~~~~~~~~~~~~~~
+== Getting Started
 
 For most developers, an introduction to the platform can be
 overwhelming, and you may ask "where do I get started?". Here are a few
@@ -198,9 +187,7 @@ All of these ideas will be discussed, in detail, in the following
 sections.
 
 
-[[general-ui-guidelines]]
-General UI Guidelines
-~~~~~~~~~~~~~~~~~~~~~
+== General UI Guidelines
 
 This document defines UI guidelines that are unique and specific to the
 Eclipse platform. It is a supplement to the other standard UI guidelines
@@ -224,11 +211,8 @@ directness, consistency, forgiveness, feedback, aesthetics, and
 simplicity.
 ________________________________________________________________________________
 
-'''
 
-[[the-spirit-of-eclipse]]
-The Spirit of Eclipse
-^^^^^^^^^^^^^^^^^^^^^
+=== The Spirit of Eclipse
 
 At its heart, Eclipse is a platform for tool plug-ins. These plug-ins
 may be developed by a single team or by a partnership of teams, or the
@@ -302,9 +286,7 @@ ________________________________________________________________________________
 
 '''
 
-[[capitalization]]
-Capitalization
-^^^^^^^^^^^^^^
+=== Capitalization
 
 Consistent capitalization of text within a plug-in leads to a more
 polished feel, and greater perception of quality. Within a dialog or
@@ -339,9 +321,8 @@ ________________________________________________________________________________
 
 '''
 
-[[language]]
-Language
-^^^^^^^^
+=== Language
+
 
 Eclipse is available on a variety of different platforms, in a variety
 of locales. In reflection of the different languages and numeric formats
@@ -362,9 +343,7 @@ ______________________________________________________________
 
 '''
 
-[[error-handling]]
-Error Handling
-^^^^^^^^^^^^^^
+=== Error Handling
 
 If an error occurs in Eclipse, the appropriate response will be
 dependent on the context of the error.
@@ -413,13 +392,9 @@ If a programming error occurs in the product, communicate the occurrence
 with a dialog, and log it.
 ________________________________________________________________________________
 
-[[ui-graphics-3.x-updates]]
-UI Graphics (3.x updates)
-~~~~~~~~~~~~~~~~~~~~~~~~~
+== UI Graphics (3.x updates)
 
-[[overview]]
-Overview
-^^^^^^^^
+=== Overview
 
 The following guide covers user interface (UI) graphics for Eclipse
 3.x-based tools. All visual user interface elements created for
@@ -440,16 +415,12 @@ will be interested in the Design, Specifications, and Implementation
 sections. If you are a Developer, the Specifications and Implementations
 sections will be of most value to you.
 
-[[design]]
-Design
-^^^^^^
+=== Design
 
 This section provides guidance and tools for creating Eclipse style
 icons and wizard graphics.
 
-[[style-design]]
-Style & Design
-++++++++++++++
+==== Style & Design
 
 This section covers style characteristics and gives guidance for
 designing effective Eclipse user interface graphics including topics
@@ -1113,9 +1084,7 @@ ________________________________________________________________________
 
 '''
 
-[[consistency-reuse]]
-Consistency & Reuse
-+++++++++++++++++++
+==== Consistency & Reuse
 
 This section encourages consistency and reuse of existing graphical
 elements, and shows the core icon and wizard concepts currently in the
@@ -1132,7 +1101,7 @@ understanding of concepts across the tools, and to minimize confusion,
 we encourage you to re-use Eclipse-style graphical elements whenever
 possible.
 
-''' Re-using graphical elements '''
+===== Re-using graphical elements
 
 A great many icons and wizard graphics have already been created in the
 Eclipse visual style, so there is a good chance that the elements you
@@ -1143,14 +1112,14 @@ consistent meaning is maintained. A more extensive collection of common
 visual elements can be found on the link:#Common_Elements[Common
 Elements] page.
 
-''' Core icon concepts '''
+===== Core icon concepts
 
 image::images/des_cons_core-icons.png[des_cons_core-icons,title="des_cons_core-icons"]
 
 Click Media:core_icon_concepts.zip[ *here*] or on the image above to
 download the "core_icon_concepts.psd".
 
-''' Core wizard graphic concepts '''
+===== Core wizard graphic concepts
 
 image::images/des_cons_core-wiz.png[des_cons_core-wiz,title="des_cons_core-wiz"]
 
@@ -1168,9 +1137,7 @@ ________________________________________________________________________________
 
 '''
 
-[[common-elements]]
-Common Elements
-+++++++++++++++
+==== Common Elements
 
 This section provides a library of graphical elements that have already
 been developed for Eclipse-based tools. This extensive selection of
@@ -1180,7 +1147,7 @@ conjunction with the core concepts shown in the Consistency & Reuse
 section, this library will enable efficient creation of graphical
 elements and promote consistency throughout the user interface.
 
-''' Icon elements '''
+===== Icon elements
 
 image::images/des_common_icons.png[des_common_icons,title="fig:des_common_icons"]
 
@@ -1190,7 +1157,7 @@ image::images/des_common_icons.png[des_common_icons,title="fig:des_common_icons"
   the "common_icon_elements_eclipse-tools.psd" file for a subset of
   icons related to Eclipse-based tools.
 
-''' Wizard elements '''
+===== Wizard elements
 
 image::images/des_common_wiz.png[des_common_wiz,title="fig:des_common_wiz"]
 
@@ -1210,32 +1177,27 @@ ________________________________________________________________________________
 
 '''
 
-[[states]]
-States
-++++++
+===== States
+This section describes the use of enabled and disabled icons in the user
+interface. It also provides instructions and an automated action set for
+creating the disabled state of your enabled color icons, a useful tool
+when producing a large volume of icons.
+
+====== Icon States
 
 This section describes the use of enabled and disabled icons in the user
 interface. It also provides instructions and an automated action set for
 creating the disabled state of your enabled color icons, a useful tool
 when producing a large volume of icons.
 
-''' Icon States '''
+*Enabled state* +
+The enabled icon state is the color version of all toolbar, toolbar
+wizard, and local toolbar icons. This state indicates that a command
+is active and available for use. Information on creating the enabled
+color version of these icons can be found under
+*link:#Style_&amp;_Design[Style & Design]* above.
 
-This section describes the use of enabled and disabled icons in the user
-interface. It also provides instructions and an automated action set for
-creating the disabled state of your enabled color icons, a useful tool
-when producing a large volume of icons.
-
-::
-  ''' Enabled state '''
-   The enabled icon state is the color version of all toolbar, toolbar
-  wizard, and local toolbar icons. This state indicates that a command
-  is active and available for use. Information on creating the enabled
-  color version of these icons can be found under
-  *link:#Style_&amp;_Design[Style & Design]* above.
-
-::
-  ''' Disabled state '''
+*Disabled state* +
    The disabled icon state is a dimmed version of the enabled color
   toolbar, toolbar wizard, and local toolbar icons. This state indicates
   that a command is inactive and not available for use. The following
@@ -1247,15 +1209,13 @@ when producing a large volume of icons.
 
 image::images/des_states_enab-disab.png[des_states_enab-disab,title="fig:des_states_enab-disab"]
 
-::
-  *NOTE:* It is important to implement the graphical versions of the
+NOTE: It is important to implement the graphical versions of the
   disabled state for toolbar and local toolbar icons. The quality and
   legibility of algorithmically rendered disabled icons is poor and they
   are not consistent with the majority of other tools that use the
   graphical versions.
 
-::
-  *Creating the disabled icon state*
+*Creating the disabled icon state* +
    To create this state, you will use the
   "eclipse_disabledrender_R3V6.atn" action in the Eclipse-style Actions
   palette. Click Media:eclipse-style_actions.zip[ *here*] to download
@@ -1280,14 +1240,13 @@ adjustments required. We recommend you go through each icon and tweak
 any pixels that don't look right and to give a consistent treatment to
 similar elements.
 
-::
-  Here is what the "Create Disabled State" action looks like in the
+
+Here is what the "Create Disabled State" action looks like in the
   Actions palette:
 
 image::images/des_states_disabled-atn.png[des_states_disabled-atn,title="fig:des_states_disabled-atn"]
 
-::
-  ''' Toggled states '''
+*Toggled states*
    The toggled state is used on toolbars, local toolbars, and in menus.
   On toolbars and local toolbars, a toggle is represented by a button
   with two physical positions—up and down—which define a state, most
@@ -1297,16 +1256,15 @@ image::images/des_states_disabled-atn.png[des_states_disabled-atn,title="fig:des
 
 image::images/des_states_toggles.png[des_states_toggles,title="fig:des_states_toggles"]
 
-::
-  Sometimes a toggle is not a simple on/off state. For example, there
+
+Sometimes a toggle is not a simple on/off state. For example, there
   might be two different ways information can be displayed in a view. In
   this case, two buttons with two separate icons are required. The
   buttons sit beside one another on the local toolbar and when one is
   on, the other is off.
 
-::
-  ''' Opened and closed folder states '''
-   In the treeview, ideally, folders would be closed when the -/+ widget
+*Opened and closed folder states*
+In the treeview, ideally, folders would be closed when the -/+ widget
   beside the folder icon is in a closed state, as in [+], and opened
   when the -/+ widget beside the folder icon is in an opened state, as
   in [-]. Because Eclipse does not animate opened and closed folder
@@ -1314,22 +1272,20 @@ image::images/des_states_toggles.png[des_states_toggles,title="fig:des_states_to
   on the toolbar and local toolbar, but open in wizard banners and in
   treeviews. Here is the reasoning:
 
-::
-   On the toolbar, a closed folder represents one that has not been
+On the toolbar, a closed folder represents one that has not been
   created yet.
      In a wizard banner, an open folder represents one that will be created
   in the form of a model object in the treeview.
      In the treeview, an open folder represents one an existing and active
   folder.
 
-::
-  One notable exception to open folders in the treeview is when used to
+One notable exception to open folders in the treeview is when used to
   represent a “group”, as is the case with high-level project groupings
   in the Project Explorer View. These are shown with closed folders.
 
 image::images/des_states_folders.png[des_states_folders,title="fig:des_states_folders"]
 
-*NOTE:* All instructions for creating visual elements are based on using
+NOTE: All instructions for creating visual elements are based on using
 Adobe Photoshop 7.0 and above and Adobe Illustrator 9.0 and above. If
 you use earlier versions of these tools, the instructions may not work
 exactly as described.
@@ -1344,9 +1300,7 @@ ________________________________________________________________________________
 
 '''
 
-[[templates]]
-Templates
-+++++++++
+==== Templates
 
 This section provides design files for producing different types of user
 interface graphics. A description of the templates and guidance on how
@@ -1364,7 +1318,7 @@ Maintaining the simple structure of the templates will facilitate easy
 file sharing and efficient production of a large set of graphics for one
 tool.
 
-''' Icon Design Template '''
+===== Icon Design Template
 
 1.  *Populating the template* : Fill out the
 Media:eclipse3.0_UI_Design_resources.zip[ *icon_design_template.psd*]
@@ -1412,7 +1366,7 @@ required or entirely new icons may be requested. To keep track of which
 icons and their instances need to be cut or re-cut, a red box can be
 placed around each, using the *cut or re-cut (red)* layer.
 
-''' Wizard Design Template '''
+==== Wizard Design Template
 
 1.  *Populating the vector-based template* : Fill out the vector-based
 template Media:eclipse3.0_UI_Design_resources.zip[
@@ -1479,21 +1433,17 @@ ________________________________________________________________________________
 
 '''
 
-[[specifications]]
-Specifications
-^^^^^^^^^^^^^^
+=== Specifications
 
 This section details technical information you will need to design and
 prepare your Eclipse-style graphics for implementation.
 
-[[file-formats]]
-File Formats
-++++++++++++
+==== File Formats
 
 This section lists and describes the graphic file formats used for the
 different graphic types.
 
-''' GIF - Graphics Interchange Format '''
+===== GIF - Graphics Interchange Format
 
 GIF images are raster-based, can have transparency, and tend to use a
 small amount of memory and disk space. Each GIF file contains a color
@@ -1511,7 +1461,7 @@ because such icons contain only 256 pixels. The GIF file palette
 limitation is, however, something to be aware of when creating larger
 images.
 
-''' PNG - Portable Network Graphics '''
+===== PNG - Portable Network Graphics
 
 PNG is a bitmapped image format that employs lossless data compression.
 PNG was created to improve upon and replace the GIF format, as an
@@ -1537,7 +1487,7 @@ tooling:
 * Progress Indicator
 * Miscellaneous (there might be exceptions)
 
-''' SVG - Scalable Vector Graphics format '''
+===== SVG - Scalable Vector Graphics format
 
 SVG is a language for describing both two-dimensional and animated
 vector-based graphics in XML. One of its distinguishing attributes is
@@ -1555,7 +1505,7 @@ In designing graphics for SVG output, use a minimal number of elements
 in each image, especially for small 16 x 16 icons. This will help ensure
 image clarity, and fewer elements will keep the file size small.
 
-''' BMP - Bit map format '''
+===== BMP - Bit map format
 
 BMP is the standard Microsoft Windows raster image format.
 
@@ -1565,7 +1515,7 @@ tooling:
 * Pointer
 * Cursor
 
-''' ICO - Icon format '''
+===== ICO - Icon format
 
 ICO format is used on the Microsoft Windows operating system and is
 required for product install and launch icons, including desktop,
@@ -1575,11 +1525,11 @@ ICO is used for the following type of graphics in Eclipse-based tooling:
 
 * Product icons (Windows)
 
-''' ICNS - Mac Icon format '''
+===== ICNS - Mac Icon format
 
 * Product icons (Mac)
 
-''' XPM - X PixMap format '''
+===== XPM - X PixMap format
 
 XPM is an ASCII image format that supports transparent color. This image
 format is used on Linux and is required for product install and launch
@@ -1589,7 +1539,7 @@ XPM is used for the following type of graphics in Eclipse-based tooling:
 
 * Product icons (Linux)
 
-''' Resources '''
+===== Resources
 
 * Mac
 ** http://developer.apple.com/documentation/UserExperience/Conceptual/OSXHIGuidelines/index.html?
@@ -1606,9 +1556,7 @@ ___________________________________________________
 
 '''
 
-[[graphic-types]]
-Graphic Types
-+++++++++++++
+==== Graphic Types
 
 This section describes the different types of graphics that are used in
 Eclipse-based tools, and where they are located within the user
@@ -1624,7 +1572,7 @@ Placement]. The following graphic types are described below:
 
 image::images/spec_type_icon.png[spec_type_icon,title="spec_type_icon"]
 
-''' Product '''
+===== Product
 
 ::
   The Product icon, also known as the Application icon, represents the
@@ -1641,7 +1589,7 @@ image::images/spec_type_prod.png[spec_type_prod,title="fig:spec_type_prod"]
 ::
   *Format:* ICO (Windows), ICNS (Mac), XPM (Linux)
 
-''' Perspective '''
+===== Perspective
 
 ::
   Perspective icons represent different working environments called
@@ -1668,7 +1616,7 @@ image::images/spec_type_persp.png[spec_type_persp,title="fig:spec_type_persp"]
 ::
   *Format:* PNG
 
-''' Fast View
+===== Fast View
 
 ::
   Fast View icons allow users to quickly display different views that
@@ -1692,7 +1640,7 @@ image::images/spec_type_fastview.png[spec_type_fastview,title="fig:spec_type_fas
 ::
   *Format:* PNG
 
-''' Toolbar '''
+===== Toolbar
 
 ::
   Toolbar icons are located on the main toolbar across the top of the
@@ -1713,7 +1661,7 @@ image::images/spec_type_tool.png[spec_type_tool,title="fig:spec_type_tool"]
 ::
   *Format:* PNG
 
-''' Toolbar Wizard '''
+===== Toolbar Wizard
 
 ::
   Toolbar wizard icons are found on the main toolbar across the top of
@@ -1739,7 +1687,7 @@ image::images/spec_type_toolwiz.png[spec_type_toolwiz,title="fig:spec_type_toolw
 ::
   *Format:* PNG
 
-''' View '''
+===== View
 
 ::
   View icons are found on the left side of the titlebar of each view
@@ -1760,7 +1708,7 @@ image::images/spec_type_view.png[spec_type_view,title="fig:spec_type_view"]
 ::
   *Format:* PNG
 
-''' Local Toolbar '''
+===== Local Toolbar
 
 ::
   Local toolbar icons are found to the right of the view icon on the
@@ -1783,7 +1731,7 @@ image::images/spec_type_lcltool.png[spec_type_lcltool,title="fig:spec_type_lclto
 ::
   *Format:* PNG
 
-''' Model Object '''
+===== Model Object
 
 ::
   Model Object icons are found in tree views, list views, and on editor
@@ -1821,7 +1769,7 @@ image::images/spec_type_icon-ol-edit.png[spec_type_icon-ol-edit,title="fig:spec_
 ::
   *Format:* PNG
 
-__' Object Overlay (and Underlay)__'
+===== Object Overlay (and Underlay)
 
 ::
   Object overlay icons are decorator elements that are used in tree or
@@ -2052,7 +2000,7 @@ image::images/spec_type_ovr-undersamp.png[spec_type_ovr-undersamp,title="fig:spe
 ::
   *Format:* PNG
 
-''' Table '''
+=====  Table
 
 ::
   Table icons are a type of model object icon used specifically in
@@ -2080,7 +2028,7 @@ image::images/spec_type_table_op1.png[spec_type_table_op1,title="fig:spec_type_t
 ::
   *Format:* PNG
 
-''' Palette '''
+=====  Palette
 
 ::
   Palette icons are located on the palette and most commonly accompany
@@ -2117,7 +2065,7 @@ image::images/spec_type_palette.png[ spec_type_palette,title="fig: spec_type_pal
 ::
   *Format:* PNG
 
-''' Diagram '''
+=====  Diagram
 
 ::
   Diagram icons come in two subtypes: Canvas and Action Bar. Canvas
@@ -2152,7 +2100,7 @@ image::images/spec_type_diagram.png[ spec_type_diagram,title="fig: spec_type_dia
   *Format:* PNG is used for all diagram graphics, except Action Bar
   icons, which are SVG.
 
-''' Progress Indicator '''
+===== Progress Indicator
 
 ::
   The progress indicator icon is located in lower right of user
@@ -2177,7 +2125,7 @@ image::images/spec_type_progress.png[ spec_type_progress,title="fig: spec_type_p
 ::
   *Format:* PNG
 
-''' Pointer and Cursor Mask '''
+===== Pointer and Cursor Mask
 
 ::
   Pointer icons are cursors and each requires a cursor mask. The cursor
@@ -2200,7 +2148,7 @@ image::images/spec_type_cursor_mask.png[ spec_type_cursor_mask,title="fig: spec_
 ::
   *Format:* BMP
 
-''' Wizard Banner '''
+===== Wizard Banner
 
 ::
   Wizard banner graphics are located on the right side of the wizard
@@ -2234,10 +2182,7 @@ ________________________________________________________________________________
 
 '''
 
-[[icon-size-placement]]
-Icon Size & Placement
-+++++++++++++++++++++
-
+==== Icon Size & Placement
 This section shows the final cut size of each of the different types of
 icons, as well as what the placement and drawing area is within the
 allotted space.
@@ -2258,7 +2203,7 @@ single row of empty pixels on all four sides.
 Exceptions to the common 16 x 16 image size are also detailed below. All
 sizes are indicated with width before height.
 
-''' Product '''
+===== Product
 
 ::
   Product icons occupy the full space allotted for all five sizes: 16 x
@@ -2277,7 +2222,7 @@ image in place*
 |=======================================================================
 ________________________________________________________________________________
 
-''' Perspective and Fast View '''
+===== Perspective and Fast View
 
 ::
   The maximum image size is 16 x 16 pixels, but 15 x 15 is recommended.
@@ -2299,7 +2244,7 @@ image in place*
 |=======================================================================
 ________________________________________________________________________________
 
-''' View '''
+===== View
 
 ::
   The maximum image size is 16 x 16 pixels, but 15 x 15 is recommended.
@@ -2318,7 +2263,7 @@ image in place*
 |=======================================================================
 ________________________________________________________________________________
 
-''' Toolbar, Toolbar Wizard, and Local Toolbar '''
+===== Toolbar, Toolbar Wizard, and Local Toolbar
 
 ::
   The maximum image size is 16 x 16 pixels, but 15 x 15 is recommended.
@@ -2337,7 +2282,7 @@ image in place*
 |=======================================================================
 ________________________________________________________________________________
 
-''' Model Object '''
+===== Model Object
 
 ::
   The maximum image size is 16 x 15 pixels, but 15 x 15 is recommended.
@@ -2356,7 +2301,7 @@ image in place*
 |=======================================================================
 ________________________________________________________________________________
 
-''' Object Overlay (and Underlay) '''
+===== Object Overlay (and Underlay)
 
 ::
   Most object overlay icons are a maximum image size of 7 x 8 pixels,
@@ -2500,7 +2445,7 @@ image in place*
 |=======================================================================
 ________________________________________________________________________________
 
-''' Table '''
+===== Table
 
 ::
   The maximum image size is 15 x 14 pixels. Table icons must be no
@@ -2519,7 +2464,7 @@ image in place*
 |=======================================================================
 ________________________________________________________________________________
 
-''' Palette '''
+===== Palette
 
 ::
   *Standard small (16 x 16) palette icon:* The maximum image size is 16
@@ -2574,7 +2519,7 @@ image in place*
 |=======================================================================
 ________________________________________________________________________________
 
-''' Diagram '''
+===== Diagram
 
 ::
   *Small (10 x 10) canvas icon:* The maximum image size is 10 x 10
@@ -2659,7 +2604,7 @@ image in place*
 |=======================================================================
 ________________________________________________________________________________
 
-''' Progress Indicator '''
+===== Progress Indicator
 
 ::
   The maximum image size is 16 x 15 pixels, but 15 x 15 is recommended.
@@ -2678,7 +2623,7 @@ image in place*
 |=======================================================================
 ________________________________________________________________________________
 
-''' Pointer and Cursor Mask '''
+===== Pointer and Cursor Mask
 
 ::
   The final size of the pointer and cursor masks is 32 x 32 pixels. The
@@ -2703,7 +2648,7 @@ image in place*
 |=======================================================================
 ________________________________________________________________________________
 
-''' Wizard Banner '''
+===== Wizard Banner
 
 ::
   All wizard banner graphics are designed to fit within a specified
@@ -2739,16 +2684,12 @@ ________________________________________________________________________________
 
 '''
 
-[[implementation]]
-Implementation
-^^^^^^^^^^^^^^
+=== Implementation
 
 This section provides automated cutting actions, and conventions for
 file and folder naming and structure.
 
-[[cutting-actions]]
-Cutting Actions
-+++++++++++++++
+==== Cutting Actions
 
 This section describes the macros for cutting icons, icon overlays, and
 wizard banner graphics to get them ready for implementation.
@@ -2771,7 +2712,7 @@ To use these actions, click here to download the
 media:eclipse_cutting_R3V6.zip[eclipse_cutting_R3V6.atn] file, and then
 load it into the Actions Palette.
 
-''' Cutting 16 x 16 Pixel Icons '''
+===== Cutting 16 x 16 Pixel Icons
 
 1.  Make sure that the pink cut layer is turned on, in the psd file.
 2.  Play the Dupe and Flatten_main file action to create a new, flat
@@ -2797,12 +2738,12 @@ selection down to the next icon and begins the process all over again.
 
 image::images/imp_cut_icons.png[imp_cut_icons,title="fig:imp_cut_icons"]
 
-''' Cutting 7 x 8 Pixel Object Overlay Icons '''
+===== Cutting 7 x 8 Pixel Object Overlay Icons
 
 Follow the steps as laid out above, except cut the icon at 7 x 8 pixels,
 using the Eclipse icon cuts_overlays action.
 
-''' Cutting Wizard graphics '''
+===== Cutting Wizard graphics
 
 1.  Ensure that the wizard psd has a path called "wizard cut path" under
 *Paths* tab.
@@ -2843,9 +2784,7 @@ ________________________________________________________________________________
 
 '''
 
-[[naming-conventions]]
-Naming Conventions
-++++++++++++++++++
+==== Naming Conventions
 
 This section describes the Eclipse standard for file naming and
 guidelines for using suffixes that will help others quickly identify the
@@ -2855,29 +2794,29 @@ We recommend that you work with your development contact to establish
 file names for each graphic before you begin design work, using the
 following guidelines:
 
-''' Abbreviations '''
+===== Abbreviations
 
 The file name should be an abbreviation of the full icon name, for
 example, the name for the Create DTD Wizard icon might be abbreviated to
 "CrtDTD".
 
-''' Case '''
+===== Case
 
 All file names must be in lower case, for example, CrtDTD becomes
 "crtdtd".
 
-''' Character length '''
+===== Character length
 
 File names should be 10 characters or fewer whenever possible.
 Underscores count as a character.
 
-''' Suffixes '''
+===== Suffixes
 
 The file name should end with a suffix that describes its location or
 function in the user interface, for example, "crtdtd_wiz.png". See the
 table below for suffix suggestions.
 
-''' Multiple sizes '''
+===== Multiple sizes
 
 Icons that have multiple sizes within one folder, such as multiple
 palette icon sizes, are differentiated by adding the icon size to the
@@ -2885,7 +2824,7 @@ suffix. For example, file_pal, file_pal24, file_pal32, where
 *_pal represents the default 16 x 16 pixel size and the *_pal24 and
 *_pal32 represent larger sizes of the same icon.
 
-''' Suggestions for File Naming Suffixes '''
+===== Suggestions for File Naming Suffixes
 
 image::images/name-conv-tabl.jpg[name-conv-tabl.jpg,title="name-conv-tabl.jpg"]
 
@@ -2930,9 +2869,7 @@ ______________________________________
 
 '''
 
-[[folder-structure]]
-Folder Structure
-++++++++++++++++
+==== Folder Structure
 
 This section provides the Eclipse standard for folder names and
 structure for storing and implementing graphics within your plugin.
@@ -3043,14 +2980,9 @@ ______________________________________________________
 '''
 
 
-[[component-development]]
-Component Development
-~~~~~~~~~~~~~~~~~~~~~
+== Component Development
 
-[[commands]]
-Commands
-^^^^^^^^
-
+=== Commands
 A command, which is invoked by a user to carry out some specific
 functions, may appear as an item in a menu, or an item in a toolbar. In
 reflection of this, it has attributes for the menu or tool item label,
@@ -3070,9 +3002,7 @@ In this section we'll look at general command guidelines. For
 information on window, view, or editor specific guidelines, see
 link:#Windows[Windows], link:#Views[Views], and link:#Editors[Editors].
 
-[[appearance]]
-Appearance
-++++++++++
+==== Appearance
 
 Each command must have a label, tool tip, and image. If the command
 appears in a toolbar, the command image will be displayed on all
@@ -3146,9 +3076,7 @@ ________________________________________________________________________________
 
 '''
 
-[[enablement]]
-Enablement
-++++++++++
+==== Enablement
 
 An command should be enabled only if it can be completed successfully.
 If this is not the case, the command should be disabled.
@@ -3177,15 +3105,13 @@ quick, enable the command optimistically and display an appropriate
 message if the command is invoked, but cannot be completed.
 ________________________________________________________________________________
 
-[[dialogs]]
-Dialogs
-^^^^^^^
+=== Dialogs
+
 
 A dialog is used for modal interaction with the user. It can be used to
 solicit information, or provide feedback.
-[[initialization]]
-Initialization
-++++++++++++++
+
+==== Initialization
 
 When a dialog first opens, the initial focus should be given to the
 first control where information is required from the user. This control
@@ -3194,21 +3120,12 @@ where information is required. If the dialog provides simple feedback,
 or requires simple confirmation from the user, the initial focus may
 also be assigned to the default button.
 
-image:images/guidelineIndicator.png[]
-**Guideline 4.1**
-
-________________________________________________________________________________
+TIP: [guideline4.1]**Guideline 4.1** +
 When a dialog opens, set the initial focus to the first input control in
 the container. If there are no input controls, the initial focus should
 be assigned to the default button.
-________________________________________________________________________________
 
-'''
-
-[[multiple-item-selection]]
-Multiple Item Selection
-+++++++++++++++++++++++
-
+==== Multiple Item Selection
 Slush Bucket widgets (also known as the Twin Box design) should flow
 from the left to the right with the source objects on the left and
 selected files on the right.
@@ -3235,9 +3152,7 @@ the source objects on the left hand side. It should have the control
 buttons in this order: 'Add ->', '', '
 ________________________________________________________________________________
 
-[[wizards]]
-Wizards
-^^^^^^^
+=== Wizards
 
 In Eclipse, a wizard is commonly used for the creation of new resources,
 resource import, or resource export. It can also be used for the
@@ -3255,9 +3170,7 @@ ________________________________________________________________________________
 
 '''
 
-[[appearance-1]]
-Appearance
-++++++++++
+==== Appearance
 
 At the top of each wizard is a header, containing a banner graphic and a
 text area. The banner graphic contains an image representing the wizard
@@ -3274,20 +3187,12 @@ should appear.
 
 image::images/wizardAppearance.png[wizardAppearance,title="wizardAppearance"]
 
-image:images/guidelineIndicator.png[]
-**Guideline 5.2**
-
-________________________________________________________________________________
+TIP: [guideline5.2]**Guideline 5.2** +
 Each wizard must contain a header with a banner graphic and a text area
 for user feedback. It must also contain Back, Next, Finish, and Cancel
 buttons in the footer.
-________________________________________________________________________________
 
-'''
-
-[[initialization-1]]
-Initialization
-++++++++++++++
+==== Initialization
 
 When a wizard first opens, the focus should be placed in the first field
 requiring information (see Guidelines 3.1). The header should be used to
@@ -3300,14 +3205,8 @@ user hasn't done anything yet.
 
 image::images/badWizardInit.png[badWizardInit,title="badWizardInit"]
 
-image:images/guidelineIndicator.png[]
-**Guideline 5.3**
-
-_____________________________________________________
+TIP: [guideline5.3]**Guideline 5.3** +
 Start the wizard with a prompt, not an error message.
-_____________________________________________________
-
-'''
 
 The initial state of the wizard should be derived from the context where
 it is opened. For instance, in the New File wizard, the current
@@ -3323,19 +3222,10 @@ file.
 
 image::images/wizardFieldPopulation.png[wizardFieldPopulation,title="wizardFieldPopulation"]
 
-image:images/guidelineIndicator.png[]
-**Guideline 5.4**
-
-____________________________________________________________________
+TIP: [guideline5.4]**Guideline 5.4** +
 Seed the fields within the wizard using the current workbench state.
-____________________________________________________________________
 
-'''
-
-[[validation-of-data]]
-Validation of Data
-++++++++++++++++++
-
+==== Validation of Data
 Information validation within a wizard should be done in tab order. If
 the first required field is empty, an informative prompt should be shown
 in the text area, directing the user to fill in the field. If the first
@@ -3388,10 +3278,7 @@ _____________________________________________________
 
 '''
 
-[[browse-buttons]]
-Browse Buttons
-++++++++++++++
-
+==== Browse Buttons
 An edit field and "Browse..." button combination should be used whenever
 an existing object is referenced within a wizard. The edit field is used
 for direct input of the existing object, and the Browse button is used
@@ -3403,15 +3290,10 @@ pressed, a Browse Dialog will appear, and the user can select a super
 class. This pattern should be used whenever a link will be established
 between a new object and an old one. The "Browse..." button should be
 located to the right of the edit field.
-image:images/guidelineIndicator.png[]
-**Guideline 5.8**
 
-__________________________________________________________________________
+TIP: [guideline5.8]**Guideline 5.8** +
 Use a Browse Button whenever an existing object is referenced in a
 wizard.
-__________________________________________________________________________
-
-'''
 
 In the Browse Dialog, invalid choices should not appear. When the dialog
 is closed, and focus returns to the parent control, refresh the
@@ -3422,10 +3304,8 @@ An example of valid and invalid filtering is shown in the following
 snapshot.
 
 image::images/folderSelection.png[folderSelection,title="fig:folderSelection"]
-[[wizard-completion]]
-Wizard Completion
-+++++++++++++++++
 
+==== Wizard Completion
 The New Resource and Import Wizards commonly create new files, folders,
 and projects within the workbench. If a single file is created, the
 wizard should open the file in an editor in the active page. If more
@@ -3509,9 +3389,7 @@ ________________________________________________________________________
 
 '''
 
-[[terminology]]
-Terminology
-+++++++++++
+==== Terminology
 
 Within a creation wizard, if the item being created must be a Project
 (not a folder below a project), the term "Project" should be used. If it
@@ -3529,23 +3407,17 @@ be a Project; otherwise, use the term "Folder name". Do not qualify the
 term.
 ________________________________________________________________________________
 
-[[editors]]
-Editors
-^^^^^^^
+=== Editors
 
 An editor is a visual component within a workbench page. It is used to
 interact with the primary content, which may be a document or data
 object. In every case, this content is the primary focus of attention
 and a reflection of the primary task.
-image:images/guidelineIndicator.png[]
-**Guideline 6.1**
 
-___________________________________________________________________________
+TIP: [guideline6.1]**Guideline 6.1** +
 Use an editor to edit or browse a file, document, or other primary
 content.
-___________________________________________________________________________
 
-'''
 
 Modifications made in an editor follow an open-save-close lifecycle
 model. When an editor first opens, the editor contents should be
@@ -3555,46 +3427,26 @@ appear in the editor tab. The modifications should be buffered within
 the edit model, until such a time as the user explicitly saves them. At
 that point, the modifications should be committed to the model storage.
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.2**
-
-________________________________________________________________________________
+TIP: [guideline6.2]**Guideline 6.2** +
 Modifications made in an editor should follow an open-save-close
 lifecycle model.
-________________________________________________________________________________
-
-'''
 
 An editor is document or input-centric. Each editor has an input, and
 only one editor can exist for each editor input within a page. This
 policy has been designed to simplify part management.
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.3**
-
-________________________________________________________________________________
+TIP: [guideline6.3]**Guideline 6.3** +
 Only one instance of an editor may exist, for each editor input, within
 a perspective.
-________________________________________________________________________________
-
-'''
 
 In addition, it should be possible to open a separate instance of an
 editor for each different input.
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.4**
-
-________________________________________________________________________________
+TIP: [guideline6.4]**Guideline 6.4** +
 It must be possible to open a separate instance of an editor for each
 different input.
-________________________________________________________________________________
 
-'''
-
-[[appearance-2]]
-Appearance
-++++++++++
+==== Appearance
 
 The editor should be labeled with the name of the resource being edited;
 not with the name of the editor.
@@ -3625,9 +3477,7 @@ ________________________________________________________________________________
 
 '''
 
-[[menus]]
-Menus
-+++++
+==== Menus
 
 An editor may contribute items directly to the window menu bar. All of
 the commands available in the editor should be displayed in the window
@@ -3635,15 +3485,9 @@ menu bar, for accessibility and clarity. Exceptions are for the obvious
 commands, e.g., basic navigations such as next / previous character,
 line, word.
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.7**
-
-________________________________________________________________________________
+TIP: [guideline6.7]**Guideline 6.7** +
 All of the commands, except for the obvious commands, available in the
 editor should be added to the window menu bar.
-________________________________________________________________________________
-
-'''
 
 The following format is recommended, to ensure consistency across
 Eclipse and better ease of use.
@@ -3678,20 +3522,12 @@ IWorkbenchActionConstants.java (see below).
 
 ` /**`` * From IWorkbenchActionConstants.`` * Standard global commands in a workbench window.`` */`` public static final String [] GLOBAL_ACTIONS = {`` UNDO,`` REDO,`` CUT,`` COPY,`` PASTE,`` PRINT,`` DELETE,`` FIND,`` SELECT_ALL,`` BOOKMARK`` };`
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.9**
-
-________________________________________________________________________________
+TIP: [guideline6.9]**Guideline 6.9** +
 If an editor has support for Cut, Copy, Paste, or any of the global
 commands, these commands must be executable from the same commands in
 the window menu bar and toolbar.
-________________________________________________________________________________
 
-'''
-
-[[toolbars]]
-Toolbars
-++++++++
+==== Toolbars
 
 An editor may contribute commands directly to the window toolbar. The
 toolbar is used to expose the _most commonly used_ commands in an
@@ -3715,9 +3551,7 @@ with editors of the same type. This reduces the flash which occurs when
 you switch between editors, reduces the number of images and commands in
 the product, and creates a better feel of integration.
 
-[[context-menus]]
-Context Menus
-+++++++++++++
+==== Context Menus
 
 A context menu should be used for context sensitive interaction with the
 objects in an editor. If an object is selected in an editor, and the
@@ -3813,9 +3647,7 @@ _______________________________________________________________
 
 '''
 
-[[resource-deletion]]
-Resource Deletion
-+++++++++++++++++
+==== Resource Deletion
 
 When a resource is deleted from one of the navigators (e.g., Navigator
 view, J2EE view, Data view, or DBA Explorer view in IBM's WebSphere
@@ -3853,9 +3685,7 @@ ________________________________________________________________________________
 
 '''
 
-[[unsaved-changes]]
-Unsaved Changes
-+++++++++++++++
+==== Unsaved Changes
 
 If the editor contains changes to the resource since the resource was
 last saved (i.e., it is "dirty"), an asterisk should be used to prefix
@@ -3873,9 +3703,7 @@ ________________________________________________________________________________
 
 '''
 
-[[read-only-files]]
-Read-Only Files
-+++++++++++++++
+==== Read-Only Files
 
 With a name like "editor", it's not surprising that the issue of
 read-only files may cause confusion. If it's read-only, how can you edit
@@ -3904,9 +3732,7 @@ ________________________________________________________________________________
 
 '''
 
-[[integration-with-other-views]]
-Integration with Other Views
-++++++++++++++++++++++++++++
+==== Integration with Other Views
 
 In Eclipse, there is a special relationship between each editor and the
 Outline view. When an editor is opened, the Outline view will connect to
@@ -4012,9 +3838,7 @@ ____________________________________________________________________
 
 '''
 
-[[line-numbers]]
-Line Numbers
-++++++++++++
+==== Line Numbers
 
 Editors with source lines of text should have line numbers, and
 optionally column numbers. Editors should also support Navigate -> Goto
@@ -4033,9 +3857,7 @@ ________________________________________________________________________________
 
 '''
 
-[[table-cell-editors]]
-Table Cell Editors
-++++++++++++++++++
+==== Table Cell Editors
 
 If the editor contains tables with editable cells, a single-click over a
 cell should select the current item and put the cell into edit mode. In
@@ -4086,9 +3908,7 @@ ________________________________________________________________________________
 
 '''
 
-[[error-notification]]
-Error Notification
-++++++++++++++++++
+==== Error Notification
 
 If you are doing keystroke by keystroke validation in an editor, use red
 squiggles to underline the invalid content. When users move the mouse
@@ -4118,9 +3938,7 @@ ____________________________________________________________________________
 
 '''
 
-[[interaction-with-external-editors]]
-Interaction With External Editors
-+++++++++++++++++++++++++++++++++
+==== Interaction With External Editors
 
 While a resource is opened within the workbench, if modifications are
 made to it outside of the workbench, we recommend the following approach
@@ -4140,9 +3958,7 @@ workbench, or back out of the Save operation when the Save command is
 invoked in the editor.
 ________________________________________________________________________________
 
-[[views]]
-Views
-^^^^^
+=== Views
 
 A view is a visual component within a workbench page. It is used in a
 support role for the primary task. You use them to navigate a hierarchy
@@ -4173,14 +3989,8 @@ only the active editor. It should not target the active view. This leads
 to a situation where the File > Save command is in contradiction to the
 Save command within the view.
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.2**
-
-___________________________________________________________
+TIP: [guideline7.2]**Guideline 7.2** +
 Modifications made within a view must be saved immediately.
-___________________________________________________________
-
-'''
 
 Within a perspective, only one instance of a particular view can be
 opened. This policy is designed to simplify part management for a user.
@@ -4231,9 +4041,7 @@ ______________________________________________________
 
 '''
 
-[[appearance-3]]
-Appearance
-++++++++++
+==== Appearance
 
 A view consists of a title area, a toolbar, a pulldown menu, and an
 embedded control.
@@ -4273,9 +4081,7 @@ ________________________________________________________________________________
 
 '''
 
-[[initialization-2]]
-Initialization
-++++++++++++++
+==== Initialization
 
 When a view is opened, the input of the view should be derived from the
 state of the perspective. The view may consult the window input or
@@ -4312,9 +4118,7 @@ ________________________________________________________________________________
 
 '''
 
-[[menus-1]]
-Menus
-+++++
+==== Menus
 
 Use the view pulldown menu for presentation commands, not
 selection-oriented commands. These are commands which affect the
@@ -4323,15 +4127,10 @@ put presentation commands in the context menu. For instance, the Sort
 and Filter commands within the Navigator view affect the presentation of
 resources, but do not affect the resources themselves.
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.10**
-
-________________________________________________________________________________
+TIP: [guideline7.10]**Guideline 7.10** +
 Use the view pulldown menu for presentation commands, not
 selection-oriented commands.
-________________________________________________________________________________
 
-'''
 
 For consistency with other views in Eclipse, each view should adopt a
 common order for commands within the pulldown menu. This order is shown
@@ -4377,47 +4176,31 @@ ___________________________________________________________
 Use the standard order of commands for view pulldown menus.
 ___________________________________________________________
 
-'''
 
-[[toolbars-1]]
-Toolbars
-++++++++
-
+==== Toolbars
 The toolbar is used to expose the most commonly used commands in a view.
 Any command which appears in the toolbar must also appear in the menu
 (either the context menu or the view menu), but there is no need to
 duplicate every command in the menu within the toolbar.
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.12**
-
-________________________________________________________________________________
+TIP: [guideline7.12]**Guideline 7.12:**  +   
 Put only the most commonly used commands on the toolbar. Any command on
 a toolbar must also appear in a menu, either the context menu or the
 view menu.
-________________________________________________________________________________
+
 
 '''
 
-[[context-menus-1]]
-Context Menus
-+++++++++++++
-
+==== Context Menus
 A context menu should be used for context sensitive interaction with the
 objects in a view. If an object is selected in a view, and the context
 menu is opened, the context menu should contain only actions which are
 appropriate for the selection. Actions which affect the presentation of
 the view should not appear in the context menu.
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.13**
-
-________________________________________________________________________________
+TIP: [guideline7.13]**Guideline 7.13** +
 Fill the context menu with selection oriented actions, not presentation
 actions.
-________________________________________________________________________________
-
-'''
 
 For consistency with other views in Eclipse, each view should adopt a
 common order for commands within the context menu. This order is shown
@@ -4524,9 +4307,8 @@ _____________________________________________________________
 
 '''
 
-[[integration-with-the-window-menu-bar-and-toolbar]]
-Integration with the Window Menu Bar and Toolbar
-++++++++++++++++++++++++++++++++++++++++++++++++
+==== Integration with the Window Menu Bar and Toolbar
+
 
 The window menu bar contains a number of global commands, such as Cut,
 Copy, and Paste within the Edit menu. These commands target the active
@@ -4543,16 +4325,11 @@ Find/Replace, Add Bookmark, Add Task Navigate menu: Go Into, Back, Forward, Up O
 Back, Forward Project menu: Open Project, Close Project, Build Project, Rebuild
 Project
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.19**
-
-________________________________________________________________________________
+TIP: [guideline7.19]**Guideline 7.19** +
 If a view has support for Cut, Copy, Paste, or any of the global
 commands, these commands must be executable from the same commands in
 the window menu bar and toolbar.
-________________________________________________________________________________
 
-'''
 
 Although a view can't directly contribute to the main menubar or toolbar
 in Eclipse v2.1, it can still cause commands to appear there using
@@ -4564,9 +4341,8 @@ main menubar, and only frequently used commands are on the context
 menu. In addition, the primary perspective(s) for such views (e.g., the Java
 and Java Browsing perspectives) should already have these action sets
 associated with the perspective, to improve UI stability.
-[[persistence]]
-Persistence
-+++++++++++
+
+==== Persistence
 
 One of the primary goals for the platform UI is to provide efficient
 interaction with the workspace. In the platform this is promoted by
@@ -4584,22 +4360,14 @@ expansion state, is saved between sessions. For more information on the
 implementation of persistence, see
 "http://www.eclipse.org/articles/viewArticle/ViewArticle2.html[Creating
 an Eclipse View]".
-image:images/guidelineIndicator.png[]
-**Guideline 7.20**
 
-________________________________________________
+TIP: [guideline7.20]**Guideline 7.20** +
 Persist the state of each view between sessions.
-________________________________________________
 
 
-'''
+==== Interaction with Editors
 
-[[interaction-with-editors]]
-Interaction with Editors
-++++++++++++++++++++++++
-
-*Link with Editor*
-
+===== Link with Editor
 Navigation views should support "Link with Editor" on the view menu.
 This feature works on a per-view setting. If it's expected that users
 will toggle it frequently, then it can also go on the toolbar, but this
@@ -4638,13 +4406,13 @@ ___________________________________________________________________
 Navigation views should support "Link with Editor" on the view menu
 ___________________________________________________________________
 
-----
+'''
 
 There exist two main modes for opening an editor from a view: single
 click and double click mode. Views should show the following behavior
 for opening an editor:
 
-*Single click open mode*
+===== Single click open mode
 
 * file closed
 ** single click opens but does not activate the editor (selects the
@@ -4658,7 +4426,7 @@ the editor if possible)
 ** double click activates the editor (selects the element in the editor
 if possible)
 
-*Double click open mode*
+===== Double click open mode
 
 * file closed
 ** single click does nothing except selecting the element
@@ -4675,7 +4443,7 @@ does not activate it (selects the element in the editor if possible)
 ** double click activates the editor (selects the element in the editor
 if possible)
 
-*Additional rules*
+===== Additional rules
 
 * pressing the the 'Enter' key should do the same as a double click
 * Next (Ctrl+.) / Previous (Ctrl+,) buttons select the next/previous
@@ -4684,9 +4452,7 @@ element in the editor but never activate the editor
 
 '''
 
-[[perspectives]]
-Perspectives
-^^^^^^^^^^^^
+=== Perspectives
 
 A perspective is a visual container for a set of views and editors
 (parts). Different perspectives can have different sets of views open,
@@ -4763,9 +4529,7 @@ ________________________________________________________________________________
 
 '''
 
-[[view-layout]]
-View Layout
-+++++++++++
+==== View Layout
 
 If the user opens a new perspective, the initial layout of views will be
 defined by the perspective type (i.e., Resource, Java). This layout is
@@ -4836,9 +4600,7 @@ ________________________________________________________________________________
 
 '''
 
-[[command-contribution]]
-Command Contribution
-++++++++++++++++++++
+==== Command Contribution
 
 The perspective factory may add actions to the File > New, Window > Open
 Perspective , and Window > Show View menus. It is also possible to add
@@ -4880,9 +4642,7 @@ ________________________________________________________________________________
 
 '''
 
-[[opening-a-perspective-in-code]]
-Opening a Perspective in Code
-+++++++++++++++++++++++++++++
+==== Opening a Perspective in Code
 
 A command should open a new perspective only if the user explicitly
 states a desire to do so. If the user does not state a desire to do so,
@@ -4952,9 +4712,7 @@ menus should be at most 7 plus / minus 2 items.
 ________________________________________________________________________________
 
 
-[[windows]]
-Windows
-^^^^^^^
+=== Windows
 
 In this section we look at the window menu bar, toolbar, and layout. As
 a plug-in developer, you can contribute actions to the menu bar and
@@ -4964,9 +4722,7 @@ window by defining a __perspective__. In this section we'll look at
 action extension. For more information on perspectives, see
 link:#Perspectives[Perspectives].
 
-[[actions]]
-Actions
-+++++++
+==== Actions
 
 Each workbench window contains a menu bar and toolbar. These are
 pre-populated by the platform, but a plug-in developer may add
@@ -5140,9 +4896,7 @@ ______________________________________________________________________________
 
 '''
 
-[[status-bar]]
-Status Bar
-++++++++++
+==== Status Bar
 
 If there is a need for a plug-in to show non-modal contextual
 information in the status bar area, always use the global status bar.
@@ -5155,9 +4909,7 @@ ____________________________________________________________________
 Always use the global status bar to display status related messages.
 ____________________________________________________________________
 
-[[properties]]
-Properties
-^^^^^^^^^^
+=== Properties
 
 A Properties dialog or view is used to view / modify the properties of
 an object which are not visible in the normal presentation of that
@@ -5226,16 +4978,12 @@ ________________________________________________________________________________
 Properties view.
 ________________________________________________________________________________
 
-[[widgets]]
-Widgets
-^^^^^^^
+=== Widgets
 
 In this section, we will describe some of the recommended designs for
 Standard Windows Toolkit (SWT) widgets.
 
-[[tree-and-table]]
-Tree and Table
-++++++++++++++
+==== Tree and Table
 
 For Tree and Table widgets that have a checkbox associated with a cell
 item, users can either select the item or change the checkbox state.
@@ -5255,9 +5003,7 @@ be set to a given item when its check state is changed.
 ________________________________________________________________________________
 
 
-[[standard-components]]
-Standard Components
-~~~~~~~~~~~~~~~~~~~
+== Standard Components
 
 In this section we'll look at the standard components which ship with
 Eclipse. The Eclipse SDK contains a number of views, including the
@@ -5291,16 +5037,13 @@ over the standard components' characteristics.
 ________________________________________________________________________________
 
 
-[[the-navigator-view]]
-The Navigator View
-^^^^^^^^^^^^^^^^^^
+=== The Navigator View
 
 The Navigator is used to navigate the workspace, create new resources,
 modify resources, and open an editor on a resource. Plug-in developers
 may contribute new actions to the menu, toolbar, and context menu.
-[[adding-actions]]
-Adding Actions
-++++++++++++++
+
+==== Adding Actions
 
 This is done by adding an extension to the plug-in registry.
 
@@ -5351,9 +5094,7 @@ ________________________________________________________________________________
 
 '''
 
-[[integration-with-other-views-and-editors]]
-Integration with Other Views and Editors
-++++++++++++++++++++++++++++++++++++++++
+==== Integration with Other Views and Editors
 
 In Eclipse, the use of a "Navigate -> Show In" command is a common way
 to link the selection in one view to the input of another. For instance,
@@ -5376,9 +5117,7 @@ Use a "Navigate -> Show In Navigator" command in each view, to link
 resources back to the Navigator.
 ________________________________________________________________________________
 
-[[the-tasks-view]]
-The Tasks View
-^^^^^^^^^^^^^^
+=== The Tasks View
 
 The Tasks view is used to display the current tasks, errors and warnings
 in the workspace. A plug-in developer may contribute new tasks, errors,
@@ -5387,9 +5126,7 @@ those objects. You can also contribute new actions to the menu, toolbar,
 and context menu. This is done by adding an extension to the plug-in
 registry.
 
-[[adding-tasks]]
-Adding Tasks
-++++++++++++
+==== Adding Tasks
 
 A new task, error or warning can be created using the Marker Manager
 services from the Core Resources Management plugin.
@@ -5419,9 +5156,7 @@ ________________________________________________________________________________
 
 '''
 
-[[adding-actions-1]]
-Adding Actions
-++++++++++++++
+==== Adding Actions
 
 You can contribute new actions to the menu, toolbar, and context menu.
 This is done by adding an extension to the plug-in registry.
@@ -5458,9 +5193,7 @@ ________________________________________________________________________________
 
 '''
 
-[[integration-with-other-views-and-editors-1]]
-Integration with Other Views and Editors
-++++++++++++++++++++++++++++++++++++++++
+==== Integration with Other Views and Editors
 
 In an editor, task objects are commonly used to mark a location within a
 document. Once a task has been created, it appears in the Task view. If
@@ -5471,9 +5204,8 @@ from the Task view to the editor.
 If appropriate, support for the creation of new task objects in an
 editor should be implemented by the editor. For more information on
 this, see link:#Editors[Editors].
-[[adding-f1-help-to-task-view]]
-Adding F1 Help to Task View
-+++++++++++++++++++++++++++
+
+==== Adding F1 Help to Task View
 
 Plug-ins should support F1 keyboard command and link it to an infopop
 that gives a detailed description of the selected item in the Task view.
@@ -5486,16 +5218,12 @@ Support F1 keyboard command and link it to an infopop that gives a
 detailed description of the selected item in the Task view.
 ________________________________________________________________________________
 
-[[selection-dialogs]]
-Selection Dialogs
-^^^^^^^^^^^^^^^^^
+=== Selection Dialogs
 
 When you want the user to select items from a given list of items, you
 can use the standard selection dialogs available in Eclipse.
 
-[[containerselectiondialog]]
-ContainerSelectionDialog
-++++++++++++++++++++++++
+==== ContainerSelectionDialog
 
 Use
 http://help.eclipse.org/ganymede/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ContainerSelectionDialog.html[ContainerSelectionDialog]
@@ -5506,9 +5234,7 @@ when want to select an IContainer (IFolder/IProject) from the workspace.
 You can restrict the resource to be within a project/folder by passing
 the respective object as the second parameter for the constructor.
 
-[[resourceselectiondialog]]
-ResourceSelectionDialog
-+++++++++++++++++++++++
+==== ResourceSelectionDialog
 
 The ContainerSelectionDialog allowed you to select only one resource
 that too it should be a container. If you want to select multiple
@@ -5518,9 +5244,7 @@ is the one you should be using.
 
 `    ResourceSelectionDialog dialog = new ResourceSelectionDialog(window.getShell(), ResourcesPlugin.getWorkspace().getRoot(), "Select Resource:");``    dialog.setTitle("Resource Selection");``    dialog.open();`
 
-[[resourcelistselectiondialog]]
-ResourceListSelectionDialog
-+++++++++++++++++++++++++++
+==== ResourceListSelectionDialog
 
 The ResourceSelectionDialog is good when you want to present the entire
 set of resources under a parent and allow the user to select multiple
@@ -5530,9 +5254,7 @@ http://help.eclipse.org/ganymede/topic/org.eclipse.platform.doc.isv/reference/ap
 
 `    ResourceListSelectionDialog dialog = new ResourceListSelectionDialog(window.getShell(), resourcesArray);``    dialog.setTitle("Resource Selection");``    dialog.open();`
 
-[[elementlistselectiondialog]]
-ElementListSelectionDialog
-++++++++++++++++++++++++++
+==== ElementListSelectionDialog
 
 The above Dialogs are good to selecting workspace resources. But what if
 I have some elements on my own and I want to select from that? The first
@@ -5544,9 +5266,7 @@ The user can filter using wildcards as well.
 
 `    ElementListSelectionDialog dialog = new ElementListSelectionDialog(window.getShell(), new LabelProvider());``    dialog.setTitle("String Selection");``    dialog.setMessage("Select a String (* = any string, ? = any char):");``    dialog.setElements(new Object[] { "one", "two", "three" });``    dialog.open();`
 
-[[listselectiondialog]]
-ListSelectionDialog
-+++++++++++++++++++
+==== ListSelectionDialog
 
 If you want the user to select multiple elements from the given set,
 then
@@ -5558,9 +5278,7 @@ buttons.
 
 `    ListSelectionDialog dlg = new ListSelectionDialog(window.getShell(), getInput(), getContentProvider(), getLabelProvider(), "Select the Element:");``    dlg.setTitle("Element Selection");``    dlg.open();`
 
-[[checkedtreeselectiondialog]]
-CheckedTreeSelectionDialog
-++++++++++++++++++++++++++
+==== CheckedTreeSelectionDialog
 
 If you have your items in a tree structure and want to select few
 elements from them, then
@@ -5570,9 +5288,7 @@ the input.
 
 `    CheckedTreeSelectionDialog dialog = new CheckedTreeSelectionDialog(window.getShell(), getLabelProvider(), getContentProvider());``    dialog.setTitle("Tree Selection");``    dialog.setMessage("Select the elements from the tree:");``    dialog.setInput(getInput());``    dialog.open();`
 
-[[elementtreeselectiondialog]]
-ElementTreeSelectionDialog
-++++++++++++++++++++++++++
+==== ElementTreeSelectionDialog
 
 http://help.eclipse.org/ganymede/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ElementTreeSelectionDialog.html[ElementTreeSelectionDialog]
 is the same as the CheckedTreeSelectionDialog except that it will allow
@@ -5581,9 +5297,7 @@ elements.
 
 `    ElementTreeSelectionDialog dialog = new ElementTreeSelectionDialog(window.getShell(), getLabelProvider(), getContentProvider());``    dialog.setTitle("Tree Selection");``    dialog.setMessage("Select the elements from the tree:");``    dialog.setInput(getInput());``    dialog.open();`
 
-[[filtereditemsselectiondialog]]
-FilteredItemsSelectionDialog
-++++++++++++++++++++++++++++
+==== FilteredItemsSelectionDialog
 
 Have you used the Open Type (Ctrl + Shift + T) or Open Resource
 (Ctrl+Shift+R) dialog? Its similar to the ElementListSelectionDialog,
@@ -5595,9 +5309,7 @@ abstract class
 http://help.eclipse.org/ganymede/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/FilteredItemsSelectionDialog.html[FilteredItemsSelectionDialog]
 and provide the necessary implementation.
 
-[[the-preference-dialog]]
-The Preference Dialog
-^^^^^^^^^^^^^^^^^^^^^
+=== The Preference Dialog
 
 The Preference Dialog is used to edit the global preference for a
 feature in the workbench.
@@ -5633,9 +5345,7 @@ ________________________________________________________________________________
 
 '''
 
-[[preference-page-design]]
-Preference Page Design
-++++++++++++++++++++++
+==== Preference Page Design
 
 In the simplest case, any plug-in which needs to expose an option to the
 user will define a single preference page. This preference page should
@@ -5691,9 +5401,7 @@ existing categories for a new plug-in first, before considering the
 creation of a new category.
 ________________________________________________________________________________
 
-[[the-outline-view]]
-The Outline View
-^^^^^^^^^^^^^^^^
+=== The Outline View
 
 In Eclipse, there is a special relationship between an editor and the
 Outline view. When an editor is opened, the Outline view will connect to
@@ -5706,9 +5414,7 @@ If you are an editor developer, the relationship between an editor and
 the Outline view is important. For more information on the collaboration
 between these two, see link:#Editors[Editors].
 
-[[the-properties-view]]
-The Properties View
-^^^^^^^^^^^^^^^^^^^
+=== The Properties View
 
 The Properties view shows the properties for the active part in the
 workbench, or the selection within that part. These properties are
@@ -5724,9 +5430,7 @@ one object to another quickly.
 For more information on the use of the Properties view, or Properties
 dialog, refer to link:#Properties[Properties].
 
-[[the-bookmarks-view]]
-The Bookmarks View
-^^^^^^^^^^^^^^^^^^
+=== The Bookmarks View
 
 The Bookmarks view is used to bookmark files, and open them quickly. A
 plug-in developer may contribute new bookmarks to the workspace, and
@@ -5743,18 +5447,14 @@ If appropriate, support for the creation of new bookmark objects should
 be implemented by the editor. For more information on this, see
 link:#Editors[Editors].
 
-[[the-text-editor]]
-The Text Editor
-^^^^^^^^^^^^^^^
+=== The Text Editor
 
 The Text Editor is commonly used to edit text files. A plug-in developer
 can contribute new actions to the menu, toolbar, and context menu. This
 is done by adding an extension to the plug-in registry. For more
 information on this, see link:#Editors[Editors].
 
-[[the-resource-perspective]]
-The Resource Perspective
-^^^^^^^^^^^^^^^^^^^^^^^^
+=== The Resource Perspective
 
 The Resource perspective contains a Navigator, Outline, Task view, and
 editor area. Plug-in developers may contribute a new command, action
@@ -5762,9 +5462,7 @@ set, or view to the Resource perspective. For more information, refer to
 link:#Perspectives[Perspectives].
 
 
-[[flat-look-design]]
-Flat Look Design
-~~~~~~~~~~~~~~~~
+== Flat Look Design
 
 The Eclipse platform provides a Web user interface, also known as Flat
 Look, design alternative for implementing content editors. For example,
@@ -5823,9 +5521,7 @@ sections, controls, etc. for keyboard navigation.
 
 image::images/flatlook5.png[flatlook5,title="flatlook5"]
 
-[[editor-and-outline-view-interaction]]
-Editor and Outline View Interaction
-+++++++++++++++++++++++++++++++++++
+=== Editor and Outline View Interaction
 
 Plug-ins that use Flat Look design for content editor should provide
 support for full two way interactions between the editor and outline
@@ -5845,9 +5541,7 @@ editor for the organization of the tree view in outline view.
 ________________________________________________________________________________
 
 
-[[the-tao-of-resource]]
-The Tao of Resource
-~~~~~~~~~~~~~~~~~~~
+== The Tao of Resource
 
 In Eclipse, the notion of a tool disappears. In its place, is the idea
 of a universal tool platform - an open, extensible IDE - where tool
@@ -5859,10 +5553,11 @@ implementation level, these plug-ins communicate using resources
 integration between plugins and external tools.
 
 The resource concept was developed for a number of reasons:
-1.  Integration between a plug-in from one vendor, and a plug-in from
+
+  1. Integration between a plug-in from one vendor, and a plug-in from
 another, is possible only if there is a common, well known data
 abstraction.
-2.  Integration with external tools is possible only if everything, at
+  2. Integration with external tools is possible only if everything, at
 some level, is a file.
 
 Resources are also important at the UI level. If an object command,
@@ -5895,9 +5590,7 @@ IContributorResourceAdapter.
 ________________________________________________________________________________
 
 
-[[accessibility]]
-Accessibility
-~~~~~~~~~~~~~
+== Accessibility
 
 In a view, editor, or other control, every features should be accessible
 using a mouse or the keyboard.
@@ -5915,9 +5608,7 @@ ________________________________________________________________________________
 
 '''
 
-[[standard-accelerators]]
-Standard Accelerators
-^^^^^^^^^^^^^^^^^^^^^
+=== Standard Accelerators
 
 The Eclipse platform has defined a large number of shortcut keys.
 Plug-in developers should make sure that the existing shortcut keys do
@@ -6039,16 +5730,12 @@ Into | | | | |
 |=======================================================================
 
 
-[[best-practices]]
-Best Practices
-~~~~~~~~~~~~~~
+== Best Practices
 
 In this section, we provide examples of best practices for designing and
 implementing some common user interactions within the Eclipse platform.
 
-[[syntax-and-compilation-error-handling]]
-Syntax and Compilation Error Handling
-+++++++++++++++++++++++++++++++++++++
+=== Syntax and Compilation Error Handling
 
 When designing editors that provide syntax or compilation checking
 support, follow the Java tooling design in the Eclipse platform.
@@ -6075,9 +5762,7 @@ warnings.
 
 image::images/bp2.png[bp2,title="bp2"]
 
-[[coding-assistance]]
-Coding Assistance
-+++++++++++++++++
+=== Coding Assistance
 
 In addition to supporting the standard content assist in an editor,
 editors should exploit the use of Quick Fixes and Quick Assist. Use the
@@ -6115,9 +5800,7 @@ modified URL.
 
 image::images/bp6.png[bp6,title="bp6"]
 
-[[context-menu]]
-Context Menu
-++++++++++++
+=== Context Menu
 
 Here is one suggested process to reason why a menu item should be added
 or removed from the context menu. The objective is to reduce the number
@@ -6132,9 +5815,7 @@ replace submenus. Fifth, remove menu items that are frequently used,
 selection sensitive, but have a dominant keyboard shortcut key defined,
 except for clipboard and save operations.
 
-[[labels-fonts-and-layout-for-flat-look-design]]
-Labels, Fonts and Layout for Flat Look Design
-+++++++++++++++++++++++++++++++++++++++++++++
+=== Labels, Fonts and Layout for Flat Look Design
 
 For Flat Look design, when using buttons with ellipses (except for the
 "More..." button), it should pop up a secondary window which can be a
@@ -6162,9 +5843,7 @@ enabled state, use RBG value (128, 128, 128) for disabled state.
 
 image::images/flatlook9.png[flatlook9,title="flatlook9"]
 
-[[decorators]]
-Decorators
-++++++++++
+=== Decorators
 
 Enabling and disabling the decorators are extremely useful when the
 decorations performed by two or more decorators conflict with each
@@ -6191,100 +5870,58 @@ does not conflict with the basic image decoration provided by Eclipse.
 The top left corner is the second best place although it conflicts with
 the binary project decorator. The bottom left and top right should be
 avoided as they are decorated outside of the decorator mechanism
-[[checklist-for-developers]]
-Checklist For Developers
-~~~~~~~~~~~~~~~~~~~~~~~~
+
+== Checklist For Developers
 
 Here is a checklist for developers who are developing UI plugins. This
 _could_ be used for certification purposes.
-[[general-ui-guidelines-1]]
-General UI Guidelines
-^^^^^^^^^^^^^^^^^^^^^
 
-[[the-spirit-of-eclipse-1]]
-The Spirit of Eclipse
-+++++++++++++++++++++
+=== General UI Guidelines
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-**Guideline 1.1**
+==== The Spirit of Eclipse
 
-________________________________________________________________________________
+TIP: [guideline1.1]*Guideline 1.1* +
 Follow and apply good user interface design principles: user in control,
 directness, consistency, forgiveness, feedback, aesthetics, and
 simplicity.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 1.2**
-
-________________________________________________________
+TIP: [guideline1.2]*Guideline 1.2* +
 Follow the platform lead for user interface conventions.
-________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 1.3**
-
-________________________________________________________________________________
+TIP: [guideline1.3]*Guideline 1.3* +
 Be careful not to mix UI metaphors. It may blur the original concept,
 and your own application.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 1.4**
-
-________________________________________________________________________________
+TIP: [guideline1.4]*Guideline 1.4* +
 If you have an interesting idea, work with the Eclipse community to make
 Eclipse a better platform for all.
-________________________________________________________________________________
 
-[[capitalization-1]]
-Capitalization
-++++++++++++++
+==== Capitalization
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 1.5**
 
-________________________________________________________________________________
+TIP: [guideline1.5]*Guideline 1.5* +
 Use Headline style capitalization for menus, tooltip and all titles,
 including those used for windows, dialogs, tabs, column headings and
 push buttons. Capitalize the first and last words, and all nouns,
 pronouns, adjectives, verbs and adverbs. Do not include ending
 punctuation.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 1.6**
 
-________________________________________________________________________________
+TIP: [guideline1.6]*Guideline 1.6* +
 Use Sentence style capitalization for all control labels in a dialog or
 window, including those for check boxes, radio buttons, group labels,
 and simple text fields. Capitalize the first letter of the first word,
 and any proper names such as the word Java.
-________________________________________________________________________________
 
-[[language-1]]
-Language
-++++++++
-
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 1.7**
-
-______________________________________________________________
+==== Language
+TIP: [guideline1.7]*Guideline 1.7* +
 Create localized version of the resources within your plug-in.
-______________________________________________________________
 
-[[error-handling-1]]
-Error Handling
-++++++++++++++
-
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 1.8**
-
-________________________________________________________________________________
+==== Error Handling
+TIP: [guideline1.8]*Guideline 1.8* +
 When an error occurs which requires either an explicit user input or
 immediate attention from users, communicate the occurrence with a modal
 dialog.
-________________________________________________________________________________
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
 Guideline 1.9**
@@ -6295,43 +5932,22 @@ with a dialog, and log it.
 ________________________________________________________________________________
 
 
-[[ui-graphics]]
-UI Graphics
-^^^^^^^^^^^
+=== UI Graphics
 
-[[design-1]]
-Design
-++++++
-
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-* Guideline 2.1*
-
-____________________________________________________________
+==== Design
+TIP: [guideline2.1]*Guideline 2.1* +
 Follow the visual style established for Eclipse UI graphics.
-____________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-* Guideline 2.2*
-
-________________________________________________________________________
+TIP: [guideline2.2]*Guideline 2.2* +
 Use a common color palette as the basis for creating graphical elements.
-________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-* Guideline 2.3*
-
-________________________________________________________________________________
+TIP: [guideline2.3]*Guideline 2.3* +
 Re-use the core visual concepts to maintain consistent representation
 and meaning across Eclipse plug-ins.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-* Guideline 2.4*
-
-________________________________________________________________________________
+TIP: [guideline2.4]*Guideline 2.4* +
 Re-use existing graphics from the Common Elements library or other
 Eclipse-based plugins.
-________________________________________________________________________________
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
 * Guideline 2.5*
@@ -6350,9 +5966,7 @@ facilitate easy file sharing and efficient production of a large set of
 graphics.
 ________________________________________________________________________________
 
-[[specifications-1]]
-Specifications
-++++++++++++++
+==== Specifications
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
 *Guideline 2.7*
@@ -6384,9 +5998,7 @@ Cut the graphics with the specific placement shown to ensure alignment
 in the user interface.
 ________________________________________________________________________________
 
-[[implementation-1]]
-Implementation
-++++++++++++++
+==== Implementation
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
 *Guideline 2.11*
@@ -6465,13 +6077,9 @@ Use the active, enabled, and disabled states provided.
 ______________________________________________________
 
 
-[[component-development-1]]
-Component Development
-^^^^^^^^^^^^^^^^^^^^^
+=== Component Development
 
-[[commands-1]]
-Commands
-++++++++
+==== Commands
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
 Guideline 3.1**
@@ -6514,9 +6122,7 @@ quick, enable the command optimistically and display an appropriate
 message if the command is invoked, but cannot be completed.
 ________________________________________________________________________________
 
-[[dialogs-1]]
-Dialogs
-+++++++
+==== Dialogs
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
 Guideline 4.1**
@@ -6535,9 +6141,7 @@ Slush Bucket widget (or Twin Box) should flow from left to right with
 the source objects on the left hand side. It should have the >, >,
 ________________________________________________________________________________
 
-[[wizards-1]]
-Wizards
-+++++++
+==== Wizards
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
 Guideline 5.1**
@@ -6642,9 +6246,7 @@ be a Project; otherwise, use the term "Folder name". Do not qualify the
 term.
 ________________________________________________________________________________
 
-[[editors-1]]
-Editors
-+++++++
+==== Editors
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
 Guideline 6.1**
@@ -6891,9 +6493,7 @@ workbench, or back out of the Save operation when the Save command is
 invoked in the editor.
 ________________________________________________________________________________
 
-[[views-1]]
-Views
-+++++
+==== Views
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
 Guideline 7.1**
@@ -7055,9 +6655,7 @@ ____________________________________________________________________
  Navigation views should support "Link with Editor" on the view menu
 ____________________________________________________________________
 
-[[perspectives-1]]
-Perspectives
-++++++++++++
+==== Perspectives
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
 Guideline 8.1**
@@ -7145,9 +6743,7 @@ The list of shortcuts added to the New, Open Perspective, and Show View
 menus should be at most 7 plus / minus 2 items.
 ________________________________________________________________________________
 
-[[windows-1]]
-Windows
-+++++++
+==== Windows
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
 Guideline 9.1**
@@ -7219,9 +6815,7 @@ ____________________________________________________________________
 Always use the global status bar to display status related messages.
 ____________________________________________________________________
 
-[[properties-1]]
-Properties
-++++++++++
+==== Properties
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
 Guideline 10.1**
@@ -7255,9 +6849,7 @@ ________________________________________________________________________________
 Properties view.
 ________________________________________________________________________________
 
-[[widgets-1]]
-Widgets
-+++++++
+==== Widgets
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
 Guideline 11.1**
@@ -7270,9 +6862,7 @@ be set to a given item when its check state is changed.
 ________________________________________________________________________________
 
 
-[[standard-components-1]]
-Standard Components
-^^^^^^^^^^^^^^^^^^^
+=== Standard Components
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
 Guideline 12.1**
@@ -7290,9 +6880,7 @@ If you subclass or copy any of the standard components, always carry
 over the standard components' characteristics.
 ________________________________________________________________________________
 
-[[the-navigator-view-1]]
-The Navigator View
-++++++++++++++++++
+==== The Navigator View
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
 Guideline 13.1**
@@ -7319,9 +6907,7 @@ Use a "Navigate -> Show In Navigator" command in each view, to link
 resources back to the Navigator.
 ________________________________________________________________________________
 
-[[the-tasks-view-1]]
-The Tasks View
-++++++++++++++
+==== The Tasks View
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
 Guideline 14.1**
@@ -7363,9 +6949,7 @@ Support F1 keyboard command and link it to an infopop that gives a
 detailed description of the selected item in the Task view.
 ________________________________________________________________________________
 
-[[the-preference-dialog-1]]
-The Preference Dialog
-+++++++++++++++++++++
+==== The Preference Dialog
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
 Guideline 15.1**
@@ -7390,15 +6974,11 @@ Start out with a single preference page. Then evolve to more if you need
 to.
 ____________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 15.4**
-
-________________________________________________________________________________
+TIP: [guideline15.4]*Guideline 15.4* +
 If you create a preference group, use the root page for frequently used
 preferences, or those preferences which have wide spread effect.
 Specialize within the sub pages. The root preference page should not be
 blank.
-________________________________________________________________________________
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
 Guideline 15.5**
@@ -7410,9 +6990,7 @@ creation of a new category.
 ________________________________________________________________________________
 
 
-[[flat-look-design-1]]
-Flat Look Design
-^^^^^^^^^^^^^^^^
+=== Flat Look Design
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
 Guideline 16.1**
@@ -7439,9 +7017,7 @@ editor for the organization of the tree view in outline view.
 ________________________________________________________________________________
 
 
-[[the-tao-of-resource-1]]
-The Tao of Resource
-^^^^^^^^^^^^^^^^^^^
+=== The Tao of Resource
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
 Guideline 17.1**
@@ -7452,9 +7028,7 @@ IContributorResourceAdapter.
 ________________________________________________________________________________
 
 
-[[accessibility-1]]
-Accessibility
-^^^^^^^^^^^^^
+=== Accessibility
 
 image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
 Guideline 18.1**
@@ -7465,9 +7039,7 @@ mouse or the keyboard.
 ________________________________________________________________________________
 
 
-[[glossary]]
-Glossary
-~~~~~~~~
+== Glossary
 
 *Command*::
   A __command__, which is invoked by a user to carry out some specific
@@ -7525,9 +7097,7 @@ Glossary
   collection of folders and files.
 
 
-[[acknowledgement]]
-Acknowledgement
-~~~~~~~~~~~~~~~
+== Acknowledgement
 
 Screenshots contributed to Eclipse.org and used in this document,
 originate from plugins released or under development by the following
@@ -7552,18 +7122,14 @@ Microsoft Corporation in the United States, other countries, or both.
 '''
 
 
-[[eclipse-v3.x-ui-guidelines-updates-appended]]
-Eclipse v3.x UI Guidelines Updates (appended)
----------------------------------------------
+== Eclipse v3.x UI Guidelines Updates (appended)
 
 (This section needs to be integrated into the above document.)
 
 The following is a draft of ongoing Eclipse v3.x UI Guideline updates.
 
 
-[[top-ten]]
-Top Ten
-~~~~~~~
+=== Top Ten
 
 This is a starter set of top ten Eclipse UI Guidelines and Violations.
 The purpose of these lists is to be a starting point for Eclipse UI
@@ -7573,58 +7139,45 @@ follow and to avoid, respectively.
 To see all considerations to-date go to the
 link:Top_Ten_Lists_Working_Page[ Top Ten Lists Working Page].
 
-[[top-ten-eclipse-ui-guidelines]]
-Top Ten Eclipse UI Guidelines
-+++++++++++++++++++++++++++++
+==== Top Ten Eclipse UI Guidelines
 
 1.  Use the Eclipse look and feel if extending or plugging into Eclipse
-2.  Use common SWT controls to get what SWT offers for cross-platform
-adaptability and accessibility
+2.  Use common SWT controls to get what SWT offers for cross-platform adaptability and accessibility
 3.  Be familiar with APIs for the UIs you are building
-4.  Use icons and graphics consistent with the Eclipse style,
-decorations, states, and quality
+4.  Use icons and graphics consistent with the Eclipse style, decorations, states, and quality
 5.  Understand the conventions of the OSs you are developing for
-6.  Use understandable messages to help people recover from error
-conditions
+6.  Use understandable messages to help people recover from error conditions
 7.  Don't initiate dialogs or wizards in an error state
 8.  Use quick fix and quick assist mechanisms
 9.  Reserve time for "polish"
 
-[[top-ten-eclipse-ui-violations]]
-Top Ten Eclipse UI Violations
-+++++++++++++++++++++++++++++
+==== Top Ten Eclipse UI Violations
 
 1.  Low quality graphics or not consistent with the Eclipse style
 2.  Poorly organized or sized dialogs and wizards
 3.  Useless dialogs
 4.  Cryptic error messages
 5.  Messages with concatenated strings
-6.  Property pages that don't adhere to platform uses (normal and
-tabbed)
-7.  Assuming more importance than other contributions (see John/Mik
-comments below)
+6.  Property pages that don't adhere to platform uses (normal and tabbed)
+7.  Assuming more importance than other contributions (see John/Mik comments below)
 
-[[general-ui-guidelines-2]]
-General UI Guidelines
-~~~~~~~~~~~~~~~~~~~~~
+=== General UI Guidelines
 
-[[common-error-messages]]
-Common Error Messages
-^^^^^^^^^^^^^^^^^^^^^
+==== Common Error Messages
 
-*Summary*
+===== Summary
 
 Use the common structure of error messages to help users diagnose and
 recover from errors. This will increase user’s self-sufficiency and
 reduce support costs for Eclipse-based products.
 
-*Problem Description*
+===== Problem Description
 
 Across Eclipse-based products, error messages are displayed
 inconsistently. This inconsistency makes it difficult for users to
 understand error conditions, and to diagnose and recover from problems.
 
-*Best Practice*
+===== Best Practice
 
 Eclipse-based products should help users to diagnose the underlying
 problem when one of our error messages is displayed. We need to
@@ -7650,7 +7203,12 @@ make these messages easily understood by users and to ensure
 consistency.* Each error message should include the following four main
 components:
 
-• message ID• message text• explanation• action The *message ID* provides a quick means to distinguish one message from
+ - message ID
+ - message text
+ - explanation
+ - action 
+ 
+The *message ID* provides a quick means to distinguish one message from
 another. The *message text* briefly describes the problem. The
 *explanation* includes the reason that the message was generated and the
 condition that caused the message. The *action* suggests ways to resolve
@@ -7686,18 +7244,22 @@ in the Problems view, for errors or warnings shown in that view, we
 should exploit the QuickFix feature to offer solutions to users where
 possible.
 
-*Tips and Tricks*
+===== Tips and Tricks
 
-• When it is not feasible to consolidate, transform or coordinate every
+- When it is not feasible to consolidate, transform or coordinate every
 error bubbled up through the various sub-systems or dependent
 components, focus work effort on the errors frequently encountered in
-typical user scenarios.• Obtain a list of top PMRs from our support team, and address those
-errors as a first priority.• Leverage the symptom database, information developers and user
+typical user scenarios.
+- Obtain a list of top PMRs from our support team, and address those
+errors as a first priority.
+- Leverage the symptom database, information developers and user
 experience designers to transform error text into meaningful and
-understandable descriptions for users.• Use contextual information in the Eclipse IDE workbench, such as
+understandable descriptions for users.
+- Use contextual information in the Eclipse IDE workbench, such as
 currently enabled capabilities, or current user role or persona (e.g.,
 Java developer), to scope the error text.
-*Good Examples*
+
+===== Good Examples
 
 *Sample Error Messages in Our Products*
 
@@ -7719,21 +7281,17 @@ image::images/error_msg3.jpg[error_msg3.jpg,title="error_msg3.jpg"]
 
 TBD
 
-[[component-development-2]]
-Component Development
-~~~~~~~~~~~~~~~~~~~~~
+=== Component Development
 
-[[properties-view]]
-Properties View
-^^^^^^^^^^^^^^^
+==== Properties View
 
-*Summary*
+===== Summary
 
 For consistency and clarity in Properties, use the standard tabbed view
 with proper tab ordering, flexible layout, detailed user assistance,
 accurate multi-selection, and no sub-tabs.
 
-*Problem Description*
+===== Problem Description
 
 Across many Eclipse-based products, the Properties view is being used
 and presented inconsistently. This inconsistency is problematic for
@@ -7741,7 +7299,7 @@ users who use more than one of these products. Moreover, poor choices
 for layout, controls, and labeling can significantly reduce the
 effectiveness and efficiency of a Properties view.
 
-*Best Practice*
+===== Best Practice
 
 *Use the standard tabbed view for product consistency.* (Figure 1 below
 shows an example.) Both tabs and a table of Properties should be
@@ -7793,37 +7351,38 @@ confusing even for expert users. Accordingly, use Dynamic Help when
 possible. Field-level Dynamic Help is desirable; otherwise, a backup
 approach is to provide hover help (tooltips).
 
-*Tips and Tricks*
+===== Tips and Tricks
 
 When multiple objects are selected in the editor, follow these
 guidelines.
 
-• Display only those properties that are meaningful to the collection of
-objects. Any setting changes are applied to all the underlying objects• Display the common properties of all the selected objects. Where the
+- Display only those properties that are meaningful to the collection of
+objects. Any setting changes are applied to all the underlying objects
+- Display the common properties of all the selected objects. Where the
 property values differ, display the controls associated with those
-values using a mixed state.• If the selected object is a collection of multiple discrete objects
+values using a mixed state.
+- If the selected object is a collection of multiple discrete objects
 (e.g., a file folder), display the properties of the single grouped
 object, instead of a multiple-object property sheet for the discrete
 objects.
-*Good Examples*
+
+===== Good Examples
 
 image::images/PropertiesView_Figure1.jpg[PropertiesView_Figure1.jpg,title="PropertiesView_Figure1.jpg"]
 
 *Figure 1: A tabbed view with recommended control layout.*
 
-*Related Information*
+===== Related Information
 
 TBD
 
-[[limit-context-menus]]
-Limit Context Menus
-^^^^^^^^^^^^^^^^^^^
+==== Limit Context Menus
 
-*Summary*
+===== Summary
 
 Remove extra items from context menus on objects in editors and views.
 
-*Problem Description*
+===== Problem Description
 
 A context menu provides a quick and convenient way to give a user access
 to a great deal of functionality. Unfortunately, it is tempting to add
@@ -7836,7 +7395,7 @@ which type of object they are currently working with. Contextual
 feedback is needed for a user to have a clear sense of the functionality
 of each object type.
 
-*Best Practice*
+===== Best Practice
 
 There are at least three ways to trim an object’s context menu, so that
 it will be quick to scan and well targeted at the object.
@@ -7871,7 +7430,7 @@ confusing to have a “Close Project” item on the context menu of a Java
 method shown in an explorer view, since import operations apply at the
 project level instead.
 
-*Tips and Tricks*
+===== Tips and Tricks
 
 Sometimes there is value in adding a view-specific item to an object’s
 context menu, if the action of the menu item can be customized in some
@@ -7885,7 +7444,7 @@ In cases where it is not possible to reduce the number of items on a
 large context significantly, consider using submenus to refactor some
 top-level items to the second level.
 
-*Good Examples*
+===== Good Examples
 
 Figure 1: a context-dependent menu tailored for a package in the Outline
 View.
@@ -7894,7 +7453,7 @@ Figure 2: a context menu tailored for a class in the Outline View.
 
 Figure 3: a context-independent menu for the Outline View.
 
-*Related Information*
+===== Related Information
 
 This issue is addressed in the Eclipse UI Guidelines 2.1, in the section
 titled “Component Development - Editors” (Guidelines 6.11-6.13).
