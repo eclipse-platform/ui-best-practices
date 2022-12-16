@@ -202,14 +202,10 @@ user in control, directness, consistency, forgiveness, feedback,
 aesthetics, and simplicity. If you do not currently have the
 prerequisite knowledge, please read the relevant documentation first.
 
-image:images/guidelineIndicator.png[]
-**Guideline 1.1**
-
-________________________________________________________________________________
+TIP: [guideline1.1]*Guideline 1.1* +
 Follow and apply good user interface design principles: user in control,
 directness, consistency, forgiveness, feedback, aesthetics, and
 simplicity.
-________________________________________________________________________________
 
 
 === The Spirit of Eclipse
@@ -240,14 +236,8 @@ and more information.
 Also, visit the http://www.eclipse.org/newsgroups/index.html[Eclipse
 platform newsgroups] to share information with the community.
 
-image:images/guidelineIndicator.png[]
-**Guideline 1.2**
-
-________________________________________________________
+TIP: [guideline1.2]*Guideline 1.2* +
 Follow the platform lead for user interface conventions.
-________________________________________________________
-
-'''
 
 If you decide to reuse the conventions of Eclipse, be careful not to
 misappropriate Eclipse specific UI conventions. For instance, the active
@@ -258,15 +248,9 @@ of part activation in the window.
 
 image::images/badHilight.png[badHilight,title="badHilight"]
 
-image:images/guidelineIndicator.png[]
-**Guideline 1.3**
-
-________________________________________________________________________________
+TIP: [guideline1.34]*Guideline 1.3* +
 Be careful not to mix UI metaphors. It may blur the original concept,
 and your own application.
-________________________________________________________________________________
-
-'''
 
 Eclipse is an open source project. If you feel your ideas are generally
 useful, join the Eclipse community, write a proposal, and work with the
@@ -276,15 +260,9 @@ development and increase customer satisfaction.
 Visit http://www.eclipse.org/[www.eclipse.org] and join the Eclipse UI
 mailing list **platform-ui-dev**.
 
-image:images/guidelineIndicator.png[]
-**Guideline 1.4**
-
-________________________________________________________________________________
+TIP: [guideline1.4]*Guideline 1.4* +
 If you have an interesting idea, work with the Eclipse community to make
 Eclipse a better platform for all.
-________________________________________________________________________________
-
-'''
 
 === Capitalization
 
@@ -298,32 +276,20 @@ Sentence style capitalization should be applied to all check boxes,
 radio buttons, and group labels. For example, "Choose an option for the
 Java file" can be used as a group label.
 
-image:images/guidelineIndicator.png[]
-**Guideline 1.5**
-
-________________________________________________________________________________
+TIP: [guideline1.5]*Guideline 1.5* +
 Use Headline style capitalization for menus, tooltip and all titles,
 including those used for windows, dialogs, tabs, column headings and
 push buttons. Capitalize the first and last words, and all nouns,
 pronouns, adjectives, verbs and adverbs. Do not include ending
 punctuation.
-________________________________________________________________________________
 
-image:images/guidelineIndicator.png[]
-**Guideline 1.6**
-
-________________________________________________________________________________
+TIP: [guideline1.6]*Guideline 1.6* +
 Use Sentence style capitalization for all control labels in a dialog or
 window, including those for check boxes, radio buttons, group labels,
 and simple text fields. Capitalize the first letter of the first word,
 and any proper names such as the word Java.
-________________________________________________________________________________
-
-'''
 
 === Language
-
-
 Eclipse is available on a variety of different platforms, in a variety
 of locales. In reflection of the different languages and numeric formats
 in each, a localization strategy should be adopted for the text and
@@ -334,14 +300,8 @@ resources can be translated to a new locale.
 Consult the link:#Best%20Practices[Best Practices] section for examples
 and more information.
 
-image:images/guidelineIndicator.png[]
-**Guideline 1.7**
-
-______________________________________________________________
+TIP: [guideline1.7]*Guideline 1.7* +
 Create localized version of the resources within your plug-in.
-______________________________________________________________
-
-'''
 
 === Error Handling
 
@@ -359,16 +319,10 @@ immediate attention from users, a modal dialog should be used to
 communicate the error to the user. This forces the user to notice, and
 deal with, the problem.
 
-image:images/guidelineIndicator.png[]
-**Guideline 1.8**
-
-________________________________________________________________________________
+TIP: [guideline1.8]*Guideline 1.8* +
 When an error occurs which requires either an explicit user input or
 immediate attention from users, communicate the occurrence with a modal
 dialog.
-________________________________________________________________________________
-
-'''
 
 If a programming error occurs in the product, an error dialog should be
 used to communicate the occurrence to the user. The error should also be
@@ -384,13 +338,9 @@ of the error dialog:
 * Plug-in ID
 * Version
 
-image:images/guidelineIndicator.png[]
-**Guideline 1.9**
-
-________________________________________________________________________________
+TIP: [guideline1.9]*Guideline 1.9* +
 If a programming error occurs in the product, communicate the occurrence
 with a dialog, and log it.
-________________________________________________________________________________
 
 == UI Graphics (3.x updates)
 
@@ -1068,21 +1018,11 @@ image::images/des_styl_wiz_beige.png[des_styl_wiz_beige,title="fig:des_styl_wiz_
   converted to PNG so that graphic blends to whatever background color
   it sits on.
 
-image:images/guidelineIndicator.png[]
-* Guideline 2.1 (3.x update)*
-
-____________________________________________________________
+TIP: [guideline2.1]*Guideline 2.1 (3.x update)* +
 Follow the visual style established for Eclipse UI graphics.
-____________________________________________________________
 
-image:images/guidelineIndicator.png[]
-* Guideline 2.2 (3.x update) *
-
-________________________________________________________________________
+TIP: [guideline2.2]*Guideline 2.2 (3.x update)* +
 Use a common color palette as the basis for creating graphical elements.
-________________________________________________________________________
-
-'''
 
 ==== Consistency & Reuse
 
@@ -1127,15 +1067,9 @@ Click Media:core_wizard_concepts.zip[ *here*] or on the image above to
 download the "core_wizard_concepts.ai" and the
 "core_wizard_concepts.psd" files.
 
-image:images/guidelineIndicator.png[]
-* Guideline 2.3 *
-
-________________________________________________________________________________
+TIP: [guideline2.3]*Guideline 2.3* +
 Re-use the core visual concepts to maintain consistent representation
 and meaning across Eclipse plug-ins.
-________________________________________________________________________________
-
-'''
 
 ==== Common Elements
 
@@ -1167,15 +1101,9 @@ image::images/des_common_wiz.png[des_common_wiz,title="fig:des_common_wiz"]
   banner graphics and the "common_wizard_elements.psd" raster-based file
   for cutting them.
 
-image:images/guidelineIndicator.png[]
-* Guideline 2.4 *
-
-________________________________________________________________________________
+TIP: [guideline2.4]*Guideline 2.4* +
 Re-use existing graphics from the Common Elements library or other
 Eclipse-based plugins.
-________________________________________________________________________________
-
-'''
 
 ===== States
 This section describes the use of enabled and disabled icons in the user
@@ -1290,15 +1218,9 @@ Adobe Photoshop 7.0 and above and Adobe Illustrator 9.0 and above. If
 you use earlier versions of these tools, the instructions may not work
 exactly as described.
 
-image:images/guidelineIndicator.png[]
-* Guideline 2.5*
-
-________________________________________________________________________________
+TIP: [guideline2.5]*Guideline 2.5* +
 Create and implement the graphical versions of the disabled state for
 toolbar and local toolbar icons.
-________________________________________________________________________________
-
-'''
 
 ==== Templates
 
@@ -1422,16 +1344,10 @@ wizard graphics are transferred, Save the file. You are ready to cut.
 link:#Cutting_Actions[Cutting Actions] section for instructions on
 cutting wizard banner graphics.
 
-image:images/guidelineIndicator.png[]
-* Guideline 2.6*
-
-________________________________________________________________________________
+TIP: [guideline2.6]*Guideline 2.6* +
 Use the design templates for creating and maintaining UI graphics to
 facilitate easy file sharing and efficient production of a large set of
 graphics.
-________________________________________________________________________________
-
-'''
 
 === Specifications
 
@@ -1547,14 +1463,8 @@ XPM is used for the following type of graphics in Eclipse-based tooling:
 * Windows and Mac
 ** http://www.altuit.com/webs/altuit2/StandaloneBuilderTutorial/BuildingIconsforMacOSXandWindowsXP.htm
 
-image:images/guidelineIndicator.png[]
-*Guideline 2.7*
-
-___________________________________________________
+TIP: [guideline2.7]*Guideline 2.7* +
 Use the file format specified for the graphic type.
-___________________________________________________
-
-'''
 
 ==== Graphic Types
 
@@ -2667,22 +2577,12 @@ image:images/spec_size_wiz.png[spec_size_wiz,title="fig:spec_size_wiz"]
 
 image:images/spec_size_wizsamp.png[spec_size_wizsamp,title="fig:spec_size_wizsamp"]
 
-image:images/guidelineIndicator.png[]
-*Guideline 2.9*
-
-_________________________________________________________________
+TIP: [guideline2.9]*Guideline 2.9* +
 Follow the specific size specifications for each type of graphic.
-_________________________________________________________________
 
-image:images/guidelineIndicator.png[]
-*Guideline 2.10*
-
-________________________________________________________________________________
+TIP: [guideline2.10]*Guideline 2.10* +
 Cut the graphics with the specific placement shown to ensure alignment
 in the user interface.
-________________________________________________________________________________
-
-'''
 
 === Implementation
 
@@ -2774,15 +2674,9 @@ again. (See F)
 
 image::images/imp_cut_wizards.png[imp_cut_wizards,title="fig:imp_cut_wizards"]
 
-image:images/guidelineIndicator.png[]
-*Guideline 2.11*
-
-________________________________________________________________________________
+TIP: [guideline2.11]*Guideline 2.11* + 
 Use the cutting actions provided to increase the speed and efficiency of
 cutting a large number of graphics.
-________________________________________________________________________________
-
-'''
 
 ==== Naming Conventions
 
@@ -2828,46 +2722,24 @@ suffix. For example, file_pal, file_pal24, file_pal32, where
 
 image::images/name-conv-tabl.jpg[name-conv-tabl.jpg,title="name-conv-tabl.jpg"]
 
-image:images/guidelineIndicator.png[]
-*Guideline 2.12*
-
-________________________________________________________________________________
+TIP: [guideline2.12]*Guideline 2.12* +
 Abbreviate file name instead of using the full icon name, e.g., New
 Interface becomes "newint".
-________________________________________________________________________________
 
-image:images/guidelineIndicator.png[]
-*Guideline 2.13*
-
-______________________________________________________________________
+TIP: [guideline2.13]*Guideline 2.13* +
 Use lower case characters in your file names, e.g., DTD becomes "dtd".
-______________________________________________________________________
 
-image:images/guidelineIndicator.png[]
-*Guideline 2.14*
-
-________________________________________________________________________________
+TIP: [guideline2.14]*Guideline 2.14* +
 Use 10 characters or fewer in your file names if possible (underscores
 count as a character).
-________________________________________________________________________________
 
-image:images/guidelineIndicator.png[]
-*Guideline 2.15*
-
-________________________________________________________________________________
+TIP: [guideline2.15]*Guideline 2.15* +
 Use a file name suffix that describes its location or function in the
 tool, e.g., newint_wiz, or its size in the case of icons that require
 multiple sizes.
-________________________________________________________________________________
 
-image:images/guidelineIndicator.png[]
-*Guideline 2.16*
-
-______________________________________
+TIP: [guideline2.16]*Guideline 2.16* +
 Keep the original file names provided.
-______________________________________
-
-'''
 
 ==== Folder Structure
 
@@ -2948,36 +2820,18 @@ Find out from your development contact if this extra folder is required.
 development for drag and drop elements. These are cursor mask icons for
 moving views within the application.
 
-image:images/guidelineIndicator.png[]
-*Guideline 2.17*
-
-________________________________________________________________
+TIP: [guideline2.17]*Guideline 2.17* +
 Follow the predefined directory structure and naming convention.
-________________________________________________________________
 
-image:images/guidelineIndicator.png[]
-*Guideline 2.18*
-
-___________________________________________
+TIP: [guideline2.18]*Guideline 2.18* +
 Keep the original directory names provided.
-___________________________________________
 
-image:images/guidelineIndicator.png[]
-*Guideline 2.19*
-
-________________________________________________________________________________
+TIP: [guideline2.19]*Guideline 2.19* +
 Minimize duplication of graphics within a plugin by keeping all graphics
 in one, or few, first level user interface directories.
-________________________________________________________________________________
 
-image:images/guidelineIndicator.png[]
-*Guideline 2.20*
-
-______________________________________________________
+TIP: [guideline2.20]*Guideline 2.20* +
 Use the active, enabled, and disabled states provided.
-______________________________________________________
-
-'''
 
 
 == Component Development
@@ -3022,15 +2876,10 @@ The following snapshot shows the valid use of Headline capitalization in
 a toolbar.
 
 image::images/tooltipCaps.png[tooltipCaps,title="fig:tooltipCaps"]
-image:images/guidelineIndicator.png[]
-**Guideline 3.1**
 
-________________________________________________________________________________
+TIP: [guideline3.1]*Guideline 3.1* +
 Each command must have a label, tool tip, and full color image. The
 label and tool tip must use Headline style capitalization.
-________________________________________________________________________________
-
-'''
 
 The tool tips for a command should describe the __behavior which
 occurs__if the command is invoked, independent of the current state. For
@@ -3044,16 +2893,10 @@ Hierarchy button is shown using one tool tips text.
 
 image::images/goodTooltips.png[goodTooltips,title="goodTooltips"]
 
-image:images/guidelineIndicator.png[]
-**Guideline 3.2**
-
-________________________________________________________________________________
+TIP: [guideline3.2]*Guideline 3.2* +
 The command tooltip should describe the result of the command, not the
 current state of the command. Use the text same as that for the command
 label.
-________________________________________________________________________________
-
-'''
 
 For consistency, any command which has a similar behavior to existing
 commands in the workbench, should adopt the same terminology.
@@ -3066,29 +2909,17 @@ When creating an object inside a resource (e.g., a tag in an XML file; a
 method or field in a Java class), the term "Add" should be used; the
 user is adding something to an existing resource.
 
-image:images/guidelineIndicator.png[]
-**Guideline 3.3**
-
-________________________________________________________________________________
+TIP: [guideline3.3]*Guideline 3.3* +
 Adopt the labeling terminology of the workbench for New, Delete and Add
 commands.
-________________________________________________________________________________
-
-'''
 
 ==== Enablement
 
 An command should be enabled only if it can be completed successfully.
 If this is not the case, the command should be disabled.
 
-image:images/guidelineIndicator.png[]
-**Guideline 3.4**
-
-______________________________________________________________________
+TIP: [guideline3.4]*Guideline 3.4* +
 An command should be enabled only if it can be completed successfully.
-______________________________________________________________________
-
-'''
 
 Command enablement should be quick to calculate. If it is too expensive
 to calculate the enablement of an command, the command should be
@@ -3096,18 +2927,13 @@ optimistically enabled. If the command is invoked, it should calculate
 the real enablement, and show a dialog to the user if it is not
 available.
 
-image:images/guidelineIndicator.png[]
-**Guideline 3.5**
-
-________________________________________________________________________________
+TIP: [guideline3.5]*Guideline 3.5* +
 Command enablement should be quick. If command enablement cannot be
 quick, enable the command optimistically and display an appropriate
 message if the command is invoked, but cannot be completed.
-________________________________________________________________________________
+
 
 === Dialogs
-
-
 A dialog is used for modal interaction with the user. It can be used to
 solicit information, or provide feedback.
 
@@ -3120,7 +2946,7 @@ where information is required. If the dialog provides simple feedback,
 or requires simple confirmation from the user, the initial focus may
 also be assigned to the default button.
 
-TIP: [guideline4.1]**Guideline 4.1** +
+TIP: [guideline4.1]*Guideline 4.1* +
 When a dialog opens, set the initial focus to the first input control in
 the container. If there are no input controls, the initial focus should
 be assigned to the default button.
@@ -3143,14 +2969,10 @@ order, for moving objects from the source the selected buckets.
 
 image::images/slushBucket.png[slushBucket,title="slushBucket"]
 
-image:images/guidelineIndicator.png[]
-**Guideline 4.2**
-
-________________________________________________________________________________
+TIP: [guideline4.2]*Guideline 4.2*
 Slush Bucket widget (or Twin Box) should flow from left to right with
 the source objects on the left hand side. It should have the control
 buttons in this order: 'Add ->', '', '
-________________________________________________________________________________
 
 === Wizards
 
@@ -3160,15 +2982,9 @@ execution of any task involving a sequential series of steps. A wizard
 should be used if there are many steps in the task, and they must be
 completed in a specific order.
 
-image:images/guidelineIndicator.png[]
-**Guideline 5.1**
-
-________________________________________________________________________________
+TIP: [guideline5.1]*Guideline 5.1* +
 Use a wizard for any task consisting of many steps, which must be
 completed in a specific order.
-________________________________________________________________________________
-
-'''
 
 ==== Appearance
 
@@ -3245,23 +3061,13 @@ Error messages should be displayed only when user input is invalid.
 
 image::images/wizardErrorMsgs2.png[wizardErrorMsgs2,title="wizardErrorMsgs2"]
 
-image:images/guidelineIndicator.png[]
-**Guideline 5.5**
-
-________________________________________________________________________________
+TIP: [guideline5.5]*Guideline 5.5* + 
 Validate the wizard data in tab order. Display a prompt when information
 is absent, and an error when information is invalid.
-________________________________________________________________________________
 
-image:images/guidelineIndicator.png[]
-**Guideline 5.6**
-
-________________________________________________________________________________
+TIP: [guideline5.6]*Guideline 5.6* +
 Enable the Next / Finish buttons only if all required information in the
 dialog is present and valid.
-________________________________________________________________________________
-
-'''
 
 The error messages in a wizard should be intended for the end user, not
 the developer. With this in mind, message IDs should never be presented
@@ -3269,14 +3075,8 @@ as part of the error text in the wizard's header area.
 
 image::images/wizardMsgs.png[wizardMsgs,title="wizardMsgs"]
 
-image:images/guidelineIndicator.png[]
-**Guideline 5.7**
-
-_____________________________________________________
+TIP: [guideline5.7]*Guideline 5.7* +
 Remove all programming message ID's from wizard text.
-_____________________________________________________
-
-'''
 
 ==== Browse Buttons
 An edit field and "Browse..." button combination should be used whenever
@@ -3317,16 +3117,10 @@ readme.html automatically upon project creation. This will give users an
 immediate overview of the example: what it does, prerequisites,
 limitations, steps to take, and so on.
 
-image:images/guidelineIndicator.png[]
-**Guideline 5.9**
-
-________________________________________________________________________________
+TIP: [guideline5.9]*Guideline 5.9* +
 If a new file is created, open the file in an editor. If a group of
 files are created, open the most important, or central file in an
 editor. Open the readme.html file upon creation of an example project.
-________________________________________________________________________________
-
-'''
 
 If a new project is created, the wizard should change the active
 perspective within the workbench to one which is appropriate for the new
@@ -3337,30 +3131,18 @@ without prompting. If users want to switch automatically in the future,
 they can choose "Do not show this message again" in the confirmation
 dialog.
 
-image:images/guidelineIndicator.png[]
-**Guideline 5.10**
-
-________________________________________________________________________________
+TIP: [guideline5.10]*Guideline 5.10* +
 If a new project is created, prompt users and change the active
 perspective to suit the project type.
-________________________________________________________________________________
-
-'''
 
 In either case, where a file, folder, or project is created, the wizard
 should select and reveal the new object in the appropriate view. This
 provides concrete evidence to the user that, yes, the new object was
 created and now exists.
 
-image:images/guidelineIndicator.png[]
-**Guideline 5.11**
-
-________________________________________________________________________________
+TIP: [guideline5.11]*Guideline 5.11* +
 If a new object is created, select and reveal the new object in the
 appropriate view.
-________________________________________________________________________________
-
-'''
 
 In many situations, the creation of a resource may involve the creation
 of a project or folder to contain the resource. If the containing
@@ -3380,14 +3162,8 @@ well.
 
 image::images/goodParentCreation.png[goodParentCreation,title="goodParentCreation"]
 
-image:images/guidelineIndicator.png[]
-**Guideline 5.12**
-
-________________________________________________________________________
+TIP: [guideline5.12]*Guideline 5.12* +
 Create folder objects in a wizard if reasonable defaults can be defined.
-________________________________________________________________________
-
-'''
 
 ==== Terminology
 
@@ -3398,14 +3174,10 @@ addition, use the "name" suffix (uncapitalized) and no other prefix for
 the input field label. For example, use "Project name" or "Folder name"
 but not "Project Name" or "Server Project name".
 
-image:images/guidelineIndicator.png[]
-**Guideline 5.13**
-
-________________________________________________________________________________
+TIP: [guideline5.13]*Guideline 5.13* +
 Use the term "Project name" for the input field label when the item must
 be a Project; otherwise, use the term "Folder name". Do not qualify the
 term.
-________________________________________________________________________________
 
 === Editors
 
@@ -3452,30 +3224,20 @@ The editor should be labeled with the name of the resource being edited;
 not with the name of the editor.
 
 image::images/editorTitles.png[editorTitles,title="fig:editorTitles"]
-image:images/guidelineIndicator.png[]
-**Guideline 6.5**
 
-________________________________________________________________________________
+TIP: [guideline6.5]*Guideline 6.5* +
 The editor should be labeled with the name of the file, document, or
 input being edited.
-________________________________________________________________________________
-
-'''
 
 If the editor contains more than one page, a tab control should be used
 for page activation. The use of this control is demonstrated by the
 plugin file and html editors.
 
 Tab labels should be kept to one word, and two words at most.
-image:images/guidelineIndicator.png[]
-**Guideline 6.6**
 
-________________________________________________________________________________
+TIP: [guideline6.6]*Guideline 6.6* +
 In multipage editors, use a tab control for page activation.Tab labels
 should be kept to one word, and two words at most.
-________________________________________________________________________________
-
-'''
 
 ==== Menus
 
@@ -3499,14 +3261,8 @@ Eclipse and better ease of use.
 menus) |Actions to control what you see in the editor.
 |=======================================================================
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.8**
-
-________________________________________________________________________
+TIP: [guideline6.8]*Guideline 6.8* +
 Use the standard format for editor contributions in the window menu bar.
-________________________________________________________________________
-
-'''
 
 The window menu bar contains a number of global commands, such as Cut,
 Copy, and Paste in the Edit menu. These commands target the active part,
@@ -3535,15 +3291,9 @@ editor. Any command which appears in the toolbar must also appear in the
 menu, but there is no need to duplicate every command in the menu within
 the toolbar.
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.10**
-
-___________________________________________________________________________
+TIP: [guideline6.10]*Guideline 6.10* +
 Fill the editor toolbar with the most commonly used items in the view
 menu.
-___________________________________________________________________________
-
-'''
 
 The use of a local toolbar within an editor is contrary to the design of
 the workbench. Within the workbench, the toolbar for an editor is shared
@@ -3563,14 +3313,8 @@ In a text editor, you may assume that there is only one type of
 selection: text. In this case, the contents of the context menu will
 remain consistent for any selection in the editor.
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.11**
-
-_______________________________________________________
+TIP: [guideline6.11]*Guideline 6.11*
 Fill the context menu with selection oriented commands.
-_______________________________________________________
-
-'''
 
 For consistency with other editors in Eclipse, each editor should adopt
 a common order for commands within the context menu. This format is
@@ -3587,29 +3331,18 @@ kept distinct from one another through the use of separators.
 |Other Plugin Additions
 |======================
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.12**
-
-_________________________________________________
+TIP: [guideline6.12]*Guideline 6.12* +
 Use the standard format for editor context menus.
-_________________________________________________
-
-'''
 
 For good spatial navigation, fill the context menu with a fixed set of
 commands for each selection type. Once the contents have been defined,
 the enablement state of each command should be determined using the
 selected object state. In doing so, you establish a consistency which
 makes the menu more predictable, and easier to navigate.
-image:images/guidelineIndicator.png[]
-**Guideline 6.13**
 
-________________________________________________________________________________
+TIP: [guideline6.13]*Guideline 6.13* +
 Fill the context menu with a fixed set of commands for each selection
 type, and then enable or disable each to reflect the selection state.
-________________________________________________________________________________
-
-'''
 
 One of the primary goals for the platform UI is extensibility. In fact,
 it is this extensibility which gives you the freedom to add new views,
@@ -3631,21 +3364,11 @@ more information on the implementation of this concept, refer to
 http://www.eclipse.org/articles/viewArticle/ViewArticle2.html[Creating
 an Eclipse View.]
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.14**
-
-___________________________________________________________
+TIP: [guideline6.14]*Guideline 6.14* +
 Register all context menus in the editor with the platform.
-___________________________________________________________
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.15**
-
-_______________________________________________________________
+TIP: [guideline6.15]*Guideline 6.15* +
 Implement an Command Filter for each object type in the editor.
-_______________________________________________________________
-
-'''
 
 ==== Resource Deletion
 
@@ -3657,15 +3380,9 @@ resource depends on whether the editor has any unsaved changes.
 If the editor does not contain any changes since the resource was last
 saved then the editor should be immediately closed.
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.16**
-
-________________________________________________________________________________
+TIP: [guideline6.16]*Guideline 6.16* +
 If the input to an editor is deleted, and the editor contains no
 changes, the editor should be closed.
-________________________________________________________________________________
-
-'''
 
 If the editor contains changes to the resource since the resource was
 last saved (i.e., it is "dirty"), the editor should give the user a
@@ -3674,16 +3391,10 @@ is a sample of the dialog which should be displayed:
 
 image::images/fileDeletedDialog.png[fileDeletedDialog,title="fileDeletedDialog"]
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.17**
-
-________________________________________________________________________________
+TIP: [guideline6.17]*Guideline 6.17* +
 If the input to an editor is deleted, and the editor contains changes,
 the editor should give the user a chance to save their changes to
 another location, and then close.
-________________________________________________________________________________
-
-'''
 
 ==== Unsaved Changes
 
@@ -3693,15 +3404,9 @@ the resource name presented in the editor tab:
 
 image::images/dirtyEditor.png[dirtyEditor,title="dirtyEditor"]
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.18**
-
-________________________________________________________________________________
+TIP: [guideline6.18]*Guideline 6.18* +
 If the resource is dirty, prefix the resource name presented in the
 editor tab with an asterisk.
-________________________________________________________________________________
-
-'''
 
 ==== Read-Only Files
 
@@ -3722,15 +3427,9 @@ browse the contents within an editor. If the file is read-only, the File
 enabled. In the status bar area, "Read-only" should be shown instead of
 the default "Writable" message.
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.19**
-
-________________________________________________________________________________
+TIP: [guideline6.19]*Guideline 6.19* +
 Treat read-only editor input as you would any other input. Enable the
 Save As if possible. Display "Read-only" in the status bar area.
-________________________________________________________________________________
-
-'''
 
 ==== Integration with Other Views
 
@@ -3755,16 +3454,10 @@ screen, and will yield a structured outline. This structured outline
 makes it very easy to navigate through objects like a java file or html
 file.
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.20**
-
-________________________________________________________________________________
+TIP: [guideline6.20]*Guideline 6.20* +
 If the data within an editor is too extensive to see on a single screen,
 and will yield a structured outline, the editor should provide an
 outline model to the Outline view.
-________________________________________________________________________________
-
-'''
 
 When an editor has an interaction with the Outline view, notification
 about location should be two-way. That is, the user should be able to
@@ -3775,16 +3468,10 @@ have the outline view updated.
 A context menu should be available, as appropriate, in the outline view
 which should support creation operations as appropriate.
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.21**
-
-________________________________________________________________________________
+TIP: [guideline6.21]*Guideline 6.21* +
 Notification about location between an editor and the Outline view
 should be two-way. A context menu should be available in the Outline
 view as appropriate.
-________________________________________________________________________________
-
-'''
 
 If the edit model contains errors or warnings, they should be indicated
 in the Outline view. An error or warning image should be added to the
@@ -3797,46 +3484,28 @@ an error image is added to the item and its parent.
 image::images/errorsInOutline.png[errorsInOutline,title="fig:errorsInOutline"] For this to work, care must be taken to design icons with overlay in
 mind, so that glyphs can be applied to the ancestor's icon.
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.22**
-
-________________________________________________________________________________
+TIP: [guideline6.22]*Guideline 6.22* +
 An error or warning image should be added to items with the error or
 warning respectively. A container should have a red X if it there are
 errors on the container itself, a gray X if any of its descendents have
 errors (but not the container itself), and no X if neither the container
 nor any of its descendents have errors.
-________________________________________________________________________________
-
-'''
 
 In an editor, task objects are commonly used to mark a location within a
 document. Once a task has been created, it appears in the Task view. If
 the task is selected, you may reopen the editor at the location defined
 in the Task.
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.23**
-
-________________________________________________________________
+TIP: [guideline6.23]*Guideline 6.23* +
 If appropriate, implement the "Add Task" feature in your editor.
-________________________________________________________________
-
-'''
 
 A bookmark object can also be used mark a location within a document.
 Once a bookmark has been created, it appears in the Bookmarks view. If
 the bookmark is selected, you may reopen the editor at the location
 defined in the Task.
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.24**
-
-____________________________________________________________________
+TIP: [guideline6.24]*Guideline 6.24* +
 If appropriate, implement the "Add Bookmark" feature in your editor.
-____________________________________________________________________
-
-'''
 
 ==== Line Numbers
 
@@ -3846,16 +3515,11 @@ Line... menu allowing users to quickly jump to a desired line. The
 current line and column numbers should be shown in the status line
 (column number is optional). It's optional for the editor to show line
 numbers for each line in the editor itself.
-image:images/guidelineIndicator.png[]
-**Guideline 6.25**
 
-________________________________________________________________________________
+TIP: [guideline6.25]*Guideline 6.25*+
 Editors with source lines of text should show the current line and
 optionally column numbers the status line. It's optional for the editor
 to show line numbers for each line in the editor itself.
-________________________________________________________________________________
-
-'''
 
 ==== Table Cell Editors
 
@@ -3866,15 +3530,9 @@ be rendered upon the single-click.
 
 image::images/cellTableEditor.png[cellTableEditor,title="cellTableEditor"]
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.26**
-
-________________________________________________________________________________
+TIP: [guideline6.26]*Guideline 6.26* +
 Table cell editors should support the single-click activation model, and
 in edit mode, they should render complex controls upon single-click.
-________________________________________________________________________________
-
-'''
 
 In addition, changes should be committed once a user clicks off the cell
 or hits ENTER.
@@ -3896,17 +3554,12 @@ appears with current selection active & highlightedimage::images/cell3.png[cell3
 
 - when put in edit mode, it is possible to arrow key through the choices
 to make a selection without needing to invoke the drop-down
-image:images/guidelineIndicator.png[]
-**Guideline 6.27**
 
-________________________________________________________________________________
+TIP: [guideline6.27]*Guideline 6.27* +
 Changes made in a table cell editor should be committed when a user
 clicks off the cell or hits the "Enter" key. Selection should be
 cancelled when user hits the "Esc" key.First letter navigation should be
 supported as a cursoring mechanism within a cell.
-________________________________________________________________________________
-
-'''
 
 ==== Error Notification
 
@@ -3914,29 +3567,17 @@ If you are doing keystroke by keystroke validation in an editor, use red
 squiggles to underline the invalid content. When users move the mouse
 over the red squiggles, display the error text in a fly-over pop up box.
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.28**
-
-________________________________________________________________________________
+TIP: [guideline6.28]*Guideline 6.28* +
 When performing fine-grain error validation in an editor, use red
 squiggles to underline the invalid content. When users move the mouse
 over the red squiggles, display the error text in a fly-over pop up box.
-________________________________________________________________________________
-
-'''
 
 When the Save command is invoked in an editor, use the Problems view for
 showing errors which are persisted.
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.29**
-
-____________________________________________________________________________
+TIP: [guideline6.29]*Guideline 6.29* +
 Use the Problems view to show errors found when the Save command is
 invoked.
-____________________________________________________________________________
-
-'''
 
 ==== Interaction With External Editors
 
@@ -3948,15 +3589,11 @@ outside of the workbench, or back out of the Save operation. If desired,
 this user prompt can be invoked sooner such as when the editor regains
 the focus.
 
-image:images/guidelineIndicator.png[]
-**Guideline 6.30**
-
-________________________________________________________________________________
+TIP: [guideline6.30]*Guideline 6.30* +
 If modifications to a resource are made outside of the workbench, users
 should be prompted to either override the changes made outside of the
 workbench, or back out of the Save operation when the Save command is
 invoked in the editor.
-________________________________________________________________________________
 
 === Views
 
@@ -3964,15 +3601,10 @@ A view is a visual component within a workbench page. It is used in a
 support role for the primary task. You use them to navigate a hierarchy
 of information, open an editor, or view properties for the active
 editor.
-image:images/guidelineIndicator.png[]
-**Guideline 7.1**
 
-________________________________________________________________________________
+TIP: [guideline7.1]*Guideline 7.1* +
 Use a view to navigate a hierarchy of information, open an editor, or
 display the properties of an object.
-________________________________________________________________________________
-
-'''
 
 Modifications made in a view should be saved immediately. For instance,
 if a file is modified in the Navigator, the changes are committed to the
@@ -3998,14 +3630,8 @@ The user opens a view by invoking Perspective > Show View. If, for any
 reason, they lose a view, or forget about its existence, they can simply
 invoke Perspective > Show view again to make the view visible.
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.3**
-
-_______________________________________________________
+TIP: [guideline7.3]*Guideline 7.3* +
 Only one instance of a view may exist in a perspective.
-_______________________________________________________
-
-'''
 
 In a multi-tasking world, humans often perform more than one task at a
 time. In Eclipse, task separation can be achieved by creating a separate
@@ -4013,14 +3639,8 @@ perspective for each task. In reflection of this, a view must be able to
 be opened in more than one perspective. If only one instance of a view
 may exist, the ability to multi-task is taken away.
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.4**
-
-______________________________________________________________
+TIP: [guideline7.4]*Guideline 7.4* +
 A view must be able to be opened in more than one perspective.
-______________________________________________________________
-
-'''
 
 A view can be opened in two ways: by invoking Window > Show View > X
 menu, where X is the name of the view, or by invoking another command
@@ -4032,14 +3652,8 @@ It should be possible to open any view from the Window > Show View menu,
 either as an explicit item within the menu, or as an item within the
 Window > Show View > Other... dialog.
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.5**
-
-______________________________________________________
+TIP: [guideline7.5]*Guideline 7.5* +
 A view can be opened from the Window > Show View menu.
-______________________________________________________
-
-'''
 
 ==== Appearance
 
@@ -4052,15 +3666,9 @@ the entry in the Show View menu, this means you cannot change the name
 of a view. However, you can add additional text to the view label, to
 clarify the state of the view.
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.6**
-
-________________________________________________________________________________
+TIP: [guideline7.6]*Guideline 7.6* +
 The view label in the title bar must be prefixed with the label of the
 view in the Perspective > Show View menu.
-________________________________________________________________________________
-
-'''
 
 In most cases, a view will contain a single control or viewer. However,
 it is possible to embed more than one viewer or control in the view. If
@@ -4071,15 +3679,9 @@ their needs arise. Special relationships can also be set up between
 these views to support the user task. In addition, this makes it easier
 for users to create a new perspective with a diverse set of views.
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.7**
-
-________________________________________________________________________________
+TIP: [guideline7.7]*Guideline 7.7* +
 If a view contains more than one control, it may be advisable to split
 it up into two or more views.
-________________________________________________________________________________
-
-'''
 
 ==== Initialization
 
@@ -4089,15 +3691,9 @@ selection, or the state of another view. For instance, if the Outline
 view is opened, it will determine the active editor, query the editor
 for an outline model, and display the outline model.
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.8**
-
-________________________________________________________________________________
+TIP: [guideline7.8]*Guideline 7.8* +
 When a view first opens, derive the view input from the state of the
 perspective.
-________________________________________________________________________________
-
-'''
 
 If the view is used to navigate a hierarchy of resources (i.e., the
 Navigator or Packages view), the input of the view may be derived from
@@ -4108,15 +3704,9 @@ instance, if the Navigator view is opened, it will ask its perspective
 for the window input. The result is used as the initial input for the
 view.
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.9**
-
-________________________________________________________________________________
+TIP: [guideline7.9]*Guideline 7.9**
 If a view displays a resource tree, consider using the window input as
 the root of visible information in the view.
-________________________________________________________________________________
-
-'''
 
 ==== Menus
 
@@ -4169,12 +3759,8 @@ and Package Explorer)
 |Presentation commands from other plug-ins
 |=======================================================================
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.11**
-
-___________________________________________________________
+TIP: [guideline7.11]*Guideline 7.11* +
 Use the standard order of commands for view pulldown menus.
-___________________________________________________________
 
 
 ==== Toolbars
@@ -4223,14 +3809,8 @@ Navigate contains actions to refocus the view input, or reveal the view
 selection in another view. And the other categories are self
 explanatory.
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.14**
-
-__________________________________________________________
+TIP: [guideline7.14]*Guideline 7.14* +
 Use the standard order of commands for view context menus.
-__________________________________________________________
-
-'''
 
 For good spatial navigation of the menu, fill the context menu with a
 fixed set of commands for each selection type. Once the contents have
@@ -4238,15 +3818,10 @@ been defined, the enablement state of each command should be determined
 using the selected object state. In doing so, you establish a
 consistency which makes the menu more predictable, and easier to
 navigate.
-image:images/guidelineIndicator.png[]
-**Guideline 7.15**
 
-________________________________________________________________________________
+TIP: [guideline7.15]*Guideline 7.15* +
 Fill the context menu with a fixed set of commands for each selection
 type, and then enable or disable each to reflect the selection state.
-________________________________________________________________________________
-
-'''
 
 An object in one view may be visible in many other views or editors. For
 instance, a .java file is visible in the Navigator, the Hierarchy view,
@@ -4260,15 +3835,9 @@ menu using an action group(ActionGroup class), a Java class which
 populates the context menu. If this approach is used, the action group
 can be reused by other views where the same objects appear.
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.16**
-
-________________________________________________________________________________
+TIP: [guideline7.16]*Guideline 7.16* +
 If an object appears in more than one view, it should have the same
 context menu in each.
-________________________________________________________________________________
-
-'''
 
 One of the primary goals for the platform UI is extensibility. In fact,
 it is this extensibility which gives you the freedom to add new views,
@@ -4291,21 +3860,11 @@ refer to
 http://www.eclipse.org/articles/viewArticle/ViewArticle2.html[Creating
 an Eclipse View.]
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.17**
-
-_________________________________________________________
+TIP: [guideline7.17]*Guideline 7.17* +
 Register all context menus in the view with the platform.
-_________________________________________________________
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.18**
-
-_____________________________________________________________
+TIP: [guideline7.18]*Guideline 7.18* +
 Implement an Command Filter for each object type in the view.
-_____________________________________________________________
-
-'''
 
 ==== Integration with the Window Menu Bar and Toolbar
 
@@ -4325,7 +3884,7 @@ Find/Replace, Add Bookmark, Add Task Navigate menu: Go Into, Back, Forward, Up O
 Back, Forward Project menu: Open Project, Close Project, Build Project, Rebuild
 Project
 
-TIP: [guideline7.19]**Guideline 7.19** +
+TIP: [guideline7.19]*Guideline 7.19* +
 If a view has support for Cut, Copy, Paste, or any of the global
 commands, these commands must be executable from the same commands in
 the window menu bar and toolbar.
@@ -4361,7 +3920,7 @@ implementation of persistence, see
 "http://www.eclipse.org/articles/viewArticle/ViewArticle2.html[Creating
 an Eclipse View]".
 
-TIP: [guideline7.20]**Guideline 7.20** +
+TIP: [guideline7.20]*Guideline 7.20* +
 Persist the state of each view between sessions.
 
 
@@ -4399,14 +3958,8 @@ setting
 setting) is up to the view, but primary navigation views like the
 Navigator and Package Explorer default to off
 
-image:images/guidelineIndicator.png[]
-**Guideline 7.21**
-
-___________________________________________________________________
+TIP: [guideline7.21]*Guideline 7.21* +
 Navigation views should support "Link with Editor" on the view menu
-___________________________________________________________________
-
-'''
 
 There exist two main modes for opening an editor from a view: single
 click and double click mode. Views should show the following behavior
@@ -4502,15 +4055,10 @@ long lived, Java coding tasks.
 It is not appropriate to create a new perspective type for short lived
 tasks. For instance, the task of resource check-in is short lived, so it
 may be better performed using a view in the current perspective.
-image:images/guidelineIndicator.png[]
-**Guideline 8.1**
 
-________________________________________________________________________________
+TIP: [guideline8.1]*Guideline 8.1* +
 Create a new perspective type for long lived tasks, which involve the
 performance of smaller, non-modal tasks.
-________________________________________________________________________________
-
-'''
 
 If your plug-in contributes a small number of views, and these augment
 an existing task, it is better to add those views to an existing
@@ -4519,15 +4067,9 @@ of Java code creation, don't create a new perspective. Instead, add it
 to the existing Java perspective. This strategy provides better
 integration with the existing platform.
 
-image:images/guidelineIndicator.png[]
-**Guideline 8.2**
-
-________________________________________________________________________________
+TIP: [guideline8.2]*Guideline 8.2* +
 If you just want to expose a single view, or two, extend an existing
 perspective type.
-________________________________________________________________________________
-
-'''
 
 ==== View Layout
 
@@ -4548,33 +4090,21 @@ either to the right of the editor area or below the navigation view, and
 other supporting views may be placed below and to the right of the
 editor area.
 
-image:images/guidelineIndicator.png[]
-**Guideline 8.3**
-
-________________________________________________________________________________
+TIP: [guideline8.3]*Guideline 8.3* +
 The size and position of each view in a perspective should be defined in
 a reasonable manner, such that the user can resize or move a view if
 they desire it. When defining the initial layout, it is important to
 consider the overall flow between the views (and editors) in the
 perspective.
-________________________________________________________________________________
-
-'''
 
 A perspective should have at least two parts, including the visible
 views and the editor area. If this is not the case, then the perspective
 should be re-examined to determine if it is better suited as a view or
 editor.
 
-image:images/guidelineIndicator.png[]
-**Guideline 8.4 **
-
-________________________________________________________________________________
+TIP: [guideline8.4]*Guideline 8.4* +
 If a perspective has just one part, it may be better suited as a view or
 editor.
-________________________________________________________________________________
-
-'''
 
 In some scenarios, it may be undesirable to have an editor area within a
 perspective. In this case, the perspective factory should hide the
@@ -4589,16 +4119,10 @@ that occupied the editor area before will be shrunk. Therefore, it is
 important to define a non-empty editor area even when the editor is
 programmatically hidden.
 
-image:images/guidelineIndicator.png[]
-**Guideline 8.5**
-
-________________________________________________________________________________
+TIP: [guideline8.5]*Guideline 8.5* +
 If it is undesirable to have an editor area in a perspective, hide it.
 Do not resize the editor area to the point where it is no longer
 visible.
-________________________________________________________________________________
-
-'''
 
 ==== Command Contribution
 
@@ -4631,16 +4155,10 @@ For instance, the Java perspective is used in a larger lifecycle,
 involving Java and Debug tasks. The Window > Open Perspective menu is
 populated with each of these perspectives.
 
-image:images/guidelineIndicator.png[]
-**Guideline 8.6**
-
-________________________________________________________________________________
+TIP: [guideline8.6]*Guideline 8.6* +
 Populate the window menu bar with commands and command sets which are
 appropriate to the task orientation of the perspective, and any larger
 workflow.
-________________________________________________________________________________
-
-'''
 
 ==== Opening a Perspective in Code
 
@@ -4655,16 +4173,10 @@ working state, or context, of the user. If a new perspective is created,
 that context will be left behind, forcing the user to recreate the
 context. This is time wasted.
 
-image:images/guidelineIndicator.png[]
-**Guideline 8.7 **
-
-________________________________________________________________________________
+TIP: [guideline8.7]*Guideline 8.7* +
 A new perspective should be opened only if the user explicitly states a
 desire to do so. In making this statement, the user agrees to leave
 their old context, and create a new one.
-________________________________________________________________________________
-
-'''
 
 In some cases, a new perspective is opened as the side effect of another
 command. For instance, if users start debugging their application code,
@@ -4673,43 +4185,27 @@ implemented, the user should have the option to turn this behavior off.
 The option can be exposed in the command dialog, or within a Preference
 page.
 
-image:images/guidelineIndicator.png[]
-**Guideline 8.8**
-
-________________________________________________________________________________
+TIP: [guideline8.8]*Guideline 8.8* +
 If a new perspective is opened as a side effect of another command, the
 user should be able to turn this behavior off.
-________________________________________________________________________________
-
-'''
 
 If a new perspective is opened, it may be opened within the current
 window, or in a new window. The user controls this option using the
 Workbench preferences. If code within a plug-in opens a new perspective,
 the plug-in should honor the user preference.
 
-image:images/guidelineIndicator.png[]
-**Guideline 8.9**
-
-________________________________________________________________________________
+TIP: [guideline8.9]*Guideline 8.9* +
 If a new perspective is opened, it should be opened within the current
 window, or in a new window, depending on the user preference.
-________________________________________________________________________________
-
-'''
 
 With regard to command contributions applied to the New, Open
 Perspective, and Show View menus, the list of wizards, perspectives, and
 views added as shortcuts to these menus should be at most 7 plus / minus
 2 items.
 
-image:images/guidelineIndicator.png[]
-**Guideline 8.10**
-
-________________________________________________________________________________
+TIP: [guideline8.10]*Guideline 8.10* +
 The list of shortcuts added to the New, Open Perspective, and Show View
 menus should be at most 7 plus / minus 2 items.
-________________________________________________________________________________
 
 
 === Windows
@@ -4731,15 +4227,9 @@ set of task oriented actions which the user can show or hide. The
 actions within an action set may be distributed throughout the window
 menu bar and toolbar.
 
-image:images/guidelineIndicator.png[]
-**Guideline 9.1**
-
-___________________________________________________________________________
+TIP: [guideline9.1]*Guideline 9.1* +
 Use an Action Set to contribute actions to the window menu bar and
 toolbar.
-___________________________________________________________________________
-
-'''
 
 The window menu bar contains a number of pulldown menus: File, Edit,
 Navigate, Project, Window, and Help. Each of these has a different
@@ -4777,28 +4267,16 @@ system preferences. It also contains the Open Perspective and Show View
 submenu which contains actions affecting the state of the window
 contents.
 
-image:images/guidelineIndicator.png[]
-**Guideline 9.2**
-
-________________________________________________________________________
+TIP: [guideline9.2]*Guideline 9.2* +
 Follow the platform lead when distributing actions within an Action Set.
-________________________________________________________________________
-
-'''
 
 The toolbar contains the most commonly used actions of the menu bar. In
 reflection of this, you should contribute actions to the menu bar first,
 and then to the toolbar if they will be frequently used.
 
-image:images/guidelineIndicator.png[]
-**Guideline 9.3**
-
-________________________________________________________________________________
+TIP: [guideline9.3]*Guideline 9.3* +
 Contribute actions to the window menu bar first, and then to the window
 toolbar if they will be frequently used.
-________________________________________________________________________________
-
-'''
 
 The contents of each action set should be defined using a task oriented
 approach. For instance, the Java action set contains actions to create a
@@ -4807,14 +4285,8 @@ an editor on a class, Goto Type. These form a cohesive set of related
 actions, which can be turned on and off by the user, depending on the
 active task.
 
-image:images/guidelineIndicator.png[]
-**Guideline 9.4**
-
-____________________________________________________
+TIP: [guideline9.4]*Guideline 9.4* +
 Define each action set with a specific task in mind.
-____________________________________________________
-
-'''
 
 The size of an action set is also important. If an action set is too
 large, it will flood the menu or toolbar, and reduce the users ability
@@ -4828,16 +4300,10 @@ carefully designed to contain the smallest possible semantic chunking of
 actions. Avoid the temptation to provide only one action set for an
 entire plug-in.
 
-image:images/guidelineIndicator.png[]
-**Guideline 9.5**
-
-________________________________________________________________________________
+TIP: [guideline9.5]*Guideline 9.5*
 An action set should contain the smallest possible semantic chunking of
 actions. Avoid the temptation to provide only one action set for an
 entire plug-in.
-________________________________________________________________________________
-
-'''
 
 An action set can be used to share a set of actions between two or more
 views and editors. For instance, a Java Refactor action set may be
@@ -4851,15 +4317,9 @@ An action set should not be used to promote command from a single view
 to the window menu bar and toolbar. This simply clutters up the user
 interface.
 
-image:images/guidelineIndicator.png[]
-**Guideline 9.6**
-
-________________________________________________________________________________
+TIP: [guideline9.6]*Guideline 9.6* +
 Use an action set to share a set of actions which are useful in two or
 more views or editors.
-________________________________________________________________________________
-
-'''
 
 The set of visible command in a window may be changed by invoking Window
 > Customize Perspective. Within the resulting dialog, you can add or
@@ -4871,30 +4331,19 @@ reasons for this. First, users like to control the environment, not be
 controlled. And second, the user is in the best position to understand
 the active task, and the appropriate action sets for its completion.
 
-image:images/guidelineIndicator.png[]
-**Guideline 9.7**
-
-_______________________________________________________________________________
+TIP: [guideline9.7]*Guideline 9.7* +
 Let the user control the visible action sets. Don't try to control it
 for them.
-_______________________________________________________________________________
-
-'''
 
 A common example of an command which may be added to an action set is
 Navigate > Open Type. This command can be used to open an editor on a
 type which is not visible in the current window, and is a form of
 lateral navigation. In general, all Open actions which take the form
 should be added to the Navigate menu, for consistency.
-image:images/guidelineIndicator.png[]
-**Guideline 9.8**
 
-______________________________________________________________________________
+TIP: [guideline9.8]*Guideline 9.8* +
 "Open Object" actions must appear in the Navigate pulldown menu of the
 window.
-______________________________________________________________________________
-
-'''
 
 ==== Status Bar
 
@@ -4902,12 +4351,9 @@ If there is a need for a plug-in to show non-modal contextual
 information in the status bar area, always use the global status bar.
 For example, editors use the global status bar to show the current line
 and column number.
-image:images/guidelineIndicator.png[]
-**Guideline 9.9**
 
-____________________________________________________________________
+TIP: [guideline9.9]*Guideline 9.9* +
 Always use the global status bar to display status related messages.
-____________________________________________________________________
 
 === Properties
 
@@ -4925,15 +4371,9 @@ The Properties view is commonly used to edit the properties for a set of
 objects in an editor, where quick access to the properties is important,
 and you switch from one object to another quickly.
 
-image:images/guidelineIndicator.png[]
-**Guideline 10.1**
-
-________________________________________________________________________________
+TIP: [guideline10.1]*Guideline 10.1* +
 Use the Properties view to edit the properties of an object when quick
 access is important, and you will switch quickly from object to object.
-________________________________________________________________________________
-
-'''
 
 The properties for an object should be quick to calculate. If it is too
 expensive to calculate the properties for an object, the quick access to
@@ -4941,42 +4381,27 @@ properties offered by the Properties view becomes worthless. In this
 situation, where quick access is not possible, a Properties Dialog
 should be used.
 
-image:images/guidelineIndicator.png[]
-**Guideline 10.2**
-
-________________________________________________________________________________
+TIP: [guideline10.2]*Guideline 10.2* +
 Use a Properties Dialog to edit the properties of an object which are
 expensive to calculate.
-________________________________________________________________________________
-
-'''
 
 In some cases, the properties for an object are dependent upon one
 another, such that a change in one will affect another, or even enable /
 disable the option to change another. In this situation, a Properties
 Dialog may be a better way to represent the semantic link between these
 properties.
-image:images/guidelineIndicator.png[]
-**Guideline 10.3**
 
-________________________________________________________________________________
+TIP: [guideline10.3]*Guideline 10.3* +
  Use a Properties Dialog to edit the properties of an object which
 contain complex relationships to one another.
-________________________________________________________________________________
-
-'''
 
 When both the Properties view and the Properties Dialog are used to
 present and edit properties of an object, the Properties Dialog should
 contain the superset of items shown in the Properties view.
 
-image:images/guidelineIndicator.png[]
-**Guideline 10.4**
-
-________________________________________________________________________________
- Properties Dialog should contain the superset of items shown in the
+TIP: [guideline10.4]*Guideline 10.4* +
+Properties Dialog should contain the superset of items shown in the
 Properties view.
-________________________________________________________________________________
 
 === Widgets
 
@@ -4992,15 +4417,11 @@ state of the selected item. However, the current selection should be set
 to a given item when its check state is changed (e.g., users click on
 the checkbox associated with the item).
 
-image:images/guidelineIndicator.png[]
-**Guideline 11.1**
-
-________________________________________________________________________________
+TIP: [guideline11.1]*Guideline 11.1* +
 For Tree and Table widgets that have a checkbox associated with a cell
 item, changing the current selection should not automatically change the
 check state of the selected item. However, the current selection should
 be set to a given item when its check state is changed.
-________________________________________________________________________________
 
 
 == Standard Components
@@ -5013,29 +4434,19 @@ contains a default text editor and a Resource perspective.
 As a plug-in developer, you should try to add new actions to the
 existing parts. This leads to better integration with the platform, and
 the existing knowledge of the user.
-image:images/guidelineIndicator.png[]
-**Guideline 12.1**
 
-________________________________________________________________________________
+TIP: [guideline12.1]*Guideline 12.1* +
 If appropriate, add actions to standard components of Eclipse using the
 plug-in registry.
-________________________________________________________________________________
-
-'''
 
 When extending the standard components such as the Navigator, Outline,
 Properties, Tasks, and Bookmark views, make sure your specialized
 components carry over the base component's characteristics (drag and
 drop support, keyboard navigation, selection behaviour, etc.)
 
-image:images/guidelineIndicator.png[]
-**Guideline 12.2**
-
-________________________________________________________________________________
+TIP: [guideline12.2]*Guideline 12.2* +
 If you subclass or copy any of the standard components, always carry
 over the standard components' characteristics.
-________________________________________________________________________________
-
 
 === The Navigator View
 
@@ -5047,15 +4458,9 @@ may contribute new actions to the menu, toolbar, and context menu.
 
 This is done by adding an extension to the plug-in registry.
 
-image:images/guidelineIndicator.png[]
-**Guideline 13.1**
-
-________________________________________________________________________________
+TIP: [guideline13.1]*Guideline 13.1* +
 Add actions to the Navigator View menu, toolbar, and context menu using
 the plug-in registry.
-________________________________________________________________________________
-
-'''
 
 If object contributions are made to the context menu, try to qualify the
 target object as much as possible, to avoid adding the command to the
@@ -5083,16 +4488,10 @@ IProjectActionFilter.java.
 
 `public interface IProjectActionFilter extends IResourceActionFilter {``        public static final String NATURE = "nature";``        public static final String OPEN = "open";``}`
 
-image:images/guidelineIndicator.png[]
-**Guideline 13.2**
-
-________________________________________________________________________________
+TIP: [guideline13.2]*Guideline 13.2* +
 Use the attributes defined in IResourceActionFilter.java and
 IProjectActionFilter.java to control the visibility of context menu
 actions in the Navigator.
-________________________________________________________________________________
-
-'''
 
 ==== Integration with Other Views and Editors
 
@@ -5109,13 +4508,9 @@ A "Navigate -> Show In Navigator" command should be included in any view
 where a resource may appear. If invoked, the command should select and
 reveal the resource in the navigator.
 
-image:images/guidelineIndicator.png[]
-**Guideline 13.3**
-
-________________________________________________________________________________
+TIP: [guideline13.3]*Guideline 13.3* +
 Use a "Navigate -> Show In Navigator" command in each view, to link
 resources back to the Navigator.
-________________________________________________________________________________
 
 === The Tasks View
 
@@ -5131,45 +4526,27 @@ registry.
 A new task, error or warning can be created using the Marker Manager
 services from the Core Resources Management plugin.
 
-image:images/guidelineIndicator.png[]
-**Guideline 14.1**
-
-________________________________________________________________________________
+TIP: [guideline14.1]*Guideline 14.1* +
 Add markers (tasks, errors and warnings) to the Tasks view using the
 Marker Manager services from the Core Resources Management plugin.
-________________________________________________________________________________
-
-'''
 
 The Tasks view is a table, containing columns for the task image,
 completion status, priority, description, resource, and line number. The
 description text of each marker should be short and concise, so that it
 will fit in the status line of Eclipse.
 
-image:images/guidelineIndicator.png[]
-**Guideline 14.2**
-
-________________________________________________________________________________
+TIP: [guideline14.2]*Guideline 14.2* +
 The description text of each marker should be short and concise, so that
 it will fit in the status line of Eclipse.
-________________________________________________________________________________
-
-'''
 
 ==== Adding Actions
 
 You can contribute new actions to the menu, toolbar, and context menu.
 This is done by adding an extension to the plug-in registry.
 
-image:images/guidelineIndicator.png[]
-**Guideline 14.3**
-
-________________________________________________________________________________
+TIP: [guideline14.3]*Guideline 14.3* +
 Add actions to the Tasks view menu, toolbar, and context menu using the
 plug-in registry.
-________________________________________________________________________________
-
-'''
 
 If object contributions are made to the context menu, try to qualify the
 target object as much as possible, to avoid adding the command to the
@@ -5183,15 +4560,9 @@ an Eclipse View].
 
 `public interface IMarkerActionFilter extends IActionFilter {``        public static final String TYPE = "type";``        public static final String SUPER_TYPE = "superType";``        public static final String PRIORITY = "priority";``        public static final String SEVERITY = "severity";``        public static final String DONE = "done";``        public static final String MESSAGE = "message";``}`
 
-image:images/guidelineIndicator.png[]
-**Guideline 14.4**
-
-________________________________________________________________________________
+TIP: [guideline14.4]*Guideline 14.4* +
 Use the attributes defined in IMarkerActionFilter.java to control the
 visibility of context menu actions in the Tasks view.
-________________________________________________________________________________
-
-'''
 
 ==== Integration with Other Views and Editors
 
@@ -5210,13 +4581,9 @@ this, see link:#Editors[Editors].
 Plug-ins should support F1 keyboard command and link it to an infopop
 that gives a detailed description of the selected item in the Task view.
 
-image:images/guidelineIndicator.png[]
-**Guideline 14.5**
-
-________________________________________________________________________________
+TIP: [guideline14.5]*Guideline 14.5* +
 Support F1 keyboard command and link it to an infopop that gives a
 detailed description of the selected item in the Task view.
-________________________________________________________________________________
 
 === Selection Dialogs
 
@@ -5320,14 +4687,8 @@ compilation are exposed as a group of preference pages in the Preference
 Dialog. If these preferences are changed, they affect the entire Java
 plug-in.
 
-image:images/guidelineIndicator.png[]
-**Guideline 15.1**
-
-_______________________________________________________________
+TIP: [guideline15.1]*Guideline 15.1* +
 Global options should be exposed within the Preferences Dialog.
-_______________________________________________________________
-
-'''
 
 A preference page should not be used to expose the local options for a
 particular instance of a view, editor, or window. In this situation, the
@@ -5335,15 +4696,9 @@ user will look to the menu and toolbar of the control itself to
 customize it. If these options are exposed in the Preference Dialog, it
 will blur the location of customization, and confuse the user.
 
-image:images/guidelineIndicator.png[]
-**Guideline 15.2**
-
-________________________________________________________________________________
+TIP: [guideline15.2]*Guideline 15.2* +
 Expose the preferences for a particular view, editor or window in the
 view itself, via a menu or tool item.
-________________________________________________________________________________
-
-'''
 
 ==== Preference Page Design
 
@@ -5353,15 +4708,9 @@ contain all of the options for the plug-in, until the number of options
 starts to overload the page. At that point a nested design for
 preference pages should be adopted.
 
-image:images/guidelineIndicator.png[]
-**Guideline 15.3**
-
-____________________________________________________________________________
+TIP: [guideline15.3]*Guideline 15.3* +
 Start out with a single preference page. Then evolve to more if you need
 to.
-____________________________________________________________________________
-
-'''
 
 In a nested design, a root preference page is added to the preference
 dialog, and then sub pages are added to the root preference page. The
@@ -5375,31 +4724,21 @@ There is no reason to set the focus in a preference page, because focus
 is always set to the tree, by the Eclipse platform, after the preference
 page is made visible.
 
-image:images/guidelineIndicator.png[]
-**Guideline 15.4**
-
-________________________________________________________________________________
+TIP: [guideline15.4]*Guideline 15.4* +
 If you create a preference group, use the root page for frequently used
 preferences, or those preferences which have wide spread effect.
 Specialize within the sub pages. The root preference page should not be
 blank.
-________________________________________________________________________________
-
-'''
 
 Each new plug-in should integrate its plug-in preferences, wizards, and
 views into existing preference, wizard, and view categories where it
 makes sense, rather than the blind creation of new categories for
 itself.
 
-image:images/guidelineIndicator.png[]
-**Guideline 15.5**
-
-________________________________________________________________________________
+TIP: [guideline15.5]*Guideline 15.5* +
 Attempt to integrate plug-in preferences, wizards, and views into
 existing categories for a new plug-in first, before considering the
 creation of a new category.
-________________________________________________________________________________
 
 === The Outline View
 
@@ -5480,15 +4819,9 @@ is usually a good fit for extensive property and configuration editing,
 such as editing Eclipse's plugin.xml file, and J2EE Web application's
 deployment descriptors.
 
-image:images/guidelineIndicator.png[]
-**Guideline 16.1**
-
-________________________________________________________________________________
+TIP: [guideline16.1]*Guideline 16.1* +
 Use Flat Look design for user scenarios that involve extensive property
 and configuration editing.
-________________________________________________________________________________
-
-'''
 
 When required, use a "More..." button for navigation purpose (function
 similar to a hyperlink).
@@ -5501,15 +4834,9 @@ which takes users back to the overview page
 
 image::images/flatlook3.png[flatlook3,title="flatlook3"]
 
-image:images/guidelineIndicator.png[]
-**Guideline 16.2**
-
-________________________________________________________________________________
+TIP: [guideline16.2]*Guideline 16.2* +
 Have the core sections on the overview page expanded, and provide a
 "Home" icon on other pages to take users back to the overview page.
-________________________________________________________________________________
-
-'''
 
 Don't use tabs within a Flat Look editor tab. Use an alternative design
 or rendering of the tabs.
@@ -5532,13 +4859,9 @@ content editor for the organization of the tree view.
 
 image::images/flatlook6.png[flatlook6,title="flatlook6"]
 
-image:images/guidelineIndicator.png[]
-**Guideline 16.3**
-
-________________________________________________________________________________
+TIP: [guideline16.3]*Guideline 16.3* +
 Use grouping elements corresponding to tabs in the Flat Look content
 editor for the organization of the tree view in outline view.
-________________________________________________________________________________
 
 
 == The Tao of Resource
@@ -5581,13 +4904,9 @@ IAdaptable on the model object, and answering an
 IContributorResourceAdapter. For more information on the implementation
 of an IContributorResourceAdapter, refer to Eclipse Corner.
 
-image:images/guidelineIndicator.png[]
-**Guideline 17.1**
-
-________________________________________________________________________________
+TIP: [guideline17.1]*Guideline 17.1* +
 Expose the resource for resource equivalent model objects using an
 IContributorResourceAdapter.
-________________________________________________________________________________
 
 
 == Accessibility
@@ -5598,15 +4917,10 @@ using a mouse or the keyboard.
 In a dialog or wizard, a shortcut key should be defined for each button
 or control. The shortcut key should be displayed with an underline
 beneath the appropriate shortcut character.
-image:images/guidelineIndicator.png[]
-**Guideline 18.1**
 
-________________________________________________________________________________
+TIP: [guideline18.1]*Guideline 18.1* +
 All of the features provided by a tool should be accessible using a
 mouse or the keyboard.
-________________________________________________________________________________
-
-'''
 
 === Standard Accelerators
 
@@ -5923,13 +5237,9 @@ When an error occurs which requires either an explicit user input or
 immediate attention from users, communicate the occurrence with a modal
 dialog.
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 1.9**
-
-________________________________________________________________________________
+TIP: [guideline1.9]*Guideline 1.9* +
 If a programming error occurs in the product, communicate the occurrence
 with a dialog, and log it.
-________________________________________________________________________________
 
 
 === UI Graphics
@@ -5949,1030 +5259,533 @@ TIP: [guideline2.4]*Guideline 2.4* +
 Re-use existing graphics from the Common Elements library or other
 Eclipse-based plugins.
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-* Guideline 2.5*
-
-________________________________________________________________________________
+TIP: [guideline2.5]*Guideline 2.5* +
 Create and implement the graphical versions of the disabled state of
 toolbar and local toolbar icons.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-* Guideline 2.6*
-
-________________________________________________________________________________
+TIP: [guideline2.6]*Guideline 2.6* +
 Use the design templates for creating and maintaining UI graphics to
 facilitate easy file sharing and efficient production of a large set of
 graphics.
-________________________________________________________________________________
 
 ==== Specifications
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-*Guideline 2.7*
-
-___________________________________________________
+TIP: [guideline2.7]*Guideline 2.7* +
 Use the file format specified for the graphic type.
-___________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-*Guideline 2.8*
-
-________________________________________________________________________________
+TIP: [guideline2.8]*Guideline 2.8* +
 Use the appropriate graphic type in the location it is designed for
 within the user interface.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-*Guideline 2.9*
-
-_________________________________________________________________
+TIP: [guideline2.9]*Guideline 2.9* +
 Follow the specific size specifications for each type of graphic.
-_________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-*Guideline 2.10*
-
-________________________________________________________________________________
+TIP: [guideline2.10]*Guideline 2.10* +
 Cut the graphics with the specific placement shown to ensure alignment
 in the user interface.
-________________________________________________________________________________
 
 ==== Implementation
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-*Guideline 2.11*
-
-________________________________________________________________________________
+TIP: [guideline2.11]*Guideline 2.11* +
 Use the cutting actions provided to increase the speed and efficiency of
 cutting a large number of graphics.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-*Guideline 2.12*
-
-________________________________________________________________________________
+TIP: [guideline2.12]*Guideline 2.12* +
 Abbreviate file name instead of using the full icon name, e.g., New
 Interface becomes "newint".
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-*Guideline 2.13*
-
-______________________________________________________________________
+TIP: [guideline2.13]*Guideline 2.13* +
 Use lower case characters in your file names, e.g., DTD becomes "dtd".
-______________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-*Guideline 2.14*
-
-________________________________________________________________________________
+TIP: [guideline2.14]*Guideline 2.14* +
 Use 10 characters or fewer in your file names if possible (underscores
 count as a character).
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-*Guideline 2.15*
-
-________________________________________________________________________________
+TIP: [guideline2.15]*Guideline 2.15* +
 Use a file name suffix that describes its location or function in the
 tool, e.g., newint_wiz, or its size in the case of icons that require
 multiple sizes.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-*Guideline 2.16*
-
-______________________________________
+TIP: [guideline2.16]*Guideline 2.16* +
 Keep the original file names provided.
-______________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-*Guideline 2.17*
-
-________________________________________________________________
+TIP: [guideline2.17]*Guideline 2.17* +
 Follow the predefined directory structure and naming convention.
-________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-*Guideline 2.18*
-
-___________________________________________
+TIP: [guideline2.18]*Guideline 2.18* +
 Keep the original directory names provided.
-___________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-*Guideline 2.19*
-
-________________________________________________________________________________
+TIP: [guideline2.19]*Guideline 2.19* +
 Minimize duplication of graphics within a plugin by keeping all graphics
 in one, or few, first level user interface directories.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]
-*Guideline 2.20*
-
-______________________________________________________
+TIP: [guideline2.20]*Guideline 2.20* +
 Use the active, enabled, and disabled states provided.
-______________________________________________________
-
 
 === Component Development
 
 ==== Commands
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 3.1**
-
-________________________________________________________________________________
+TIP: [guideline3.1]*Guideline 3.1* +
 Each command must have a label, tool tip, and full color image. The
 label and tool tip must use Headline style capitalization.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 3.2**
-
-________________________________________________________________________________
+TIP: [guideline3.2]*Guideline 3.2* +
 The command tooltip should describe the result of the command, not the
 current state of the command. Use the text same as that for the command
 label.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 3.3**
-
-________________________________________________________________________________
+TIP: [guideline3.3]*Guideline 3.3* +
 Adopt the labeling terminology of the workbench for New, Delete and Add
 commands.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 3.4**
-
-______________________________________________________________________
+TIP: [guideline3.4]*Guideline 3.4* +
 An command should be enabled only if it can be completed successfully.
-______________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 3.5**
-
-________________________________________________________________________________
+TIP: [guideline3.5]*Guideline 3.5* +
 Command enablement should be quick. If command enablement cannot be
 quick, enable the command optimistically and display an appropriate
 message if the command is invoked, but cannot be completed.
-________________________________________________________________________________
 
 ==== Dialogs
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 4.1**
-
-________________________________________________________________________________
+TIP: [guideline4.1]*Guideline 4.1*
 When a dialog opens, set the initial focus to the first input control in
 the container. If there are no input controls, the initial focus should
 be assigned to the default button.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 4.2**
-
-________________________________________________________________________________
+TIP: [guideline4.2]*Guideline 4.2* +
 Slush Bucket widget (or Twin Box) should flow from left to right with
 the source objects on the left hand side. It should have the >, >,
-________________________________________________________________________________
 
 ==== Wizards
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 5.1**
-
-________________________________________________________________________________
+TIP: [guideline5.1]*Guideline 5.1* +
 Use a wizard for any task consisting of many steps, which must be
 completed in a specific order.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 5.2**
-
-________________________________________________________________________________
+TIP: [guideline5.2]*Guideline 5.2* +
 Each wizard must contain a header with a banner graphic and a text area
 for user feedback. It must also contain Back, Next, Finish, and Cancel
 buttons in the footer.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 5.3**
-
-_____________________________________________________
+TIP: [guideline5.3]*Guideline 5.3* +
 Start the wizard with a prompt, not an error message.
-_____________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 5.4**
-
-____________________________________________________________________
+TIP: [guideline5.4]*Guideline 5.4* +
 Seed the fields within the wizard using the current workbench state.
-____________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 5.5**
-
-________________________________________________________________________________
+TIP: [guideline5.5]*Guideline 5.5* +
 Validate the wizard data in tab order. Display a prompt when information
 is absent, and an error when information is invalid.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 5.6**
-
-________________________________________________________________________________
+TIP: [guideline5.6]*Guideline 5.6* +
 Enable the Next / Finish buttons only if all required information in the
 dialog is present and valid.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 5.7**
-
-_____________________________________________________
+TIP: [guideline5.7]*Guideline 5.7* +
 Remove all programming message ID's from wizard text.
-_____________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 5.8**
-
-__________________________________________________________________________
+TIP: [guideline5.8]*Guideline 5.8* +
 Use a Browse Button whenever an existing object is referenced in a
 wizard.
-__________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 5.9**
-
-________________________________________________________________________________
+TIP: [guideline5.9]*Guideline 5.9* +
 If a new file is created, open the file in an editor. If a group of
 files are created, open the most important, or central file in an
 editor. Open the readme.html file upon creation of an example project.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 5.10**
-
-________________________________________________________________________________
+TIP: [guideline5.10]*Guideline 5.10* +
 If a new project is created, prompt users and change the active
 perspective to suit the project type.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 5.11**
-
-________________________________________________________________________________
+TIP: [guideline5.11]*Guideline 5.11* +
 If a new object is created, select and reveal the new object in the
 appropriate view.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 5.12**
-
-________________________________________________________________________
+TIP: [guideline5.12]*Guideline 5.12* +
 Create folder objects in a wizard if reasonable defaults can be defined.
-________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 5.13**
-
-________________________________________________________________________________
+TIP: [guideline5.13]*Guideline 5.13* +
 Use the term "Project name" for the input field label when the item must
 be a Project; otherwise, use the term "Folder name". Do not qualify the
 term.
-________________________________________________________________________________
 
 ==== Editors
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.1**
-
-___________________________________________________________________________
+TIP: [guideline6.1]*Guideline 6.1* +
 Use an editor to edit or browse a file, document, or other primary
 content.
-___________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.2**
-
-________________________________________________________________________________
+TIP: [guideline6.2]*Guideline 6.2* +
 Modifications made in an editor should follow an open-save-close
 lifecycle model.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.3**
-
-________________________________________________________________________________
+TIP: [guideline6.3]*Guideline 6.3* +
 Only one instance of an editor may exist, for each editor input, within
 a perspective.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.4**
-
-________________________________________________________________________________
+TIP: [guideline6.4]*Guideline 6.4* +
 It must be possible to open a separate instance of an editor for each
 different input.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.5**
-
-________________________________________________________________________________
+TIP: [guideline6.5]*Guideline 6.5* +
 The editor should be labeled with the name of the file, document, or
 input being edited.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.6**
-
-________________________________________________________________________________
+TIP: [guideline6.6]*Guideline 6.6* +
 In multipage editors, use a tab control for page activation.Tab labels
 should be kept to one word, and two words at most.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.7**
-
-________________________________________________________________________________
+TIP: [guideline6.7]*Guideline 6.7* +
 All of the commands, except for the obvious commands, available in the
 editor should be added to the window menu bar.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.8**
-
-________________________________________________________________________
+TIP: [guideline6.8]*Guideline 6.8* +
 Use the standard format for editor contributions in the window menu bar.
-________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.9**
-
-________________________________________________________________________________
+TIP: [guideline6.9]*Guideline 6.9* +
 If an editor has support for Cut, Copy, Paste, or any of the global
 commands, these commands must be executable from the same commands in
 the window menu bar and toolbar.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.10**
-
-___________________________________________________________________________
+TIP: [guideline6.10]*Guideline 6.10* +
 Fill the editor toolbar with the most commonly used items in the view
 menu.
-___________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.11**
-
-_______________________________________________________
+TIP: [guideline6.11]*Guideline 6.11* +
 Fill the context menu with selection oriented commands.
-_______________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.12**
-
-_________________________________________________
+TIP: [guideline6.12]*Guideline 6.12* +
 Use the standard format for editor context menus.
-_________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.13**
-
-________________________________________________________________________________
+TIP: [guideline6.13]*Guideline 6.13* +
 Fill the context menu with a fixed set of commands for each selection
 type, and then enable or disable each to reflect the selection state.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.14**
-
-___________________________________________________________
+TIP: [guideline6.14]*Guideline 6.14* +
 Register all context menus in the editor with the platform.
-___________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.15**
-
-_______________________________________________________________
+TIP: [guideline6.15]*Guideline 6.15* +
 Implement an Command Filter for each object type in the editor.
-_______________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.16**
-
-________________________________________________________________________________
+TIP: [guideline6.16]*Guideline 6.16* +
 If the input to an editor is deleted, and the editor contains no
 changes, the editor should be closed.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.17**
-
-________________________________________________________________________________
+TIP: [guideline6.17]*Guideline 6.17* +
 If the input to an editor is deleted, and the editor contains changes,
 the editor should give the user a chance to save their changes to
 another location, and then close.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.18**
-
-________________________________________________________________________________
+TIP: [guideline6.18]*Guideline 6.18* +
 If the resource is dirty, prefix the resource name presented in the
 editor tab with an asterisk.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.19**
-
-________________________________________________________________________________
+TIP: [guideline6.19]*Guideline 6.19* +
 Treat read-only editor input as you would any other input. Enable the
 Save As if possible. Display "Read-only" in the status bar area.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.20**
-
-________________________________________________________________________________
+TIP: [guideline6.20]*Guideline 6.20* +
 If the data within an editor is too extensive to see on a single screen,
 and will yield a structured outline, the editor should provide an
 outline model to the Outline view.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.21**
-
-________________________________________________________________________________
+TIP: [guideline6.21]*Guideline 6.21* +
 Notification about location between an editor and the Outline view
 should be two-way. A context menu should be available in the Outline
 view as appropriate.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.22**
-
-________________________________________________________________________________
+TIP: [guideline6.22]*Guideline 6.22* +
 An error or warning image should be added to items with the error or
 warning respectively. A container should have a red X if it there are
 errors on the container itself, a gray X if any of its descendents have
 errors (but not the container itself), and no X if neither the container
 nor any of its descendents have errors.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.23**
-
-________________________________________________________________
+TIP: [guideline6.23]*Guideline 6.23* +
 If appropriate, implement the "Add Task" feature in your editor.
-________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.24**
-
-____________________________________________________________________
+TIP: [guideline6.24]*Guideline 6.24* +
 If appropriate, implement the "Add Bookmark" feature in your editor.
-____________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.25**
-
-________________________________________________________________________________
+TIP: [guideline6.25]*Guideline 6.25* +
 Editors with source lines of text should show the current line and
 optionally column numbers the status line. It's optional for the editor
 to show line numbers for each line in the editor itself.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.26**
-
-________________________________________________________________________________
+TIP: [guideline6.26]*Guideline 6.26* +
 Table cell editors should support the single-click activation model, and
 in edit mode, they should render complex controls upon single-click.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.27**
-
-________________________________________________________________________________
+TIP: [guideline6.27]*Guideline 6.27* +
 Changes made in a table cell editor should be committed when a user
 clicks off the cell or hits the "Enter" key. Selection should be
 cancelled when user hits the "Esc" key.First letter navigation should be
 supported as a cursoring mechanism within a cell.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.28**
-
-________________________________________________________________________________
+TIP: [guideline6.28]*Guideline 6.28* +
 When performing fine-grain error validation in an editor, use red
 squiggles to underline the invalid content. When users move the mouse
 over the red squiggles, display the error text in a fly-over pop up box.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.29**
-
-________________________________________________________________________
+TIP: [guideline6.29]*Guideline 6.29* +
 Use the Task view to show errors found when the Save command is invoked.
-________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 6.30**
-
-________________________________________________________________________________
+TIP: [guideline6.30]*Guideline 6.30* +
 If modifications to a resource are made outside of the workbench, users
 should be prompted to either override the changes made outside of the
 workbench, or back out of the Save operation when the Save command is
 invoked in the editor.
-________________________________________________________________________________
 
 ==== Views
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 7.1**
-
-________________________________________________________________________________
+TIP: [guideline7.1]*Guideline 7.1* +
 Use a view to navigate a hierarchy of information, open an editor, or
 display the properties of an object.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 7.2**
-
-___________________________________________________________
+TIP: [guideline7.2]*Guideline 7.2* +
 Modifications made within a view must be saved immediately.
-___________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 7.3**
-
-_______________________________________________________
+TIP: [guideline7.3]*Guideline 7.3* +
 Only one instance of a view may exist in a perspective.
-_______________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 7.4**
-
-______________________________________________________________
+TIP: [guideline7.4]*Guideline 7.4* +
 A view must be able to be opened in more than one perspective.
-______________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 7.5**
-
-______________________________________________________
+TIP: [guideline7.5]*Guideline 7.5* +
 A view can be opened from the Window > Show View menu.
-______________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 7.6**
-
-________________________________________________________________________________
+TIP: [guideline7.6]*Guideline 7.6* +
 The view label in the title bar must be prefixed with the label of the
 view in the Perspective > Show View menu.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 7.7**
-
-________________________________________________________________________________
+TIP: [guideline7.7]*Guideline 7.7* +
 If a view contains more than one control, it may be advisable to split
 it up into two or more views.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 7.8**
-
-________________________________________________________________________________
+TIP: [guideline7.8]*Guideline 7.8* +
 When a view first opens, derive the view input from the state of the
 perspective.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 7.9**
-
-________________________________________________________________________________
+TIP: [guideline7.9]*Guideline 7.9* +
 If a view displays a resource tree, consider using the window input as
 the root of visible information in the view.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 7.10**
-
-________________________________________________________________________________
+TIP: [guideline7.10]*Guideline 7.10* +
 Use the view pulldonw menu for presentation commands, not
 selection-oriented commands.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 7.11**
-
-___________________________________________________________
+TIP: [guideline7.11]*Guideline 7.11* +
 Use the standard order of commands for view pulldown menus.
-___________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 7.12**
-
-________________________________________________________________________________
+TIP: [guideline7.12]*Guideline 7.12* +
 Put only the most commonly used commands on the toolbar. Any command on
 a toolbar must also appear in a menu, either the context menu or the
 view menu.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 7.13**
-
-________________________________________________________________________________
+TIP: [guideline7.13]*Guideline 7.13* +
 Fill the context menu with selection oriented actions, not presentation
 actions.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 7.14**
-
-__________________________________________________________
+TIP: [guideline7.14]*Guideline 7.14* +
 Use the standard order of commands for view context menus.
-__________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 7.15**
-
-________________________________________________________________________________
+TIP: [guideline7.15]*Guideline 7.15* +
 Fill the context menu with a fixed set of commands for each selection
 type, and then enable or disable each to reflect the selection state.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 7.16**
-
-________________________________________________________________________________
+TIP: [guideline7.16]*Guideline 7.16* +
 If an object appears in more than one view, it should have the same
 context menu in each.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 7.17**
-
-_________________________________________________________
+TIP: [guideline7.17]*Guideline 7.17* +
 Register all context menus in the view with the platform.
-_________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 7.18**
-
-_____________________________________________________________
+TIP: [guideline7.18]*Guideline 7.18* +
 Implement an Command Filter for each object type in the view.
-_____________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 7.19**
-
-________________________________________________________________________________
+TIP: [guideline7.19]*Guideline 7.19* +
 If a view has support for Cut, Copy, Paste, or any of the global
 commands, these commands must be executable from the same commands in
 the window menu bar and toolbar.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 7.20**
-
-________________________________________________
+TIP: [guideline7.20]*Guideline 7.20* +
 Persist the state of each view between sessions.
-________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 7.21**
-
-____________________________________________________________________
+TIP: [guideline7.21]*Guideline 7.21* +
  Navigation views should support "Link with Editor" on the view menu
-____________________________________________________________________
 
 ==== Perspectives
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 8.1**
-
-________________________________________________________________________________
+TIP: [guideline8.1]*Guideline 8.1* +
 Create a new perspective type for long lived tasks, which involve the
 performance of smaller, non-modal tasks.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 8.2**
-
-________________________________________________________________________________
+TIP: [guideline8.2]*Guideline 8.2* +
 If you just want to expose a single view, or two, extend an existing
 perspective type.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 8.3**
-
-________________________________________________________________________________
+TIP: [guideline8.3]*Guideline 8.3* +
 The size and position of each view in a perspective should be defined in
 a reasonable manner, such that the user can resize or move a view if
 they desire it. When defining the initial layout, it is important to
 consider the overall flow between the views (and editors) in the
 perspective.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 8.4 **
-
-________________________________________________________________________________
+TIP: [guideline8.4]*Guideline 8.4* +
 If a perspective has just one part, it may be better suited as a view or
 editor.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 8.5**
-
-________________________________________________________________________________
+TIP: [guideline8.5]*Guideline 8.5* +
 If it is undesirable to have an editor area in a perspective, hide it.
 Do not resize the editor area to the point where it is no longer
 visible.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 8.6**
-
-________________________________________________________________________________
+TIP: [guideline8.6]*Guideline 8.6* +
 Populate the window menu bar with commands and command sets which are
 appropriate to the task orientation of the perspective, and any larger
 workflow.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 8.7 **
-
-________________________________________________________________________________
+TIP: [guideline8.7]*Guideline 8.7* +
 A new perspective should be opened only if the user explicitly states a
 desire to do so. In making this statement, the user agrees to leave
 their old context, and create a new one.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 8.8**
-
-________________________________________________________________________________
+TIP: [guideline8.8]*Guideline 8.8* +
 If a new perspective is opened as a side effect of another command, the
 user should be able to turn this behavior off.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 8.9**
-
-________________________________________________________________________________
+TIP: [guideline8.9]*Guideline 8.9* +
 If a new perspective is opened, it should be opened within the current
 window, or in a new window, depending on the user preference.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 8.10**
-
-________________________________________________________________________________
+TIP: [guideline8.10]*Guideline 8.10* +
 The list of shortcuts added to the New, Open Perspective, and Show View
 menus should be at most 7 plus / minus 2 items.
-________________________________________________________________________________
 
 ==== Windows
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 9.1**
-
-___________________________________________________________________________
+TIP: [guideline9.1]*Guideline 9.1* +
 Use an Action Set to contribute actions to the window menu bar and
 toolbar.
-___________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 9.2**
-
-________________________________________________________________________
+TIP: [guideline9.2]*Guideline 9.2* +
 Follow the platform lead when distributing actions within an Action Set.
-________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 9.3**
-
-________________________________________________________________________________
+TIP: [guideline9.3]*Guideline 9.3* +
 Contribute actions to the window menu bar first, and then to the window
 toolbar if they will be frequently used.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 9.4**
-
-____________________________________________________
+TIP: [guideline9.4]*Guideline 9.4* +
 Define each action set with a specific task in mind.
-____________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 9.5**
-
-________________________________________________________________________________
+TIP: [guideline9.5]*Guideline 9.5* +
 An action set should contain the smallest possible semantic chunking of
 actions. Avoid the temptation to provide only one action set for an
 entire plug-in.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 9.6**
-
-________________________________________________________________________________
+TIP: [guideline9.6]*Guideline 9.6* +
 Use an action set to share a set of actions which are useful in two or
 more views or editors.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 9.7**
-
-_______________________________________________________________________________
+TIP: [guideline9.7]*Guideline 9.7* +
 Let the user control the visible action sets. Don't try to control it
 for them.
-_______________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 9.8**
-
-______________________________________________________________________________
+TIP: [guideline9.8]*Guideline 9.8* +
 "Open Object" actions must appear in the Navigate pulldown menu of the
 window.
-______________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 9.9**
-
-____________________________________________________________________
+TIP: [guideline9.9]*Guideline 9.9* +
 Always use the global status bar to display status related messages.
-____________________________________________________________________
 
 ==== Properties
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 10.1**
-
-________________________________________________________________________________
+TIP: [guideline10.1]*Guideline 10.1* +
 Use the Properties view to edit the properties of an object when quick
 access is important, and you will switch quickly from object to object.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 10.2**
-
-________________________________________________________________________________
+TIP: [guideline10.2]*Guideline 10.2* +
 Use a Properties Dialog to edit the properties of an object which are
 expensive to calculate.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 10.3**
-
-________________________________________________________________________________
- Use a Properties Dialog to edit the properties of an object which
+TIP: [guideline10.3]*Guideline 10.3* +
+Use a Properties Dialog to edit the properties of an object which
 contain complex relationships to one another.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 10.4**
-
-________________________________________________________________________________
- Properties Dialog should contain the superset of items shown in the
+TIP: [guideline10.4]*Guideline 10.4* +
+Properties Dialog should contain the superset of items shown in the
 Properties view.
-________________________________________________________________________________
 
 ==== Widgets
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 11.1**
-
-________________________________________________________________________________
+TIP: [guideline11.1]*Guideline 11.1* +
 For Tree and Table widgets that have a checkbox associated with a cell
 item, changing the current selection should not automatically change the
 check state of the selected item. However, the current selection should
 be set to a given item when its check state is changed.
-________________________________________________________________________________
 
 
 === Standard Components
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 12.1**
-
-________________________________________________________________________________
+TIP: [guideline12.1]*Guideline 12.1* +
 If appropriate, add actions to standard components of Eclipse using the
 plug-in registry.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 12.2**
-
-________________________________________________________________________________
+TIP: [guideline12.2]*Guideline 12.2* +
 If you subclass or copy any of the standard components, always carry
 over the standard components' characteristics.
-________________________________________________________________________________
 
 ==== The Navigator View
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 13.1**
-
-________________________________________________________________________________
+TIP: [guideline13.1]*Guideline 13.1* +
 Add actions to the Navigator View menu, toolbar, and context menu using
 the plug-in registry.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 13.2**
-
-________________________________________________________________________________
+TIP: [guideline13.2]*Guideline 13.2* +
 Use the attributes defined in IResourceActionFilter.java and
 IProjectActionFilter.java to control the visibility of context menu
 actions in the Navigator.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 13.3**
-
-________________________________________________________________________________
+TIP: [guideline13.3]*Guideline 13.3* +
 Use a "Navigate -> Show In Navigator" command in each view, to link
 resources back to the Navigator.
-________________________________________________________________________________
 
 ==== The Tasks View
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 14.1**
-
-________________________________________________________________________________
+TIP: [guideline14.1]*Guideline 14.1* +
 Add markers (tasks, errors and warnings) to the Tasks view using the
 Marker Manager services from the Core Resources Management plugin.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 14.2**
-
-________________________________________________________________________________
+TIP: [guideline14.2]*Guideline 14.2* +
 The description text of each marker should be short and concise, so that
 it will fit in the status line of Eclipse.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 14.3**
-
-________________________________________________________________________________
+TIP: [guideline14.3]*Guideline 14.3* +
 Add actions to the Tasks view menu, toolbar, and context menu using the
 plug-in registry.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 14.4**
-
-________________________________________________________________________________
+TIP: [guideline14.4]*Guideline 14.4* +
 Use the attributes defined in IMarkerActionFilter.java to control the
 visibility of context menu actions in the Tasks view.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 14.5**
-
-________________________________________________________________________________
+TIP: [guideline14.5]*Guideline 14.5* +
 Support F1 keyboard command and link it to an infopop that gives a
 detailed description of the selected item in the Task view.
-________________________________________________________________________________
 
 ==== The Preference Dialog
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 15.1**
-
-_______________________________________________________________
+TIP: [guideline15.1]*Guideline 15.1* +
 Global options should be exposed within the Preferences Dialog.
-_______________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 15.2**
-
-________________________________________________________________________________
+TIP: [guideline15.2]*Guideline 15.2* +
 Expose the preferences for a particular view, editor or window in the
 view itself, via a menu or tool item.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 15.3**
-
-____________________________________________________________________________
+TIP: [guideline15.3]*Guideline 15.3* +
 Start out with a single preference page. Then evolve to more if you need
 to.
-____________________________________________________________________________
 
 TIP: [guideline15.4]*Guideline 15.4* +
 If you create a preference group, use the root page for frequently used
@@ -6980,63 +5793,39 @@ preferences, or those preferences which have wide spread effect.
 Specialize within the sub pages. The root preference page should not be
 blank.
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 15.5**
-
-________________________________________________________________________________
+TIP: [guideline15.5]*Guideline 15.5* +
 Attempt to integrate plug-in preferences, wizards, and views into
 existing categories for a new plug-in first, before considering the
 creation of a new category.
-________________________________________________________________________________
 
 
 === Flat Look Design
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 16.1**
-
-________________________________________________________________________________
+TIP: [guideline16.1]*Guideline 16.1* +
 Use Flat Look design for user scenarios that involves extensive property
 and configuration editing.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 16.2**
-
-________________________________________________________________________________
+TIP: [guideline16.2]*Guideline 16.2* +
 Have the core sections on the overview page expanded, and provide a
 "Home" icon on other pages to take users back to the overview page.
-________________________________________________________________________________
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 16.3**
-
-________________________________________________________________________________
+TIP: [guideline16.3]*Guideline 16.3* +
 Use grouping elements corresponding to tabs in the Flat Look content
 editor for the organization of the tree view in outline view.
-________________________________________________________________________________
 
 
 === The Tao of Resource
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 17.1**
-
-________________________________________________________________________________
+TIP: [guideline17.1]*Guideline 17.1* +
 Expose the resource for resource equivalent model objects using an
 IContributorResourceAdapter.
-________________________________________________________________________________
 
 
 === Accessibility
 
-image::images/guidelineCheckbox.png[guidelineCheckbox,title="fig:guidelineCheckbox"]**
-Guideline 18.1**
-
-________________________________________________________________________________
+TIP: [guideline18.1]*Guideline 18.1* +
 All of the features provided by a tool should be accessible using a
 mouse or the keyboard.
-________________________________________________________________________________
 
 
 == Glossary
