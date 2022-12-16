@@ -4141,7 +4141,7 @@ in the perspective, as well as any extra views that may be important for
 the task at hand. The Navigate > Show In menu should be used to allow
 users to navigate in their contents.
 
-image::images/showViewMenu.png[showViewMenu,title="fig:showViewMenu"] The application development lifecycle should be considered when
+image::images/ShowViewMenu.gif[showViewMenu,title="fig:showViewMenu"] The application development lifecycle should be considered when
 populating the the Window - Open Perspective menu. The development of
 most applications follow a well defined lifecycle, from designing /
 modeling, to editing / creating, to debugging / testing, to assembling /
@@ -4808,7 +4808,7 @@ Look, design alternative for implementing content editors. For example,
 the editor in the Eclipse plug-in development environment (PDE)
 perspective uses Flat Look.
 
-image::images/flatlook1.png[flatlook1,title="flatlook1"]
+image::images/Flatlook1.gif[flatlook1,title="flatlook1"]
 
 The Flat Look design may be more suitable for certain type of user
 tasks, and more appealing to certain user profile. However, this design
@@ -4826,13 +4826,13 @@ and configuration editing.
 When required, use a "More..." button for navigation purpose (function
 similar to a hyperlink).
 
-image::images/flatlook2.png[flatlook2,title="flatlook2"]
+image::images/Flatlook2.gif[flatlook2,title="flatlook2"]
 
 On the overview page, initially expand basic or core sections, but
 collapse advanced sections. On non-overview pages, provide a "Home" icon
 which takes users back to the overview page
 
-image::images/flatlook3.png[flatlook3,title="flatlook3"]
+image::images/Flatlook3.gif[flatlook3,title="flatlook3"]
 
 TIP: [guideline16.2]*Guideline 16.2* +
 Have the core sections on the overview page expanded, and provide a
@@ -4841,12 +4841,12 @@ Have the core sections on the overview page expanded, and provide a
 Don't use tabs within a Flat Look editor tab. Use an alternative design
 or rendering of the tabs.
 
-image::images/flatlook4.png[flatlook4,title="flatlook4"]
+image::images/Flatlook4.gif[flatlook4,title="flatlook4"]
 
 When applicable, always provide a "Source" tab. Assign mnemonics for
 sections, controls, etc. for keyboard navigation.
 
-image::images/flatlook5.png[flatlook5,title="flatlook5"]
+image::images/Flatlook5.gif[flatlook5,title="flatlook5"]
 
 === Editor and Outline View Interaction
 
@@ -4857,7 +4857,7 @@ view.
 In the outline view, use grouping elements corresponding to tabs in the
 content editor for the organization of the tree view.
 
-image::images/flatlook6.png[flatlook6,title="flatlook6"]
+image::images/Flatlook6.gif[flatlook6,title="flatlook6"]
 
 TIP: [guideline16.3]*Guideline 16.3* +
 Use grouping elements corresponding to tabs in the Flat Look content
@@ -5061,7 +5061,7 @@ error position in the file. Use a prominent marker on the upper right
 hand corner to indicate that the file contains errors or warnings. Use
 red color to indicate errors, and use yellow to indicate warnings.
 
-image::images/bp1.png[bp1,title="bp1"]
+image::images/Bp1.gif[bp1,title="bp1"]
 
 After users perform a save operation, user a more prominent marker on
 the left hand side margin to indicate errors and warnings in the file.
@@ -5074,7 +5074,7 @@ indication up to the parents of the resource in the tree view. Finally,
 an entry should be added to the Task view to list the errors and
 warnings.
 
-image::images/bp2.png[bp2,title="bp2"]
+image::images/Bp2.gif[bp2,title="bp2"]
 
 === Coding Assistance
 
@@ -5084,15 +5084,14 @@ light bulb marker on the left hand side margin to provide suggestions on
 how to fix problems with the source code. Users can click on the light
 bulb or use Edit -> Quick Fix menu item to invoke this command.
 
-image::images/bp3.png[bp3,title="bp3"]
+image::images/Bp3.gif[bp3,title="bp3"]
 
 Even when there are no syntax errors in the file, users should be able
 to obtain certain quick assistance with their code using the Quick Fix
 mechanism. For example, assigning an expression to a local variable.
 
-image::images/bp4.png[bp4,title="bp4"]
+image::images/Bp4.gif[bp4,title="bp4"]
 
-'''
 
 If an editor is used for writing code in a given programming language,
 hyper-linked code support should be enabled. While using the mouse
@@ -5100,9 +5099,8 @@ pointer to hover over the source code, pressing the Ctrl key will turn
 the programming language constructs such as class, method, and field
 identifiers into clickable links to the corresponding declaration.
 
-image::images/bp5.png[bp5,title="bp5"]
+image::images/Bp5.gif[bp5,title="bp5"]
 
-'''
 
 When possible, a plug-in should provide refactoring support at the
 programming language or application development level. For example, if
@@ -5112,7 +5110,7 @@ the URL for a given resource in a Web application, refactoring support
 should enable users to automatically update the references to the
 modified URL.
 
-image::images/bp6.png[bp6,title="bp6"]
+image::images/Bp6.gif[bp6,title="bp6"]
 
 === Context Menu
 
@@ -5142,20 +5140,18 @@ On pages with listbox on the left hand side, the distance be between the
 list box and the right-hand column (e.g., showing properties for a
 selected listbox item) should be 10 pixels.
 
-image::images/flatlook7.png[flatlook7,title="flatlook7"]
-
-'''
+image::images/Flatlook7.gif[flatlook7,title="flatlook7"]
 
 For labels and fields, use RGB value (160, 160, 164) for enabled state,
 RBG value (0, 0, 0) for read-only state, and RBG value (128, 128, 128)
 for disabled state.
 
-image::images/flatlook8.png[flatlook8,title="flatlook8"]
+image::images/Flatlook8.gif[flatlook8,title="flatlook8"]
 
 For listbox control, use RBG value (0, 0, 0) for the border to indicate
 enabled state, use RBG value (128, 128, 128) for disabled state.
 
-image::images/flatlook9.png[flatlook9,title="flatlook9"]
+image::images/Flatlook9.gif[flatlook9,title="flatlook9"]
 
 === Decorators
 
@@ -6056,11 +6052,11 @@ Here are some sample error messages from IBM’s products, to illustrate
 the inconsistency among messages and the user’s challenge in
 understanding error conditions.
 
-image::images/error_msg1.jpg[error_msg1.jpg,title="error_msg1.jpg"]
+image::images/Error_msg1.jpg[error_msg1.jpg,title="error_msg1.jpg"]
 
-image::images/error_msg2.jpg[error_msg2.jpg,title="error_msg2.jpg"]
+image::images/Error_msg2.jpg[error_msg2.jpg,title="error_msg2.jpg"]
 
-image::images/error_msg3.jpg[error_msg3.jpg,title="error_msg3.jpg"]
+image::images/Error_msg3.jpg[error_msg3.jpg,title="error_msg3.jpg"]
 
 *Here are the good examples*
 
