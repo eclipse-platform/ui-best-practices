@@ -237,46 +237,82 @@ sections.
   and editors. Contribution to the window is performed using an __action
   set__, a set of task oriented commands which the user can show or
   hide. Contribution to a view or editor is performed using individual
-  command.*Bookmarks View*::
-  A view used to browse the bookmarks in the workbench.*Editor*::
+  command.
+ 
+*Bookmarks View*::
+  A view used to browse the bookmarks in the workbench.
+  
+*Editor*::
   An editor is a visual component within a workbench page. It is
   typically used to edit or browse a document or input object. The input
   is identified using an `IEditorInput`. Modifications made in an editor
   part follow an open-save-close lifecycle model (in contrast to a view
-  part, where modifications are saved to the workbench immediately).*File*::
-  An object in the workspace, analogous to files in the file system.*Folder*::
-  A container for files in the workspace.*Navigator View*::
-  A view used to browse the files in the workspace*Outline View*::
-  A view, commonly used to view the outline of the active editor.*Perspective*::
+  part, where modifications are saved to the workbench immediately).
+
+*File*::
+  An object in the workspace, analogous to files in the file system.
+  
+*Folder*::
+  A container for files in the workspace.
+  
+*Navigator View*::
+  A view used to browse the files in the workspace
+  
+*Outline View*::
+  A view, commonly used to view the outline of the active editor.
+  
+*Perspective*::
   A perspective is a visual container for a set of views and editors
   (parts). These parts exist wholly within the perspective and are not
   shared. A perspective is also like a page within a book. It exists
   within a window along with any number of other perspectives and, like
-  a page within a book, only one perspective is visible at any time.*Platform*::
-  A generic framework for the integration of tools.*Preferences*::
+  a page within a book, only one perspective is visible at any time.
+  
+*Platform*::
+  A generic framework for the integration of tools.
+  
+*Preferences*::
   A Preference Page is used to edit the preferences for a feature in the
-  platform.*Project*::
+  platform.
+  
+*Project*::
   A group of files and folders within the workspace. Each project maps
-  to a corresponding user specified directory in the file system.*Properties View*::
+  to a corresponding user specified directory in the file system.
+  
+*Properties View*::
   A view, typically used to browse the properties for an object in the
-  active editor or view.*Properties Dialog*::
-  A dialog for editing the properties of an object.*Property Page*::
-  A page within a Properties Dialog.*Resource*::
-  The generic name for projects, folders and files.*Tasks View*::
+  active editor or view.
+
+*Properties Dialog*::
+  A dialog for editing the properties of an object.
+
+*Property Page*::
+  A page within a Properties Dialog.
+
+*Resource*::
+  The generic name for projects, folders and files.
+  
+*Tasks View*::
   A view used to browse the tasks, errors, and warnings within the
-  workspace.*View*::
+  workspace.
+
+*View*::
   A view is a visual component within a workbench page. It is typically
   used to navigate a hierarchy of information (like the workspace), open
   an editor, or display properties for the active editor. Modifications
   made in a view are saved immediately (in contrast to an editor part,
   which conforms to a more elaborate open-save-close lifecycle).*Wizard*::
   A Wizard is typically used to create new resources, import resources,
-  or export resources.*Workbench*::
+  or export resources.
+  
+*Workbench*::
   The Workbench provides the user interface structure for Eclipse. The
   purpose of the Workbench is to facilitate the seamless integration of
   tools. These tools contribute to extension points defined by the
   Workbench. The Workbench is responsible for the presentation and
-  coordination of the user interface.*Workspace*::
+  coordination of the user interface.
+  
+*Workspace*::
   The various tools plugged in to the Eclipse Platform operate on
   regular files in the user's workspace. The workspace consists of one
   or more top level projects, where each project maps to a corresponding
