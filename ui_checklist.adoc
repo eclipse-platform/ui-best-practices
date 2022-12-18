@@ -1,4 +1,4 @@
-= UI Checklist
+= Quick UI Checklist
 
 This is is a shortlist of the most relevant and easy to apply Eclipse 
 link:eclipse_ui_guidelines.adoc[*User Interface Guidelines*].  
