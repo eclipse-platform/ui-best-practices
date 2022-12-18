@@ -1,4 +1,4 @@
-= Checklist For Developers
+= Checklist for Developers
 
 Here is a checklist for developers who are developing UI plugins. This
 _could_ be used for certification purposes.
