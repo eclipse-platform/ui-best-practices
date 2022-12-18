@@ -1,0 +1,110 @@
+= Quick Checklists and Top Ten Does and Dont's
+
+== Quick UI Checklist
+
+This is is a shortlist of the most relevant and easy to apply Eclipse 
+link:eclipse_ui_guidelines.adoc[*User Interface Guidelines*].  
+Start by using this list, referring to the linked guideline items for details, 
+then use the link:eclipse_ui_full_checklist.adoc[Full Checklist] 
+for additional guidance.  For comments please use the 
+https://github.com/eclipse-platform/ui-best-practices/issues[UI Best Practices GitHub Issues].
+
+=== Views & Editors
+
+. Put only the most commonly used commands on the view toolbar. 
+  Any command on a toolbar must also appear in a menu, either the window menu, 
+  context menu or the view menu.  
+  (xref:eclipse_ui_guidelines.adoc#guideline7.12[Guideline 7.12])
+. Use the view pulldown menu for commands not tied to selection 
+  (xref:eclipse_ui_guidelines.adoc#guideline7.10[Guideline 7.10]). 
+  Fill the context menu with selection oriented actions 
+  (xref:eclipse_ui_guidelines.adoc#guideline7.13[Guideline 7.13]).
+. If a view or editor has support for Cut, Copy, Paste, or any of the global commands, 
+  these commands must be executable from the same commands in the window menu bar and toolbar.
+  (xref:eclipse_ui_guidelines.adoc#guideline6.9[Guideline 6.9]), 
+  (xref:eclipse_ui_guidelines.adoc#guideline7.19[Guideline 7.19])
+    
+. Modifications of workspace resources made in an editor should follow an open-save-close lifecycle model
+  (xref:eclipse_ui_guidelines.adoc#guideline6.2[Guideline 6.2]), 
+  whereas modifications made within a view should be saved immediately
+  (xref:eclipse_ui_guidelines.adoc#guideline7.2[Guideline 7.2]).
+   
+. Persist the state of each view between sessions 
+  (xref:eclipse_ui_guidelines.adoc#guideline7.20[Guideline 7.20]).
+
+=== Wizards & Dialogs
+
+. Start a wizard with a prompt, not an error message. 
+  (xref:eclipse_ui_guidelines.adoc#guideline5.3[Guideline 5.3])
+  
+. Seed the fields within a wizard using the current workbench state. 
+  (xref:eclipse_ui_guidelines.adoc#guideline5.4[Guideline 5.4])
+  
+. When a dialog opens, set the initial focus to the first input control in the container. 
+  If there are no input controls, the initial focus should be assigned to the default button 
+  (xref:eclipse_ui_guidelines.adoc#guideline4.1[Guideline 4.1])
+  
+. Use a Browse Button whenever an existing object is referenced in a wizard. 
+  (xref:eclipse_ui_guidelines.adoc#guideline5.8[Guideline 5.8])
+
+=== Workbench & Preferences
+
+. Use Headline style capitalization for menus, tooltip and all titles, 
+  including those used for windows, dialogs, tabs, column headings and push buttons 
+  (xref:eclipse_ui_guidelines.adoc#guideline1.5[Guideline 1.5]).  
+  Use Sentence style capitalization for all control labels in a dialog or window, 
+  including those for check boxes, radio buttons, group labels, and simple text fields 
+  (xref:eclipse_ui_guidelines.adoc#guideline1.6[Guideline 1.6]).
+  
+. Follow the visual style established for Eclipse UI graphics 
+  (xref:eclipse_ui_guidelines.adoc#guideline2.1[Guideline 2.1]). 
+  Re-use the color palette 
+  (xref:eclipse_ui_guidelines.adoc#guideline2.2[Guideline 2.2]) 
+  and visual concepts to maintain consistent representation and meaning across Eclipse plug-ins 
+  (xref:eclipse_ui_guidelines.adoc#guideline2.3[Guideline 2.3]).  
+  
+. If you must create a new preference group, use the root page for frequently used preferences, 
+  or those preferences which have wide spread effect. Specialize within the sub pages. 
+  The root preference page should not be blank. 
+  (xref:eclipse_ui_guidelines.adoc#guideline2.2[Guideline 2.2])
+
+== Top Ten Lists
+
+This is a starter set of top ten Eclipse UI Guidelines and Violations.
+The purpose of these lists is to be a starting point for Eclipse UI
+designers and developers, providing the most important practices to
+follow and to avoid, respectively.
+
+To see all considerations to-date go to the
+link:https://wiki.eclipse.org/Top_Ten_Lists_Working_Page[Top Ten Lists Working Page].
+
+=== Top Ten Eclipse UI Guidelines
+
+. Use the Eclipse look and feel if extending or plugging into Eclipse
+. Use common SWT controls to get what SWT offers for cross-platform adaptability
+  and accessibility
+. Be familiar with APIs for the UIs you are building
+. Use icons and graphics consistent with the Eclipse style, decorations, states, 
+  and quality
+. Understand the conventions of the OSs you are developing for
+. Use understandable messages to help people recover from error conditions
+. Don't initiate dialogs or wizards in an error state
+. Use quick fix and quick assist mechanisms
+. Reserve time for "polish"
+
+=== Top Ten Eclipse UI Violations
+
+. Low quality graphics or not consistent with the Eclipse style
+. Poorly organized or sized dialogs and wizards
+. Useless dialogs
+. Cryptic error messages
+. Messages with concatenated strings
+. Property pages that don't adhere to platform uses where possible (normal and 
+  tabbed)
+. Assuming more importance than other contributions
+. Using too many custom colors and fonts
+. Flooding the system with updates
+. Slow updating in the main Thread
+. Adding to the preferences rather than making a choice for the user
+
+

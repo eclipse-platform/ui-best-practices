@@ -30,9 +30,9 @@ page].
 
 
 == UI Checklist
-The link:ui_checklist.adoc[UI Checklist] is a shortlist of the most relevant
+The link:top_ten_lists.adoc[Top Ten Lists] is a shortlist of the most relevant
 and easy to apply Eclipse **User Interface Guidelines**. 
-Start by using link:ui_checklist.adoc[this list], referring to the linked guideline items for details, 
+Start by using link:top_ten_lists.adoc[this list], referring to the linked guideline items for details, 
 then use the link:eclipse_ui_full_checklist.adoc[Full Checklist] for additional guidance. 
 For comments please use the 
 https://github.com/eclipse-platform/ui-best-practices/issues[UI Best Practices GitHub Issues].
@@ -188,9 +188,9 @@ sections.
 
 == Content
 
-- link:ui_checklist.adoc[*Quick UI Checklist*] +
+- link:top_ten_lists.adoc[*Quick Checklists and Top Ten Does and Dont's*] +
   Shortlist of the most relevant and easy to apply Eclipse User Interface 
-  Guidelines. 
+  Guidelines and their violations. 
    
 - link:general_ui_guidelines.adoc[*General UI Guidelines*] +
   General guidelines for developing Eclipse based user interfaces and Eclipse 
@@ -351,38 +351,6 @@ Microsoft Corporation in the United States, other countries, or both.
 
 The following is a draft of ongoing Eclipse v3.x UI Guideline updates.
 
-
-=== Top Ten
-
-This is a starter set of top ten Eclipse UI Guidelines and Violations.
-The purpose of these lists is to be a starting point for Eclipse UI
-designers and developers, providing the most important practices to
-follow and to avoid, respectively.
-
-To see all considerations to-date go to the
-link:Top_Ten_Lists_Working_Page[ Top Ten Lists Working Page].
-
-==== Top Ten Eclipse UI Guidelines
-
-1.  Use the Eclipse look and feel if extending or plugging into Eclipse
-2.  Use common SWT controls to get what SWT offers for cross-platform adaptability and accessibility
-3.  Be familiar with APIs for the UIs you are building
-4.  Use icons and graphics consistent with the Eclipse style, decorations, states, and quality
-5.  Understand the conventions of the OSs you are developing for
-6.  Use understandable messages to help people recover from error conditions
-7.  Don't initiate dialogs or wizards in an error state
-8.  Use quick fix and quick assist mechanisms
-9.  Reserve time for "polish"
-
-==== Top Ten Eclipse UI Violations
-
-1.  Low quality graphics or not consistent with the Eclipse style
-2.  Poorly organized or sized dialogs and wizards
-3.  Useless dialogs
-4.  Cryptic error messages
-5.  Messages with concatenated strings
-6.  Property pages that don't adhere to platform uses (normal and tabbed)
-7.  Assuming more importance than other contributions (see John/Mik comments below)
 
 === General UI Guidelines
 
