@@ -1,0 +1,134 @@
+= Accessibility
+
+In a view, editor, or other control, every features should be accessible
+using a mouse or the keyboard.
+
+In a dialog or wizard, a shortcut key should be defined for each button
+or control. The shortcut key should be displayed with an underline
+beneath the appropriate shortcut character.
+
+TIP: [guideline18.1]*Guideline 18.1* +
+All of the features provided by a tool should be accessible using a
+mouse or the keyboard.
+
+== Standard Accelerators
+
+The Eclipse platform has defined a large number of shortcut keys.
+Plug-in developers should make sure that the existing shortcut keys do
+not conflict with the shortcut keys defined in the plug-in.
+[cols="<,<,<,<,<,<,<",]
+|=======================================================================
+|*Key* |*\{Key} by itself* |*SHIFT+\{Key}* |*CTRL+\{Key}*
+|*CTRL+SHIFT+\{Key}* |*ALT+\{Key}* |*CTRL+ALT+\{Key}*
+
+|A | | |Edit / Select All | | |
+
+|B | | |Project / Build | | |(View) Bookmarks
+
+|C | | |Edit / Copy | | |
+
+|D | | |(JDT editor) Display | | |
+
+|E | | |(JDT editor) Next Problem |(JDT editor) Previous Problem | |
+
+|F | | |Edit / Find / Replace | | |
+
+|G | | | | | |
+
+|H | | |Edit / Search | | |
+
+|I | | | | | |
+
+|J | | | | | |
+
+|K | | | | | |(View) Tasks
+
+|L | | |Edit / Go to Line | | |
+
+|M | | | |(JDT editor) Add Import | |(JDT) Refactor / Move
+
+|N | | |File / New / Other | | |(View) Navigator
+
+|O | | | |(JDT editor) Organize Imports | |(View) Outline
+
+|P | | |File / Print | | |(View) Properties
+
+|Q | | |(JDT editor) Inspect | | |
+
+|R | | | | | |
+
+|S | | |File / Save | |File / Save All |Window / Switch to Editor
+
+|T | | | |(JDT) Open Type | |
+
+|U | | | | | |
+
+|V | | |Edit / Paste | | |
+
+|W | | | | | |
+
+|X | | |Edit / Cut | | |(JDT) Refactor / Extract method
+
+|Y | | |Edit / Redo |(JDT) Refactor / Redo | |
+
+|Z | | |Edit / Undo |(JDT) Refactor / Undo | |
+
+|Space | | |(JDT editor) Content Assist | | |
+
+|Backspace | | | | |Windows: Undo |
+
+|Tab | | |(JDT editor) Shift Right |(JDT editor) Shift Left | |
+
+|Insert | |Windows: Paste |Windows: Copy | | |
+
+|Delete |Edit / Delete |Windows: Cut |Edit / Delete | | |
+
+|Home | | | | | |
+
+|End | | | | | |
+
+|Page Up | | | | | |
+
+|Page Down | | | | | |
+
+|Insert | | | | | |
+
+|Delete | | | | | |
+
+|Hyphen (-) | | | | |Show System Menu |Show View Menu
+
+|Left Arrow | | | | | |
+
+|Right Arrow | | | | | |
+
+|Up Arrow | | | | | |
+
+|Down Arrow | | | | | |
+
+|F1 |Help |Help |Help |Help | |
+
+|F2 |(Navigator view) Rename, (JDT editor) Open JavaDoc | | | | |
+
+|F3 |(JDT editor) Open on Selection | | | | |
+
+|F4 |(JDT editor) Open Type Hierarchy | | |File / Close All |File /
+Close |
+
+|F5 |(Navigator view) Refresh, (Properties view) Refresh, (Debug) Step
+Into | | | | |
+
+|F6 |(Debug) Step Over | |Next Editor |Previous Editor | |
+
+|F7 |(Debug) Run to Return | |Next View |Previous View | |
+
+|F8 |(Debug) Resume | | | | |
+
+|F9 | | | | | |
+
+|F10 |(Debug) Relaunch last | | | | |
+
+|F11 |(Debug) Debug | |(Debug) Run | | |
+
+|F12 |Activate Editor | |Activate Editor | | |
+|=======================================================================
+
