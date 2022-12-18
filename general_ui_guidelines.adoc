@@ -2,10 +2,15 @@
 
 This document defines UI guidelines that are unique and specific to the
 Eclipse platform. It is a supplement to the other standard UI guidelines
-such as Microsoft® User Experience, Macintosh Human Interface
-Guidelines, and Java Look and Feel Guidelines. You should continue to
-consult those guidelines for basic UI design and implementation
-recommendations.
+such as 
+
+- https://learn.microsoft.com/en-us/windows/apps/design/[Microsoft® Windows Design Guidelines]
+- https://developer.apple.com/design/human-interface-guidelines/guidelines/overview/[Apple® Human Interface Guidelines]
+- https://developer.gnome.org/hig/[GNOME Human Interface Guidelines]
+- https://www.oracle.com/java/technologies/java-look-and-feel-graphics-repository.html[Java Look and Feel Guidelines] 
+
+You should continue to consult those guidelines for basic UI design and 
+implementation recommendations.
 
 It is expected that you already have a basic understanding of the
 Eclipse UI architecture and APIs, and the basic UI design principles:
@@ -41,11 +46,11 @@ certainly stand out like a sore thumb in an integrated environment,
 where other tools adopt the platform conventions. You lose the benefit
 of past experience, and force your customers to learn new ideas.
 
-Consult the link:#Best%20Practices[Best Practices] section for examples
+Consult the link:best_practices.adoc[Best Practices] section for examples
 and more information.
 
-Also, visit the http://www.eclipse.org/newsgroups/index.html[Eclipse
-platform newsgroups] to share information with the community.
+Also, visit the https://github.com/eclipse-platform[Eclipse
+Platform @ GitHub] to share information with the community.
 
 TIP: [guideline1.2]*Guideline 1.2* +
 Follow the platform lead for user interface conventions.
@@ -57,7 +62,7 @@ shaded titles within an editor (see below) may be one way to indicate
 where the focus is, within that part, but it will also blur the concept
 of part activation in the window.
 
-image::images/badHilight.png[badHilight,title="badHilight"]
+image::images/badHilight.png[badHilight]
 
 TIP: [guideline1.34]*Guideline 1.3* +
 Be careful not to mix UI metaphors. It may blur the original concept,
@@ -68,8 +73,8 @@ useful, join the Eclipse community, write a proposal, and work with the
 Eclipse community to make Eclipse a better platform for product
 development and increase customer satisfaction.
 
-Visit http://www.eclipse.org/[www.eclipse.org] and join the Eclipse UI
-mailing list **platform-ui-dev**.
+Visit http://www.eclipse.org/[www.eclipse.org] and join the 
+mailto:ui-best-practices-working-group@eclipse.org[Eclipse UI mailing list]. 
 
 TIP: [guideline1.4]*Guideline 1.4* +
 If you have an interesting idea, work with the Eclipse community to make
@@ -108,7 +113,7 @@ images within each plug-in. This involves the separation of all
 resources from the source code of a plug-in itself, so that those
 resources can be translated to a new locale.
 
-Consult the link:#Best%20Practices[Best Practices] section for examples
+Consult the link:best_practices.adoc[Best Practices] section for examples
 and more information.
 
 TIP: [guideline1.7]*Guideline 1.7* +
@@ -119,11 +124,11 @@ Create localized version of the resources within your plug-in.
 If an error occurs in Eclipse, the appropriate response will be
 dependent on the context of the error.
 
-Please refer to link:#Wizards[Wizards] section for guidelines on how to
-handle user input errors in a wizard.
+Please refer to link:component_dev.adoc#wizards[Wizards] section for 
+guidelines on how to handle user input errors in a wizard.
 
-Please refer to link:#Editors[Editors] section for guidelines on how to
-handle errors occurring in an editor.
+Please refer to link:component_dev.adoc#editors[Editors] section for guidelines
+on how to handle errors occurring in an editor.
 
 When an error occurs which requires either an explicit user input or
 immediate attention from users, a modal dialog should be used to
@@ -152,3 +157,4 @@ of the error dialog:
 TIP: [guideline1.9]*Guideline 1.9* +
 If a programming error occurs in the product, communicate the occurrence
 with a dialog, and log it.
+
