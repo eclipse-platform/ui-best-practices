@@ -5,7 +5,7 @@ link:eclipse_ui_guidelines.adoc[*User Interface Guidelines*].
 Start by using this list, referring to the linked guideline items for details, 
 then use the xref:eclipse_ui_guidelines.adoc#_checklist_for_developers[Full Checklist] 
 for additional guidance.  For comments please use the 
-https://github.com/eclipse-architecture/ui-best-practices/issues[UI Best Practices GitHub Issues].
+https://github.com/eclipse-platform/ui-best-practices/issues[UI Best Practices GitHub Issues].
 
 == Views & Editors
 

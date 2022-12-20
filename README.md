@@ -1,11 +1,10 @@
 Eclipse UI Best Practices
 =========================
 
-Welcome to the information hub for Eclipse UI Best Practices. This repository provides
-usefuly information for developers of the Eclipse IDE and Eclipse Plug-Ins. Our 
-[Eclipse UI Guidelines](eclipse_ui_guidelines.adoc) are the go-to source of truth for 
-Eclipse Plug-In developers. Please make yourself familar and don't hesitate to
-give feedback.
+Welcome to the Eclipse UI Best Practices repository. 
+This repository provides useful information for developers of the Eclipse IDE and Eclipse Plug-Ins.
+Our [Eclipse UI Guidelines](eclipse_ui_guidelines.adoc) describe guidelines for  Eclipse Plug-In developers. 
+Please do not hesitate to give feedback and send send improvement suggestions via pull requests.
 
 
 Feedback & Contact

@@ -14,7 +14,7 @@ Practices Working Group]*
 *Convertion into Asciidoc: September 2016*
 
 NOTE: Please use the
-https://github.com/eclipse-architecture/ui-best-practices[discussion
+https://github.com/eclipse-platform/ui-best-practices/discussions[discussion
 page] to add comments instead of embedding them in this document.
 
 :toc:
@@ -25,7 +25,7 @@ Your feedback can influence the ideas and guidelines described here. If
 you have suggestions, please provide us with your feedback on the
 mailto:platform-ui-dev@eclipse.org?subject=UI%20Guidelines%20v2.1%20Feedback[UI
 mailing list] or on the
-https://github.com/eclipse-architecture/ui-best-practices[discussion
+https://github.com/eclipse-platform/ui-best-practices/discussions[discussion
 page].
 
 
@@ -35,7 +35,7 @@ and easy to apply Eclipse **User Interface Guidelines**.
 Start by using link:ui_checklist.adoc[this list], referring to the linked guideline items for details, 
 then use the <<_checklist_for_developers,Full Checklist>> for additional guidance. 
 For comments please use the 
-https://github.com/eclipse-architecture/ui-best-practices/issues[UI Best Practices GitHub Issues].
+https://github.com/eclipse-platform/ui-best-practices/issues[UI Best Practices GitHub Issues].
 
 == Introduction
 In this document the Eclipse user interface guidelines are defined.
