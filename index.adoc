@@ -34,10 +34,10 @@ page].
 
 
 == UI Checklist
-The link:top_ten_lists.adoc[Top Ten Lists] is a shortlist of the most relevant
+The xref:top_ten_lists.adoc[Top Ten Lists] is a shortlist of the most relevant
 and easy to apply Eclipse **User Interface Guidelines**. 
-Start by using link:top_ten_lists.adoc[this list], referring to the linked guideline items for details, 
-then use the link:eclipse_ui_full_checklist.adoc[Full Checklist] for additional guidance. 
+Start by using xref:top_ten_lists.adoc[this list], referring to the linked guideline items for details, 
+then use the xref:eclipse_ui_full_checklist.adoc[Full Checklist] for additional guidance. 
 For comments please use the 
 https://github.com/eclipse-platform/ui-best-practices/issues[UI Best Practices GitHub Issues].
 
@@ -192,41 +192,41 @@ sections.
 
 == Content
 
-- link:top_ten_lists.adoc[*Quick Checklists and Top Ten Does and Dont's*] +
+- xref:top_ten_lists.adoc[*Quick Checklists and Top Ten Does and Dont's*] +
   Shortlist of the most relevant and easy to apply Eclipse User Interface 
   Guidelines and their violations. 
    
-- link:general_ui_guidelines.adoc[*General UI Guidelines*] +
+- xref:general_ui_guidelines.adoc[*General UI Guidelines*] +
   General guidelines for developing Eclipse based user interfaces and Eclipse 
   extensions.   
 
-- link:ui_graphics.adoc[*UI Graphics*] +
+- xref:ui_graphics.adoc[*UI Graphics*] +
   Guidelines for developing and using UI graphics (i.e. icons, images, banners).   
 
-- link:component_dev.adoc[*Component Development*] +
+- xref:component_dev.adoc[*Component Development*] +
   Guidelines for the correct usage of diverse Eclipse UI components, such as 
   commands, dialogs, wizards, editors, views, perspectives, windows, properties,
   and widgets.   
 
-- link:standard_components.adoc[*Standard Components*] +
+- xref:standard_components.adoc[*Standard Components*] +
   Guidelines for the standard components which ship with Eclipse.   
 
-- link:flat_look_design.adoc[*Flat Look Design*] +
+- xref:flat_look_design.adoc[*Flat Look Design*] +
   Design alternative for implementing content editors.   
 
-- link:flat_look_design.adoc[*The Tao of Resource*] +
+- xref:flat_look_design.adoc[*The Tao of Resource*] +
   Resources as the common medium for integration between plugins and external 
   tools.   
 
-- link:accessibility.adoc[*Accessibility*] +
+- xref:accessibility.adoc[*Accessibility*] +
   Guidlines for making UI accessibile for different user groups with different 
   needs.   
 
-- link:best_practices.adoc[*Best Practices*] +
+- xref:best_practices.adoc[*Best Practices*] +
   Examples of best practices for designing and implementing some common user 
   interactions within the Eclipse platform.   
 
-- link:eclipse_ui_full_checklist.adoc[*Checklist for Developers*] +
+- xref:eclipse_ui_full_checklist.adoc[*Checklist for Developers*] +
   Collection of all Eclipse Eclipse User Interface Guidelines.
 
 
