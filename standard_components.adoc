@@ -394,7 +394,7 @@ data, or interact with the edit data at a higher level of abstraction.
 
 If you are an editor developer, the relationship between an editor and
 the Outline view is important. For more information on the collaboration
-between these two, see link:component_dev.adoc#_editors[Editors].
+between these two, see xref:component_dev.adoc#editors[Editors].
 
 == The Properties View
 
@@ -410,7 +410,7 @@ where quick access to the properties is important, and you switch from
 one object to another quickly.
 
 For more information on the use of the Properties view, or Properties
-dialog, refer to link:component_dev.adoc#_properties[Properties].
+dialog, refer to xref:component_dev.adoc#properties[Properties].
 
 == The Bookmarks View
 
@@ -427,18 +427,18 @@ at the location defined in the bookmark.
 
 If appropriate, support for the creation of new bookmark objects should
 be implemented by the editor. For more information on this, see
-link:component_dev.adoc#_editors[Editors].
+xref:component_dev.adoc#_editors[Editors].
 
 == The Text Editor
 
 The Text Editor is commonly used to edit text files. A plug-in developer
 can contribute new actions to the menu, toolbar, and context menu. This
 is done by adding an extension to the plug-in registry. For more
-information on this, see link:component_dev.adoc#_editors[Editors].
+information on this, see xref:component_dev.adoc#editors[Editors].
 
 == The Resource Perspective
 
 The Resource perspective contains a Navigator, Outline, Task view, and
 editor area. Plug-in developers may contribute a new command, action
 set, or view to the Resource perspective. For more information, refer to
-link:component_dev.adoc#_perspectives[Perspectives].
+xref:component_dev.adoc#perspectives[Perspectives].

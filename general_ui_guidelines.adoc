@@ -49,7 +49,7 @@ certainly stand out like a sore thumb in an integrated environment,
 where other tools adopt the platform conventions. You lose the benefit
 of past experience, and force your customers to learn new ideas.
 
-Consult the link:best_practices.adoc[Best Practices] section for examples
+Consult the xref:best_practices.adoc[Best Practices] section for examples
 and more information.
 
 Also, visit the https://github.com/eclipse-platform[Eclipse
@@ -116,7 +116,7 @@ images within each plug-in. This involves the separation of all
 resources from the source code of a plug-in itself, so that those
 resources can be translated to a new locale.
 
-Consult the link:best_practices.adoc[Best Practices] section for examples
+Consult the xref:best_practices.adoc[Best Practices] section for examples
 and more information.
 
 TIP: [guideline1.7]*Guideline 1.7* +
@@ -127,10 +127,10 @@ Create localized version of the resources within your plug-in.
 If an error occurs in Eclipse, the appropriate response will be
 dependent on the context of the error.
 
-Please refer to link:component_dev.adoc#wizards[Wizards] section for 
+Please refer to xref:component_dev.adoc#wizards[Wizards] section for 
 guidelines on how to handle user input errors in a wizard.
 
-Please refer to link:component_dev.adoc#editors[Editors] section for guidelines
+Please refer to xref:component_dev.adoc#editors[Editors] section for guidelines
 on how to handle errors occurring in an editor.
 
 When an error occurs which requires either an explicit user input or
