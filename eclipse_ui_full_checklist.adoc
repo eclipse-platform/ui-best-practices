@@ -1,6 +1,4 @@
 = Checklist for Developers
-:sectnums:
-:sectnumlevels: 4
 
 
 Here is a checklist for developers who are developing UI plugins. This

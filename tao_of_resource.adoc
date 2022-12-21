@@ -1,6 +1,4 @@
 = The Tao of Resource
-:sectnums:
-:sectnumlevels: 4
 
 
 In Eclipse, the notion of a tool disappears. In its place, is the idea

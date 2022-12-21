@@ -1,6 +1,4 @@
 = General UI Guidelines
-:sectnums:
-:sectnumlevels: 4
 
 
 This document defines UI guidelines that are unique and specific to the

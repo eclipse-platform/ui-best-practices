@@ -1,6 +1,4 @@
 = Quick Checklists and Top Ten Does and Dont's
-:sectnums:
-:sectnumlevels: 4
 
 
 == Quick UI Checklist

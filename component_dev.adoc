@@ -1,6 +1,4 @@
 = Component Development
-:sectnums:
-:sectnumlevels: 4
 
 
 == Commands
