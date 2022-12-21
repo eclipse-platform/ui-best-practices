@@ -3,13 +3,12 @@
 
 == Overview
 
-The following guide covers user interface (UI) graphics for Eclipse
-3.x-based tools. All visual user interface elements created for
-Eclipse-based tools follow a common style called the *_Eclipse visual
-style_* or **_Eclipse style_**. Any product, tool, or plug-in based on
-the http://www.eclipse.org[Eclipse] Workbench Version 3.0 and above
-should follow these guidelines to help ensure consistency of visual user
-interface elements. Consistency includes visual style, meaning, and
+The following guide covers user interface (UI) graphics for Eclipse-based tools. 
+All visual user interface elements created for Eclipse-based tools follow a 
+common style called the *_Eclipse visual style_* or **_Eclipse style_**. Any 
+product, tool, or plug-in based on the http://www.eclipse.org[Eclipse] Workbench
+should follow these guidelines to help ensure consistency of visual user 
+interface elements. Consistency includes visual style, meaning, and 
 implementation conventions.
 
 === Audience
@@ -35,8 +34,8 @@ such as metaphor, composition, lighting, color and more.
 
 Before beginning to design Eclipse-style icons or wizard banner
 graphics, first check if the concept or visual elements have been
-covered already. Refer to the link:#Consistency_&amp;_Reuse[Consistency
-& Reuse] and link:#Common_Elements[Common Elements] sections for these
+covered already. Refer to the xref:#_consistency_reuse[Consistency
+& Reuse] and xref:#_common_elements[Common Elements] sections for these
 elements. If designing an icon or wizard graphic from the start,
 consider the underlying concept and how it can best be represented.
 There might be an existing metaphor to appropriately convey the concept.
@@ -67,47 +66,40 @@ image. Other key features include color gradient outlines to define
 edges and strong identifiable shapes with as few combined elements as
 possible.
 
-::
-  *Lighting*
-
-::
-  For most elements, lighting is achieved with simple vertical
+Lighting::
++
+For most elements, lighting is achieved with simple vertical
   gradients. The gradients go from a lighter color at the top of the
   element to a darker color at the bottom. This approach gives subtle
   form and illuminates basic elements such as files, folders, and other
   rectilinear shapes. For spheres, triangles and more complex forms, an
   additional reflective light source is added near the base of the
   element to give it volume and to ground it in its environment.
++
+image:images/des_styl_char1.png[des_styl_char1]
+image:images/des_styl_char2.png[des_styl_char2]
 
-image::images/des_styl_char1.png[des_styl_char1,title="fig:des_styl_char1"]
-
-image::images/des_styl_char2.png[des_styl_char2,title="fig:des_styl_char2"]
-
-::
-  *Outlines*
-
-  Each element within an individual icon features a single pixel
+Outlines::
+Each element within an individual icon features a single pixel
   keyline. Solid color lines define the top and bottom edges of the
   element, and gradients define the sides. To reinforce the light source
   from the top, the keyline color goes from light at the top to dark
   color at the bottom. The gradient along the sides bridges these light
   and dark colors.
-
-  The color of the outline will vary according to the color of the
++
+The color of the outline will vary according to the color of the
   individual element. In the example below, the file has a dark
   grayish-blue base and a light ochre color top. This is a standard
   color outline for this type of object. You will see that other
   elements use standard color outlines as well. Read more about standard
-  colors under Color below, and use the link:#Common_Elements[Common
+  colors under Color below, and use the xref:#_common_elements[Common
   Elements] design resource for reusable elements.
++
+image::images/des_styl_char3.png[des_styl_char3]
 
-image::images/des_styl_char3.png[des_styl_char3,title="fig:des_styl_char3"]
-
-::
-  *Style differences between types*
-
-::
-  *_View_* (includes Perspective and Fast View), *_Model Object_*
+Style differences between types::
++
+*_View_* (includes Perspective and Fast View), *_Model Object_*
   (includes Table), **_Object Overlay_**, **_Progress Indicator_**, and
   *_Diagram_* icons have more saturated color and higher contrast than
   Toolbar, Local Toolbar, and Palette icons. It is important these icons
@@ -116,9 +108,8 @@ image::images/des_styl_char3.png[des_styl_char3,title="fig:des_styl_char3"]
   object type icons, they are less, or not, accessible to persons with
   low or no vision. Increased saturation and contrast helps compensate
   for this.
-
-::
-  **_Toolbar_**, **_Toolbar Wizard_**, **_Local Toolbar_**, and
++
+**_Toolbar_**, **_Toolbar Wizard_**, **_Local Toolbar_**, and
   *_Palette_* icons have a more subtle approach to color and contrast
   than their object-based counterparts. These icons are more subtle
   because they are reliably present in the user interface and should not
@@ -127,27 +118,23 @@ image::images/des_styl_char3.png[des_styl_char3,title="fig:des_styl_char3"]
   the outlines, instead of black, means the images are not lost if
   people choose to work in a high-contrast (usually black) accessibility
   mode.
-
-::
-  A subset of core reusable elements illustrate this distinction best:
++
+A subset of core reusable elements illustrate this distinction best:
   Project, File, and Database elements each have a rich saturated
   version for the treeview and a light subtle version for the toolbar
   and local toolbar. Look for these differences in other icons within
   the link:#Common_Elements[Common Elements] files.
-
-::
-  Here are the Project, File, and Database icons rendered as model
++
+Here are the Project, File, and Database icons rendered as model
   objects:
-
-image::images/des_styl_types_obj.png[des_styl_types_obj,title="fig:des_styl_types_obj"]
-
-::
-  Here are the same icons rendered in the more low-key toolbar style:
-
-image::images/des_styl_types_tool.png[des_styl_types_tool,title="fig:des_styl_types_tool"]
++
+image::images/des_styl_types_obj.png[des_styl_types_obj]
++
+Here are the same icons rendered in the more low-key toolbar style:
++
+image::images/des_styl_types_tool.png[des_styl_types_tool]
 
 ===== Composition
-
 Aim for simplicity. Bring focus to the primary function or object within
 an icon by using different visual cues, such as color, contrast,
 lighting, size and location to differentiate elements. To improve
@@ -160,73 +147,57 @@ patterns: using a consistent location for visual elements, when
 possible, establishes a pattern that is useful for identifying the
 object type or function of an individual or set of icons.
 
-::
-  *Actions*
-
-::
-  Actions in toolbar and local toolbar icons tend to be on the left of
+Actions::
+Actions in toolbar and local toolbar icons tend to be on the left of
   the icon and identify a command that will be performed on an object or
   set of objects. For example, the following icon represents "Deploy
   Script" on the toolbar. The action "deploy" is represented by a green
-  arrow on the left of the script object:
-
-image::images/des_styl_runscpt.png[des_styl_runscpt,title="fig:des_styl_runscpt"]
-
-::
-  However, not all actions are located on the left. To convey the
+  arrow on the left of the script object: + 
+image:images/des_styl_runscpt.png[des_styl_runscpt]
++
+However, not all actions are located on the left. To convey the
   intended meaning of a concept or to accommodate the context of the
   icon in the user interface, diverging from convention is sometimes
   required. Here are some actions that are notable exceptions to the
   action-on-the-left convention:
-
-::
-  *_Create_* or *_New_* is represented by a sparkle in the upper-right
++
+*_Create_* or *_New_* is represented by a sparkle in the upper-right
   corner to denote the creation of a sparkling "new" object. The
   sparkle, though an object itself, is a metaphor for creating something
   new. Its location in the icon space is precisely 1 pixel down from the
   top and flush with the right edge of the 16 x 16 icon space. Using
   this exact location ensures a clean uncluttered presentation when seen
   across a number of "new" action icons on the toolbar or in the menu.
-  For example:
-
-image::images/des_styl_create2.png[des_styl_create2,title="fig:des_styl_create2"]
-
-::
-  **_Import_**, when associated with an object, is represented by an
+  For example: +
+image:images/des_styl_create2.png[des_styl_create2]
++
+**_Import_**, when associated with an object, is represented by an
   arrow in the bottom-right corner facing downward and to the right.
   Location and direction are important here to convey that an object
   will be imported from another location into the workbench. Note that
   its counterpart, **_Export_**, follows the action-on-the-left
   convention with an arrow in the bottom-left corner because this
   location and direction is appropriate for denoting that an object will
-  be exported from the workbench to another location.
-
-image::images/des_styl_export.png[des_styl_export,title="fig:des_styl_export"]
-
-::
-  *_Open_* is represented by a curved arrow in the upper-right corner of
+  be exported from the workbench to another location. +
+image:images/des_styl_export.png[des_styl_export]
++
+*_Open_* is represented by a curved arrow in the upper-right corner of
   the icon. The location, shape, and direction of the arrow indicate
   that the object is being opened. This action is used mostly on book-
-  or file-type objects. For example:
-
-image::images/des_styl_open.png[des_styl_open,title="fig:des_styl_open"]
-
-::
-  *_Pin_* is represented by a pushpin on the right of the object. The
+  or file-type objects. For example: +
+image:images/des_styl_open.png[des_styl_open]
++
+*_Pin_* is represented by a pushpin on the right of the object. The
   "Pin Fast View" icon is located on the right side of a view title bar.
   The location of the icon and the action within the icon indicate the
   side where the view will be pinned—on the right. Because of this
   location, the pin is pointing inward toward the object to be pinned.
   Placing the pin on the left would not work as well given the context
-  and literal action of the icon.
+  and literal action of the icon. + 
+image:images/des_styl_pin.png[des_styl_pin]
 
-image::images/des_styl_pin.png[des_styl_pin,title="fig:des_styl_pin"]
-
-::
-  *Objects*
-
-::
-  Objects are stacked vertically, often in large number, within
+Objects::
+Objects are stacked vertically, often in large number, within
   treeviews and lists. Because of this stacking, attention to the
   alignment of objects within the icon design space is important. This
   is particularly true of repeated objects that use the same elements.
@@ -236,35 +207,26 @@ image::images/des_styl_pin.png[des_styl_pin,title="fig:des_styl_pin"]
   the difference between aligned and not aligned objects, first, here is
   an example showing the base element—in this case the yellow folder—not
   aligned the same throughout a series of icons. The result is a choppy,
-  harder to scan treeview or list:
-
-image::images/des_styl_obj-unalign.png[des_styl_obj-unalign,title="fig:des_styl_obj-unalign"]
-
-::
-  Second, here is an example showing the same base folder element
+  harder to scan treeview or list: +
+image:images/des_styl_obj-unalign.png[des_styl_obj-unalign]
++
+Second, here is an example showing the same base folder element
   aligned throughout the set. The result is a clean, easier to scan
-  treeview or list:
+  treeview or list: +
+image:images/des_styl_obj-align.png[des_styl_obj-align]
 
-image::images/des_styl_obj-align.png[des_styl_obj-align,title="fig:des_styl_obj-align"]
-
-::
-  *States*
-
-::
-  States are the result of a direct of indirect action on an object.
+States::
+States are the result of a direct of indirect action on an object.
   Once an action is taken on an object, the object reflects that action
   by showing its state. This state is generally shown on the right side
   of the icon. For example, invoking the action "Run on Server" will
   show the server running in the Servers view with a green arrow run
-  action on the right side of the server object.
-
-image::images/des_styl_state-start.png[des_styl_state-start,title="fig:des_styl_state-start"]
-
-::
-  Stopping the server will show the blue square stop action on the right
-  of the server object.
-
-image::images/des_styl_state-stop.png[des_styl_state-stop,title="fig:des_styl_state-stop"]
+  action on the right side of the server object. +
+image:images/des_styl_state-start.png[des_styl_state-start]
++
+Stopping the server will show the blue square stop action on the right
+  of the server object. +
+image:images/des_styl_state-stop.png[des_styl_state-stop]
 
 ===== Color Palette & Themes
 
@@ -283,102 +245,87 @@ within the Eclipse environment.
 To achieve a consistent appearance in graphics across the UI, use a
 common color palette as the basis for creating your graphical elements.
 
-::
-  Eclipse-based graphics tend to use a common or dominant set of colors:
+Eclipse-based graphics tend to use a common or dominant set of colors:
   Blue and yellow are the base colors, with green, red, brown, purple,
   and beige used for signifying specific object types or functions. Here
   is the palette, with a number of examples of how its different colors
   are used.
 
-image::images/des_colour_pal.png[des_colour_pal,title="fig:des_colour_pal"]
+image::images/des_colour_pal.png[des_colour_pal]
 
-::
-  The *_Eclipse-style palette_* contains the core and dominant colors
+The *_Eclipse-style palette_* contains the core and dominant colors
   used in Eclipse-based icons, wizard banner graphics, and user
   assistance graphics. You can download the palette in the
-  https://git.eclipse.org/c/platform/eclipse.platform.images.git/plain/org.eclipse.images/tools/eclipse-style_palette.aco[".aco"],
-  https://git.eclipse.org/c/platform/eclipse.platform.images.git/plain/org.eclipse.images/tools/eclipse-style_palette.ai[".ai"]
+  https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.aco[".aco"],
+  https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/tools/eclipse-style_palette.ai[".ai"]
   and
-  https://git.eclipse.org/c/platform/eclipse.platform.images.git/plain/org.eclipse.images/tools/eclipse-style_palette.gpl[".gpl"]
+  https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.gpl[".gpl"]
   file format.
 
-image::images/des_styl_blueyellow.png[des_styl_blueyellow,title="fig:des_styl_blueyellow"]
+image::images/des_styl_blueyellow.png[des_styl_blueyellow]
 
-::
-  The two dominant colors, *_blue_* and **_yellow_**, bring harmony to
+The two dominant colors, *_blue_* and **_yellow_**, bring harmony to
   the overall presentation of the user interface. Themselves
   complementary, blue and yellow form a base on which to apply accent
   colors. These few examples show blue and yellow as the common base for
   different icons, and how other accent colors have been applied to help
   convey a concept.
 
-image::images/des_styl_green.png[des_styl_green,title="fig:des_styl_green"]
+image::images/des_styl_green.png[des_styl_green] 
 
-::
-  *_Green_* is often used to indicate that something is being run or
+*_Green_* is often used to indicate that something is being run or
   initiated, and as a common accent color. The actions "run" and "play"
   are prime examples of how the color green is applied to support a
   concept.
 
-image::images/des_styl_red.png[des_styl_red,title="fig:des_styl_red"]
+image::images/des_styl_red.png[des_styl_red]
 
-::
-  *_Red_* is used to indicate an error or to signal an alert, but red is
+*_Red_* is used to indicate an error or to signal an alert, but red is
   also used in real-world objects that are typically red.
 
-image::images/des_styl_brown.png[des_styl_brown,title="fig:des_styl_brown"]
+image::images/des_styl_brown.png[des_styl_brown]
 
-::
-  *_Brown_* is used less than the other colors mentioned, but it is
+*_Brown_* is used less than the other colors mentioned, but it is
   generally associated with specific types of objects: the Java
   "package", "bundle", and the "Enterprise Java Bean (EJB)".
 
-image::images/ddes_styl_purple-alt.png[ddes_styl_purple-alt,title="fig:ddes_styl_purple-alt"]
+image::images/ddes_styl_purple-alt.png[ddes_styl_purple-alt]
 
-::
-  *_Purple_* is associated with “Web Site" or "Site Project", plugin
+*_Purple_* is associated with “Web Site" or "Site Project", plugin
   "fragment", and Java "Interface”.
 
-image::images/ddes_styl_beige.png[ddes_styl_beige,title="fig:ddes_styl_beige"]
+image::images/ddes_styl_beige.png[ddes_styl_beige]
 
-::
-  *_Beige_* is associated with "template" and "generic" objects. While
+*_Beige_* is associated with "template" and "generic" objects. While
   not limited to these two object types, beige is usually reserved for
   placeholder or unrealized objects.
 
 ===== Tips and Tricks
 
-::
-  *1. Use color from existing graphics*
-   To quickly make graphics that are consistent with the Eclipse style
-  without having to use the palette directly, select colors from
-  existing Eclipse-based icons and wizards.
+. *Use color from existing graphics* to quickly make graphics that are 
+  consistent with the Eclipse style without having to use the palette directly, 
+  select colors from existing Eclipse-based icons and wizards.
 
-::
-  *2. Consider the background*
-   When designing an icon, keep in mind the background color it will sit
-  on. The various browsers and operating systems allow custom window
-  backgrounds that people can set according to their own preferences. It
-  is not always possible to know if an icon will be used in different
-  places in the user interface, but generally, the background will be
-  either white or a warm or cool mid-tone grey. Whether it is white or
-  grey will depend on the icon type. **_Model Object_**, **_Object
-  Overlay_**, and *_Diagram_* icons are usually on a white background,
-  whereas **_Toolbar_**, **_Toolbar Wizard_**, **_Local Toolbar_**, and
-  *_Palette_* icons usually sit on a mid-tone grey background.
-
-::
-  To achieve the best quality of color and edge treatment, test your
+. *Consider the background* when designing an icon, keep in mind the background 
+  color it will sit on. The various browsers and operating systems allow custom 
+  window   backgrounds that people can set according to their own preferences. 
+  It is not always possible to know if an icon will be used in different places 
+  in the user interface, but generally, the background will be either white or a
+  warm or cool mid-tone grey. Whether it is white or grey will depend on the 
+  icon type. **_Model Object_**, **_Object Overlay_**, and *_Diagram_* icons are
+  usually on a white background, whereas **_Toolbar_**, **_Toolbar Wizard_**, 
+  **_Local Toolbar_**, and *_Palette_* icons usually sit on a mid-tone grey 
+  background.
++
+To achieve the best quality of color and edge treatment, test your
   icons across all known targeted operating system theme backgrounds.
   Modify the icons where needed to work well on most, if not all, of the
   backgrounds. Here is an example of testing a View icon with the
   different operating system theme selection colors, and a set of
-  Toolbar icons on a number of known backgrounds:
-
-image::images/des_bkgd_color.png[des_bkgd_color,title="fig:des_bkgd_color"]
-
-::
-  Antialiasing the edges is suitable if you know the background color.
+  Toolbar icons on a number of known backgrounds: +
+image:images/des_bkgd_color.png[des_bkgd_color]
++
+Antialiasing the edges is suitable if you know the background color.
   Since knowing the background color is not always possible, using
   medium to dark pixels on the edges will help ensure that the icon
   works well on most backgrounds. Using lighter edge pixels can result
@@ -386,87 +333,63 @@ image::images/des_bkgd_color.png[des_bkgd_color,title="fig:des_bkgd_color"]
   background. This is especially true of rounded shapes on dark
   backgrounds. The following example illustrates the effect of using
   lighter pixels on a round icon that sits on a medium to dark color
-  background:
-
-image::images/des_styl_bg1.png[des_styl_bg1,title="fig:des_styl_bg1"]
-
-::
-  This example shows the same icon on the same background, but with
-  darker edge pixels:
-
-image::images/des_styl_bg2.png[des_styl_bg2,title="fig:des_styl_bg2"]
-
-::
-  In some special cases, a single icon may appear on multiple
+  background: +
+image:images/des_styl_bg1.png[des_styl_bg1]
++
+This example shows the same icon on the same background, but with
+  darker edge pixels: +
+image:images/des_styl_bg2.png[des_styl_bg2]
++
+In some special cases, a single icon may appear on multiple
   backgrounds and will need to be designed specifically for each case.
 
-::
-  *3. Download the palette*
-
-::
-  You can download the palette in the
-  https://git.eclipse.org/c/platform/eclipse.platform.images.git/plain/org.eclipse.images/tools/eclipse-style_palette.aco[".aco"],
-
-https://git.eclipse.org/c/platform/eclipse.platform.images.git/plain/org.eclipse.images/tools/eclipse-style_palette.ai[".ai"]
+. *Download the palette* + 
+You can download the palette in the
+https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.aco[".aco"],
+https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.ai[".ai"],
 and
-https://git.eclipse.org/c/platform/eclipse.platform.images.git/plain/org.eclipse.images/tools/eclipse-style_palette.gpl[".gpl"]
+https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.gpl[".gpl"]
 file format.
-
-::
-  If you are using The GIMP, you can download the eclipse palette in the
-  https://git.eclipse.org/c/platform/eclipse.platform.images.git/plain/org.eclipse.images/tools/eclipse-style_palette.gpl[".gpl"]
-  file format.
-
-::
-  To load the palette in Adobe Photoshop, open the "Swatches" palette
++
+To load the palette in Adobe Photoshop, open the "Swatches" palette
   and choose "Load Swatches..."; then navigate to where you saved the
-  https://git.eclipse.org/c/platform/eclipse.platform.images.git/plain/org.eclipse.images/tools/eclipse-style_palette.aco
+  https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.aco
   "eclipse-style_palette.aco"] palette.
-
-::
-  To load the palette in Adobe Illustrator, first save the
-
-https://git.eclipse.org/c/platform/eclipse.platform.images.git/plain/org.eclipse.images/tools/eclipse-style_palette.ai["eclipse-style_palette.ai"]
++
+To load the palette in Adobe Illustrator, first save the
+https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.ai["eclipse-style_palette.ai"]
 palette in the Adobe Illustrator > Presets > Swatches folder. If you
 have Adobe Illustrator already open, you will need to restart it after
 adding this file. Once you restart Illustrator, go to Windows > Swatch
 Libraries and choose the "eclipse-style_palette.ai" palette from the
 list.
-
-::
-  To use the palette in The GIMP open the "Palettes" dialog and choose
-  "Import Palette" entry from the context menu.
-
-::
-  The
-  https://git.eclipse.org/c/platform/eclipse.platform.images.git/plain/org.eclipse.images/tools/eclipse-style_palette.gpl[".gpl"]
++
+To use the 
+https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.gpl[".gpl"] palette in The GIMP open the "Palettes" dialog and choose
+  "Import Palette" entry from the context menu. 
++
+The
+  https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.gpl[".gpl"]
   file format can also be used in Inkscape. Just copy the palette file
   into the user's profile into the "/~/.config/inkscape/palettes"
   folder.
-
-::
-  Save your images with the palette as a base
-
-::
-  In Adobe Photoshop, when an image is complete and ready to be saved to
++
+Save your images with the palette as a base
++
+In Adobe Photoshop, when an image is complete and ready to be saved to
   GIF, index the image to "exact" color. This indexing preserves all of
   the colors the graphic was created with, including any colors you have
   added that are not contained in the base palette.
-
-::
-  In The GIMP, simply Save As GIF.
-
-::
-  *Related Information*
-
-::
-  This information replaces that provided in the Eclipse UI Guidelines
-  2.1, in the section titled “Visual Design – Icon Palettes” (Guidelines
-  2.2-2.4):
-  http://www.eclipse.org/articles/Article-UI-Guidelines/Index.html
-
-::
-  The GIMP User Manual is available online at: http://www.gimp.org/docs/
++
+In The GIMP, simply Save As PNG.
++
+Related Information::
+  This information replaces that provided in the 
+  http://www.eclipse.org/articles/Article-UI-Guidelines/Index.html[Eclipse UI 
+  Guidelines, Version 2.1], in the section titled “Visual Design – Icon 
+  Palettes” (Guidelines 2.2-2.4):
++ 
+The GIMP User Manual is available online at: http://www.gimp.org/docs/
 
 ==== Wizard Banner Graphics
 
@@ -480,11 +403,8 @@ three-dimensional form. Wizard banner graphics have the attribute of
 being larger than the icons, which allows for application of a more
 intricate, illustrative rendering style with more complex lighting.
 
-::
-  *Lighting*
-
-::
-  Lighting for the wizard banner graphics can be a simple unidirectional
+Lighting::
+Lighting for the wizard banner graphics can be a simple unidirectional
   source or a complex multidimensional source, depending on the shape of
   the elements in the graphic. Unlike the icons, where the light source
   tends to come directly from above, the wizard graphics are lit mainly
@@ -492,49 +412,39 @@ intricate, illustrative rendering style with more complex lighting.
   graphic, and have the added visual dimension of a cast shadow. The
   three-dimensional look is achieved by using color blends and gradients
   in Adobe Illustrator to render the highlights, mid-tones, shadows, and
-  reflected light.
+  reflected light. +     
+image:images/des_styl_wiz_lighting.png[des_styl_wiz_lighting]
 
-image::images/des_styl_wiz_lighting.png[des_styl_wiz_lighting,title="fig:des_styl_wiz_lighting"]
-
-::
-  *Shadow*
-
-::
-  For rectilinear objects, such as folders and files, an additional
+Shadow::
+For rectilinear objects, such as folders and files, an additional
   light source is implied from the left-front of the graphic, casting a
   shadow to the right of the graphic. This shadow is angled backward—to
   the right-back—at 45 degrees. When designing these types of graphics,
   consider the space the shadow will require by locating the graphical
-  elements on the left side of the designated image area.
-
+  elements on the left side of the designated image area. 
++   
 image::images/des_styl_wiz_shadow1.png[des_styl_wiz_shadow1,title="fig:des_styl_wiz_shadow1"]
-
-::
-  Spherical objects have a different shadow treatment than their
++
+Spherical objects have a different shadow treatment than their
   rectangular counterparts. The shadow is positioned directly below the
   object and is elliptical in shape. The sphere touches the shadow,
   which has the effect of grounding the sphere to the surface below. Use
   this type of shadow for spherical and flat-bottomed round objects,
   such as the "Java Method" sphere and "Service" bell, which are
-  centered in the designated image area.
-
-image::images/des_styl_wiz_shadow2.png[des_styl_wiz_shadow2,title="fig:des_styl_wiz_shadow2"]
-
-::
-  Floating objects have a similar shadow to spherical objects in that
+  centered in the designated image area. + 
+image:images/des_styl_wiz_shadow2.png[des_styl_wiz_shadow2] 
++ 
+Floating objects have a similar shadow to spherical objects in that
   the shadow is also elliptical in shape and positioned below the
   object. However, unlike the shadow for spherical objects, it does not
   touch the object. The object floats above the surface and casts a
   shadow directly below it. Use this type of shadow for elements that
-  are centered and floating within the designated image area.
-
+  are centered and floating within the designated image area. 
++ 
 image::images/des_styl_wiz_shadow3.png[des_styl_wiz_shadow3,title="fig:des_styl_wiz_shadow3"]
 
-::
-  *Outlines*
-
-::
-  Each element within an individual wizard graphic has a keyline to
+Outlines::
+Each element within an individual wizard graphic has a keyline to
   define its outer edges. Solid color lines define the top and bottom
   edges of the element. Gradients define the sides, going from a dark
   color at the bottom to a light color at the top. This approach applies
@@ -546,20 +456,16 @@ image::images/des_styl_wiz_shadow3.png[des_styl_wiz_shadow3,title="fig:des_styl_
   examples use established outline treatments and colors. Standard
   outline colors exist for many elements. To read more about the
   standard colors, see Color below, and use the
-  link:#Common_Elements[Common Elements] design resource for reusable
+  link:#_common_elements[Common Elements] design resource for reusable
   elements.
-
-::
-  Here is an example of a gradient used to define the edges of a wizard
-  graphic:
-
-image::images/des_styl_wiz_outline1.png[des_styl_wiz_outline1,title="fig:des_styl_wiz_outline1"]
-
-::
-  Here is an example of a flat outline used to define the edges of a
-  wizard graphic:
-
-image::images/des_styl_wiz_outline2.png[des_styl_wiz_outline2,title="fig:des_styl_wiz_outline2"]
++
+Here is an example of a gradient used to define the edges of a wizard
+  graphic: + 
+image:images/des_styl_wiz_outline1.png[des_styl_wiz_outline1,title="fig:des_styl_wiz_outline1"]
++
+Here is an example of a flat outline used to define the edges of a
+  wizard graphic: + 
+image:images/des_styl_wiz_outline2.png[des_styl_wiz_outline2,title="fig:des_styl_wiz_outline2"]
 
 ===== Composition
 
@@ -567,11 +473,8 @@ Composition of elements within wizard graphics follows most of the same
 practices described for icons. There are a few wizard-specific
 compositional concerns to be aware of for actions, objects, and states:
 
-::
-  *Actions*
-
-::
-  Actions in wizard banner graphics are generally shown in the same
+[horizontal]
+Actions:: in wizard banner graphics are generally shown in the same
   location as they are in the icon that launches them. A notable
   exception is the "create" sparkle, which is not shown at all in the
   wizard banner image. When in the toolbar wizard, the action is to
@@ -579,19 +482,11 @@ compositional concerns to be aware of for actions, objects, and states:
   object is in the process of being created so the action is no longer
   necessary.
 
-::
-  *Objects*
-
-::
-  Objects, when overlapping, need to be clearly separated to ensure a
+Objects,:: when overlapping, need to be clearly separated to ensure a
   legible image. The technique used in wizard banner graphics is to put
   a light glow around the front-most object.
 
-::
-  *States*
-
-::
-  States of objects, once in the wizard, change to what the state will
+States:: of objects, once in the wizard, change to what the state will
   be once the object is created. The most common example of this is the
   folder state: it is closed when in a toolbar wizard icon, but open
   when in a wizard banner graphic because it will be open once in a
@@ -612,59 +507,49 @@ elements and should be reused for like elements to maintain consistency,
 meaning, and identity. The following examples show how the different
 categories of color are applied to wizard banner graphics.
 
-image::images/des_styl_wiz_blueyellow.png[des_styl_wiz_blueyellow,title="fig:des_styl_wiz_blueyellow"]
+image::images/des_styl_wiz_blueyellow.png[des_styl_wiz_blueyellow]
 
-::
-  *_Blue_* and **_yellow_**, as with the icons, are the two dominant
+*_Blue_* and **_yellow_**, as with the icons, are the two dominant
   colors and are used as a basis for many user interface graphics.
 
-image::images/des_styl_wiz_green.png[des_styl_wiz_green,title="fig:des_styl_wiz_green"]
+image::images/des_styl_wiz_green.png[des_styl_wiz_green]
 
-::
-  **_Green_**, as with the icons, is often used to indicate that
+**_Green_**, as with the icons, is often used to indicate that
   something is being run or initiated, and as a common accent color. The
   actions "run" and "play" are primary examples of how green is applied
   to support the concept.
 
-image::images/des_styl_wiz_red.png[des_styl_wiz_red,title="fig:des_styl_wiz_red"]
+image::images/des_styl_wiz_red.png[des_styl_wiz_red]
 
-::
-  **_Red_**, as with the icons, is used to indicate an error or to
+**_Red_**, as with the icons, is used to indicate an error or to
   signal an alert. It is also used for images that are typically red,
   such as a thermometer.
 
-image::images/des_styl_wiz_brown.png[des_styl_wiz_brown,title="fig:des_styl_wiz_brown"]
+image::images/des_styl_wiz_brown.png[des_styl_wiz_brown]
 
-::
-  **_Brown_**, as with the icons, is used to a lesser extent than the
+**_Brown_**, as with the icons, is used to a lesser extent than the
   other colors noted, but it is generally associated with very specific
   types of objects. These objects are the Java "package", "bundle", and
   the "Enterprise Java Bean (EJB)".
 
-image::images/des_styl_wiz_purple.png[des_styl_wiz_purple,title="fig:des_styl_wiz_purple"]
+image::images/des_styl_wiz_purple.png[des_styl_wiz_purple]
 
-::
-  **_Purple_**, as with the icons, is associated with Java "Interface",
+**_Purple_**, as with the icons, is associated with Java "Interface",
   plugin "fragment", and "Web Site" or "Site Project".
 
-image::images/des_styl_wiz_beige.png[des_styl_wiz_beige,title="fig:des_styl_wiz_beige"]
+image::images/des_styl_wiz_beige.png[des_styl_wiz_beige]
 
-::
-  **_Beige_**, as with the icons, is associated with "template" and
+**_Beige_**, as with the icons, is associated with "template" and
   "generic" objects. While not limited to these two object types, beige
   is usually reserved for placeholder or unrealized objects.
 
-::
-  *Background color*
-
-::
-  The background for wizard banners is part of the final graphic. It is
+Background color::
+The background for wizard banners is part of the final graphic. It is
   a light blue curvilinear element that does not vary. However, the
   background color of the banner area does vary from one operation
   system and theme to another.
-
-::
-  Previous to Eclipse 3.3, all wizard banner graphics were in GIF
++
+Previous to Eclipse 3.3, all wizard banner graphics were in GIF
   format, which meant that the blue curvilinear element blended to a
   white background that was part of the final cut image. This worked
   well on standard Windows and OSX themes that have a white banner
@@ -705,21 +590,21 @@ might need already exist. Samples of existing core concepts for icons
 and wizard graphics are shown below. Each of these elements carries with
 it a specific meaning, so care should be taken when using them to ensure
 consistent meaning is maintained. A more extensive collection of common
-visual elements can be found on the link:#Common_Elements[Common
+visual elements can be found on the xref:#_common_elements[Common
 Elements] page.
 
 ==== Core icon concepts
 
-image::images/des_cons_core-icons.png[des_cons_core-icons,title="des_cons_core-icons"]
+image::images/des_cons_core-icons.png[des_cons_core-icons]
 
-Click Media:core_icon_concepts.zip[ *here*] or on the image above to
+Click link:media/core_icon_concepts.zip[*here*] or on the image above to
 download the "core_icon_concepts.psd".
 
 ==== Core wizard graphic concepts
 
-image::images/des_cons_core-wiz.png[des_cons_core-wiz,title="des_cons_core-wiz"]
+image::images/des_cons_core-wiz.png[des_cons_core-wiz]
 
-Click Media:core_wizard_concepts.zip[ *here*] or on the image above to
+Click link:media/core_wizard_concepts.zip[ *here*] or on the image above to
 download the "core_wizard_concepts.ai" and the
 "core_wizard_concepts.psd" files.
 
@@ -739,20 +624,18 @@ elements and promote consistency throughout the user interface.
 
 ==== Icon elements
 
-image::images/des_common_icons.png[des_common_icons,title="fig:des_common_icons"]
+image::images/des_common_icons.png[des_common_icons]
 
-::
-  Click Media:common_icon_elements.zip[ *here*] to download the
+Click link:media/common_icon_elements.zip[ *here*] to download the
   “common_icon_elements_eclipse-proj.psd” for Eclipse Project icons and
   the "common_icon_elements_eclipse-tools.psd" file for a subset of
   icons related to Eclipse-based tools.
 
 ==== Wizard elements
 
-image::images/des_common_wiz.png[des_common_wiz,title="fig:des_common_wiz"]
+image::images/des_common_wiz.png[des_common_wiz]
 
-::
-  Click Media:common_wizard_elements.zip[ *here*] to download the
+Click link:media/common_wizard_elements.zip[ *here*] to download the
   "common_wizard_elements.ai" vector-based file for designing wizard
   banner graphics and the "common_wizard_elements.psd" raster-based file
   for cutting them.
@@ -791,7 +674,7 @@ The disabled icon state is a dimmed version of the enabled color
   adjusting the saturation and lightness as you will see in the
   automated action below:
 
-image::images/des_states_enab-disab.png[des_states_enab-disab,title="fig:des_states_enab-disab"]
+image::images/des_states_enab-disab.png[des_states_enab-disab]
 
 NOTE: It is important to implement the graphical versions of the
   disabled state for toolbar and local toolbar icons. The quality and
@@ -802,7 +685,7 @@ NOTE: It is important to implement the graphical versions of the
 ===== Creating the disabled icon state
 To create this state, you will use the
   "eclipse_disabledrender_R3V6.atn" action in the Eclipse-style Actions
-  palette. Click Media:eclipse-style_actions.zip[ *here*] to download
+  palette. Click link:media/eclipse-style_actions.zip[*here*] to download
   the Eclipse-style Actions.
 
 1.  Load the "eclipse_disabledrender_R3V6.atn" into the the Adobe
@@ -838,7 +721,7 @@ The toggled state is used on toolbars, local toolbars, and in menus.
   that accompany them, should persist from one state to the next. The
   only thing that changes is the position of the button. For example:
 
-image::images/des_states_toggles.png[des_states_toggles,title="fig:des_states_toggles"]
+image::images/des_states_toggles.png[des_states_toggles]
 
 
 Sometimes a toggle is not a simple on/off state. For example, there
@@ -867,7 +750,7 @@ One notable exception to open folders in the treeview is when used to
   represent a “group”, as is the case with high-level project groupings
   in the Project Explorer View. These are shown with closed folders.
 
-image::images/des_states_folders.png[des_states_folders,title="fig:des_states_folders"]
+image::images/des_states_folders.png[des_states_folders]
 
 NOTE: All instructions for creating visual elements are based on using
 Adobe Photoshop 7.0 and above and Adobe Illustrator 9.0 and above. If
@@ -885,7 +768,7 @@ interface graphics. A description of the templates and guidance on how
 to work with them is provided to help you get started quickly and
 working effectively.
 
-All design templates Media:eclipse3.0_UI_Design_resources.zip[ *here*].
+All design templates link:media/eclipse3.0_ui_design_resources.zip[*here*].
 
 This section provides design files for producing different types of user
 interface graphics. A description of the templates and guidance on how
@@ -898,30 +781,32 @@ tool.
 
 ==== Icon Design Template
 
-1.  *Populating the template* : Fill out the
-Media:eclipse3.0_UI_Design_resources.zip[ *icon_design_template.psd*]
+. *Populating the template:* Fill out the
+link:media/eclipse3.0_ui_design_resources.zip[*icon_design_template.psd*]
 file with the names of all known required icons separated by type, for
 example view, toolbar, and model object. Feel free to add or remove rows
 as you need them. Each plug-in should have its own separate Photoshop
 document (PSD). If you have access to old icon files, these can be
 placed into the **orig**. (original) column as a reference or starting
 point.
-2.  *Designing the icons* : Before beginning to design Eclipse-style
+
+. *Designing the icons:* Before beginning to design Eclipse-style
 icons or wizard banner graphics, first check if the concept or visual
 elements have been covered already. See the
-link:#Consistency_&_Reuse[Consistency and Reuse] and
-link:#Common_Elements[Common Elements] sections.
+xref:#_consistency_reuse[Consistency and Reuse] and
+xref:#_common_elements[Common Elements] sections.
 +
 Create initial passes of your ideas, and then place them in the
 template. Up to five different concepts for any given icon can be placed
-in the version cells provided, i.e., columns **A**, **B**, **C**, *D*
+in the version cells provided, i.e., columns **A**, **B**, **C**, *D*,
 and **E**.
 +
 When you are satisfied with the results, mark the icons you think are
 the strongest candidates with boxes on the *preferred (black)* layer,
 and send to the requester for feedback in the form of a flattened GIF
 image.
-3.  *Revising the original concept* : It is likely that revisions to the
+
+. *Revising the original concept:* It is likely that revisions to the
 first pass will be required. If there is room, revised icons can be
 placed in the version cells next to the first pass ones. If you run out
 of cells or need to erase any previous icon concepts, but do not want to
@@ -932,43 +817,48 @@ Once the icons have been approved, move the chosen images to the cut
 column. To ensure they are positioned properly within the allotted
 screen space, turn on the cut layer (pink) in the PSD. For guidance on
 size and placement of different types of icons, see the
-link:#Icon_Size_&_Placement[Icon Size and Placement] section.
-4.  *Creating the disabled versions* : See the link:#States[States]
+xref:#_icon_size_placement[Icon Size and Placement] section.
+
+. *Creating the disabled versions:* See the link:#_states[States]
 section for instructions on creating the disabled state for Toolbar and
 Local Toolbar icons.
-5.  *Cutting the icons* : See the link:#Cutting_Actions[Cutting Actions]
+
+. *Cutting the icons:* See the link:#_cutting_actions[Cutting Actions]
 section for instructions on cutting the final images for delivery.
-6.  *Marking revised icons* : It is likely that even after the icons
+
+. *Marking revised icons:* It is likely that even after the icons
 have been cut and delivered to the developer, further revisions will be
 required or entirely new icons may be requested. To keep track of which
 icons and their instances need to be cut or re-cut, a red box can be
 placed around each, using the *cut or re-cut (red)* layer.
 
-=== Wizard Design Template
+==== Wizard Design Template
 
-1.  *Populating the vector-based template* : Fill out the vector-based
-template Media:eclipse3.0_UI_Design_resources.zip[
-vector-wizard_design_template.ai] with the names of all required wizard
+. *Populating the vector-based template:* Fill out the vector-based
+template 
+link:media/eclipse3.0_ui_design_resources.zip[vector-wizard_design_template.ai] 
+with the names of all required wizard
 banner graphics. As with the Icon Template, you can add or remove rows
 to suit the number of graphics you will be creating. If you have access
 to the related toolbar wizard icon file, add it to the file as a primary
 starting point. If you have access to old wizard graphics, these can be
 placed into the **orig**. (original) column as a secondary starting
 point.
-2.  *Designing the wizard banner graphics* : Before beginning to design
+
+. *Designing the wizard banner graphics:* Before beginning to design
 Eclipse-style wizard banner graphics, first check if the toolbar icon
 that launches the wizard has been created already. This will provide the
 basis of your design. Also, check if any of the visual elements that
 will be part of the wizard graphic have been created already in Adobe
-Illustrator. See the link:#Consistency_&_Reuse[Consistency and Reuse]
-and link:#Common_Elements[Common Elements] sections for existing
+Illustrator. See the xref:#_consistency_reuse[Consistency and Reuse]
+and xref:#_common_elements[Common Elements] sections for existing
 elements.
 +
 The concept for a wizard banner should be closely aligned with, if not
 identical to, the toolbar wizard icon that launches the wizard dialog.
 Create an initial pass of each image on the *New Wizard graphics* layer,
 following the wizard banner stylistic treatment detailed in the
-link:#Style_&_Design[Style & Design] section. As with the icons, more
+xref:#_style_design[Style & Design] section. As with the icons, more
 than one pass on the design may be required before coming to the final
 design.
 +
@@ -976,28 +866,30 @@ When you are satisfied with the results, create a JPEG version of the
 template and send it to the requestor for feedback. Be sure to include
 the toolbar icon that corresponds to the wizard banner graphic as a
 reference.
-3.  *Transferring vector-based images to the PSD template* : Once the
+
+. *Transferring vector-based images to the PSD template:* Once the
 graphics are approved and ready to be cut, you will need to transfer
 them from the AI template to the PSD template. In the AI template, turn
 off all layers, except **New Wizard graphics**.Select *File > Save for Web* from the menu. The settings you will need
 for this part of the transfer are shown here:
 +
-image::images/des_temp_png_pref.png[des_temp_png_pref,title="des_temp_png_pref"]
+image::images/des_temp_png_pref.png[des_temp_png_pref]
 +
 The PNG-24 file is temporary and is used to transfer high quality images
 from the AI file to the PSD file where you will use an action palette to
 cut the files.
-4.  *Populating the PSD template* : Fill out the
-Media:Eclipse3.0_UI_Design_resources.zip[
-eclipse_wizard_design_template.psd] template with Layer Sets for each
+
+. *Populating the PSD template* : Fill out the
+link:media/eclipse3.0_ui_design_resources.zip[eclipse_wizard_design_template.psd] template with Layer Sets for each
 wizard banner graphic. Each Layer Set should have a single layer for the
 PNG-formatted wizard image. Add Layer Sets as you need them.
 +
 Open the temporary PNG file and transfer the wizard graphics, one per
 layer, to the corresponding Layer Set in the PSD file. Once all of your
 wizard graphics are transferred, Save the file. You are ready to cut.
-5.  **Cutting the wizard banner graphics**: See the
-link:#Cutting_Actions[Cutting Actions] section for instructions on
+
+. *Cutting the wizard banner graphics:* See the
+xref:#_cutting_actions[Cutting Actions] section for instructions on
 cutting wizard banner graphics.
 
 TIP: [guideline2.6]*Guideline 2.6* +
@@ -1111,13 +1003,6 @@ XPM is used for the following type of graphics in Eclipse-based tooling:
 
 * Product icons (Linux)
 
-==== Resources
-
-* Mac
-** http://developer.apple.com/documentation/UserExperience/Conceptual/OSXHIGuidelines/index.html?
-** http://www.oreillynet.com/pub/a/mac/2001/05/24/aqua_design.html?page=1
-* Windows and Mac
-** http://www.altuit.com/webs/altuit2/StandaloneBuilderTutorial/BuildingIconsforMacOSXandWindowsXP.htm
 
 TIP: [guideline2.7]*Guideline 2.7* +
 Use the file format specified for the graphic type.
@@ -1133,10 +1018,10 @@ that each can be optimized for its specific location. The majority of
 interface graphics are 16 x 16 pixels in size, though there are some
 graphic types that come in additional or unconventional sizes suited
 specifically to their use. Details on size and placement of the image
-see the next subsection on link:#Icon_Size_&amp;_Placement[Icon Size &
+see the next subsection on xref:#_icon_size_placement[Icon Size &
 Placement]. The following graphic types are described below:
 
-image::images/spec_type_icon.png[spec_type_icon,title="spec_type_icon"]
+image::images/spec_type_icon.png[spec_type_icon]
 
 ==== Product
 The Product icon, also known as the Application icon, represents the
@@ -1148,10 +1033,10 @@ The Product icon, also known as the Application icon, represents the
   places, they are not meant for use on toolbars or in the user
   interface in general.
 
-image::images/spec_type_prod.png[spec_type_prod,title="fig:spec_type_prod"]
+image::images/spec_type_prod.png[spec_type_prod]
 
-::
-  *Format:* ICO (Windows), ICNS (Mac), XPM (Linux)
+[horizontal]
+Format:: ICO (Windows), ICNS (Mac), XPM (Linux)
 
 ==== Perspective
 Perspective icons represent different working environments called
@@ -1164,19 +1049,13 @@ Perspective icons represent different working environments called
   left just below the toolbar, keeping a horizontal orientation, or on
   the left of the navigator view with a vertical orientation.
 
-image::images/spec_type_persp.png[spec_type_persp,title="fig:spec_type_persp"]
+image::images/spec_type_persp.png[spec_type_persp]
 
-::
-  *Type:* View
-
-::
-  *Folder name:* view16
-
-::
-  *Size:* 16 x 16 pixels
-
-::
-  *Format:* PNG
+[horizontal]
+Type:: View
+Folder name:: view16
+Size:: 16 x 16 pixels
+Format:: PNG
 
 ==== Fast View
 Fast View icons allow users to quickly display different views that
@@ -1186,38 +1065,26 @@ Fast View icons allow users to quickly display different views that
   the left of the navigator view, or on the far right of the user
   interface.
 
-image::images/spec_type_fastview.png[spec_type_fastview,title="fig:spec_type_fastview"]
+image::images/spec_type_fastview.png[spec_type_fastview]
 
-::
-  *Type:* View
-
-::
-  *Folder name:* view16
-
-::
-  *Size:* 16 x 16 pixels
-
-::
-  *Format:* PNG
+[horizontal]
+Type:: View
+Folder name:: view16
+Size:: 16 x 16 pixels
+Format:: PNG
 
 ==== Toolbar
 Toolbar icons are located on the main toolbar across the top of the
   workbench. They represent actions, and will invoke a command, either
   globally or within the editor.
 
-image::images/spec_type_tool.png[spec_type_tool,title="fig:spec_type_tool"]
+image::images/spec_type_tool.png[spec_type_tool]
 
-::
-  *Type:* Toolbar
-
-::
-  *Folder names:* etool16 and dtool16
-
-::
-  *Size:* 16 x 16 pixels
-
-::
-  *Format:* PNG
+[horizontal]
+Type:: Toolbar
+Folder names:: etool16 and dtool16
+Size:: 16 x 16 pixels
+Format:: PNG
 
 ==== Toolbar Wizard
 Toolbar wizard icons are found on the main toolbar across the top of
@@ -1229,38 +1096,26 @@ Toolbar wizard icons are found on the main toolbar across the top of
   These icons are distinguished by two stacked files in front of a
   diskette.
 
-image::images/spec_type_toolwiz.png[spec_type_toolwiz,title="fig:spec_type_toolwiz"]
+image::images/spec_type_toolwiz.png[spec_type_toolwiz]
 
-::
-  *Type:* Toolbar
-
-::
-  *Folder names:* etool16 and dtool16
-
-::
-  *Size:* 16 x 16 pixels
-
-::
-  *Format:* PNG
+[horizontal]
+Type:: Toolbar
+Folder names:: etool16 and dtool16
+Size:: 16 x 16 pixels
+Format:: PNG
 
 ==== View
 View icons are found on the left side of the titlebar of each view
   within the workbench. These icons indicate each view’s function or the
   type of object a view contains.
 
-image::images/spec_type_view.png[spec_type_view,title="fig:spec_type_view"]
+image::images/spec_type_view.png[spec_type_view]
 
-::
-  *Type:* View
-
-::
-  *Folder name:* view16
-
-::
-  *Size:* 16 x 16 pixels
-
-::
-  *Format:* PNG
+[horizontal]
+Type:: View
+Folder name:: view16
+Size:: 16 x 16 pixels
+Format:: PNG
 
 ==== Local Toolbar
 Local toolbar icons are found to the right of the view icon on the
@@ -1271,17 +1126,11 @@ Local toolbar icons are found to the right of the view icon on the
 
 image::images/spec_type_lcltool.png[spec_type_lcltool,title="fig:spec_type_lcltool"]
 
-::
-  *Type:* Local Toolbar
-
-::
-  *Folder names:* elcl16 and dlcl16
-
-::
-  *Size:* 16 x 16 pixels
-
-::
-  *Format:* PNG
+[horizontal]
+Type:: Local Toolbar
+Folder names:: elcl16 and dlcl16
+Size:: 16 x 16 pixels
+Format:: PNG
 
 ==== Model Object
 Model Object icons are found in tree views, list views, and on editor
@@ -1298,24 +1147,18 @@ Model Object icons are found in tree views, list views, and on editor
 One-to-one relationship between model object in treeview and icon in
   Editor tab
 
-image::images/spec_type_obj-lg.png[spec_type_obj-lg,title="fig:spec_type_obj-lg"]
+image::images/spec_type_obj-lg.png[spec_type_obj-lg]
 
 Model object in Outline View is not shown in the Editor, but the
   selection is shown in both views
 
-image::images/spec_type_icon-ol-edit.png[spec_type_icon-ol-edit,title="fig:spec_type_icon-ol-edit"]
+image::images/spec_type_icon-ol-edit.png[spec_type_icon-ol-edit]
 
-::
-  *Type:* Model Object
-
-::
-  *Folder name:* obj16
-
-::
-  *Size:* 16 x 16 pixels
-
-::
-  *Format:* PNG
+[horizontal]
+Type:: Model Object
+Folder name:: obj16
+Size:: 16 x 16 pixels
+Format:: PNG
 
 ==== Object Overlay (and Underlay)
 Object overlay icons are decorator elements that are used in tree or
@@ -1325,226 +1168,150 @@ Object overlay icons are decorator elements that are used in tree or
   under the model object. Like the overlay, they signify some kind of
   change about the model object they append to.
 
-image::images/spec_type_ovr.png[spec_type_ovr,title="fig:spec_type_ovr"]
+image::images/spec_type_ovr.png[spec_type_ovr]
 
-::
-  There are six main types of overlays:
+There are six main types of overlays:
 
-::
-  *1. Project Nature* or *Type*
-
-::
-  These overlays are displayed in the Navigator and the Package views.
+. *Project Nature* or *Type* +
+These overlays are displayed in the Navigator and the Package views.
   They are completely superimposed on the model object at the top right
   corner of the 16 x 16 icon space.
-
-::
-  Only a few project nature overlay icons have been created to prevent
++
+Only a few project nature overlay icons have been created to prevent
   crowding in the interface. Project nature overlays quickly identify
   the various types of projects that can be contained in the Navigator
   and mirroring views.
-
-::
-  The white keyline border is applied around the image to enhance
++
+The white keyline border is applied around the image to enhance
   legibility.
++
+*Example:* +
+image:images/spec_type_ovr-proj-type.png[spec_type_ovr-proj-type]
++
+[horizontal]
+Type:: Object Overlay
+Folder name:: ovr16
+Size:: 7 x 8 pixels
+Format:: PNG
 
-::
-  *Example:*
-
-image::images/spec_type_ovr-proj-type.png[spec_type_ovr-proj-type,title="fig:spec_type_ovr-proj-type"]
-
-::
-  *Type:* Object Overlay
-
-::
-  *Folder name:* ovr16
-
-::
-  *Size:* 7 x 8 pixels
-
-::
-  *Format:* PNG
-
-::
-  *2. Auxiliary* or *_Status_*
-
-::
-  These overlays are displayed in all tree views. This type of overlay
+. *Auxiliary* or *_Status_* +
+These overlays are displayed in all tree views. This type of overlay
   is completely superimposed on the model object at the bottom left
   corner of the 16 x 16 icon space.
-
-::
-  The auxiliary overlay quickly identifies the status of an object.
++
+The auxiliary overlay quickly identifies the status of an object.
   Examples of auxiliary overlays are warning, error, failure, and
   success.
++
+*Example:* +
+image:images/spec_type_ovr-aux-status.png[spec_type_ovr-aux-status]
++
+[horizontal]
+Type:: Object Overlay
+Folder name:: ovr16
+Size:: 7 x 8 pixels
+Format:: PNG
 
-::
-  *Example:*
-
-image::images/spec_type_ovr-aux-status.png[spec_type_ovr-aux-status,title="fig:spec_type_ovr-aux-status"]
-
-::
-  *Type:* Object Overlay
-
-::
-  *Folder name:* ovr16
-
-::
-  *Size:* 7 x 8 pixels
-
-::
-  *Format:* PNG
-
-::
-  *3. Java* or *_Attribute_*
-
-::
-  These overlays are displayed in the Outline, Hierarchy, and Package
+. *Java* or *_Attribute_* +
+These overlays are displayed in the Outline, Hierarchy, and Package
   views. The Java overlays are appended to the model object icon, so
   they extend the 16 x 16 icon space. They are placed to the right of a
   model object icon, overlapping the 16 x 16 model object space by 3
   pixels. A maximum of 3 java overlays can be put on the model object.
-
-::
-  The order in which an overlay appears depends on the order in which it
++
+The order in which an overlay appears depends on the order in which it
   has been assigned. In designing Java overlays, it is important to make
   sure the base object icon can support the addition of overlays without
   compromising readability. Note that there are two Java overlays that
   always display at the bottom right corner of the model object:
   Synchronize overlay synchronized (method) and Run overlay run (class).
-
-::
-  Java overlays identify attributes of an object. Examples include
++
+Java overlays identify attributes of an object. Examples include
   static, final, abstract, and synchronized.
-
-::
-  Note: In the Hierarchy and Outline views, the Java overlays are
++
+NOTE: In the Hierarchy and Outline views, the Java overlays are
   appended to the right of the model object as shown in the first
   example below, but in the Package view they are stacked over the model
   object, as shown in the second example.
-
-::
-  *Examples:*
-
-::
-  Hierarchy and Outline Views:
++
+*Examples:*
++
+--
+- Hierarchy and Outline Views:
 image:images/spec_type_ovr-java-att.png[spec_type_ovr-java-att,title="fig:spec_type_ovr-java-att"]
-
-::
-  Package View:
+- Package View:
 image:images/spec_type_ovr-java-att2.png[spec_type_ovr-java-att2,title="fig:spec_type_ovr-java-att2"]
+--
++
+[horizontal]
+Type:: Object Overlay
+Folder name:: ovr16
+Size:: 7 x 8 pixels
+Format:: PNG
 
-::
-  *Type:* Object Overlay
-
-::
-  *Folder name:* ovr16
-
-::
-  *Size:* 7 x 8 pixels
-
-::
-  *Format:* PNG
-
-::
-  *4. Version Control* or *_Transition-state_*
-
-::
-  These overlays are displayed in the Navigator view and in the
+. *Version Control* or *_Transition-state_* +
+These overlays are displayed in the Navigator view and in the
   Structure View of the Merge Editor in CVS. When they are displayed in
   the Navigator view, the overlay is completely superimposed on the
   model object at the right of the 16 x 16 icon space.
-
-::
-  When the version control overlays are displayed in the Structure View
++
+When the version control overlays are displayed in the Structure View
   of the Merge Editor in CVS, they are appended to the model object, so
   they extend the 16 x 16 space. They are placed to the right of a model
   object icon, overlapping the 16 x 16 model object space by 3 pixels.
   In CVS there is a maximum of 2 overlays on the right of the object.
-
-::
-  Version control overlays identify a transition state of an object.
++
+Version control overlays identify a transition state of an object.
   Examples of these overlays are incoming, outgoing, in conflict, added,
   deleted, and changed.
-
-::
-  *Examples:*
-
-::
-  Navigator View:
++
+*Examples:*
++
+--
+- Navigator View:
 image:images/spec_type_ovr-teamsamp1.png[spec_type_ovr-teamsamp1,title="fig:spec_type_ovr-teamsamp1"]
-
-::
-  Structure View:
+- Structure View:
 image:images/spec_type_ovr-teamsamp2.png[spec_type_ovr-teamsamp2,title="fig:spec_type_ovr-teamsamp2"]
+--
+[horizontal]
+Type:: Object Overlay
+Folder name:: ovr16
+Size:: Typically 7 x 8 pixels, though some are larger
+Format:: PNG
 
-::
-  *Type:* Object Overlay
-
-::
-  *Folder name:* ovr16
-
-::
-  *Size:* Typically 7 x 8 pixels, though some are larger
-
-::
-  *Format:* PNG
-
-::
-  *5. Multiplicity*
-
-::
-  These overlays are displayed in the treeview of a generator model file
+. *Multiplicity* +
+These overlays are displayed in the treeview of a generator model file
   in the Eclipse Modeling Framework (EMF). These represent
   relationships, such as one to one or one to many within the model.
   This type of overlay spans the width of the model object icon and is
   located at its base so that it does obscure too much of the underlying
   object.
-
-::
-  *Example:*
-
-image:images/spec_type_ovr-multsamp.png[spec_type_ovr-multsamp,title="fig:spec_type_ovr-multsamp"]
-
-::
-  *Type:* Object Overlay
-
-::
-  *Folder name:* ovr16
-
-::
-  *Size:* 16 x 6 pixels image size but a final cut size of 16 x 16
++
+*Example:*
++
+image::images/spec_type_ovr-multsamp.png[spec_type_ovr-multsamp]
+[horizontal]
+Type:: Object Overlay
+Folder name:: ovr16
+Size:: 16 x 6 pixels image size but a final cut size of 16 x 16
   pixels
+Format:: PNG
 
-::
-  *Format:* PNG
-
-::
-  *6. Underlays*
-
-::
-  These are displayed under model objects in the treeview of some tools.
+. *Underlays* +
+These are displayed under model objects in the treeview of some tools.
   They signify some kind of change about the object, such as version
   control or generated code. Underlays are typically square in shape,
   with a 2 pixel radius on each corner, and are light in color so they
   are clean and not overstated when seen multiple times in a treeview.
-
-::
-  *Example:*
-
-image::images/spec_type_ovr-undersamp.png[spec_type_ovr-undersamp,title="fig:spec_type_ovr-undersamp"]
-
-::
-  *Type:* Object Overlay
-
-::
-  *Folder name:* ovr16
-
-::
-  *Size:* 16 x 16 pixels
-
-::
-  *Format:* PNG
++
+*Example:*
++
+image::images/spec_type_ovr-undersamp.png[spec_type_ovr-undersamp]
+[horizontal]
+Type:: Object Overlay
+Folder name:: ovr16
+Size:: 16 x 16 pixels
+Format:: PNG
 
 ====  Table
 Table icons are a type of model object icon used specifically in
@@ -1556,20 +1323,13 @@ Table icons are a type of model object icon used specifically in
 
 Table icons shown in context
 
-image::images/spec_type_table_op1.png[spec_type_table_op1,title="fig:spec_type_table_op1"]
-
-::
-  *Type:* Table
-
-::
-  *Folder name:* obj16
-
-::
-  *Size:* They are designed in the 16 x 16 pixel space, but the actual
+image::images/spec_type_table_op1.png[spec_type_table_op1]
+[horizontal]
+Type:: Table
+Folder name:: obj16
+Size:: They are designed in the 16 x 16 pixel space, but the actual
   image size is no greater than 15 x 14 pixels.
-
-::
-  *Format:* PNG
+Format:: PNG
 
 ====  Palette
 Palette icons are located on the palette and most commonly accompany
@@ -1585,24 +1345,16 @@ Palettes are also used to host reusable elements, such as the Snippets
   code within the editor. Some code snippets can also be dragged and
   dropped directly into the source code.
 
-Palette icons shown in context
-
-image::images/spec_type_palette.png[ spec_type_palette,title="fig: spec_type_palette"]
-
-::
-  *Type:* Palette
-
-::
-  *Folder name:* pal
-
-::
-  *Size:* Size varies depending on the context of the palette. The
+Palette icons shown in context +
+image:images/spec_type_palette.png[ spec_type_palette]
+[horizontal]
+Type:: Palette
+Folder name:: pal
+Size:: Size varies depending on the context of the palette. The
   default size is 16 x 16 pixels but can be changed by the user to "Use
   large icons", which are 24 x 24 pixels in size. There are also rare
   cases where 32 x 32 pixel icons are used on the palette.
-
-::
-  *Format:* PNG
+Format:: PNG
 
 ====  Diagram
 Diagram icons come in two subtypes: Canvas and Action Bar. Canvas
@@ -1615,25 +1367,17 @@ Diagram icons come in two subtypes: Canvas and Action Bar. Canvas
   or selects a certain type of object in the diagram. For example,
   'fields' and 'types' in a UML Diagram.
 
-Diagram icons shown in context
-
-image::images/spec_type_diagram.png[ spec_type_diagram,title="fig: spec_type_diagram"]
-
-::
-  *Type:* Diagram
-
-::
-  *Folder name:* dgm
-
-::
-  *Size:* Canvas icons may be 16 x 16, 24 x 24, or 32 x 32 pixel in
+Diagram icons shown in context +
+image:images/spec_type_diagram.png[ spec_type_diagram]
+[horizontal]
+Type:: Diagram
+Folder name:: dgm
+Size:: Canvas icons may be 16 x 16, 24 x 24, or 32 x 32 pixel in
   size. There are also instances of 15 x 15, 12 x 12, and 10 x 10 pixel
   icons in some Web Tooling diagrams. 15 x 15 and 10 x 10 icons are used
   in site navigation diagrams, and 12 x 12 icons are used in the editor
   preview mode to show content types and formatting.
-
-::
-  *Format:* PNG is used for all diagram graphics, except Action Bar
+Format:: PNG is used for all diagram graphics, except Action Bar
   icons, which are SVG.
 
 ==== Progress Indicator
@@ -1642,21 +1386,13 @@ The progress indicator icon is located in lower right of user
   the linear progress of a process. As shown in the following image, the
   icon is also a button that will open the Progress View.
 
-Progress indicator icon shown in context
-
-image::images/spec_type_progress.png[ spec_type_progress,title="fig: spec_type_progress"]
-
-::
-  *Type:* Progress Indicator
-
-::
-  *Folder name:* progress
-
-::
-  *Size:* 16 x 16 pixels
-
-::
-  *Format:* PNG
+Progress indicator icon shown in context +
+image:images/spec_type_progress.png[ spec_type_progress]
+[horizontal]
+Type:: Progress Indicator
+Folder name:: progress
+Size:: 16 x 16 pixels
+Format:: PNG
 
 ==== Pointer and Cursor Mask
 Pointer icons are cursors and each requires a cursor mask. The cursor
@@ -1666,38 +1402,25 @@ Pointer and cursor mask examples
 
 image::images/spec_type_cursor_mask.png[ spec_type_cursor_mask,title="fig: spec_type_cursor_mask"]
 
-::
-  *Types:* Pointer and Cursor Mask
-
-::
-  *Folder name:* point
-
-::
-  *Size:* 32 x 32 pixels
-
-::
-  *Format:* BMP
+[horizontal]
+Types:: Pointer and Cursor Mask
+Folder name:: point
+Size:: 32 x 32 pixels
+Format:: BMP
 
 ==== Wizard Banner
 Wizard banner graphics are located on the right side of the wizard
   banner. They visually represent the outcome of the wizard, such as a
   new Java class.
 
-New Java class wizard graphic shown in context
+New Java class wizard graphic shown in context +
+image:images/spec_type_wiz.png[ spec_type_wiz]
 
-image::images/spec_type_wiz.png[ spec_type_wiz,title="fig: spec_type_wiz"]
-
-::
-  *Type:* Wizard Banner
-
-::
-  *Folder name:* wizban
-
-::
-  *Size:* 75 x 66 pixels
-
-::
-  *Format:* PNG
+[horizontal]
+Type:: Wizard Banner
+Folder name:: wizban
+Size:: 75 x 66 pixels
+Format:: PNG
 
 TIP: [guideline2.8]*Guideline 2.8* +
 Use the appropriate graphic type in the location it is designed for
@@ -1730,17 +1453,13 @@ Product icons occupy the full space allotted for all five sizes: 16 x
   16, 24 x 24, 32 x 32, 64 x 64, and 72 x 72 pixels. This shows how the
   16 x 16 product icon fills the entire space:
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols="1,1"]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_prod16.png[spec_size_prod16,title="fig:spec_size_prod16"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_prod16samp.png[spec_size_prod16samp,title="fig:spec_size_prod16samp"]
 |=======================================================================
-________________________________________________________________________________
 
 ==== Perspective and Fast View
 
@@ -1750,17 +1469,13 @@ The maximum image size is 16 x 16 pixels, but 15 x 15 is recommended.
 
 Image size in allotted space
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_persp.png[spec_size_persp,title="fig:spec_size_persp"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_perspsamp.png[spec_size_perspsamp,title="fig:spec_size_perspsamp"]
 |=======================================================================
-________________________________________________________________________________
 
 ==== View
 
@@ -1768,51 +1483,39 @@ The maximum image size is 16 x 16 pixels, but 15 x 15 is recommended.
   If the image is 15 x 15 or smaller, the empty pixels must be on the
   left and bottom, as shown here.
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_view.png[spec_size_view,title="fig:spec_size_view"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_viewsamp.png[spec_size_viewsamp,title="fig:spec_size_viewsamp"]
 |=======================================================================
-________________________________________________________________________________
 
 ==== Toolbar, Toolbar Wizard, and Local Toolbar
 The maximum image size is 16 x 16 pixels, but 15 x 15 is recommended.
   If the image is 15 x 15 or smaller, the empty pixels must be on the
   left and top, as shown here.
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_tool.png[spec_size_tool,title="fig:spec_size_tool"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_toolsamp.png[spec_size_toolsamp,title="fig:spec_size_toolsamp"]
 |=======================================================================
-________________________________________________________________________________
 
 ==== Model Object
 The maximum image size is 16 x 15 pixels, but 15 x 15 is recommended.
   Model Object icons must be no greater than 15 pixels high. The empty
   pixels must be on the left and bottom, as shown here.
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_obj.png[spec_size_obj,title="fig:spec_size_obj"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_objsamp.png[spec_size_objsamp,title="fig:spec_size_objsamp"]
 |=======================================================================
-________________________________________________________________________________
 
 ==== Object Overlay (and Underlay)
 Most object overlay icons are a maximum image size of 7 x 8 pixels,
@@ -1835,117 +1538,85 @@ Overlay icons should have an outer white keyline surrounding the image
 
 Standard object overlay with a maximum image size of 7 x 8 pixels:
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=""]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |
-
+|*Image size in allotted space*
 |image:images/spec_size_ovr.png[spec_size_ovr,title="fig:spec_size_ovr"]
-| | | | | | | | | | | | | | | |
 |=======================================================================
-________________________________________________________________________________
 
 Example of a standard Project Nature—**Type**—object overlay in place:
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_ovr-proj.png[spec_size_ovr-proj,title="fig:spec_size_ovr-proj"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_ovr-projsamp.png[spec_size_ovr-projsamp,title="fig:spec_size_ovr-projsamp"]
 |=======================================================================
-________________________________________________________________________________
 
 Example of a standard Auxiliary—**Status**—object overlay in place:
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_ovr-aux.png[spec_size_ovr-aux,title="fig:spec_size_ovr-aux"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_ovr-auxsamp.png[spec_size_ovr-auxsamp,title="fig:spec_size_ovr-auxsamp"]
 |=======================================================================
-________________________________________________________________________________
 
 Example of a standard Java—**Attribute**—object overlay in place:
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_ovr-java.png[spec_size_ovr-java,title="fig:spec_size_ovr-java"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_ovr-javasamp.png[spec_size_ovr-javasamp,title="fig:spec_size_ovr-javasamp"]
 |=======================================================================
-________________________________________________________________________________
 
 Example of a standard Version Control—**Transition**-state—object
   overlay in place:
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_ovr-vers.png[spec_size_ovr-vers,title="fig:spec_size_ovr-vers"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_ovr-verssamp.png[spec_size_ovr-verssamp,title="fig:spec_size_ovr-verssamp"]
 |=======================================================================
-________________________________________________________________________________
 
 Example of two stacking Version Control object overlays in place:
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_ovr-cvs.png[spec_size_ovr-cvs,title="fig:spec_size_ovr-cvs"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_ovr-cvssamp.png[spec_size_ovr-cvssamp,title="fig:spec_size_ovr-cvssamp"]
 |=======================================================================
-________________________________________________________________________________
 
 *Multiplicity* object overlay with a maximum image size of 16 x 6
   pixels:
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_ovr-mult.png[spec_size_ovr-mult,title="fig:spec_size_ovr-mult"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_ovr-multsamp.png[spec_size_ovr-multsamp,title="fig:spec_size_ovr-multsamp"]
 |=======================================================================
-________________________________________________________________________________
 
 *Underlay* with a maximum image size of 16 x 15 pixels, but 15 x 15 is
   recommended. The empty pixels must be on the left and bottom, as shown
   here:
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_ovr-under.png[spec_size_ovr-under,title="fig:spec_size_ovr-under"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_ovr-undersamp.png[spec_size_ovr-undersamp,title="fig:spec_size_ovr-undersamp"]
 |=======================================================================
-________________________________________________________________________________
 
 ==== Table
 
@@ -1953,17 +1624,13 @@ The maximum image size is 15 x 14 pixels. Table icons must be no
   greater than 14 pixels high. The empty pixels must be on the top,
   bottom, and left, as shown here.
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_table.png[spec_size_table,title="fig:spec_size_table"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_tablesamp.png[spec_size_tablesamp,title="fig:spec_size_tablesamp"]
 |=======================================================================
-________________________________________________________________________________
 
 ==== Palette
 *Standard small (16 x 16) palette icon:* The maximum image size is 16
@@ -1971,129 +1638,97 @@ ________________________________________________________________________________
   greater than 15 pixels high. The empty pixels must be on the left and
   bottom, as shown here.
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_pal16.png[spec_size_pal16,title="fig:spec_size_pal16"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_pal16samp.png[spec_size_pal16samp,title="fig:spec_size_pal16samp"]
 |=======================================================================
-________________________________________________________________________________
 
 *Standard large (24 x 24) palette icon:* The maximum image size is 24
   x 23 pixels, but 23 x 23 is recommended. Palette icons must be no
   greater than 23 pixels high. The empty pixels must be on the left and
   bottom, as shown here.
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_pal24.png[spec_size_pal24,title="fig:spec_size_pal24"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_pal24samp.png[spec_size_pal24samp,title="fig:spec_size_pal24samp"]
 |=======================================================================
-________________________________________________________________________________
 
 *Large (32 x 32) palette icon:* The maximum image size is 30 x 30
   pixels with the image centered. The empty pixels are on all four sides
   of the image.
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_pal32.png[spec_size_pal32,title="fig:spec_size_pal32"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_pal32samp.png[spec_size_pal32samp,title="fig:spec_size_pal32samp"]
 |=======================================================================
-________________________________________________________________________________
 
 ==== Diagram
 *Small (10 x 10) canvas icon:* The maximum image size is 10 x 10
   pixels. The image fills the space as required.
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_dgm10.png[spec_size_dgm10,title="fig:spec_size_dgm10"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_dgm10samp.png[spec_size_dgm10samp,title="fig:spec_size_dgm10samp"]
 |=======================================================================
-________________________________________________________________________________
 
 *Small (12 x 12) canvas icon:* The maximum image size is 12 x 12
   pixels. The image fills the space as required.
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_dgm12.png[spec_size_dgm12,title="fig:spec_size_dgm12"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_dgm12samp.png[spec_size_dgm12samp,title="fig:spec_size_dgm12samp"]
 |=======================================================================
-________________________________________________________________________________
 
 *Small (16 x 16) canvas icon:* The maximum image size is 16 x 15
   pixels, but 15 x 15 is recommended. The empty pixels must be on the
   left and bottom, as shown here.
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_dgm16.png[spec_size_dgm16,title="fig:spec_size_dgm16"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_dgm16samp.png[spec_size_dgm16samp,title="fig:spec_size_dgm16samp"]
 |=======================================================================
-________________________________________________________________________________
 
 *Large (24 x 24) canvas icon:* The maximum image size is 24 x 23
   pixels, but 23 x 23 is recommended. The empty pixels must be on the
   left and bottom, as shown here.
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_dgm24.png[spec_size_dgm24,title="fig:spec_size_dgm24"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_dgm24samp.png[spec_size_dgm24samp,title="fig:spec_size_dgm24samp"]
 |=======================================================================
-________________________________________________________________________________
 
 *Large (32 x 32) canvas icon:* The maximum image size is 32 x 32
   pixels, but 30 x 30 is recommended with the image centered. The empty
   pixels are on all four sides of the image.
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_dgm32.png[spec_size_dgm32,title="fig:spec_size_dgm32"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_dgm32samp.png[spec_size_dgm32samp,title="fig:spec_size_dgm32samp"]
 |=======================================================================
-________________________________________________________________________________
 
 ==== Progress Indicator
 
@@ -2101,17 +1736,13 @@ The maximum image size is 16 x 15 pixels, but 15 x 15 is recommended.
   Progress indicator icons must be no greater than 15 pixels high. The
   empty pixels must be on the left and bottom, as shown here.
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_prog.png[spec_size_prog,title="fig:spec_size_prog"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_progsamp.png[spec_size_progsamp,title="fig:spec_size_progsamp"]
 |=======================================================================
-________________________________________________________________________________
 
 ==== Pointer and Cursor Mask
 
@@ -2124,17 +1755,13 @@ The final size of the pointer and cursor masks is 32 x 32 pixels. The
 
 Pointer and cursor mask image sizes shown in the 32 x 32 pixel space:
 
-________________________________________________________________________________
-[cols=",,,,,,,,,,,,,,,,",]
+[cols=","]
 |=======================================================================
-|*Image size in allotted space* | | | | | | | | | | | | | | | |*Sample
-image in place*
-
+|*Image size in allotted space* 
+|*Sample image in place*
 |image:images/spec_size_point.png[spec_size_point,title="fig:spec_size_point"]
-| | | | | | | | | | | | | | |
 |image:images/spec_size_pointsamp.png[spec_size_pointsamp,title="fig:spec_size_pointsamp"]
 |=======================================================================
-________________________________________________________________________________
 
 ==== Wizard Banner
 All wizard banner graphics are designed to fit within a specified
@@ -2208,7 +1835,7 @@ To ensure the last step works properly, make sure the pink cut square
 
 ===== Detailed View of Cutting Actions
 
-image::images/imp_cut_icons.png[imp_cut_icons,title="fig:imp_cut_icons"]
+image::images/imp_cut_icons.png[imp_cut_icons]
 
 ==== Cutting 7 x 8 Pixel Object Overlay Icons
 
@@ -2291,7 +1918,7 @@ suffix. For example, file_pal, file_pal24, file_pal32, where
 
 ==== Suggestions for File Naming Suffixes
 
-image::images/name-conv-tabl.jpg[name-conv-tabl.jpg,title="name-conv-tabl.jpg"]
+image::images/name-conv-tabl.jpg[name-conv-tabl.jpg]
 
 TIP: [guideline2.12]*Guideline 2.12* +
 Abbreviate file name instead of using the full icon name, e.g., New
@@ -2340,8 +1967,8 @@ Substitute the name of the plugin, for example "debugger", for
     "subprojectname".
 +
 To read more about plugin names in Eclipse, see the
-    http://help.eclipse.org/help32/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/misc/naming.html[Eclipse
-    Platform Naming Conventions] help page.
+https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fmisc%2Fnaming.html&resultof%3D%2522%256e%2561%256d%2569%256e%2567%2522%2520%2522%256e%2561%256d%2565%2522%2520%2522%2563%256f%256e%2576%2565%256e%2574%2569%256f%256e%2522%2520%2522%2563%256f%256e%2576%2565%256e%2574%2522%2520[Eclipse
+Platform Naming Conventions] help page.
 
 2. Each plugin that contains user interface graphics requires an
   *icons* folder.
@@ -2363,16 +1990,16 @@ palette (pal), pointer (point), product (prod), progress indicator
 size of the icons within. However, only a small number of folders show
 size in the name. These names will persist, but all folder types may now
 contain multiple sizes of images, such as 16 x 16 and 24 x 24 pixel
-versions of palette icons. The link:#Naming_Conventions[Naming
+versions of palette icons. The link:#_naming_conventions[Naming
 Conventions] subsection addresses file naming for multiple sizes within
 one folder.
 --
 +
 The following image shows a complete folder structure for a plug-in:
 +
-image::images/imp_folderstruct.png[imp_folderstruct,title="fig:imp_folderstruct"]
+image::images/imp_folderstruct.png[imp_folderstruct]
 +
-image::images/imp_folderstruct_tabl.png[imp_folderstruct_tabl,title="fig:imp_folderstruct_tabl"]
+image::images/imp_folderstruct_tabl.png[imp_folderstruct_tabl]
 
 ==== Notes:
 
