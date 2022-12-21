@@ -27,11 +27,17 @@
 				</executions>
 				<configuration>
 					<sourceDirectory>${basedir}</sourceDirectory>
-					<!-- copy only the images directory, otherwise everything from basedir would be copied -->
+					<!-- copy only the images and media directory, otherwise everything from basedir would be copied -->
 					<resources>
 						<resource>
 							<directory>images</directory>
 							<targetPath>images</targetPath>
+						</resource>
+					</resources>
+					<resources>
+						<resource>
+							<directory>media</directory>
+							<targetPath>media</targetPath>
 						</resource>
 					</resources>
 					<attributes>
