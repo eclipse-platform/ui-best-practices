@@ -1,4 +1,7 @@
 = Component Development
+:sectnums:
+:sectnumlevels: 4
+
 
 == Commands
 A command, which is invoked by a user to carry out some specific

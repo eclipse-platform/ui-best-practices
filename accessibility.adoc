@@ -1,4 +1,6 @@
 = Accessibility
+:sectnums:
+:sectnumlevels: 4
 
 In a view, editor, or other control, every features should be accessible
 using a mouse or the keyboard.
