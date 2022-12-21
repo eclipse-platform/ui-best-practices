@@ -1,4 +1,7 @@
 = Flat Look Design
+:sectnums:
+:sectnumlevels: 4
+
 
 The Eclipse platform provides a Web user interface, also known as Flat
 Look, design alternative for implementing content editors. For example,

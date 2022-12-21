@@ -1,4 +1,7 @@
 = UI Graphics
+:sectnums:
+:sectnumlevels: 4
+
 
 == Overview
 

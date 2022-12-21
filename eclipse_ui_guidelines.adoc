@@ -1,4 +1,8 @@
 = Eclipse UI Guidelines
+:sectnums:
+:sectnumlevels: 4
+
+
 UI Best Practices Working Group
 {version}
 
