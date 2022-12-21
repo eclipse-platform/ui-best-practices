@@ -1,6 +1,4 @@
 = Standard Components
-:sectnums:
-:sectnumlevels: 4
 
 
 In this section we'll look at the standard components which ship with

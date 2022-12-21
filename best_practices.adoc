@@ -1,6 +1,4 @@
 = Best Practices
-:sectnums:
-:sectnumlevels: 4 
 
 In this section, we provide examples of best practices for designing and
 implementing some common user interactions within the Eclipse platform.
