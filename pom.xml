@@ -1,0 +1,63 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.eclipse</groupId>
+	<artifactId>ui-best-practices</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Eclipse UI best practices</name>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<asciidoctor.maven.plugin.version>2.2.2</asciidoctor.maven.plugin.version>
+		<best.practices.document.version>v4-DRAFT</best.practices.document.version>
+	</properties>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.asciidoctor</groupId>
+				<artifactId>asciidoctor-maven-plugin</artifactId>
+				<version>${asciidoctor.maven.plugin.version}</version>
+				<executions>
+					<execution>
+						<id>asciidoc-to-html</id>
+						<phase>generate-resources</phase>
+						<goals>
+							<goal>process-asciidoc</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<sourceDirectory>${basedir}</sourceDirectory>
+					<!-- copy only the images directory, otherwise everything from basedir would be copied -->
+					<resources>
+						<resource>
+							<directory>images</directory>
+							<targetPath>images</targetPath>
+						</resource>
+					</resources>
+					<attributes>
+						<!-- configure document attribute "version" to be replaced in the source documents -->
+						<version>${best.practices.document.version}</version>
+						<!-- Enable user interface macros like "kbd". https://asciidoctor.org/docs/user-manual/#user-interface-macros -->
+						<experimental>true</experimental>
+						<!-- Normalize source listings to have no indent. https://asciidoctor.org/docs/user-manual/#builtin-attributes -->
+						<source-indent>0</source-indent>
+						<!-- 4 instead of 8 characters tabsize, like in eclipse. https://asciidoctor.org/docs/user-manual/#builtin-attributes -->
+						<tabsize>4</tabsize>
+						<!-- Use font characters for admonition icons. https://asciidoctor.org/docs/user-manual/#admonition-icons -->
+						<icons>font</icons>
+						<!-- explicitly use the "fontawesome-solid" icon set, since the default icon set is deprecated -->
+						<icon-set>fas</icon-set>
+						<!-- hide URI scheme from plain text links. https://docs.asciidoctor.org/asciidoc/latest/macros/links/#hide-uri-scheme -->
+						<hide-uri-scheme>true</hide-uri-scheme>
+					</attributes>
+					<!-- fail the build in case of problems -->
+					<logHandler>
+						<failIf>
+							<severity>WARN</severity>
+						</failIf>
+					</logHandler>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
