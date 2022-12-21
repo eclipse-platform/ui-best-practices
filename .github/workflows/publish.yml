@@ -19,6 +19,8 @@ jobs:
       uses: tonynv/asciidoctor-action@master
       with:
           program: "asciidoctor -D docs --backend=html5 *.adoc"
+    - name: copy images
+      run: find . -name "images" -exec cp -r {} docs \;
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
       with:
