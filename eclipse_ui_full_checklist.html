@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.18">
+<meta name="generator" content="Asciidoctor 2.0.17">
 <title>Checklist for Developers</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -84,10 +84,10 @@ code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;
 ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
 ul,ol{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
+ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
+ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
-ul.square{list-style-type:square}
-ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
@@ -435,6 +435,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="article">
 <div id="header">
@@ -450,15 +451,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_general_ui_guidelines">General UI Guidelines</h2>
+<h2 id="_general_ui_guidelines">1. General UI Guidelines</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_the_spirit_of_eclipse">The Spirit of Eclipse</h3>
+<h3 id="_the_spirit_of_eclipse">1.1. The Spirit of Eclipse</h3>
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline1.1">Guideline 1.1</strong><br>
@@ -473,7 +474,7 @@ simplicity.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline1.2">Guideline 1.2</strong><br>
@@ -486,7 +487,7 @@ Follow the platform lead for user interface conventions.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline1.3">Guideline 1.3</strong><br>
@@ -500,7 +501,7 @@ and your own application.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline1.4">Guideline 1.4</strong><br>
@@ -512,12 +513,12 @@ Eclipse a better platform for all.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_capitalization">Capitalization</h3>
+<h3 id="_capitalization">1.2. Capitalization</h3>
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline1.5">Guideline 1.5</strong><br>
@@ -534,7 +535,7 @@ punctuation.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline1.6">Guideline 1.6</strong><br>
@@ -548,12 +549,12 @@ and any proper names such as the word Java.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_language">Language</h3>
+<h3 id="_language">1.3. Language</h3>
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline1.7">Guideline 1.7</strong><br>
@@ -564,12 +565,12 @@ Create localized version of the resources within your plug-in.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_error_handling">Error Handling</h3>
+<h3 id="_error_handling">1.4. Error Handling</h3>
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline1.8">Guideline 1.8</strong><br>
@@ -584,7 +585,7 @@ dialog.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline1.9">Guideline 1.9</strong><br>
@@ -598,15 +599,15 @@ with a dialog, and log it.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_ui_graphics">UI Graphics</h2>
+<h2 id="_ui_graphics">2. UI Graphics</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_design">Design</h3>
+<h3 id="_design">2.1. Design</h3>
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline2.1">Guideline 2.1</strong><br>
@@ -619,7 +620,7 @@ Follow the visual style established for Eclipse UI graphics.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline2.2">Guideline 2.2</strong><br>
@@ -632,7 +633,7 @@ Use a common color palette as the basis for creating graphical elements.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline2.3">Guideline 2.3</strong><br>
@@ -646,7 +647,7 @@ and meaning across Eclipse plug-ins.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline2.4">Guideline 2.4</strong><br>
@@ -660,7 +661,7 @@ Eclipse-based plugins.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline2.5">Guideline 2.5</strong><br>
@@ -674,7 +675,7 @@ toolbar and local toolbar icons.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline2.6">Guideline 2.6</strong><br>
@@ -687,12 +688,12 @@ graphics.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_specifications">Specifications</h3>
+<h3 id="_specifications">2.2. Specifications</h3>
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline2.7">Guideline 2.7</strong><br>
@@ -705,7 +706,7 @@ Use the file format specified for the graphic type.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline2.8">Guideline 2.8</strong><br>
@@ -719,7 +720,7 @@ within the user interface.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline2.9">Guideline 2.9</strong><br>
@@ -732,7 +733,7 @@ Follow the specific size specifications for each type of graphic.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline2.10">Guideline 2.10</strong><br>
@@ -744,12 +745,12 @@ in the user interface.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_implementation">Implementation</h3>
+<h3 id="_implementation">2.3. Implementation</h3>
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline2.11">Guideline 2.11</strong><br>
@@ -763,7 +764,7 @@ cutting a large number of graphics.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline2.12">Guideline 2.12</strong><br>
@@ -777,7 +778,7 @@ Interface becomes "newint".
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline2.13">Guideline 2.13</strong><br>
@@ -790,7 +791,7 @@ Use lower case characters in your file names, e.g., DTD becomes "dtd".
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline2.14">Guideline 2.14</strong><br>
@@ -804,7 +805,7 @@ count as a character).
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline2.15">Guideline 2.15</strong><br>
@@ -819,7 +820,7 @@ multiple sizes.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline2.16">Guideline 2.16</strong><br>
@@ -832,7 +833,7 @@ Keep the original file names provided.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline2.17">Guideline 2.17</strong><br>
@@ -845,7 +846,7 @@ Follow the predefined directory structure and naming convention.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline2.18">Guideline 2.18</strong><br>
@@ -858,7 +859,7 @@ Keep the original directory names provided.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline2.19">Guideline 2.19</strong><br>
@@ -872,7 +873,7 @@ in one, or few, first level user interface directories.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline2.20">Guideline 2.20</strong><br>
@@ -885,15 +886,15 @@ Use the active, enabled, and disabled states provided.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_component_development">Component Development</h2>
+<h2 id="_component_development">3. Component Development</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_commands">Commands</h3>
+<h3 id="_commands">3.1. Commands</h3>
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline3.1">Guideline 3.1</strong><br>
@@ -907,7 +908,7 @@ label and tool tip must use Headline style capitalization.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline3.2">Guideline 3.2</strong><br>
@@ -922,7 +923,7 @@ label.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline3.3">Guideline 3.3</strong><br>
@@ -936,7 +937,7 @@ commands.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline3.4">Guideline 3.4</strong><br>
@@ -949,7 +950,7 @@ An command should be enabled only if it can be completed successfully.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline3.5">Guideline 3.5</strong><br>
@@ -962,12 +963,12 @@ message if the command is invoked, but cannot be completed.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_dialogs">Dialogs</h3>
+<h3 id="_dialogs">3.2. Dialogs</h3>
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline4.1">Guideline 4.1</strong>
@@ -982,7 +983,7 @@ be assigned to the default button.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline4.2">Guideline 4.2</strong><br>
@@ -994,12 +995,12 @@ the source objects on the left hand side. It should have the &gt;, &gt;,
 </div>
 </div>
 <div class="sect2">
-<h3 id="_wizards">Wizards</h3>
+<h3 id="_wizards">3.3. Wizards</h3>
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.1">Guideline 5.1</strong><br>
@@ -1013,7 +1014,7 @@ completed in a specific order.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.2">Guideline 5.2</strong><br>
@@ -1028,7 +1029,7 @@ buttons in the footer.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.3">Guideline 5.3</strong><br>
@@ -1041,7 +1042,7 @@ Start the wizard with a prompt, not an error message.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.4">Guideline 5.4</strong><br>
@@ -1054,7 +1055,7 @@ Seed the fields within the wizard using the current workbench state.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.5">Guideline 5.5</strong><br>
@@ -1068,7 +1069,7 @@ is absent, and an error when information is invalid.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.6">Guideline 5.6</strong><br>
@@ -1082,7 +1083,7 @@ dialog is present and valid.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.7">Guideline 5.7</strong><br>
@@ -1095,7 +1096,7 @@ Remove all programming message ID&#8217;s from wizard text.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.8">Guideline 5.8</strong><br>
@@ -1109,7 +1110,7 @@ wizard.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.9">Guideline 5.9</strong><br>
@@ -1124,7 +1125,7 @@ editor. Open the readme.html file upon creation of an example project.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.10">Guideline 5.10</strong><br>
@@ -1138,7 +1139,7 @@ perspective to suit the project type.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.11">Guideline 5.11</strong><br>
@@ -1152,7 +1153,7 @@ appropriate view.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.12">Guideline 5.12</strong><br>
@@ -1165,7 +1166,7 @@ Create folder objects in a wizard if reasonable defaults can be defined.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.13">Guideline 5.13</strong><br>
@@ -1178,12 +1179,12 @@ term.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_editors">Editors</h3>
+<h3 id="_editors">3.4. Editors</h3>
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.1">Guideline 6.1</strong><br>
@@ -1197,7 +1198,7 @@ content.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.2">Guideline 6.2</strong><br>
@@ -1211,7 +1212,7 @@ lifecycle model.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.3">Guideline 6.3</strong><br>
@@ -1225,7 +1226,7 @@ a perspective.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.4">Guideline 6.4</strong><br>
@@ -1239,7 +1240,7 @@ different input.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.5">Guideline 6.5</strong><br>
@@ -1253,7 +1254,7 @@ input being edited.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.6">Guideline 6.6</strong><br>
@@ -1267,7 +1268,7 @@ should be kept to one word, and two words at most.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.7">Guideline 6.7</strong><br>
@@ -1281,7 +1282,7 @@ editor should be added to the window menu bar.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.8">Guideline 6.8</strong><br>
@@ -1294,7 +1295,7 @@ Use the standard format for editor contributions in the window menu bar.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.9">Guideline 6.9</strong><br>
@@ -1309,7 +1310,7 @@ the window menu bar and toolbar.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.10">Guideline 6.10</strong><br>
@@ -1323,7 +1324,7 @@ menu.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.11">Guideline 6.11</strong><br>
@@ -1336,7 +1337,7 @@ Fill the context menu with selection oriented commands.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.12">Guideline 6.12</strong><br>
@@ -1349,7 +1350,7 @@ Use the standard format for editor context menus.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.13">Guideline 6.13</strong><br>
@@ -1363,7 +1364,7 @@ type, and then enable or disable each to reflect the selection state.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.14">Guideline 6.14</strong><br>
@@ -1376,7 +1377,7 @@ Register all context menus in the editor with the platform.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.15">Guideline 6.15</strong><br>
@@ -1389,7 +1390,7 @@ Implement an Command Filter for each object type in the editor.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.16">Guideline 6.16</strong><br>
@@ -1403,7 +1404,7 @@ changes, the editor should be closed.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.17">Guideline 6.17</strong><br>
@@ -1418,7 +1419,7 @@ another location, and then close.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.18">Guideline 6.18</strong><br>
@@ -1432,7 +1433,7 @@ editor tab with an asterisk.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.19">Guideline 6.19</strong><br>
@@ -1446,7 +1447,7 @@ Save As if possible. Display "Read-only" in the status bar area.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.20">Guideline 6.20</strong><br>
@@ -1461,7 +1462,7 @@ outline model to the Outline view.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.21">Guideline 6.21</strong><br>
@@ -1476,7 +1477,7 @@ view as appropriate.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.22">Guideline 6.22</strong><br>
@@ -1493,7 +1494,7 @@ nor any of its descendents have errors.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.23">Guideline 6.23</strong><br>
@@ -1506,7 +1507,7 @@ If appropriate, implement the "Add Task" feature in your editor.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.24">Guideline 6.24</strong><br>
@@ -1519,7 +1520,7 @@ If appropriate, implement the "Add Bookmark" feature in your editor.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.25">Guideline 6.25</strong><br>
@@ -1534,7 +1535,7 @@ to show line numbers for each line in the editor itself.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.26">Guideline 6.26</strong><br>
@@ -1548,7 +1549,7 @@ in edit mode, they should render complex controls upon single-click.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.27">Guideline 6.27</strong><br>
@@ -1564,7 +1565,7 @@ supported as a cursoring mechanism within a cell.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.28">Guideline 6.28</strong><br>
@@ -1579,7 +1580,7 @@ over the red squiggles, display the error text in a fly-over pop up box.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.29">Guideline 6.29</strong><br>
@@ -1592,7 +1593,7 @@ Use the Task view to show errors found when the Save command is invoked.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.30">Guideline 6.30</strong><br>
@@ -1606,12 +1607,12 @@ invoked in the editor.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_views">Views</h3>
+<h3 id="_views">3.5. Views</h3>
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.1">Guideline 7.1</strong><br>
@@ -1625,7 +1626,7 @@ display the properties of an object.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.2">Guideline 7.2</strong><br>
@@ -1638,7 +1639,7 @@ Modifications made within a view must be saved immediately.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.3">Guideline 7.3</strong><br>
@@ -1651,7 +1652,7 @@ Only one instance of a view may exist in a perspective.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.4">Guideline 7.4</strong><br>
@@ -1664,7 +1665,7 @@ A view must be able to be opened in more than one perspective.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.5">Guideline 7.5</strong><br>
@@ -1677,7 +1678,7 @@ A view can be opened from the Window &gt; Show View menu.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.6">Guideline 7.6</strong><br>
@@ -1691,7 +1692,7 @@ view in the Perspective &gt; Show View menu.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.7">Guideline 7.7</strong><br>
@@ -1705,7 +1706,7 @@ it up into two or more views.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.8">Guideline 7.8</strong><br>
@@ -1719,7 +1720,7 @@ perspective.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.9">Guideline 7.9</strong><br>
@@ -1733,7 +1734,7 @@ the root of visible information in the view.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.10">Guideline 7.10</strong><br>
@@ -1747,7 +1748,7 @@ selection-oriented commands.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.11">Guideline 7.11</strong><br>
@@ -1760,7 +1761,7 @@ Use the standard order of commands for view pulldown menus.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.12">Guideline 7.12</strong><br>
@@ -1775,7 +1776,7 @@ view menu.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.13">Guideline 7.13</strong><br>
@@ -1789,7 +1790,7 @@ actions.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.14">Guideline 7.14</strong><br>
@@ -1802,7 +1803,7 @@ Use the standard order of commands for view context menus.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.15">Guideline 7.15</strong><br>
@@ -1816,7 +1817,7 @@ type, and then enable or disable each to reflect the selection state.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.16">Guideline 7.16</strong><br>
@@ -1830,7 +1831,7 @@ context menu in each.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.17">Guideline 7.17</strong><br>
@@ -1843,7 +1844,7 @@ Register all context menus in the view with the platform.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.18">Guideline 7.18</strong><br>
@@ -1856,7 +1857,7 @@ Implement an Command Filter for each object type in the view.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.19">Guideline 7.19</strong><br>
@@ -1871,7 +1872,7 @@ the window menu bar and toolbar.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.20">Guideline 7.20</strong><br>
@@ -1884,7 +1885,7 @@ Persist the state of each view between sessions.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.21">Guideline 7.21</strong><br>
@@ -1895,12 +1896,12 @@ Persist the state of each view between sessions.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_perspectives">Perspectives</h3>
+<h3 id="_perspectives">3.6. Perspectives</h3>
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline8.1">Guideline 8.1</strong><br>
@@ -1914,7 +1915,7 @@ performance of smaller, non-modal tasks.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline8.2">Guideline 8.2</strong><br>
@@ -1928,7 +1929,7 @@ perspective type.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline8.3">Guideline 8.3</strong><br>
@@ -1945,7 +1946,7 @@ perspective.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline8.4">Guideline 8.4</strong><br>
@@ -1959,7 +1960,7 @@ editor.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline8.5">Guideline 8.5</strong><br>
@@ -1974,7 +1975,7 @@ visible.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline8.6">Guideline 8.6</strong><br>
@@ -1989,7 +1990,7 @@ workflow.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline8.7">Guideline 8.7</strong><br>
@@ -2004,7 +2005,7 @@ their old context, and create a new one.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline8.8">Guideline 8.8</strong><br>
@@ -2018,7 +2019,7 @@ user should be able to turn this behavior off.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline8.9">Guideline 8.9</strong><br>
@@ -2032,7 +2033,7 @@ window, or in a new window, depending on the user preference.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline8.10">Guideline 8.10</strong><br>
@@ -2044,12 +2045,12 @@ menus should be at most 7 plus / minus 2 items.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_windows">Windows</h3>
+<h3 id="_windows">3.7. Windows</h3>
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline9.1">Guideline 9.1</strong><br>
@@ -2063,7 +2064,7 @@ toolbar.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline9.2">Guideline 9.2</strong><br>
@@ -2076,7 +2077,7 @@ Follow the platform lead when distributing actions within an Action Set.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline9.3">Guideline 9.3</strong><br>
@@ -2090,7 +2091,7 @@ toolbar if they will be frequently used.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline9.4">Guideline 9.4</strong><br>
@@ -2103,7 +2104,7 @@ Define each action set with a specific task in mind.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline9.5">Guideline 9.5</strong><br>
@@ -2118,7 +2119,7 @@ entire plug-in.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline9.6">Guideline 9.6</strong><br>
@@ -2132,7 +2133,7 @@ more views or editors.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline9.7">Guideline 9.7</strong><br>
@@ -2146,7 +2147,7 @@ for them.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline9.8">Guideline 9.8</strong><br>
@@ -2160,7 +2161,7 @@ window.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline9.9">Guideline 9.9</strong><br>
@@ -2171,12 +2172,12 @@ Always use the global status bar to display status related messages.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_properties">Properties</h3>
+<h3 id="_properties">3.8. Properties</h3>
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline10.1">Guideline 10.1</strong><br>
@@ -2190,7 +2191,7 @@ access is important, and you will switch quickly from object to object.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline10.2">Guideline 10.2</strong><br>
@@ -2204,7 +2205,7 @@ expensive to calculate.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline10.3">Guideline 10.3</strong><br>
@@ -2218,7 +2219,7 @@ contain complex relationships to one another.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline10.4">Guideline 10.4</strong><br>
@@ -2230,12 +2231,12 @@ Properties view.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_widgets">Widgets</h3>
+<h3 id="_widgets">3.9. Widgets</h3>
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline11.1">Guideline 11.1</strong><br>
@@ -2251,13 +2252,13 @@ be set to a given item when its check state is changed.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_standard_components">Standard Components</h2>
+<h2 id="_standard_components">4. Standard Components</h2>
 <div class="sectionbody">
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline12.1">Guideline 12.1</strong><br>
@@ -2271,7 +2272,7 @@ plug-in registry.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline12.2">Guideline 12.2</strong><br>
@@ -2282,12 +2283,12 @@ over the standard components' characteristics.
 </table>
 </div>
 <div class="sect2">
-<h3 id="_the_navigator_view">The Navigator View</h3>
+<h3 id="_the_navigator_view">4.1. The Navigator View</h3>
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline13.1">Guideline 13.1</strong><br>
@@ -2301,7 +2302,7 @@ the plug-in registry.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline13.2">Guideline 13.2</strong><br>
@@ -2316,7 +2317,7 @@ actions in the Navigator.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline13.3">Guideline 13.3</strong><br>
@@ -2328,12 +2329,12 @@ resources back to the Navigator.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_the_tasks_view">The Tasks View</h3>
+<h3 id="_the_tasks_view">4.2. The Tasks View</h3>
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline14.1">Guideline 14.1</strong><br>
@@ -2347,7 +2348,7 @@ Marker Manager services from the Core Resources Management plugin.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline14.2">Guideline 14.2</strong><br>
@@ -2361,7 +2362,7 @@ it will fit in the status line of Eclipse.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline14.3">Guideline 14.3</strong><br>
@@ -2375,7 +2376,7 @@ plug-in registry.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline14.4">Guideline 14.4</strong><br>
@@ -2389,7 +2390,7 @@ visibility of context menu actions in the Tasks view.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline14.5">Guideline 14.5</strong><br>
@@ -2401,12 +2402,12 @@ detailed description of the selected item in the Task view.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_the_preference_dialog">The Preference Dialog</h3>
+<h3 id="_the_preference_dialog">4.3. The Preference Dialog</h3>
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline15.1">Guideline 15.1</strong><br>
@@ -2419,7 +2420,7 @@ Global options should be exposed within the Preferences Dialog.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline15.2">Guideline 15.2</strong><br>
@@ -2433,7 +2434,7 @@ view itself, via a menu or tool item.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline15.3">Guideline 15.3</strong><br>
@@ -2447,7 +2448,7 @@ to.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline15.4">Guideline 15.4</strong><br>
@@ -2463,7 +2464,7 @@ blank.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline15.5">Guideline 15.5</strong><br>
@@ -2478,13 +2479,13 @@ creation of a new category.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_flat_look_design">Flat Look Design</h2>
+<h2 id="_flat_look_design">5. Flat Look Design</h2>
 <div class="sectionbody">
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline16.1">Guideline 16.1</strong><br>
@@ -2498,7 +2499,7 @@ and configuration editing.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline16.2">Guideline 16.2</strong><br>
@@ -2512,7 +2513,7 @@ Have the core sections on the overview page expanded, and provide a
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline16.3">Guideline 16.3</strong><br>
@@ -2525,13 +2526,13 @@ editor for the organization of the tree view in outline view.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_the_tao_of_resource">The Tao of Resource</h2>
+<h2 id="_the_tao_of_resource">6. The Tao of Resource</h2>
 <div class="sectionbody">
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline17.1">Guideline 17.1</strong><br>
@@ -2544,13 +2545,13 @@ IContributorResourceAdapter.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_accessibility">Accessibility</h2>
+<h2 id="_accessibility">7. Accessibility</h2>
 <div class="sectionbody">
 <div class="admonitionblock tip">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline18.1">Guideline 18.1</strong><br>
@@ -2565,7 +2566,7 @@ mouse or the keyboard.
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-12-22 05:39:28 UTC
+Last updated 2022-12-22 05:43:43 UTC
 </div>
 </div>
 </body>

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.18">
+<meta name="generator" content="Asciidoctor 2.0.17">
 <title>Component Development</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -84,10 +84,10 @@ code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;
 ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
 ul,ol{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
+ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
+ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
-ul.square{list-style-type:square}
-ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
@@ -435,6 +435,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="article">
 <div id="header">
@@ -442,7 +443,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_commands">Commands</h2>
+<h2 id="_commands">1. Commands</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>A command, which is invoked by a user to carry out some specific
@@ -472,7 +473,7 @@ information on window, view, or editor specific guidelines, see
 <a href="#Windows">Windows</a>, <a href="#Views">Views</a>, and <a href="#Editors">Editors</a>.</p>
 </div>
 <div class="sect2">
-<h3 id="_appearance">Appearance</h3>
+<h3 id="_appearance">1.1. Appearance</h3>
 <div class="paragraph">
 <p>Each command must have a label, tool tip, and image. If the command
 appears in a toolbar, the command image will be displayed on all
@@ -503,7 +504,7 @@ a toolbar.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline3.1">Guideline 3.1</strong><br>
@@ -534,7 +535,7 @@ Hierarchy button is shown using one tool tips text.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline3.2">Guideline 3.2</strong><br>
@@ -563,7 +564,7 @@ user is adding something to an existing resource.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline3.3">Guideline 3.3</strong><br>
@@ -575,7 +576,7 @@ commands.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_enablement">Enablement</h3>
+<h3 id="_enablement">1.2. Enablement</h3>
 <div class="paragraph">
 <p>An command should be enabled only if it can be completed successfully.
 If this is not the case, the command should be disabled.</p>
@@ -584,7 +585,7 @@ If this is not the case, the command should be disabled.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline3.4">Guideline 3.4</strong><br>
@@ -604,7 +605,7 @@ available.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline3.5">Guideline 3.5</strong><br>
@@ -619,14 +620,14 @@ message if the command is invoked, but cannot be completed.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_dialogs">Dialogs</h2>
+<h2 id="_dialogs">2. Dialogs</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>A dialog is used for modal interaction with the user. It can be used to
 solicit information, or provide feedback.</p>
 </div>
 <div class="sect2">
-<h3 id="_initialization">Initialization</h3>
+<h3 id="_initialization">2.1. Initialization</h3>
 <div class="paragraph">
 <p>When a dialog first opens, the initial focus should be given to the
 first control where information is required from the user. This control
@@ -639,7 +640,7 @@ also be assigned to the default button.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline4.1">Guideline 4.1</strong><br>
@@ -652,7 +653,7 @@ be assigned to the default button.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_multiple_item_selection">Multiple Item Selection</h3>
+<h3 id="_multiple_item_selection">2.2. Multiple Item Selection</h3>
 <div class="paragraph">
 <p>Slush Bucket widgets (also known as the Twin Box design) should flow
 from the left to the right with the source objects on the left and
@@ -700,7 +701,7 @@ order, for moving objects from the source the selected buckets.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline4.2">Guideline 4.2</strong>
@@ -715,7 +716,7 @@ buttons in this order: 'Add &#8594;', '', '
 </div>
 </div>
 <div class="sect1">
-<h2 id="_wizards">Wizards</h2>
+<h2 id="_wizards">3. Wizards</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>In Eclipse, a wizard is commonly used for the creation of new resources,
@@ -728,7 +729,7 @@ completed in a specific order.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.1">Guideline 5.1</strong><br>
@@ -739,7 +740,7 @@ completed in a specific order.
 </table>
 </div>
 <div class="sect2">
-<h3 id="_appearance_2">Appearance</h3>
+<h3 id="_appearance_2">3.1. Appearance</h3>
 <div class="paragraph">
 <p>At the top of each wizard is a header, containing a banner graphic and a
 text area. The banner graphic contains an image representing the wizard
@@ -765,7 +766,7 @@ should appear.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.2">Guideline 5.2</strong><br>
@@ -778,7 +779,7 @@ buttons in the footer.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_initialization_2">Initialization</h3>
+<h3 id="_initialization_2">3.2. Initialization</h3>
 <div class="paragraph">
 <p>When a wizard first opens, the focus should be placed in the first field
 requiring information (see Guidelines 3.1). The header should be used to
@@ -804,7 +805,7 @@ user hasn&#8217;t done anything yet.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.3">Guideline 5.3</strong><br>
@@ -836,7 +837,7 @@ file.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.4">Guideline 5.4</strong><br>
@@ -847,7 +848,7 @@ Seed the fields within the wizard using the current workbench state.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_validation_of_data">Validation of Data</h3>
+<h3 id="_validation_of_data">3.3. Validation of Data</h3>
 <div class="paragraph">
 <p>Information validation within a wizard should be done in tab order. If
 the first required field is empty, an informative prompt should be shown
@@ -882,7 +883,7 @@ buttons may be enabled.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.5">Guideline 5.5</strong><br>
@@ -896,7 +897,7 @@ is absent, and an error when information is invalid.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.6">Guideline 5.6</strong><br>
@@ -921,7 +922,7 @@ as part of the error text in the wizard&#8217;s header area.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.7">Guideline 5.7</strong><br>
@@ -932,7 +933,7 @@ Remove all programming message ID&#8217;s from wizard text.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_browse_buttons">Browse Buttons</h3>
+<h3 id="_browse_buttons">3.4. Browse Buttons</h3>
 <div class="paragraph">
 <p>An edit field and "Browse&#8230;&#8203;" button combination should be used whenever
 an existing object is referenced within a wizard. The edit field is used
@@ -951,7 +952,7 @@ located to the right of the edit field.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.8">Guideline 5.8</strong><br>
@@ -979,7 +980,7 @@ snapshot.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_wizard_completion">Wizard Completion</h3>
+<h3 id="_wizard_completion">3.5. Wizard Completion</h3>
 <div class="paragraph">
 <p>The New Resource and Import Wizards commonly create new files, folders,
 and projects within the workbench. If a single file is created, the
@@ -997,7 +998,7 @@ limitations, steps to take, and so on.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.9">Guideline 5.9</strong><br>
@@ -1022,7 +1023,7 @@ dialog.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.10">Guideline 5.10</strong><br>
@@ -1042,7 +1043,7 @@ created and now exists.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.11">Guideline 5.11</strong><br>
@@ -1080,7 +1081,7 @@ well.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.12">Guideline 5.12</strong><br>
@@ -1091,7 +1092,7 @@ Create folder objects in a wizard if reasonable defaults can be defined.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_terminology">Terminology</h3>
+<h3 id="_terminology">3.6. Terminology</h3>
 <div class="paragraph">
 <p>Within a creation wizard, if the item being created must be a Project
 (not a folder below a project), the term "Project" should be used. If it
@@ -1104,7 +1105,7 @@ but not "Project Name" or "Server Project name".</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline5.13">Guideline 5.13</strong><br>
@@ -1119,7 +1120,7 @@ term.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_editors">Editors</h2>
+<h2 id="_editors">4. Editors</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>An editor is a visual component within a workbench page. It is used to
@@ -1131,7 +1132,7 @@ and a reflection of the primary task.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.1">Guideline 6.1</strong><br>
@@ -1154,7 +1155,7 @@ that point, the modifications should be committed to the model storage.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.2">Guideline 6.2</strong><br>
@@ -1173,7 +1174,7 @@ policy has been designed to simplify part management.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.3">Guideline 6.3</strong><br>
@@ -1191,7 +1192,7 @@ editor for each different input.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.4">Guideline 6.4</strong><br>
@@ -1202,7 +1203,7 @@ different input.
 </table>
 </div>
 <div class="sect2">
-<h3 id="_appearance_3">Appearance</h3>
+<h3 id="_appearance_3">4.1. Appearance</h3>
 <div class="paragraph">
 <p>The editor should be labeled with the name of the resource being edited;
 not with the name of the editor.</p>
@@ -1217,7 +1218,7 @@ not with the name of the editor.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.5">Guideline 6.5</strong><br>
@@ -1239,7 +1240,7 @@ plugin file and html editors.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.6">Guideline 6.6</strong><br>
@@ -1251,7 +1252,7 @@ should be kept to one word, and two words at most.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_menus">Menus</h3>
+<h3 id="_menus">4.2. Menus</h3>
 <div class="paragraph">
 <p>An editor may contribute items directly to the window menu bar. All of
 the commands available in the editor should be displayed in the window
@@ -1263,7 +1264,7 @@ line, word.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.7">Guideline 6.7</strong><br>
@@ -1303,7 +1304,7 @@ menus)</p></td>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.8">Guideline 6.8</strong><br>
@@ -1333,7 +1334,7 @@ IWorkbenchActionConstants.java (see below).</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.9">Guideline 6.9</strong><br>
@@ -1346,7 +1347,7 @@ the window menu bar and toolbar.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_toolbars">Toolbars</h3>
+<h3 id="_toolbars">4.3. Toolbars</h3>
 <div class="paragraph">
 <p>An editor may contribute commands directly to the window toolbar. The
 toolbar is used to expose the <em>most commonly used</em> commands in an
@@ -1358,7 +1359,7 @@ the toolbar.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.10">Guideline 6.10</strong><br>
@@ -1377,7 +1378,7 @@ the product, and creates a better feel of integration.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_context_menus">Context Menus</h3>
+<h3 id="_context_menus">4.4. Context Menus</h3>
 <div class="paragraph">
 <p>A context menu should be used for context sensitive interaction with the
 objects in an editor. If an object is selected in an editor, and the
@@ -1394,7 +1395,7 @@ remain consistent for any selection in the editor.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.11">Guideline 6.11</strong>
@@ -1439,7 +1440,7 @@ kept distinct from one another through the use of separators.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.12">Guideline 6.12</strong><br>
@@ -1459,7 +1460,7 @@ makes the menu more predictable, and easier to navigate.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.13">Guideline 6.13</strong><br>
@@ -1495,7 +1496,7 @@ an Eclipse View.</a></p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.14">Guideline 6.14</strong><br>
@@ -1508,7 +1509,7 @@ Register all context menus in the editor with the platform.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.15">Guideline 6.15</strong><br>
@@ -1519,7 +1520,7 @@ Implement an Command Filter for each object type in the editor.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_resource_deletion">Resource Deletion</h3>
+<h3 id="_resource_deletion">4.5. Resource Deletion</h3>
 <div class="paragraph">
 <p>When a resource is deleted from one of the navigators (e.g., Navigator
 view, J2EE view, Data view, or DBA Explorer view in IBM&#8217;s WebSphere
@@ -1534,7 +1535,7 @@ saved then the editor should be immediately closed.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.16">Guideline 6.16</strong><br>
@@ -1560,7 +1561,7 @@ is a sample of the dialog which should be displayed:</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.17">Guideline 6.17</strong><br>
@@ -1573,7 +1574,7 @@ another location, and then close.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_unsaved_changes">Unsaved Changes</h3>
+<h3 id="_unsaved_changes">4.6. Unsaved Changes</h3>
 <div class="paragraph">
 <p>If the editor contains changes to the resource since the resource was
 last saved (i.e., it is "dirty"), an asterisk should be used to prefix
@@ -1589,7 +1590,7 @@ the resource name presented in the editor tab:</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.18">Guideline 6.18</strong><br>
@@ -1601,7 +1602,7 @@ editor tab with an asterisk.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_read_only_files">Read-Only Files</h3>
+<h3 id="_read_only_files">4.7. Read-Only Files</h3>
 <div class="paragraph">
 <p>With a name like "editor", it&#8217;s not surprising that the issue of
 read-only files may cause confusion. If it&#8217;s read-only, how can you edit
@@ -1611,7 +1612,7 @@ it? In this case, you should fall back to first principles.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Note</div>
+<i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
 A view is typically used to navigate a hierarchy of information, open an
@@ -1633,7 +1634,7 @@ the default "Writable" message.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.19">Guideline 6.19</strong><br>
@@ -1645,7 +1646,7 @@ Save As if possible. Display "Read-only" in the status bar area.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_integration_with_other_views">Integration with Other Views</h3>
+<h3 id="_integration_with_other_views">4.8. Integration with Other Views</h3>
 <div class="paragraph">
 <p>In Eclipse, there is a special relationship between each editor and the
 Outline view. When an editor is opened, the Outline view will connect to
@@ -1674,7 +1675,7 @@ file.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.20">Guideline 6.20</strong><br>
@@ -1700,7 +1701,7 @@ which should support creation operations as appropriate.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.21">Guideline 6.21</strong><br>
@@ -1727,7 +1728,7 @@ mind, so that glyphs can be applied to the ancestor&#8217;s icon.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.22">Guideline 6.22</strong><br>
@@ -1750,7 +1751,7 @@ in the Task.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.23">Guideline 6.23</strong><br>
@@ -1769,7 +1770,7 @@ defined in the Task.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.24">Guideline 6.24</strong><br>
@@ -1780,7 +1781,7 @@ If appropriate, implement the "Add Bookmark" feature in your editor.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_line_numbers">Line Numbers</h3>
+<h3 id="_line_numbers">4.9. Line Numbers</h3>
 <div class="paragraph">
 <p>Editors with source lines of text should have line numbers, and
 optionally column numbers. Editors should also support Navigate &#8594; Goto
@@ -1793,7 +1794,7 @@ numbers for each line in the editor itself.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.25">Guideline 6.25</strong>+
@@ -1806,7 +1807,7 @@ to show line numbers for each line in the editor itself.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_table_cell_editors">Table Cell Editors</h3>
+<h3 id="_table_cell_editors">4.10. Table Cell Editors</h3>
 <div class="paragraph">
 <p>If the editor contains tables with editable cells, a single-click over a
 cell should select the current item and put the cell into edit mode. In
@@ -1823,7 +1824,7 @@ be rendered upon the single-click.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.26">Guideline 6.26</strong><br>
@@ -1883,7 +1884,7 @@ to make a selection without needing to invoke the drop-down</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.27">Guideline 6.27</strong><br>
@@ -1897,7 +1898,7 @@ supported as a cursoring mechanism within a cell.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_error_notification">Error Notification</h3>
+<h3 id="_error_notification">4.11. Error Notification</h3>
 <div class="paragraph">
 <p>If you are doing keystroke by keystroke validation in an editor, use red
 squiggles to underline the invalid content. When users move the mouse
@@ -1907,7 +1908,7 @@ over the red squiggles, display the error text in a fly-over pop up box.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.28">Guideline 6.28</strong><br>
@@ -1926,7 +1927,7 @@ showing errors which are persisted.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.29">Guideline 6.29</strong><br>
@@ -1938,7 +1939,7 @@ invoked.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_interaction_with_external_editors">Interaction With External Editors</h3>
+<h3 id="_interaction_with_external_editors">4.12. Interaction With External Editors</h3>
 <div class="paragraph">
 <p>While a resource is opened within the workbench, if modifications are
 made to it outside of the workbench, we recommend the following approach
@@ -1952,7 +1953,7 @@ the focus.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline6.30">Guideline 6.30</strong><br>
@@ -1968,7 +1969,7 @@ invoked in the editor.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_views">Views</h2>
+<h2 id="_views">5. Views</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>A view is a visual component within a workbench page. It is used in a
@@ -1980,7 +1981,7 @@ editor.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.1">Guideline 7.1</strong><br>
@@ -2011,7 +2012,7 @@ Save command within the view.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.2">Guideline 7.2</strong><br>
@@ -2031,7 +2032,7 @@ invoke Perspective &gt; Show view again to make the view visible.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.3">Guideline 7.3</strong><br>
@@ -2051,7 +2052,7 @@ may exist, the ability to multi-task is taken away.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.4">Guideline 7.4</strong><br>
@@ -2076,7 +2077,7 @@ Window &gt; Show View &gt; Other&#8230;&#8203; dialog.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.5">Guideline 7.5</strong><br>
@@ -2086,7 +2087,7 @@ A view can be opened from the Window &gt; Show View menu.
 </table>
 </div>
 <div class="sect2">
-<h3 id="_appearance_4">Appearance</h3>
+<h3 id="_appearance_4">5.1. Appearance</h3>
 <div class="paragraph">
 <p>A view consists of a title area, a toolbar, a pulldown menu, and an
 embedded control.</p>
@@ -2102,7 +2103,7 @@ clarify the state of the view.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.6">Guideline 7.6</strong><br>
@@ -2126,7 +2127,7 @@ for users to create a new perspective with a diverse set of views.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.7">Guideline 7.7</strong><br>
@@ -2138,7 +2139,7 @@ it up into two or more views.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_initialization_3">Initialization</h3>
+<h3 id="_initialization_3">5.2. Initialization</h3>
 <div class="paragraph">
 <p>When a view is opened, the input of the view should be derived from the
 state of the perspective. The view may consult the window input or
@@ -2150,7 +2151,7 @@ for an outline model, and display the outline model.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.8">Guideline 7.8</strong><br>
@@ -2174,7 +2175,7 @@ view.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.9">Guideline 7.9</strong>*
@@ -2186,7 +2187,7 @@ the root of visible information in the view.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_menus_2">Menus</h3>
+<h3 id="_menus_2">5.3. Menus</h3>
 <div class="paragraph">
 <p>Use the view pulldown menu for presentation commands, not
 selection-oriented commands. These are commands which affect the
@@ -2199,7 +2200,7 @@ resources, but do not affect the resources themselves.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.10">Guideline 7.10</strong><br>
@@ -2273,7 +2274,7 @@ and Package Explorer)</p></td>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.11">Guideline 7.11</strong><br>
@@ -2284,7 +2285,7 @@ Use the standard order of commands for view pulldown menus.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_toolbars_2">Toolbars</h3>
+<h3 id="_toolbars_2">5.4. Toolbars</h3>
 <div class="paragraph">
 <p>The toolbar is used to expose the most commonly used commands in a view.
 Any command which appears in the toolbar must also appear in the menu
@@ -2295,7 +2296,7 @@ duplicate every command in the menu within the toolbar.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.12">Guideline 7.12:</strong> <br>
@@ -2308,7 +2309,7 @@ view menu.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_context_menus_2">Context Menus</h3>
+<h3 id="_context_menus_2">5.5. Context Menus</h3>
 <div class="paragraph">
 <p>A context menu should be used for context sensitive interaction with the
 objects in a view. If an object is selected in a view, and the context
@@ -2320,7 +2321,7 @@ the view should not appear in the context menu.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.13">Guideline 7.13</strong><br>
@@ -2373,7 +2374,7 @@ explanatory.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.14">Guideline 7.14</strong><br>
@@ -2394,7 +2395,7 @@ navigate.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.15">Guideline 7.15</strong><br>
@@ -2422,7 +2423,7 @@ can be reused by other views where the same objects appear.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.16">Guideline 7.16</strong><br>
@@ -2459,7 +2460,7 @@ an Eclipse View.</a></p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.17">Guideline 7.17</strong><br>
@@ -2472,7 +2473,7 @@ Register all context menus in the view with the platform.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.18">Guideline 7.18</strong><br>
@@ -2483,7 +2484,7 @@ Implement an Command Filter for each object type in the view.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_integration_with_the_window_menu_bar_and_toolbar">Integration with the Window Menu Bar and Toolbar</h3>
+<h3 id="_integration_with_the_window_menu_bar_and_toolbar">5.6. Integration with the Window Menu Bar and Toolbar</h3>
 <div class="paragraph">
 <p>The window menu bar contains a number of global commands, such as Cut,
 Copy, and Paste within the Edit menu. These commands target the active
@@ -2518,7 +2519,7 @@ Project</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.19">Guideline 7.19</strong><br>
@@ -2544,7 +2545,7 @@ associated with the perspective, to improve UI stability.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_persistence">Persistence</h3>
+<h3 id="_persistence">5.7. Persistence</h3>
 <div class="paragraph">
 <p>One of the primary goals for the platform UI is to provide efficient
 interaction with the workspace. In the platform this is promoted by
@@ -2568,7 +2569,7 @@ an Eclipse View</a>".</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.20">Guideline 7.20</strong><br>
@@ -2579,9 +2580,9 @@ Persist the state of each view between sessions.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_interaction_with_editors">Interaction with Editors</h3>
+<h3 id="_interaction_with_editors">5.8. Interaction with Editors</h3>
 <div class="sect3">
-<h4 id="_link_with_editor">Link with Editor</h4>
+<h4 id="_link_with_editor">5.8.1. Link with Editor</h4>
 <div class="paragraph">
 <p>Navigation views should support "Link with Editor" on the view menu.
 This feature works on a per-view setting. If it&#8217;s expected that users
@@ -2645,7 +2646,7 @@ Navigator and Package Explorer default to off</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline7.21">Guideline 7.21</strong><br>
@@ -2656,14 +2657,14 @@ Navigation views should support "Link with Editor" on the view menu
 </div>
 </div>
 <div class="sect3">
-<h4 id="_opening_an_editor_from_a_view">Opening an Editor from a View</h4>
+<h4 id="_opening_an_editor_from_a_view">5.8.2. Opening an Editor from a View</h4>
 <div class="paragraph">
 <p>There exist two main modes for opening an editor from a view: single
 click and double click mode. Views should show the following behavior
 for opening an editor:</p>
 </div>
 <div class="sect4">
-<h5 id="_single_click_open_mode">Single click open mode</h5>
+<h5 id="_single_click_open_mode">5.8.2.1. Single click open mode</h5>
 <div class="ulist">
 <ul>
 <li>
@@ -2700,7 +2701,7 @@ if possible)</p>
 </div>
 </div>
 <div class="sect4">
-<h5 id="_double_click_open_mode">Double click open mode</h5>
+<h5 id="_double_click_open_mode">5.8.2.2. Double click open mode</h5>
 <div class="ulist">
 <ul>
 <li>
@@ -2750,7 +2751,7 @@ if possible)</p>
 </div>
 </div>
 <div class="sect4">
-<h5 id="_additional_rules">Additional rules</h5>
+<h5 id="_additional_rules">5.8.2.3. Additional rules</h5>
 <div class="ulist">
 <ul>
 <li>
@@ -2770,7 +2771,7 @@ element in the editor but never activate the editor</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_perspectives">Perspectives</h2>
+<h2 id="_perspectives">6. Perspectives</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>A perspective is a visual container for a set of views and editors
@@ -2831,7 +2832,7 @@ may be better performed using a view in the current perspective.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline8.1">Guideline 8.1</strong><br>
@@ -2853,7 +2854,7 @@ integration with the existing platform.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline8.2">Guideline 8.2</strong><br>
@@ -2864,7 +2865,7 @@ perspective type.
 </table>
 </div>
 <div class="sect2">
-<h3 id="_view_layout">View Layout</h3>
+<h3 id="_view_layout">6.1. View Layout</h3>
 <div class="paragraph">
 <p>If the user opens a new perspective, the initial layout of views will be
 defined by the perspective type (i.e., Resource, Java). This layout is
@@ -2888,7 +2889,7 @@ editor area.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline8.3">Guideline 8.3</strong><br>
@@ -2911,7 +2912,7 @@ editor.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline8.4">Guideline 8.4</strong><br>
@@ -2940,7 +2941,7 @@ programmatically hidden.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline8.5">Guideline 8.5</strong><br>
@@ -2953,7 +2954,7 @@ visible.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_command_contribution">Command Contribution</h3>
+<h3 id="_command_contribution">6.2. Command Contribution</h3>
 <div class="paragraph">
 <p>The perspective factory may add actions to the File &gt; New, Window &gt; Open
 Perspective , and Window &gt; Show View menus. It is also possible to add
@@ -2998,7 +2999,7 @@ populated with each of these perspectives.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline8.6">Guideline 8.6</strong><br>
@@ -3011,7 +3012,7 @@ workflow.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_opening_a_perspective_in_code">Opening a Perspective in Code</h3>
+<h3 id="_opening_a_perspective_in_code">6.3. Opening a Perspective in Code</h3>
 <div class="paragraph">
 <p>A command should open a new perspective only if the user explicitly
 states a desire to do so. If the user does not state a desire to do so,
@@ -3029,7 +3030,7 @@ context. This is time wasted.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline8.7">Guideline 8.7</strong><br>
@@ -3052,7 +3053,7 @@ page.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline8.8">Guideline 8.8</strong><br>
@@ -3072,7 +3073,7 @@ the plug-in should honor the user preference.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline8.9">Guideline 8.9</strong><br>
@@ -3092,7 +3093,7 @@ views added as shortcuts to these menus should be at most 7 plus / minus
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline8.10">Guideline 8.10</strong><br>
@@ -3106,7 +3107,7 @@ menus should be at most 7 plus / minus 2 items.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_windows">Windows</h2>
+<h2 id="_windows">7. Windows</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>In this section we look at the window menu bar, toolbar, and layout. As
@@ -3118,7 +3119,7 @@ action extension. For more information on perspectives, see
 <a href="#Perspectives">Perspectives</a>.</p>
 </div>
 <div class="sect2">
-<h3 id="_actions">Actions</h3>
+<h3 id="_actions">7.1. Actions</h3>
 <div class="paragraph">
 <p>Each workbench window contains a menu bar and toolbar. These are
 pre-populated by the platform, but a plug-in developer may add
@@ -3131,7 +3132,7 @@ menu bar and toolbar.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline9.1">Guideline 9.1</strong><br>
@@ -3187,7 +3188,7 @@ contents.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline9.2">Guideline 9.2</strong><br>
@@ -3205,7 +3206,7 @@ and then to the toolbar if they will be frequently used.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline9.3">Guideline 9.3</strong><br>
@@ -3227,7 +3228,7 @@ active task.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline9.4">Guideline 9.4</strong><br>
@@ -3254,7 +3255,7 @@ entire plug-in.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline9.5">Guideline 9.5</strong>
@@ -3283,7 +3284,7 @@ interface.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline9.6">Guideline 9.6</strong><br>
@@ -3308,7 +3309,7 @@ the active task, and the appropriate action sets for its completion.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline9.7">Guideline 9.7</strong><br>
@@ -3329,7 +3330,7 @@ should be added to the Navigate menu, for consistency.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline9.8">Guideline 9.8</strong><br>
@@ -3341,7 +3342,7 @@ window.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_status_bar">Status Bar</h3>
+<h3 id="_status_bar">7.2. Status Bar</h3>
 <div class="paragraph">
 <p>If there is a need for a plug-in to show non-modal contextual
 information in the status bar area, always use the global status bar.
@@ -3352,7 +3353,7 @@ and column number.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline9.9">Guideline 9.9</strong><br>
@@ -3365,7 +3366,7 @@ Always use the global status bar to display status related messages.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_properties">Properties</h2>
+<h2 id="_properties">8. Properties</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>A Properties dialog or view is used to view / modify the properties of
@@ -3399,7 +3400,7 @@ and you switch from one object to another quickly.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline10.1">Guideline 10.1</strong><br>
@@ -3420,7 +3421,7 @@ should be used.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline10.2">Guideline 10.2</strong><br>
@@ -3441,7 +3442,7 @@ properties.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline10.3">Guideline 10.3</strong><br>
@@ -3460,7 +3461,7 @@ contain the superset of items shown in the Properties view.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline10.4">Guideline 10.4</strong><br>
@@ -3471,9 +3472,9 @@ Properties view.
 </table>
 </div>
 <div class="sect2">
-<h3 id="_properties_view">Properties View</h3>
+<h3 id="_properties_view">8.1. Properties View</h3>
 <div class="sect3">
-<h4 id="_summary">Summary</h4>
+<h4 id="_summary">8.1.1. Summary</h4>
 <div class="paragraph">
 <p>For consistency and clarity in Properties, use the standard tabbed view
 with proper tab ordering, flexible layout, detailed user assistance,
@@ -3481,7 +3482,7 @@ accurate multi-selection, and no sub-tabs.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_problem_description">Problem Description</h4>
+<h4 id="_problem_description">8.1.2. Problem Description</h4>
 <div class="paragraph">
 <p>Across many Eclipse-based products, the Properties view is being used
 and presented inconsistently. This inconsistency is problematic for
@@ -3491,7 +3492,7 @@ effectiveness and efficiency of a Properties view.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_best_practice">Best Practice</h4>
+<h4 id="_best_practice">8.1.3. Best Practice</h4>
 <div class="dlist">
 <dl>
 <dt class="hdlist1">Use the standard tabbed view for product consistency.</dt>
@@ -3552,7 +3553,7 @@ otherwise, a backup approach is to provide hover help (tooltips).</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_tips_and_tricks">Tips and Tricks</h4>
+<h4 id="_tips_and_tricks">8.1.4. Tips and Tricks</h4>
 <div class="paragraph">
 <p>When multiple objects are selected in the editor, follow these
 guidelines.</p>
@@ -3578,7 +3579,7 @@ objects.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_good_examples">Good Examples</h4>
+<h4 id="_good_examples">8.1.5. Good Examples</h4>
 <div id="PropertiesView_Figure" class="imageblock">
 <div class="content">
 <img src="images/PropertiesView_Figure1.jpg" alt="PropertiesView Figure1">
@@ -3590,14 +3591,14 @@ objects.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_widgets">Widgets</h2>
+<h2 id="_widgets">9. Widgets</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>In this section, we will describe some of the recommended designs for
 Standard Windows Toolkit (SWT) widgets.</p>
 </div>
 <div class="sect2">
-<h3 id="_tree_and_table">Tree and Table</h3>
+<h3 id="_tree_and_table">9.1. Tree and Table</h3>
 <div class="paragraph">
 <p>For Tree and Table widgets that have a checkbox associated with a cell
 item, users can either select the item or change the checkbox state.
@@ -3610,7 +3611,7 @@ the checkbox associated with the item).</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline11.1">Guideline 11.1</strong><br>
@@ -3628,7 +3629,7 @@ be set to a given item when its check state is changed.
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-12-22 05:39:28 UTC
+Last updated 2022-12-22 05:43:43 UTC
 </div>
 </div>
 </body>

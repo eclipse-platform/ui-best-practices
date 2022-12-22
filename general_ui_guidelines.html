@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.18">
+<meta name="generator" content="Asciidoctor 2.0.17">
 <title>General UI Guidelines</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -84,10 +84,10 @@ code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;
 ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
 ul,ol{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
+ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
+ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
-ul.square{list-style-type:square}
-ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
@@ -435,6 +435,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="article">
 <div id="header">
@@ -479,7 +480,7 @@ prerequisite knowledge, please read the relevant documentation first.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline1.1">Guideline 1.1</strong><br>
@@ -493,7 +494,7 @@ simplicity.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_the_spirit_of_eclipse">The Spirit of Eclipse</h2>
+<h2 id="_the_spirit_of_eclipse">1. The Spirit of Eclipse</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>At its heart, Eclipse is a platform for tool plug-ins. These plug-ins
@@ -530,7 +531,7 @@ Platform @ GitHub</a> to share information with the community.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline1.2">Guideline 1.2</strong><br>
@@ -556,7 +557,7 @@ of part activation in the window.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline1.34">Guideline 1.3</strong><br>
@@ -580,7 +581,7 @@ development and increase customer satisfaction.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline1.4">Guideline 1.4</strong><br>
@@ -593,7 +594,7 @@ Eclipse a better platform for all.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_capitalization">Capitalization</h2>
+<h2 id="_capitalization">2. Capitalization</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Consistent capitalization of text within a plug-in leads to a more
@@ -611,7 +612,7 @@ Java file" can be used as a group label.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline1.5">Guideline 1.5</strong><br>
@@ -628,7 +629,7 @@ punctuation.
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline1.6">Guideline 1.6</strong><br>
@@ -643,7 +644,7 @@ and any proper names such as the word Java.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_language">Language</h2>
+<h2 id="_language">3. Language</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Eclipse is available on a variety of different platforms, in a variety
@@ -661,7 +662,7 @@ and more information.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline1.7">Guideline 1.7</strong><br>
@@ -673,7 +674,7 @@ Create localized version of the resources within your plug-in.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_error_handling">Error Handling</h2>
+<h2 id="_error_handling">4. Error Handling</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>If an error occurs in Eclipse, the appropriate response will be
@@ -697,7 +698,7 @@ deal with, the problem.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline1.8">Guideline 1.8</strong><br>
@@ -739,7 +740,7 @@ of the error dialog:</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline1.9">Guideline 1.9</strong><br>
@@ -754,7 +755,7 @@ with a dialog, and log it.
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-12-22 05:39:28 UTC
+Last updated 2022-12-22 05:43:43 UTC
 </div>
 </div>
 </body>

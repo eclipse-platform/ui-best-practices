@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.18">
+<meta name="generator" content="Asciidoctor 2.0.17">
 <title>Best Practices</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -84,10 +84,10 @@ code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;
 ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
 ul,ol{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
+ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
+ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
-ul.square{list-style-type:square}
-ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
@@ -435,6 +435,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="article">
 <div id="header">
@@ -450,7 +451,7 @@ implementing some common user interactions within the Eclipse platform.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_syntax_and_compilation_error_handling">Syntax and Compilation Error Handling</h2>
+<h2 id="_syntax_and_compilation_error_handling">1. Syntax and Compilation Error Handling</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>When designing editors that provide syntax or compilation checking
@@ -491,7 +492,7 @@ warnings.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_coding_assistance">Coding Assistance</h2>
+<h2 id="_coding_assistance">2. Coding Assistance</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>In addition to supporting the standard content assist in an editor,
@@ -548,7 +549,7 @@ modified URL.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_context_menu">Context Menu</h2>
+<h2 id="_context_menu">3. Context Menu</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Here is one suggested process to reason why a menu item should be added
@@ -568,7 +569,7 @@ except for clipboard and save operations.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_labels_fonts_and_layout_for_flat_look_design">Labels, Fonts and Layout for Flat Look Design</h2>
+<h2 id="_labels_fonts_and_layout_for_flat_look_design">4. Labels, Fonts and Layout for Flat Look Design</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>For Flat Look design, when using buttons with ellipses (except for the
@@ -614,7 +615,7 @@ enabled state, use RBG value (128, 128, 128) for disabled state.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_decorators">Decorators</h2>
+<h2 id="_decorators">5. Decorators</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Enabling and disabling the decorators are extremely useful when the
@@ -628,7 +629,7 @@ conflict, users should appropriately enable / disable different
 decorators to get the required decoration.</p>
 </div>
 <div class="sect2">
-<h3 id="_implementation_tip">Implementation Tip</h3>
+<h3 id="_implementation_tip">5.1. Implementation Tip</h3>
 <div class="paragraph">
 <p>It is very important to design custom decorators that don&#8217;t conflict
 with basic decorations provided by different Eclipse views. For example,
@@ -652,7 +653,7 @@ avoided as they are decorated outside of the decorator mechanism</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-12-22 05:39:28 UTC
+Last updated 2022-12-22 05:43:43 UTC
 </div>
 </div>
 </body>

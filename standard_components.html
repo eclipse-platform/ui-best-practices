@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.18">
+<meta name="generator" content="Asciidoctor 2.0.17">
 <title>Standard Components</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -84,10 +84,10 @@ code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;
 ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
 ul,ol{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
+ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
+ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
-ul.square{list-style-type:square}
-ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
@@ -435,6 +435,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="article">
 <div id="header">
@@ -458,7 +459,7 @@ the existing knowledge of the user.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline12.1">Guideline 12.1</strong><br>
@@ -478,7 +479,7 @@ drop support, keyboard navigation, selection behaviour, etc.)</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline12.2">Guideline 12.2</strong><br>
@@ -491,7 +492,7 @@ over the standard components' characteristics.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_the_navigator_view">The Navigator View</h2>
+<h2 id="_the_navigator_view">1. The Navigator View</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>The Navigator is used to navigate the workspace, create new resources,
@@ -499,7 +500,7 @@ modify resources, and open an editor on a resource. Plug-in developers
 may contribute new actions to the menu, toolbar, and context menu.</p>
 </div>
 <div class="sect2">
-<h3 id="_adding_actions">Adding Actions</h3>
+<h3 id="_adding_actions">1.1. Adding Actions</h3>
 <div class="paragraph">
 <p>This is done by adding an extension to the plug-in registry.</p>
 </div>
@@ -507,7 +508,7 @@ may contribute new actions to the menu, toolbar, and context menu.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline13.1">Guideline 13.1</strong><br>
@@ -557,8 +558,8 @@ IProjectActionFilter.java.</p>
 <div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="language-java" data-lang="java">public interface IProjectActionFilter extends IResourceActionFilter {
-	public static final String NATURE = "nature";
-	public static final String OPEN = "open";
+    public static final String NATURE = "nature";
+    public static final String OPEN = "open";
 }</code></pre>
 </div>
 </div>
@@ -566,7 +567,7 @@ IProjectActionFilter.java.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline13.2">Guideline 13.2</strong><br>
@@ -579,7 +580,7 @@ actions in the Navigator.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_integration_with_other_views_and_editors">Integration with Other Views and Editors</h3>
+<h3 id="_integration_with_other_views_and_editors">1.2. Integration with Other Views and Editors</h3>
 <div class="paragraph">
 <p>In Eclipse, the use of a "Navigate &#8594; Show In" command is a common way
 to link the selection in one view to the input of another. For instance,
@@ -599,7 +600,7 @@ reveal the resource in the navigator.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline13.3">Guideline 13.3</strong><br>
@@ -613,7 +614,7 @@ resources back to the Navigator.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_the_tasks_view">The Tasks View</h2>
+<h2 id="_the_tasks_view">2. The Tasks View</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>The Tasks view is used to display the current tasks, errors and warnings
@@ -624,7 +625,7 @@ and context menu. This is done by adding an extension to the plug-in
 registry.</p>
 </div>
 <div class="sect2">
-<h3 id="_adding_tasks">Adding Tasks</h3>
+<h3 id="_adding_tasks">2.1. Adding Tasks</h3>
 <div class="paragraph">
 <p>A new task, error or warning can be created using the Marker Manager
 services from the Core Resources Management plugin.</p>
@@ -633,7 +634,7 @@ services from the Core Resources Management plugin.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline14.1">Guideline 14.1</strong><br>
@@ -653,7 +654,7 @@ will fit in the status line of Eclipse.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline14.2">Guideline 14.2</strong><br>
@@ -665,7 +666,7 @@ it will fit in the status line of Eclipse.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_adding_actions_2">Adding Actions</h3>
+<h3 id="_adding_actions_2">2.2. Adding Actions</h3>
 <div class="paragraph">
 <p>You can contribute new actions to the menu, toolbar, and context menu.
 This is done by adding an extension to the plug-in registry.</p>
@@ -674,7 +675,7 @@ This is done by adding an extension to the plug-in registry.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline14.3">Guideline 14.3</strong><br>
@@ -698,12 +699,12 @@ an Eclipse View</a>.</p>
 <div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="language-java" data-lang="java">public interface IMarkerActionFilter extends IActionFilter {
-	public static final String TYPE = "type";
-	public static final String SUPER_TYPE = "superType";
-	public static final String PRIORITY = "priority";
-	public static final String SEVERITY = "severity";
-	public static final String DONE = "done";
-	public static final String MESSAGE = "message";
+    public static final String TYPE = "type";
+    public static final String SUPER_TYPE = "superType";
+    public static final String PRIORITY = "priority";
+    public static final String SEVERITY = "severity";
+    public static final String DONE = "done";
+    public static final String MESSAGE = "message";
 }</code></pre>
 </div>
 </div>
@@ -711,7 +712,7 @@ an Eclipse View</a>.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline14.4">Guideline 14.4</strong><br>
@@ -723,7 +724,7 @@ visibility of context menu actions in the Tasks view.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_integration_with_other_views_and_editors_2">Integration with Other Views and Editors</h3>
+<h3 id="_integration_with_other_views_and_editors_2">2.3. Integration with Other Views and Editors</h3>
 <div class="paragraph">
 <p>In an editor, task objects are commonly used to mark a location within a
 document. Once a task has been created, it appears in the Task view. If
@@ -738,7 +739,7 @@ this, see <a href="#Editors">Editors</a>.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_adding_f1_help_to_task_view">Adding F1 Help to Task View</h3>
+<h3 id="_adding_f1_help_to_task_view">2.4. Adding F1 Help to Task View</h3>
 <div class="paragraph">
 <p>Plug-ins should support F1 keyboard command and link it to an infopop
 that gives a detailed description of the selected item in the Task view.</p>
@@ -747,7 +748,7 @@ that gives a detailed description of the selected item in the Task view.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline14.5">Guideline 14.5</strong><br>
@@ -761,14 +762,14 @@ detailed description of the selected item in the Task view.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_selection_dialogs">Selection Dialogs</h2>
+<h2 id="_selection_dialogs">3. Selection Dialogs</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>When you want the user to select items from a given list of items, you
 can use the standard selection dialogs available in Eclipse.</p>
 </div>
 <div class="sect2">
-<h3 id="_containerselectiondialog">ContainerSelectionDialog</h3>
+<h3 id="_containerselectiondialog">3.1. ContainerSelectionDialog</h3>
 <div class="paragraph">
 <p>Use
 <a href="http://help.eclipse.org/ganymede/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ContainerSelectionDialog.html">ContainerSelectionDialog</a>
@@ -787,7 +788,7 @@ the respective object as the second parameter for the constructor.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_resourceselectiondialog">ResourceSelectionDialog</h3>
+<h3 id="_resourceselectiondialog">3.2. ResourceSelectionDialog</h3>
 <div class="paragraph">
 <p>The ContainerSelectionDialog allowed you to select only one resource
 that too it should be a container. If you want to select multiple
@@ -804,7 +805,7 @@ dialog.open();</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_resourcelistselectiondialog">ResourceListSelectionDialog</h3>
+<h3 id="_resourcelistselectiondialog">3.3. ResourceListSelectionDialog</h3>
 <div class="paragraph">
 <p>The ResourceSelectionDialog is good when you want to present the entire
 set of resources under a parent and allow the user to select multiple
@@ -821,7 +822,7 @@ dialog.open();</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_elementlistselectiondialog">ElementListSelectionDialog</h3>
+<h3 id="_elementlistselectiondialog">3.4. ElementListSelectionDialog</h3>
 <div class="paragraph">
 <p>The above Dialogs are good to selecting workspace resources. But what if
 I have some elements on my own and I want to select from that? The first
@@ -842,7 +843,7 @@ dialog.open();</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_listselectiondialog">ListSelectionDialog</h3>
+<h3 id="_listselectiondialog">3.5. ListSelectionDialog</h3>
 <div class="paragraph">
 <p>If you want the user to select multiple elements from the given set,
 then
@@ -861,7 +862,7 @@ dlg.open();</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_checkedtreeselectiondialog">CheckedTreeSelectionDialog</h3>
+<h3 id="_checkedtreeselectiondialog">3.6. CheckedTreeSelectionDialog</h3>
 <div class="paragraph">
 <p>If you have your items in a tree structure and want to select few
 elements from them, then
@@ -880,7 +881,7 @@ dialog.open();</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_elementtreeselectiondialog">ElementTreeSelectionDialog</h3>
+<h3 id="_elementtreeselectiondialog">3.7. ElementTreeSelectionDialog</h3>
 <div class="paragraph">
 <p><a href="http://help.eclipse.org/ganymede/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ElementTreeSelectionDialog.html">ElementTreeSelectionDialog</a>
 is the same as the CheckedTreeSelectionDialog except that it will allow
@@ -898,7 +899,7 @@ dialog.open();</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_filtereditemsselectiondialog">FilteredItemsSelectionDialog</h3>
+<h3 id="_filtereditemsselectiondialog">3.8. FilteredItemsSelectionDialog</h3>
 <div class="paragraph">
 <p>Have you used the Open Type (Ctrl + Shift + T) or Open Resource
 (Ctrl+Shift+R) dialog? Its similar to the ElementListSelectionDialog,
@@ -914,7 +915,7 @@ and provide the necessary implementation.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_the_preference_dialog">The Preference Dialog</h2>
+<h2 id="_the_preference_dialog">4. The Preference Dialog</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>The Preference Dialog is used to edit the global preference for a
@@ -931,7 +932,7 @@ plug-in.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline15.1">Guideline 15.1</strong><br>
@@ -951,7 +952,7 @@ will blur the location of customization, and confuse the user.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline15.2">Guideline 15.2</strong><br>
@@ -962,7 +963,7 @@ view itself, via a menu or tool item.
 </table>
 </div>
 <div class="sect2">
-<h3 id="_preference_page_design">Preference Page Design</h3>
+<h3 id="_preference_page_design">4.1. Preference Page Design</h3>
 <div class="paragraph">
 <p>In the simplest case, any plug-in which needs to expose an option to the
 user will define a single preference page. This preference page should
@@ -974,7 +975,7 @@ preference pages should be adopted.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline15.3">Guideline 15.3</strong><br>
@@ -1002,7 +1003,7 @@ page is made visible.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline15.4">Guideline 15.4</strong><br>
@@ -1024,7 +1025,7 @@ itself.</p>
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 <strong class="guideline15.5">Guideline 15.5</strong><br>
@@ -1039,7 +1040,7 @@ creation of a new category.
 </div>
 </div>
 <div class="sect1">
-<h2 id="_the_outline_view">The Outline View</h2>
+<h2 id="_the_outline_view">5. The Outline View</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>In Eclipse, there is a special relationship between an editor and the
@@ -1057,7 +1058,7 @@ between these two, see <a href="component_dev.html#editors">Editors</a>.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_the_properties_view">The Properties View</h2>
+<h2 id="_the_properties_view">6. The Properties View</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>The Properties view shows the properties for the active part in the
@@ -1079,7 +1080,7 @@ dialog, refer to <a href="component_dev.html#properties">Properties</a>.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_the_bookmarks_view">The Bookmarks View</h2>
+<h2 id="_the_bookmarks_view">7. The Bookmarks View</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>The Bookmarks view is used to bookmark files, and open them quickly. A
@@ -1102,7 +1103,7 @@ be implemented by the editor. For more information on this, see
 </div>
 </div>
 <div class="sect1">
-<h2 id="_the_text_editor">The Text Editor</h2>
+<h2 id="_the_text_editor">8. The Text Editor</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>The Text Editor is commonly used to edit text files. A plug-in developer
@@ -1113,7 +1114,7 @@ information on this, see <a href="component_dev.html#editors">Editors</a>.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_the_resource_perspective">The Resource Perspective</h2>
+<h2 id="_the_resource_perspective">9. The Resource Perspective</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>The Resource perspective contains a Navigator, Outline, Task view, and
@@ -1126,7 +1127,7 @@ set, or view to the Resource perspective. For more information, refer to
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-12-22 05:39:28 UTC
+Last updated 2022-12-22 05:43:43 UTC
 </div>
 </div>
 </body>
