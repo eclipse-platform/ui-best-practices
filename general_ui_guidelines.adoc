@@ -1,4 +1,5 @@
 = General UI Guidelines
+include::_settings.adoc[]
 
 
 This document defines UI guidelines that are unique and specific to the

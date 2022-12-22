@@ -1,5 +1,5 @@
 = Flat Look Design
-
+include::_settings.adoc[]
 
 The Eclipse platform provides a Web user interface, also known as Flat
 Look, design alternative for implementing content editors. For example,

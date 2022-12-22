@@ -1,5 +1,5 @@
 = Eclipse UI Guidelines
-
+include::_settings.adoc[]
 
 UI Best Practices Working Group
 {version}

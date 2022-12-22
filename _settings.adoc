@@ -1,0 +1,32 @@
+////
+This is a file containing common settings and attributes
+for all AsciiDoc documents in this repo.
+
+It is considered _internal_ by AsciiDoctor because of the name starting with
+an underscore and therefore not processed as separate document
+by the AsciiDoctor Maven plugin.
+
+All common attributes like "enable section numbering" should go into
+this document, not into the separate content documents.
+That way the styles are automatically consistent.
+////
+// Enable user interface macros like "kbd".
+// https://asciidoctor.org/docs/user-manual/#user-interface-macros
+:experimental:
+// Normalize source listings to have no indent
+// https://docs.asciidoctor.org/asciidoc/latest/attributes/document-attributes-ref/#source-highlighting-and-formatting-attributes
+:source-indent: 0
+// tabs with 4 spaces (default are 8), like in eclipse
+// https://asciidoctor.org/docs/user-manual/#builtin-attributes
+:tabsize: 4
+// Use font characters for admonition icons
+// https://asciidoctor.org/docs/user-manual/#admonition-icons
+:icons: font
+// explicitly use the "fontawesome-solid" icon set, since the default icon set is deprecated
+:icon-set: fas
+// hide URI scheme from plain text links.
+// https://docs.asciidoctor.org/asciidoc/latest/macros/links/#hide-uri-scheme
+:hide-uri-scheme:
+// enable section numbering up to level 4
+:sectnums:
+:sectnumlevels: 4

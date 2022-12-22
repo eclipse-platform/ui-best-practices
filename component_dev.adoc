@@ -1,5 +1,5 @@
 = Component Development
-
+include::_settings.adoc[]
 
 == Commands
 A command, which is invoked by a user to carry out some specific

@@ -1,5 +1,5 @@
 = Standard Components
-
+include::_settings.adoc[]
 
 In this section we'll look at the standard components which ship with
 Eclipse. The Eclipse SDK contains a number of views, including the

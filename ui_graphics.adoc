@@ -1,5 +1,5 @@
 = UI Graphics
-
+include::_settings.adoc[]
 
 == Overview
 

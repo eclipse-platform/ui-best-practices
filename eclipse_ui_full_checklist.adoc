@@ -1,5 +1,5 @@
 = Checklist for Developers
-
+include::_settings.adoc[]
 
 Here is a checklist for developers who are developing UI plugins. This
 _could_ be used for certification purposes.
