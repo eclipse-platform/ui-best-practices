@@ -15,11 +15,11 @@ performed using individual command.
 
 Here is an illustration of the main areas of contribution.
 
-image::images/actionExamples.png[actionExamples,title="actionExamples"]
+image::images/actionExamples.png[actionExamples]
 
 In this section we'll look at general command guidelines. For
 information on window, view, or editor specific guidelines, see
-link:#Windows[Windows], link:#Views[Views], and link:#Editors[Editors].
+xref:#_windows[Windows], xref:#_views[Views], and xref:#_editors[Editors].
 
 === Appearance
 
@@ -40,7 +40,7 @@ This option can be used for greater control over image appearance.
 The following snapshot shows the valid use of Headline capitalization in
 a toolbar.
 
-image::images/tooltipCaps.png[tooltipCaps,title="fig:tooltipCaps"]
+image::images/tooltipCaps.png[tooltipCaps]
 
 TIP: [guideline3.1]*Guideline 3.1* +
 Each command must have a label, tool tip, and full color image. The
@@ -51,12 +51,12 @@ occurs__if the command is invoked, independent of the current state. For
 push buttons, the label should decribe the result of users pushing the
 button. For toggle buttons, it should describe its effect when the item
 is toggled on, and the label should not change depending on the state of
-the button. In Eclipse version 2.1, it is recommended that the tool tip
+the button. In Eclipse, it is recommended that the tool tip
 for a command uses the same text as that for the command label. For
 instance, in the following snapshot the behavior of the Show Type
 Hierarchy button is shown using one tool tips text.
 
-image::images/goodTooltips.png[goodTooltips,title="goodTooltips"]
+image::images/goodTooltips.png[goodTooltips]
 
 TIP: [guideline3.2]*Guideline 3.2* +
 The command tooltip should describe the result of the command, not the
@@ -132,7 +132,7 @@ order, for moving objects from the source the selected buckets.
 |<- Remove All |Remove all
 |=========================================================
 
-image::images/slushBucket.png[slushBucket,title="slushBucket"]
+image::images/slushBucket.png[slushBucket]
 
 TIP: [guideline4.2]*Guideline 4.2*
 Slush Bucket widget (or Twin Box) should flow from left to right with
@@ -166,7 +166,7 @@ and greater perception of quality to the wizard.
 At the bottom of each wizard, a Back, Next, Finish, and Cancel button
 should appear.
 
-image::images/wizardAppearance.png[wizardAppearance,title="wizardAppearance"]
+image::images/wizardAppearance.png[wizardAppearance]
 
 TIP: [guideline5.2]**Guideline 5.2** +
 Each wizard must contain a header with a banner graphic and a text area
@@ -179,12 +179,12 @@ When a wizard first opens, the focus should be placed in the first field
 requiring information (see Guidelines 3.1). The header should be used to
 prompt the user for the first piece of required information.
 
-image::images/goodWizardInit.png[goodWizardInit,title="goodWizardInit"]
+image::images/goodWizardInit.png[goodWizardInit]
 
 It is not appropriate to display an error message. At this point, the
 user hasn't done anything yet.
 
-image::images/badWizardInit.png[badWizardInit,title="badWizardInit"]
+image::images/badWizardInit.png[badWizardInit]
 
 TIP: [guideline5.3]**Guideline 5.3** +
 Start the wizard with a prompt, not an error message.
@@ -201,7 +201,7 @@ field. When the user's selection is on a file, a wizard may also go
 through these calculations using the parent folder or project of the
 file.
 
-image::images/wizardFieldPopulation.png[wizardFieldPopulation,title="wizardFieldPopulation"]
+image::images/wizardFieldPopulation.png[wizardFieldPopulation]
 
 TIP: [guideline5.4]**Guideline 5.4** +
 Seed the fields within the wizard using the current workbench state.
@@ -220,11 +220,11 @@ should be disabled until the situation is resolved. When resolution
 occurs, and all of the information has been provided, the Next or Finish
 buttons may be enabled.
 
-image::images/wizardErrorMsgs.png[wizardErrorMsgs,title="wizardErrorMsgs"]
+image::images/wizardErrorMsgs.png[wizardErrorMsgs]
 
 Error messages should be displayed only when user input is invalid.
 
-image::images/wizardErrorMsgs2.png[wizardErrorMsgs2,title="wizardErrorMsgs2"]
+image::images/wizardErrorMsgs2.png[wizardErrorMsgs2]
 
 TIP: [guideline5.5]*Guideline 5.5* + 
 Validate the wizard data in tab order. Display a prompt when information
@@ -238,7 +238,7 @@ The error messages in a wizard should be intended for the end user, not
 the developer. With this in mind, message IDs should never be presented
 as part of the error text in the wizard's header area.
 
-image::images/wizardMsgs.png[wizardMsgs,title="wizardMsgs"]
+image::images/wizardMsgs.png[wizardMsgs]
 
 TIP: [guideline5.7]*Guideline 5.7* +
 Remove all programming message ID's from wizard text.
@@ -268,7 +268,7 @@ the enablement of Next, Finish, and OK buttons.
 An example of valid and invalid filtering is shown in the following
 snapshot.
 
-image::images/folderSelection.png[folderSelection,title="fig:folderSelection"]
+image::images/folderSelection.png[folderSelection]
 
 === Wizard Completion
 The New Resource and Import Wizards commonly create new files, folders,
@@ -325,7 +325,7 @@ user provided name, the wizard goes off and creates not only the EAR
 project itself, but also any web projects, etc., that may be needed as
 well.
 
-image::images/goodParentCreation.png[goodParentCreation,title="goodParentCreation"]
+image::images/goodParentCreation.png[goodParentCreation]
 
 TIP: [guideline5.12]*Guideline 5.12* +
 Create folder objects in a wizard if reasonable defaults can be defined.
@@ -388,7 +388,7 @@ different input.
 The editor should be labeled with the name of the resource being edited;
 not with the name of the editor.
 
-image::images/editorTitles.png[editorTitles,title="fig:editorTitles"]
+image::images/editorTitles.png[editorTitles]
 
 TIP: [guideline6.5]*Guideline 6.5* +
 The editor should be labeled with the name of the file, document, or
@@ -441,7 +441,26 @@ menu bar or toolbar.
 A complete list of the global commands is declared in the
 IWorkbenchActionConstants.java (see below).
 
-` /**`` * From IWorkbenchActionConstants.`` * Standard global commands in a workbench window.`` */`` public static final String [] GLOBAL_ACTIONS = {`` UNDO,`` REDO,`` CUT,`` COPY,`` PASTE,`` PRINT,`` DELETE,`` FIND,`` SELECT_ALL,`` BOOKMARK`` };`
+
+[source,java]
+----
+/** 
+ * From IWorkbenchActionConstants.
+ * Standard global commands in a workbench window.
+ */
+public static final String [] GLOBAL_ACTIONS = {
+    UNDO,
+    REDO,
+    CUT,
+    COPY,
+    PASTE,
+    PRINT,
+    DELETE,
+    FIND,
+    SELECT_ALL,
+    BOOKMARK
+};
+----
 
 TIP: [guideline6.9]**Guideline 6.9** +
 If an editor has support for Cut, Copy, Paste, or any of the global
@@ -554,7 +573,7 @@ last saved (i.e., it is "dirty"), the editor should give the user a
 chance to save their changes to another location, and then close. Here
 is a sample of the dialog which should be displayed:
 
-image::images/fileDeletedDialog.png[fileDeletedDialog,title="fileDeletedDialog"]
+image::images/fileDeletedDialog.png[fileDeletedDialog]
 
 TIP: [guideline6.17]*Guideline 6.17* +
 If the input to an editor is deleted, and the editor contains changes,
@@ -567,7 +586,7 @@ If the editor contains changes to the resource since the resource was
 last saved (i.e., it is "dirty"), an asterisk should be used to prefix
 the resource name presented in the editor tab:
 
-image::images/dirtyEditor.png[dirtyEditor,title="dirtyEditor"]
+image::images/dirtyEditor.png[dirtyEditor]
 
 TIP: [guideline6.18]*Guideline 6.18* +
 If the resource is dirty, prefix the resource name presented in the
@@ -645,7 +664,10 @@ its descendents have errors (but not the container itself), and no X if
 neither the container nor any of its descendents have errors. For
 instance, in the following line, the addFastView method has an error, so
 an error image is added to the item and its parent.
-image::images/errorsInOutline.png[errorsInOutline,title="fig:errorsInOutline"] For this to work, care must be taken to design icons with overlay in
+
+image::images/errorsInOutline.png[errorsInOutline] 
+
+For this to work, care must be taken to design icons with overlay in
 mind, so that glyphs can be applied to the ancestor's icon.
 
 TIP: [guideline6.22]*Guideline 6.22* +
@@ -692,7 +714,7 @@ cell should select the current item and put the cell into edit mode. In
 edit mode, any dropdowns, buttons, or other controls in the cell should
 be rendered upon the single-click.
 
-image::images/cellTableEditor.png[cellTableEditor,title="cellTableEditor"]
+image::images/cellTableEditor.png[cellTableEditor]
 
 TIP: [guideline6.26]*Guideline 6.26* +
 Table cell editors should support the single-click activation model, and
@@ -704,23 +726,20 @@ or hits ENTER.
 The following are examples of good behaviour for a table cell editor:
 
 - when put in edit mode, drop-down appears with current selection active
-& highlighted
-+
-image::images/cell1.png[]
+& highlighted +
+image:images/cell1.png[]
 
 - when cursoring through drop-down using arrow keys, it is possible to
 move up and down any number of choices and the drop-down stays visible
-until user makes an explicit selection 
-+
-image::images/cell2.png[]
+until user makes an explicit selection +
+image:images/cell2.png[]
 
 - first letter navigation is supported as a cursoring technique when the
 drop-down is visible- supports the "Enter" key as a way of making an explicit selection via
 the keyboard when the drop-down is visible- supports the "Esc" key as a way of canceling a selection via the
 keyboard when the drop-down is visible- when put in edit mode, the drop-down control (the down-arrow image)
-appears with current selection active & highlighted 
-+ 
-image::images/cell3.png[]
+appears with current selection active & highlighted + 
+image:images/cell3.png[]
 
 - when put in edit mode, it is possible to arrow key through the choices
 to make a selection without needing to invoke the drop-down
@@ -1313,7 +1332,7 @@ in the perspective, as well as any extra views that may be important for
 the task at hand. The Navigate > Show In menu should be used to allow
 users to navigate in their contents.
 
-image::images/ShowViewMenu.gif[showViewMenu,title="fig:showViewMenu"] 
+image::images/ShowViewMenu.gif[showViewMenu] 
 
 The application development lifecycle should be considered when
 populating the the Window - Open Perspective menu. The development of
@@ -1390,7 +1409,7 @@ toolbar using an __action set__, a set of task oriented actions which
 the user can show or hide. You can control the layout of views within a
 window by defining a __perspective__. In this section we'll look at
 action extension. For more information on perspectives, see
-link:#Perspectives[Perspectives].
+xref:#_perspectives[Perspectives].
 
 === Actions
 
