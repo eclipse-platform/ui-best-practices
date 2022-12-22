@@ -18,117 +18,471 @@ Plug-in developers should make sure that the existing shortcut keys do
 not conflict with the shortcut keys defined in the plug-in.
 [cols="<,<,<,<,<,<,<",]
 |=======================================================================
-|*Key* |*\{Key} by itself* |*SHIFT+\{Key}* |*CTRL+\{Key}*
-|*CTRL+SHIFT+\{Key}* |*ALT+\{Key}* |*CTRL+ALT+\{Key}*
+|*Key*
+|*kbd:[Key] by itself*
+|*kbd:[Shift+Key]*
+|*kbd:[Ctrl+Key]*
+|*kbd:[Ctrl+Shift+Key]*
+|*kbd:[Alt+Key]*
+|*kbd:[Ctrl+Alt+Key]*
 
-|A | | |Edit / Select All | | |
+|kbd:[A]
+|
+|
+|Edit / Select All
+|
+|
+|
 
-|B | | |Project / Build | | |(View) Bookmarks
+|kbd:[B]
+|
+|
+|Project / Build 
+| 
+| 
+|(View) Bookmarks
 
-|C | | |Edit / Copy | | |
+|kbd:[C] 
+| 
+| 
+|Edit / Copy 
+| 
+| 
+|
 
-|D | | |(JDT editor) Display | | |
+|kbd:[D] 
+| 
+| 
+|(JDT editor) Display 
+| 
+| 
+|
 
-|E | | |(JDT editor) Next Problem |(JDT editor) Previous Problem | |
+|kbd:[E] 
+| 
+| 
+|(JDT editor) Next Problem 
+|(JDT editor) Previous Problem 
+| 
+|
 
-|F | | |Edit / Find / Replace | | |
+|kbd:[F] 
+| 
+| 
+|Edit / Find / Replace 
+| 
+| 
+|
 
-|G | | | | | |
+|kbd:[G] 
+| 
+| 
+| 
+| 
+| 
+|
 
-|H | | |Edit / Search | | |
 
-|I | | | | | |
+|kbd:[H] 
+| 
+| 
+|Edit / Search 
+| 
+| 
+|
 
-|J | | | | | |
+|kbd:[I] 
+| 
+| 
+| 
+| 
+| 
+|
 
-|K | | | | | |(View) Tasks
+|kbd:[J] 
+| 
+| 
+| 
+| 
+| 
+|
 
-|L | | |Edit / Go to Line | | |
+|kbd:[K] 
+| 
+| 
+| 
+| 
+| 
+|(View) Tasks
 
-|M | | | |(JDT editor) Add Import | |(JDT) Refactor / Move
+|kbd:[L]
+| 
+| 
+|Edit / Go to Line 
+| 
+| 
+|
 
-|N | | |File / New / Other | | |(View) Navigator
 
-|O | | | |(JDT editor) Organize Imports | |(View) Outline
+|kbd:[M] 
+| 
+| 
+| 
+|(JDT editor) Add Import 
+| 
+|(JDT) Refactor / Move
 
-|P | | |File / Print | | |(View) Properties
+|kbd:[N] 
+| 
+| 
+|File / New / Other 
+| 
+| 
+|(View) Navigator
 
-|Q | | |(JDT editor) Inspect | | |
+|kbd:[O] 
+| 
+| 
+| 
+|(JDT editor) Organize Imports 
+| 
+|(View) Outline
 
-|R | | | | | |
+|kbd:[P] 
+| 
+| 
+|File / Print 
+| 
+| 
+|(View) Properties
 
-|S | | |File / Save | |File / Save All |Window / Switch to Editor
+|kbd:[Q] 
+| 
+| 
+|(JDT editor) Inspect 
+| 
+| 
+|
 
-|T | | | |(JDT) Open Type | |
+|kbd:[R] 
+| 
+| 
+| 
+| 
+| 
+|
 
-|U | | | | | |
+|kbd:[S] 
+| 
+| 
+|File / Save 
+| 
+|File / Save All 
+|Window / Switch to Editor
 
-|V | | |Edit / Paste | | |
+|kbd:[T] 
+| 
+| 
+| 
+|(JDT) Open Type 
+| 
+|
 
-|W | | | | | |
+|kbd:[U] 
+| 
+| 
+| 
+| 
+| 
+|
 
-|X | | |Edit / Cut | | |(JDT) Refactor / Extract method
+|kbd:[V] 
+| 
+| 
+|Edit / Paste 
+| 
+| 
+|
 
-|Y | | |Edit / Redo |(JDT) Refactor / Redo | |
+|kbd:[W] 
+| 
+| 
+| 
+| 
+| 
+|
 
-|Z | | |Edit / Undo |(JDT) Refactor / Undo | |
+|kbd:[X] 
+| 
+| 
+|Edit / Cut 
+| 
+| 
+|(JDT) Refactor / Extract method
 
-|Space | | |(JDT editor) Content Assist | | |
+|kbd:[Y] 
+| 
+| 
+|Edit / Redo 
+|(JDT) Refactor / Redo 
+| 
+|
 
-|Backspace | | | | |Windows: Undo |
+|kbd:[Z] 
+| 
+| 
+|Edit / Undo 
+|(JDT) Refactor / Undo 
+| 
+|
 
-|Tab | | |(JDT editor) Shift Right |(JDT editor) Shift Left | |
+|kbd:[Space] 
+| 
+| 
+|(JDT editor) Content Assist 
+| 
+| 
+|
 
-|Insert | |Windows: Paste |Windows: Copy | | |
+|kbd:[Backspace] 
+| 
+| 
+| 
+| 
+|Windows: Undo 
+|
 
-|Delete |Edit / Delete |Windows: Cut |Edit / Delete | | |
 
-|Home | | | | | |
+|kbd:[Tab] 
+| 
+| 
+|(JDT editor) Shift Right 
+|(JDT editor) Shift Left 
+| 
+|
 
-|End | | | | | |
 
-|Page Up | | | | | |
+|kbd:[Insert] 
+| 
+|Windows: Paste 
+|Windows: Copy 
+| 
+| 
+|
 
-|Page Down | | | | | |
 
-|Insert | | | | | |
+|kbd:[Delete] 
+|Edit / Delete 
+|Windows: Cut 
+|Edit / Delete 
+| 
+| 
+|
 
-|Delete | | | | | |
+|kbd:[Home] 
+| 
+| 
+| 
+| 
+| 
+|
 
-|Hyphen (-) | | | | |Show System Menu |Show View Menu
 
-|Left Arrow | | | | | |
+|kbd:[End] 
+| 
+| 
+| 
+| 
+| 
+|
 
-|Right Arrow | | | | | |
 
-|Up Arrow | | | | | |
+|kbd:[Page Up] 
+| 
+| 
+| 
+| 
+| 
+|
 
-|Down Arrow | | | | | |
 
-|F1 |Help |Help |Help |Help | |
+|kbd:[Page Down] 
+| 
+| 
+| 
+| 
+| 
+|
 
-|F2 |(Navigator view) Rename, (JDT editor) Open JavaDoc | | | | |
 
-|F3 |(JDT editor) Open on Selection | | | | |
+|kbd:[Insert] 
+| 
+| 
+| 
+| 
+| 
+|
 
-|F4 |(JDT editor) Open Type Hierarchy | | |File / Close All |File /
-Close |
 
-|F5 |(Navigator view) Refresh, (Properties view) Refresh, (Debug) Step
-Into | | | | |
+|kbd:[Delete] 
+| 
+| 
+| 
+| 
+| 
+|
 
-|F6 |(Debug) Step Over | |Next Editor |Previous Editor | |
 
-|F7 |(Debug) Run to Return | |Next View |Previous View | |
+|kbd:[-] (Minus)
+| 
+| 
+| 
+| 
+|Show System Menu 
+|Show View Menu
 
-|F8 |(Debug) Resume | | | | |
 
-|F9 | | | | | |
+|kbd:[Left Arrow] 
+| 
+| 
+| 
+| 
+| 
+|
 
-|F10 |(Debug) Relaunch last | | | | |
 
-|F11 |(Debug) Debug | |(Debug) Run | | |
+|kbd:[Right Arrow] 
+| 
+| 
+| 
+| 
+| 
+|
 
-|F12 |Activate Editor | |Activate Editor | | |
+
+|kbd:[Up Arrow] 
+| 
+| 
+| 
+| 
+| 
+|
+
+
+|kbd:[Down Arrow] 
+| 
+| 
+| 
+| 
+| 
+|
+
+
+|kbd:[F1] 
+|Help 
+|Help 
+|Help 
+|Help 
+| 
+|
+
+
+|kbd:[F2] 
+|(Navigator view) Rename, (JDT editor) Open JavaDoc 
+| 
+| 
+| 
+| 
+|
+
+
+|kbd:[F3] 
+|(JDT editor) Open on Selection 
+| 
+| 
+| 
+| 
+|
+
+
+|kbd:[F4] 
+|(JDT editor) Open Type Hierarchy 
+| 
+| 
+|File / Close All 
+|File / Close 
+|
+
+
+|kbd:[F5] 
+|(Navigator view) Refresh, (Properties view) Refresh, (Debug) Step Into 
+| 
+| 
+| 
+| 
+|
+
+
+|kbd:[F6] 
+|(Debug) Step Over 
+| 
+|Next Editor 
+|Previous Editor 
+| 
+|
+
+
+|kbd:[F7] 
+|(Debug) Run to Return 
+| 
+|Next View 
+|Previous View 
+| 
+|
+
+
+|kbd:[F8] 
+|(Debug) Resume 
+| 
+| 
+| 
+| 
+|
+
+
+|kbd:[F9] 
+| 
+| 
+| 
+| 
+| 
+|
+
+
+|kbd:[F10] 
+|(Debug) Relaunch last 
+| 
+| 
+| 
+| 
+|
+
+
+|kbd:[F11] 
+|(Debug) Debug 
+| 
+|(Debug) Run 
+| 
+| 
+|
+
+
+|kbd:[F12] 
+|Activate Editor 
+| 
+|Activate Editor 
+| 
+| 
+|
 |=======================================================================
 
