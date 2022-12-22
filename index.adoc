@@ -212,12 +212,12 @@ sections.
 - xref:flat_look_design.adoc[*Flat Look Design*] +
   Design alternative for implementing content editors.   
 
-- xref:flat_look_design.adoc[*The Tao of Resource*] +
+- xref:tao_of_resource.adoc[*The Tao of Resource*] +
   Resources as the common medium for integration between plugins and external 
   tools.   
 
 - xref:accessibility.adoc[*Accessibility*] +
-  Guidlines for making UI accessibile for different user groups with different 
+  Guidelines for making UI accessible for different user groups with different 
   needs.   
 
 - xref:best_practices.adoc[*Best Practices*] +
