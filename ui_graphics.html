@@ -446,11 +446,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="_overview">1. Overview</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The following guide covers user interface (UI) graphics for Eclipse
-3.x-based tools. All visual user interface elements created for
-Eclipse-based tools follow a common style called the <strong><em>Eclipse visual
-style</em></strong> or <strong><em>Eclipse style</em></strong>. Any product, tool, or plug-in based on
-the <a href="http://www.eclipse.org">Eclipse</a> Workbench Version 3.0 and above
+<p>The following guide covers user interface (UI) graphics for Eclipse-based tools.
+All visual user interface elements created for Eclipse-based tools follow a
+common style called the <strong><em>Eclipse visual style</em></strong> or <strong><em>Eclipse style</em></strong>. Any
+product, tool, or plug-in based on the <a href="http://www.eclipse.org">Eclipse</a> Workbench
 should follow these guidelines to help ensure consistency of visual user
 interface elements. Consistency includes visual style, meaning, and
 implementation conventions.</p>
@@ -486,8 +485,8 @@ such as metaphor, composition, lighting, color and more.</p>
 <div class="paragraph">
 <p>Before beginning to design Eclipse-style icons or wizard banner
 graphics, first check if the concept or visual elements have been
-covered already. Refer to the <a href="#Consistency_&amp;_Reuse">Consistency
-&amp; Reuse</a> and <a href="#Common_Elements">Common Elements</a> sections for these
+covered already. Refer to the <a href="#_consistency_reuse">Consistency
+&amp; Reuse</a> and <a href="#_common_elements">Common Elements</a> sections for these
 elements. If designing an icon or wizard graphic from the start,
 consider the underlying concept and how it can best be represented.
 There might be an existing metaphor to appropriately convey the concept.</p>
@@ -521,13 +520,12 @@ image. Other key features include color gradient outlines to define
 edges and strong identifiable shapes with as few combined elements as
 possible.</p>
 </div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Lighting</dt>
+<dd>
 <div class="paragraph">
-<p>::
-  <strong>Lighting</strong></p>
-</div>
-<div class="paragraph">
-<p>::
-  For most elements, lighting is achieved with simple vertical
+<p>For most elements, lighting is achieved with simple vertical
   gradients. The gradients go from a lighter color at the top of the
   element to a darker color at the bottom. This approach gives subtle
   form and illuminates basic elements such as files, folders, and other
@@ -535,56 +533,38 @@ possible.</p>
   additional reflective light source is added near the base of the
   element to give it volume and to ground it in its environment.</p>
 </div>
-<div class="imageblock">
-<div class="content">
-<img src="images/des_styl_char1.png" alt="des_styl_char1">
-</div>
-<div class="title">Figure 1. fig:des_styl_char1</div>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/des_styl_char2.png" alt="des_styl_char2">
-</div>
-<div class="title">Figure 2. fig:des_styl_char2</div>
-</div>
 <div class="paragraph">
-<p>::
-  <strong>Outlines</strong></p>
+<p><span class="image"><img src="images/des_styl_char1.png" alt="des_styl_char1"></span>
+<span class="image"><img src="images/des_styl_char2.png" alt="des_styl_char2"></span></p>
 </div>
-<div class="literalblock">
-<div class="content">
-<pre>Each element within an individual icon features a single pixel
-keyline. Solid color lines define the top and bottom edges of the
-element, and gradients define the sides. To reinforce the light source
-from the top, the keyline color goes from light at the top to dark
-color at the bottom. The gradient along the sides bridges these light
-and dark colors.</pre>
-</div>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>The color of the outline will vary according to the color of the
-individual element. In the example below, the file has a dark
-grayish-blue base and a light ochre color top. This is a standard
-color outline for this type of object. You will see that other
-elements use standard color outlines as well. Read more about standard
-colors under Color below, and use the link:#Common_Elements[Common
-Elements] design resource for reusable elements.</pre>
-</div>
+</dd>
+<dt class="hdlist1">Outlines</dt>
+<dd>
+<p>Each element within an individual icon features a single pixel
+  keyline. Solid color lines define the top and bottom edges of the
+  element, and gradients define the sides. To reinforce the light source
+  from the top, the keyline color goes from light at the top to dark
+  color at the bottom. The gradient along the sides bridges these light
+  and dark colors.</p>
+<div class="paragraph">
+<p>The color of the outline will vary according to the color of the
+  individual element. In the example below, the file has a dark
+  grayish-blue base and a light ochre color top. This is a standard
+  color outline for this type of object. You will see that other
+  elements use standard color outlines as well. Read more about standard
+  colors under Color below, and use the <a href="#_common_elements">Common
+  Elements</a> design resource for reusable elements.</p>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/des_styl_char3.png" alt="des_styl_char3">
 </div>
-<div class="title">Figure 3. fig:des_styl_char3</div>
 </div>
+</dd>
+<dt class="hdlist1">Style differences between types</dt>
+<dd>
 <div class="paragraph">
-<p>::
-  <strong>Style differences between types</strong></p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong><em>View</em></strong> (includes Perspective and Fast View), <strong><em>Model Object</em></strong>
+<p><strong><em>View</em></strong> (includes Perspective and Fast View), <strong><em>Model Object</em></strong>
   (includes Table), <strong><em>Object Overlay</em></strong>, <strong><em>Progress Indicator</em></strong>, and
   <strong><em>Diagram</em></strong> icons have more saturated color and higher contrast than
   Toolbar, Local Toolbar, and Palette icons. It is important these icons
@@ -595,8 +575,7 @@ Elements] design resource for reusable elements.</pre>
   for this.</p>
 </div>
 <div class="paragraph">
-<p>::
-  <strong><em>Toolbar</em></strong>, <strong><em>Toolbar Wizard</em></strong>, <strong><em>Local Toolbar</em></strong>, and
+<p><strong><em>Toolbar</em></strong>, <strong><em>Toolbar Wizard</em></strong>, <strong><em>Local Toolbar</em></strong>, and
   <strong><em>Palette</em></strong> icons have a more subtle approach to color and contrast
   than their object-based counterparts. These icons are more subtle
   because they are reliably present in the user interface and should not
@@ -607,33 +586,31 @@ Elements] design resource for reusable elements.</pre>
   mode.</p>
 </div>
 <div class="paragraph">
-<p>::
-  A subset of core reusable elements illustrate this distinction best:
+<p>A subset of core reusable elements illustrate this distinction best:
   Project, File, and Database elements each have a rich saturated
   version for the treeview and a light subtle version for the toolbar
   and local toolbar. Look for these differences in other icons within
   the <a href="#Common_Elements">Common Elements</a> files.</p>
 </div>
 <div class="paragraph">
-<p>::
-  Here are the Project, File, and Database icons rendered as model
+<p>Here are the Project, File, and Database icons rendered as model
   objects:</p>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/des_styl_types_obj.png" alt="des_styl_types_obj">
 </div>
-<div class="title">Figure 4. fig:des_styl_types_obj</div>
 </div>
 <div class="paragraph">
-<p>::
-  Here are the same icons rendered in the more low-key toolbar style:</p>
+<p>Here are the same icons rendered in the more low-key toolbar style:</p>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/des_styl_types_tool.png" alt="des_styl_types_tool">
 </div>
-<div class="title">Figure 5. fig:des_styl_types_tool</div>
+</div>
+</dd>
+</dl>
 </div>
 </div>
 <div class="sect4">
@@ -652,102 +629,66 @@ patterns: using a consistent location for visual elements, when
 possible, establishes a pattern that is useful for identifying the
 object type or function of an individual or set of icons.</p>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Actions</strong></p>
-</div>
-<div class="paragraph">
-<p>::
-  Actions in toolbar and local toolbar icons tend to be on the left of
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Actions</dt>
+<dd>
+<p>Actions in toolbar and local toolbar icons tend to be on the left of
   the icon and identify a command that will be performed on an object or
   set of objects. For example, the following icon represents "Deploy
   Script" on the toolbar. The action "deploy" is represented by a green
-  arrow on the left of the script object:</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/des_styl_runscpt.png" alt="des_styl_runscpt">
-</div>
-<div class="title">Figure 6. fig:des_styl_runscpt</div>
-</div>
+  arrow on the left of the script object:<br>
+<span class="image"><img src="images/des_styl_runscpt.png" alt="des_styl_runscpt"></span></p>
 <div class="paragraph">
-<p>::
-  However, not all actions are located on the left. To convey the
+<p>However, not all actions are located on the left. To convey the
   intended meaning of a concept or to accommodate the context of the
   icon in the user interface, diverging from convention is sometimes
   required. Here are some actions that are notable exceptions to the
   action-on-the-left convention:</p>
 </div>
 <div class="paragraph">
-<p>::
-  <strong><em>Create</em></strong> or <strong><em>New</em></strong> is represented by a sparkle in the upper-right
+<p><strong><em>Create</em></strong> or <strong><em>New</em></strong> is represented by a sparkle in the upper-right
   corner to denote the creation of a sparkling "new" object. The
   sparkle, though an object itself, is a metaphor for creating something
   new. Its location in the icon space is precisely 1 pixel down from the
   top and flush with the right edge of the 16 x 16 icon space. Using
   this exact location ensures a clean uncluttered presentation when seen
   across a number of "new" action icons on the toolbar or in the menu.
-  For example:</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/des_styl_create2.png" alt="des_styl_create2">
-</div>
-<div class="title">Figure 7. fig:des_styl_create2</div>
+  For example:<br>
+<span class="image"><img src="images/des_styl_create2.png" alt="des_styl_create2"></span></p>
 </div>
 <div class="paragraph">
-<p>::
-  <strong><em>Import</em></strong>, when associated with an object, is represented by an
+<p><strong><em>Import</em></strong>, when associated with an object, is represented by an
   arrow in the bottom-right corner facing downward and to the right.
   Location and direction are important here to convey that an object
   will be imported from another location into the workbench. Note that
   its counterpart, <strong><em>Export</em></strong>, follows the action-on-the-left
   convention with an arrow in the bottom-left corner because this
   location and direction is appropriate for denoting that an object will
-  be exported from the workbench to another location.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/des_styl_export.png" alt="des_styl_export">
-</div>
-<div class="title">Figure 8. fig:des_styl_export</div>
+  be exported from the workbench to another location.<br>
+<span class="image"><img src="images/des_styl_export.png" alt="des_styl_export"></span></p>
 </div>
 <div class="paragraph">
-<p>::
-  <strong><em>Open</em></strong> is represented by a curved arrow in the upper-right corner of
+<p><strong><em>Open</em></strong> is represented by a curved arrow in the upper-right corner of
   the icon. The location, shape, and direction of the arrow indicate
   that the object is being opened. This action is used mostly on book-
-  or file-type objects. For example:</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/des_styl_open.png" alt="des_styl_open">
-</div>
-<div class="title">Figure 9. fig:des_styl_open</div>
+  or file-type objects. For example:<br>
+<span class="image"><img src="images/des_styl_open.png" alt="des_styl_open"></span></p>
 </div>
 <div class="paragraph">
-<p>::
-  <strong><em>Pin</em></strong> is represented by a pushpin on the right of the object. The
+<p><strong><em>Pin</em></strong> is represented by a pushpin on the right of the object. The
   "Pin Fast View" icon is located on the right side of a view title bar.
   The location of the icon and the action within the icon indicate the
   side where the view will be pinned—on the right. Because of this
   location, the pin is pointing inward toward the object to be pinned.
   Placing the pin on the left would not work as well given the context
-  and literal action of the icon.</p>
+  and literal action of the icon.<br>
+<span class="image"><img src="images/des_styl_pin.png" alt="des_styl_pin"></span></p>
 </div>
-<div class="imageblock">
-<div class="content">
-<img src="images/des_styl_pin.png" alt="des_styl_pin">
-</div>
-<div class="title">Figure 10. fig:des_styl_pin</div>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Objects</strong></p>
-</div>
-<div class="paragraph">
-<p>::
-  Objects are stacked vertically, often in large number, within
+</dd>
+<dt class="hdlist1">Objects</dt>
+<dd>
+<p>Objects are stacked vertically, often in large number, within
   treeviews and lists. Because of this stacking, attention to the
   alignment of objects within the icon design space is important. This
   is particularly true of repeated objects that use the same elements.
@@ -757,55 +698,31 @@ object type or function of an individual or set of icons.</p>
   the difference between aligned and not aligned objects, first, here is
   an example showing the base element—in this case the yellow folder—not
   aligned the same throughout a series of icons. The result is a choppy,
-  harder to scan treeview or list:</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/des_styl_obj-unalign.png" alt="des_styl_obj-unalign">
-</div>
-<div class="title">Figure 11. fig:des_styl_obj-unalign</div>
-</div>
+  harder to scan treeview or list:<br>
+<span class="image"><img src="images/des_styl_obj-unalign.png" alt="des_styl_obj-unalign"></span></p>
 <div class="paragraph">
-<p>::
-  Second, here is an example showing the same base folder element
+<p>Second, here is an example showing the same base folder element
   aligned throughout the set. The result is a clean, easier to scan
-  treeview or list:</p>
+  treeview or list:<br>
+<span class="image"><img src="images/des_styl_obj-align.png" alt="des_styl_obj-align"></span></p>
 </div>
-<div class="imageblock">
-<div class="content">
-<img src="images/des_styl_obj-align.png" alt="des_styl_obj-align">
-</div>
-<div class="title">Figure 12. fig:des_styl_obj-align</div>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>States</strong></p>
-</div>
-<div class="paragraph">
-<p>::
-  States are the result of a direct of indirect action on an object.
+</dd>
+<dt class="hdlist1">States</dt>
+<dd>
+<p>States are the result of a direct of indirect action on an object.
   Once an action is taken on an object, the object reflects that action
   by showing its state. This state is generally shown on the right side
   of the icon. For example, invoking the action "Run on Server" will
   show the server running in the Servers view with a green arrow run
-  action on the right side of the server object.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/des_styl_state-start.png" alt="des_styl_state-start">
-</div>
-<div class="title">Figure 13. fig:des_styl_state-start</div>
-</div>
+  action on the right side of the server object.<br>
+<span class="image"><img src="images/des_styl_state-start.png" alt="des_styl_state-start"></span></p>
 <div class="paragraph">
-<p>::
-  Stopping the server will show the blue square stop action on the right
-  of the server object.</p>
+<p>Stopping the server will show the blue square stop action on the right
+  of the server object.<br>
+<span class="image"><img src="images/des_styl_state-stop.png" alt="des_styl_state-stop"></span></p>
 </div>
-<div class="imageblock">
-<div class="content">
-<img src="images/des_styl_state-stop.png" alt="des_styl_state-stop">
-</div>
-<div class="title">Figure 14. fig:des_styl_state-stop</div>
+</dd>
+</dl>
 </div>
 </div>
 <div class="sect4">
@@ -829,8 +746,7 @@ within the Eclipse environment.</p>
 common color palette as the basis for creating your graphical elements.</p>
 </div>
 <div class="paragraph">
-<p>::
-  Eclipse-based graphics tend to use a common or dominant set of colors:
+<p>Eclipse-based graphics tend to use a common or dominant set of colors:
   Blue and yellow are the base colors, with green, red, brown, purple,
   and beige used for signifying specific object types or functions. Here
   is the palette, with a number of examples of how its different colors
@@ -840,28 +756,24 @@ common color palette as the basis for creating your graphical elements.</p>
 <div class="content">
 <img src="images/des_colour_pal.png" alt="des_colour_pal">
 </div>
-<div class="title">Figure 15. fig:des_colour_pal</div>
 </div>
 <div class="paragraph">
-<p>::
-  The <strong><em>Eclipse-style palette</em></strong> contains the core and dominant colors
+<p>The <strong><em>Eclipse-style palette</em></strong> contains the core and dominant colors
   used in Eclipse-based icons, wizard banner graphics, and user
   assistance graphics. You can download the palette in the
-  <a href="https://git.eclipse.org/c/platform/eclipse.platform.images.git/plain/org.eclipse.images/tools/eclipse-style_palette.aco">".aco"</a>,
-  <a href="https://git.eclipse.org/c/platform/eclipse.platform.images.git/plain/org.eclipse.images/tools/eclipse-style_palette.ai">".ai"</a>
+  <a href="https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.aco">".aco"</a>,
+  <a href="https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/tools/eclipse-style_palette.ai">".ai"</a>
   and
-  <a href="https://git.eclipse.org/c/platform/eclipse.platform.images.git/plain/org.eclipse.images/tools/eclipse-style_palette.gpl">".gpl"</a>
+  <a href="https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.gpl">".gpl"</a>
   file format.</p>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/des_styl_blueyellow.png" alt="des_styl_blueyellow">
 </div>
-<div class="title">Figure 16. fig:des_styl_blueyellow</div>
 </div>
 <div class="paragraph">
-<p>::
-  The two dominant colors, <strong><em>blue</em></strong> and <strong><em>yellow</em></strong>, bring harmony to
+<p>The two dominant colors, <strong><em>blue</em></strong> and <strong><em>yellow</em></strong>, bring harmony to
   the overall presentation of the user interface. Themselves
   complementary, blue and yellow form a base on which to apply accent
   colors. These few examples show blue and yellow as the common base for
@@ -872,11 +784,9 @@ common color palette as the basis for creating your graphical elements.</p>
 <div class="content">
 <img src="images/des_styl_green.png" alt="des_styl_green">
 </div>
-<div class="title">Figure 17. fig:des_styl_green</div>
 </div>
 <div class="paragraph">
-<p>::
-  <strong><em>Green</em></strong> is often used to indicate that something is being run or
+<p><strong><em>Green</em></strong> is often used to indicate that something is being run or
   initiated, and as a common accent color. The actions "run" and "play"
   are prime examples of how the color green is applied to support a
   concept.</p>
@@ -885,22 +795,18 @@ common color palette as the basis for creating your graphical elements.</p>
 <div class="content">
 <img src="images/des_styl_red.png" alt="des_styl_red">
 </div>
-<div class="title">Figure 18. fig:des_styl_red</div>
 </div>
 <div class="paragraph">
-<p>::
-  <strong><em>Red</em></strong> is used to indicate an error or to signal an alert, but red is
+<p><strong><em>Red</em></strong> is used to indicate an error or to signal an alert, but red is
   also used in real-world objects that are typically red.</p>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/des_styl_brown.png" alt="des_styl_brown">
 </div>
-<div class="title">Figure 19. fig:des_styl_brown</div>
 </div>
 <div class="paragraph">
-<p>::
-  <strong><em>Brown</em></strong> is used less than the other colors mentioned, but it is
+<p><strong><em>Brown</em></strong> is used less than the other colors mentioned, but it is
   generally associated with specific types of objects: the Java
   "package", "bundle", and the "Enterprise Java Bean (EJB)".</p>
 </div>
@@ -908,67 +814,53 @@ common color palette as the basis for creating your graphical elements.</p>
 <div class="content">
 <img src="images/ddes_styl_purple-alt.png" alt="ddes_styl_purple-alt">
 </div>
-<div class="title">Figure 20. fig:ddes_styl_purple-alt</div>
 </div>
 <div class="paragraph">
-<p>::
-  <strong><em>Purple</em></strong> is associated with “Web Site" or "Site Project", plugin
+<p><strong><em>Purple</em></strong> is associated with “Web Site" or "Site Project", plugin
   "fragment", and Java "Interface”.</p>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/ddes_styl_beige.png" alt="ddes_styl_beige">
 </div>
-<div class="title">Figure 21. fig:ddes_styl_beige</div>
 </div>
 <div class="paragraph">
-<p>::
-  <strong><em>Beige</em></strong> is associated with "template" and "generic" objects. While
+<p><strong><em>Beige</em></strong> is associated with "template" and "generic" objects. While
   not limited to these two object types, beige is usually reserved for
   placeholder or unrealized objects.</p>
 </div>
 </div>
 <div class="sect4">
 <h5 id="_tips_and_tricks">2.1.2.4. Tips and Tricks</h5>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><strong>Use color from existing graphics</strong> to quickly make graphics that are
+consistent with the Eclipse style without having to use the palette directly,
+select colors from existing Eclipse-based icons and wizards.</p>
+</li>
+<li>
+<p><strong>Consider the background</strong> when designing an icon, keep in mind the background
+color it will sit on. The various browsers and operating systems allow custom
+window   backgrounds that people can set according to their own preferences.
+It is not always possible to know if an icon will be used in different places
+in the user interface, but generally, the background will be either white or a
+warm or cool mid-tone grey. Whether it is white or grey will depend on the
+icon type. <strong><em>Model Object</em></strong>, <strong><em>Object Overlay</em></strong>, and <strong><em>Diagram</em></strong> icons are
+usually on a white background, whereas <strong><em>Toolbar</em></strong>, <strong><em>Toolbar Wizard</em></strong>,
+<strong><em>Local Toolbar</em></strong>, and <strong><em>Palette</em></strong> icons usually sit on a mid-tone grey
+background.</p>
 <div class="paragraph">
-<p>::
-  <strong>1. Use color from existing graphics</strong>
-   To quickly make graphics that are consistent with the Eclipse style
-  without having to use the palette directly, select colors from
-  existing Eclipse-based icons and wizards.</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>2. Consider the background</strong>
-   When designing an icon, keep in mind the background color it will sit
-  on. The various browsers and operating systems allow custom window
-  backgrounds that people can set according to their own preferences. It
-  is not always possible to know if an icon will be used in different
-  places in the user interface, but generally, the background will be
-  either white or a warm or cool mid-tone grey. Whether it is white or
-  grey will depend on the icon type. <strong><em>Model Object</em></strong>, <strong><em>Object
-  Overlay</em></strong>, and <strong><em>Diagram</em></strong> icons are usually on a white background,
-  whereas <strong><em>Toolbar</em></strong>, <strong><em>Toolbar Wizard</em></strong>, <strong><em>Local Toolbar</em></strong>, and
-  <strong><em>Palette</em></strong> icons usually sit on a mid-tone grey background.</p>
-</div>
-<div class="paragraph">
-<p>::
-  To achieve the best quality of color and edge treatment, test your
+<p>To achieve the best quality of color and edge treatment, test your
   icons across all known targeted operating system theme backgrounds.
   Modify the icons where needed to work well on most, if not all, of the
   backgrounds. Here is an example of testing a View icon with the
   different operating system theme selection colors, and a set of
-  Toolbar icons on a number of known backgrounds:</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/des_bkgd_color.png" alt="des_bkgd_color">
-</div>
-<div class="title">Figure 22. fig:des_bkgd_color</div>
+  Toolbar icons on a number of known backgrounds:<br>
+<span class="image"><img src="images/des_bkgd_color.png" alt="des_bkgd_color"></span></p>
 </div>
 <div class="paragraph">
-<p>::
-  Antialiasing the edges is suitable if you know the background color.
+<p>Antialiasing the edges is suitable if you know the background color.
   Since knowing the background color is not always possible, using
   medium to dark pixels on the edges will help ensure that the icon
   works well on most backgrounds. Using lighter edge pixels can result
@@ -976,64 +868,36 @@ common color palette as the basis for creating your graphical elements.</p>
   background. This is especially true of rounded shapes on dark
   backgrounds. The following example illustrates the effect of using
   lighter pixels on a round icon that sits on a medium to dark color
-  background:</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/des_styl_bg1.png" alt="des_styl_bg1">
-</div>
-<div class="title">Figure 23. fig:des_styl_bg1</div>
+  background:<br>
+<span class="image"><img src="images/des_styl_bg1.png" alt="des_styl_bg1"></span></p>
 </div>
 <div class="paragraph">
-<p>::
-  This example shows the same icon on the same background, but with
-  darker edge pixels:</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/des_styl_bg2.png" alt="des_styl_bg2">
-</div>
-<div class="title">Figure 24. fig:des_styl_bg2</div>
+<p>This example shows the same icon on the same background, but with
+  darker edge pixels:<br>
+<span class="image"><img src="images/des_styl_bg2.png" alt="des_styl_bg2"></span></p>
 </div>
 <div class="paragraph">
-<p>::
-  In some special cases, a single icon may appear on multiple
+<p>In some special cases, a single icon may appear on multiple
   backgrounds and will need to be designed specifically for each case.</p>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>3. Download the palette</strong></p>
-</div>
-<div class="paragraph">
-<p>::
-  You can download the palette in the
-  <a href="https://git.eclipse.org/c/platform/eclipse.platform.images.git/plain/org.eclipse.images/tools/eclipse-style_palette.aco">".aco"</a>,</p>
-</div>
-<div class="paragraph">
-<p><a href="https://git.eclipse.org/c/platform/eclipse.platform.images.git/plain/org.eclipse.images/tools/eclipse-style_palette.ai">".ai"</a>
+</li>
+<li>
+<p><strong>Download the palette</strong><br>
+You can download the palette in the
+<a href="https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.aco">".aco"</a>,
+<a href="https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.ai">".ai"</a>,
 and
-<a href="https://git.eclipse.org/c/platform/eclipse.platform.images.git/plain/org.eclipse.images/tools/eclipse-style_palette.gpl">".gpl"</a>
+<a href="https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.gpl">".gpl"</a>
 file format.</p>
-</div>
 <div class="paragraph">
-<p>::
-  If you are using The GIMP, you can download the eclipse palette in the
-  <a href="https://git.eclipse.org/c/platform/eclipse.platform.images.git/plain/org.eclipse.images/tools/eclipse-style_palette.gpl">".gpl"</a>
-  file format.</p>
-</div>
-<div class="paragraph">
-<p>::
-  To load the palette in Adobe Photoshop, open the "Swatches" palette
+<p>To load the palette in Adobe Photoshop, open the "Swatches" palette
   and choose "Load Swatches&#8230;&#8203;"; then navigate to where you saved the
-  <a href="https://git.eclipse.org/c/platform/eclipse.platform.images.git/plain/org.eclipse.images/tools/eclipse-style_palette.aco" class="bare">git.eclipse.org/c/platform/eclipse.platform.images.git/plain/org.eclipse.images/tools/eclipse-style_palette.aco</a>
+  <a href="https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.aco" class="bare">github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.aco</a>
   "eclipse-style_palette.aco"] palette.</p>
 </div>
 <div class="paragraph">
-<p>::
-  To load the palette in Adobe Illustrator, first save the</p>
-</div>
-<div class="paragraph">
-<p><a href="https://git.eclipse.org/c/platform/eclipse.platform.images.git/plain/org.eclipse.images/tools/eclipse-style_palette.ai">"eclipse-style_palette.ai"</a>
+<p>To load the palette in Adobe Illustrator, first save the
+<a href="https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.ai">"eclipse-style_palette.ai"</a>
 palette in the Adobe Illustrator &gt; Presets &gt; Swatches folder. If you
 have Adobe Illustrator already open, you will need to restart it after
 adding this file. Once you restart Illustrator, go to Windows &gt; Swatch
@@ -1041,47 +905,45 @@ Libraries and choose the "eclipse-style_palette.ai" palette from the
 list.</p>
 </div>
 <div class="paragraph">
-<p>::
-  To use the palette in The GIMP open the "Palettes" dialog and choose
+<p>To use the
+<a href="https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.gpl">".gpl"</a> palette in The GIMP open the "Palettes" dialog and choose
   "Import Palette" entry from the context menu.</p>
 </div>
 <div class="paragraph">
-<p>::
-  The
-  <a href="https://git.eclipse.org/c/platform/eclipse.platform.images.git/plain/org.eclipse.images/tools/eclipse-style_palette.gpl">".gpl"</a>
+<p>The
+  <a href="https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.gpl">".gpl"</a>
   file format can also be used in Inkscape. Just copy the palette file
   into the user&#8217;s profile into the "/~/.config/inkscape/palettes"
   folder.</p>
 </div>
 <div class="paragraph">
-<p>::
-  Save your images with the palette as a base</p>
+<p>Save your images with the palette as a base</p>
 </div>
 <div class="paragraph">
-<p>::
-  In Adobe Photoshop, when an image is complete and ready to be saved to
+<p>In Adobe Photoshop, when an image is complete and ready to be saved to
   GIF, index the image to "exact" color. This indexing preserves all of
   the colors the graphic was created with, including any colors you have
   added that are not contained in the base palette.</p>
 </div>
 <div class="paragraph">
-<p>::
-  In The GIMP, simply Save As GIF.</p>
+<p>In The GIMP, simply Save As PNG.</p>
 </div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Related Information</dt>
+<dd>
+<p>This information replaces that provided in the
+<a href="http://www.eclipse.org/articles/Article-UI-Guidelines/Index.html">Eclipse UI
+Guidelines, Version 2.1</a>, in the section titled “Visual Design – Icon
+Palettes” (Guidelines 2.2-2.4):</p>
 <div class="paragraph">
-<p>::
-  <strong>Related Information</strong></p>
+<p>The GIMP User Manual is available online at: <a href="http://www.gimp.org/docs/" class="bare">www.gimp.org/docs/</a></p>
 </div>
-<div class="paragraph">
-<p>::
-  This information replaces that provided in the Eclipse UI Guidelines
-  2.1, in the section titled “Visual Design – Icon Palettes” (Guidelines
-  2.2-2.4):
-  <a href="http://www.eclipse.org/articles/Article-UI-Guidelines/Index.html" class="bare">www.eclipse.org/articles/Article-UI-Guidelines/Index.html</a></p>
+</dd>
+</dl>
 </div>
-<div class="paragraph">
-<p>::
-  The GIMP User Manual is available online at: <a href="http://www.gimp.org/docs/" class="bare">www.gimp.org/docs/</a></p>
+</li>
+</ol>
 </div>
 </div>
 </div>
@@ -1098,13 +960,11 @@ three-dimensional form. Wizard banner graphics have the attribute of
 being larger than the icons, which allows for application of a more
 intricate, illustrative rendering style with more complex lighting.</p>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Lighting</strong></p>
-</div>
-<div class="paragraph">
-<p>::
-  Lighting for the wizard banner graphics can be a simple unidirectional
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Lighting</dt>
+<dd>
+<p>Lighting for the wizard banner graphics can be a simple unidirectional
   source or a complex multidimensional source, depending on the shape of
   the elements in the graphic. Unlike the icons, where the light source
   tends to come directly from above, the wizard graphics are lit mainly
@@ -1112,52 +972,35 @@ intricate, illustrative rendering style with more complex lighting.</p>
   graphic, and have the added visual dimension of a cast shadow. The
   three-dimensional look is achieved by using color blends and gradients
   in Adobe Illustrator to render the highlights, mid-tones, shadows, and
-  reflected light.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/des_styl_wiz_lighting.png" alt="des_styl_wiz_lighting">
-</div>
-<div class="title">Figure 25. fig:des_styl_wiz_lighting</div>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Shadow</strong></p>
-</div>
-<div class="paragraph">
-<p>::
-  For rectilinear objects, such as folders and files, an additional
+  reflected light.<br>
+<span class="image"><img src="images/des_styl_wiz_lighting.png" alt="des_styl_wiz_lighting"></span></p>
+</dd>
+<dt class="hdlist1">Shadow</dt>
+<dd>
+<p>For rectilinear objects, such as folders and files, an additional
   light source is implied from the left-front of the graphic, casting a
   shadow to the right of the graphic. This shadow is angled backward—to
   the right-back—at 45 degrees. When designing these types of graphics,
   consider the space the shadow will require by locating the graphical
   elements on the left side of the designated image area.</p>
-</div>
 <div class="imageblock">
 <div class="content">
 <img src="images/des_styl_wiz_shadow1.png" alt="des_styl_wiz_shadow1">
 </div>
-<div class="title">Figure 26. fig:des_styl_wiz_shadow1</div>
+<div class="title">Figure 1. fig:des_styl_wiz_shadow1</div>
 </div>
 <div class="paragraph">
-<p>::
-  Spherical objects have a different shadow treatment than their
+<p>Spherical objects have a different shadow treatment than their
   rectangular counterparts. The shadow is positioned directly below the
   object and is elliptical in shape. The sphere touches the shadow,
   which has the effect of grounding the sphere to the surface below. Use
   this type of shadow for spherical and flat-bottomed round objects,
   such as the "Java Method" sphere and "Service" bell, which are
-  centered in the designated image area.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/des_styl_wiz_shadow2.png" alt="des_styl_wiz_shadow2">
-</div>
-<div class="title">Figure 27. fig:des_styl_wiz_shadow2</div>
+  centered in the designated image area.<br>
+<span class="image"><img src="images/des_styl_wiz_shadow2.png" alt="des_styl_wiz_shadow2"></span></p>
 </div>
 <div class="paragraph">
-<p>::
-  Floating objects have a similar shadow to spherical objects in that
+<p>Floating objects have a similar shadow to spherical objects in that
   the shadow is also elliptical in shape and positioned below the
   object. However, unlike the shadow for spherical objects, it does not
   touch the object. The object floats above the surface and casts a
@@ -1168,15 +1011,12 @@ intricate, illustrative rendering style with more complex lighting.</p>
 <div class="content">
 <img src="images/des_styl_wiz_shadow3.png" alt="des_styl_wiz_shadow3">
 </div>
-<div class="title">Figure 28. fig:des_styl_wiz_shadow3</div>
+<div class="title">Figure 2. fig:des_styl_wiz_shadow3</div>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Outlines</strong></p>
-</div>
-<div class="paragraph">
-<p>::
-  Each element within an individual wizard graphic has a keyline to
+</dd>
+<dt class="hdlist1">Outlines</dt>
+<dd>
+<p>Each element within an individual wizard graphic has a keyline to
   define its outer edges. Solid color lines define the top and bottom
   edges of the element. Gradients define the sides, going from a dark
   color at the bottom to a light color at the top. This approach applies
@@ -1188,30 +1028,20 @@ intricate, illustrative rendering style with more complex lighting.</p>
   examples use established outline treatments and colors. Standard
   outline colors exist for many elements. To read more about the
   standard colors, see Color below, and use the
-  <a href="#Common_Elements">Common Elements</a> design resource for reusable
+  <a href="#_common_elements">Common Elements</a> design resource for reusable
   elements.</p>
+<div class="paragraph">
+<p>Here is an example of a gradient used to define the edges of a wizard
+  graphic:<br>
+<span class="image"><img src="images/des_styl_wiz_outline1.png" alt="des_styl_wiz_outline1" title="fig:des_styl_wiz_outline1"></span></p>
 </div>
 <div class="paragraph">
-<p>::
-  Here is an example of a gradient used to define the edges of a wizard
-  graphic:</p>
+<p>Here is an example of a flat outline used to define the edges of a
+  wizard graphic:<br>
+<span class="image"><img src="images/des_styl_wiz_outline2.png" alt="des_styl_wiz_outline2" title="fig:des_styl_wiz_outline2"></span></p>
 </div>
-<div class="imageblock">
-<div class="content">
-<img src="images/des_styl_wiz_outline1.png" alt="des_styl_wiz_outline1">
-</div>
-<div class="title">Figure 29. fig:des_styl_wiz_outline1</div>
-</div>
-<div class="paragraph">
-<p>::
-  Here is an example of a flat outline used to define the edges of a
-  wizard graphic:</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/des_styl_wiz_outline2.png" alt="des_styl_wiz_outline2">
-</div>
-<div class="title">Figure 30. fig:des_styl_wiz_outline2</div>
+</dd>
+</dl>
 </div>
 </div>
 <div class="sect4">
@@ -1221,41 +1051,45 @@ intricate, illustrative rendering style with more complex lighting.</p>
 practices described for icons. There are a few wizard-specific
 compositional concerns to be aware of for actions, objects, and states:</p>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Actions</strong></p>
-</div>
-<div class="paragraph">
-<p>::
-  Actions in wizard banner graphics are generally shown in the same
-  location as they are in the icon that launches them. A notable
-  exception is the "create" sparkle, which is not shown at all in the
-  wizard banner image. When in the toolbar wizard, the action is to
-  create a specific kind of object. However, once in the wizard, the
-  object is in the process of being created so the action is no longer
-  necessary.</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Objects</strong></p>
-</div>
-<div class="paragraph">
-<p>::
-  Objects, when overlapping, need to be clearly separated to ensure a
-  legible image. The technique used in wizard banner graphics is to put
-  a light glow around the front-most object.</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>States</strong></p>
-</div>
-<div class="paragraph">
-<p>::
-  States of objects, once in the wizard, change to what the state will
-  be once the object is created. The most common example of this is the
-  folder state: it is closed when in a toolbar wizard icon, but open
-  when in a wizard banner graphic because it will be open once in a
-  treeview or list view.</p>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Actions
+</td>
+<td class="hdlist2">
+<p>in wizard banner graphics are generally shown in the same
+location as they are in the icon that launches them. A notable
+exception is the "create" sparkle, which is not shown at all in the
+wizard banner image. When in the toolbar wizard, the action is to
+create a specific kind of object. However, once in the wizard, the
+object is in the process of being created so the action is no longer
+necessary.</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Objects,
+</td>
+<td class="hdlist2">
+<p>when overlapping, need to be clearly separated to ensure a
+legible image. The technique used in wizard banner graphics is to put
+a light glow around the front-most object.</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+States
+</td>
+<td class="hdlist2">
+<p>of objects, once in the wizard, change to what the state will
+be once the object is created. The most common example of this is the
+folder state: it is closed when in a toolbar wizard icon, but open
+when in a wizard banner graphic because it will be open once in a
+treeview or list view.</p>
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect4">
@@ -1279,22 +1113,18 @@ categories of color are applied to wizard banner graphics.</p>
 <div class="content">
 <img src="images/des_styl_wiz_blueyellow.png" alt="des_styl_wiz_blueyellow">
 </div>
-<div class="title">Figure 31. fig:des_styl_wiz_blueyellow</div>
 </div>
 <div class="paragraph">
-<p>::
-  <strong><em>Blue</em></strong> and <strong><em>yellow</em></strong>, as with the icons, are the two dominant
+<p><strong><em>Blue</em></strong> and <strong><em>yellow</em></strong>, as with the icons, are the two dominant
   colors and are used as a basis for many user interface graphics.</p>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/des_styl_wiz_green.png" alt="des_styl_wiz_green">
 </div>
-<div class="title">Figure 32. fig:des_styl_wiz_green</div>
 </div>
 <div class="paragraph">
-<p>::
-  <strong><em>Green</em></strong>, as with the icons, is often used to indicate that
+<p><strong><em>Green</em></strong>, as with the icons, is often used to indicate that
   something is being run or initiated, and as a common accent color. The
   actions "run" and "play" are primary examples of how green is applied
   to support the concept.</p>
@@ -1303,11 +1133,9 @@ categories of color are applied to wizard banner graphics.</p>
 <div class="content">
 <img src="images/des_styl_wiz_red.png" alt="des_styl_wiz_red">
 </div>
-<div class="title">Figure 33. fig:des_styl_wiz_red</div>
 </div>
 <div class="paragraph">
-<p>::
-  <strong><em>Red</em></strong>, as with the icons, is used to indicate an error or to
+<p><strong><em>Red</em></strong>, as with the icons, is used to indicate an error or to
   signal an alert. It is also used for images that are typically red,
   such as a thermometer.</p>
 </div>
@@ -1315,11 +1143,9 @@ categories of color are applied to wizard banner graphics.</p>
 <div class="content">
 <img src="images/des_styl_wiz_brown.png" alt="des_styl_wiz_brown">
 </div>
-<div class="title">Figure 34. fig:des_styl_wiz_brown</div>
 </div>
 <div class="paragraph">
-<p>::
-  <strong><em>Brown</em></strong>, as with the icons, is used to a lesser extent than the
+<p><strong><em>Brown</em></strong>, as with the icons, is used to a lesser extent than the
   other colors noted, but it is generally associated with very specific
   types of objects. These objects are the Java "package", "bundle", and
   the "Enterprise Java Bean (EJB)".</p>
@@ -1328,39 +1154,31 @@ categories of color are applied to wizard banner graphics.</p>
 <div class="content">
 <img src="images/des_styl_wiz_purple.png" alt="des_styl_wiz_purple">
 </div>
-<div class="title">Figure 35. fig:des_styl_wiz_purple</div>
 </div>
 <div class="paragraph">
-<p>::
-  <strong><em>Purple</em></strong>, as with the icons, is associated with Java "Interface",
+<p><strong><em>Purple</em></strong>, as with the icons, is associated with Java "Interface",
   plugin "fragment", and "Web Site" or "Site Project".</p>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/des_styl_wiz_beige.png" alt="des_styl_wiz_beige">
 </div>
-<div class="title">Figure 36. fig:des_styl_wiz_beige</div>
 </div>
 <div class="paragraph">
-<p>::
-  <strong><em>Beige</em></strong>, as with the icons, is associated with "template" and
+<p><strong><em>Beige</em></strong>, as with the icons, is associated with "template" and
   "generic" objects. While not limited to these two object types, beige
   is usually reserved for placeholder or unrealized objects.</p>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Background color</strong></p>
-</div>
-<div class="paragraph">
-<p>::
-  The background for wizard banners is part of the final graphic. It is
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Background color</dt>
+<dd>
+<p>The background for wizard banners is part of the final graphic. It is
   a light blue curvilinear element that does not vary. However, the
   background color of the banner area does vary from one operation
   system and theme to another.</p>
-</div>
 <div class="paragraph">
-<p>::
-  Previous to Eclipse 3.3, all wizard banner graphics were in GIF
+<p>Previous to Eclipse 3.3, all wizard banner graphics were in GIF
   format, which meant that the blue curvilinear element blended to a
   white background that was part of the final cut image. This worked
   well on standard Windows and OSX themes that have a white banner
@@ -1369,6 +1187,9 @@ categories of color are applied to wizard banner graphics.</p>
   and all Eclipse Project (SDK) wizard banner graphics have been
   converted to PNG so that graphic blends to whatever background color
   it sits on.</p>
+</div>
+</dd>
+</dl>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -1428,7 +1249,7 @@ might need already exist. Samples of existing core concepts for icons
 and wizard graphics are shown below. Each of these elements carries with
 it a specific meaning, so care should be taken when using them to ensure
 consistent meaning is maintained. A more extensive collection of common
-visual elements can be found on the <a href="#Common_Elements">Common
+visual elements can be found on the <a href="#_common_elements">Common
 Elements</a> page.</p>
 </div>
 </div>
@@ -1438,10 +1259,9 @@ Elements</a> page.</p>
 <div class="content">
 <img src="images/des_cons_core-icons.png" alt="des_cons_core-icons">
 </div>
-<div class="title">Figure 37. des_cons_core-icons</div>
 </div>
 <div class="paragraph">
-<p>Click Media:core_icon_concepts.zip[ <strong>here</strong>] or on the image above to
+<p>Click <a href="media/core_icon_concepts.zip"><strong>here</strong></a> or on the image above to
 download the "core_icon_concepts.psd".</p>
 </div>
 </div>
@@ -1451,10 +1271,9 @@ download the "core_icon_concepts.psd".</p>
 <div class="content">
 <img src="images/des_cons_core-wiz.png" alt="des_cons_core-wiz">
 </div>
-<div class="title">Figure 38. des_cons_core-wiz</div>
 </div>
 <div class="paragraph">
-<p>Click Media:core_wizard_concepts.zip[ <strong>here</strong>] or on the image above to
+<p>Click <a href="media/core_wizard_concepts.zip"> <strong>here</strong></a> or on the image above to
 download the "core_wizard_concepts.ai" and the
 "core_wizard_concepts.psd" files.</p>
 </div>
@@ -1491,11 +1310,9 @@ elements and promote consistency throughout the user interface.</p>
 <div class="content">
 <img src="images/des_common_icons.png" alt="des_common_icons">
 </div>
-<div class="title">Figure 39. fig:des_common_icons</div>
 </div>
 <div class="paragraph">
-<p>::
-  Click Media:common_icon_elements.zip[ <strong>here</strong>] to download the
+<p>Click <a href="media/common_icon_elements.zip"> <strong>here</strong></a> to download the
   “common_icon_elements_eclipse-proj.psd” for Eclipse Project icons and
   the "common_icon_elements_eclipse-tools.psd" file for a subset of
   icons related to Eclipse-based tools.</p>
@@ -1507,11 +1324,9 @@ elements and promote consistency throughout the user interface.</p>
 <div class="content">
 <img src="images/des_common_wiz.png" alt="des_common_wiz">
 </div>
-<div class="title">Figure 40. fig:des_common_wiz</div>
 </div>
 <div class="paragraph">
-<p>::
-  Click Media:common_wizard_elements.zip[ <strong>here</strong>] to download the
+<p>Click <a href="media/common_wizard_elements.zip"> <strong>here</strong></a> to download the
   "common_wizard_elements.ai" vector-based file for designing wizard
   banner graphics and the "common_wizard_elements.psd" raster-based file
   for cutting them.</p>
@@ -1574,7 +1389,6 @@ color version of these icons can be found under
 <div class="content">
 <img src="images/des_states_enab-disab.png" alt="des_states_enab-disab">
 </div>
-<div class="title">Figure 41. fig:des_states_enab-disab</div>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -1598,7 +1412,7 @@ It is important to implement the graphical versions of the
 <div class="paragraph">
 <p>To create this state, you will use the
   "eclipse_disabledrender_R3V6.atn" action in the Eclipse-style Actions
-  palette. Click Media:eclipse-style_actions.zip[ <strong>here</strong>] to download
+  palette. Click <a href="media/eclipse-style_actions.zip"><strong>here</strong></a> to download
   the Eclipse-style Actions.</p>
 </div>
 <div class="olist arabic">
@@ -1641,7 +1455,7 @@ similar elements.</p>
 <div class="content">
 <img src="images/des_states_disabled-atn.png" alt="des_states_disabled-atn">
 </div>
-<div class="title">Figure 42. fig:des_states_disabled-atn</div>
+<div class="title">Figure 3. fig:des_states_disabled-atn</div>
 </div>
 </div>
 <div class="sect4">
@@ -1658,7 +1472,6 @@ similar elements.</p>
 <div class="content">
 <img src="images/des_states_toggles.png" alt="des_states_toggles">
 </div>
-<div class="title">Figure 43. fig:des_states_toggles</div>
 </div>
 <div class="paragraph">
 <p>Sometimes a toggle is not a simple on/off state. For example, there
@@ -1696,7 +1509,6 @@ similar elements.</p>
 <div class="content">
 <img src="images/des_states_folders.png" alt="des_states_folders">
 </div>
-<div class="title">Figure 44. fig:des_states_folders</div>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -1739,7 +1551,7 @@ to work with them is provided to help you get started quickly and
 working effectively.</p>
 </div>
 <div class="paragraph">
-<p>All design templates Media:eclipse3.0_UI_Design_resources.zip[ <strong>here</strong>].</p>
+<p>All design templates <a href="media/eclipse3.0_ui_design_resources.zip"><strong>here</strong></a>.</p>
 </div>
 <div class="paragraph">
 <p>This section provides design files for producing different types of user
@@ -1757,8 +1569,8 @@ tool.</p>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p><strong>Populating the template</strong> : Fill out the
-Media:eclipse3.0_UI_Design_resources.zip[ <strong>icon_design_template.psd</strong>]
+<p><strong>Populating the template:</strong> Fill out the
+<a href="media/eclipse3.0_ui_design_resources.zip"><strong>icon_design_template.psd</strong></a>
 file with the names of all known required icons separated by type, for
 example view, toolbar, and model object. Feel free to add or remove rows
 as you need them. Each plug-in should have its own separate Photoshop
@@ -1767,15 +1579,15 @@ placed into the <strong>orig</strong>. (original) column as a reference or start
 point.</p>
 </li>
 <li>
-<p><strong>Designing the icons</strong> : Before beginning to design Eclipse-style
+<p><strong>Designing the icons:</strong> Before beginning to design Eclipse-style
 icons or wizard banner graphics, first check if the concept or visual
 elements have been covered already. See the
-<a href="#Consistency_&amp;_Reuse">Consistency and Reuse</a> and
-<a href="#Common_Elements">Common Elements</a> sections.</p>
+<a href="#_consistency_reuse">Consistency and Reuse</a> and
+<a href="#_common_elements">Common Elements</a> sections.</p>
 <div class="paragraph">
 <p>Create initial passes of your ideas, and then place them in the
 template. Up to five different concepts for any given icon can be placed
-in the version cells provided, i.e., columns <strong>A</strong>, <strong>B</strong>, <strong>C</strong>, <strong>D</strong>
+in the version cells provided, i.e., columns <strong>A</strong>, <strong>B</strong>, <strong>C</strong>, <strong>D</strong>,
 and <strong>E</strong>.</p>
 </div>
 <div class="paragraph">
@@ -1786,7 +1598,7 @@ image.</p>
 </div>
 </li>
 <li>
-<p><strong>Revising the original concept</strong> : It is likely that revisions to the
+<p><strong>Revising the original concept:</strong> It is likely that revisions to the
 first pass will be required. If there is room, revised icons can be
 placed in the version cells next to the first pass ones. If you run out
 of cells or need to erase any previous icon concepts, but do not want to
@@ -1797,20 +1609,20 @@ for new ideas by removing the icons that are not likely to be used.</p>
 column. To ensure they are positioned properly within the allotted
 screen space, turn on the cut layer (pink) in the PSD. For guidance on
 size and placement of different types of icons, see the
-<a href="#Icon_Size_&amp;_Placement">Icon Size and Placement</a> section.</p>
+<a href="#_icon_size_placement">Icon Size and Placement</a> section.</p>
 </div>
 </li>
 <li>
-<p><strong>Creating the disabled versions</strong> : See the <a href="#States">States</a>
+<p><strong>Creating the disabled versions:</strong> See the <a href="#_states">States</a>
 section for instructions on creating the disabled state for Toolbar and
 Local Toolbar icons.</p>
 </li>
 <li>
-<p><strong>Cutting the icons</strong> : See the <a href="#Cutting_Actions">Cutting Actions</a>
+<p><strong>Cutting the icons:</strong> See the <a href="#_cutting_actions">Cutting Actions</a>
 section for instructions on cutting the final images for delivery.</p>
 </li>
 <li>
-<p><strong>Marking revised icons</strong> : It is likely that even after the icons
+<p><strong>Marking revised icons:</strong> It is likely that even after the icons
 have been cut and delivered to the developer, further revisions will be
 required or entirely new icons may be requested. To keep track of which
 icons and their instances need to be cut or re-cut, a red box can be
@@ -1819,15 +1631,15 @@ placed around each, using the <strong>cut or re-cut (red)</strong> layer.</p>
 </ol>
 </div>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_wizard_design_template">2.6. Wizard Design Template</h3>
+<div class="sect3">
+<h4 id="_wizard_design_template">2.5.2. Wizard Design Template</h4>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p><strong>Populating the vector-based template</strong> : Fill out the vector-based
-template Media:eclipse3.0_UI_Design_resources.zip[
-vector-wizard_design_template.ai] with the names of all required wizard
+<p><strong>Populating the vector-based template:</strong> Fill out the vector-based
+template
+<a href="media/eclipse3.0_ui_design_resources.zip">vector-wizard_design_template.ai</a>
+with the names of all required wizard
 banner graphics. As with the Icon Template, you can add or remove rows
 to suit the number of graphics you will be creating. If you have access
 to the related toolbar wizard icon file, add it to the file as a primary
@@ -1836,20 +1648,20 @@ placed into the <strong>orig</strong>. (original) column as a secondary starting
 point.</p>
 </li>
 <li>
-<p><strong>Designing the wizard banner graphics</strong> : Before beginning to design
+<p><strong>Designing the wizard banner graphics:</strong> Before beginning to design
 Eclipse-style wizard banner graphics, first check if the toolbar icon
 that launches the wizard has been created already. This will provide the
 basis of your design. Also, check if any of the visual elements that
 will be part of the wizard graphic have been created already in Adobe
-Illustrator. See the <a href="#Consistency_&amp;_Reuse">Consistency and Reuse</a>
-and <a href="#Common_Elements">Common Elements</a> sections for existing
+Illustrator. See the <a href="#_consistency_reuse">Consistency and Reuse</a>
+and <a href="#_common_elements">Common Elements</a> sections for existing
 elements.</p>
 <div class="paragraph">
 <p>The concept for a wizard banner should be closely aligned with, if not
 identical to, the toolbar wizard icon that launches the wizard dialog.
 Create an initial pass of each image on the <strong>New Wizard graphics</strong> layer,
 following the wizard banner stylistic treatment detailed in the
-<a href="#Style_&amp;_Design">Style &amp; Design</a> section. As with the icons, more
+<a href="#_style_design">Style &amp; Design</a> section. As with the icons, more
 than one pass on the design may be required before coming to the final
 design.</p>
 </div>
@@ -1861,7 +1673,7 @@ reference.</p>
 </div>
 </li>
 <li>
-<p><strong>Transferring vector-based images to the PSD template</strong> : Once the
+<p><strong>Transferring vector-based images to the PSD template:</strong> Once the
 graphics are approved and ready to be cut, you will need to transfer
 them from the AI template to the PSD template. In the AI template, turn
 off all layers, except <strong>New Wizard graphics</strong>.Select <strong>File &gt; Save for Web</strong> from the menu. The settings you will need
@@ -1870,7 +1682,6 @@ for this part of the transfer are shown here:</p>
 <div class="content">
 <img src="images/des_temp_png_pref.png" alt="des_temp_png_pref">
 </div>
-<div class="title">Figure 45. des_temp_png_pref</div>
 </div>
 <div class="paragraph">
 <p>The PNG-24 file is temporary and is used to transfer high quality images
@@ -1880,8 +1691,7 @@ cut the files.</p>
 </li>
 <li>
 <p><strong>Populating the PSD template</strong> : Fill out the
-Media:Eclipse3.0_UI_Design_resources.zip[
-eclipse_wizard_design_template.psd] template with Layer Sets for each
+<a href="media/eclipse3.0_ui_design_resources.zip">eclipse_wizard_design_template.psd</a> template with Layer Sets for each
 wizard banner graphic. Each Layer Set should have a single layer for the
 PNG-formatted wizard image. Add Layer Sets as you need them.</p>
 <div class="paragraph">
@@ -1891,8 +1701,8 @@ wizard graphics are transferred, Save the file. You are ready to cut.</p>
 </div>
 </li>
 <li>
-<p><strong>Cutting the wizard banner graphics</strong>: See the
-<a href="#Cutting_Actions">Cutting Actions</a> section for instructions on
+<p><strong>Cutting the wizard banner graphics:</strong> See the
+<a href="#_cutting_actions">Cutting Actions</a> section for instructions on
 cutting wizard banner graphics.</p>
 </li>
 </ol>
@@ -1911,6 +1721,7 @@ graphics.
 </td>
 </tr>
 </table>
+</div>
 </div>
 </div>
 </div>
@@ -2097,36 +1908,6 @@ icons, including desktop, treeview, and menu icons.</p>
 </li>
 </ul>
 </div>
-</div>
-<div class="sect3">
-<h4 id="_resources">3.1.8. Resources</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>Mac</p>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="http://developer.apple.com/documentation/UserExperience/Conceptual/OSXHIGuidelines/index.html" class="bare">developer.apple.com/documentation/UserExperience/Conceptual/OSXHIGuidelines/index.html</a>?</p>
-</li>
-<li>
-<p><a href="http://www.oreillynet.com/pub/a/mac/2001/05/24/aqua_design.html?page=1" class="bare">www.oreillynet.com/pub/a/mac/2001/05/24/aqua_design.html?page=1</a></p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Windows and Mac</p>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="http://www.altuit.com/webs/altuit2/StandaloneBuilderTutorial/BuildingIconsforMacOSXandWindowsXP.htm" class="bare">www.altuit.com/webs/altuit2/StandaloneBuilderTutorial/BuildingIconsforMacOSXandWindowsXP.htm</a></p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
 <div class="admonitionblock tip">
 <table>
 <tr>
@@ -2155,14 +1936,13 @@ that each can be optimized for its specific location. The majority of
 interface graphics are 16 x 16 pixels in size, though there are some
 graphic types that come in additional or unconventional sizes suited
 specifically to their use. Details on size and placement of the image
-see the next subsection on <a href="#Icon_Size_&amp;_Placement">Icon Size &amp;
+see the next subsection on <a href="#_icon_size_placement">Icon Size &amp;
 Placement</a>. The following graphic types are described below:</p>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/spec_type_icon.png" alt="spec_type_icon">
 </div>
-<div class="title">Figure 46. spec_type_icon</div>
 </div>
 <div class="sect3">
 <h4 id="_product">3.2.1. Product</h4>
@@ -2180,11 +1960,18 @@ Placement</a>. The following graphic types are described below:</p>
 <div class="content">
 <img src="images/spec_type_prod.png" alt="spec_type_prod">
 </div>
-<div class="title">Figure 47. fig:spec_type_prod</div>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Format:</strong> ICO (Windows), ICNS (Mac), XPM (Linux)</p>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Format
+</td>
+<td class="hdlist2">
+<p>ICO (Windows), ICNS (Mac), XPM (Linux)</p>
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect3">
@@ -2204,23 +1991,42 @@ Placement</a>. The following graphic types are described below:</p>
 <div class="content">
 <img src="images/spec_type_persp.png" alt="spec_type_persp">
 </div>
-<div class="title">Figure 48. fig:spec_type_persp</div>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Type:</strong> View</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Folder name:</strong> view16</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Size:</strong> 16 x 16 pixels</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Format:</strong> PNG</p>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Type
+</td>
+<td class="hdlist2">
+<p>View</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Folder name
+</td>
+<td class="hdlist2">
+<p>view16</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Size
+</td>
+<td class="hdlist2">
+<p>16 x 16 pixels</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Format
+</td>
+<td class="hdlist2">
+<p>PNG</p>
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect3">
@@ -2237,23 +2043,42 @@ Placement</a>. The following graphic types are described below:</p>
 <div class="content">
 <img src="images/spec_type_fastview.png" alt="spec_type_fastview">
 </div>
-<div class="title">Figure 49. fig:spec_type_fastview</div>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Type:</strong> View</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Folder name:</strong> view16</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Size:</strong> 16 x 16 pixels</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Format:</strong> PNG</p>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Type
+</td>
+<td class="hdlist2">
+<p>View</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Folder name
+</td>
+<td class="hdlist2">
+<p>view16</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Size
+</td>
+<td class="hdlist2">
+<p>16 x 16 pixels</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Format
+</td>
+<td class="hdlist2">
+<p>PNG</p>
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect3">
@@ -2267,23 +2092,42 @@ Placement</a>. The following graphic types are described below:</p>
 <div class="content">
 <img src="images/spec_type_tool.png" alt="spec_type_tool">
 </div>
-<div class="title">Figure 50. fig:spec_type_tool</div>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Type:</strong> Toolbar</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Folder names:</strong> etool16 and dtool16</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Size:</strong> 16 x 16 pixels</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Format:</strong> PNG</p>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Type
+</td>
+<td class="hdlist2">
+<p>Toolbar</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Folder names
+</td>
+<td class="hdlist2">
+<p>etool16 and dtool16</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Size
+</td>
+<td class="hdlist2">
+<p>16 x 16 pixels</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Format
+</td>
+<td class="hdlist2">
+<p>PNG</p>
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect3">
@@ -2302,23 +2146,42 @@ Placement</a>. The following graphic types are described below:</p>
 <div class="content">
 <img src="images/spec_type_toolwiz.png" alt="spec_type_toolwiz">
 </div>
-<div class="title">Figure 51. fig:spec_type_toolwiz</div>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Type:</strong> Toolbar</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Folder names:</strong> etool16 and dtool16</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Size:</strong> 16 x 16 pixels</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Format:</strong> PNG</p>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Type
+</td>
+<td class="hdlist2">
+<p>Toolbar</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Folder names
+</td>
+<td class="hdlist2">
+<p>etool16 and dtool16</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Size
+</td>
+<td class="hdlist2">
+<p>16 x 16 pixels</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Format
+</td>
+<td class="hdlist2">
+<p>PNG</p>
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect3">
@@ -2332,23 +2195,42 @@ Placement</a>. The following graphic types are described below:</p>
 <div class="content">
 <img src="images/spec_type_view.png" alt="spec_type_view">
 </div>
-<div class="title">Figure 52. fig:spec_type_view</div>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Type:</strong> View</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Folder name:</strong> view16</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Size:</strong> 16 x 16 pixels</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Format:</strong> PNG</p>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Type
+</td>
+<td class="hdlist2">
+<p>View</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Folder name
+</td>
+<td class="hdlist2">
+<p>view16</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Size
+</td>
+<td class="hdlist2">
+<p>16 x 16 pixels</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Format
+</td>
+<td class="hdlist2">
+<p>PNG</p>
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect3">
@@ -2364,23 +2246,43 @@ Placement</a>. The following graphic types are described below:</p>
 <div class="content">
 <img src="images/spec_type_lcltool.png" alt="spec_type_lcltool">
 </div>
-<div class="title">Figure 53. fig:spec_type_lcltool</div>
+<div class="title">Figure 4. fig:spec_type_lcltool</div>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Type:</strong> Local Toolbar</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Folder names:</strong> elcl16 and dlcl16</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Size:</strong> 16 x 16 pixels</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Format:</strong> PNG</p>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Type
+</td>
+<td class="hdlist2">
+<p>Local Toolbar</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Folder names
+</td>
+<td class="hdlist2">
+<p>elcl16 and dlcl16</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Size
+</td>
+<td class="hdlist2">
+<p>16 x 16 pixels</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Format
+</td>
+<td class="hdlist2">
+<p>PNG</p>
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect3">
@@ -2405,7 +2307,6 @@ Placement</a>. The following graphic types are described below:</p>
 <div class="content">
 <img src="images/spec_type_obj-lg.png" alt="spec_type_obj-lg">
 </div>
-<div class="title">Figure 54. fig:spec_type_obj-lg</div>
 </div>
 <div class="paragraph">
 <p>Model object in Outline View is not shown in the Editor, but the
@@ -2415,23 +2316,42 @@ Placement</a>. The following graphic types are described below:</p>
 <div class="content">
 <img src="images/spec_type_icon-ol-edit.png" alt="spec_type_icon-ol-edit">
 </div>
-<div class="title">Figure 55. fig:spec_type_icon-ol-edit</div>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Type:</strong> Model Object</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Folder name:</strong> obj16</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Size:</strong> 16 x 16 pixels</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Format:</strong> PNG</p>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Type
+</td>
+<td class="hdlist2">
+<p>Model Object</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Folder name
+</td>
+<td class="hdlist2">
+<p>obj16</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Size
+</td>
+<td class="hdlist2">
+<p>16 x 16 pixels</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Format
+</td>
+<td class="hdlist2">
+<p>PNG</p>
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect3">
@@ -2448,117 +2368,128 @@ Placement</a>. The following graphic types are described below:</p>
 <div class="content">
 <img src="images/spec_type_ovr.png" alt="spec_type_ovr">
 </div>
-<div class="title">Figure 56. fig:spec_type_ovr</div>
 </div>
 <div class="paragraph">
-<p>::
-  There are six main types of overlays:</p>
+<p>There are six main types of overlays:</p>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>1. Project Nature</strong> or <strong>Type</strong></p>
-</div>
-<div class="paragraph">
-<p>::
-  These overlays are displayed in the Navigator and the Package views.
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><strong>Project Nature</strong> or <strong>Type</strong><br>
+These overlays are displayed in the Navigator and the Package views.
   They are completely superimposed on the model object at the top right
   corner of the 16 x 16 icon space.</p>
-</div>
 <div class="paragraph">
-<p>::
-  Only a few project nature overlay icons have been created to prevent
+<p>Only a few project nature overlay icons have been created to prevent
   crowding in the interface. Project nature overlays quickly identify
   the various types of projects that can be contained in the Navigator
   and mirroring views.</p>
 </div>
 <div class="paragraph">
-<p>::
-  The white keyline border is applied around the image to enhance
+<p>The white keyline border is applied around the image to enhance
   legibility.</p>
 </div>
 <div class="paragraph">
-<p>::
-  <strong>Example:</strong></p>
+<p><strong>Example:</strong><br>
+<span class="image"><img src="images/spec_type_ovr-proj-type.png" alt="spec_type_ovr-proj-type"></span></p>
 </div>
-<div class="imageblock">
-<div class="content">
-<img src="images/spec_type_ovr-proj-type.png" alt="spec_type_ovr-proj-type">
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Type
+</td>
+<td class="hdlist2">
+<p>Object Overlay</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Folder name
+</td>
+<td class="hdlist2">
+<p>ovr16</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Size
+</td>
+<td class="hdlist2">
+<p>7 x 8 pixels</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Format
+</td>
+<td class="hdlist2">
+<p>PNG</p>
+</td>
+</tr>
+</table>
 </div>
-<div class="title">Figure 57. fig:spec_type_ovr-proj-type</div>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Type:</strong> Object Overlay</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Folder name:</strong> ovr16</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Size:</strong> 7 x 8 pixels</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Format:</strong> PNG</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>2. Auxiliary</strong> or <strong><em>Status</em></strong></p>
-</div>
-<div class="paragraph">
-<p>::
-  These overlays are displayed in all tree views. This type of overlay
+</li>
+<li>
+<p><strong>Auxiliary</strong> or <strong><em>Status</em></strong><br>
+These overlays are displayed in all tree views. This type of overlay
   is completely superimposed on the model object at the bottom left
   corner of the 16 x 16 icon space.</p>
-</div>
 <div class="paragraph">
-<p>::
-  The auxiliary overlay quickly identifies the status of an object.
+<p>The auxiliary overlay quickly identifies the status of an object.
   Examples of auxiliary overlays are warning, error, failure, and
   success.</p>
 </div>
 <div class="paragraph">
-<p>::
-  <strong>Example:</strong></p>
+<p><strong>Example:</strong><br>
+<span class="image"><img src="images/spec_type_ovr-aux-status.png" alt="spec_type_ovr-aux-status"></span></p>
 </div>
-<div class="imageblock">
-<div class="content">
-<img src="images/spec_type_ovr-aux-status.png" alt="spec_type_ovr-aux-status">
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Type
+</td>
+<td class="hdlist2">
+<p>Object Overlay</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Folder name
+</td>
+<td class="hdlist2">
+<p>ovr16</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Size
+</td>
+<td class="hdlist2">
+<p>7 x 8 pixels</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Format
+</td>
+<td class="hdlist2">
+<p>PNG</p>
+</td>
+</tr>
+</table>
 </div>
-<div class="title">Figure 58. fig:spec_type_ovr-aux-status</div>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Type:</strong> Object Overlay</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Folder name:</strong> ovr16</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Size:</strong> 7 x 8 pixels</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Format:</strong> PNG</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>3. Java</strong> or <strong><em>Attribute</em></strong></p>
-</div>
-<div class="paragraph">
-<p>::
-  These overlays are displayed in the Outline, Hierarchy, and Package
+</li>
+<li>
+<p><strong>Java</strong> or <strong><em>Attribute</em></strong><br>
+These overlays are displayed in the Outline, Hierarchy, and Package
   views. The Java overlays are appended to the model object icon, so
   they extend the 16 x 16 icon space. They are placed to the right of a
   model object icon, overlapping the 16 x 16 model object space by 3
   pixels. A maximum of 3 java overlays can be put on the model object.</p>
-</div>
 <div class="paragraph">
-<p>::
-  The order in which an overlay appears depends on the order in which it
+<p>The order in which an overlay appears depends on the order in which it
   has been assigned. In designing Java overlays, it is important to make
   sure the base object icon can support the addition of overlays without
   compromising readability. Note that there are two Java overlays that
@@ -2566,176 +2497,261 @@ Placement</a>. The following graphic types are described below:</p>
   Synchronize overlay synchronized (method) and Run overlay run (class).</p>
 </div>
 <div class="paragraph">
-<p>::
-  Java overlays identify attributes of an object. Examples include
+<p>Java overlays identify attributes of an object. Examples include
   static, final, abstract, and synchronized.</p>
 </div>
-<div class="paragraph">
-<p>::
-  Note: In the Hierarchy and Outline views, the Java overlays are
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+In the Hierarchy and Outline views, the Java overlays are
   appended to the right of the model object as shown in the first
   example below, but in the Package view they are stacked over the model
-  object, as shown in the second example.</p>
+  object, as shown in the second example.
+</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
-<p>::
-  <strong>Examples:</strong></p>
+<p><strong>Examples:</strong></p>
 </div>
-<div class="paragraph">
-<p>::
-  Hierarchy and Outline Views:
+<div class="openblock">
+<div class="content">
+<div class="ulist">
+<ul>
+<li>
+<p>Hierarchy and Outline Views:
 <span class="image"><img src="images/spec_type_ovr-java-att.png" alt="spec_type_ovr-java-att" title="fig:spec_type_ovr-java-att"></span></p>
-</div>
-<div class="paragraph">
-<p>::
-  Package View:
+</li>
+<li>
+<p>Package View:
 <span class="image"><img src="images/spec_type_ovr-java-att2.png" alt="spec_type_ovr-java-att2" title="fig:spec_type_ovr-java-att2"></span></p>
+</li>
+</ul>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Type:</strong> Object Overlay</p>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Folder name:</strong> ovr16</p>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Size:</strong> 7 x 8 pixels</p>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Type
+</td>
+<td class="hdlist2">
+<p>Object Overlay</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Folder name
+</td>
+<td class="hdlist2">
+<p>ovr16</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Size
+</td>
+<td class="hdlist2">
+<p>7 x 8 pixels</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Format
+</td>
+<td class="hdlist2">
+<p>PNG</p>
+</td>
+</tr>
+</table>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Format:</strong> PNG</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>4. Version Control</strong> or <strong><em>Transition-state</em></strong></p>
-</div>
-<div class="paragraph">
-<p>::
-  These overlays are displayed in the Navigator view and in the
+</li>
+<li>
+<p><strong>Version Control</strong> or <strong><em>Transition-state</em></strong><br>
+These overlays are displayed in the Navigator view and in the
   Structure View of the Merge Editor in CVS. When they are displayed in
   the Navigator view, the overlay is completely superimposed on the
   model object at the right of the 16 x 16 icon space.</p>
-</div>
 <div class="paragraph">
-<p>::
-  When the version control overlays are displayed in the Structure View
+<p>When the version control overlays are displayed in the Structure View
   of the Merge Editor in CVS, they are appended to the model object, so
   they extend the 16 x 16 space. They are placed to the right of a model
   object icon, overlapping the 16 x 16 model object space by 3 pixels.
   In CVS there is a maximum of 2 overlays on the right of the object.</p>
 </div>
 <div class="paragraph">
-<p>::
-  Version control overlays identify a transition state of an object.
+<p>Version control overlays identify a transition state of an object.
   Examples of these overlays are incoming, outgoing, in conflict, added,
   deleted, and changed.</p>
 </div>
 <div class="paragraph">
-<p>::
-  <strong>Examples:</strong></p>
+<p><strong>Examples:</strong></p>
 </div>
-<div class="paragraph">
-<p>::
-  Navigator View:
+<div class="openblock">
+<div class="content">
+<div class="ulist">
+<ul>
+<li>
+<p>Navigator View:
 <span class="image"><img src="images/spec_type_ovr-teamsamp1.png" alt="spec_type_ovr-teamsamp1" title="fig:spec_type_ovr-teamsamp1"></span></p>
-</div>
-<div class="paragraph">
-<p>::
-  Structure View:
+</li>
+<li>
+<p>Structure View:
 <span class="image"><img src="images/spec_type_ovr-teamsamp2.png" alt="spec_type_ovr-teamsamp2" title="fig:spec_type_ovr-teamsamp2"></span></p>
+</li>
+</ul>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Type:</strong> Object Overlay</p>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Folder name:</strong> ovr16</p>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Size:</strong> Typically 7 x 8 pixels, though some are larger</p>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Type
+</td>
+<td class="hdlist2">
+<p>Object Overlay</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Folder name
+</td>
+<td class="hdlist2">
+<p>ovr16</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Size
+</td>
+<td class="hdlist2">
+<p>Typically 7 x 8 pixels, though some are larger</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Format
+</td>
+<td class="hdlist2">
+<p>PNG</p>
+</td>
+</tr>
+</table>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Format:</strong> PNG</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>5. Multiplicity</strong></p>
-</div>
-<div class="paragraph">
-<p>::
-  These overlays are displayed in the treeview of a generator model file
+</li>
+<li>
+<p><strong>Multiplicity</strong><br>
+These overlays are displayed in the treeview of a generator model file
   in the Eclipse Modeling Framework (EMF). These represent
   relationships, such as one to one or one to many within the model.
   This type of overlay spans the width of the model object icon and is
   located at its base so that it does obscure too much of the underlying
   object.</p>
-</div>
 <div class="paragraph">
-<p>::
-  <strong>Example:</strong></p>
+<p><strong>Example:</strong></p>
 </div>
-<div class="paragraph">
-<p><span class="image"><img src="images/spec_type_ovr-multsamp.png" alt="spec_type_ovr-multsamp" title="fig:spec_type_ovr-multsamp"></span></p>
+<div class="imageblock">
+<div class="content">
+<img src="images/spec_type_ovr-multsamp.png" alt="spec_type_ovr-multsamp">
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Type:</strong> Object Overlay</p>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Folder name:</strong> ovr16</p>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Type
+</td>
+<td class="hdlist2">
+<p>Object Overlay</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Folder name
+</td>
+<td class="hdlist2">
+<p>ovr16</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Size
+</td>
+<td class="hdlist2">
+<p>16 x 6 pixels image size but a final cut size of 16 x 16
+pixels</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Format
+</td>
+<td class="hdlist2">
+<p>PNG</p>
+</td>
+</tr>
+</table>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Size:</strong> 16 x 6 pixels image size but a final cut size of 16 x 16
-  pixels</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Format:</strong> PNG</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>6. Underlays</strong></p>
-</div>
-<div class="paragraph">
-<p>::
-  These are displayed under model objects in the treeview of some tools.
+</li>
+<li>
+<p><strong>Underlays</strong><br>
+These are displayed under model objects in the treeview of some tools.
   They signify some kind of change about the object, such as version
   control or generated code. Underlays are typically square in shape,
   with a 2 pixel radius on each corner, and are light in color so they
   are clean and not overstated when seen multiple times in a treeview.</p>
-</div>
 <div class="paragraph">
-<p>::
-  <strong>Example:</strong></p>
+<p><strong>Example:</strong></p>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/spec_type_ovr-undersamp.png" alt="spec_type_ovr-undersamp">
 </div>
-<div class="title">Figure 59. fig:spec_type_ovr-undersamp</div>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Type:</strong> Object Overlay</p>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Type
+</td>
+<td class="hdlist2">
+<p>Object Overlay</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Folder name
+</td>
+<td class="hdlist2">
+<p>ovr16</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Size
+</td>
+<td class="hdlist2">
+<p>16 x 16 pixels</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Format
+</td>
+<td class="hdlist2">
+<p>PNG</p>
+</td>
+</tr>
+</table>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Folder name:</strong> ovr16</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Size:</strong> 16 x 16 pixels</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Format:</strong> PNG</p>
+</li>
+</ol>
 </div>
 </div>
 <div class="sect3">
@@ -2755,24 +2771,43 @@ Placement</a>. The following graphic types are described below:</p>
 <div class="content">
 <img src="images/spec_type_table_op1.png" alt="spec_type_table_op1">
 </div>
-<div class="title">Figure 60. fig:spec_type_table_op1</div>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Type:</strong> Table</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Folder name:</strong> obj16</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Size:</strong> They are designed in the 16 x 16 pixel space, but the actual
-  image size is no greater than 15 x 14 pixels.</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Format:</strong> PNG</p>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Type
+</td>
+<td class="hdlist2">
+<p>Table</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Folder name
+</td>
+<td class="hdlist2">
+<p>obj16</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Size
+</td>
+<td class="hdlist2">
+<p>They are designed in the 16 x 16 pixel space, but the actual
+image size is no greater than 15 x 14 pixels.</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Format
+</td>
+<td class="hdlist2">
+<p>PNG</p>
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect3">
@@ -2793,32 +2828,47 @@ Placement</a>. The following graphic types are described below:</p>
   dropped directly into the source code.</p>
 </div>
 <div class="paragraph">
-<p>Palette icons shown in context</p>
+<p>Palette icons shown in context<br>
+<span class="image"><img src="images/spec_type_palette.png" alt="spec_type_palette"></span></p>
 </div>
-<div class="imageblock">
-<div class="content">
-<img src="images/spec_type_palette.png" alt="spec_type_palette">
-</div>
-<div class="title">Figure 61. fig: spec_type_palette</div>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Type:</strong> Palette</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Folder name:</strong> pal</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Size:</strong> Size varies depending on the context of the palette. The
-  default size is 16 x 16 pixels but can be changed by the user to "Use
-  large icons", which are 24 x 24 pixels in size. There are also rare
-  cases where 32 x 32 pixel icons are used on the palette.</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Format:</strong> PNG</p>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Type
+</td>
+<td class="hdlist2">
+<p>Palette</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Folder name
+</td>
+<td class="hdlist2">
+<p>pal</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Size
+</td>
+<td class="hdlist2">
+<p>Size varies depending on the context of the palette. The
+default size is 16 x 16 pixels but can be changed by the user to "Use
+large icons", which are 24 x 24 pixels in size. There are also rare
+cases where 32 x 32 pixel icons are used on the palette.</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Format
+</td>
+<td class="hdlist2">
+<p>PNG</p>
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect3">
@@ -2835,34 +2885,49 @@ Placement</a>. The following graphic types are described below:</p>
   'fields' and 'types' in a UML Diagram.</p>
 </div>
 <div class="paragraph">
-<p>Diagram icons shown in context</p>
+<p>Diagram icons shown in context<br>
+<span class="image"><img src="images/spec_type_diagram.png" alt="spec_type_diagram"></span></p>
 </div>
-<div class="imageblock">
-<div class="content">
-<img src="images/spec_type_diagram.png" alt="spec_type_diagram">
-</div>
-<div class="title">Figure 62. fig: spec_type_diagram</div>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Type:</strong> Diagram</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Folder name:</strong> dgm</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Size:</strong> Canvas icons may be 16 x 16, 24 x 24, or 32 x 32 pixel in
-  size. There are also instances of 15 x 15, 12 x 12, and 10 x 10 pixel
-  icons in some Web Tooling diagrams. 15 x 15 and 10 x 10 icons are used
-  in site navigation diagrams, and 12 x 12 icons are used in the editor
-  preview mode to show content types and formatting.</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Format:</strong> PNG is used for all diagram graphics, except Action Bar
-  icons, which are SVG.</p>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Type
+</td>
+<td class="hdlist2">
+<p>Diagram</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Folder name
+</td>
+<td class="hdlist2">
+<p>dgm</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Size
+</td>
+<td class="hdlist2">
+<p>Canvas icons may be 16 x 16, 24 x 24, or 32 x 32 pixel in
+size. There are also instances of 15 x 15, 12 x 12, and 10 x 10 pixel
+icons in some Web Tooling diagrams. 15 x 15 and 10 x 10 icons are used
+in site navigation diagrams, and 12 x 12 icons are used in the editor
+preview mode to show content types and formatting.</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Format
+</td>
+<td class="hdlist2">
+<p>PNG is used for all diagram graphics, except Action Bar
+icons, which are SVG.</p>
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect3">
@@ -2874,29 +2939,44 @@ Placement</a>. The following graphic types are described below:</p>
   icon is also a button that will open the Progress View.</p>
 </div>
 <div class="paragraph">
-<p>Progress indicator icon shown in context</p>
+<p>Progress indicator icon shown in context<br>
+<span class="image"><img src="images/spec_type_progress.png" alt="spec_type_progress"></span></p>
 </div>
-<div class="imageblock">
-<div class="content">
-<img src="images/spec_type_progress.png" alt="spec_type_progress">
-</div>
-<div class="title">Figure 63. fig: spec_type_progress</div>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Type:</strong> Progress Indicator</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Folder name:</strong> progress</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Size:</strong> 16 x 16 pixels</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Format:</strong> PNG</p>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Type
+</td>
+<td class="hdlist2">
+<p>Progress Indicator</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Folder name
+</td>
+<td class="hdlist2">
+<p>progress</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Size
+</td>
+<td class="hdlist2">
+<p>16 x 16 pixels</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Format
+</td>
+<td class="hdlist2">
+<p>PNG</p>
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect3">
@@ -2912,23 +2992,43 @@ Placement</a>. The following graphic types are described below:</p>
 <div class="content">
 <img src="images/spec_type_cursor_mask.png" alt="spec_type_cursor_mask">
 </div>
-<div class="title">Figure 64. fig: spec_type_cursor_mask</div>
+<div class="title">Figure 5. fig: spec_type_cursor_mask</div>
 </div>
-<div class="paragraph">
-<p>::
-  <strong>Types:</strong> Pointer and Cursor Mask</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Folder name:</strong> point</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Size:</strong> 32 x 32 pixels</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Format:</strong> BMP</p>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Types
+</td>
+<td class="hdlist2">
+<p>Pointer and Cursor Mask</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Folder name
+</td>
+<td class="hdlist2">
+<p>point</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Size
+</td>
+<td class="hdlist2">
+<p>32 x 32 pixels</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Format
+</td>
+<td class="hdlist2">
+<p>BMP</p>
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect3">
@@ -2939,29 +3039,44 @@ Placement</a>. The following graphic types are described below:</p>
   new Java class.</p>
 </div>
 <div class="paragraph">
-<p>New Java class wizard graphic shown in context</p>
+<p>New Java class wizard graphic shown in context<br>
+<span class="image"><img src="images/spec_type_wiz.png" alt="spec_type_wiz"></span></p>
 </div>
-<div class="imageblock">
-<div class="content">
-<img src="images/spec_type_wiz.png" alt="spec_type_wiz">
-</div>
-<div class="title">Figure 65. fig: spec_type_wiz</div>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Type:</strong> Wizard Banner</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Folder name:</strong> wizban</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Size:</strong> 75 x 66 pixels</p>
-</div>
-<div class="paragraph">
-<p>::
-  <strong>Format:</strong> PNG</p>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Type
+</td>
+<td class="hdlist2">
+<p>Wizard Banner</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Folder name
+</td>
+<td class="hdlist2">
+<p>wizban</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Size
+</td>
+<td class="hdlist2">
+<p>75 x 66 pixels</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Format
+</td>
+<td class="hdlist2">
+<p>PNG</p>
+</td>
+</tr>
+</table>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -3012,72 +3127,22 @@ sizes are indicated with width before height.</p>
   16, 24 x 24, 32 x 32, 64 x 64, and 72 x 72 pixels. This shows how the
   16 x 16 product icon fills the entire space:</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_prod16.png" alt="spec_size_prod16" title="fig:spec_size_prod16"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_prod16samp.png" alt="spec_size_prod16samp" title="fig:spec_size_prod16samp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 </div>
 <div class="sect3">
 <h4 id="_perspective_and_fast_view">3.3.2. Perspective and Fast View</h4>
@@ -3089,72 +3154,22 @@ image in place</strong></p></td>
 <div class="paragraph">
 <p>Image size in allotted space</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_persp.png" alt="spec_size_persp" title="fig:spec_size_persp"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_perspsamp.png" alt="spec_size_perspsamp" title="fig:spec_size_perspsamp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 </div>
 <div class="sect3">
 <h4 id="_view_2">3.3.3. View</h4>
@@ -3163,72 +3178,22 @@ image in place</strong></p></td>
   If the image is 15 x 15 or smaller, the empty pixels must be on the
   left and bottom, as shown here.</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_view.png" alt="spec_size_view" title="fig:spec_size_view"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_viewsamp.png" alt="spec_size_viewsamp" title="fig:spec_size_viewsamp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 </div>
 <div class="sect3">
 <h4 id="_toolbar_toolbar_wizard_and_local_toolbar">3.3.4. Toolbar, Toolbar Wizard, and Local Toolbar</h4>
@@ -3237,72 +3202,22 @@ image in place</strong></p></td>
   If the image is 15 x 15 or smaller, the empty pixels must be on the
   left and top, as shown here.</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_tool.png" alt="spec_size_tool" title="fig:spec_size_tool"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_toolsamp.png" alt="spec_size_toolsamp" title="fig:spec_size_toolsamp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 </div>
 <div class="sect3">
 <h4 id="_model_object_2">3.3.5. Model Object</h4>
@@ -3311,72 +3226,22 @@ image in place</strong></p></td>
   Model Object icons must be no greater than 15 pixels high. The empty
   pixels must be on the left and bottom, as shown here.</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_obj.png" alt="spec_size_obj" title="fig:spec_size_obj"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_objsamp.png" alt="spec_size_objsamp" title="fig:spec_size_objsamp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 </div>
 <div class="sect3">
 <h4 id="_object_overlay_and_underlay_2">3.3.6. Object Overlay (and Underlay)</h4>
@@ -3403,560 +3268,156 @@ image in place</strong></p></td>
 <div class="paragraph">
 <p>Standard object overlay with a maximum image size of 7 x 8 pixels:</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top"><strong>Image size in allotted space</strong></th>
-<th class="tableblock halign-left valign-top"></th>
-<th class="tableblock halign-left valign-top"></th>
-<th class="tableblock halign-left valign-top"></th>
-<th class="tableblock halign-left valign-top"></th>
-<th class="tableblock halign-left valign-top"></th>
-<th class="tableblock halign-left valign-top"></th>
-<th class="tableblock halign-left valign-top"></th>
-<th class="tableblock halign-left valign-top"></th>
-<th class="tableblock halign-left valign-top"></th>
-<th class="tableblock halign-left valign-top"></th>
-<th class="tableblock halign-left valign-top"></th>
-<th class="tableblock halign-left valign-top"></th>
-<th class="tableblock halign-left valign-top"></th>
-<th class="tableblock halign-left valign-top"></th>
-<th class="tableblock halign-left valign-top"></th>
-<th class="tableblock halign-left valign-top"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_ovr.png" alt="spec_size_ovr" title="fig:spec_size_ovr"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-</tr>
-</tbody>
-</table>
-</blockquote>
-</div>
-<div class="paragraph">
-<p>Example of a standard Project Nature—<strong>Type</strong>—object overlay in place:</p>
-</div>
-<div class="quoteblock">
-<blockquote>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 100%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_ovr.png" alt="spec_size_ovr" title="fig:spec_size_ovr"></span></p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Example of a standard Project Nature—<strong>Type</strong>—object overlay in place:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_ovr-proj.png" alt="spec_size_ovr-proj" title="fig:spec_size_ovr-proj"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_ovr-projsamp.png" alt="spec_size_ovr-projsamp" title="fig:spec_size_ovr-projsamp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 <div class="paragraph">
 <p>Example of a standard Auxiliary—<strong>Status</strong>—object overlay in place:</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_ovr-aux.png" alt="spec_size_ovr-aux" title="fig:spec_size_ovr-aux"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_ovr-auxsamp.png" alt="spec_size_ovr-auxsamp" title="fig:spec_size_ovr-auxsamp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 <div class="paragraph">
 <p>Example of a standard Java—<strong>Attribute</strong>—object overlay in place:</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_ovr-java.png" alt="spec_size_ovr-java" title="fig:spec_size_ovr-java"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_ovr-javasamp.png" alt="spec_size_ovr-javasamp" title="fig:spec_size_ovr-javasamp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 <div class="paragraph">
 <p>Example of a standard Version Control—<strong>Transition</strong>-state—object
   overlay in place:</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_ovr-vers.png" alt="spec_size_ovr-vers" title="fig:spec_size_ovr-vers"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_ovr-verssamp.png" alt="spec_size_ovr-verssamp" title="fig:spec_size_ovr-verssamp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 <div class="paragraph">
 <p>Example of two stacking Version Control object overlays in place:</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_ovr-cvs.png" alt="spec_size_ovr-cvs" title="fig:spec_size_ovr-cvs"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_ovr-cvssamp.png" alt="spec_size_ovr-cvssamp" title="fig:spec_size_ovr-cvssamp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 <div class="paragraph">
 <p><strong>Multiplicity</strong> object overlay with a maximum image size of 16 x 6
   pixels:</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_ovr-mult.png" alt="spec_size_ovr-mult" title="fig:spec_size_ovr-mult"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_ovr-multsamp.png" alt="spec_size_ovr-multsamp" title="fig:spec_size_ovr-multsamp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 <div class="paragraph">
 <p><strong>Underlay</strong> with a maximum image size of 16 x 15 pixels, but 15 x 15 is
   recommended. The empty pixels must be on the left and bottom, as shown
   here:</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_ovr-under.png" alt="spec_size_ovr-under" title="fig:spec_size_ovr-under"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_ovr-undersamp.png" alt="spec_size_ovr-undersamp" title="fig:spec_size_ovr-undersamp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 </div>
 <div class="sect3">
 <h4 id="_table_2">3.3.7. Table</h4>
@@ -3965,72 +3426,22 @@ image in place</strong></p></td>
   greater than 14 pixels high. The empty pixels must be on the top,
   bottom, and left, as shown here.</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_table.png" alt="spec_size_table" title="fig:spec_size_table"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_tablesamp.png" alt="spec_size_tablesamp" title="fig:spec_size_tablesamp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 </div>
 <div class="sect3">
 <h4 id="_palette_2">3.3.8. Palette</h4>
@@ -4040,215 +3451,65 @@ image in place</strong></p></td>
   greater than 15 pixels high. The empty pixels must be on the left and
   bottom, as shown here.</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_pal16.png" alt="spec_size_pal16" title="fig:spec_size_pal16"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_pal16samp.png" alt="spec_size_pal16samp" title="fig:spec_size_pal16samp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 <div class="paragraph">
 <p><strong>Standard large (24 x 24) palette icon:</strong> The maximum image size is 24
   x 23 pixels, but 23 x 23 is recommended. Palette icons must be no
   greater than 23 pixels high. The empty pixels must be on the left and
   bottom, as shown here.</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_pal24.png" alt="spec_size_pal24" title="fig:spec_size_pal24"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_pal24samp.png" alt="spec_size_pal24samp" title="fig:spec_size_pal24samp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 <div class="paragraph">
 <p><strong>Large (32 x 32) palette icon:</strong> The maximum image size is 30 x 30
   pixels with the image centered. The empty pixels are on all four sides
   of the image.</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_pal32.png" alt="spec_size_pal32" title="fig:spec_size_pal32"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_pal32samp.png" alt="spec_size_pal32samp" title="fig:spec_size_pal32samp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 </div>
 <div class="sect3">
 <h4 id="_diagram_2">3.3.9. Diagram</h4>
@@ -4256,355 +3517,105 @@ image in place</strong></p></td>
 <p><strong>Small (10 x 10) canvas icon:</strong> The maximum image size is 10 x 10
   pixels. The image fills the space as required.</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_dgm10.png" alt="spec_size_dgm10" title="fig:spec_size_dgm10"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_dgm10samp.png" alt="spec_size_dgm10samp" title="fig:spec_size_dgm10samp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 <div class="paragraph">
 <p><strong>Small (12 x 12) canvas icon:</strong> The maximum image size is 12 x 12
   pixels. The image fills the space as required.</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_dgm12.png" alt="spec_size_dgm12" title="fig:spec_size_dgm12"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_dgm12samp.png" alt="spec_size_dgm12samp" title="fig:spec_size_dgm12samp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 <div class="paragraph">
 <p><strong>Small (16 x 16) canvas icon:</strong> The maximum image size is 16 x 15
   pixels, but 15 x 15 is recommended. The empty pixels must be on the
   left and bottom, as shown here.</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_dgm16.png" alt="spec_size_dgm16" title="fig:spec_size_dgm16"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_dgm16samp.png" alt="spec_size_dgm16samp" title="fig:spec_size_dgm16samp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 <div class="paragraph">
 <p><strong>Large (24 x 24) canvas icon:</strong> The maximum image size is 24 x 23
   pixels, but 23 x 23 is recommended. The empty pixels must be on the
   left and bottom, as shown here.</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_dgm24.png" alt="spec_size_dgm24" title="fig:spec_size_dgm24"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_dgm24samp.png" alt="spec_size_dgm24samp" title="fig:spec_size_dgm24samp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 <div class="paragraph">
 <p><strong>Large (32 x 32) canvas icon:</strong> The maximum image size is 32 x 32
   pixels, but 30 x 30 is recommended with the image centered. The empty
   pixels are on all four sides of the image.</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_dgm32.png" alt="spec_size_dgm32" title="fig:spec_size_dgm32"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_dgm32samp.png" alt="spec_size_dgm32samp" title="fig:spec_size_dgm32samp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 </div>
 <div class="sect3">
 <h4 id="_progress_indicator_2">3.3.10. Progress Indicator</h4>
@@ -4613,72 +3624,22 @@ image in place</strong></p></td>
   Progress indicator icons must be no greater than 15 pixels high. The
   empty pixels must be on the left and bottom, as shown here.</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_prog.png" alt="spec_size_prog" title="fig:spec_size_prog"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_progsamp.png" alt="spec_size_progsamp" title="fig:spec_size_progsamp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 </div>
 <div class="sect3">
 <h4 id="_pointer_and_cursor_mask_2">3.3.11. Pointer and Cursor Mask</h4>
@@ -4693,72 +3654,22 @@ image in place</strong></p></td>
 <div class="paragraph">
 <p>Pointer and cursor mask image sizes shown in the 32 x 32 pixel space:</p>
 </div>
-<div class="quoteblock">
-<blockquote>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8823%;">
-<col style="width: 5.8832%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Image size in allotted space</strong></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample
-image in place</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Sample image in place</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_point.png" alt="spec_size_point" title="fig:spec_size_point"></span></p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="images/spec_size_pointsamp.png" alt="spec_size_pointsamp" title="fig:spec_size_pointsamp"></span></p></td>
 </tr>
 </tbody>
 </table>
-</blockquote>
-</div>
 </div>
 <div class="sect3">
 <h4 id="_wizard_banner_2">3.3.12. Wizard Banner</h4>
@@ -4888,7 +3799,6 @@ selection down to the next icon and begins the process all over again.
 <div class="content">
 <img src="images/imp_cut_icons.png" alt="imp_cut_icons">
 </div>
-<div class="title">Figure 66. fig:imp_cut_icons</div>
 </div>
 </div>
 </div>
@@ -4952,7 +3862,7 @@ again. (See F)<br></p>
 <div class="content">
 <img src="images/imp_cut_wizards.png" alt="imp_cut_wizards">
 </div>
-<div class="title">Figure 67. fig:imp_cut_wizards</div>
+<div class="title">Figure 6. fig:imp_cut_wizards</div>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -5029,7 +3939,6 @@ suffix. For example, file_pal, file_pal24, file_pal32, where
 <div class="content">
 <img src="images/name-conv-tabl.jpg" alt="name-conv-tabl.jpg">
 </div>
-<div class="title">Figure 68. name-conv-tabl.jpg</div>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -5146,8 +4055,8 @@ names.</p>
 </div>
 <div class="paragraph">
 <p>To read more about plugin names in Eclipse, see the
-    <a href="http://help.eclipse.org/help32/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/misc/naming.html">Eclipse
-    Platform Naming Conventions</a> help page.</p>
+<a href="https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fmisc%2Fnaming.html&amp;resultof%3D%2522%256e%2561%256d%2569%256e%2567%2522%2520%2522%256e%2561%256d%2565%2522%2520%2522%2563%256f%256e%2576%2565%256e%2574%2569%256f%256e%2522%2520%2522%2563%256f%256e%2576%2565%256e%2574%2522%2520">Eclipse
+Platform Naming Conventions</a> help page.</p>
 </div>
 </li>
 <li>
@@ -5177,7 +4086,7 @@ palette (pal), pointer (point), product (prod), progress indicator
 size of the icons within. However, only a small number of folders show
 size in the name. These names will persist, but all folder types may now
 contain multiple sizes of images, such as 16 x 16 and 24 x 24 pixel
-versions of palette icons. The <a href="#Naming_Conventions">Naming
+versions of palette icons. The <a href="#_naming_conventions">Naming
 Conventions</a> subsection addresses file naming for multiple sizes within
 one folder.</p>
 </li>
@@ -5192,13 +4101,11 @@ one folder.</p>
 <div class="content">
 <img src="images/imp_folderstruct.png" alt="imp_folderstruct">
 </div>
-<div class="title">Figure 69. fig:imp_folderstruct</div>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/imp_folderstruct_tabl.png" alt="imp_folderstruct_tabl">
 </div>
-<div class="title">Figure 70. fig:imp_folderstruct_tabl</div>
 </div>
 </li>
 </ol>
@@ -5279,7 +4186,7 @@ Use the active, enabled, and disabled states provided.
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-12-22 13:10:58 UTC
+Last updated 2022-12-22 18:08:54 UTC
 </div>
 </div>
 </body>
