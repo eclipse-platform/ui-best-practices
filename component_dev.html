@@ -465,12 +465,11 @@ performed using individual command.</p>
 <div class="content">
 <img src="images/actionExamples.png" alt="actionExamples">
 </div>
-<div class="title">Figure 1. actionExamples</div>
 </div>
 <div class="paragraph">
 <p>In this section we&#8217;ll look at general command guidelines. For
 information on window, view, or editor specific guidelines, see
-<a href="#Windows">Windows</a>, <a href="#Views">Views</a>, and <a href="#Editors">Editors</a>.</p>
+<a href="#_windows">Windows</a>, <a href="#_views">Views</a>, and <a href="#_editors">Editors</a>.</p>
 </div>
 <div class="sect2">
 <h3 id="_appearance">1.1. Appearance</h3>
@@ -498,7 +497,6 @@ a toolbar.</p>
 <div class="content">
 <img src="images/tooltipCaps.png" alt="tooltipCaps">
 </div>
-<div class="title">Figure 2. fig:tooltipCaps</div>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -520,7 +518,7 @@ occurs</em>if the command is invoked, independent of the current state. For
 push buttons, the label should decribe the result of users pushing the
 button. For toggle buttons, it should describe its effect when the item
 is toggled on, and the label should not change depending on the state of
-the button. In Eclipse version 2.1, it is recommended that the tool tip
+the button. In Eclipse, it is recommended that the tool tip
 for a command uses the same text as that for the command label. For
 instance, in the following snapshot the behavior of the Show Type
 Hierarchy button is shown using one tool tips text.</p>
@@ -529,7 +527,6 @@ Hierarchy button is shown using one tool tips text.</p>
 <div class="content">
 <img src="images/goodTooltips.png" alt="goodTooltips">
 </div>
-<div class="title">Figure 3. goodTooltips</div>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -695,7 +692,6 @@ order, for moving objects from the source the selected buckets.</p>
 <div class="content">
 <img src="images/slushBucket.png" alt="slushBucket">
 </div>
-<div class="title">Figure 4. slushBucket</div>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -760,7 +756,6 @@ should appear.</p>
 <div class="content">
 <img src="images/wizardAppearance.png" alt="wizardAppearance">
 </div>
-<div class="title">Figure 5. wizardAppearance</div>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -789,7 +784,6 @@ prompt the user for the first piece of required information.</p>
 <div class="content">
 <img src="images/goodWizardInit.png" alt="goodWizardInit">
 </div>
-<div class="title">Figure 6. goodWizardInit</div>
 </div>
 <div class="paragraph">
 <p>It is not appropriate to display an error message. At this point, the
@@ -799,7 +793,6 @@ user hasn&#8217;t done anything yet.</p>
 <div class="content">
 <img src="images/badWizardInit.png" alt="badWizardInit">
 </div>
-<div class="title">Figure 7. badWizardInit</div>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -831,7 +824,6 @@ file.</p>
 <div class="content">
 <img src="images/wizardFieldPopulation.png" alt="wizardFieldPopulation">
 </div>
-<div class="title">Figure 8. wizardFieldPopulation</div>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -868,7 +860,6 @@ buttons may be enabled.</p>
 <div class="content">
 <img src="images/wizardErrorMsgs.png" alt="wizardErrorMsgs">
 </div>
-<div class="title">Figure 9. wizardErrorMsgs</div>
 </div>
 <div class="paragraph">
 <p>Error messages should be displayed only when user input is invalid.</p>
@@ -877,7 +868,6 @@ buttons may be enabled.</p>
 <div class="content">
 <img src="images/wizardErrorMsgs2.png" alt="wizardErrorMsgs2">
 </div>
-<div class="title">Figure 10. wizardErrorMsgs2</div>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -916,7 +906,6 @@ as part of the error text in the wizard&#8217;s header area.</p>
 <div class="content">
 <img src="images/wizardMsgs.png" alt="wizardMsgs">
 </div>
-<div class="title">Figure 11. wizardMsgs</div>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -976,7 +965,6 @@ snapshot.</p>
 <div class="content">
 <img src="images/folderSelection.png" alt="folderSelection">
 </div>
-<div class="title">Figure 12. fig:folderSelection</div>
 </div>
 </div>
 <div class="sect2">
@@ -1075,7 +1063,6 @@ well.</p>
 <div class="content">
 <img src="images/goodParentCreation.png" alt="goodParentCreation">
 </div>
-<div class="title">Figure 13. goodParentCreation</div>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -1212,7 +1199,6 @@ not with the name of the editor.</p>
 <div class="content">
 <img src="images/editorTitles.png" alt="editorTitles">
 </div>
-<div class="title">Figure 14. fig:editorTitles</div>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -1327,8 +1313,25 @@ menu bar or toolbar.</p>
 <p>A complete list of the global commands is declared in the
 IWorkbenchActionConstants.java (see below).</p>
 </div>
-<div class="paragraph">
-<p>` /**<code> * From IWorkbenchActionConstants.</code> * Standard global commands in a workbench window.<code> */</code> public static final String [] GLOBAL_ACTIONS = {<code> UNDO,</code> REDO,<code> CUT,</code> COPY,<code> PASTE,</code> PRINT,<code> DELETE,</code> FIND,<code> SELECT_ALL,</code> BOOKMARK`` };`</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-java" data-lang="java">/**
+ * From IWorkbenchActionConstants.
+ * Standard global commands in a workbench window.
+ */
+public static final String [] GLOBAL_ACTIONS = {
+    UNDO,
+    REDO,
+    CUT,
+    COPY,
+    PASTE,
+    PRINT,
+    DELETE,
+    FIND,
+    SELECT_ALL,
+    BOOKMARK
+};</code></pre>
+</div>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -1555,7 +1558,6 @@ is a sample of the dialog which should be displayed:</p>
 <div class="content">
 <img src="images/fileDeletedDialog.png" alt="fileDeletedDialog">
 </div>
-<div class="title">Figure 15. fileDeletedDialog</div>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -1584,7 +1586,6 @@ the resource name presented in the editor tab:</p>
 <div class="content">
 <img src="images/dirtyEditor.png" alt="dirtyEditor">
 </div>
-<div class="title">Figure 16. dirtyEditor</div>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -1720,8 +1721,15 @@ red X if it there are errors on the container itself, a gray X if any of
 its descendents have errors (but not the container itself), and no X if
 neither the container nor any of its descendents have errors. For
 instance, in the following line, the addFastView method has an error, so
-an error image is added to the item and its parent.
-image::images/errorsInOutline.png[errorsInOutline,title="fig:errorsInOutline"] For this to work, care must be taken to design icons with overlay in
+an error image is added to the item and its parent.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/errorsInOutline.png" alt="errorsInOutline">
+</div>
+</div>
+<div class="paragraph">
+<p>For this to work, care must be taken to design icons with overlay in
 mind, so that glyphs can be applied to the ancestor&#8217;s icon.</p>
 </div>
 <div class="admonitionblock tip">
@@ -1818,7 +1826,6 @@ be rendered upon the single-click.</p>
 <div class="content">
 <img src="images/cellTableEditor.png" alt="cellTableEditor">
 </div>
-<div class="title">Figure 17. cellTableEditor</div>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -1845,34 +1852,22 @@ or hits ENTER.</p>
 <ul>
 <li>
 <p>when put in edit mode, drop-down appears with current selection active
-&amp; highlighted</p>
-<div class="imageblock">
-<div class="content">
-<img src="images/cell1.png" alt="cell1">
-</div>
-</div>
+&amp; highlighted<br>
+<span class="image"><img src="images/cell1.png" alt="cell1"></span></p>
 </li>
 <li>
 <p>when cursoring through drop-down using arrow keys, it is possible to
 move up and down any number of choices and the drop-down stays visible
-until user makes an explicit selection</p>
-<div class="imageblock">
-<div class="content">
-<img src="images/cell2.png" alt="cell2">
-</div>
-</div>
+until user makes an explicit selection<br>
+<span class="image"><img src="images/cell2.png" alt="cell2"></span></p>
 </li>
 <li>
 <p>first letter navigation is supported as a cursoring technique when the
 drop-down is visible- supports the "Enter" key as a way of making an explicit selection via
 the keyboard when the drop-down is visible- supports the "Esc" key as a way of canceling a selection via the
 keyboard when the drop-down is visible- when put in edit mode, the drop-down control (the down-arrow image)
-appears with current selection active &amp; highlighted</p>
-<div class="imageblock">
-<div class="content">
-<img src="images/cell3.png" alt="cell3">
-</div>
-</div>
+appears with current selection active &amp; highlighted<br>
+<span class="image"><img src="images/cell3.png" alt="cell3"></span></p>
 </li>
 <li>
 <p>when put in edit mode, it is possible to arrow key through the choices
@@ -2977,7 +2972,6 @@ users to navigate in their contents.</p>
 <div class="content">
 <img src="images/ShowViewMenu.gif" alt="showViewMenu">
 </div>
-<div class="title">Figure 18. fig:showViewMenu</div>
 </div>
 <div class="paragraph">
 <p>The application development lifecycle should be considered when
@@ -3116,7 +3110,7 @@ toolbar using an <em>action set</em>, a set of task oriented actions which
 the user can show or hide. You can control the layout of views within a
 window by defining a <em>perspective</em>. In this section we&#8217;ll look at
 action extension. For more information on perspectives, see
-<a href="#Perspectives">Perspectives</a>.</p>
+<a href="#_perspectives">Perspectives</a>.</p>
 </div>
 <div class="sect2">
 <h3 id="_actions">7.1. Actions</h3>
@@ -3497,7 +3491,7 @@ effectiveness and efficiency of a Properties view.</p>
 <dl>
 <dt class="hdlist1">Use the standard tabbed view for product consistency.</dt>
 <dd>
-<p><a href="#PropertiesView_Figure">Figure 19</a> below shows an example. Both tabs
+<p><a href="#PropertiesView_Figure">Figure 1</a> below shows an example. Both tabs
 and a table of Properties should be supported – the tabs for novices, the table
 for experts. Ideally, the tabs and table will be toggled via toolbar control,
 for quick transitions. If there is no toggle and the table will be presented on
@@ -3584,7 +3578,7 @@ objects.</p>
 <div class="content">
 <img src="images/PropertiesView_Figure1.jpg" alt="PropertiesView Figure1">
 </div>
-<div class="title">Figure 19. A tabbed view with recommended control layout.</div>
+<div class="title">Figure 1. A tabbed view with recommended control layout.</div>
 </div>
 </div>
 </div>
@@ -3629,7 +3623,7 @@ be set to a given item when its check state is changed.
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-12-22 18:08:54 UTC
+Last updated 2022-12-22 19:53:36 UTC
 </div>
 </div>
 </body>
