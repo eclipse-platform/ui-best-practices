@@ -1,7 +1,6 @@
-= Component Development
-include::_settings.adoc[]
+== Component Development
 
-== Commands
+=== Commands
 A command, which is invoked by a user to carry out some specific
 functions, may appear as an item in a menu, or an item in a toolbar. In
 reflection of this, it has attributes for the menu or tool item label,
@@ -21,7 +20,7 @@ In this section we'll look at general command guidelines. For
 information on window, view, or editor specific guidelines, see
 xref:#_windows[Windows], xref:#_views[Views], and xref:#_editors[Editors].
 
-=== Appearance
+==== Appearance
 
 Each command must have a label, tool tip, and image. If the command
 appears in a toolbar, the command image will be displayed on all
@@ -78,7 +77,7 @@ TIP: [guideline3.3]*Guideline 3.3* +
 Adopt the labeling terminology of the workbench for New, Delete and Add
 commands.
 
-=== Enablement
+==== Enablement
 
 An command should be enabled only if it can be completed successfully.
 If this is not the case, the command should be disabled.
@@ -98,11 +97,11 @@ quick, enable the command optimistically and display an appropriate
 message if the command is invoked, but cannot be completed.
 
 
-== Dialogs
+=== Dialogs
 A dialog is used for modal interaction with the user. It can be used to
 solicit information, or provide feedback.
 
-=== Initialization
+==== Initialization
 
 When a dialog first opens, the initial focus should be given to the
 first control where information is required from the user. This control
@@ -116,7 +115,7 @@ When a dialog opens, set the initial focus to the first input control in
 the container. If there are no input controls, the initial focus should
 be assigned to the default button.
 
-=== Multiple Item Selection
+==== Multiple Item Selection
 Slush Bucket widgets (also known as the Twin Box design) should flow
 from the left to the right with the source objects on the left and
 selected files on the right.
@@ -139,7 +138,7 @@ Slush Bucket widget (or Twin Box) should flow from left to right with
 the source objects on the left hand side. It should have the control
 buttons in this order: 'Add ->', '', '
 
-== Wizards
+=== Wizards
 
 In Eclipse, a wizard is commonly used for the creation of new resources,
 resource import, or resource export. It can also be used for the
@@ -151,7 +150,7 @@ TIP: [guideline5.1]*Guideline 5.1* +
 Use a wizard for any task consisting of many steps, which must be
 completed in a specific order.
 
-=== Appearance
+==== Appearance
 
 At the top of each wizard is a header, containing a banner graphic and a
 text area. The banner graphic contains an image representing the wizard
@@ -173,7 +172,7 @@ Each wizard must contain a header with a banner graphic and a text area
 for user feedback. It must also contain Back, Next, Finish, and Cancel
 buttons in the footer.
 
-=== Initialization
+==== Initialization
 
 When a wizard first opens, the focus should be placed in the first field
 requiring information (see Guidelines 3.1). The header should be used to
@@ -206,7 +205,7 @@ image::images/wizardFieldPopulation.png[wizardFieldPopulation]
 TIP: [guideline5.4]**Guideline 5.4** +
 Seed the fields within the wizard using the current workbench state.
 
-=== Validation of Data
+==== Validation of Data
 Information validation within a wizard should be done in tab order. If
 the first required field is empty, an informative prompt should be shown
 in the text area, directing the user to fill in the field. If the first
@@ -243,7 +242,7 @@ image::images/wizardMsgs.png[wizardMsgs]
 TIP: [guideline5.7]*Guideline 5.7* +
 Remove all programming message ID's from wizard text.
 
-=== Browse Buttons
+==== Browse Buttons
 An edit field and "Browse..." button combination should be used whenever
 an existing object is referenced within a wizard. The edit field is used
 for direct input of the existing object, and the Browse button is used
@@ -270,7 +269,7 @@ snapshot.
 
 image::images/folderSelection.png[folderSelection]
 
-=== Wizard Completion
+==== Wizard Completion
 The New Resource and Import Wizards commonly create new files, folders,
 and projects within the workbench. If a single file is created, the
 wizard should open the file in an editor in the active page. If more
@@ -330,7 +329,7 @@ image::images/goodParentCreation.png[goodParentCreation]
 TIP: [guideline5.12]*Guideline 5.12* +
 Create folder objects in a wizard if reasonable defaults can be defined.
 
-=== Terminology
+==== Terminology
 
 Within a creation wizard, if the item being created must be a Project
 (not a folder below a project), the term "Project" should be used. If it
@@ -344,7 +343,7 @@ Use the term "Project name" for the input field label when the item must
 be a Project; otherwise, use the term "Folder name". Do not qualify the
 term.
 
-== Editors
+=== Editors
 
 An editor is a visual component within a workbench page. It is used to
 interact with the primary content, which may be a document or data
@@ -383,7 +382,7 @@ TIP: [guideline6.4]**Guideline 6.4** +
 It must be possible to open a separate instance of an editor for each
 different input.
 
-=== Appearance
+==== Appearance
 
 The editor should be labeled with the name of the resource being edited;
 not with the name of the editor.
@@ -404,7 +403,7 @@ TIP: [guideline6.6]*Guideline 6.6* +
 In multipage editors, use a tab control for page activation.Tab labels
 should be kept to one word, and two words at most.
 
-=== Menus
+==== Menus
 
 An editor may contribute items directly to the window menu bar. All of
 the commands available in the editor should be displayed in the window
@@ -467,7 +466,7 @@ If an editor has support for Cut, Copy, Paste, or any of the global
 commands, these commands must be executable from the same commands in
 the window menu bar and toolbar.
 
-=== Toolbars
+==== Toolbars
 
 An editor may contribute commands directly to the window toolbar. The
 toolbar is used to expose the _most commonly used_ commands in an
@@ -485,7 +484,7 @@ with editors of the same type. This reduces the flash which occurs when
 you switch between editors, reduces the number of images and commands in
 the product, and creates a better feel of integration.
 
-=== Context Menus
+==== Context Menus
 
 A context menu should be used for context sensitive interaction with the
 objects in an editor. If an object is selected in an editor, and the
@@ -554,7 +553,7 @@ Register all context menus in the editor with the platform.
 TIP: [guideline6.15]*Guideline 6.15* +
 Implement an Command Filter for each object type in the editor.
 
-=== Resource Deletion
+==== Resource Deletion
 
 When a resource is deleted from one of the navigators (e.g., Navigator
 view, J2EE view, Data view, or DBA Explorer view in IBM's WebSphere
@@ -580,7 +579,7 @@ If the input to an editor is deleted, and the editor contains changes,
 the editor should give the user a chance to save their changes to
 another location, and then close.
 
-=== Unsaved Changes
+==== Unsaved Changes
 
 If the editor contains changes to the resource since the resource was
 last saved (i.e., it is "dirty"), an asterisk should be used to prefix
@@ -592,7 +591,7 @@ TIP: [guideline6.18]*Guideline 6.18* +
 If the resource is dirty, prefix the resource name presented in the
 editor tab with an asterisk.
 
-=== Read-Only Files
+==== Read-Only Files
 
 With a name like "editor", it's not surprising that the issue of
 read-only files may cause confusion. If it's read-only, how can you edit
@@ -614,7 +613,7 @@ TIP: [guideline6.19]*Guideline 6.19* +
 Treat read-only editor input as you would any other input. Enable the
 Save As if possible. Display "Read-only" in the status bar area.
 
-=== Integration with Other Views
+==== Integration with Other Views
 
 In Eclipse, there is a special relationship between each editor and the
 Outline view. When an editor is opened, the Outline view will connect to
@@ -693,7 +692,7 @@ defined in the Task.
 TIP: [guideline6.24]*Guideline 6.24* +
 If appropriate, implement the "Add Bookmark" feature in your editor.
 
-=== Line Numbers
+==== Line Numbers
 
 Editors with source lines of text should have line numbers, and
 optionally column numbers. Editors should also support Navigate -> Goto
@@ -707,7 +706,7 @@ Editors with source lines of text should show the current line and
 optionally column numbers the status line. It's optional for the editor
 to show line numbers for each line in the editor itself.
 
-=== Table Cell Editors
+==== Table Cell Editors
 
 If the editor contains tables with editable cells, a single-click over a
 cell should select the current item and put the cell into edit mode. In
@@ -750,7 +749,7 @@ clicks off the cell or hits the "Enter" key. Selection should be
 cancelled when user hits the "Esc" key.First letter navigation should be
 supported as a cursoring mechanism within a cell.
 
-=== Error Notification
+==== Error Notification
 
 If you are doing keystroke by keystroke validation in an editor, use red
 squiggles to underline the invalid content. When users move the mouse
@@ -768,7 +767,7 @@ TIP: [guideline6.29]*Guideline 6.29* +
 Use the Problems view to show errors found when the Save command is
 invoked.
 
-=== Interaction With External Editors
+==== Interaction With External Editors
 
 While a resource is opened within the workbench, if modifications are
 made to it outside of the workbench, we recommend the following approach
@@ -784,7 +783,7 @@ should be prompted to either override the changes made outside of the
 workbench, or back out of the Save operation when the Save command is
 invoked in the editor.
 
-== Views
+=== Views
 
 A view is a visual component within a workbench page. It is used in a
 support role for the primary task. You use them to navigate a hierarchy
@@ -844,7 +843,7 @@ Window > Show View > Other... dialog.
 TIP: [guideline7.5]*Guideline 7.5* +
 A view can be opened from the Window > Show View menu.
 
-=== Appearance
+==== Appearance
 
 A view consists of a title area, a toolbar, a pulldown menu, and an
 embedded control.
@@ -872,7 +871,7 @@ TIP: [guideline7.7]*Guideline 7.7* +
 If a view contains more than one control, it may be advisable to split
 it up into two or more views.
 
-=== Initialization
+==== Initialization
 
 When a view is opened, the input of the view should be derived from the
 state of the perspective. The view may consult the window input or
@@ -897,7 +896,7 @@ TIP: [guideline7.9]*Guideline 7.9**
 If a view displays a resource tree, consider using the window input as
 the root of visible information in the view.
 
-=== Menus
+==== Menus
 
 Use the view pulldown menu for presentation commands, not
 selection-oriented commands. These are commands which affect the
@@ -952,7 +951,7 @@ TIP: [guideline7.11]*Guideline 7.11* +
 Use the standard order of commands for view pulldown menus.
 
 
-=== Toolbars
+==== Toolbars
 The toolbar is used to expose the most commonly used commands in a view.
 Any command which appears in the toolbar must also appear in the menu
 (either the context menu or the view menu), but there is no need to
@@ -964,7 +963,7 @@ a toolbar must also appear in a menu, either the context menu or the
 view menu.
 
 
-=== Context Menus
+==== Context Menus
 A context menu should be used for context sensitive interaction with the
 objects in a view. If an object is selected in a view, and the context
 menu is opened, the context menu should contain only actions which are
@@ -1053,7 +1052,7 @@ Register all context menus in the view with the platform.
 TIP: [guideline7.18]*Guideline 7.18* +
 Implement an Command Filter for each object type in the view.
 
-=== Integration with the Window Menu Bar and Toolbar
+==== Integration with the Window Menu Bar and Toolbar
 
 
 The window menu bar contains a number of global commands, such as Cut,
@@ -1091,7 +1090,7 @@ menu. In addition, the primary perspective(s) for such views (e.g., the Java
 and Java Browsing perspectives) should already have these action sets
 associated with the perspective, to improve UI stability.
 
-=== Persistence
+==== Persistence
 One of the primary goals for the platform UI is to provide efficient
 interaction with the workspace. In the platform this is promoted by
 saving the state of the workbench when a session ends (the workbench is
@@ -1113,9 +1112,9 @@ TIP: [guideline7.20]*Guideline 7.20* +
 Persist the state of each view between sessions.
 
 
-=== Interaction with Editors
+==== Interaction with Editors
 
-==== Link with Editor
+===== Link with Editor
 Navigation views should support "Link with Editor" on the view menu.
 This feature works on a per-view setting. If it's expected that users
 will toggle it frequently, then it can also go on the toolbar, but this
@@ -1151,12 +1150,12 @@ TIP: [guideline7.21]*Guideline 7.21* +
 Navigation views should support "Link with Editor" on the view menu
 
 
-==== Opening an Editor from a View
+===== Opening an Editor from a View
 There exist two main modes for opening an editor from a view: single
 click and double click mode. Views should show the following behavior
 for opening an editor:
 
-===== Single click open mode
+====== Single click open mode
 
 * file closed
 ** single click opens but does not activate the editor (selects the
@@ -1170,7 +1169,7 @@ the editor if possible)
 ** double click activates the editor (selects the element in the editor
 if possible)
 
-===== Double click open mode
+====== Double click open mode
 
 * file closed
 ** single click does nothing except selecting the element
@@ -1187,7 +1186,7 @@ does not activate it (selects the element in the editor if possible)
 ** double click activates the editor (selects the element in the editor
 if possible)
 
-===== Additional rules
+====== Additional rules
 
 * pressing the the 'Enter' key should do the same as a double click
 * Next (Ctrl+.) / Previous (Ctrl+,) buttons select the next/previous
@@ -1196,7 +1195,7 @@ element in the editor but never activate the editor
 
 '''
 
-== Perspectives
+=== Perspectives
 
 A perspective is a visual container for a set of views and editors
 (parts). Different perspectives can have different sets of views open,
@@ -1262,7 +1261,7 @@ TIP: [guideline8.2]*Guideline 8.2* +
 If you just want to expose a single view, or two, extend an existing
 perspective type.
 
-=== View Layout
+==== View Layout
 
 If the user opens a new perspective, the initial layout of views will be
 defined by the perspective type (i.e., Resource, Java). This layout is
@@ -1315,7 +1314,7 @@ If it is undesirable to have an editor area in a perspective, hide it.
 Do not resize the editor area to the point where it is no longer
 visible.
 
-=== Command Contribution
+==== Command Contribution
 
 The perspective factory may add actions to the File > New, Window > Open
 Perspective , and Window > Show View menus. It is also possible to add
@@ -1353,7 +1352,7 @@ Populate the window menu bar with commands and command sets which are
 appropriate to the task orientation of the perspective, and any larger
 workflow.
 
-=== Opening a Perspective in Code
+==== Opening a Perspective in Code
 
 A command should open a new perspective only if the user explicitly
 states a desire to do so. If the user does not state a desire to do so,
@@ -1401,7 +1400,7 @@ The list of shortcuts added to the New, Open Perspective, and Show View
 menus should be at most 7 plus / minus 2 items.
 
 
-== Windows
+=== Windows
 
 In this section we look at the window menu bar, toolbar, and layout. As
 a plug-in developer, you can contribute actions to the menu bar and
@@ -1411,7 +1410,7 @@ window by defining a __perspective__. In this section we'll look at
 action extension. For more information on perspectives, see
 xref:#_perspectives[Perspectives].
 
-=== Actions
+==== Actions
 
 Each workbench window contains a menu bar and toolbar. These are
 pre-populated by the platform, but a plug-in developer may add
@@ -1538,7 +1537,7 @@ TIP: [guideline9.8]*Guideline 9.8* +
 "Open Object" actions must appear in the Navigate pulldown menu of the
 window.
 
-=== Status Bar
+==== Status Bar
 
 If there is a need for a plug-in to show non-modal contextual
 information in the status bar area, always use the global status bar.
@@ -1548,7 +1547,7 @@ and column number.
 TIP: [guideline9.9]*Guideline 9.9* +
 Always use the global status bar to display status related messages.
 
-== Properties
+=== Properties
 
 A Properties dialog or view is used to view / modify the properties of
 an object which are not visible in the normal presentation of that
@@ -1599,15 +1598,15 @@ TIP: [guideline10.4]*Guideline 10.4* +
 Properties Dialog should contain the superset of items shown in the
 Properties view.
 
-=== Properties View
+==== Properties View
 
-==== Summary
+===== Summary
 
 For consistency and clarity in Properties, use the standard tabbed view
 with proper tab ordering, flexible layout, detailed user assistance,
 accurate multi-selection, and no sub-tabs.
 
-==== Problem Description
+===== Problem Description
 
 Across many Eclipse-based products, the Properties view is being used
 and presented inconsistently. This inconsistency is problematic for
@@ -1615,7 +1614,7 @@ users who use more than one of these products. Moreover, poor choices
 for layout, controls, and labeling can significantly reduce the
 effectiveness and efficiency of a Properties view.
 
-==== Best Practice
+===== Best Practice
 
 Use the standard tabbed view for product consistency.::
 xref:PropertiesView_Figure[xrefstyle=short] below shows an example. Both tabs 
@@ -1665,7 +1664,7 @@ properties can occasionally be confusing even for expert users. Accordingly,
 use Dynamic Help when possible. Field-level Dynamic Help is desirable; 
 otherwise, a backup approach is to provide hover help (tooltips).
 
-==== Tips and Tricks
+===== Tips and Tricks
 
 When multiple objects are selected in the editor, follow these
 guidelines.
@@ -1680,18 +1679,18 @@ values using a mixed state.
 object, instead of a multiple-object property sheet for the discrete
 objects.
 
-==== Good Examples
+===== Good Examples
 
 image::images/PropertiesView_Figure1.jpg[id=PropertiesView_Figure,title="A tabbed view with recommended control layout."]
 
 
 
-== Widgets
+=== Widgets
 
 In this section, we will describe some of the recommended designs for
 Standard Windows Toolkit (SWT) widgets.
 
-=== Tree and Table
+==== Tree and Table
 
 For Tree and Table widgets that have a checkbox associated with a cell
 item, users can either select the item or change the checkbox state.

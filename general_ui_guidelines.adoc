@@ -1,5 +1,4 @@
-= General UI Guidelines
-include::_settings.adoc[]
+== General UI Guidelines
 
 
 This document defines UI guidelines that are unique and specific to the
@@ -26,7 +25,7 @@ directness, consistency, forgiveness, feedback, aesthetics, and
 simplicity.
 
 
-== The Spirit of Eclipse
+=== The Spirit of Eclipse
 
 At its heart, Eclipse is a platform for tool plug-ins. These plug-ins
 may be developed by a single team or by a partnership of teams, or the
@@ -82,7 +81,7 @@ TIP: [guideline1.4]*Guideline 1.4* +
 If you have an interesting idea, work with the Eclipse community to make
 Eclipse a better platform for all.
 
-== Capitalization
+=== Capitalization
 
 Consistent capitalization of text within a plug-in leads to a more
 polished feel, and greater perception of quality. Within a dialog or
@@ -107,7 +106,7 @@ window, including those for check boxes, radio buttons, group labels,
 and simple text fields. Capitalize the first letter of the first word,
 and any proper names such as the word Java.
 
-== Language
+=== Language
 Eclipse is available on a variety of different platforms, in a variety
 of locales. In reflection of the different languages and numeric formats
 in each, a localization strategy should be adopted for the text and
@@ -121,7 +120,7 @@ and more information.
 TIP: [guideline1.7]*Guideline 1.7* +
 Create localized version of the resources within your plug-in.
 
-== Error Handling
+=== Error Handling
 
 If an error occurs in Eclipse, the appropriate response will be
 dependent on the context of the error.

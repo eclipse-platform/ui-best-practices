@@ -1,5 +1,6 @@
 = Eclipse UI Guidelines
 include::_settings.adoc[]
+:toc: left
 
 UI Best Practices Working Group
 {version}
@@ -190,43 +191,27 @@ sections.
 
 == Content
 
-- xref:top_ten_lists.adoc[*Quick Checklists and Top Ten Does and Dont's*] +
-  Shortlist of the most relevant and easy to apply Eclipse User Interface 
-  Guidelines and their violations. 
+// don't delete the empty lines between the includes
+// otherwise different chapter text might be joined together by the processor
+include::top_ten_lists.adoc[]
    
-- xref:general_ui_guidelines.adoc[*General UI Guidelines*] +
-  General guidelines for developing Eclipse based user interfaces and Eclipse 
-  extensions.   
+include::general_ui_guidelines.adoc[]
 
-- xref:ui_graphics.adoc[*UI Graphics*] +
-  Guidelines for developing and using UI graphics (i.e. icons, images, banners).   
+include::ui_graphics.adoc[]
 
-- xref:component_dev.adoc[*Component Development*] +
-  Guidelines for the correct usage of diverse Eclipse UI components, such as 
-  commands, dialogs, wizards, editors, views, perspectives, windows, properties,
-  and widgets.   
+include::component_dev.adoc[]
 
-- xref:standard_components.adoc[*Standard Components*] +
-  Guidelines for the standard components which ship with Eclipse.   
+include::standard_components.adoc[]
 
-- xref:flat_look_design.adoc[*Flat Look Design*] +
-  Design alternative for implementing content editors.   
+include::flat_look_design.adoc[]
 
-- xref:tao_of_resource.adoc[*The Tao of Resource*] +
-  Resources as the common medium for integration between plugins and external 
-  tools.   
+include::tao_of_resource.adoc[]
 
-- xref:accessibility.adoc[*Accessibility*] +
-  Guidelines for making UI accessible for different user groups with different 
-  needs.   
+include::accessibility.adoc[]
 
-- xref:best_practices.adoc[*Best Practices*] +
-  Examples of best practices for designing and implementing some common user 
-  interactions within the Eclipse platform.   
+include::best_practices.adoc[]
 
-- xref:eclipse_ui_full_checklist.adoc[*Checklist for Developers*] +
-  Collection of all Eclipse Eclipse User Interface Guidelines.
-
+include::eclipse_ui_full_checklist.adoc[]
 
 == Glossary
 

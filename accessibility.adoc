@@ -1,5 +1,4 @@
-= Accessibility
-include::_settings.adoc[]
+== Accessibility
 
 In a view, editor, or other control, every features should be accessible
 using a mouse or the keyboard.
@@ -12,7 +11,7 @@ TIP: [guideline18.1]*Guideline 18.1* +
 All of the features provided by a tool should be accessible using a
 mouse or the keyboard.
 
-== Standard Accelerators
+=== Standard Accelerators
 
 The Eclipse platform has defined a large number of shortcut keys.
 Plug-in developers should make sure that the existing shortcut keys do

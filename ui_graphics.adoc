@@ -1,7 +1,6 @@
-= UI Graphics
-include::_settings.adoc[]
+== UI Graphics
 
-== Overview
+=== Overview
 
 The following guide covers user interface (UI) graphics for Eclipse-based tools. 
 All visual user interface elements created for Eclipse-based tools follow a 
@@ -11,7 +10,7 @@ should follow these guidelines to help ensure consistency of visual user
 interface elements. Consistency includes visual style, meaning, and 
 implementation conventions.
 
-=== Audience
+==== Audience
 
 These guidelines are for anyone creating Eclipse style user interface
 graphics or seeking best practices for their use. This is not a how-to
@@ -21,12 +20,12 @@ will be interested in the Design, Specifications, and Implementation
 sections. If you are a Developer, the Specifications and Implementations
 sections will be of most value to you.
 
-== Design
+=== Design
 
 This section provides guidance and tools for creating Eclipse style
 icons and wizard graphics.
 
-=== Style & Design
+==== Style & Design
 
 This section covers style characteristics and gives guidance for
 designing effective Eclipse user interface graphics including topics
@@ -40,7 +39,7 @@ elements. If designing an icon or wizard graphic from the start,
 consider the underlying concept and how it can best be represented.
 There might be an existing metaphor to appropriately convey the concept.
 
-==== Metaphor
+===== Metaphor
 
 The purpose of a metaphor is to create meaning. A metaphor will be
 meaningful if it is based on ideas the audience is already familiar
@@ -52,9 +51,9 @@ store project-related information. Since many concepts already have
 associated metaphors, use the existing metaphors, and when the concept
 allows, create new representations that extend the metaphor.
 
-==== Icons
+===== Icons
 
-===== Style characteristics
+====== Style characteristics
 
 The icons should have a clean elegant feel with rich but subtle color
 and lighting. They are rendered as if viewed directly from in front, but
@@ -134,7 +133,7 @@ Here are the same icons rendered in the more low-key toolbar style:
 +
 image::images/des_styl_types_tool.png[des_styl_types_tool]
 
-===== Composition
+====== Composition
 Aim for simplicity. Bring focus to the primary function or object within
 an icon by using different visual cues, such as color, contrast,
 lighting, size and location to differentiate elements. To improve
@@ -228,7 +227,7 @@ Stopping the server will show the blue square stop action on the right
   of the server object. +
 image:images/des_styl_state-stop.png[des_styl_state-stop]
 
-===== Color Palette & Themes
+====== Color Palette & Themes
 
 An entire set of graphical elements, such as icons, wizards and user
 assistance graphics, requires a consistent, family-like appearance
@@ -300,7 +299,7 @@ image::images/ddes_styl_beige.png[ddes_styl_beige]
   not limited to these two object types, beige is usually reserved for
   placeholder or unrealized objects.
 
-===== Tips and Tricks
+====== Tips and Tricks
 
 . *Use color from existing graphics* to quickly make graphics that are 
   consistent with the Eclipse style without having to use the palette directly, 
@@ -391,9 +390,9 @@ Related Information::
 + 
 The GIMP User Manual is available online at: http://www.gimp.org/docs/
 
-==== Wizard Banner Graphics
+===== Wizard Banner Graphics
 
-===== Style characteristics
+====== Style characteristics
 
 Like the Eclipse-style icons, wizard banner graphics have a clean
 presentation that is achieved by using rich but not overpowering color,
@@ -467,7 +466,7 @@ Here is an example of a flat outline used to define the edges of a
   wizard graphic: + 
 image:images/des_styl_wiz_outline2.png[des_styl_wiz_outline2,title="fig:des_styl_wiz_outline2"]
 
-===== Composition
+====== Composition
 
 Composition of elements within wizard graphics follows most of the same
 practices described for icons. There are a few wizard-specific
@@ -492,7 +491,7 @@ States:: of objects, once in the wizard, change to what the state will
   when in a wizard banner graphic because it will be open once in a
   treeview or list view.
 
-===== Color
+====== Color
 
 Wizard graphic colors are based on the icons that launch them. The
 colors used to create a toolbar wizard icon, for instance, should be the
@@ -565,7 +564,7 @@ Follow the visual style established for Eclipse UI graphics.
 TIP: [guideline2.2]*Guideline 2.2 (3.x update)* +
 Use a common color palette as the basis for creating graphical elements.
 
-=== Consistency & Reuse
+==== Consistency & Reuse
 
 This section encourages consistency and reuse of existing graphical
 elements, and shows the core icon and wizard concepts currently in the
@@ -582,7 +581,7 @@ understanding of concepts across the tools, and to minimize confusion,
 we encourage you to re-use Eclipse-style graphical elements whenever
 possible.
 
-==== Re-using graphical elements
+===== Re-using graphical elements
 
 A great many icons and wizard graphics have already been created in the
 Eclipse visual style, so there is a good chance that the elements you
@@ -593,14 +592,14 @@ consistent meaning is maintained. A more extensive collection of common
 visual elements can be found on the xref:#_common_elements[Common
 Elements] page.
 
-==== Core icon concepts
+===== Core icon concepts
 
 image::images/des_cons_core-icons.png[des_cons_core-icons]
 
 Click link:media/core_icon_concepts.zip[*here*] or on the image above to
 download the "core_icon_concepts.psd".
 
-==== Core wizard graphic concepts
+===== Core wizard graphic concepts
 
 image::images/des_cons_core-wiz.png[des_cons_core-wiz]
 
@@ -612,7 +611,7 @@ TIP: [guideline2.3]*Guideline 2.3* +
 Re-use the core visual concepts to maintain consistent representation
 and meaning across Eclipse plug-ins.
 
-=== Common Elements
+==== Common Elements
 
 This section provides a library of graphical elements that have already
 been developed for Eclipse-based tools. This extensive selection of
@@ -622,7 +621,7 @@ conjunction with the core concepts shown in the Consistency & Reuse
 section, this library will enable efficient creation of graphical
 elements and promote consistency throughout the user interface.
 
-==== Icon elements
+===== Icon elements
 
 image::images/des_common_icons.png[des_common_icons]
 
@@ -631,7 +630,7 @@ Click link:media/common_icon_elements.zip[ *here*] to download the
   the "common_icon_elements_eclipse-tools.psd" file for a subset of
   icons related to Eclipse-based tools.
 
-==== Wizard elements
+===== Wizard elements
 
 image::images/des_common_wiz.png[des_common_wiz]
 
@@ -644,27 +643,27 @@ TIP: [guideline2.4]*Guideline 2.4* +
 Re-use existing graphics from the Common Elements library or other
 Eclipse-based plugins.
 
-=== States
+==== States
 This section describes the use of enabled and disabled icons in the user
 interface. It also provides instructions and an automated action set for
 creating the disabled state of your enabled color icons, a useful tool
 when producing a large volume of icons.
 
-==== Icon States
+===== Icon States
 
 This section describes the use of enabled and disabled icons in the user
 interface. It also provides instructions and an automated action set for
 creating the disabled state of your enabled color icons, a useful tool
 when producing a large volume of icons.
 
-===== Enabled state
+====== Enabled state
 The enabled icon state is the color version of all toolbar, toolbar
 wizard, and local toolbar icons. This state indicates that a command
 is active and available for use. Information on creating the enabled
 color version of these icons can be found under
 *link:#_style_design[Style & Design]* above.
 
-===== Disabled state
+====== Disabled state
 The disabled icon state is a dimmed version of the enabled color
   toolbar, toolbar wizard, and local toolbar icons. This state indicates
   that a command is inactive and not available for use. The following
@@ -682,7 +681,7 @@ NOTE: It is important to implement the graphical versions of the
   are not consistent with the majority of other tools that use the
   graphical versions.
 
-===== Creating the disabled icon state
+====== Creating the disabled icon state
 To create this state, you will use the
   "eclipse_disabledrender_R3V6.atn" action in the Eclipse-style Actions
   palette. Click link:media/eclipse-style_actions.zip[*here*] to download
@@ -713,7 +712,7 @@ Here is what the "Create Disabled State" action looks like in the
 
 image::images/des_states_disabled-atn.png[des_states_disabled-atn,title="fig:des_states_disabled-atn"]
 
-===== Toggled states
+====== Toggled states
 The toggled state is used on toolbars, local toolbars, and in menus.
   On toolbars and local toolbars, a toggle is represented by a button
   with two physical positions—up and down—which define a state, most
@@ -730,7 +729,7 @@ Sometimes a toggle is not a simple on/off state. For example, there
   buttons sit beside one another on the local toolbar and when one is
   on, the other is off.
 
-===== Opened and closed folder states
+====== Opened and closed folder states
 In the treeview, ideally, folders would be closed when the -/+ widget
   beside the folder icon is in a closed state, as in [+], and opened
   when the -/+ widget beside the folder icon is in an opened state, as
@@ -761,7 +760,7 @@ TIP: [guideline2.5]*Guideline 2.5* +
 Create and implement the graphical versions of the disabled state for
 toolbar and local toolbar icons.
 
-=== Templates
+==== Templates
 
 This section provides design files for producing different types of user
 interface graphics. A description of the templates and guidance on how
@@ -779,7 +778,7 @@ Maintaining the simple structure of the templates will facilitate easy
 file sharing and efficient production of a large set of graphics for one
 tool.
 
-==== Icon Design Template
+===== Icon Design Template
 
 . *Populating the template:* Fill out the
 link:media/eclipse3.0_ui_design_resources.zip[*icon_design_template.psd*]
@@ -832,7 +831,7 @@ required or entirely new icons may be requested. To keep track of which
 icons and their instances need to be cut or re-cut, a red box can be
 placed around each, using the *cut or re-cut (red)* layer.
 
-==== Wizard Design Template
+===== Wizard Design Template
 
 . *Populating the vector-based template:* Fill out the vector-based
 template 
@@ -897,17 +896,17 @@ Use the design templates for creating and maintaining UI graphics to
 facilitate easy file sharing and efficient production of a large set of
 graphics.
 
-== Specifications
+=== Specifications
 
 This section details technical information you will need to design and
 prepare your Eclipse-style graphics for implementation.
 
-=== File Formats
+==== File Formats
 
 This section lists and describes the graphic file formats used for the
 different graphic types.
 
-==== GIF - Graphics Interchange Format
+===== GIF - Graphics Interchange Format
 
 GIF images are raster-based, can have transparency, and tend to use a
 small amount of memory and disk space. Each GIF file contains a color
@@ -925,7 +924,7 @@ because such icons contain only 256 pixels. The GIF file palette
 limitation is, however, something to be aware of when creating larger
 images.
 
-==== PNG - Portable Network Graphics
+===== PNG - Portable Network Graphics
 
 PNG is a bitmapped image format that employs lossless data compression.
 PNG was created to improve upon and replace the GIF format, as an
@@ -951,7 +950,7 @@ tooling:
 * Progress Indicator
 * Miscellaneous (there might be exceptions)
 
-==== SVG - Scalable Vector Graphics format
+===== SVG - Scalable Vector Graphics format
 
 SVG is a language for describing both two-dimensional and animated
 vector-based graphics in XML. One of its distinguishing attributes is
@@ -969,7 +968,7 @@ In designing graphics for SVG output, use a minimal number of elements
 in each image, especially for small 16 x 16 icons. This will help ensure
 image clarity, and fewer elements will keep the file size small.
 
-==== BMP - Bit map format
+===== BMP - Bit map format
 
 BMP is the standard Microsoft Windows raster image format.
 
@@ -979,7 +978,7 @@ tooling:
 * Pointer
 * Cursor
 
-==== ICO - Icon format
+===== ICO - Icon format
 
 ICO format is used on the Microsoft Windows operating system and is
 required for product install and launch icons, including desktop,
@@ -989,11 +988,11 @@ ICO is used for the following type of graphics in Eclipse-based tooling:
 
 * Product icons (Windows)
 
-==== ICNS - Mac Icon format
+===== ICNS - Mac Icon format
 
 * Product icons (Mac)
 
-==== XPM - X PixMap format
+===== XPM - X PixMap format
 
 XPM is an ASCII image format that supports transparent color. This image
 format is used on Linux and is required for product install and launch
@@ -1007,7 +1006,7 @@ XPM is used for the following type of graphics in Eclipse-based tooling:
 TIP: [guideline2.7]*Guideline 2.7* +
 Use the file format specified for the graphic type.
 
-=== Graphic Types
+==== Graphic Types
 
 This section describes the different types of graphics that are used in
 Eclipse-based tools, and where they are located within the user
@@ -1023,7 +1022,7 @@ Placement]. The following graphic types are described below:
 
 image::images/spec_type_icon.png[spec_type_icon]
 
-==== Product
+===== Product
 The Product icon, also known as the Application icon, represents the
   branding of the product and is always located on the far left of the
   window title bar before the perspective, document, and product name.
@@ -1038,7 +1037,7 @@ image::images/spec_type_prod.png[spec_type_prod]
 [horizontal]
 Format:: ICO (Windows), ICNS (Mac), XPM (Linux)
 
-==== Perspective
+===== Perspective
 Perspective icons represent different working environments called
   "Perspectives". Each perspective is a set of views and content editors
   with a layout conducive to the tasks associated with that environment.
@@ -1057,7 +1056,7 @@ Folder name:: view16
 Size:: 16 x 16 pixels
 Format:: PNG
 
-==== Fast View
+===== Fast View
 Fast View icons allow users to quickly display different views that
   have been created as fast views. These icons are by default located in
   the bottom left of the user interface and have a horizontal
@@ -1073,7 +1072,7 @@ Folder name:: view16
 Size:: 16 x 16 pixels
 Format:: PNG
 
-==== Toolbar
+===== Toolbar
 Toolbar icons are located on the main toolbar across the top of the
   workbench. They represent actions, and will invoke a command, either
   globally or within the editor.
@@ -1086,7 +1085,7 @@ Folder names:: etool16 and dtool16
 Size:: 16 x 16 pixels
 Format:: PNG
 
-==== Toolbar Wizard
+===== Toolbar Wizard
 Toolbar wizard icons are found on the main toolbar across the top of
   the workbench as well as in the New wizard dialog list. Selecting one
   of these icons will launch a wizard. The most common type of toolbar
@@ -1104,7 +1103,7 @@ Folder names:: etool16 and dtool16
 Size:: 16 x 16 pixels
 Format:: PNG
 
-==== View
+===== View
 View icons are found on the left side of the titlebar of each view
   within the workbench. These icons indicate each view’s function or the
   type of object a view contains.
@@ -1117,7 +1116,7 @@ Folder name:: view16
 Size:: 16 x 16 pixels
 Format:: PNG
 
-==== Local Toolbar
+===== Local Toolbar
 Local toolbar icons are found to the right of the view icon on the
   titlebar of each view within the workbench. They represent actions,
   and invoke commands on objects in only that view. Local toolbar type
@@ -1132,7 +1131,7 @@ Folder names:: elcl16 and dlcl16
 Size:: 16 x 16 pixels
 Format:: PNG
 
-==== Model Object
+===== Model Object
 Model Object icons are found in tree views, list views, and on editor
   tabs within the workbench. They represent objects and sometimes
   states, but not actions. Examples of model object icons are project
@@ -1160,7 +1159,7 @@ Folder name:: obj16
 Size:: 16 x 16 pixels
 Format:: PNG
 
-==== Object Overlay (and Underlay)
+===== Object Overlay (and Underlay)
 Object overlay icons are decorator elements that are used in tree or
   list views. They are appended to model object icons as signifiers of
   an object type, status, attribute, transition state, multiplicity or
@@ -1313,7 +1312,7 @@ Folder name:: ovr16
 Size:: 16 x 16 pixels
 Format:: PNG
 
-====  Table
+=====  Table
 Table icons are a type of model object icon used specifically in
   tables as labels, status indication, or to give additional information
   about the items they accompany in a table row. Although these icons
@@ -1331,7 +1330,7 @@ Size:: They are designed in the 16 x 16 pixel space, but the actual
   image size is no greater than 15 x 14 pixels.
 Format:: PNG
 
-====  Palette
+=====  Palette
 Palette icons are located on the palette and most commonly accompany
   diagrams or some editable canvas space. In this context, palette icons
   are either objects that may be added to the canvas, or tools that may
@@ -1356,7 +1355,7 @@ Size:: Size varies depending on the context of the palette. The
   cases where 32 x 32 pixel icons are used on the palette.
 Format:: PNG
 
-====  Diagram
+=====  Diagram
 Diagram icons come in two subtypes: Canvas and Action Bar. Canvas
   icons are used in the diagram or canvas area. These icons commonly
   represent object types, but can also be used to mark content type or
@@ -1380,7 +1379,7 @@ Size:: Canvas icons may be 16 x 16, 24 x 24, or 32 x 32 pixel in
 Format:: PNG is used for all diagram graphics, except Action Bar
   icons, which are SVG.
 
-==== Progress Indicator
+===== Progress Indicator
 The progress indicator icon is located in lower right of user
   interface to the right of the actual progress indicator, which shows
   the linear progress of a process. As shown in the following image, the
@@ -1394,7 +1393,7 @@ Folder name:: progress
 Size:: 16 x 16 pixels
 Format:: PNG
 
-==== Pointer and Cursor Mask
+===== Pointer and Cursor Mask
 Pointer icons are cursors and each requires a cursor mask. The cursor
   mask is an inverted image, or a complete mask, of the pointer.
 
@@ -1408,7 +1407,7 @@ Folder name:: point
 Size:: 32 x 32 pixels
 Format:: BMP
 
-==== Wizard Banner
+===== Wizard Banner
 Wizard banner graphics are located on the right side of the wizard
   banner. They visually represent the outcome of the wizard, such as a
   new Java class.
@@ -1426,7 +1425,7 @@ TIP: [guideline2.8]*Guideline 2.8* +
 Use the appropriate graphic type in the location it is designed for
 within the user interface.
 
-=== Icon Size & Placement
+==== Icon Size & Placement
 This section shows the final cut size of each of the different types of
 icons, as well as what the placement and drawing area is within the
 allotted space.
@@ -1447,7 +1446,7 @@ single row of empty pixels on all four sides.
 Exceptions to the common 16 x 16 image size are also detailed below. All
 sizes are indicated with width before height.
 
-==== Product
+===== Product
 
 Product icons occupy the full space allotted for all five sizes: 16 x
   16, 24 x 24, 32 x 32, 64 x 64, and 72 x 72 pixels. This shows how the
@@ -1461,7 +1460,7 @@ Product icons occupy the full space allotted for all five sizes: 16 x
 |image:images/spec_size_prod16samp.png[spec_size_prod16samp,title="fig:spec_size_prod16samp"]
 |=======================================================================
 
-==== Perspective and Fast View
+===== Perspective and Fast View
 
 The maximum image size is 16 x 16 pixels, but 15 x 15 is recommended.
   If the image is 15 x 15 or smaller, the empty pixels must be on the
@@ -1477,7 +1476,7 @@ Image size in allotted space
 |image:images/spec_size_perspsamp.png[spec_size_perspsamp,title="fig:spec_size_perspsamp"]
 |=======================================================================
 
-==== View
+===== View
 
 The maximum image size is 16 x 16 pixels, but 15 x 15 is recommended.
   If the image is 15 x 15 or smaller, the empty pixels must be on the
@@ -1491,7 +1490,7 @@ The maximum image size is 16 x 16 pixels, but 15 x 15 is recommended.
 |image:images/spec_size_viewsamp.png[spec_size_viewsamp,title="fig:spec_size_viewsamp"]
 |=======================================================================
 
-==== Toolbar, Toolbar Wizard, and Local Toolbar
+===== Toolbar, Toolbar Wizard, and Local Toolbar
 The maximum image size is 16 x 16 pixels, but 15 x 15 is recommended.
   If the image is 15 x 15 or smaller, the empty pixels must be on the
   left and top, as shown here.
@@ -1504,7 +1503,7 @@ The maximum image size is 16 x 16 pixels, but 15 x 15 is recommended.
 |image:images/spec_size_toolsamp.png[spec_size_toolsamp,title="fig:spec_size_toolsamp"]
 |=======================================================================
 
-==== Model Object
+===== Model Object
 The maximum image size is 16 x 15 pixels, but 15 x 15 is recommended.
   Model Object icons must be no greater than 15 pixels high. The empty
   pixels must be on the left and bottom, as shown here.
@@ -1517,7 +1516,7 @@ The maximum image size is 16 x 15 pixels, but 15 x 15 is recommended.
 |image:images/spec_size_objsamp.png[spec_size_objsamp,title="fig:spec_size_objsamp"]
 |=======================================================================
 
-==== Object Overlay (and Underlay)
+===== Object Overlay (and Underlay)
 Most object overlay icons are a maximum image size of 7 x 8 pixels,
   always centered. There are some exceptions to this size, two of which
   are covered here: the "multiplicity" overlay and the "underlay". The
@@ -1618,7 +1617,7 @@ Example of two stacking Version Control object overlays in place:
 |image:images/spec_size_ovr-undersamp.png[spec_size_ovr-undersamp,title="fig:spec_size_ovr-undersamp"]
 |=======================================================================
 
-==== Table
+===== Table
 
 The maximum image size is 15 x 14 pixels. Table icons must be no
   greater than 14 pixels high. The empty pixels must be on the top,
@@ -1632,7 +1631,7 @@ The maximum image size is 15 x 14 pixels. Table icons must be no
 |image:images/spec_size_tablesamp.png[spec_size_tablesamp,title="fig:spec_size_tablesamp"]
 |=======================================================================
 
-==== Palette
+===== Palette
 *Standard small (16 x 16) palette icon:* The maximum image size is 16
   x 15 pixels, but 15 x 15 is recommended. Palette icons must be no
   greater than 15 pixels high. The empty pixels must be on the left and
@@ -1671,7 +1670,7 @@ The maximum image size is 15 x 14 pixels. Table icons must be no
 |image:images/spec_size_pal32samp.png[spec_size_pal32samp,title="fig:spec_size_pal32samp"]
 |=======================================================================
 
-==== Diagram
+===== Diagram
 *Small (10 x 10) canvas icon:* The maximum image size is 10 x 10
   pixels. The image fills the space as required.
 
@@ -1730,7 +1729,7 @@ The maximum image size is 15 x 14 pixels. Table icons must be no
 |image:images/spec_size_dgm32samp.png[spec_size_dgm32samp,title="fig:spec_size_dgm32samp"]
 |=======================================================================
 
-==== Progress Indicator
+===== Progress Indicator
 
 The maximum image size is 16 x 15 pixels, but 15 x 15 is recommended.
   Progress indicator icons must be no greater than 15 pixels high. The
@@ -1744,7 +1743,7 @@ The maximum image size is 16 x 15 pixels, but 15 x 15 is recommended.
 |image:images/spec_size_progsamp.png[spec_size_progsamp,title="fig:spec_size_progsamp"]
 |=======================================================================
 
-==== Pointer and Cursor Mask
+===== Pointer and Cursor Mask
 
 The final size of the pointer and cursor masks is 32 x 32 pixels. The
   actual image size of the pointer is usually fewer than 20 x 20 pixels,
@@ -1763,7 +1762,7 @@ Pointer and cursor mask image sizes shown in the 32 x 32 pixel space:
 |image:images/spec_size_pointsamp.png[spec_size_pointsamp,title="fig:spec_size_pointsamp"]
 |=======================================================================
 
-==== Wizard Banner
+===== Wizard Banner
 All wizard banner graphics are designed to fit within a specified
   screen space of 75 x 66 pixels on the right side of the wizard banner.
 
@@ -1785,12 +1784,12 @@ TIP: [guideline2.10]*Guideline 2.10* +
 Cut the graphics with the specific placement shown to ensure alignment
 in the user interface.
 
-== Implementation
+=== Implementation
 
 This section provides automated cutting actions, and conventions for
 file and folder naming and structure.
 
-=== Cutting Actions
+==== Cutting Actions
 
 This section describes the macros for cutting icons, icon overlays, and
 wizard banner graphics to get them ready for implementation.
@@ -1813,7 +1812,7 @@ To use these actions, click here to download the
 media:eclipse_cutting_R3V6.zip[eclipse_cutting_R3V6.atn] file, and then
 load it into the Actions Palette.
 
-==== Cutting 16 x 16 Pixel Icons
+===== Cutting 16 x 16 Pixel Icons
 
 1.  Make sure that the pink cut layer is turned on, in the psd file.
 2.  Play the Dupe and Flatten_main file action to create a new, flat
@@ -1833,16 +1832,16 @@ To ensure the last step works properly, make sure the pink cut square
   for each icon is spaced exactly as specified in the
   icon_design_template.psd.
 
-===== Detailed View of Cutting Actions
+====== Detailed View of Cutting Actions
 
 image::images/imp_cut_icons.png[imp_cut_icons]
 
-==== Cutting 7 x 8 Pixel Object Overlay Icons
+===== Cutting 7 x 8 Pixel Object Overlay Icons
 
 Follow the steps as laid out above, except cut the icon at 7 x 8 pixels,
 using the Eclipse icon cuts_overlays action.
 
-==== Cutting Wizard graphics
+===== Cutting Wizard graphics
 
 1.  Ensure that the wizard psd has a path called "wizard cut path" under
 *Paths* tab.
@@ -1868,7 +1867,7 @@ To ensure the last step works properly, make sure each wizard graphic
   is contained in a layer set folder.
 
 
-===== Detailed View of Cutting Actions
+====== Detailed View of Cutting Actions
 
 image::images/imp_cut_wizards.png[imp_cut_wizards,title="fig:imp_cut_wizards"]
 
@@ -1876,7 +1875,7 @@ TIP: [guideline2.11]*Guideline 2.11* +
 Use the cutting actions provided to increase the speed and efficiency of
 cutting a large number of graphics.
 
-=== Naming Conventions
+==== Naming Conventions
 
 This section describes the Eclipse standard for file naming and
 guidelines for using suffixes that will help others quickly identify the
@@ -1886,29 +1885,29 @@ We recommend that you work with your development contact to establish
 file names for each graphic before you begin design work, using the
 following guidelines:
 
-==== Abbreviations
+===== Abbreviations
 
 The file name should be an abbreviation of the full icon name, for
 example, the name for the Create DTD Wizard icon might be abbreviated to
 "CrtDTD".
 
-==== Case
+===== Case
 
 All file names must be in lower case, for example, CrtDTD becomes
 "crtdtd".
 
-==== Character length
+===== Character length
 
 File names should be 10 characters or fewer whenever possible.
 Underscores count as a character.
 
-==== Suffixes
+===== Suffixes
 
 The file name should end with a suffix that describes its location or
 function in the user interface, for example, "crtdtd_wiz.png". See the
 table below for suffix suggestions.
 
-==== Multiple sizes
+===== Multiple sizes
 
 Icons that have multiple sizes within one folder, such as multiple
 palette icon sizes, are differentiated by adding the icon size to the
@@ -1916,7 +1915,7 @@ suffix. For example, file_pal, file_pal24, file_pal32, where
 *_pal represents the default 16 x 16 pixel size and the *_pal24 and
 *_pal32 represent larger sizes of the same icon.
 
-==== Suggestions for File Naming Suffixes
+===== Suggestions for File Naming Suffixes
 
 image::images/name-conv-tabl.jpg[name-conv-tabl.jpg]
 
@@ -1939,7 +1938,7 @@ multiple sizes.
 TIP: [guideline2.16]*Guideline 2.16* +
 Keep the original file names provided.
 
-=== Folder Structure
+==== Folder Structure
 
 This section provides the Eclipse standard for folder names and
 structure for storing and implementing graphics within your plugin.
@@ -2001,7 +2000,7 @@ image::images/imp_folderstruct.png[imp_folderstruct]
 +
 image::images/imp_folderstruct_tabl.png[imp_folderstruct_tabl]
 
-==== Notes:
+===== Notes:
 
 1. For some legacy plug-ins, inside the *icons* folder, there is a
 folder called **full**, which then contains these icon type folders.

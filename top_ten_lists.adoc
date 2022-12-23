@@ -1,7 +1,6 @@
-= Quick Checklists and Top Ten Does and Dont's
-include::_settings.adoc[]
+== Quick Checklists and Top Ten Does and Dont's
 
-== Quick UI Checklist
+=== Quick UI Checklist
 
 This is is a shortlist of the most relevant and easy to apply Eclipse 
 xref:index.adoc[*User Interface Guidelines*].  
@@ -10,7 +9,7 @@ then use the xref:eclipse_ui_full_checklist.adoc[Full Checklist]
 for additional guidance.  For comments please use the 
 https://github.com/eclipse-platform/ui-best-practices/issues[UI Best Practices GitHub Issues].
 
-=== Views & Editors
+==== Views & Editors
 
 . Put only the most commonly used commands on the view toolbar. 
   Any command on a toolbar must also appear in a menu, either the window menu, 
@@ -33,7 +32,7 @@ https://github.com/eclipse-platform/ui-best-practices/issues[UI Best Practices G
 . Persist the state of each view between sessions 
   (xref:index.adoc#guideline7.20[Guideline 7.20]).
 
-=== Wizards & Dialogs
+==== Wizards & Dialogs
 
 . Start a wizard with a prompt, not an error message. 
   (xref:index.adoc#guideline5.3[Guideline 5.3])
@@ -48,7 +47,7 @@ https://github.com/eclipse-platform/ui-best-practices/issues[UI Best Practices G
 . Use a Browse Button whenever an existing object is referenced in a wizard. 
   (xref:index.adoc#guideline5.8[Guideline 5.8])
 
-=== Workbench & Preferences
+==== Workbench & Preferences
 
 . Use Headline style capitalization for menus, tooltip and all titles, 
   including those used for windows, dialogs, tabs, column headings and push buttons 
@@ -69,7 +68,7 @@ https://github.com/eclipse-platform/ui-best-practices/issues[UI Best Practices G
   The root preference page should not be blank. 
   (xref:index.adoc#guideline2.2[Guideline 2.2])
 
-== Top Ten Lists
+=== Top Ten Lists
 
 This is a starter set of top ten Eclipse UI Guidelines and Violations.
 The purpose of these lists is to be a starting point for Eclipse UI
@@ -79,7 +78,7 @@ follow and to avoid, respectively.
 To see all considerations to-date go to the
 link:https://wiki.eclipse.org/Top_Ten_Lists_Working_Page[Top Ten Lists Working Page].
 
-=== Top Ten Eclipse UI Guidelines
+==== Top Ten Eclipse UI Guidelines
 
 . Use the Eclipse look and feel if extending or plugging into Eclipse
 . Use common SWT controls to get what SWT offers for cross-platform adaptability
@@ -93,7 +92,7 @@ link:https://wiki.eclipse.org/Top_Ten_Lists_Working_Page[Top Ten Lists Working P
 . Use quick fix and quick assist mechanisms
 . Reserve time for "polish"
 
-=== Top Ten Eclipse UI Violations
+==== Top Ten Eclipse UI Violations
 
 . Low quality graphics or not consistent with the Eclipse style
 . Poorly organized or sized dialogs and wizards
