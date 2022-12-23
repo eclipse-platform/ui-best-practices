@@ -33,8 +33,6 @@
 							<directory>images</directory>
 							<targetPath>images</targetPath>
 						</resource>
-					</resources>
-					<resources>
 						<resource>
 							<directory>media</directory>
 							<targetPath>media</targetPath>
