@@ -1251,15 +1251,15 @@ Format:: PNG
 
 . *Version Control* or *_Transition-state_* +
 These overlays are displayed in the Navigator view and in the
-  Structure View of the Merge Editor in CVS. When they are displayed in
+  Structure View of the Merge Editor in EGit. When they are displayed in
   the Navigator view, the overlay is completely superimposed on the
   model object at the right of the 16 x 16 icon space.
 +
 When the version control overlays are displayed in the Structure View
-  of the Merge Editor in CVS, they are appended to the model object, so
+  of the Merge Editor in EGit, they are appended to the model object, so
   they extend the 16 x 16 space. They are placed to the right of a model
   object icon, overlapping the 16 x 16 model object space by 3 pixels.
-  In CVS there is a maximum of 2 overlays on the right of the object.
+  In EGit there is a maximum of 2 overlays on the right of the object.
 +
 Version control overlays identify a transition state of an object.
   Examples of these overlays are incoming, outgoing, in conflict, added,

@@ -174,7 +174,7 @@ from the Task view to the editor.
 
 If appropriate, support for the creation of new task objects in an
 editor should be implemented by the editor. For more information on
-this, see link:#Editors[Editors].
+this, see xref:component_dev.adoc#_editors[Editors].
 
 === Adding F1 Help to Task View
 
@@ -193,7 +193,7 @@ can use the standard selection dialogs available in Eclipse.
 === ContainerSelectionDialog
 
 Use
-http://help.eclipse.org/ganymede/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ContainerSelectionDialog.html[ContainerSelectionDialog]
+https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fui%2Fdialogs%2FContainerSelectionDialog.html[ContainerSelectionDialog]
 when want to select an IContainer (IFolder/IProject) from the workspace.
 
 [source,java]
@@ -211,7 +211,7 @@ the respective object as the second parameter for the constructor.
 The ContainerSelectionDialog allowed you to select only one resource
 that too it should be a container. If you want to select multiple
 resources including files, then
-http://help.eclipse.org/ganymede/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ResourceSelectionDialog.html[ResourceSelectionDialog]
+https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fui%2Fdialogs%2FResourceSelectionDialog.html[ResourceSelectionDialog]
 is the one you should be using.
 
 [source,java]
@@ -227,7 +227,7 @@ The ResourceSelectionDialog is good when you want to present the entire
 set of resources under a parent and allow the user to select multiple
 resources. But if you have a set of resources and want the user to
 select only one from that, then probably you should be using
-http://help.eclipse.org/ganymede/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ResourceListSelectionDialog.html[ResourceListSelectionDialog].
+https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ResourceListSelectionDialog.html[ResourceListSelectionDialog].
 
 [source,java]
 ----
@@ -241,7 +241,7 @@ dialog.open();
 The above Dialogs are good to selecting workspace resources. But what if
 I have some elements on my own and I want to select from that? The first
 dialog you would be using is
-http://help.eclipse.org/ganymede/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ElementListSelectionDialog.html[ElementListSelectionDialog].
+https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fui%2Fdialogs%2FElementListSelectionDialog.html[ElementListSelectionDialog].
 The user can select an element from the set. You have to pass the
 elements as an array and supply a label provider to render the element.
 The user can filter using wildcards as well.
@@ -259,7 +259,7 @@ dialog.open();
 
 If you want the user to select multiple elements from the given set,
 then
-http://help.eclipse.org/ganymede/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ListSelectionDialog.html[ListSelectionDialog]
+https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ListSelectionDialog.html[ListSelectionDialog]
 is the one to use. It is basically a single column TableViewer with
 SWT.CHECK style applied. You have to supply your own ContentProvider and
 LabelProvider for the TableViewer. It also has Select All & Deselect All
@@ -276,7 +276,7 @@ dlg.open();
 
 If you have your items in a tree structure and want to select few
 elements from them, then
-http://help.eclipse.org/ganymede/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/CheckedTreeSelectionDialog.html[CheckedTreeSelectionDialog]
+https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/CheckedTreeSelectionDialog.html[CheckedTreeSelectionDialog]
 is your choice. You have to bring your own content & label provider and
 the input.
 
@@ -291,7 +291,7 @@ dialog.open();
 
 === ElementTreeSelectionDialog
 
-http://help.eclipse.org/ganymede/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ElementTreeSelectionDialog.html[ElementTreeSelectionDialog]
+https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ElementTreeSelectionDialog.html[ElementTreeSelectionDialog]
 is the same as the CheckedTreeSelectionDialog except that it will allow
 you to select a single element in the whole tree rather than multiple
 elements.
@@ -314,7 +314,7 @@ pane about the item that is currently selected, it can even remember
 your previous selections; store them in history and present them before
 the other choices. To have that functionality, you have to extend the
 abstract class
-http://help.eclipse.org/ganymede/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/FilteredItemsSelectionDialog.html[FilteredItemsSelectionDialog]
+https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/FilteredItemsSelectionDialog.html[FilteredItemsSelectionDialog]
 and provide the necessary implementation.
 
 == The Preference Dialog
@@ -392,7 +392,7 @@ data, or interact with the edit data at a higher level of abstraction.
 
 If you are an editor developer, the relationship between an editor and
 the Outline view is important. For more information on the collaboration
-between these two, see xref:component_dev.adoc#editors[Editors].
+between these two, see xref:component_dev.adoc#_editors[Editors].
 
 == The Properties View
 
@@ -408,7 +408,7 @@ where quick access to the properties is important, and you switch from
 one object to another quickly.
 
 For more information on the use of the Properties view, or Properties
-dialog, refer to xref:component_dev.adoc#properties[Properties].
+dialog, refer to xref:component_dev.adoc#_properties[Properties].
 
 == The Bookmarks View
 
@@ -432,11 +432,11 @@ xref:component_dev.adoc#_editors[Editors].
 The Text Editor is commonly used to edit text files. A plug-in developer
 can contribute new actions to the menu, toolbar, and context menu. This
 is done by adding an extension to the plug-in registry. For more
-information on this, see xref:component_dev.adoc#editors[Editors].
+information on this, see xref:component_dev.adoc#_editors[Editors].
 
 == The Resource Perspective
 
 The Resource perspective contains a Navigator, Outline, Task view, and
 editor area. Plug-in developers may contribute a new command, action
 set, or view to the Resource perspective. For more information, refer to
-xref:component_dev.adoc#perspectives[Perspectives].
+xref:component_dev.adoc#_perspectives[Perspectives].

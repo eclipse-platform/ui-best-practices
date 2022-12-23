@@ -16,7 +16,7 @@ error position in the file. Use a prominent marker on the upper right
 hand corner to indicate that the file contains errors or warnings. Use
 red color to indicate errors, and use yellow to indicate warnings.
 
-image::images/Bp1.gif[bp1,title="bp1"]
+image::images/Bp1.gif[bp1]
 
 After users perform a save operation, user a more prominent marker on
 the left hand side margin to indicate errors and warnings in the file.
@@ -29,7 +29,7 @@ indication up to the parents of the resource in the tree view. Finally,
 an entry should be added to the Task view to list the errors and
 warnings.
 
-image::images/Bp2.gif[bp2,title="bp2"]
+image::images/Bp2.gif[bp2]
 
 == Coding Assistance
 
@@ -39,13 +39,13 @@ light bulb marker on the left hand side margin to provide suggestions on
 how to fix problems with the source code. Users can click on the light
 bulb or use Edit -> Quick Fix menu item to invoke this command.
 
-image::images/Bp3.gif[bp3,title="bp3"]
+image::images/Bp3.gif[bp3]
 
 Even when there are no syntax errors in the file, users should be able
 to obtain certain quick assistance with their code using the Quick Fix
 mechanism. For example, assigning an expression to a local variable.
 
-image::images/Bp4.gif[bp4,title="bp4"]
+image::images/Bp4.gif[bp4]
 
 
 If an editor is used for writing code in a given programming language,
@@ -54,7 +54,7 @@ pointer to hover over the source code, pressing the Ctrl key will turn
 the programming language constructs such as class, method, and field
 identifiers into clickable links to the corresponding declaration.
 
-image::images/Bp5.gif[bp5,title="bp5"]
+image::images/Bp5.gif[bp5]
 
 
 When possible, a plug-in should provide refactoring support at the
@@ -65,22 +65,23 @@ the URL for a given resource in a Web application, refactoring support
 should enable users to automatically update the references to the
 modified URL.
 
-image::images/Bp6.gif[bp6,title="bp6"]
+image::images/Bp6.gif[bp6]
 
 == Context Menu
 
 Here is one suggested process to reason why a menu item should be added
 or removed from the context menu. The objective is to reduce the number
-of context menu items to no more than 20.
+of context menu items to *no more than 20*.
 
-First, remove menu items that are not sensitive to selections. Second,
-remove menu items that are not frequently used. Third,?examine the items
-that are not sensitive?to selection but are frequently used. Add at most
-of 5 of these items back. Fourth,?remove all disabled menu items, except
-for clipboard operations such as copy and paste, and team, compare and
-replace submenus. Fifth, remove menu items that are frequently used,
-selection sensitive, but have a dominant keyboard shortcut key defined,
-except for clipboard and save operations.
+. Remove menu items that are not sensitive to selections.
+. Remove menu items that are not frequently used.
+. Examine the items that are not sensitive to selection but are frequently used. 
+  Add at most of 5 of these items back. 
+. Remove all disabled menu items, except for clipboard operations such as copy 
+  and paste, and team, compare and replace submenus. 
+. Remove menu items that are frequently used, selection sensitive, but have a 
+  dominant keyboard shortcut key defined, except for clipboard and save 
+  operations.
 
 == Labels, Fonts and Layout for Flat Look Design
 
@@ -95,27 +96,27 @@ On pages with listbox on the left hand side, the distance be between the
 list box and the right-hand column (e.g., showing properties for a
 selected listbox item) should be 10 pixels.
 
-image::images/Flatlook7.gif[flatlook7,title="flatlook7"]
+image::images/Flatlook7.gif[flatlook7]
 
 For labels and fields, use RGB value (160, 160, 164) for enabled state,
 RBG value (0, 0, 0) for read-only state, and RBG value (128, 128, 128)
 for disabled state.
 
-image::images/Flatlook8.gif[flatlook8,title="flatlook8"]
+image::images/Flatlook8.gif[flatlook8]
 
 For listbox control, use RBG value (0, 0, 0) for the border to indicate
 enabled state, use RBG value (128, 128, 128) for disabled state.
 
-image::images/Flatlook9.gif[flatlook9,title="flatlook9"]
+image::images/Flatlook9.gif[flatlook9]
 
 == Decorators
 
 Enabling and disabling the decorators are extremely useful when the
 decorations performed by two or more decorators conflict with each
-other. For example, the CVS plug-in might decorate the base image by
+other. For example, the EGit plug-in might decorate the base image by
 superimposing the base image with a custom image while the "Decorate
 Example" plug-in might superimpose a different custom image at the same
-position thereby conflicting with the CVS plug-in decoration. If the
+position thereby conflicting with the EGit plug-in decoration. If the
 decoration performed by two different decorators on the same resource
 conflict, users should appropriately enable / disable different
 decorators to get the required decoration.
