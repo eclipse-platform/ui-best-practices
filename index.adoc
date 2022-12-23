@@ -336,16 +336,14 @@ By agreeing to share selected elements of their user interface designs
 (both positive and negative), we feel that these teams have helped make
 the UI guidelines stronger.
 
-
-'''
-
- Version 2.1 February 2004Copyright© 2001 - 2004 International Business Machine Corporation.Java and all Java-based trademarks and logos are trademarks or
-registered trademarks of Sun Microsystems, Inc. in the United States,
-other countries, or both.Microsoft, Windows, Windows NT, and the Windows logo are trademarks of
-Microsoft Corporation in the United States, other countries, or both.
-
-'''
-
+----
+Version 2.1 February 2004  
+Copyright© 2001 - 2004 International Business Machine Corporation.
+   
+Java and all Java-based trademarks and logos are trademarks or registered trademarks of Sun Microsystems, Inc. in the United States, other countries, or both.
+    
+Microsoft, Windows, Windows NT, and the Windows logo are trademarks of Microsoft Corporation in the United States, other countries, or both.
+----
 
 == Eclipse v3.x UI Guidelines Updates (appended)
 
