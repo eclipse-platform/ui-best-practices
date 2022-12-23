@@ -1,5 +1,4 @@
-= Standard Components
-include::_settings.adoc[]
+== Standard Components
 
 In this section we'll look at the standard components which ship with
 Eclipse. The Eclipse SDK contains a number of views, including the
@@ -23,13 +22,13 @@ TIP: [guideline12.2]*Guideline 12.2* +
 If you subclass or copy any of the standard components, always carry
 over the standard components' characteristics.
 
-== The Navigator View
+=== The Navigator View
 
 The Navigator is used to navigate the workspace, create new resources,
 modify resources, and open an editor on a resource. Plug-in developers
 may contribute new actions to the menu, toolbar, and context menu.
 
-=== Adding Actions
+==== Adding Actions
 
 This is done by adding an extension to the plug-in registry.
 
@@ -83,7 +82,7 @@ Use the attributes defined in IResourceActionFilter.java and
 IProjectActionFilter.java to control the visibility of context menu
 actions in the Navigator.
 
-=== Integration with Other Views and Editors
+==== Integration with Other Views and Editors
 
 In Eclipse, the use of a "Navigate -> Show In" command is a common way
 to link the selection in one view to the input of another. For instance,
@@ -102,7 +101,7 @@ TIP: [guideline13.3]*Guideline 13.3* +
 Use a "Navigate -> Show In Navigator" command in each view, to link
 resources back to the Navigator.
 
-== The Tasks View
+=== The Tasks View
 
 The Tasks view is used to display the current tasks, errors and warnings
 in the workspace. A plug-in developer may contribute new tasks, errors,
@@ -111,7 +110,7 @@ those objects. You can also contribute new actions to the menu, toolbar,
 and context menu. This is done by adding an extension to the plug-in
 registry.
 
-=== Adding Tasks
+==== Adding Tasks
 
 A new task, error or warning can be created using the Marker Manager
 services from the Core Resources Management plugin.
@@ -129,7 +128,7 @@ TIP: [guideline14.2]*Guideline 14.2* +
 The description text of each marker should be short and concise, so that
 it will fit in the status line of Eclipse.
 
-=== Adding Actions
+==== Adding Actions
 
 You can contribute new actions to the menu, toolbar, and context menu.
 This is done by adding an extension to the plug-in registry.
@@ -164,7 +163,7 @@ TIP: [guideline14.4]*Guideline 14.4* +
 Use the attributes defined in IMarkerActionFilter.java to control the
 visibility of context menu actions in the Tasks view.
 
-=== Integration with Other Views and Editors
+==== Integration with Other Views and Editors
 
 In an editor, task objects are commonly used to mark a location within a
 document. Once a task has been created, it appears in the Task view. If
@@ -176,7 +175,7 @@ If appropriate, support for the creation of new task objects in an
 editor should be implemented by the editor. For more information on
 this, see link:#Editors[Editors].
 
-=== Adding F1 Help to Task View
+==== Adding F1 Help to Task View
 
 Plug-ins should support F1 keyboard command and link it to an infopop
 that gives a detailed description of the selected item in the Task view.
@@ -185,12 +184,12 @@ TIP: [guideline14.5]*Guideline 14.5* +
 Support F1 keyboard command and link it to an infopop that gives a
 detailed description of the selected item in the Task view.
 
-== Selection Dialogs
+=== Selection Dialogs
 
 When you want the user to select items from a given list of items, you
 can use the standard selection dialogs available in Eclipse.
 
-=== ContainerSelectionDialog
+==== ContainerSelectionDialog
 
 Use
 http://help.eclipse.org/ganymede/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ContainerSelectionDialog.html[ContainerSelectionDialog]
@@ -206,7 +205,7 @@ dialog.open();
 You can restrict the resource to be within a project/folder by passing
 the respective object as the second parameter for the constructor.
 
-=== ResourceSelectionDialog
+==== ResourceSelectionDialog
 
 The ContainerSelectionDialog allowed you to select only one resource
 that too it should be a container. If you want to select multiple
@@ -221,7 +220,7 @@ dialog.setTitle("Resource Selection");
 dialog.open();
 ----
 
-=== ResourceListSelectionDialog
+==== ResourceListSelectionDialog
 
 The ResourceSelectionDialog is good when you want to present the entire
 set of resources under a parent and allow the user to select multiple
@@ -236,7 +235,7 @@ dialog.setTitle("Resource Selection");
 dialog.open();
 ----
 
-=== ElementListSelectionDialog
+==== ElementListSelectionDialog
 
 The above Dialogs are good to selecting workspace resources. But what if
 I have some elements on my own and I want to select from that? The first
@@ -255,7 +254,7 @@ dialog.setElements(new Object[] { "one", "two", "three" });
 dialog.open();
 ----
 
-=== ListSelectionDialog
+==== ListSelectionDialog
 
 If you want the user to select multiple elements from the given set,
 then
@@ -272,7 +271,7 @@ dlg.setTitle("Element Selection");
 dlg.open();
 ----
 
-=== CheckedTreeSelectionDialog
+==== CheckedTreeSelectionDialog
 
 If you have your items in a tree structure and want to select few
 elements from them, then
@@ -289,7 +288,7 @@ dialog.setInput(getInput());
 dialog.open();
 ----
 
-=== ElementTreeSelectionDialog
+==== ElementTreeSelectionDialog
 
 http://help.eclipse.org/ganymede/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ElementTreeSelectionDialog.html[ElementTreeSelectionDialog]
 is the same as the CheckedTreeSelectionDialog except that it will allow
@@ -305,7 +304,7 @@ dialog.setInput(getInput());
 dialog.open();
 ----
 
-=== FilteredItemsSelectionDialog
+==== FilteredItemsSelectionDialog
 
 Have you used the Open Type (Ctrl + Shift + T) or Open Resource
 (Ctrl+Shift+R) dialog? Its similar to the ElementListSelectionDialog,
@@ -317,7 +316,7 @@ abstract class
 http://help.eclipse.org/ganymede/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/FilteredItemsSelectionDialog.html[FilteredItemsSelectionDialog]
 and provide the necessary implementation.
 
-== The Preference Dialog
+=== The Preference Dialog
 
 The Preference Dialog is used to edit the global preference for a
 feature in the workbench.
@@ -341,7 +340,7 @@ TIP: [guideline15.2]*Guideline 15.2* +
 Expose the preferences for a particular view, editor or window in the
 view itself, via a menu or tool item.
 
-=== Preference Page Design
+==== Preference Page Design
 
 In the simplest case, any plug-in which needs to expose an option to the
 user will define a single preference page. This preference page should
@@ -381,7 +380,7 @@ Attempt to integrate plug-in preferences, wizards, and views into
 existing categories for a new plug-in first, before considering the
 creation of a new category.
 
-== The Outline View
+=== The Outline View
 
 In Eclipse, there is a special relationship between an editor and the
 Outline view. When an editor is opened, the Outline view will connect to
@@ -394,7 +393,7 @@ If you are an editor developer, the relationship between an editor and
 the Outline view is important. For more information on the collaboration
 between these two, see xref:component_dev.adoc#editors[Editors].
 
-== The Properties View
+=== The Properties View
 
 The Properties view shows the properties for the active part in the
 workbench, or the selection within that part. These properties are
@@ -410,7 +409,7 @@ one object to another quickly.
 For more information on the use of the Properties view, or Properties
 dialog, refer to xref:component_dev.adoc#properties[Properties].
 
-== The Bookmarks View
+=== The Bookmarks View
 
 The Bookmarks view is used to bookmark files, and open them quickly. A
 plug-in developer may contribute new bookmarks to the workspace, and
@@ -427,14 +426,14 @@ If appropriate, support for the creation of new bookmark objects should
 be implemented by the editor. For more information on this, see
 xref:component_dev.adoc#_editors[Editors].
 
-== The Text Editor
+=== The Text Editor
 
 The Text Editor is commonly used to edit text files. A plug-in developer
 can contribute new actions to the menu, toolbar, and context menu. This
 is done by adding an extension to the plug-in registry. For more
 information on this, see xref:component_dev.adoc#editors[Editors].
 
-== The Resource Perspective
+=== The Resource Perspective
 
 The Resource perspective contains a Navigator, Outline, Task view, and
 editor area. Plug-in developers may contribute a new command, action

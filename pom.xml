@@ -27,6 +27,7 @@
 				</executions>
 				<configuration>
 					<sourceDirectory>${basedir}</sourceDirectory>
+					<sourceDocumentName>index.adoc</sourceDocumentName>
 					<!-- copy only the images and media directory, otherwise everything from basedir would be copied -->
 					<resources>
 						<resource>

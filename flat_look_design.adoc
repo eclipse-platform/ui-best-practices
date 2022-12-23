@@ -1,5 +1,4 @@
-= Flat Look Design
-include::_settings.adoc[]
+== Flat Look Design
 
 The Eclipse platform provides a Web user interface, also known as Flat
 Look, design alternative for implementing content editors. For example,
@@ -46,7 +45,7 @@ sections, controls, etc. for keyboard navigation.
 
 image::images/Flatlook5.gif[flatlook5,title="flatlook5"]
 
-== Editor and Outline View Interaction
+=== Editor and Outline View Interaction
 
 Plug-ins that use Flat Look design for content editor should provide
 support for full two way interactions between the editor and outline

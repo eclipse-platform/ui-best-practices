@@ -1,12 +1,11 @@
-= Checklist for Developers
-include::_settings.adoc[]
+== Checklist for Developers
 
 Here is a checklist for developers who are developing UI plugins. This
 _could_ be used for certification purposes.
 
-== General UI Guidelines
+=== General UI Guidelines
 
-=== The Spirit of Eclipse
+==== The Spirit of Eclipse
 
 TIP: [guideline1.1]*Guideline 1.1* +
 Follow and apply good user interface design principles: user in control,
@@ -24,7 +23,7 @@ TIP: [guideline1.4]*Guideline 1.4* +
 If you have an interesting idea, work with the Eclipse community to make
 Eclipse a better platform for all.
 
-=== Capitalization
+==== Capitalization
 
 
 TIP: [guideline1.5]*Guideline 1.5* +
@@ -41,11 +40,11 @@ window, including those for check boxes, radio buttons, group labels,
 and simple text fields. Capitalize the first letter of the first word,
 and any proper names such as the word Java.
 
-=== Language
+==== Language
 TIP: [guideline1.7]*Guideline 1.7* +
 Create localized version of the resources within your plug-in.
 
-=== Error Handling
+==== Error Handling
 TIP: [guideline1.8]*Guideline 1.8* +
 When an error occurs which requires either an explicit user input or
 immediate attention from users, communicate the occurrence with a modal
@@ -56,9 +55,9 @@ If a programming error occurs in the product, communicate the occurrence
 with a dialog, and log it.
 
 
-== UI Graphics
+=== UI Graphics
 
-=== Design
+==== Design
 TIP: [guideline2.1]*Guideline 2.1* +
 Follow the visual style established for Eclipse UI graphics.
 
@@ -82,7 +81,7 @@ Use the design templates for creating and maintaining UI graphics to
 facilitate easy file sharing and efficient production of a large set of
 graphics.
 
-=== Specifications
+==== Specifications
 
 TIP: [guideline2.7]*Guideline 2.7* +
 Use the file format specified for the graphic type.
@@ -98,7 +97,7 @@ TIP: [guideline2.10]*Guideline 2.10* +
 Cut the graphics with the specific placement shown to ensure alignment
 in the user interface.
 
-=== Implementation
+==== Implementation
 
 TIP: [guideline2.11]*Guideline 2.11* +
 Use the cutting actions provided to increase the speed and efficiency of
@@ -136,9 +135,9 @@ in one, or few, first level user interface directories.
 TIP: [guideline2.20]*Guideline 2.20* +
 Use the active, enabled, and disabled states provided.
 
-== Component Development
+=== Component Development
 
-=== Commands
+==== Commands
 
 TIP: [guideline3.1]*Guideline 3.1* +
 Each command must have a label, tool tip, and full color image. The
@@ -161,7 +160,7 @@ Command enablement should be quick. If command enablement cannot be
 quick, enable the command optimistically and display an appropriate
 message if the command is invoked, but cannot be completed.
 
-=== Dialogs
+==== Dialogs
 
 TIP: [guideline4.1]*Guideline 4.1*
 When a dialog opens, set the initial focus to the first input control in
@@ -172,7 +171,7 @@ TIP: [guideline4.2]*Guideline 4.2* +
 Slush Bucket widget (or Twin Box) should flow from left to right with
 the source objects on the left hand side. It should have the >, >,
 
-=== Wizards
+==== Wizards
 
 TIP: [guideline5.1]*Guideline 5.1* +
 Use a wizard for any task consisting of many steps, which must be
@@ -225,7 +224,7 @@ Use the term "Project name" for the input field label when the item must
 be a Project; otherwise, use the term "Folder name". Do not qualify the
 term.
 
-=== Editors
+==== Editors
 
 TIP: [guideline6.1]*Guideline 6.1* +
 Use an editor to edit or browse a file, document, or other primary
@@ -352,7 +351,7 @@ should be prompted to either override the changes made outside of the
 workbench, or back out of the Save operation when the Save command is
 invoked in the editor.
 
-=== Views
+==== Views
 
 TIP: [guideline7.1]*Guideline 7.1* +
 Use a view to navigate a hierarchy of information, open an editor, or
@@ -430,7 +429,7 @@ Persist the state of each view between sessions.
 TIP: [guideline7.21]*Guideline 7.21* +
  Navigation views should support "Link with Editor" on the view menu
 
-=== Perspectives
+==== Perspectives
 
 TIP: [guideline8.1]*Guideline 8.1* +
 Create a new perspective type for long lived tasks, which involve the
@@ -478,7 +477,7 @@ TIP: [guideline8.10]*Guideline 8.10* +
 The list of shortcuts added to the New, Open Perspective, and Show View
 menus should be at most 7 plus / minus 2 items.
 
-=== Windows
+==== Windows
 
 TIP: [guideline9.1]*Guideline 9.1* +
 Use an Action Set to contribute actions to the window menu bar and
@@ -514,7 +513,7 @@ window.
 TIP: [guideline9.9]*Guideline 9.9* +
 Always use the global status bar to display status related messages.
 
-=== Properties
+==== Properties
 
 TIP: [guideline10.1]*Guideline 10.1* +
 Use the Properties view to edit the properties of an object when quick
@@ -532,7 +531,7 @@ TIP: [guideline10.4]*Guideline 10.4* +
 Properties Dialog should contain the superset of items shown in the
 Properties view.
 
-=== Widgets
+==== Widgets
 
 TIP: [guideline11.1]*Guideline 11.1* +
 For Tree and Table widgets that have a checkbox associated with a cell
@@ -541,7 +540,7 @@ check state of the selected item. However, the current selection should
 be set to a given item when its check state is changed.
 
 
-== Standard Components
+=== Standard Components
 
 TIP: [guideline12.1]*Guideline 12.1* +
 If appropriate, add actions to standard components of Eclipse using the
@@ -551,7 +550,7 @@ TIP: [guideline12.2]*Guideline 12.2* +
 If you subclass or copy any of the standard components, always carry
 over the standard components' characteristics.
 
-=== The Navigator View
+==== The Navigator View
 
 TIP: [guideline13.1]*Guideline 13.1* +
 Add actions to the Navigator View menu, toolbar, and context menu using
@@ -566,7 +565,7 @@ TIP: [guideline13.3]*Guideline 13.3* +
 Use a "Navigate -> Show In Navigator" command in each view, to link
 resources back to the Navigator.
 
-=== The Tasks View
+==== The Tasks View
 
 TIP: [guideline14.1]*Guideline 14.1* +
 Add markers (tasks, errors and warnings) to the Tasks view using the
@@ -588,7 +587,7 @@ TIP: [guideline14.5]*Guideline 14.5* +
 Support F1 keyboard command and link it to an infopop that gives a
 detailed description of the selected item in the Task view.
 
-=== The Preference Dialog
+==== The Preference Dialog
 
 TIP: [guideline15.1]*Guideline 15.1* +
 Global options should be exposed within the Preferences Dialog.
@@ -613,7 +612,7 @@ existing categories for a new plug-in first, before considering the
 creation of a new category.
 
 
-== Flat Look Design
+=== Flat Look Design
 
 TIP: [guideline16.1]*Guideline 16.1* +
 Use Flat Look design for user scenarios that involves extensive property
@@ -628,14 +627,14 @@ Use grouping elements corresponding to tabs in the Flat Look content
 editor for the organization of the tree view in outline view.
 
 
-== The Tao of Resource
+=== The Tao of Resource
 
 TIP: [guideline17.1]*Guideline 17.1* +
 Expose the resource for resource equivalent model objects using an
 IContributorResourceAdapter.
 
 
-== Accessibility
+=== Accessibility
 
 TIP: [guideline18.1]*Guideline 18.1* +
 All of the features provided by a tool should be accessible using a

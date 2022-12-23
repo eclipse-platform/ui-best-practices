@@ -1,10 +1,9 @@
-= Best Practices
-include::_settings.adoc[]
+== Best Practices
 
 In this section, we provide examples of best practices for designing and
 implementing some common user interactions within the Eclipse platform.
 
-== Syntax and Compilation Error Handling
+=== Syntax and Compilation Error Handling
 
 When designing editors that provide syntax or compilation checking
 support, follow the Java tooling design in the Eclipse platform.
@@ -31,7 +30,7 @@ warnings.
 
 image::images/Bp2.gif[bp2,title="bp2"]
 
-== Coding Assistance
+=== Coding Assistance
 
 In addition to supporting the standard content assist in an editor,
 editors should exploit the use of Quick Fixes and Quick Assist. Use the
@@ -67,7 +66,7 @@ modified URL.
 
 image::images/Bp6.gif[bp6,title="bp6"]
 
-== Context Menu
+=== Context Menu
 
 Here is one suggested process to reason why a menu item should be added
 or removed from the context menu. The objective is to reduce the number
@@ -82,7 +81,7 @@ replace submenus. Fifth, remove menu items that are frequently used,
 selection sensitive, but have a dominant keyboard shortcut key defined,
 except for clipboard and save operations.
 
-== Labels, Fonts and Layout for Flat Look Design
+=== Labels, Fonts and Layout for Flat Look Design
 
 For Flat Look design, when using buttons with ellipses (except for the
 "More..." button), it should pop up a secondary window which can be a
@@ -108,7 +107,7 @@ enabled state, use RBG value (128, 128, 128) for disabled state.
 
 image::images/Flatlook9.gif[flatlook9,title="flatlook9"]
 
-== Decorators
+=== Decorators
 
 Enabling and disabling the decorators are extremely useful when the
 decorations performed by two or more decorators conflict with each
@@ -120,7 +119,7 @@ decoration performed by two different decorators on the same resource
 conflict, users should appropriately enable / disable different
 decorators to get the required decoration.
 
-=== Implementation Tip
+==== Implementation Tip
 It is very important to design custom decorators that don't conflict
 with basic decorations provided by different Eclipse views. For example,
 the package explorer view decorates Java files with problem markers (a
