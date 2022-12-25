@@ -469,7 +469,6 @@ red color to indicate errors, and use yellow to indicate warnings.</p>
 <div class="content">
 <img src="images/Bp1.gif" alt="bp1">
 </div>
-<div class="title">Figure 1. bp1</div>
 </div>
 <div class="paragraph">
 <p>After users perform a save operation, user a more prominent marker on
@@ -487,7 +486,6 @@ warnings.</p>
 <div class="content">
 <img src="images/Bp2.gif" alt="bp2">
 </div>
-<div class="title">Figure 2. bp2</div>
 </div>
 </div>
 </div>
@@ -505,7 +503,6 @@ bulb or use Edit &#8594; Quick Fix menu item to invoke this command.</p>
 <div class="content">
 <img src="images/Bp3.gif" alt="bp3">
 </div>
-<div class="title">Figure 3. bp3</div>
 </div>
 <div class="paragraph">
 <p>Even when there are no syntax errors in the file, users should be able
@@ -516,7 +513,6 @@ mechanism. For example, assigning an expression to a local variable.</p>
 <div class="content">
 <img src="images/Bp4.gif" alt="bp4">
 </div>
-<div class="title">Figure 4. bp4</div>
 </div>
 <div class="paragraph">
 <p>If an editor is used for writing code in a given programming language,
@@ -529,7 +525,6 @@ identifiers into clickable links to the corresponding declaration.</p>
 <div class="content">
 <img src="images/Bp5.gif" alt="bp5">
 </div>
-<div class="title">Figure 5. bp5</div>
 </div>
 <div class="paragraph">
 <p>When possible, a plug-in should provide refactoring support at the
@@ -544,7 +539,6 @@ modified URL.</p>
 <div class="content">
 <img src="images/Bp6.gif" alt="bp6">
 </div>
-<div class="title">Figure 6. bp6</div>
 </div>
 </div>
 </div>
@@ -554,17 +548,30 @@ modified URL.</p>
 <div class="paragraph">
 <p>Here is one suggested process to reason why a menu item should be added
 or removed from the context menu. The objective is to reduce the number
-of context menu items to no more than 20.</p>
+of context menu items to <strong>no more than 20</strong>.</p>
 </div>
-<div class="paragraph">
-<p>First, remove menu items that are not sensitive to selections. Second,
-remove menu items that are not frequently used. Third,?examine the items
-that are not sensitive?to selection but are frequently used. Add at most
-of 5 of these items back. Fourth,?remove all disabled menu items, except
-for clipboard operations such as copy and paste, and team, compare and
-replace submenus. Fifth, remove menu items that are frequently used,
-selection sensitive, but have a dominant keyboard shortcut key defined,
-except for clipboard and save operations.</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Remove menu items that are not sensitive to selections.</p>
+</li>
+<li>
+<p>Remove menu items that are not frequently used.</p>
+</li>
+<li>
+<p>Examine the items that are not sensitive to selection but are frequently used.
+Add at most of 5 of these items back.</p>
+</li>
+<li>
+<p>Remove all disabled menu items, except for clipboard operations such as copy
+and paste, and team, compare and replace submenus.</p>
+</li>
+<li>
+<p>Remove menu items that are frequently used, selection sensitive, but have a
+dominant keyboard shortcut key defined, except for clipboard and save
+operations.</p>
+</li>
+</ol>
 </div>
 </div>
 </div>
@@ -589,7 +596,6 @@ selected listbox item) should be 10 pixels.</p>
 <div class="content">
 <img src="images/Flatlook7.gif" alt="flatlook7">
 </div>
-<div class="title">Figure 7. flatlook7</div>
 </div>
 <div class="paragraph">
 <p>For labels and fields, use RGB value (160, 160, 164) for enabled state,
@@ -600,7 +606,6 @@ for disabled state.</p>
 <div class="content">
 <img src="images/Flatlook8.gif" alt="flatlook8">
 </div>
-<div class="title">Figure 8. flatlook8</div>
 </div>
 <div class="paragraph">
 <p>For listbox control, use RBG value (0, 0, 0) for the border to indicate
@@ -610,7 +615,6 @@ enabled state, use RBG value (128, 128, 128) for disabled state.</p>
 <div class="content">
 <img src="images/Flatlook9.gif" alt="flatlook9">
 </div>
-<div class="title">Figure 9. flatlook9</div>
 </div>
 </div>
 </div>
@@ -620,10 +624,10 @@ enabled state, use RBG value (128, 128, 128) for disabled state.</p>
 <div class="paragraph">
 <p>Enabling and disabling the decorators are extremely useful when the
 decorations performed by two or more decorators conflict with each
-other. For example, the CVS plug-in might decorate the base image by
+other. For example, the EGit plug-in might decorate the base image by
 superimposing the base image with a custom image while the "Decorate
 Example" plug-in might superimpose a different custom image at the same
-position thereby conflicting with the CVS plug-in decoration. If the
+position thereby conflicting with the EGit plug-in decoration. If the
 decoration performed by two different decorators on the same resource
 conflict, users should appropriately enable / disable different
 decorators to get the required decoration.</p>
@@ -653,7 +657,7 @@ avoided as they are decorated outside of the decorator mechanism</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-12-23 10:26:13 UTC
+Last updated 2022-12-25 13:13:59 UTC
 </div>
 </div>
 </body>
