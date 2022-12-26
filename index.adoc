@@ -1,29 +1,21 @@
-= Eclipse UI Guidelines
+= Eclipse UI Guidelines ({version})
+
 include::_settings.adoc[]
 :toc: left
 
-UI Best Practices Working Group
-{version}
-
-__' This document is a working draft. Version 2.1 is the base with 3.x
-updates indicated with "(3.x update)".__'
+_This document is a working draft. Version 2.1 is the base with 3.x
+updates indicated with "(3.x update)"._
 
 *Nick Edgar, Kevin Haaland, Jin Li and Kimberley Peter, with
 contributions from members of the
-link:http://wiki.eclipse.org/User_Interface_Best_Practices_Working_Group[User Interface Best
-Practices Working Group]*
+link:https://wiki.eclipse.org/User_Interface_Best_Practices_Working_Group[User Interface Best
+Practices Working Group]*.
 
-*Last major revision: November 2007* +
-*Convertion into Asciidoc: September 2016*
-
-NOTE: Please use the
-https://github.com/eclipse-platform/ui-best-practices/discussions[discussion
-page] to add comments instead of embedding them in this document.
-
-:toc:
+*Last major revision: November 2007*
 
 
-== Notice
+== How to contribute to this document
+
 Your feedback can influence the ideas and guidelines described here. If
 you have suggestions, please provide us with your feedback on the
 mailto:platform-ui-dev@eclipse.org?subject=UI%20Guidelines%20v2.1%20Feedback[UI
@@ -31,8 +23,13 @@ mailing list] or on the
 https://github.com/eclipse-platform/ui-best-practices/discussions[discussion
 page].
 
+NOTE: Please use the
+https://github.com/eclipse-platform/ui-best-practices/discussions[discussion
+page] to add comments instead of embedding them in this document.
+
 
 == UI Checklist
+
 The xref:top_ten_lists.adoc[Top Ten Lists] is a shortlist of the most relevant
 and easy to apply Eclipse **User Interface Guidelines**. 
 Start by using xref:top_ten_lists.adoc[this list], referring to the linked guideline items for details, 
@@ -40,7 +37,9 @@ then use the xref:eclipse_ui_full_checklist.adoc[Full Checklist] for additional 
 For comments please use the 
 https://github.com/eclipse-platform/ui-best-practices/issues[UI Best Practices GitHub Issues].
 
+
 == Introduction
+
 In this document the Eclipse user interface guidelines are defined.
 
 Eclipse is a universal tool platform - an open, extensible IDE for

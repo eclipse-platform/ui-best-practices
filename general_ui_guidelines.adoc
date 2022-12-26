@@ -74,7 +74,7 @@ useful, join the Eclipse community, write a proposal, and work with the
 Eclipse community to make Eclipse a better platform for product
 development and increase customer satisfaction.
 
-Visit http://www.eclipse.org/[www.eclipse.org] and join the 
+Visit https://www.eclipse.org/[www.eclipse.org] and join the 
 mailto:ui-best-practices-working-group@eclipse.org[Eclipse UI mailing list]. 
 
 TIP: [guideline1.4]*Guideline 1.4* +

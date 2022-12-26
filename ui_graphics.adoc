@@ -5,7 +5,7 @@
 The following guide covers user interface (UI) graphics for Eclipse-based tools. 
 All visual user interface elements created for Eclipse-based tools follow a 
 common style called the *_Eclipse visual style_* or **_Eclipse style_**. Any 
-product, tool, or plug-in based on the http://www.eclipse.org[Eclipse] Workbench
+product, tool, or plug-in based on the https://www.eclipse.org[Eclipse] Workbench
 should follow these guidelines to help ensure consistency of visual user 
 interface elements. Consistency includes visual style, meaning, and 
 implementation conventions.
@@ -384,11 +384,11 @@ In The GIMP, simply Save As PNG.
 +
 Related Information::
   This information replaces that provided in the 
-  http://www.eclipse.org/articles/Article-UI-Guidelines/Index.html[Eclipse UI 
+  https://www.eclipse.org/articles/Article-UI-Guidelines/Index.html[Eclipse UI 
   Guidelines, Version 2.1], in the section titled “Visual Design – Icon 
   Palettes” (Guidelines 2.2-2.4):
 + 
-The GIMP User Manual is available online at: http://www.gimp.org/docs/
+The GIMP User Manual is available online at: https://www.gimp.org/docs/
 
 ===== Wizard Banner Graphics
 
@@ -930,7 +930,7 @@ PNG is a bitmapped image format that employs lossless data compression.
 PNG was created to improve upon and replace the GIF format, as an
 image-file format not requiring a patent license. PNG is pronounced
 "ping" (/pɪŋ/ in IPA), but can be spoken "P-N-G" (as described at
-http://en.wikipedia.org/wiki/PNG). One of the great values of PNG format
+https://en.wikipedia.org/wiki/PNG). One of the great values of PNG format
 is its support for alphas or transparency, allowing bleed through of the
 background on which these graphics sit.
 
