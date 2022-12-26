@@ -51,7 +51,7 @@ apply a project nature to the managed resources, and use the project
 nature attribute in all context menu contributions.
 
 For more information on command filtering, refer to
-http://www.eclipse.org/articles/viewArticle/ViewArticle2.html[Creating
+https://www.eclipse.org/articles/viewArticle/ViewArticle2.html[Creating
 an Eclipse View]. The standard attributes for resources are defined in
 IResourceActionFilter.java (see below).
 
@@ -144,7 +144,7 @@ in the Tasks view is a __marker__, a general mechanism for associate
 notes with a resource. Use the attributes within
 IMarkerActionFilter.java to control the visibility of Task object
 actions (see below). For more information on command filtering, refer to
-http://www.eclipse.org/articles/viewArticle/ViewArticle2.html[Creating
+https://www.eclipse.org/articles/viewArticle/ViewArticle2.html[Creating
 an Eclipse View].
 
 [source,java]
