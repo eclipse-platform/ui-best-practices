@@ -18,7 +18,7 @@ image::images/actionExamples.png[actionExamples]
 
 In this section we'll look at general command guidelines. For
 information on window, view, or editor specific guidelines, see
-xref:#_windows[Windows], xref:#_views[Views], and xref:#_editors[Editors].
+xref:#windows[Windows], xref:#views[Views], and xref:#editors[Editors].
 
 ==== Appearance
 
@@ -1408,7 +1408,7 @@ toolbar using an __action set__, a set of task oriented actions which
 the user can show or hide. You can control the layout of views within a
 window by defining a __perspective__. In this section we'll look at
 action extension. For more information on perspectives, see
-xref:#_perspectives[Perspectives].
+xref:#perspectives[Perspectives].
 
 ==== Actions
 

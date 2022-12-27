@@ -33,8 +33,8 @@ such as metaphor, composition, lighting, color and more.
 
 Before beginning to design Eclipse-style icons or wizard banner
 graphics, first check if the concept or visual elements have been
-covered already. Refer to the xref:#_consistency_reuse[Consistency
-& Reuse] and xref:#_common_elements[Common Elements] sections for these
+covered already. Refer to the xref:#consistency_reuse[Consistency
+& Reuse] and xref:#common_elements[Common Elements] sections for these
 elements. If designing an icon or wizard graphic from the start,
 consider the underlying concept and how it can best be represented.
 There might be an existing metaphor to appropriately convey the concept.
@@ -91,7 +91,7 @@ The color of the outline will vary according to the color of the
   grayish-blue base and a light ochre color top. This is a standard
   color outline for this type of object. You will see that other
   elements use standard color outlines as well. Read more about standard
-  colors under Color below, and use the xref:#_common_elements[Common
+  colors under Color below, and use the xref:#common_elements[Common
   Elements] design resource for reusable elements.
 +
 image::images/des_styl_char3.png[des_styl_char3]
@@ -497,7 +497,7 @@ Wizard graphic colors are based on the icons that launch them. The
 colors used to create a toolbar wizard icon, for instance, should be the
 same colors used to create its wizard banner counterpart. To download
 and use the color palette for creating wizard graphics, see the
-*xref:#_color_palette_themes[Color Palette & Themes]* section above
+*xref:#color_palette_themes[Color Palette & Themes]* section above
 under Icons.
 
 As with the icons, wizard banner graphics fall under a limited set of
@@ -589,7 +589,7 @@ might need already exist. Samples of existing core concepts for icons
 and wizard graphics are shown below. Each of these elements carries with
 it a specific meaning, so care should be taken when using them to ensure
 consistent meaning is maintained. A more extensive collection of common
-visual elements can be found on the xref:#_common_elements[Common
+visual elements can be found on the xref:#common_elements[Common
 Elements] page.
 
 ===== Core icon concepts
@@ -792,8 +792,8 @@ point.
 . *Designing the icons:* Before beginning to design Eclipse-style
 icons or wizard banner graphics, first check if the concept or visual
 elements have been covered already. See the
-xref:#_consistency_reuse[Consistency and Reuse] and
-xref:#_common_elements[Common Elements] sections.
+xref:#consistency_reuse[Consistency and Reuse] and
+xref:#common_elements[Common Elements] sections.
 +
 Create initial passes of your ideas, and then place them in the
 template. Up to five different concepts for any given icon can be placed
@@ -816,7 +816,7 @@ Once the icons have been approved, move the chosen images to the cut
 column. To ensure they are positioned properly within the allotted
 screen space, turn on the cut layer (pink) in the PSD. For guidance on
 size and placement of different types of icons, see the
-xref:#_icon_size_placement[Icon Size and Placement] section.
+xref:#icon_size_placement[Icon Size and Placement] section.
 
 . *Creating the disabled versions:* See the link:#_states[States]
 section for instructions on creating the disabled state for Toolbar and
@@ -849,15 +849,15 @@ Eclipse-style wizard banner graphics, first check if the toolbar icon
 that launches the wizard has been created already. This will provide the
 basis of your design. Also, check if any of the visual elements that
 will be part of the wizard graphic have been created already in Adobe
-Illustrator. See the xref:#_consistency_reuse[Consistency and Reuse]
-and xref:#_common_elements[Common Elements] sections for existing
+Illustrator. See the xref:#consistency_reuse[Consistency and Reuse]
+and xref:#common_elements[Common Elements] sections for existing
 elements.
 +
 The concept for a wizard banner should be closely aligned with, if not
 identical to, the toolbar wizard icon that launches the wizard dialog.
 Create an initial pass of each image on the *New Wizard graphics* layer,
 following the wizard banner stylistic treatment detailed in the
-xref:#_style_design[Style & Design] section. As with the icons, more
+xref:#style_design[Style & Design] section. As with the icons, more
 than one pass on the design may be required before coming to the final
 design.
 +
@@ -888,7 +888,7 @@ layer, to the corresponding Layer Set in the PSD file. Once all of your
 wizard graphics are transferred, Save the file. You are ready to cut.
 
 . *Cutting the wizard banner graphics:* See the
-xref:#_cutting_actions[Cutting Actions] section for instructions on
+xref:#cutting_actions[Cutting Actions] section for instructions on
 cutting wizard banner graphics.
 
 TIP: [guideline2.6]*Guideline 2.6* +
@@ -1017,7 +1017,7 @@ that each can be optimized for its specific location. The majority of
 interface graphics are 16 x 16 pixels in size, though there are some
 graphic types that come in additional or unconventional sizes suited
 specifically to their use. Details on size and placement of the image
-see the next subsection on xref:#_icon_size_placement[Icon Size &
+see the next subsection on xref:#icon_size_placement[Icon Size &
 Placement]. The following graphic types are described below:
 
 image::images/spec_type_icon.png[spec_type_icon]
