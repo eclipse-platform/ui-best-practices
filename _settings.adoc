@@ -30,3 +30,5 @@ That way the styles are automatically consistent.
 // enable section numbering up to level 4
 :sectnums:
 :sectnumlevels: 4
+// strip the leading underscore from generated ids (HTML anchors)
+:idprefix:
