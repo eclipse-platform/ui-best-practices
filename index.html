@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.17">
-<title>Eclipse UI Guidelines</title>
+<title>Eclipse UI Guidelines (v4-DRAFT)</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -435,134 +435,39 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="article toc2 toc-left">
+<body class="article">
 <div id="header">
-<h1>Eclipse UI Guidelines</h1>
-<div id="toc" class="toc2">
-<div id="toctitle">Table of Contents</div>
-<ul class="sectlevel1">
-<li><a href="#_notice">1. Notice</a></li>
-<li><a href="#_ui_checklist">2. UI Checklist</a></li>
-<li><a href="#_introduction">3. Introduction</a>
-<ul class="sectlevel2">
-<li><a href="#_the_workbench">3.1. The Workbench</a></li>
-<li><a href="#_projects_folders_and_files">3.2. Projects, Folders and Files</a></li>
-</ul>
-</li>
-<li><a href="#_getting_started">4. Getting Started</a></li>
-<li><a href="#_content">5. Content</a></li>
-<li><a href="#_quick_checklists_and_top_ten_does_and_donts">6. Quick Checklists and Top Ten Does and Dont&#8217;s</a>
-<ul class="sectlevel2">
-<li><a href="#_quick_ui_checklist">6.1. Quick UI Checklist</a></li>
-<li><a href="#_top_ten_lists">6.2. Top Ten Lists</a></li>
-</ul>
-</li>
-<li><a href="#_general_ui_guidelines">7. General UI Guidelines</a>
-<ul class="sectlevel2">
-<li><a href="#_the_spirit_of_eclipse">7.1. The Spirit of Eclipse</a></li>
-<li><a href="#_capitalization">7.2. Capitalization</a></li>
-<li><a href="#_language">7.3. Language</a></li>
-<li><a href="#_error_handling">7.4. Error Handling</a></li>
-</ul>
-</li>
-<li><a href="#_ui_graphics">8. UI Graphics</a>
-<ul class="sectlevel2">
-<li><a href="#_overview">8.1. Overview</a></li>
-<li><a href="#_design">8.2. Design</a></li>
-<li><a href="#_specifications">8.3. Specifications</a></li>
-<li><a href="#_implementation">8.4. Implementation</a></li>
-</ul>
-</li>
-<li><a href="#_component_development">9. Component Development</a>
-<ul class="sectlevel2">
-<li><a href="#_commands">9.1. Commands</a></li>
-<li><a href="#_dialogs">9.2. Dialogs</a></li>
-<li><a href="#_wizards">9.3. Wizards</a></li>
-<li><a href="#_editors">9.4. Editors</a></li>
-<li><a href="#_views">9.5. Views</a></li>
-<li><a href="#_perspectives">9.6. Perspectives</a></li>
-<li><a href="#_windows">9.7. Windows</a></li>
-<li><a href="#_properties">9.8. Properties</a></li>
-<li><a href="#_widgets">9.9. Widgets</a></li>
-</ul>
-</li>
-<li><a href="#_standard_components">10. Standard Components</a>
-<ul class="sectlevel2">
-<li><a href="#_the_navigator_view">10.1. The Navigator View</a></li>
-<li><a href="#_the_tasks_view">10.2. The Tasks View</a></li>
-<li><a href="#_selection_dialogs">10.3. Selection Dialogs</a></li>
-<li><a href="#_the_preference_dialog">10.4. The Preference Dialog</a></li>
-<li><a href="#_the_outline_view">10.5. The Outline View</a></li>
-<li><a href="#_the_properties_view">10.6. The Properties View</a></li>
-<li><a href="#_the_bookmarks_view">10.7. The Bookmarks View</a></li>
-<li><a href="#_the_text_editor">10.8. The Text Editor</a></li>
-<li><a href="#_the_resource_perspective">10.9. The Resource Perspective</a></li>
-</ul>
-</li>
-<li><a href="#_flat_look_design">11. Flat Look Design</a>
-<ul class="sectlevel2">
-<li><a href="#_editor_and_outline_view_interaction">11.1. Editor and Outline View Interaction</a></li>
-</ul>
-</li>
-<li><a href="#_the_tao_of_resource">12. The Tao of Resource</a></li>
-<li><a href="#_accessibility">13. Accessibility</a>
-<ul class="sectlevel2">
-<li><a href="#_standard_accelerators">13.1. Standard Accelerators</a></li>
-</ul>
-</li>
-<li><a href="#_best_practices">14. Best Practices</a>
-<ul class="sectlevel2">
-<li><a href="#_syntax_and_compilation_error_handling">14.1. Syntax and Compilation Error Handling</a></li>
-<li><a href="#_coding_assistance">14.2. Coding Assistance</a></li>
-<li><a href="#_context_menu">14.3. Context Menu</a></li>
-<li><a href="#_labels_fonts_and_layout_for_flat_look_design">14.4. Labels, Fonts and Layout for Flat Look Design</a></li>
-<li><a href="#_decorators">14.5. Decorators</a></li>
-</ul>
-</li>
-<li><a href="#_checklist_for_developers">15. Checklist for Developers</a>
-<ul class="sectlevel2">
-<li><a href="#_general_ui_guidelines_2">15.1. General UI Guidelines</a></li>
-<li><a href="#_ui_graphics_2">15.2. UI Graphics</a></li>
-<li><a href="#_component_development_2">15.3. Component Development</a></li>
-<li><a href="#_standard_components_2">15.4. Standard Components</a></li>
-<li><a href="#_flat_look_design_2">15.5. Flat Look Design</a></li>
-<li><a href="#_the_tao_of_resource_2">15.6. The Tao of Resource</a></li>
-<li><a href="#_accessibility_2">15.7. Accessibility</a></li>
-</ul>
-</li>
-<li><a href="#_glossary">16. Glossary</a></li>
-<li><a href="#_acknowledgement">17. Acknowledgement</a></li>
-<li><a href="#_eclipse_v3_x_ui_guidelines_updates_appended">18. Eclipse v3.x UI Guidelines Updates (appended)</a>
-<ul class="sectlevel2">
-<li><a href="#_general_ui_guidelines_3">18.1. General UI Guidelines</a></li>
-<li><a href="#_component_development_3">18.2. Component Development</a></li>
-</ul>
-</li>
-</ul>
-</div>
+<h1>Eclipse UI Guidelines (v4-DRAFT)</h1>
 </div>
 <div id="content">
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>UI Best Practices Working Group
-v4-DRAFT</p>
-</div>
-<div class="paragraph">
-<p><em>' This document is a working draft. Version 2.1 is the base with 3.x
-updates indicated with "(3.x update)".</em>'</p>
+<p><em>This document is a working draft. Version 2.1 is the base with 3.x
+updates indicated with "(3.x update)".</em></p>
 </div>
 <div class="paragraph">
 <p><strong>Nick Edgar, Kevin Haaland, Jin Li and Kimberley Peter, with
 contributions from members of the
-<a href="http://wiki.eclipse.org/User_Interface_Best_Practices_Working_Group">User Interface Best
-Practices Working Group</a></strong></p>
+<a href="https://wiki.eclipse.org/User_Interface_Best_Practices_Working_Group">User Interface Best
+Practices Working Group</a></strong>.</p>
 </div>
 <div class="paragraph">
-<p><strong>Last major revision: November 2007</strong><br>
-<strong>Convertion into Asciidoc: September 2016</strong></p>
+<p><strong>Last major revision: November 2007</strong></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_to_contribute_to_this_document">1. How to contribute to this document</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Your feedback can influence the ideas and guidelines described here. If
+you have suggestions, please provide us with your feedback on the
+<a href="mailto:platform-ui-dev@eclipse.org?subject=UI%20Guidelines%20v2.1%20Feedback">UI
+mailing list</a> or on the
+<a href="https://github.com/eclipse-platform/ui-best-practices/discussions">discussion
+page</a>.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -577,19 +482,6 @@ page</a> to add comments instead of embedding them in this document.
 </td>
 </tr>
 </table>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_notice">1. Notice</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Your feedback can influence the ideas and guidelines described here. If
-you have suggestions, please provide us with your feedback on the
-<a href="mailto:platform-ui-dev@eclipse.org?subject=UI%20Guidelines%20v2.1%20Feedback">UI
-mailing list</a> or on the
-<a href="https://github.com/eclipse-platform/ui-best-practices/discussions">discussion
-page</a>.</p>
 </div>
 </div>
 </div>
@@ -1120,7 +1012,7 @@ Eclipse community to make Eclipse a better platform for product
 development and increase customer satisfaction.</p>
 </div>
 <div class="paragraph">
-<p>Visit <a href="http://www.eclipse.org/">www.eclipse.org</a> and join the
+<p>Visit <a href="https://www.eclipse.org/">www.eclipse.org</a> and join the
 <a href="mailto:ui-best-practices-working-group@eclipse.org">Eclipse UI mailing list</a>.</p>
 </div>
 <div class="admonitionblock tip">
@@ -1302,7 +1194,7 @@ with a dialog, and log it.
 <p>The following guide covers user interface (UI) graphics for Eclipse-based tools.
 All visual user interface elements created for Eclipse-based tools follow a
 common style called the <strong><em>Eclipse visual style</em></strong> or <strong><em>Eclipse style</em></strong>. Any
-product, tool, or plug-in based on the <a href="http://www.eclipse.org">Eclipse</a> Workbench
+product, tool, or plug-in based on the <a href="https://www.eclipse.org">Eclipse</a> Workbench
 should follow these guidelines to help ensure consistency of visual user
 interface elements. Consistency includes visual style, meaning, and
 implementation conventions.</p>
@@ -1784,11 +1676,11 @@ list.</p>
 <dt class="hdlist1">Related Information</dt>
 <dd>
 <p>This information replaces that provided in the
-<a href="http://www.eclipse.org/articles/Article-UI-Guidelines/Index.html">Eclipse UI
+<a href="https://www.eclipse.org/articles/Article-UI-Guidelines/Index.html">Eclipse UI
 Guidelines, Version 2.1</a>, in the section titled “Visual Design – Icon
 Palettes” (Guidelines 2.2-2.4):</p>
 <div class="paragraph">
-<p>The GIMP User Manual is available online at: <a href="http://www.gimp.org/docs/" class="bare">www.gimp.org/docs/</a></p>
+<p>The GIMP User Manual is available online at: <a href="https://www.gimp.org/docs/" class="bare">www.gimp.org/docs/</a></p>
 </div>
 </dd>
 </dl>
@@ -2616,7 +2508,7 @@ images.</p>
 PNG was created to improve upon and replace the GIF format, as an
 image-file format not requiring a patent license. PNG is pronounced
 "ping" (/pɪŋ/ in IPA), but can be spoken "P-N-G" (as described at
-<a href="http://en.wikipedia.org/wiki/PNG" class="bare">en.wikipedia.org/wiki/PNG</a>). One of the great values of PNG format
+<a href="https://en.wikipedia.org/wiki/PNG" class="bare">en.wikipedia.org/wiki/PNG</a>). One of the great values of PNG format
 is its support for alphas or transparency, allowing bleed through of the
 background on which these graphics sit.</p>
 </div>
@@ -6077,7 +5969,7 @@ each object type in the editor. An command filter makes it easier for
 one plug-in to add an command to objects in an editor defined by another
 plug-in. The target is described using object type and attributes. For
 more information on the implementation of this concept, refer to
-<a href="http://www.eclipse.org/articles/viewArticle/ViewArticle2.html">Creating
+<a href="https://www.eclipse.org/articles/viewArticle/ViewArticle2.html">Creating
 an Eclipse View.</a></p>
 </div>
 <div class="admonitionblock tip">
@@ -7031,7 +6923,7 @@ plug-in to add an command to objects in a view defined by another
 plug-in. The command target is described using object type and
 attributes. For more information on the implementation of this concept,
 refer to
-<a href="http://www.eclipse.org/articles/viewArticle/ViewArticle2.html">Creating
+<a href="https://www.eclipse.org/articles/viewArticle/ViewArticle2.html">Creating
 an Eclipse View.</a></p>
 </div>
 <div class="admonitionblock tip">
@@ -7140,8 +7032,8 @@ object, there is no need to persist its state between sessions. Within
 the workbench, the state of the Navigator view, including the input and
 expansion state, is saved between sessions. For more information on the
 implementation of persistence, see
-"<a href="http://www.eclipse.org/articles/viewArticle/ViewArticle2.html">Creating
-an Eclipse View</a>".</p>
+<a href="https://www.eclipse.org/articles/viewArticle/ViewArticle2.html">Creating
+an Eclipse View</a>.</p>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -7374,7 +7266,7 @@ initial layout of views, and visibility of command sets within the
 perspective. You can also add your own actions or views to an existing
 perspective type. For more information on the implementation of these
 concepts, see
-<a href="http://www.eclipse.org/articles/using-perspectives/PerspectiveArticle.html">Using
+<a href="https://www.eclipse.org/articles/using-perspectives/PerspectiveArticle.html">Using
 Perspectives in the Eclipse UI</a>.</p>
 </div>
 <div class="paragraph">
@@ -8288,7 +8180,7 @@ nature attribute in all context menu contributions.</p>
 </div>
 <div class="paragraph">
 <p>For more information on command filtering, refer to
-<a href="http://www.eclipse.org/articles/viewArticle/ViewArticle2.html">Creating
+<a href="https://www.eclipse.org/articles/viewArticle/ViewArticle2.html">Creating
 an Eclipse View</a>. The standard attributes for resources are defined in
 IResourceActionFilter.java (see below).</p>
 </div>
@@ -8443,7 +8335,7 @@ in the Tasks view is a <em>marker</em>, a general mechanism for associate
 notes with a resource. Use the attributes within
 IMarkerActionFilter.java to control the visibility of Task object
 actions (see below). For more information on command filtering, refer to
-<a href="http://www.eclipse.org/articles/viewArticle/ViewArticle2.html">Creating
+<a href="https://www.eclipse.org/articles/viewArticle/ViewArticle2.html">Creating
 an Eclipse View</a>.</p>
 </div>
 <div class="listingblock">
@@ -12363,7 +12255,7 @@ titled “Component Development - Editors” (Guidelines 6.11-6.13).</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-12-25 19:02:42 UTC
+Last updated 2022-12-27 18:29:02 UTC
 </div>
 </div>
 </body>
