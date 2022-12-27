@@ -435,10 +435,113 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="article">
+<body class="article toc2 toc-left">
 <div id="header">
 <h1>Eclipse UI Guidelines (v4-DRAFT)</h1>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#how_to_contribute_to_this_document">1. How to contribute to this document</a></li>
+<li><a href="#ui_checklist">2. UI Checklist</a></li>
+<li><a href="#introduction">3. Introduction</a>
+<ul class="sectlevel2">
+<li><a href="#the_workbench">3.1. The Workbench</a></li>
+<li><a href="#projects_folders_and_files">3.2. Projects, Folders and Files</a></li>
+</ul>
+</li>
+<li><a href="#getting_started">4. Getting Started</a></li>
+<li><a href="#content">5. Content</a></li>
+<li><a href="#quick_checklists_and_top_ten_does_and_donts">6. Quick Checklists and Top Ten Does and Dont&#8217;s</a>
+<ul class="sectlevel2">
+<li><a href="#quick_ui_checklist">6.1. Quick UI Checklist</a></li>
+<li><a href="#top_ten_lists">6.2. Top Ten Lists</a></li>
+</ul>
+</li>
+<li><a href="#general_ui_guidelines">7. General UI Guidelines</a>
+<ul class="sectlevel2">
+<li><a href="#the_spirit_of_eclipse">7.1. The Spirit of Eclipse</a></li>
+<li><a href="#capitalization">7.2. Capitalization</a></li>
+<li><a href="#language">7.3. Language</a></li>
+<li><a href="#error_handling">7.4. Error Handling</a></li>
+</ul>
+</li>
+<li><a href="#ui_graphics">8. UI Graphics</a>
+<ul class="sectlevel2">
+<li><a href="#overview">8.1. Overview</a></li>
+<li><a href="#design">8.2. Design</a></li>
+<li><a href="#specifications">8.3. Specifications</a></li>
+<li><a href="#implementation">8.4. Implementation</a></li>
+</ul>
+</li>
+<li><a href="#component_development">9. Component Development</a>
+<ul class="sectlevel2">
+<li><a href="#commands">9.1. Commands</a></li>
+<li><a href="#dialogs">9.2. Dialogs</a></li>
+<li><a href="#wizards">9.3. Wizards</a></li>
+<li><a href="#editors">9.4. Editors</a></li>
+<li><a href="#views">9.5. Views</a></li>
+<li><a href="#perspectives">9.6. Perspectives</a></li>
+<li><a href="#windows">9.7. Windows</a></li>
+<li><a href="#properties">9.8. Properties</a></li>
+<li><a href="#widgets">9.9. Widgets</a></li>
+</ul>
+</li>
+<li><a href="#standard_components">10. Standard Components</a>
+<ul class="sectlevel2">
+<li><a href="#the_navigator_view">10.1. The Navigator View</a></li>
+<li><a href="#the_tasks_view">10.2. The Tasks View</a></li>
+<li><a href="#selection_dialogs">10.3. Selection Dialogs</a></li>
+<li><a href="#the_preference_dialog">10.4. The Preference Dialog</a></li>
+<li><a href="#the_outline_view">10.5. The Outline View</a></li>
+<li><a href="#the_properties_view">10.6. The Properties View</a></li>
+<li><a href="#the_bookmarks_view">10.7. The Bookmarks View</a></li>
+<li><a href="#the_text_editor">10.8. The Text Editor</a></li>
+<li><a href="#the_resource_perspective">10.9. The Resource Perspective</a></li>
+</ul>
+</li>
+<li><a href="#flat_look_design">11. Flat Look Design</a>
+<ul class="sectlevel2">
+<li><a href="#editor_and_outline_view_interaction">11.1. Editor and Outline View Interaction</a></li>
+</ul>
+</li>
+<li><a href="#the_tao_of_resource">12. The Tao of Resource</a></li>
+<li><a href="#accessibility">13. Accessibility</a>
+<ul class="sectlevel2">
+<li><a href="#standard_accelerators">13.1. Standard Accelerators</a></li>
+</ul>
+</li>
+<li><a href="#best_practices">14. Best Practices</a>
+<ul class="sectlevel2">
+<li><a href="#syntax_and_compilation_error_handling">14.1. Syntax and Compilation Error Handling</a></li>
+<li><a href="#coding_assistance">14.2. Coding Assistance</a></li>
+<li><a href="#context_menu">14.3. Context Menu</a></li>
+<li><a href="#labels_fonts_and_layout_for_flat_look_design">14.4. Labels, Fonts and Layout for Flat Look Design</a></li>
+<li><a href="#decorators">14.5. Decorators</a></li>
+</ul>
+</li>
+<li><a href="#checklist_for_developers">15. Checklist for Developers</a>
+<ul class="sectlevel2">
+<li><a href="#general_ui_guidelines_2">15.1. General UI Guidelines</a></li>
+<li><a href="#ui_graphics_2">15.2. UI Graphics</a></li>
+<li><a href="#component_development_2">15.3. Component Development</a></li>
+<li><a href="#standard_components_2">15.4. Standard Components</a></li>
+<li><a href="#flat_look_design_2">15.5. Flat Look Design</a></li>
+<li><a href="#the_tao_of_resource_2">15.6. The Tao of Resource</a></li>
+<li><a href="#accessibility_2">15.7. Accessibility</a></li>
+</ul>
+</li>
+<li><a href="#glossary">16. Glossary</a></li>
+<li><a href="#acknowledgement">17. Acknowledgement</a></li>
+<li><a href="#eclipse_v3_x_ui_guidelines_updates_appended">18. Eclipse v3.x UI Guidelines Updates (appended)</a>
+<ul class="sectlevel2">
+<li><a href="#general_ui_guidelines_3">18.1. General UI Guidelines</a></li>
+<li><a href="#component_development_3">18.2. Component Development</a></li>
+</ul>
+</li>
+</ul>
+</div>
 </div>
 <div id="content">
 <div id="preamble">
@@ -12255,7 +12358,7 @@ titled “Component Development - Editors” (Guidelines 6.11-6.13).</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-12-27 18:44:59 UTC
+Last updated 2022-12-27 19:32:41 UTC
 </div>
 </div>
 </body>
