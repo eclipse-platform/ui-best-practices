@@ -1,5 +1,4 @@
 = Eclipse UI Guidelines ({version})
-
 include::_settings.adoc[]
 :toc: left
 
