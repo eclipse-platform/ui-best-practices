@@ -29,7 +29,7 @@ not conflict with the shortcut keys defined in the plug-in.
 |kbd:[A]
 |
 |
-|Edit / Select All
+|menu:Edit[Select All]
 |
 |
 |
@@ -37,7 +37,7 @@ not conflict with the shortcut keys defined in the plug-in.
 |kbd:[B]
 |
 |
-|Project / Build 
+|menu:Project[Build]
 | 
 | 
 |(View) Bookmarks
@@ -45,7 +45,7 @@ not conflict with the shortcut keys defined in the plug-in.
 |kbd:[C] 
 | 
 | 
-|Edit / Copy 
+|menu:Edit[Copy]
 | 
 | 
 |
@@ -53,7 +53,7 @@ not conflict with the shortcut keys defined in the plug-in.
 |kbd:[D] 
 | 
 | 
-|(JDT editor) Display 
+|(JDT editor) menu:Display[]
 | 
 | 
 |
@@ -61,15 +61,15 @@ not conflict with the shortcut keys defined in the plug-in.
 |kbd:[E] 
 | 
 | 
-|(JDT editor) Next Problem 
-|(JDT editor) Previous Problem 
+|(JDT editor) menu:Next Problem[]
+|(JDT editor) menu:Previous Problem[]
 | 
 |
 
 |kbd:[F] 
 | 
 | 
-|Edit / Find / Replace 
+|menu:Edit[Find/Replace]
 | 
 | 
 |
@@ -86,7 +86,7 @@ not conflict with the shortcut keys defined in the plug-in.
 |kbd:[H] 
 | 
 | 
-|Edit / Search 
+|menu:Edit[Search]
 | 
 | 
 |
@@ -118,7 +118,7 @@ not conflict with the shortcut keys defined in the plug-in.
 |kbd:[L]
 | 
 | 
-|Edit / Go to Line 
+|menu:Edit[Go to Line]
 | 
 | 
 |
@@ -128,14 +128,14 @@ not conflict with the shortcut keys defined in the plug-in.
 | 
 | 
 | 
-|(JDT editor) Add Import 
+|(JDT editor) menu:Add Import[]
 | 
-|(JDT) Refactor / Move
+|(JDT) menu:Refactor[Move]
 
 |kbd:[N] 
 | 
 | 
-|File / New / Other 
+|menu:File[New > Other] 
 | 
 | 
 |(View) Navigator
@@ -144,14 +144,14 @@ not conflict with the shortcut keys defined in the plug-in.
 | 
 | 
 | 
-|(JDT editor) Organize Imports 
+|(JDT editor) menu:Organize Imports[] 
 | 
 |(View) Outline
 
 |kbd:[P] 
 | 
 | 
-|File / Print 
+|menu:File[Print] 
 | 
 | 
 |(View) Properties
@@ -159,7 +159,7 @@ not conflict with the shortcut keys defined in the plug-in.
 |kbd:[Q] 
 | 
 | 
-|(JDT editor) Inspect 
+|(JDT editor) menu:Inspect[] 
 | 
 | 
 |
@@ -175,16 +175,16 @@ not conflict with the shortcut keys defined in the plug-in.
 |kbd:[S] 
 | 
 | 
-|File / Save 
+|menu:File[Save] 
 | 
-|File / Save All 
-|Window / Switch to Editor
+|menu:File[Save All] 
+|menu:Window[Switch to Editor]
 
 |kbd:[T] 
 | 
 | 
 | 
-|(JDT) Open Type 
+|(JDT) menu:Open Type[] 
 | 
 |
 
@@ -199,7 +199,7 @@ not conflict with the shortcut keys defined in the plug-in.
 |kbd:[V] 
 | 
 | 
-|Edit / Paste 
+|menu:Edit[Paste] 
 | 
 | 
 |
@@ -215,24 +215,24 @@ not conflict with the shortcut keys defined in the plug-in.
 |kbd:[X] 
 | 
 | 
-|Edit / Cut 
+|menu:Edit[Cut] 
 | 
 | 
-|(JDT) Refactor / Extract method
+|(JDT) menu:Refactor[Extract method]
 
 |kbd:[Y] 
 | 
 | 
-|Edit / Redo 
-|(JDT) Refactor / Redo 
+|menu:Edit[Redo] 
+|(JDT) menu:Refactor[Redo] 
 | 
 |
 
 |kbd:[Z] 
 | 
 | 
-|Edit / Undo 
-|(JDT) Refactor / Undo 
+|menu:Edit[Undo] 
+|(JDT) menu:Refactor[Undo] 
 | 
 |
 
@@ -249,7 +249,7 @@ not conflict with the shortcut keys defined in the plug-in.
 | 
 | 
 | 
-|Windows: Undo 
+|Windows: menu:Undo[] 
 |
 
 
@@ -264,17 +264,17 @@ not conflict with the shortcut keys defined in the plug-in.
 
 |kbd:[Insert] 
 | 
-|Windows: Paste 
-|Windows: Copy 
+|Windows: menu:Paste[] 
+|Windows: menu:Copy[] 
 | 
 | 
 |
 
 
 |kbd:[Delete] 
-|Edit / Delete 
-|Windows: Cut 
-|Edit / Delete 
+|menu:Edit[Delete] 
+|Windows: menu:Cut[] 
+|menu:Edit[Delete] 
 | 
 | 
 |
@@ -388,7 +388,7 @@ not conflict with the shortcut keys defined in the plug-in.
 
 
 |kbd:[F2] 
-|(Navigator view) Rename, (JDT editor) Open JavaDoc 
+|(Navigator view) menu:Rename[], (JDT editor) menu:Open JavaDoc[] 
 | 
 | 
 | 
@@ -397,7 +397,7 @@ not conflict with the shortcut keys defined in the plug-in.
 
 
 |kbd:[F3] 
-|(JDT editor) Open on Selection 
+|(JDT editor) menu:Open on Selection[] 
 | 
 | 
 | 
@@ -406,16 +406,16 @@ not conflict with the shortcut keys defined in the plug-in.
 
 
 |kbd:[F4] 
-|(JDT editor) Open Type Hierarchy 
+|(JDT editor) menu:Open Type Hierarchy[] 
 | 
 | 
-|File / Close All 
-|File / Close 
+|menu:File[Close All] 
+|menu:File[Close] 
 |
 
 
 |kbd:[F5] 
-|(Navigator view) Refresh, (Properties view) Refresh, (Debug) Step Into 
+|(Navigator view) menu:Refresh[], (Properties view) menu:Refresh[], (Debug) menu:Step Into[] 
 | 
 | 
 | 
@@ -424,25 +424,25 @@ not conflict with the shortcut keys defined in the plug-in.
 
 
 |kbd:[F6] 
-|(Debug) Step Over 
+|(Debug) menu:Step Over[] 
 | 
-|Next Editor 
-|Previous Editor 
+|menu:Next Editor[] 
+|menu:Previous Editor[] 
 | 
 |
 
 
 |kbd:[F7] 
-|(Debug) Run to Return 
+|(Debug) menu:Run to Return[] 
 | 
-|Next View 
-|Previous View 
+|menu:Next View[] 
+|menu:Previous View[] 
 | 
 |
 
 
 |kbd:[F8] 
-|(Debug) Resume 
+|(Debug) menu:Resume[] 
 | 
 | 
 | 
@@ -460,7 +460,7 @@ not conflict with the shortcut keys defined in the plug-in.
 
 
 |kbd:[F10] 
-|(Debug) Relaunch last 
+|(Debug) menu:Relaunch last[] 
 | 
 | 
 | 
@@ -469,18 +469,18 @@ not conflict with the shortcut keys defined in the plug-in.
 
 
 |kbd:[F11] 
-|(Debug) Debug 
+|(Debug) menu:Debug[] 
 | 
-|(Debug) Run 
+|(Debug) menu:Run[] 
 | 
 | 
 |
 
 
 |kbd:[F12] 
-|Activate Editor 
+|menu:Activate Editor[] 
 | 
-|Activate Editor 
+|menu:Activate Editor[] 
 | 
 | 
 |

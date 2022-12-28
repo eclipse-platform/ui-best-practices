@@ -429,7 +429,7 @@ TIP: [[guideline6.8]]*Guideline 6.8* +
 Use the standard format for editor contributions in the window menu bar.
 
 The window menu bar contains a number of global commands, such as Cut,
-Copy, and Paste in the Edit menu. These commands target the active part,
+Copy, and Paste in the menu:Edit[] menu. These commands target the active part,
 as indicated by a shaded title area. If these commands are supported
 within an editor, the editor should hook these window commands, so that
 selection in the window menu bar or toolbar produces the same result as
@@ -604,8 +604,7 @@ typically used to edit or browse a file, document or other input object.
 
 This statement is appropriate whether a file is read-only or not. In
 either case, the user should be able to select the file, open it, and
-browse the contents within an editor. If the file is read-only, the File
-> Save command should be disabled and the File > Save As should be
+browse the contents within an editor. If the file is read-only, the menu:File[Save] command should be disabled and the menu:File[Save As] should be
 enabled. In the status bar area, "Read-only" should be shown instead of
 the default "Writable" message.
 
@@ -695,8 +694,8 @@ If appropriate, implement the "Add Bookmark" feature in your editor.
 ==== Line Numbers
 
 Editors with source lines of text should have line numbers, and
-optionally column numbers. Editors should also support Navigate -> Goto
-Line... menu allowing users to quickly jump to a desired line. The
+optionally column numbers. Editors should also support menu:Navigate[Goto
+Line...] menu allowing users to quickly jump to a desired line. The
 current line and column numbers should be shown in the status line
 (column number is optional). It's optional for the editor to show line
 numbers for each line in the editor itself.
@@ -803,10 +802,10 @@ should be persisted to the edit model. If it is a property of a file,
 persist to file.
 
 In the past, some views have tried to implement an editor style
-lifecycle, with a Save command. This can cause confusion. The File menu
+lifecycle, with a Save command. This can cause confusion. The menu:File[] menu
 within a workbench window contains a Save command, but it applies to
 only the active editor. It should not target the active view. This leads
-to a situation where the File > Save command is in contradiction to the
+to a situation where the menu:File[Save] command is in contradiction to the
 Save command within the view.
 
 TIP: [[guideline7.2]]**Guideline 7.2** +
@@ -814,9 +813,9 @@ Modifications made within a view must be saved immediately.
 
 Within a perspective, only one instance of a particular view can be
 opened. This policy is designed to simplify part management for a user.
-The user opens a view by invoking Perspective > Show View. If, for any
+The user opens a view by invoking menu:Perspective[Show View]. If, for any
 reason, they lose a view, or forget about its existence, they can simply
-invoke Perspective > Show view again to make the view visible.
+invoke menu:Perspective[Show view] again to make the view visible.
 
 TIP: [[guideline7.3]]*Guideline 7.3* +
 Only one instance of a view may exist in a perspective.
@@ -830,18 +829,18 @@ may exist, the ability to multi-task is taken away.
 TIP: [[guideline7.4]]*Guideline 7.4* +
 A view must be able to be opened in more than one perspective.
 
-A view can be opened in two ways: by invoking Window > Show View > X
-menu, where X is the name of the view, or by invoking another command
+A view can be opened in two ways: by invoking menu:Window[Show View > X
+menu], where X is the name of the view, or by invoking another command
 within the workbench. For instance, if you select a class in the
 Packages view, and invoke Open Type Hierarchy, a Hierarchy view opens
 with the class hierarchy for the selection.
 
-It should be possible to open any view from the Window > Show View menu,
+It should be possible to open any view from the menu:Window[Show View] menu,
 either as an explicit item within the menu, or as an item within the
-Window > Show View > Other... dialog.
+menu:Window[Show View > Other...] dialog.
 
 TIP: [[guideline7.5]]*Guideline 7.5* +
-A view can be opened from the Window > Show View menu.
+A view can be opened from the menu:Window[Show View] menu.
 
 ==== Appearance
 
@@ -849,14 +848,14 @@ A view consists of a title area, a toolbar, a pulldown menu, and an
 embedded control.
 
 The view label in the title bar must be prefixed with label of the view
-in Perspective > Show View menu. Given that it is impossible to change
-the entry in the Show View menu, this means you cannot change the name
+in menu:Perspective[Show View] menu. Given that it is impossible to change
+the entry in the menu:Show View[] menu, this means you cannot change the name
 of a view. However, you can add additional text to the view label, to
 clarify the state of the view.
 
 TIP: [[guideline7.6]]*Guideline 7.6* +
 The view label in the title bar must be prefixed with the label of the
-view in the Perspective > Show View menu.
+view in the menu:Perspective[Show View] menu.
 
 In most cases, a view will contain a single control or viewer. However,
 it is possible to embed more than one viewer or control in the view. If
@@ -1017,7 +1016,7 @@ the same in each.
 
 Implementation tip: To achieve a consistent context menu, plug-in developers 
 which introduce a new object type should contribute commands to the context
-menu using an action group(ActionGroup class), a Java class which
+menu using an action group (ActionGroup class), a Java class which
 populates the context menu. If this approach is used, the action group
 can be reused by other views where the same objects appear.
 
@@ -1056,7 +1055,7 @@ Implement an Command Filter for each object type in the view.
 
 
 The window menu bar contains a number of global commands, such as Cut,
-Copy, and Paste within the Edit menu. These commands target the active
+Copy, and Paste within the menu:Edit[] menu. These commands target the active
 part, as indicated by a shaded title area. If these commands are
 supported within a view, the view should hook these window commands, so
 that selection in the window menu bar or toolbar produces the same
@@ -1065,12 +1064,12 @@ result as selection of the same command in the view.
 A complete list of the global commands and built-in menus as declared in
 IWorkbenchActionConstants.java (see below).
 
-- File menu: Revert, Move, Rename, Refresh, Print, Properties 
-- Edit menu: Undo, Redo, Cut, Copy, Paste, Delete, Select All, Find/Replace, 
-  Add Bookmark, Add Task 
-- Navigate menu: Go Into, Back, Forward, Up One Level, Next, Previous, Back
-- Forward Project menu: Open Project, Close Project, Build Project, Rebuild 
-  Project
+- menu:File[] menu: menu:Revert[], menu:Move[], menu:Rename[], menu:Refresh[], menu:Print[], menu:Properties[] 
+- menu:Edit[] menu: menu:Undo[], menu:Redo[], menu:Cut[], menu:Copy[], menu:Paste[], menu:Delete[], menu:Select All[], menu:Find/Replace[], 
+  menu:Add Bookmark[], menu:Add Task[] 
+- menu:Navigate[] menu: menu:Go Into[], menu:Back[], menu:Forward[], menu:Up One Level[], menu:Next[], menu:Previous[], menu:Back[]
+- menu:Project[] menu: menu:Open Project[], menu:Close Project[], menu:Build Project[], menu:Rebuild 
+  Project[]
 
 TIP: [[guideline7.19]]*Guideline 7.19* +
 If a view has support for Cut, Copy, Paste, or any of the global
@@ -1316,35 +1315,35 @@ visible.
 
 ==== Command Contribution
 
-The perspective factory may add actions to the File > New, Window > Open
-Perspective , and Window > Show View menus. It is also possible to add
+The perspective factory may add actions to the menu:File[New], menu:Window[Open
+Perspective], and menu:Window[Show View] menus. It is also possible to add
 one or more command sets to the window. In each case, you should choose
 commands which are relevant to the task orientation of the perspective.
 
-The File > New menu should be populated with wizards for the creation of
+The menu:File[New] menu should be populated with wizards for the creation of
 objects commonly used in the task. For instance, in the Java perspective
-the File > New menu contains menu items for the creation of packages,
+the menu:File[New] menu contains menu items for the creation of packages,
 classes, and interfaces.
 
-The Window > Show View menu should be populated with the initial views
+The menu:Window[Show View] menu should be populated with the initial views
 in the perspective, as well as any extra views that may be important for
-the task at hand. The Navigate > Show In menu should be used to allow
+the task at hand. The menu:Navigate[Show In] menu should be used to allow
 users to navigate in their contents.
 
 image::images/ShowViewMenu.gif[showViewMenu] 
 
 The application development lifecycle should be considered when
-populating the the Window - Open Perspective menu. The development of
+populating the the menu:Window[Open Perspective] menu. The development of
 most applications follow a well defined lifecycle, from designing /
 modeling, to editing / creating, to debugging / testing, to assembling /
-deploying. Each perspective will fall into one of these steps. The Open
-Perspective menu should be used to link the current perspective to
+deploying. Each perspective will fall into one of these steps. The menu:Open
+Perspective[] menu should be used to link the current perspective to
 perspectives that support tasks immediately downstream of the current
 one, as well as tasks further upstream, to allow for iterative
 development.
 
 For instance, the Java perspective is used in a larger lifecycle,
-involving Java and Debug tasks. The Window > Open Perspective menu is
+involving Java and Debug tasks. The menu:Window[Open Perspective] menu is
 populated with each of these perspectives.
 
 TIP: [[guideline8.6]]*Guideline 8.6* +
@@ -1390,13 +1389,13 @@ TIP: [[guideline8.9]]*Guideline 8.9* +
 If a new perspective is opened, it should be opened within the current
 window, or in a new window, depending on the user preference.
 
-With regard to command contributions applied to the New, Open
-Perspective, and Show View menus, the list of wizards, perspectives, and
+With regard to command contributions applied to the menu:New[], menu:Open
+Perspective[], and menu:Show View[] menus, the list of wizards, perspectives, and
 views added as shortcuts to these menus should be at most 7 plus / minus
 2 items.
 
 TIP: [[guideline8.10]]*Guideline 8.10* +
-The list of shortcuts added to the New, Open Perspective, and Show View
+The list of shortcuts added to the menu:New[], menu:Open Perspective[], and menu:Show View[]
 menus should be at most 7 plus / minus 2 items.
 
 
@@ -1423,39 +1422,39 @@ TIP: [[guideline9.1]]*Guideline 9.1* +
 Use an Action Set to contribute actions to the window menu bar and
 toolbar.
 
-The window menu bar contains a number of pulldown menus: File, Edit,
-Navigate, Project, Window, and Help. Each of these has a different
+The window menu bar contains a number of pulldown menus: menu:File[], menu:Edit[],
+menu:Navigate[], menu:Project[], menu:Window[], and menu:Help[]. Each of these has a different
 purpose, which will be explained in the following paragraphs. For
 consistency with the action sets contributed by other plug-ins, the
 commands within an action set should conform to the existing
 distribution of actions in the window. There is no need to group the
 actions in a separate pulldown menu of the menu bar.
 
-The File menu contains file oriented actions, such as Save, Close,
-Print, Import, Export and Exit. The contents of the File > New menu are
+The menu:File[] menu contains file oriented actions, such as menu:Save[], menu:Close[],
+menu:Print[], menu:Import[], menu:Export[] and menu:Exit[]. The contents of the menu:File[New] menu are
 determined by the perspective type. However, the user may add or remove
-items using the Window -> Customize Perspective... menu item. The
+items using the menu:Window[Customize Perspective...] menu item. The
 contents of the Import and Export dialogs are populated with every
 import and export wizard, respectively.
 
-The Edit menu contains editor oriented actions, such as Undo, Redo, Cut,
-Copy, and Paste. These actions target the active part (as indicated by a
+The menu:Edit[] menu contains editor oriented actions, such as menu:Undo[], menu:Redo[], menu:Cut[],
+menu:Copy[], and menu:Paste[]. These actions target the active part (as indicated by a
 shaded title bar) . It is very common for an editor to add items to this
 menu. However, it is uncommon for an action set to add actions to the
-Edit Menu; action sets tend to be global in nature, while the edit menu
+menu:Edit[] menu; action sets tend to be global in nature, while the edit menu
 targets a specific part, and interaction with the data in that part.
 
-The Navigate menu contains navigational actions such as Go to, Open
-Type, Show In, to enable users to browse laterally or drill down in
+The menu:Navigate[] menu contains navigational actions such as menu:Go to[], menu:Open
+Type[], menu:Show In[], to enable users to browse laterally or drill down in
 their code.
 
-The Project menu contains actions which apply to the contents of the
-workspace, such as Rebuild All and Open Type. An action set may add
+The menu:Project[] menu contains actions which apply to the contents of the
+workspace, such as menu:Rebuild All[] and menu:Open Type[]. An action set may add
 actions which search the entire workspace, generate project info and so
 on.
 
-The Window menu contains actions which apply to window management and
-system preferences. It also contains the Open Perspective and Show View
+The menu:Window[] menu contains actions which apply to window management and
+system preferences. It also contains the menu:Open Perspective[] and menu:Show View[]
 submenu which contains actions affecting the state of the window
 contents.
 
@@ -1513,10 +1512,10 @@ TIP: [[guideline9.6]]*Guideline 9.6* +
 Use an action set to share a set of actions which are useful in two or
 more views or editors.
 
-The set of visible command in a window may be changed by invoking Window
-> Customize Perspective. Within the resulting dialog, you can add or
-remove items from the File > New menu, Window > Open Perspective menu,
-or Window > Show View menu. It is also possible to add or remove action
+The set of visible command in a window may be changed by invoking menu:Window[Customize Perspective].
+Within the resulting dialog, you can add or
+remove items from the menu:File[New menu], menu:Window[Open Perspective] menu,
+or menu:Window[Show View] menu. It is also possible to add or remove action
 sets. In general, the visible action sets should be controlled by the
 user, and should never be changed programmatically. There are two
 reasons for this. First, users like to control the environment, not be
@@ -1528,13 +1527,13 @@ Let the user control the visible action sets. Don't try to control it
 for them.
 
 A common example of an command which may be added to an action set is
-Navigate > Open Type. This command can be used to open an editor on a
+menu:Navigate[Open Type]. This command can be used to open an editor on a
 type which is not visible in the current window, and is a form of
 lateral navigation. In general, all Open actions which take the form
-should be added to the Navigate menu, for consistency.
+should be added to the menu:Navigate[] menu, for consistency.
 
 TIP: [[guideline9.8]]*Guideline 9.8* +
-"Open Object" actions must appear in the Navigate pulldown menu of the
+"Open Object" actions must appear in the menu:Navigate[] pulldown menu of the
 window.
 
 ==== Status Bar

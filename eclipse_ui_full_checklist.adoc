@@ -367,11 +367,11 @@ TIP: *Guideline 7.4* +
 A view must be able to be opened in more than one perspective.
 
 TIP: *Guideline 7.5* +
-A view can be opened from the Window > Show View menu.
+A view can be opened from the menu:Window[Show View] menu.
 
 TIP: *Guideline 7.6* +
 The view label in the title bar must be prefixed with the label of the
-view in the Perspective > Show View menu.
+view in the menu:Perspective[Show View] menu.
 
 TIP: *Guideline 7.7* +
 If a view contains more than one control, it may be advisable to split
@@ -474,7 +474,7 @@ If a new perspective is opened, it should be opened within the current
 window, or in a new window, depending on the user preference.
 
 TIP: *Guideline 8.10* +
-The list of shortcuts added to the New, Open Perspective, and Show View
+The list of shortcuts added to the menu:New[], menu:Open Perspective[], and menu:Show View[]
 menus should be at most 7 plus / minus 2 items.
 
 ==== Windows
@@ -507,7 +507,7 @@ Let the user control the visible action sets. Don't try to control it
 for them.
 
 TIP: *Guideline 9.8* +
-"Open Object" actions must appear in the Navigate pulldown menu of the
+"Open Object" actions must appear in the menu:Navigate[] pulldown menu of the
 window.
 
 TIP: *Guideline 9.9* +
@@ -562,7 +562,7 @@ IProjectActionFilter.java to control the visibility of context menu
 actions in the Navigator.
 
 TIP: *Guideline 13.3* +
-Use a "Navigate -> Show In Navigator" command in each view, to link
+Use a menu:Navigate[Show In Navigator] command in each view, to link
 resources back to the Navigator.
 
 ==== The Tasks View

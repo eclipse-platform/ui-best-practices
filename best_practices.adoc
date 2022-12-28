@@ -36,7 +36,7 @@ In addition to supporting the standard content assist in an editor,
 editors should exploit the use of Quick Fixes and Quick Assist. Use the
 light bulb marker on the left hand side margin to provide suggestions on
 how to fix problems with the source code. Users can click on the light
-bulb or use Edit -> Quick Fix menu item to invoke this command.
+bulb or use menu:Edit[Quick Fix] menu item to invoke this command.
 
 image::images/Bp3.gif[bp3]
 

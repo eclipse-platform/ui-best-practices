@@ -83,29 +83,29 @@ book. It exists within a window along with any number of other
 perspectives and, like a page within a book, only one perspective is
 visible at any time.
 
-The Workbench's main menu bar usually contains the File, Edit, Navigate,
-Project, Window, Help top-level menus. Other top-level menus that are in
-between the Edit and Project menu are typically context specific, based
+The Workbench's main menu bar usually contains the menu:File[], menu:Edit[], menu:Navigate[],
+menu:Project[], menu:Window[], menu:Help[] top-level menus. Other top-level menus that are in
+between the menu:Edit[] and menu:Project[] menu are typically context specific, based
 on the current active perspective, front most editor (whether active or
 not), and active view..
 
-In the File menu you will find a New submenu, which contains menu items
-for Project, Folder, and File creation. The File menu also contains menu
-items for Import and Export, which are used to import files into the
-Workbench, and export them out again. In the Edit menu, you will find
-familiar commands like Cut, Copy, Paste, and Delete. These commands are
+In the menu:File[] menu you will find a menu:New[] submenu, which contains menu items
+for Project, Folder, and File creation. The menu:File[] menu also contains menu
+items for menu:Import[] and menu:Export[], which are used to import files into the
+Workbench, and export them out again. In the menu:Edit[] menu, you will find
+familiar commands like menu:Cut[], menu:Copy[], menu:Paste[], and menu:Delete[]. These commands are
 known as global commands, and target the active part. In other words, if
 the Delete command is invoked with the Navigator active, the actual
-implementation is performed by the Navigator. In the Project menu, you
-will find project related commands such as Open project, Close project
-and Rebuild project are available. In the Run menu, you will find
+implementation is performed by the Navigator. In the menu:Project[] menu, you
+will find project related commands such as menu:Open project[], menu:Close project[]
+and menu:Rebuild project[] are available. In the menu:Run[] menu, you will find
 commands related to running and debugging application code, and
-launching external tools such Ant scripts. In the Window menu, you will
-find the Open Perspective submenu to open different perspectives to suit
+launching external tools such Ant scripts. In the menu:Window[] menu, you will
+find the menu:Open Perspective[] submenu to open different perspectives to suit
 to needs of your development tasks. You will find perspective layout
-management menu items. You will also find the Show View submenu to add
+management menu items. You will also find the menu:Show View[] submenu to add
 views to the current Workbench window. In addition, you will find the
-Preferences menu item, which is used to modify the functional
+menu:Preferences[] menu item, which is used to modify the functional
 preferences of the Workbench.
 
 As a plug-in developer, you can contribute new views, editors, wizards,
@@ -515,7 +515,7 @@ project level instead.
 
 Sometimes there is value in adding a view-specific item to an object’s
 context menu, if the action of the menu item can be customized in some
-way for the object. For example, a generic “New” menu item might open up
+way for the object. For example, a generic menu:New[] menu item might open up
 a new editor pre-populated with item(s) related to the selected object.
 Be sure to keep the item order on a context menu as similar as possible
 for different types of object. This similarity will maximize consistency
