@@ -7,7 +7,7 @@ In a dialog or wizard, a shortcut key should be defined for each button
 or control. The shortcut key should be displayed with an underline
 beneath the appropriate shortcut character.
 
-TIP: [guideline18.1]*Guideline 18.1* +
+TIP: [[guideline18.1]]*Guideline 18.1* +
 All of the features provided by a tool should be accessible using a
 mouse or the keyboard.
 

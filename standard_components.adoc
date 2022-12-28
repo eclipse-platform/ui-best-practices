@@ -9,7 +9,7 @@ As a plug-in developer, you should try to add new actions to the
 existing parts. This leads to better integration with the platform, and
 the existing knowledge of the user.
 
-TIP: [guideline12.1]*Guideline 12.1* +
+TIP: [[guideline12.1]]*Guideline 12.1* +
 If appropriate, add actions to standard components of Eclipse using the
 plug-in registry.
 
@@ -18,7 +18,7 @@ Properties, Tasks, and Bookmark views, make sure your specialized
 components carry over the base component's characteristics (drag and
 drop support, keyboard navigation, selection behaviour, etc.)
 
-TIP: [guideline12.2]*Guideline 12.2* +
+TIP: [[guideline12.2]]*Guideline 12.2* +
 If you subclass or copy any of the standard components, always carry
 over the standard components' characteristics.
 
@@ -32,7 +32,7 @@ may contribute new actions to the menu, toolbar, and context menu.
 
 This is done by adding an extension to the plug-in registry.
 
-TIP: [guideline13.1]*Guideline 13.1* +
+TIP: [[guideline13.1]]*Guideline 13.1* +
 Add actions to the Navigator View menu, toolbar, and context menu using
 the plug-in registry.
 
@@ -77,7 +77,7 @@ public interface IProjectActionFilter extends IResourceActionFilter {
 }
 ----
 
-TIP: [guideline13.2]*Guideline 13.2* +
+TIP: [[guideline13.2]]*Guideline 13.2* +
 Use the attributes defined in IResourceActionFilter.java and
 IProjectActionFilter.java to control the visibility of context menu
 actions in the Navigator.
@@ -97,7 +97,7 @@ A "Navigate -> Show In Navigator" command should be included in any view
 where a resource may appear. If invoked, the command should select and
 reveal the resource in the navigator.
 
-TIP: [guideline13.3]*Guideline 13.3* +
+TIP: [[guideline13.3]]*Guideline 13.3* +
 Use a "Navigate -> Show In Navigator" command in each view, to link
 resources back to the Navigator.
 
@@ -115,7 +115,7 @@ registry.
 A new task, error or warning can be created using the Marker Manager
 services from the Core Resources Management plugin.
 
-TIP: [guideline14.1]*Guideline 14.1* +
+TIP: [[guideline14.1]]*Guideline 14.1* +
 Add markers (tasks, errors and warnings) to the Tasks view using the
 Marker Manager services from the Core Resources Management plugin.
 
@@ -124,7 +124,7 @@ completion status, priority, description, resource, and line number. The
 description text of each marker should be short and concise, so that it
 will fit in the status line of Eclipse.
 
-TIP: [guideline14.2]*Guideline 14.2* +
+TIP: [[guideline14.2]]*Guideline 14.2* +
 The description text of each marker should be short and concise, so that
 it will fit in the status line of Eclipse.
 
@@ -133,7 +133,7 @@ it will fit in the status line of Eclipse.
 You can contribute new actions to the menu, toolbar, and context menu.
 This is done by adding an extension to the plug-in registry.
 
-TIP: [guideline14.3]*Guideline 14.3* +
+TIP: [[guideline14.3]]*Guideline 14.3* +
 Add actions to the Tasks view menu, toolbar, and context menu using the
 plug-in registry.
 
@@ -159,7 +159,7 @@ public interface IMarkerActionFilter extends IActionFilter {
 }
 ----
 
-TIP: [guideline14.4]*Guideline 14.4* +
+TIP: [[guideline14.4]]*Guideline 14.4* +
 Use the attributes defined in IMarkerActionFilter.java to control the
 visibility of context menu actions in the Tasks view.
 
@@ -180,7 +180,7 @@ this, see xref:component_dev.adoc#editors[Editors].
 Plug-ins should support F1 keyboard command and link it to an infopop
 that gives a detailed description of the selected item in the Task view.
 
-TIP: [guideline14.5]*Guideline 14.5* +
+TIP: [[guideline14.5]]*Guideline 14.5* +
 Support F1 keyboard command and link it to an infopop that gives a
 detailed description of the selected item in the Task view.
 
@@ -327,7 +327,7 @@ compilation are exposed as a group of preference pages in the Preference
 Dialog. If these preferences are changed, they affect the entire Java
 plug-in.
 
-TIP: [guideline15.1]*Guideline 15.1* +
+TIP: [[guideline15.1]]*Guideline 15.1* +
 Global options should be exposed within the Preferences Dialog.
 
 A preference page should not be used to expose the local options for a
@@ -336,7 +336,7 @@ user will look to the menu and toolbar of the control itself to
 customize it. If these options are exposed in the Preference Dialog, it
 will blur the location of customization, and confuse the user.
 
-TIP: [guideline15.2]*Guideline 15.2* +
+TIP: [[guideline15.2]]*Guideline 15.2* +
 Expose the preferences for a particular view, editor or window in the
 view itself, via a menu or tool item.
 
@@ -348,7 +348,7 @@ contain all of the options for the plug-in, until the number of options
 starts to overload the page. At that point a nested design for
 preference pages should be adopted.
 
-TIP: [guideline15.3]*Guideline 15.3* +
+TIP: [[guideline15.3]]*Guideline 15.3* +
 Start out with a single preference page. Then evolve to more if you need
 to.
 
@@ -364,7 +364,7 @@ There is no reason to set the focus in a preference page, because focus
 is always set to the tree, by the Eclipse platform, after the preference
 page is made visible.
 
-TIP: [guideline15.4]*Guideline 15.4* +
+TIP: [[guideline15.4]]*Guideline 15.4* +
 If you create a preference group, use the root page for frequently used
 preferences, or those preferences which have wide spread effect.
 Specialize within the sub pages. The root preference page should not be
@@ -375,7 +375,7 @@ views into existing preference, wizard, and view categories where it
 makes sense, rather than the blind creation of new categories for
 itself.
 
-TIP: [guideline15.5]*Guideline 15.5* +
+TIP: [[guideline15.5]]*Guideline 15.5* +
 Attempt to integrate plug-in preferences, wizards, and views into
 existing categories for a new plug-in first, before considering the
 creation of a new category.

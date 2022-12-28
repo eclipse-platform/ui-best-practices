@@ -1566,7 +1566,7 @@ The Properties view is commonly used to edit the properties for a set of
 objects in an editor, where quick access to the properties is important,
 and you switch from one object to another quickly.
 
-TIP: [guideline10.1]*Guideline 10.1* +
+TIP: [[guideline10.1]]*Guideline 10.1* +
 Use the Properties view to edit the properties of an object when quick
 access is important, and you will switch quickly from object to object.
 
@@ -1576,7 +1576,7 @@ properties offered by the Properties view becomes worthless. In this
 situation, where quick access is not possible, a Properties Dialog
 should be used.
 
-TIP: [guideline10.2]*Guideline 10.2* +
+TIP: [[guideline10.2]]*Guideline 10.2* +
 Use a Properties Dialog to edit the properties of an object which are
 expensive to calculate.
 
@@ -1586,7 +1586,7 @@ disable the option to change another. In this situation, a Properties
 Dialog may be a better way to represent the semantic link between these
 properties.
 
-TIP: [guideline10.3]*Guideline 10.3* +
+TIP: [[guideline10.3]]*Guideline 10.3* +
  Use a Properties Dialog to edit the properties of an object which
 contain complex relationships to one another.
 
@@ -1594,7 +1594,7 @@ When both the Properties view and the Properties Dialog are used to
 present and edit properties of an object, the Properties Dialog should
 contain the superset of items shown in the Properties view.
 
-TIP: [guideline10.4]*Guideline 10.4* +
+TIP: [[guideline10.4]]*Guideline 10.4* +
 Properties Dialog should contain the superset of items shown in the
 Properties view.
 
@@ -1699,7 +1699,7 @@ state of the selected item. However, the current selection should be set
 to a given item when its check state is changed (e.g., users click on
 the checkbox associated with the item).
 
-TIP: [guideline11.1]*Guideline 11.1* +
+TIP: [[guideline11.1]]*Guideline 11.1* +
 For Tree and Table widgets that have a checkbox associated with a cell
 item, changing the current selection should not automatically change the
 check state of the selected item. However, the current selection should

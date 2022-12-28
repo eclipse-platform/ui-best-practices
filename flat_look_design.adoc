@@ -16,7 +16,7 @@ is usually a good fit for extensive property and configuration editing,
 such as editing Eclipse's plugin.xml file, and J2EE Web application's
 deployment descriptors.
 
-TIP: [guideline16.1]*Guideline 16.1* +
+TIP: [[guideline16.1]]*Guideline 16.1* +
 Use Flat Look design for user scenarios that involve extensive property
 and configuration editing.
 
@@ -31,7 +31,7 @@ which takes users back to the overview page
 
 image::images/Flatlook3.gif[flatlook3]
 
-TIP: [guideline16.2]*Guideline 16.2* +
+TIP: [[guideline16.2]]*Guideline 16.2* +
 Have the core sections on the overview page expanded, and provide a
 "Home" icon on other pages to take users back to the overview page.
 
@@ -56,6 +56,6 @@ content editor for the organization of the tree view.
 
 image::images/Flatlook6.gif[flatlook6]
 
-TIP: [guideline16.3]*Guideline 16.3* +
+TIP: [[guideline16.3]]*Guideline 16.3* +
 Use grouping elements corresponding to tabs in the Flat Look content
 editor for the organization of the tree view in outline view.

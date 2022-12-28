@@ -39,6 +39,6 @@ IContributorResourceAdapter. For more information on the implementation
 of an IContributorResourceAdapter, refer to the
 https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fui%2FIContributorResourceAdapter.html[Eclipse Help Pages].
 
-TIP: [guideline17.1]*Guideline 17.1* +
+TIP: [[guideline17.1]]*Guideline 17.1* +
 Expose the resource for resource equivalent model objects using an
 IContributorResourceAdapter.
