@@ -32,3 +32,6 @@ That way the styles are automatically consistent.
 :sectnumlevels: 4
 // strip the leading underscore from generated ids (HTML anchors)
 :idprefix:
+// Enable section anchors in front of headlines.
+// https://asciidoctor.org/docs/user-manual/#anchors -->
+:sectanchors:
