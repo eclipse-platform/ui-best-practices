@@ -558,10 +558,10 @@ Previous to Eclipse 3.3, all wizard banner graphics were in GIF
   converted to PNG so that graphic blends to whatever background color
   it sits on.
 
-TIP: [guideline2.1]*Guideline 2.1 (3.x update)* +
+TIP: [[guideline2.1]]*Guideline 2.1 (3.x update)* +
 Follow the visual style established for Eclipse UI graphics.
 
-TIP: [guideline2.2]*Guideline 2.2 (3.x update)* +
+TIP: [[guideline2.2]]*Guideline 2.2 (3.x update)* +
 Use a common color palette as the basis for creating graphical elements.
 
 ==== Consistency & Reuse
@@ -607,7 +607,7 @@ Click link:media/core_wizard_concepts.zip[ *here*] or on the image above to
 download the "core_wizard_concepts.ai" and the
 "core_wizard_concepts.psd" files.
 
-TIP: [guideline2.3]*Guideline 2.3* +
+TIP: [[guideline2.3]]*Guideline 2.3* +
 Re-use the core visual concepts to maintain consistent representation
 and meaning across Eclipse plug-ins.
 
@@ -639,7 +639,7 @@ Click link:media/common_wizard_elements.zip[ *here*] to download the
   banner graphics and the "common_wizard_elements.psd" raster-based file
   for cutting them.
 
-TIP: [guideline2.4]*Guideline 2.4* +
+TIP: [[guideline2.4]]*Guideline 2.4* +
 Re-use existing graphics from the Common Elements library or other
 Eclipse-based plugins.
 
@@ -756,7 +756,7 @@ Adobe Photoshop 7.0 and above and Adobe Illustrator 9.0 and above. If
 you use earlier versions of these tools, the instructions may not work
 exactly as described.
 
-TIP: [guideline2.5]*Guideline 2.5* +
+TIP: [[guideline2.5]]*Guideline 2.5* +
 Create and implement the graphical versions of the disabled state for
 toolbar and local toolbar icons.
 
@@ -891,7 +891,7 @@ wizard graphics are transferred, Save the file. You are ready to cut.
 xref:#cutting_actions[Cutting Actions] section for instructions on
 cutting wizard banner graphics.
 
-TIP: [guideline2.6]*Guideline 2.6* +
+TIP: [[guideline2.6]]*Guideline 2.6* +
 Use the design templates for creating and maintaining UI graphics to
 facilitate easy file sharing and efficient production of a large set of
 graphics.
@@ -1003,7 +1003,7 @@ XPM is used for the following type of graphics in Eclipse-based tooling:
 * Product icons (Linux)
 
 
-TIP: [guideline2.7]*Guideline 2.7* +
+TIP: [[guideline2.7]]*Guideline 2.7* +
 Use the file format specified for the graphic type.
 
 ==== Graphic Types
@@ -1421,7 +1421,7 @@ Folder name:: wizban
 Size:: 75 x 66 pixels
 Format:: PNG
 
-TIP: [guideline2.8]*Guideline 2.8* +
+TIP: [[guideline2.8]]*Guideline 2.8* +
 Use the appropriate graphic type in the location it is designed for
 within the user interface.
 
@@ -1777,10 +1777,10 @@ image:images/spec_size_wiz.png[spec_size_wiz,title="fig:spec_size_wiz"]
 
 image:images/spec_size_wizsamp.png[spec_size_wizsamp,title="fig:spec_size_wizsamp"]
 
-TIP: [guideline2.9]*Guideline 2.9* +
+TIP: [[guideline2.9]]*Guideline 2.9* +
 Follow the specific size specifications for each type of graphic.
 
-TIP: [guideline2.10]*Guideline 2.10* +
+TIP: [[guideline2.10]]*Guideline 2.10* +
 Cut the graphics with the specific placement shown to ensure alignment
 in the user interface.
 
@@ -1871,7 +1871,7 @@ To ensure the last step works properly, make sure each wizard graphic
 
 image::images/imp_cut_wizards.png[imp_cut_wizards,title="fig:imp_cut_wizards"]
 
-TIP: [guideline2.11]*Guideline 2.11* + 
+TIP: [[guideline2.11]]*Guideline 2.11* + 
 Use the cutting actions provided to increase the speed and efficiency of
 cutting a large number of graphics.
 
@@ -1919,23 +1919,23 @@ suffix. For example, file_pal, file_pal24, file_pal32, where
 
 image::images/name-conv-tabl.jpg[name-conv-tabl.jpg]
 
-TIP: [guideline2.12]*Guideline 2.12* +
+TIP: [[guideline2.12]]*Guideline 2.12* +
 Abbreviate file name instead of using the full icon name, e.g., New
 Interface becomes "newint".
 
-TIP: [guideline2.13]*Guideline 2.13* +
+TIP: [[guideline2.13]]*Guideline 2.13* +
 Use lower case characters in your file names, e.g., DTD becomes "dtd".
 
-TIP: [guideline2.14]*Guideline 2.14* +
+TIP: [[guideline2.14]]*Guideline 2.14* +
 Use 10 characters or fewer in your file names if possible (underscores
 count as a character).
 
-TIP: [guideline2.15]*Guideline 2.15* +
+TIP: [[guideline2.15]]*Guideline 2.15* +
 Use a file name suffix that describes its location or function in the
 tool, e.g., newint_wiz, or its size in the case of icons that require
 multiple sizes.
 
-TIP: [guideline2.16]*Guideline 2.16* +
+TIP: [[guideline2.16]]*Guideline 2.16* +
 Keep the original file names provided.
 
 ==== Folder Structure
@@ -2010,16 +2010,16 @@ Find out from your development contact if this extra folder is required.
 development for drag and drop elements. These are cursor mask icons for
 moving views within the application.
 
-TIP: [guideline2.17]*Guideline 2.17* +
+TIP: [[guideline2.17]]*Guideline 2.17* +
 Follow the predefined directory structure and naming convention.
 
-TIP: [guideline2.18]*Guideline 2.18* +
+TIP: [[guideline2.18]]*Guideline 2.18* +
 Keep the original directory names provided.
 
-TIP: [guideline2.19]*Guideline 2.19* +
+TIP: [[guideline2.19]]*Guideline 2.19* +
 Minimize duplication of graphics within a plugin by keeping all graphics
 in one, or few, first level user interface directories.
 
-TIP: [guideline2.20]*Guideline 2.20* +
+TIP: [[guideline2.20]]*Guideline 2.20* +
 Use the active, enabled, and disabled states provided.
 

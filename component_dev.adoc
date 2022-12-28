@@ -41,7 +41,7 @@ a toolbar.
 
 image::images/tooltipCaps.png[tooltipCaps]
 
-TIP: [guideline3.1]*Guideline 3.1* +
+TIP: [[guideline3.1]]*Guideline 3.1* +
 Each command must have a label, tool tip, and full color image. The
 label and tool tip must use Headline style capitalization.
 
@@ -57,7 +57,7 @@ Hierarchy button is shown using one tool tips text.
 
 image::images/goodTooltips.png[goodTooltips]
 
-TIP: [guideline3.2]*Guideline 3.2* +
+TIP: [[guideline3.2]]*Guideline 3.2* +
 The command tooltip should describe the result of the command, not the
 current state of the command. Use the text same as that for the command
 label.
@@ -73,7 +73,7 @@ When creating an object inside a resource (e.g., a tag in an XML file; a
 method or field in a Java class), the term "Add" should be used; the
 user is adding something to an existing resource.
 
-TIP: [guideline3.3]*Guideline 3.3* +
+TIP: [[guideline3.3]]*Guideline 3.3* +
 Adopt the labeling terminology of the workbench for New, Delete and Add
 commands.
 
@@ -82,7 +82,7 @@ commands.
 An command should be enabled only if it can be completed successfully.
 If this is not the case, the command should be disabled.
 
-TIP: [guideline3.4]*Guideline 3.4* +
+TIP: [[guideline3.4]]*Guideline 3.4* +
 An command should be enabled only if it can be completed successfully.
 
 Command enablement should be quick to calculate. If it is too expensive
@@ -91,7 +91,7 @@ optimistically enabled. If the command is invoked, it should calculate
 the real enablement, and show a dialog to the user if it is not
 available.
 
-TIP: [guideline3.5]*Guideline 3.5* +
+TIP: [[guideline3.5]]*Guideline 3.5* +
 Command enablement should be quick. If command enablement cannot be
 quick, enable the command optimistically and display an appropriate
 message if the command is invoked, but cannot be completed.
@@ -110,7 +110,7 @@ where information is required. If the dialog provides simple feedback,
 or requires simple confirmation from the user, the initial focus may
 also be assigned to the default button.
 
-TIP: [guideline4.1]*Guideline 4.1* +
+TIP: [[guideline4.1]]*Guideline 4.1* +
 When a dialog opens, set the initial focus to the first input control in
 the container. If there are no input controls, the initial focus should
 be assigned to the default button.
@@ -133,7 +133,7 @@ order, for moving objects from the source the selected buckets.
 
 image::images/slushBucket.png[slushBucket]
 
-TIP: [guideline4.2]*Guideline 4.2*
+TIP: [[guideline4.2]]*Guideline 4.2*
 Slush Bucket widget (or Twin Box) should flow from left to right with
 the source objects on the left hand side. It should have the control
 buttons in this order: 'Add ->', '', '
@@ -146,7 +146,7 @@ execution of any task involving a sequential series of steps. A wizard
 should be used if there are many steps in the task, and they must be
 completed in a specific order.
 
-TIP: [guideline5.1]*Guideline 5.1* +
+TIP: [[guideline5.1]]*Guideline 5.1* +
 Use a wizard for any task consisting of many steps, which must be
 completed in a specific order.
 
@@ -167,7 +167,7 @@ should appear.
 
 image::images/wizardAppearance.png[wizardAppearance]
 
-TIP: [guideline5.2]**Guideline 5.2** +
+TIP: [[guideline5.2]]**Guideline 5.2** +
 Each wizard must contain a header with a banner graphic and a text area
 for user feedback. It must also contain Back, Next, Finish, and Cancel
 buttons in the footer.
@@ -185,7 +185,7 @@ user hasn't done anything yet.
 
 image::images/badWizardInit.png[badWizardInit]
 
-TIP: [guideline5.3]**Guideline 5.3** +
+TIP: [[guideline5.3]]**Guideline 5.3** +
 Start the wizard with a prompt, not an error message.
 
 The initial state of the wizard should be derived from the context where
@@ -202,7 +202,7 @@ file.
 
 image::images/wizardFieldPopulation.png[wizardFieldPopulation]
 
-TIP: [guideline5.4]**Guideline 5.4** +
+TIP: [[guideline5.4]]**Guideline 5.4** +
 Seed the fields within the wizard using the current workbench state.
 
 ==== Validation of Data
@@ -225,11 +225,11 @@ Error messages should be displayed only when user input is invalid.
 
 image::images/wizardErrorMsgs2.png[wizardErrorMsgs2]
 
-TIP: [guideline5.5]*Guideline 5.5* + 
+TIP: [[guideline5.5]]*Guideline 5.5* + 
 Validate the wizard data in tab order. Display a prompt when information
 is absent, and an error when information is invalid.
 
-TIP: [guideline5.6]*Guideline 5.6* +
+TIP: [[guideline5.6]]*Guideline 5.6* +
 Enable the Next / Finish buttons only if all required information in the
 dialog is present and valid.
 
@@ -239,7 +239,7 @@ as part of the error text in the wizard's header area.
 
 image::images/wizardMsgs.png[wizardMsgs]
 
-TIP: [guideline5.7]*Guideline 5.7* +
+TIP: [[guideline5.7]]*Guideline 5.7* +
 Remove all programming message ID's from wizard text.
 
 ==== Browse Buttons
@@ -255,7 +255,7 @@ class. This pattern should be used whenever a link will be established
 between a new object and an old one. The "Browse..." button should be
 located to the right of the edit field.
 
-TIP: [guideline5.8]**Guideline 5.8** +
+TIP: [[guideline5.8]]**Guideline 5.8** +
 Use a Browse Button whenever an existing object is referenced in a
 wizard.
 
@@ -281,7 +281,7 @@ readme.html automatically upon project creation. This will give users an
 immediate overview of the example: what it does, prerequisites,
 limitations, steps to take, and so on.
 
-TIP: [guideline5.9]*Guideline 5.9* +
+TIP: [[guideline5.9]]*Guideline 5.9* +
 If a new file is created, open the file in an editor. If a group of
 files are created, open the most important, or central file in an
 editor. Open the readme.html file upon creation of an example project.
@@ -295,7 +295,7 @@ without prompting. If users want to switch automatically in the future,
 they can choose "Do not show this message again" in the confirmation
 dialog.
 
-TIP: [guideline5.10]*Guideline 5.10* +
+TIP: [[guideline5.10]]*Guideline 5.10* +
 If a new project is created, prompt users and change the active
 perspective to suit the project type.
 
@@ -304,7 +304,7 @@ should select and reveal the new object in the appropriate view. This
 provides concrete evidence to the user that, yes, the new object was
 created and now exists.
 
-TIP: [guideline5.11]*Guideline 5.11* +
+TIP: [[guideline5.11]]*Guideline 5.11* +
 If a new object is created, select and reveal the new object in the
 appropriate view.
 
@@ -326,7 +326,7 @@ well.
 
 image::images/goodParentCreation.png[goodParentCreation]
 
-TIP: [guideline5.12]*Guideline 5.12* +
+TIP: [[guideline5.12]]*Guideline 5.12* +
 Create folder objects in a wizard if reasonable defaults can be defined.
 
 ==== Terminology
@@ -338,7 +338,7 @@ addition, use the "name" suffix (uncapitalized) and no other prefix for
 the input field label. For example, use "Project name" or "Folder name"
 but not "Project Name" or "Server Project name".
 
-TIP: [guideline5.13]*Guideline 5.13* +
+TIP: [[guideline5.13]]*Guideline 5.13* +
 Use the term "Project name" for the input field label when the item must
 be a Project; otherwise, use the term "Folder name". Do not qualify the
 term.
@@ -350,7 +350,7 @@ interact with the primary content, which may be a document or data
 object. In every case, this content is the primary focus of attention
 and a reflection of the primary task.
 
-TIP: [guideline6.1]**Guideline 6.1** +
+TIP: [[guideline6.1]]**Guideline 6.1** +
 Use an editor to edit or browse a file, document, or other primary
 content.
 
@@ -363,7 +363,7 @@ appear in the editor tab. The modifications should be buffered within
 the edit model, until such a time as the user explicitly saves them. At
 that point, the modifications should be committed to the model storage.
 
-TIP: [guideline6.2]**Guideline 6.2** +
+TIP: [[guideline6.2]]**Guideline 6.2** +
 Modifications made in an editor should follow an open-save-close
 lifecycle model.
 
@@ -371,14 +371,14 @@ An editor is document or input-centric. Each editor has an input, and
 only one editor can exist for each editor input within a page. This
 policy has been designed to simplify part management.
 
-TIP: [guideline6.3]**Guideline 6.3** +
+TIP: [[guideline6.3]]**Guideline 6.3** +
 Only one instance of an editor may exist, for each editor input, within
 a perspective.
 
 In addition, it should be possible to open a separate instance of an
 editor for each different input.
 
-TIP: [guideline6.4]**Guideline 6.4** +
+TIP: [[guideline6.4]]**Guideline 6.4** +
 It must be possible to open a separate instance of an editor for each
 different input.
 
@@ -389,7 +389,7 @@ not with the name of the editor.
 
 image::images/editorTitles.png[editorTitles]
 
-TIP: [guideline6.5]*Guideline 6.5* +
+TIP: [[guideline6.5]]*Guideline 6.5* +
 The editor should be labeled with the name of the file, document, or
 input being edited.
 
@@ -399,7 +399,7 @@ plugin file and html editors.
 
 Tab labels should be kept to one word, and two words at most.
 
-TIP: [guideline6.6]*Guideline 6.6* +
+TIP: [[guideline6.6]]*Guideline 6.6* +
 In multipage editors, use a tab control for page activation.Tab labels
 should be kept to one word, and two words at most.
 
@@ -411,7 +411,7 @@ menu bar, for accessibility and clarity. Exceptions are for the obvious
 commands, e.g., basic navigations such as next / previous character,
 line, word.
 
-TIP: [guideline6.7]**Guideline 6.7** +
+TIP: [[guideline6.7]]**Guideline 6.7** +
 All of the commands, except for the obvious commands, available in the
 editor should be added to the window menu bar.
 
@@ -425,7 +425,7 @@ Eclipse and better ease of use.
 menus) |Actions to control what you see in the editor.
 |=======================================================================
 
-TIP: [guideline6.8]*Guideline 6.8* +
+TIP: [[guideline6.8]]*Guideline 6.8* +
 Use the standard format for editor contributions in the window menu bar.
 
 The window menu bar contains a number of global commands, such as Cut,
@@ -461,7 +461,7 @@ public static final String [] GLOBAL_ACTIONS = {
 };
 ----
 
-TIP: [guideline6.9]**Guideline 6.9** +
+TIP: [[guideline6.9]]**Guideline 6.9** +
 If an editor has support for Cut, Copy, Paste, or any of the global
 commands, these commands must be executable from the same commands in
 the window menu bar and toolbar.
@@ -474,7 +474,7 @@ editor. Any command which appears in the toolbar must also appear in the
 menu, but there is no need to duplicate every command in the menu within
 the toolbar.
 
-TIP: [guideline6.10]*Guideline 6.10* +
+TIP: [[guideline6.10]]*Guideline 6.10* +
 Fill the editor toolbar with the most commonly used items in the view
 menu.
 
@@ -496,7 +496,7 @@ In a text editor, you may assume that there is only one type of
 selection: text. In this case, the contents of the context menu will
 remain consistent for any selection in the editor.
 
-TIP: [guideline6.11]*Guideline 6.11*
+TIP: [[guideline6.11]]*Guideline 6.11*
 Fill the context menu with selection oriented commands.
 
 For consistency with other editors in Eclipse, each editor should adopt
@@ -514,7 +514,7 @@ kept distinct from one another through the use of separators.
 |Other Plugin Additions
 |======================
 
-TIP: [guideline6.12]*Guideline 6.12* +
+TIP: [[guideline6.12]]*Guideline 6.12* +
 Use the standard format for editor context menus.
 
 For good spatial navigation, fill the context menu with a fixed set of
@@ -523,7 +523,7 @@ the enablement state of each command should be determined using the
 selected object state. In doing so, you establish a consistency which
 makes the menu more predictable, and easier to navigate.
 
-TIP: [guideline6.13]*Guideline 6.13* +
+TIP: [[guideline6.13]]*Guideline 6.13* +
 Fill the context menu with a fixed set of commands for each selection
 type, and then enable or disable each to reflect the selection state.
 
@@ -547,10 +547,10 @@ more information on the implementation of this concept, refer to
 https://www.eclipse.org/articles/viewArticle/ViewArticle2.html[Creating
 an Eclipse View.]
 
-TIP: [guideline6.14]*Guideline 6.14* +
+TIP: [[guideline6.14]]*Guideline 6.14* +
 Register all context menus in the editor with the platform.
 
-TIP: [guideline6.15]*Guideline 6.15* +
+TIP: [[guideline6.15]]*Guideline 6.15* +
 Implement an Command Filter for each object type in the editor.
 
 ==== Resource Deletion
@@ -563,7 +563,7 @@ resource depends on whether the editor has any unsaved changes.
 If the editor does not contain any changes since the resource was last
 saved then the editor should be immediately closed.
 
-TIP: [guideline6.16]*Guideline 6.16* +
+TIP: [[guideline6.16]]*Guideline 6.16* +
 If the input to an editor is deleted, and the editor contains no
 changes, the editor should be closed.
 
@@ -574,7 +574,7 @@ is a sample of the dialog which should be displayed:
 
 image::images/fileDeletedDialog.png[fileDeletedDialog]
 
-TIP: [guideline6.17]*Guideline 6.17* +
+TIP: [[guideline6.17]]*Guideline 6.17* +
 If the input to an editor is deleted, and the editor contains changes,
 the editor should give the user a chance to save their changes to
 another location, and then close.
@@ -587,7 +587,7 @@ the resource name presented in the editor tab:
 
 image::images/dirtyEditor.png[dirtyEditor]
 
-TIP: [guideline6.18]*Guideline 6.18* +
+TIP: [[guideline6.18]]*Guideline 6.18* +
 If the resource is dirty, prefix the resource name presented in the
 editor tab with an asterisk.
 
@@ -609,7 +609,7 @@ browse the contents within an editor. If the file is read-only, the File
 enabled. In the status bar area, "Read-only" should be shown instead of
 the default "Writable" message.
 
-TIP: [guideline6.19]*Guideline 6.19* +
+TIP: [[guideline6.19]]*Guideline 6.19* +
 Treat read-only editor input as you would any other input. Enable the
 Save As if possible. Display "Read-only" in the status bar area.
 
@@ -636,7 +636,7 @@ screen, and will yield a structured outline. This structured outline
 makes it very easy to navigate through objects like a java file or html
 file.
 
-TIP: [guideline6.20]*Guideline 6.20* +
+TIP: [[guideline6.20]]*Guideline 6.20* +
 If the data within an editor is too extensive to see on a single screen,
 and will yield a structured outline, the editor should provide an
 outline model to the Outline view.
@@ -650,7 +650,7 @@ have the outline view updated.
 A context menu should be available, as appropriate, in the outline view
 which should support creation operations as appropriate.
 
-TIP: [guideline6.21]*Guideline 6.21* +
+TIP: [[guideline6.21]]*Guideline 6.21* +
 Notification about location between an editor and the Outline view
 should be two-way. A context menu should be available in the Outline
 view as appropriate.
@@ -669,7 +669,7 @@ image::images/errorsInOutline.png[errorsInOutline]
 For this to work, care must be taken to design icons with overlay in
 mind, so that glyphs can be applied to the ancestor's icon.
 
-TIP: [guideline6.22]*Guideline 6.22* +
+TIP: [[guideline6.22]]*Guideline 6.22* +
 An error or warning image should be added to items with the error or
 warning respectively. A container should have a red X if it there are
 errors on the container itself, a gray X if any of its descendents have
@@ -681,7 +681,7 @@ document. Once a task has been created, it appears in the Task view. If
 the task is selected, you may reopen the editor at the location defined
 in the Task.
 
-TIP: [guideline6.23]*Guideline 6.23* +
+TIP: [[guideline6.23]]*Guideline 6.23* +
 If appropriate, implement the "Add Task" feature in your editor.
 
 A bookmark object can also be used mark a location within a document.
@@ -689,7 +689,7 @@ Once a bookmark has been created, it appears in the Bookmarks view. If
 the bookmark is selected, you may reopen the editor at the location
 defined in the Task.
 
-TIP: [guideline6.24]*Guideline 6.24* +
+TIP: [[guideline6.24]]*Guideline 6.24* +
 If appropriate, implement the "Add Bookmark" feature in your editor.
 
 ==== Line Numbers
@@ -701,7 +701,7 @@ current line and column numbers should be shown in the status line
 (column number is optional). It's optional for the editor to show line
 numbers for each line in the editor itself.
 
-TIP: [guideline6.25]*Guideline 6.25*+
+TIP: [[guideline6.25]]*Guideline 6.25*+
 Editors with source lines of text should show the current line and
 optionally column numbers the status line. It's optional for the editor
 to show line numbers for each line in the editor itself.
@@ -715,7 +715,7 @@ be rendered upon the single-click.
 
 image::images/cellTableEditor.png[cellTableEditor]
 
-TIP: [guideline6.26]*Guideline 6.26* +
+TIP: [[guideline6.26]]*Guideline 6.26* +
 Table cell editors should support the single-click activation model, and
 in edit mode, they should render complex controls upon single-click.
 
@@ -743,7 +743,7 @@ image:images/cell3.png[]
 - when put in edit mode, it is possible to arrow key through the choices
 to make a selection without needing to invoke the drop-down
 
-TIP: [guideline6.27]*Guideline 6.27* +
+TIP: [[guideline6.27]]*Guideline 6.27* +
 Changes made in a table cell editor should be committed when a user
 clicks off the cell or hits the "Enter" key. Selection should be
 cancelled when user hits the "Esc" key.First letter navigation should be
@@ -755,7 +755,7 @@ If you are doing keystroke by keystroke validation in an editor, use red
 squiggles to underline the invalid content. When users move the mouse
 over the red squiggles, display the error text in a fly-over pop up box.
 
-TIP: [guideline6.28]*Guideline 6.28* +
+TIP: [[guideline6.28]]*Guideline 6.28* +
 When performing fine-grain error validation in an editor, use red
 squiggles to underline the invalid content. When users move the mouse
 over the red squiggles, display the error text in a fly-over pop up box.
@@ -763,7 +763,7 @@ over the red squiggles, display the error text in a fly-over pop up box.
 When the Save command is invoked in an editor, use the Problems view for
 showing errors which are persisted.
 
-TIP: [guideline6.29]*Guideline 6.29* +
+TIP: [[guideline6.29]]*Guideline 6.29* +
 Use the Problems view to show errors found when the Save command is
 invoked.
 
@@ -777,7 +777,7 @@ outside of the workbench, or back out of the Save operation. If desired,
 this user prompt can be invoked sooner such as when the editor regains
 the focus.
 
-TIP: [guideline6.30]*Guideline 6.30* +
+TIP: [[guideline6.30]]*Guideline 6.30* +
 If modifications to a resource are made outside of the workbench, users
 should be prompted to either override the changes made outside of the
 workbench, or back out of the Save operation when the Save command is
@@ -790,7 +790,7 @@ support role for the primary task. You use them to navigate a hierarchy
 of information, open an editor, or view properties for the active
 editor.
 
-TIP: [guideline7.1]*Guideline 7.1* +
+TIP: [[guideline7.1]]*Guideline 7.1* +
 Use a view to navigate a hierarchy of information, open an editor, or
 display the properties of an object.
 
@@ -809,7 +809,7 @@ only the active editor. It should not target the active view. This leads
 to a situation where the File > Save command is in contradiction to the
 Save command within the view.
 
-TIP: [guideline7.2]**Guideline 7.2** +
+TIP: [[guideline7.2]]**Guideline 7.2** +
 Modifications made within a view must be saved immediately.
 
 Within a perspective, only one instance of a particular view can be
@@ -818,7 +818,7 @@ The user opens a view by invoking Perspective > Show View. If, for any
 reason, they lose a view, or forget about its existence, they can simply
 invoke Perspective > Show view again to make the view visible.
 
-TIP: [guideline7.3]*Guideline 7.3* +
+TIP: [[guideline7.3]]*Guideline 7.3* +
 Only one instance of a view may exist in a perspective.
 
 In a multi-tasking world, humans often perform more than one task at a
@@ -827,7 +827,7 @@ perspective for each task. In reflection of this, a view must be able to
 be opened in more than one perspective. If only one instance of a view
 may exist, the ability to multi-task is taken away.
 
-TIP: [guideline7.4]*Guideline 7.4* +
+TIP: [[guideline7.4]]*Guideline 7.4* +
 A view must be able to be opened in more than one perspective.
 
 A view can be opened in two ways: by invoking Window > Show View > X
@@ -840,7 +840,7 @@ It should be possible to open any view from the Window > Show View menu,
 either as an explicit item within the menu, or as an item within the
 Window > Show View > Other... dialog.
 
-TIP: [guideline7.5]*Guideline 7.5* +
+TIP: [[guideline7.5]]*Guideline 7.5* +
 A view can be opened from the Window > Show View menu.
 
 ==== Appearance
@@ -854,7 +854,7 @@ the entry in the Show View menu, this means you cannot change the name
 of a view. However, you can add additional text to the view label, to
 clarify the state of the view.
 
-TIP: [guideline7.6]*Guideline 7.6* +
+TIP: [[guideline7.6]]*Guideline 7.6* +
 The view label in the title bar must be prefixed with the label of the
 view in the Perspective > Show View menu.
 
@@ -867,7 +867,7 @@ their needs arise. Special relationships can also be set up between
 these views to support the user task. In addition, this makes it easier
 for users to create a new perspective with a diverse set of views.
 
-TIP: [guideline7.7]*Guideline 7.7* +
+TIP: [[guideline7.7]]*Guideline 7.7* +
 If a view contains more than one control, it may be advisable to split
 it up into two or more views.
 
@@ -879,7 +879,7 @@ selection, or the state of another view. For instance, if the Outline
 view is opened, it will determine the active editor, query the editor
 for an outline model, and display the outline model.
 
-TIP: [guideline7.8]*Guideline 7.8* +
+TIP: [[guideline7.8]]*Guideline 7.8* +
 When a view first opens, derive the view input from the state of the
 perspective.
 
@@ -892,7 +892,7 @@ instance, if the Navigator view is opened, it will ask its perspective
 for the window input. The result is used as the initial input for the
 view.
 
-TIP: [guideline7.9]*Guideline 7.9**
+TIP: [[guideline7.9]]*Guideline 7.9**
 If a view displays a resource tree, consider using the window input as
 the root of visible information in the view.
 
@@ -905,7 +905,7 @@ put presentation commands in the context menu. For instance, the Sort
 and Filter commands within the Navigator view affect the presentation of
 resources, but do not affect the resources themselves.
 
-TIP: [guideline7.10]**Guideline 7.10** +
+TIP: [[guideline7.10]]**Guideline 7.10** +
 Use the view pulldown menu for presentation commands, not
 selection-oriented commands.
 
@@ -947,7 +947,7 @@ and Package Explorer)
 |Presentation commands from other plug-ins
 |=======================================================================
 
-TIP: [guideline7.11]*Guideline 7.11* +
+TIP: [[guideline7.11]]*Guideline 7.11* +
 Use the standard order of commands for view pulldown menus.
 
 
@@ -957,7 +957,7 @@ Any command which appears in the toolbar must also appear in the menu
 (either the context menu or the view menu), but there is no need to
 duplicate every command in the menu within the toolbar.
 
-TIP: [guideline7.12]**Guideline 7.12:**  +   
+TIP: [[guideline7.12]]**Guideline 7.12**  +   
 Put only the most commonly used commands on the toolbar. Any command on
 a toolbar must also appear in a menu, either the context menu or the
 view menu.
@@ -970,7 +970,7 @@ menu is opened, the context menu should contain only actions which are
 appropriate for the selection. Actions which affect the presentation of
 the view should not appear in the context menu.
 
-TIP: [guideline7.13]**Guideline 7.13** +
+TIP: [[guideline7.13]]**Guideline 7.13** +
 Fill the context menu with selection oriented actions, not presentation
 actions.
 
@@ -995,7 +995,7 @@ Navigate contains actions to refocus the view input, or reveal the view
 selection in another view. And the other categories are self
 explanatory.
 
-TIP: [guideline7.14]*Guideline 7.14* +
+TIP: [[guideline7.14]]*Guideline 7.14* +
 Use the standard order of commands for view context menus.
 
 For good spatial navigation of the menu, fill the context menu with a
@@ -1005,7 +1005,7 @@ using the selected object state. In doing so, you establish a
 consistency which makes the menu more predictable, and easier to
 navigate.
 
-TIP: [guideline7.15]*Guideline 7.15* +
+TIP: [[guideline7.15]]*Guideline 7.15* +
 Fill the context menu with a fixed set of commands for each selection
 type, and then enable or disable each to reflect the selection state.
 
@@ -1021,7 +1021,7 @@ menu using an action group(ActionGroup class), a Java class which
 populates the context menu. If this approach is used, the action group
 can be reused by other views where the same objects appear.
 
-TIP: [guideline7.16]*Guideline 7.16* +
+TIP: [[guideline7.16]]*Guideline 7.16* +
 If an object appears in more than one view, it should have the same
 context menu in each.
 
@@ -1046,10 +1046,10 @@ refer to
 https://www.eclipse.org/articles/viewArticle/ViewArticle2.html[Creating
 an Eclipse View.]
 
-TIP: [guideline7.17]*Guideline 7.17* +
+TIP: [[guideline7.17]]*Guideline 7.17* +
 Register all context menus in the view with the platform.
 
-TIP: [guideline7.18]*Guideline 7.18* +
+TIP: [[guideline7.18]]*Guideline 7.18* +
 Implement an Command Filter for each object type in the view.
 
 ==== Integration with the Window Menu Bar and Toolbar
@@ -1072,7 +1072,7 @@ IWorkbenchActionConstants.java (see below).
 - Forward Project menu: Open Project, Close Project, Build Project, Rebuild 
   Project
 
-TIP: [guideline7.19]*Guideline 7.19* +
+TIP: [[guideline7.19]]*Guideline 7.19* +
 If a view has support for Cut, Copy, Paste, or any of the global
 commands, these commands must be executable from the same commands in
 the window menu bar and toolbar.
@@ -1108,7 +1108,7 @@ implementation of persistence, see
 https://www.eclipse.org/articles/viewArticle/ViewArticle2.html[Creating
 an Eclipse View].
 
-TIP: [guideline7.20]*Guideline 7.20* +
+TIP: [[guideline7.20]]*Guideline 7.20* +
 Persist the state of each view between sessions.
 
 
@@ -1146,7 +1146,7 @@ setting
 setting) is up to the view, but primary navigation views like the
 Navigator and Package Explorer default to off
 
-TIP: [guideline7.21]*Guideline 7.21* +
+TIP: [[guideline7.21]]*Guideline 7.21* +
 Navigation views should support "Link with Editor" on the view menu
 
 
@@ -1246,7 +1246,7 @@ It is not appropriate to create a new perspective type for short lived
 tasks. For instance, the task of resource check-in is short lived, so it
 may be better performed using a view in the current perspective.
 
-TIP: [guideline8.1]*Guideline 8.1* +
+TIP: [[guideline8.1]]*Guideline 8.1* +
 Create a new perspective type for long lived tasks, which involve the
 performance of smaller, non-modal tasks.
 
@@ -1257,7 +1257,7 @@ of Java code creation, don't create a new perspective. Instead, add it
 to the existing Java perspective. This strategy provides better
 integration with the existing platform.
 
-TIP: [guideline8.2]*Guideline 8.2* +
+TIP: [[guideline8.2]]*Guideline 8.2* +
 If you just want to expose a single view, or two, extend an existing
 perspective type.
 
@@ -1280,7 +1280,7 @@ either to the right of the editor area or below the navigation view, and
 other supporting views may be placed below and to the right of the
 editor area.
 
-TIP: [guideline8.3]*Guideline 8.3* +
+TIP: [[guideline8.3]]*Guideline 8.3* +
 The size and position of each view in a perspective should be defined in
 a reasonable manner, such that the user can resize or move a view if
 they desire it. When defining the initial layout, it is important to
@@ -1292,7 +1292,7 @@ views and the editor area. If this is not the case, then the perspective
 should be re-examined to determine if it is better suited as a view or
 editor.
 
-TIP: [guideline8.4]*Guideline 8.4* +
+TIP: [[guideline8.4]]*Guideline 8.4* +
 If a perspective has just one part, it may be better suited as a view or
 editor.
 
@@ -1309,7 +1309,7 @@ that occupied the editor area before will be shrunk. Therefore, it is
 important to define a non-empty editor area even when the editor is
 programmatically hidden.
 
-TIP: [guideline8.5]*Guideline 8.5* +
+TIP: [[guideline8.5]]*Guideline 8.5* +
 If it is undesirable to have an editor area in a perspective, hide it.
 Do not resize the editor area to the point where it is no longer
 visible.
@@ -1347,7 +1347,7 @@ For instance, the Java perspective is used in a larger lifecycle,
 involving Java and Debug tasks. The Window > Open Perspective menu is
 populated with each of these perspectives.
 
-TIP: [guideline8.6]*Guideline 8.6* +
+TIP: [[guideline8.6]]*Guideline 8.6* +
 Populate the window menu bar with commands and command sets which are
 appropriate to the task orientation of the perspective, and any larger
 workflow.
@@ -1365,7 +1365,7 @@ working state, or context, of the user. If a new perspective is created,
 that context will be left behind, forcing the user to recreate the
 context. This is time wasted.
 
-TIP: [guideline8.7]*Guideline 8.7* +
+TIP: [[guideline8.7]]*Guideline 8.7* +
 A new perspective should be opened only if the user explicitly states a
 desire to do so. In making this statement, the user agrees to leave
 their old context, and create a new one.
@@ -1377,7 +1377,7 @@ implemented, the user should have the option to turn this behavior off.
 The option can be exposed in the command dialog, or within a Preference
 page.
 
-TIP: [guideline8.8]*Guideline 8.8* +
+TIP: [[guideline8.8]]*Guideline 8.8* +
 If a new perspective is opened as a side effect of another command, the
 user should be able to turn this behavior off.
 
@@ -1386,7 +1386,7 @@ window, or in a new window. The user controls this option using the
 Workbench preferences. If code within a plug-in opens a new perspective,
 the plug-in should honor the user preference.
 
-TIP: [guideline8.9]*Guideline 8.9* +
+TIP: [[guideline8.9]]*Guideline 8.9* +
 If a new perspective is opened, it should be opened within the current
 window, or in a new window, depending on the user preference.
 
@@ -1395,7 +1395,7 @@ Perspective, and Show View menus, the list of wizards, perspectives, and
 views added as shortcuts to these menus should be at most 7 plus / minus
 2 items.
 
-TIP: [guideline8.10]*Guideline 8.10* +
+TIP: [[guideline8.10]]*Guideline 8.10* +
 The list of shortcuts added to the New, Open Perspective, and Show View
 menus should be at most 7 plus / minus 2 items.
 
@@ -1419,7 +1419,7 @@ set of task oriented actions which the user can show or hide. The
 actions within an action set may be distributed throughout the window
 menu bar and toolbar.
 
-TIP: [guideline9.1]*Guideline 9.1* +
+TIP: [[guideline9.1]]*Guideline 9.1* +
 Use an Action Set to contribute actions to the window menu bar and
 toolbar.
 
@@ -1459,14 +1459,14 @@ system preferences. It also contains the Open Perspective and Show View
 submenu which contains actions affecting the state of the window
 contents.
 
-TIP: [guideline9.2]*Guideline 9.2* +
+TIP: [[guideline9.2]]*Guideline 9.2* +
 Follow the platform lead when distributing actions within an Action Set.
 
 The toolbar contains the most commonly used actions of the menu bar. In
 reflection of this, you should contribute actions to the menu bar first,
 and then to the toolbar if they will be frequently used.
 
-TIP: [guideline9.3]*Guideline 9.3* +
+TIP: [[guideline9.3]]*Guideline 9.3* +
 Contribute actions to the window menu bar first, and then to the window
 toolbar if they will be frequently used.
 
@@ -1477,7 +1477,7 @@ an editor on a class, Goto Type. These form a cohesive set of related
 actions, which can be turned on and off by the user, depending on the
 active task.
 
-TIP: [guideline9.4]*Guideline 9.4* +
+TIP: [[guideline9.4]]*Guideline 9.4* +
 Define each action set with a specific task in mind.
 
 The size of an action set is also important. If an action set is too
@@ -1492,7 +1492,7 @@ carefully designed to contain the smallest possible semantic chunking of
 actions. Avoid the temptation to provide only one action set for an
 entire plug-in.
 
-TIP: [guideline9.5]*Guideline 9.5*
+TIP: [[guideline9.5]]*Guideline 9.5*
 An action set should contain the smallest possible semantic chunking of
 actions. Avoid the temptation to provide only one action set for an
 entire plug-in.
@@ -1509,7 +1509,7 @@ An action set should not be used to promote command from a single view
 to the window menu bar and toolbar. This simply clutters up the user
 interface.
 
-TIP: [guideline9.6]*Guideline 9.6* +
+TIP: [[guideline9.6]]*Guideline 9.6* +
 Use an action set to share a set of actions which are useful in two or
 more views or editors.
 
@@ -1523,7 +1523,7 @@ reasons for this. First, users like to control the environment, not be
 controlled. And second, the user is in the best position to understand
 the active task, and the appropriate action sets for its completion.
 
-TIP: [guideline9.7]*Guideline 9.7* +
+TIP: [[guideline9.7]]*Guideline 9.7* +
 Let the user control the visible action sets. Don't try to control it
 for them.
 
@@ -1533,7 +1533,7 @@ type which is not visible in the current window, and is a form of
 lateral navigation. In general, all Open actions which take the form
 should be added to the Navigate menu, for consistency.
 
-TIP: [guideline9.8]*Guideline 9.8* +
+TIP: [[guideline9.8]]*Guideline 9.8* +
 "Open Object" actions must appear in the Navigate pulldown menu of the
 window.
 
@@ -1544,7 +1544,7 @@ information in the status bar area, always use the global status bar.
 For example, editors use the global status bar to show the current line
 and column number.
 
-TIP: [guideline9.9]*Guideline 9.9* +
+TIP: [[guideline9.9]]*Guideline 9.9* +
 Always use the global status bar to display status related messages.
 
 === Properties
