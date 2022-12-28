@@ -19,7 +19,7 @@ user in control, directness, consistency, forgiveness, feedback,
 aesthetics, and simplicity. If you do not currently have the
 prerequisite knowledge, please read the relevant documentation first.
 
-TIP: [guideline1.1]*Guideline 1.1* +
+TIP: [[guideline1.1]]*Guideline 1.1* +
 Follow and apply good user interface design principles: user in control,
 directness, consistency, forgiveness, feedback, aesthetics, and
 simplicity.
@@ -53,7 +53,7 @@ and more information.
 Also, visit the https://github.com/eclipse-platform[Eclipse
 Platform @ GitHub] to share information with the community.
 
-TIP: [guideline1.2]*Guideline 1.2* +
+TIP: [[guideline1.2]]*Guideline 1.2* +
 Follow the platform lead for user interface conventions.
 
 If you decide to reuse the conventions of Eclipse, be careful not to
@@ -65,7 +65,7 @@ of part activation in the window.
 
 image::images/badHilight.png[badHilight]
 
-TIP: [guideline1.34]*Guideline 1.3* +
+TIP: [[guideline1.34]]*Guideline 1.3* +
 Be careful not to mix UI metaphors. It may blur the original concept,
 and your own application.
 
@@ -77,7 +77,7 @@ development and increase customer satisfaction.
 Visit https://www.eclipse.org/[www.eclipse.org] and join the 
 mailto:ui-best-practices-working-group@eclipse.org[Eclipse UI mailing list]. 
 
-TIP: [guideline1.4]*Guideline 1.4* +
+TIP: [[guideline1.4]]*Guideline 1.4* +
 If you have an interesting idea, work with the Eclipse community to make
 Eclipse a better platform for all.
 
@@ -93,14 +93,14 @@ Sentence style capitalization should be applied to all check boxes,
 radio buttons, and group labels. For example, "Choose an option for the
 Java file" can be used as a group label.
 
-TIP: [guideline1.5]*Guideline 1.5* +
+TIP: [[guideline1.5]]*Guideline 1.5* +
 Use Headline style capitalization for menus, tooltip and all titles,
 including those used for windows, dialogs, tabs, column headings and
 push buttons. Capitalize the first and last words, and all nouns,
 pronouns, adjectives, verbs and adverbs. Do not include ending
 punctuation.
 
-TIP: [guideline1.6]*Guideline 1.6* +
+TIP: [[guideline1.6]]*Guideline 1.6* +
 Use Sentence style capitalization for all control labels in a dialog or
 window, including those for check boxes, radio buttons, group labels,
 and simple text fields. Capitalize the first letter of the first word,
@@ -117,7 +117,7 @@ resources can be translated to a new locale.
 Consult the xref:best_practices.adoc[Best Practices] section for examples
 and more information.
 
-TIP: [guideline1.7]*Guideline 1.7* +
+TIP: [[guideline1.7]]*Guideline 1.7* +
 Create localized version of the resources within your plug-in.
 
 === Error Handling
@@ -136,7 +136,7 @@ immediate attention from users, a modal dialog should be used to
 communicate the error to the user. This forces the user to notice, and
 deal with, the problem.
 
-TIP: [guideline1.8]*Guideline 1.8* +
+TIP: [[guideline1.8]]*Guideline 1.8* +
 When an error occurs which requires either an explicit user input or
 immediate attention from users, communicate the occurrence with a modal
 dialog.
@@ -155,7 +155,7 @@ of the error dialog:
 * Plug-in ID
 * Version
 
-TIP: [guideline1.9]*Guideline 1.9* +
+TIP: [[guideline1.9]]*Guideline 1.9* +
 If a programming error occurs in the product, communicate the occurrence
 with a dialog, and log it.
 

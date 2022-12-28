@@ -26,6 +26,8 @@
 					</execution>
 				</executions>
 				<configuration>
+					<!-- enable pedantic mode to validate cross references -->
+					<enableVerbose>true</enableVerbose>
 					<sourceDirectory>${basedir}</sourceDirectory>
 					<sourceDocumentName>index.adoc</sourceDocumentName>
 					<!-- copy only the images and media directory, otherwise everything from basedir would be copied -->
