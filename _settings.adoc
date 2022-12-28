@@ -35,3 +35,6 @@ That way the styles are automatically consistent.
 // Enable section anchors in front of headlines.
 // https://asciidoctor.org/docs/user-manual/#anchors -->
 :sectanchors:
+// enable source highlighting
+// https://docs.asciidoctor.org/asciidoc/latest/verbatim/source-highlighter/
+:source-highlighter: coderay
