@@ -720,7 +720,7 @@ Table cell editors should support the single-click activation model, and
 in edit mode, they should render complex controls upon single-click.
 
 In addition, changes should be committed once a user clicks off the cell
-or hits ENTER.
+or hits kbd:[Enter].
 
 The following are examples of good behaviour for a table cell editor:
 
@@ -734,8 +734,8 @@ until user makes an explicit selection +
 image:images/cell2.png[]
 
 - first letter navigation is supported as a cursoring technique when the
-drop-down is visible- supports the "Enter" key as a way of making an explicit selection via
-the keyboard when the drop-down is visible- supports the "Esc" key as a way of canceling a selection via the
+drop-down is visible- supports the kbd:[Enter] key as a way of making an explicit selection via
+the keyboard when the drop-down is visible- supports the kbd:[Esc] key as a way of canceling a selection via the
 keyboard when the drop-down is visible- when put in edit mode, the drop-down control (the down-arrow image)
 appears with current selection active & highlighted + 
 image:images/cell3.png[]
@@ -745,8 +745,8 @@ to make a selection without needing to invoke the drop-down
 
 TIP: [[guideline6.27]]*Guideline 6.27* +
 Changes made in a table cell editor should be committed when a user
-clicks off the cell or hits the "Enter" key. Selection should be
-cancelled when user hits the "Esc" key. First letter navigation should be
+clicks off the cell or hits the kbd:[Enter] key. Selection should be
+cancelled when user hits the kbd:[Esc] key. First letter navigation should be
 supported as a cursoring mechanism within a cell.
 
 ==== Error Notification
@@ -1188,8 +1188,8 @@ if possible)
 
 ====== Additional rules
 
-* pressing the the 'Enter' key should do the same as a double click
-* Next (Ctrl+.) / Previous (Ctrl+,) buttons select the next/previous
+* pressing the the kbd:[Enter] key should do the same as a double click
+* Next (kbd:[Ctrl + .]) / Previous (kbd:[Ctrl + ,]) buttons select the next/previous
 element in the view, open (or bring to front) the editor and select the
 element in the editor but never activate the editor
 

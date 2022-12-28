@@ -49,7 +49,7 @@ image::images/Bp4.gif[bp4]
 
 If an editor is used for writing code in a given programming language,
 hyper-linked code support should be enabled. While using the mouse
-pointer to hover over the source code, pressing the Ctrl key will turn
+pointer to hover over the source code, pressing the kbd:[Ctrl] key will turn
 the programming language constructs such as class, method, and field
 identifiers into clickable links to the corresponding declaration.
 

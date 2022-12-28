@@ -333,8 +333,8 @@ in edit mode, they should render complex controls upon single-click.
 
 TIP: *Guideline 6.27* +
 Changes made in a table cell editor should be committed when a user
-clicks off the cell or hits the "Enter" key. Selection should be
-cancelled when user hits the "Esc" key. First letter navigation should be
+clicks off the cell or hits the kbd:[Enter] key. Selection should be
+cancelled when user hits the kbd:[Esc] key. First letter navigation should be
 supported as a cursoring mechanism within a cell.
 
 TIP: *Guideline 6.28* +
@@ -584,7 +584,7 @@ Use the attributes defined in IMarkerActionFilter.java to control the
 visibility of context menu actions in the Tasks view.
 
 TIP: *Guideline 14.5* +
-Support F1 keyboard command and link it to an infopop that gives a
+Support kbd:[F1] keyboard command and link it to an infopop that gives a
 detailed description of the selected item in the Task view.
 
 ==== The Preference Dialog

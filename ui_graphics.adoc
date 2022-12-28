@@ -691,8 +691,8 @@ To create this state, you will use the
 Photoshop Actions palette.
 2.  Use the marquee tool to select all the enabled versions of the
 toolbar and local toolbar icons you plan to create a disabled state for.
-3.  Next, hold the control key and hit the left or right arrow key once,
-then let go of the control key and hit the opposite arrow key to bump
+3.  Next, hold the kbd:[Ctrl] key and hit the left or right arrow key once,
+then let go of the kbd:[Ctrl] key and hit the opposite arrow key to bump
 the images back into their exact initial position.
 4.  Start the "Create Disabled State" action by clicking on the "play"
 arrow at the bottom of the Actions palette. A copy of the color icons

@@ -177,11 +177,11 @@ this, see xref:component_dev.adoc#editors[Editors].
 
 ==== Adding F1 Help to Task View
 
-Plug-ins should support F1 keyboard command and link it to an infopop
+Plug-ins should support kbd:[F1] keyboard command and link it to an infopop
 that gives a detailed description of the selected item in the Task view.
 
 TIP: [[guideline14.5]]*Guideline 14.5* +
-Support F1 keyboard command and link it to an infopop that gives a
+Support kbd:[F1] keyboard command and link it to an infopop that gives a
 detailed description of the selected item in the Task view.
 
 === Selection Dialogs
@@ -306,8 +306,8 @@ dialog.open();
 
 ==== FilteredItemsSelectionDialog
 
-Have you used the Open Type (Ctrl + Shift + T) or Open Resource
-(Ctrl+Shift+R) dialog? Its similar to the ElementListSelectionDialog,
+Have you used the Open Type (kbd:[Ctrl + Shift + T]) or Open Resource
+(kbd:[Ctrl + Shift + R]) dialog? Its similar to the ElementListSelectionDialog,
 but it has more features. It can select multiple items, display a detail
 pane about the item that is currently selected, it can even remember
 your previous selections; store them in history and present them before
