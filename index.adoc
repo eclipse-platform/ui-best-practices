@@ -187,8 +187,6 @@ using a properties page, or the properties dialog.
 All of these ideas will be discussed, in detail, in the following
 sections.
 
-== Content
-
 // don't delete the empty lines between the includes
 // otherwise different chapter text might be joined together by the processor
 include::top_ten_lists.adoc[]
@@ -486,13 +484,13 @@ sound obvious, but in a complicated product environment, it is easy for
 unrelated items to creep into a context menu. Of course, a menu item
 that doesn’t apply could be grayed out. But if it never applies, it’s
 better to remove the item entirely. For example, it would be confusing
-to have a “Run as” item on the context menu of a C++ header (.h) file in
+to have a "Run as" item on the context menu of a C++ header (.h) file in
 a navigator-style view, since run operations really apply to code
 instead.
 
 Second, remove items that apply to only the view or editor as a whole.
 While a user may find it convenient to access these items from an
-object, it is better to have a “lean and mean” context menu instead –
+object, it is better to have a "lean and mean" context menu instead –
 one that is uncluttered and focuses attention on the object at hand.
 Access to actions related to the view or editor as a whole are better
 handled by right clicking on the white space outside any object (or by
@@ -507,7 +505,7 @@ nearby objects, but not to the specific one in question. The resulting
 menus will make more sense to the user, as the actions logically
 appropriate to the object will be there, but not actions logically
 appropriate to some other type of object. For example, it would be
-confusing to have a “Close Project” item on the context menu of a Java
+confusing to have a "Close Project" item on the context menu of a Java
 method shown in an explorer view, since import operations apply at the
 project level instead.
 
@@ -537,4 +535,4 @@ Figure 3: a context-independent menu for the Outline View.
 ===== Related Information
 
 This issue is addressed in the Eclipse UI Guidelines 2.1, in the section
-titled “Component Development - Editors” (Guidelines 6.11-6.13).
+titled "Component Development - Editors" (Guidelines 6.11-6.13).

@@ -20,7 +20,7 @@ TIP: [[guideline16.1]]*Guideline 16.1* +
 Use Flat Look design for user scenarios that involve extensive property
 and configuration editing.
 
-When required, use a "More..." button for navigation purpose (function
+When required, use a btn:[More...] button for navigation purpose (function
 similar to a hyperlink).
 
 image::images/Flatlook2.gif[flatlook2,title="flatlook2"]

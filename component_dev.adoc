@@ -162,20 +162,20 @@ display error messages if information is invalid. The presence of the
 header, with banner graphic and text area, creates a more polished feel,
 and greater perception of quality to the wizard.
 
-At the bottom of each wizard, a Back, Next, Finish, and Cancel button
+At the bottom of each wizard, a btn:[Back], btn:[Next], btn:[Finish], and btn:[Cancel] button
 should appear.
 
 image::images/wizardAppearance.png[wizardAppearance]
 
-TIP: [[guideline5.2]]**Guideline 5.2** +
+TIP: [[guideline5.2]]*Guideline 5.2* +
 Each wizard must contain a header with a banner graphic and a text area
-for user feedback. It must also contain Back, Next, Finish, and Cancel
+for user feedback. It must also contain btn:[Back], btn:[Next], btn:[Finish], and btn:[Cancel]
 buttons in the footer.
 
 ==== Initialization
 
 When a wizard first opens, the focus should be placed in the first field
-requiring information (see Guidelines 3.1). The header should be used to
+requiring information (see xref:#guideline3.1[Guideline 3.1]). The header should be used to
 prompt the user for the first piece of required information.
 
 image::images/goodWizardInit.png[goodWizardInit]
@@ -185,7 +185,7 @@ user hasn't done anything yet.
 
 image::images/badWizardInit.png[badWizardInit]
 
-TIP: [[guideline5.3]]**Guideline 5.3** +
+TIP: [[guideline5.3]]*Guideline 5.3* +
 Start the wizard with a prompt, not an error message.
 
 The initial state of the wizard should be derived from the context where
@@ -202,7 +202,7 @@ file.
 
 image::images/wizardFieldPopulation.png[wizardFieldPopulation]
 
-TIP: [[guideline5.4]]**Guideline 5.4** +
+TIP: [[guideline5.4]]*Guideline 5.4* +
 Seed the fields within the wizard using the current workbench state.
 
 ==== Validation of Data
@@ -214,9 +214,9 @@ area. If the first required field is valid, check the next field, and so
 on. The text area should not be used to display more than one prompt or
 error at a time.
 
-If dialog information is absent or invalid, the Next or Finish buttons
+If dialog information is absent or invalid, the btn:[Next] or btn:[Finish] buttons
 should be disabled until the situation is resolved. When resolution
-occurs, and all of the information has been provided, the Next or Finish
+occurs, and all of the information has been provided, the btn:[Next] or btn:[Finish]
 buttons may be enabled.
 
 image::images/wizardErrorMsgs.png[wizardErrorMsgs]
@@ -230,7 +230,7 @@ Validate the wizard data in tab order. Display a prompt when information
 is absent, and an error when information is invalid.
 
 TIP: [[guideline5.6]]*Guideline 5.6* +
-Enable the Next / Finish buttons only if all required information in the
+Enable the btn:[Next] and btn:[Finish] buttons only if all required information in the
 dialog is present and valid.
 
 The error messages in a wizard should be intended for the end user, not
@@ -243,26 +243,26 @@ TIP: [[guideline5.7]]*Guideline 5.7* +
 Remove all programming message ID's from wizard text.
 
 ==== Browse Buttons
-An edit field and "Browse..." button combination should be used whenever
+An edit field and btn:[Browse...] button combination should be used whenever
 an existing object is referenced within a wizard. The edit field is used
-for direct input of the existing object, and the Browse button is used
+for direct input of the existing object, and the btn:[Browse] button is used
 to browse and select the object from a list of all possible choices.
 
-For instance, in the New Java Class wizard, a "Browse..." button is
+For instance, in the New Java Class wizard, a btn:[Browse...] button is
 placed beside the "Super Class" edit field. If the browse button is
 pressed, a Browse Dialog will appear, and the user can select a super
 class. This pattern should be used whenever a link will be established
-between a new object and an old one. The "Browse..." button should be
+between a new object and an old one. The btn:[Browse...] button should be
 located to the right of the edit field.
 
-TIP: [[guideline5.8]]**Guideline 5.8** +
-Use a Browse Button whenever an existing object is referenced in a
+TIP: [[guideline5.8]]*Guideline 5.8* +
+Use a btn:[Browse] button whenever an existing object is referenced in a
 wizard.
 
 In the Browse Dialog, invalid choices should not appear. When the dialog
 is closed, and focus returns to the parent control, refresh the
 enablement state of controls within the dialog. In particular, refresh
-the enablement of Next, Finish, and OK buttons.
+the enablement of btn:[Next], btn:[Finish], and btn:[OK] buttons.
 
 An example of valid and invalid filtering is shown in the following
 snapshot.
@@ -350,7 +350,7 @@ interact with the primary content, which may be a document or data
 object. In every case, this content is the primary focus of attention
 and a reflection of the primary task.
 
-TIP: [[guideline6.1]]**Guideline 6.1** +
+TIP: [[guideline6.1]]*Guideline 6.1* +
 Use an editor to edit or browse a file, document, or other primary
 content.
 
@@ -363,7 +363,7 @@ appear in the editor tab. The modifications should be buffered within
 the edit model, until such a time as the user explicitly saves them. At
 that point, the modifications should be committed to the model storage.
 
-TIP: [[guideline6.2]]**Guideline 6.2** +
+TIP: [[guideline6.2]]*Guideline 6.2* +
 Modifications made in an editor should follow an open-save-close
 lifecycle model.
 
@@ -371,14 +371,14 @@ An editor is document or input-centric. Each editor has an input, and
 only one editor can exist for each editor input within a page. This
 policy has been designed to simplify part management.
 
-TIP: [[guideline6.3]]**Guideline 6.3** +
+TIP: [[guideline6.3]]*Guideline 6.3* +
 Only one instance of an editor may exist, for each editor input, within
 a perspective.
 
 In addition, it should be possible to open a separate instance of an
 editor for each different input.
 
-TIP: [[guideline6.4]]**Guideline 6.4** +
+TIP: [[guideline6.4]]*Guideline 6.4* +
 It must be possible to open a separate instance of an editor for each
 different input.
 
@@ -411,7 +411,7 @@ menu bar, for accessibility and clarity. Exceptions are for the obvious
 commands, e.g., basic navigations such as next / previous character,
 line, word.
 
-TIP: [[guideline6.7]]**Guideline 6.7** +
+TIP: [[guideline6.7]]*Guideline 6.7* +
 All of the commands, except for the obvious commands, available in the
 editor should be added to the window menu bar.
 
@@ -461,7 +461,7 @@ public static final String [] GLOBAL_ACTIONS = {
 };
 ----
 
-TIP: [[guideline6.9]]**Guideline 6.9** +
+TIP: [[guideline6.9]]*Guideline 6.9* +
 If an editor has support for Cut, Copy, Paste, or any of the global
 commands, these commands must be executable from the same commands in
 the window menu bar and toolbar.
@@ -700,7 +700,7 @@ current line and column numbers should be shown in the status line
 (column number is optional). It's optional for the editor to show line
 numbers for each line in the editor itself.
 
-TIP: [[guideline6.25]]*Guideline 6.25*+
+TIP: [[guideline6.25]]*Guideline 6.25* +
 Editors with source lines of text should show the current line and
 optionally column numbers the status line. It's optional for the editor
 to show line numbers for each line in the editor itself.
@@ -808,7 +808,7 @@ only the active editor. It should not target the active view. This leads
 to a situation where the menu:File[Save] command is in contradiction to the
 Save command within the view.
 
-TIP: [[guideline7.2]]**Guideline 7.2** +
+TIP: [[guideline7.2]]*Guideline 7.2* +
 Modifications made within a view must be saved immediately.
 
 Within a perspective, only one instance of a particular view can be
@@ -891,7 +891,7 @@ instance, if the Navigator view is opened, it will ask its perspective
 for the window input. The result is used as the initial input for the
 view.
 
-TIP: [[guideline7.9]]*Guideline 7.9**
+TIP: [[guideline7.9]]*Guideline 7.9*
 If a view displays a resource tree, consider using the window input as
 the root of visible information in the view.
 
@@ -904,7 +904,7 @@ put presentation commands in the context menu. For instance, the Sort
 and Filter commands within the Navigator view affect the presentation of
 resources, but do not affect the resources themselves.
 
-TIP: [[guideline7.10]]**Guideline 7.10** +
+TIP: [[guideline7.10]]*Guideline 7.10* +
 Use the view pulldown menu for presentation commands, not
 selection-oriented commands.
 
@@ -956,7 +956,7 @@ Any command which appears in the toolbar must also appear in the menu
 (either the context menu or the view menu), but there is no need to
 duplicate every command in the menu within the toolbar.
 
-TIP: [[guideline7.12]]**Guideline 7.12**  +   
+TIP: [[guideline7.12]]*Guideline 7.12*  +   
 Put only the most commonly used commands on the toolbar. Any command on
 a toolbar must also appear in a menu, either the context menu or the
 view menu.
@@ -969,7 +969,7 @@ menu is opened, the context menu should contain only actions which are
 appropriate for the selection. Actions which affect the presentation of
 the view should not appear in the context menu.
 
-TIP: [[guideline7.13]]**Guideline 7.13** +
+TIP: [[guideline7.13]]*Guideline 7.13* +
 Fill the context menu with selection oriented actions, not presentation
 actions.
 
@@ -1068,8 +1068,7 @@ IWorkbenchActionConstants.java (see below).
 - menu:Edit[] menu: menu:Undo[], menu:Redo[], menu:Cut[], menu:Copy[], menu:Paste[], menu:Delete[], menu:Select All[], menu:Find/Replace[], 
   menu:Add Bookmark[], menu:Add Task[] 
 - menu:Navigate[] menu: menu:Go Into[], menu:Back[], menu:Forward[], menu:Up One Level[], menu:Next[], menu:Previous[], menu:Back[]
-- menu:Project[] menu: menu:Open Project[], menu:Close Project[], menu:Build Project[], menu:Rebuild 
-  Project[]
+- menu:Project[] menu: menu:Open Project[], menu:Close Project[], menu:Build Project[], menu:Rebuild Project[]
 
 TIP: [[guideline7.19]]*Guideline 7.19* +
 If a view has support for Cut, Copy, Paste, or any of the global
@@ -1336,8 +1335,7 @@ The application development lifecycle should be considered when
 populating the the menu:Window[Open Perspective] menu. The development of
 most applications follow a well defined lifecycle, from designing /
 modeling, to editing / creating, to debugging / testing, to assembling /
-deploying. Each perspective will fall into one of these steps. The menu:Open
-Perspective[] menu should be used to link the current perspective to
+deploying. Each perspective will fall into one of these steps. The menu:Open Perspective[] menu should be used to link the current perspective to
 perspectives that support tasks immediately downstream of the current
 one, as well as tasks further upstream, to allow for iterative
 development.
@@ -1389,8 +1387,7 @@ TIP: [[guideline8.9]]*Guideline 8.9* +
 If a new perspective is opened, it should be opened within the current
 window, or in a new window, depending on the user preference.
 
-With regard to command contributions applied to the menu:New[], menu:Open
-Perspective[], and menu:Show View[] menus, the list of wizards, perspectives, and
+With regard to command contributions applied to the menu:New[], menu:Open Perspective[], and menu:Show View[] menus, the list of wizards, perspectives, and
 views added as shortcuts to these menus should be at most 7 plus / minus
 2 items.
 
@@ -1444,8 +1441,7 @@ menu. However, it is uncommon for an action set to add actions to the
 menu:Edit[] menu; action sets tend to be global in nature, while the edit menu
 targets a specific part, and interaction with the data in that part.
 
-The menu:Navigate[] menu contains navigational actions such as menu:Go to[], menu:Open
-Type[], menu:Show In[], to enable users to browse laterally or drill down in
+The menu:Navigate[] menu contains navigational actions such as menu:Go to[], menu:Open Type[], menu:Show In[], to enable users to browse laterally or drill down in
 their code.
 
 The menu:Project[] menu contains actions which apply to the contents of the
@@ -1620,7 +1616,7 @@ xref:PropertiesView_Figure[xrefstyle=short] below shows an example. Both tabs
 and a table of Properties should be supported – the tabs for novices, the table 
 for experts. Ideally, the tabs and table will be toggled via toolbar control, 
 for quick transitions. If there is no toggle and the table will be presented on
-the last tab instead, the best name for this tab is “All”. This is a descriptive
+the last tab instead, the best name for this tab is "All". This is a descriptive
 and accurate name, and the tabular presentation will help to keep problematic 
 items out of the hands of novices.
 
@@ -1638,7 +1634,7 @@ easily discoverable by users, since the sub-tabs usually aren't visible unless a
 top-level tab is selected. Second, sub-tabs take longer to navigate to, even 
 when a user is familiar with them. Finally, sub-tabs add a level of complexity 
 that in most cases can be designed around, especially through the use of an 
-“All” tab.
+"All" tab.
 
 A Properties view must be accessible via a context menu for an object or editor.:: 
 Allow users to detach or Fastview this view to support an open editor. Such 

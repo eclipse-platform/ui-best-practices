@@ -290,8 +290,8 @@ image::images/des_styl_brown.png[des_styl_brown]
 
 image::images/ddes_styl_purple-alt.png[ddes_styl_purple-alt]
 
-*_Purple_* is associated with “Web Site" or "Site Project", plugin
-  "fragment", and Java "Interface”.
+*_Purple_* is associated with "Web Site" or "Site Project", plugin
+  "fragment", and Java "Interface".
 
 image::images/ddes_styl_beige.png[ddes_styl_beige]
 
@@ -385,8 +385,8 @@ In The GIMP, simply Save As PNG.
 Related Information::
   This information replaces that provided in the 
   https://www.eclipse.org/articles/Article-UI-Guidelines/Index.html[Eclipse UI 
-  Guidelines, Version 2.1], in the section titled “Visual Design – Icon 
-  Palettes” (Guidelines 2.2-2.4):
+  Guidelines, Version 2.1], in the section titled "Visual Design – Icon 
+  Palettes" (Guidelines 2.2-2.4):
 + 
 The GIMP User Manual is available online at: https://www.gimp.org/docs/
 
@@ -626,7 +626,7 @@ elements and promote consistency throughout the user interface.
 image::images/des_common_icons.png[des_common_icons]
 
 Click link:media/common_icon_elements.zip[ *here*] to download the
-  “common_icon_elements_eclipse-proj.psd” for Eclipse Project icons and
+  "common_icon_elements_eclipse-proj.psd" for Eclipse Project icons and
   the "common_icon_elements_eclipse-tools.psd" file for a subset of
   icons related to Eclipse-based tools.
 
@@ -716,7 +716,7 @@ image::images/des_states_disabled-atn.png[des_states_disabled-atn,title="fig:des
 The toggled state is used on toolbars, local toolbars, and in menus.
   On toolbars and local toolbars, a toggle is represented by a button
   with two physical positions—up and down—which define a state, most
-  commonly “on” and “off”. Icons on a toggle button, like the tool tips
+  commonly "on" and "off". Icons on a toggle button, like the tool tips
   that accompany them, should persist from one state to the next. The
   only thing that changes is the position of the button. For example:
 
@@ -746,7 +746,7 @@ On the toolbar, a closed folder represents one that has not been
   folder.
 
 One notable exception to open folders in the treeview is when used to
-  represent a “group”, as is the case with high-level project groupings
+  represent a "group", as is the case with high-level project groupings
   in the Project Explorer View. These are shown with closed folders.
 
 image::images/des_states_folders.png[des_states_folders]
@@ -1824,7 +1824,7 @@ first icon to be cut.
 automatically move through the cutting process. (See B-F below)
 5.  When prompted, provide a name for the icon in lower case and click
 Save to save it as a Compuserve .png in the folder you specify. (See G)
-6.  When you click OK to finish saving the image as either a Normal or
+6.  When you click btn:[OK] to finish saving the image as either a Normal or
 Interlaced .png file, the action then automatically moves the marquee
 selection down to the next icon and begins the process all over again.
 (See H) + 
@@ -1859,7 +1859,7 @@ through the cutting process from top to bottom in the layers palette.
 (See D below)
 8.  When prompted, provide a name for the icon in lower case and click
 Save to save it as a Compuserve .png in the folder you specify. (See E)
-9.  When you click OK to finish saving the image as either a Normal or
+9.  When you click btn:[OK] to finish saving the image as either a Normal or
 Interlaced .png file, the action then automatically delete the current
 layer set, and moves to the next one and begins the process all over
 again. (See F) +

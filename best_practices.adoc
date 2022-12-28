@@ -85,7 +85,7 @@ of context menu items to *no more than 20*.
 === Labels, Fonts and Layout for Flat Look Design
 
 For Flat Look design, when using buttons with ellipses (except for the
-"More..." button), it should pop up a secondary window which can be a
+btn:[More...] button), it should pop up a secondary window which can be a
 dialog box or a wizard.
 
 Use Title capitalization for section titles. The distance between

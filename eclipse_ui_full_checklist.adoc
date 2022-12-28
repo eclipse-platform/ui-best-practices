@@ -179,7 +179,7 @@ completed in a specific order.
 
 TIP: *Guideline 5.2* +
 Each wizard must contain a header with a banner graphic and a text area
-for user feedback. It must also contain Back, Next, Finish, and Cancel
+for user feedback. It must also contain btn:[Back], btn:[Next], btn:[Finish], and btn:[Cancel]
 buttons in the footer.
 
 TIP: *Guideline 5.3* +
@@ -193,7 +193,7 @@ Validate the wizard data in tab order. Display a prompt when information
 is absent, and an error when information is invalid.
 
 TIP: *Guideline 5.6* +
-Enable the Next / Finish buttons only if all required information in the
+Enable the btn:[Next] and btn:[Finish] buttons only if all required information in the
 dialog is present and valid.
 
 TIP: *Guideline 5.7* +
