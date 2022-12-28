@@ -247,7 +247,7 @@ The editor should be labeled with the name of the file, document, or
 input being edited.
 
 TIP: *Guideline 6.6* +
-In multipage editors, use a tab control for page activation.Tab labels
+In multipage editors, use a tab control for page activation. Tab labels
 should be kept to one word, and two words at most.
 
 TIP: *Guideline 6.7* +
@@ -334,7 +334,7 @@ in edit mode, they should render complex controls upon single-click.
 TIP: *Guideline 6.27* +
 Changes made in a table cell editor should be committed when a user
 clicks off the cell or hits the "Enter" key. Selection should be
-cancelled when user hits the "Esc" key.First letter navigation should be
+cancelled when user hits the "Esc" key. First letter navigation should be
 supported as a cursoring mechanism within a cell.
 
 TIP: *Guideline 6.28* +

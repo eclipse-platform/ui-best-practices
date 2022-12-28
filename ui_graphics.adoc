@@ -869,7 +869,8 @@ reference.
 . *Transferring vector-based images to the PSD template:* Once the
 graphics are approved and ready to be cut, you will need to transfer
 them from the AI template to the PSD template. In the AI template, turn
-off all layers, except **New Wizard graphics**.Select *File > Save for Web* from the menu. The settings you will need
+off all layers, except **New Wizard graphics**.
+Select *File > Save for Web* from the menu. The settings you will need
 for this part of the transfer are shown here:
 +
 image::images/des_temp_png_pref.png[des_temp_png_pref]

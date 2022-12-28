@@ -400,7 +400,7 @@ plugin file and html editors.
 Tab labels should be kept to one word, and two words at most.
 
 TIP: [[guideline6.6]]*Guideline 6.6* +
-In multipage editors, use a tab control for page activation.Tab labels
+In multipage editors, use a tab control for page activation. Tab labels
 should be kept to one word, and two words at most.
 
 ==== Menus
@@ -746,7 +746,7 @@ to make a selection without needing to invoke the drop-down
 TIP: [[guideline6.27]]*Guideline 6.27* +
 Changes made in a table cell editor should be committed when a user
 clicks off the cell or hits the "Enter" key. Selection should be
-cancelled when user hits the "Esc" key.First letter navigation should be
+cancelled when user hits the "Esc" key. First letter navigation should be
 supported as a cursoring mechanism within a cell.
 
 ==== Error Notification
