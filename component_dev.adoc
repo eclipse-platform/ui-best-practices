@@ -276,15 +276,15 @@ wizard should open the file in an editor in the active page. If more
 than one file is created, open the most important, or central file. This
 makes it easier to modify and save the file.
 
-Have a readme.html file for every example project, and open that
-readme.html automatically upon project creation. This will give users an
+Have a `readme.html` file for every example project, and open that
+`readme.html` automatically upon project creation. This will give users an
 immediate overview of the example: what it does, prerequisites,
 limitations, steps to take, and so on.
 
 TIP: [[guideline5.9]]*Guideline 5.9* +
 If a new file is created, open the file in an editor. If a group of
 files are created, open the most important, or central file in an
-editor. Open the readme.html file upon creation of an example project.
+editor. Open the `readme.html` file upon creation of an example project.
 
 If a new project is created, the wizard should change the active
 perspective within the workbench to one which is appropriate for the new
@@ -438,7 +438,7 @@ ignore these commands, and contribute duplicate commands to the window
 menu bar or toolbar.
 
 A complete list of the global commands is declared in the
-IWorkbenchActionConstants.java (see below).
+`IWorkbenchActionConstants.java` (see below).
 
 
 [source,java]
@@ -1062,7 +1062,7 @@ that selection in the window menu bar or toolbar produces the same
 result as selection of the same command in the view.
 
 A complete list of the global commands and built-in menus as declared in
-IWorkbenchActionConstants.java (see below).
+`IWorkbenchActionConstants.java` (see below).
 
 - menu:File[] menu: menu:Revert[], menu:Move[], menu:Rename[], menu:Refresh[], menu:Print[], menu:Properties[] 
 - menu:Edit[] menu: menu:Undo[], menu:Redo[], menu:Cut[], menu:Copy[], menu:Paste[], menu:Delete[], menu:Select All[], menu:Find/Replace[], 
@@ -1078,7 +1078,7 @@ the window menu bar and toolbar.
 
 Although a view can't directly contribute to the main menubar or toolbar
 in Eclipse v2.1, it can still cause commands to appear there using
-"action set / part associations" (the actionSetPartAssociations
+"action set / part associations" (the `actionSetPartAssociations`
 extension point) which lets you associate action sets with particular
 parts (views or editors). For example, the Java tooling in Eclipse uses
 this for the Package Explorer. All commands for the view (or editor) should be 
@@ -1201,10 +1201,10 @@ but if they both have the same view open, it's shared between them (but
 only if they are in the same workbench window). Editors are always all
 shared between perspectives in the same window.
 
-A new perspective is opened by invoking Window -> Open Perspective -> X,
+A new perspective is opened by invoking menu:Window[Open Perspective > X],
 where X identifies a particular perspective in Eclipse. The result is a
 new perspective in the workbench window with _type_ X. For instance, if
-you invoke Window -> Open Perspective -> Resource, a new perspective is
+you invoke menu:Window[Open Perspective > Resource], a new perspective is
 opened with type __Resource__. Eclipse comes with a pre-defined number
 of perspective types, such as Resource, Java, and Debug. The perspective
 type determines the initial layout of views, and visibility of command
@@ -1620,7 +1620,7 @@ the last tab instead, the best name for this tab is "All". This is a descriptive
 and accurate name, and the tabular presentation will help to keep problematic 
 items out of the hands of novices.
 
-Tabs should be labeled in order: General, . . . , All.:: 
+Tabs should be labeled in order: General, ..., All.:: 
 Every Properties view should feature a General tab, which contains the most
 frequently used properties. This will speed up new users as they get oriented. 
 The last tab should be named All and contain a table view, if one is supported. 

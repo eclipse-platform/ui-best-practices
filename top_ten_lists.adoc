@@ -80,17 +80,17 @@ link:https://wiki.eclipse.org/Top_Ten_Lists_Working_Page[Top Ten Lists Working P
 
 ==== Top Ten Eclipse UI Guidelines
 
-. Use the Eclipse look and feel if extending or plugging into Eclipse
+. Use the Eclipse look and feel if extending or plugging into Eclipse.
 . Use common SWT controls to get what SWT offers for cross-platform adaptability
-  and accessibility
-. Be familiar with APIs for the UIs you are building
+  and accessibility.
+. Be familiar with APIs for the UIs you are building.
 . Use icons and graphics consistent with the Eclipse style, decorations, states, 
-  and quality
-. Understand the conventions of the OSs you are developing for
-. Use understandable messages to help people recover from error conditions
-. Don't initiate dialogs or wizards in an error state
-. Use quick fix and quick assist mechanisms
-. Reserve time for "polish"
+  and quality.
+. Understand the conventions of the OSs you are developing for.
+. Use understandable messages to help people recover from error conditions.
+. Don't initiate dialogs or wizards in an error state.
+. Use quick fix and quick assist mechanisms.
+. Reserve time for "polish".
 
 ==== Top Ten Eclipse UI Violations
 

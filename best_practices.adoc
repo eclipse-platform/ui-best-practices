@@ -135,4 +135,4 @@ to provide a custom image decoration at the bottom right corner which
 does not conflict with the basic image decoration provided by Eclipse.
 The top left corner is the second best place although it conflicts with
 the binary project decorator. The bottom left and top right should be
-avoided as they are decorated outside of the decorator mechanism
+avoided as they are decorated outside of the decorator mechanism.

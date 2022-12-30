@@ -13,7 +13,7 @@ should not be used just because it provides a different look than the
 native platform look and feel. The use of Flat Look design should be
 considered in the context of the supported user scenarios. This design
 is usually a good fit for extensive property and configuration editing,
-such as editing Eclipse's plugin.xml file, and J2EE Web application's
+such as editing Eclipse's `plugin.xml` file, and J2EE Web application's
 deployment descriptors.
 
 TIP: [[guideline16.1]]*Guideline 16.1* +

@@ -351,7 +351,7 @@ https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.ecli
 file format.
 +
 To load the palette in Adobe Photoshop, open the "Swatches" palette
-  and choose "Load Swatches..."; then navigate to where you saved the
+  and choose menu:Load Swatches...[]; then navigate to where you saved the
   https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.aco
   "eclipse-style_palette.aco"] palette.
 +
@@ -359,8 +359,7 @@ To load the palette in Adobe Illustrator, first save the
 https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.ai["eclipse-style_palette.ai"]
 palette in the Adobe Illustrator > Presets > Swatches folder. If you
 have Adobe Illustrator already open, you will need to restart it after
-adding this file. Once you restart Illustrator, go to Windows > Swatch
-Libraries and choose the "eclipse-style_palette.ai" palette from the
+adding this file. Once you restart Illustrator, go to menu:Windows[Swatch Libraries] and choose the "eclipse-style_palette.ai" palette from the
 list.
 +
 To use the 
@@ -370,7 +369,7 @@ https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.ecli
 The
   https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.gpl[".gpl"]
   file format can also be used in Inkscape. Just copy the palette file
-  into the user's profile into the "/~/.config/inkscape/palettes"
+  into the user's profile into the `/~/.config/inkscape/palettes`
   folder.
 +
 Save your images with the palette as a base
@@ -417,8 +416,8 @@ image:images/des_styl_wiz_lighting.png[des_styl_wiz_lighting]
 Shadow::
 For rectilinear objects, such as folders and files, an additional
   light source is implied from the left-front of the graphic, casting a
-  shadow to the right of the graphic. This shadow is angled backward—to
-  the right-back—at 45 degrees. When designing these types of graphics,
+  shadow to the right of the graphic. This shadow is angled backward - to
+  the right-back - at 45 degrees. When designing these types of graphics,
   consider the space the shadow will require by locating the graphical
   elements on the left side of the designated image area. 
 +   
@@ -597,15 +596,15 @@ Elements] page.
 image::images/des_cons_core-icons.png[des_cons_core-icons]
 
 Click link:media/core_icon_concepts.zip[*here*] or on the image above to
-download the "core_icon_concepts.psd".
+download the `core_icon_concepts.psd`.
 
 ===== Core wizard graphic concepts
 
 image::images/des_cons_core-wiz.png[des_cons_core-wiz]
 
 Click link:media/core_wizard_concepts.zip[ *here*] or on the image above to
-download the "core_wizard_concepts.ai" and the
-"core_wizard_concepts.psd" files.
+download the `core_wizard_concepts.ai` and the
+`core_wizard_concepts.psd` files.
 
 TIP: [[guideline2.3]]*Guideline 2.3* +
 Re-use the core visual concepts to maintain consistent representation
@@ -626,8 +625,8 @@ elements and promote consistency throughout the user interface.
 image::images/des_common_icons.png[des_common_icons]
 
 Click link:media/common_icon_elements.zip[ *here*] to download the
-  "common_icon_elements_eclipse-proj.psd" for Eclipse Project icons and
-  the "common_icon_elements_eclipse-tools.psd" file for a subset of
+  `common_icon_elements_eclipse-proj.psd` for Eclipse Project icons and
+  the `common_icon_elements_eclipse-tools.psd` file for a subset of
   icons related to Eclipse-based tools.
 
 ===== Wizard elements
@@ -635,8 +634,8 @@ Click link:media/common_icon_elements.zip[ *here*] to download the
 image::images/des_common_wiz.png[des_common_wiz]
 
 Click link:media/common_wizard_elements.zip[ *here*] to download the
-  "common_wizard_elements.ai" vector-based file for designing wizard
-  banner graphics and the "common_wizard_elements.psd" raster-based file
+  `common_wizard_elements.ai` vector-based file for designing wizard
+  banner graphics and the `common_wizard_elements.psd` raster-based file
   for cutting them.
 
 TIP: [[guideline2.4]]*Guideline 2.4* +
@@ -683,11 +682,11 @@ NOTE: It is important to implement the graphical versions of the
 
 ====== Creating the disabled icon state
 To create this state, you will use the
-  "eclipse_disabledrender_R3V6.atn" action in the Eclipse-style Actions
+  `eclipse_disabledrender_R3V6.atn` action in the Eclipse-style Actions
   palette. Click link:media/eclipse-style_actions.zip[*here*] to download
   the Eclipse-style Actions.
 
-1.  Load the "eclipse_disabledrender_R3V6.atn" into the the Adobe
+1.  Load the `eclipse_disabledrender_R3V6.atn` into the the Adobe
 Photoshop Actions palette.
 2.  Use the marquee tool to select all the enabled versions of the
 toolbar and local toolbar icons you plan to create a disabled state for.
@@ -1053,7 +1052,7 @@ image::images/spec_type_persp.png[spec_type_persp]
 
 [horizontal]
 Type:: View
-Folder name:: view16
+Folder name:: `view16`
 Size:: 16 x 16 pixels
 Format:: PNG
 
@@ -1069,7 +1068,7 @@ image::images/spec_type_fastview.png[spec_type_fastview]
 
 [horizontal]
 Type:: View
-Folder name:: view16
+Folder name:: `view16`
 Size:: 16 x 16 pixels
 Format:: PNG
 
@@ -1082,7 +1081,7 @@ image::images/spec_type_tool.png[spec_type_tool]
 
 [horizontal]
 Type:: Toolbar
-Folder names:: etool16 and dtool16
+Folder names:: `etool16` and `dtool16`
 Size:: 16 x 16 pixels
 Format:: PNG
 
@@ -1100,20 +1099,20 @@ image::images/spec_type_toolwiz.png[spec_type_toolwiz]
 
 [horizontal]
 Type:: Toolbar
-Folder names:: etool16 and dtool16
+Folder names:: `etool16` and `dtool16`
 Size:: 16 x 16 pixels
 Format:: PNG
 
 ===== View
 View icons are found on the left side of the titlebar of each view
-  within the workbench. These icons indicate each view’s function or the
+  within the workbench. These icons indicate each view's function or the
   type of object a view contains.
 
 image::images/spec_type_view.png[spec_type_view]
 
 [horizontal]
 Type:: View
-Folder name:: view16
+Folder name:: `view16`
 Size:: 16 x 16 pixels
 Format:: PNG
 
@@ -1128,7 +1127,7 @@ image::images/spec_type_lcltool.png[spec_type_lcltool,title="fig:spec_type_lclto
 
 [horizontal]
 Type:: Local Toolbar
-Folder names:: elcl16 and dlcl16
+Folder names:: `elcl16` and `dlcl16`
 Size:: 16 x 16 pixels
 Format:: PNG
 
@@ -1156,7 +1155,7 @@ image::images/spec_type_icon-ol-edit.png[spec_type_icon-ol-edit]
 
 [horizontal]
 Type:: Model Object
-Folder name:: obj16
+Folder name:: `obj16`
 Size:: 16 x 16 pixels
 Format:: PNG
 
@@ -1190,7 +1189,7 @@ image:images/spec_type_ovr-proj-type.png[spec_type_ovr-proj-type]
 +
 [horizontal]
 Type:: Object Overlay
-Folder name:: ovr16
+Folder name:: `ovr16`
 Size:: 7 x 8 pixels
 Format:: PNG
 
@@ -1208,7 +1207,7 @@ image:images/spec_type_ovr-aux-status.png[spec_type_ovr-aux-status]
 +
 [horizontal]
 Type:: Object Overlay
-Folder name:: ovr16
+Folder name:: `ovr16`
 Size:: 7 x 8 pixels
 Format:: PNG
 
@@ -1245,7 +1244,7 @@ image:images/spec_type_ovr-java-att2.png[spec_type_ovr-java-att2,title="fig:spec
 +
 [horizontal]
 Type:: Object Overlay
-Folder name:: ovr16
+Folder name:: `ovr16`
 Size:: 7 x 8 pixels
 Format:: PNG
 
@@ -1275,7 +1274,7 @@ image:images/spec_type_ovr-teamsamp2.png[spec_type_ovr-teamsamp2,title="fig:spec
 --
 [horizontal]
 Type:: Object Overlay
-Folder name:: ovr16
+Folder name:: `ovr16`
 Size:: Typically 7 x 8 pixels, though some are larger
 Format:: PNG
 
@@ -1292,7 +1291,7 @@ These overlays are displayed in the treeview of a generator model file
 image::images/spec_type_ovr-multsamp.png[spec_type_ovr-multsamp]
 [horizontal]
 Type:: Object Overlay
-Folder name:: ovr16
+Folder name:: `ovr16`
 Size:: 16 x 6 pixels image size but a final cut size of 16 x 16
   pixels
 Format:: PNG
@@ -1309,7 +1308,7 @@ These are displayed under model objects in the treeview of some tools.
 image::images/spec_type_ovr-undersamp.png[spec_type_ovr-undersamp]
 [horizontal]
 Type:: Object Overlay
-Folder name:: ovr16
+Folder name:: `ovr16`
 Size:: 16 x 16 pixels
 Format:: PNG
 
@@ -1326,7 +1325,7 @@ Table icons shown in context
 image::images/spec_type_table_op1.png[spec_type_table_op1]
 [horizontal]
 Type:: Table
-Folder name:: obj16
+Folder name:: `obj16`
 Size:: They are designed in the 16 x 16 pixel space, but the actual
   image size is no greater than 15 x 14 pixels.
 Format:: PNG
@@ -1349,7 +1348,7 @@ Palette icons shown in context +
 image:images/spec_type_palette.png[ spec_type_palette]
 [horizontal]
 Type:: Palette
-Folder name:: pal
+Folder name:: `pal`
 Size:: Size varies depending on the context of the palette. The
   default size is 16 x 16 pixels but can be changed by the user to "Use
   large icons", which are 24 x 24 pixels in size. There are also rare
@@ -1371,7 +1370,7 @@ Diagram icons shown in context +
 image:images/spec_type_diagram.png[ spec_type_diagram]
 [horizontal]
 Type:: Diagram
-Folder name:: dgm
+Folder name:: `dgm`
 Size:: Canvas icons may be 16 x 16, 24 x 24, or 32 x 32 pixel in
   size. There are also instances of 15 x 15, 12 x 12, and 10 x 10 pixel
   icons in some Web Tooling diagrams. 15 x 15 and 10 x 10 icons are used
@@ -1390,7 +1389,7 @@ Progress indicator icon shown in context +
 image:images/spec_type_progress.png[ spec_type_progress]
 [horizontal]
 Type:: Progress Indicator
-Folder name:: progress
+Folder name:: `progress`
 Size:: 16 x 16 pixels
 Format:: PNG
 
@@ -1404,7 +1403,7 @@ image::images/spec_type_cursor_mask.png[ spec_type_cursor_mask,title="fig: spec_
 
 [horizontal]
 Types:: Pointer and Cursor Mask
-Folder name:: point
+Folder name:: `point`
 Size:: 32 x 32 pixels
 Format:: BMP
 
@@ -1418,7 +1417,7 @@ image:images/spec_type_wiz.png[ spec_type_wiz]
 
 [horizontal]
 Type:: Wizard Banner
-Folder name:: wizban
+Folder name:: `wizban`
 Size:: 75 x 66 pixels
 Format:: PNG
 
@@ -1799,7 +1798,7 @@ In the process described here for creating icons, we use the term 'cut'
 to mean the action of generating the individual .png files for each
 icon. This term refers to the fact that the icons are created in a
 single original .psd file that contains all the icons for a given
-product (the icon_template.psd file), and then the individual icons are
+product (the `icon_template.psd` file), and then the individual icons are
 'cut' out of the file into individual files.
 
 To increase the speed and efficiency of cutting hundreds of icons at a
@@ -1831,7 +1830,7 @@ selection down to the next icon and begins the process all over again.
 +
 To ensure the last step works properly, make sure the pink cut square
   for each icon is spaced exactly as specified in the
-  icon_design_template.psd.
+  `icon_design_template.psd`.
 
 ====== Detailed View of Cutting Actions
 
@@ -1905,7 +1904,7 @@ Underscores count as a character.
 ===== Suffixes
 
 The file name should end with a suffix that describes its location or
-function in the user interface, for example, "crtdtd_wiz.png". See the
+function in the user interface, for example, `crtdtd_wiz.png`. See the
 table below for suffix suggestions.
 
 ===== Multiple sizes
@@ -1971,20 +1970,20 @@ https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%
 Platform Naming Conventions] help page.
 
 2. Each plugin that contains user interface graphics requires an
-  *icons* folder.
+  `icons` folder.
 
-3. Within the *icons* folder, there are separate folders with names
+3. Within the `icons` folder, there are separate folders with names
   that indicate the state, type, and in some cases size, of the icons
   within, as described below:
 +
 --
   * The first letter of Toolbar and Local toolbar folder names indicates
-the icon state. Use the letter d for disabled, or *e* for enabled.
+the icon state. Use the letter `d` for disabled, or `e` for enabled.
 
-  * The next 3 to 8 letters signify the icon type: diagram (dgm), local
-toolbar (lcl), toolbar (tool), model object (obj), object overlay (ovr),
-palette (pal), pointer (point), product (prod), progress indicator
-(progress), view and perspective (view), and wizard banner (wizban).
+  * The next 3 to 8 letters signify the icon type: diagram (`dgm`), local
+toolbar (`lcl`), toolbar (`tool`), model object (`obj`), object overlay (`ovr`),
+palette (`pal`), pointer (`point`), product (`prod`), progress indicator
+(`progress`), view and perspective (`view`), and wizard banner (`wizban`).
 
   * The last two digits of the folder name are intended to indicate the
 size of the icons within. However, only a small number of folders show
@@ -2003,11 +2002,11 @@ image::images/imp_folderstruct_tabl.png[imp_folderstruct_tabl]
 
 ===== Notes:
 
-1. For some legacy plug-ins, inside the *icons* folder, there is a
-folder called **full**, which then contains these icon type folders.
+1. For some legacy plug-ins, inside the `icons` folder, there is a
+folder called `full`, which then contains these icon type folders.
 Find out from your development contact if this extra folder is required.
 
-2. We recommend that you do not use the *dnd* folder name as it used by
+2. We recommend that you do not use the `dnd` folder name as it used by
 development for drag and drop elements. These are cursor mask icons for
 moving views within the application.
 

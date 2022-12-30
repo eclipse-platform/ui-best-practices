@@ -39,7 +39,7 @@ the plug-in registry.
 If object contributions are made to the context menu, try to qualify the
 target object as much as possible, to avoid adding the command to the
 wrong objects in the Navigator. For instance, a Java command may target
-IFiles with a .java extension, or IProjects with a Java nature. It will
+``IFile``s with a `.java` extension, or ``IProject``s with a Java nature. It will
 cause confusion if Java actions appear on non-java objects.
 
 Some actions are a reflection of tool use, rather than object type. For
@@ -53,7 +53,7 @@ nature attribute in all context menu contributions.
 For more information on command filtering, refer to
 https://www.eclipse.org/articles/viewArticle/ViewArticle2.html[Creating
 an Eclipse View]. The standard attributes for resources are defined in
-IResourceActionFilter.java (see below).
+`IResourceActionFilter.java` (see below).
 
 [source,java]
 ----
@@ -67,7 +67,7 @@ public interface IResourceActionFilter extends IActionFilter {
 ----
 
 The standard attributes for project filtering are defined in
-IProjectActionFilter.java.
+`IProjectActionFilter.java`.
 
 [source,java]
 ----
@@ -78,13 +78,13 @@ public interface IProjectActionFilter extends IResourceActionFilter {
 ----
 
 TIP: [[guideline13.2]]*Guideline 13.2* +
-Use the attributes defined in IResourceActionFilter.java and
-IProjectActionFilter.java to control the visibility of context menu
+Use the attributes defined in `IResourceActionFilter.java` and
+`IProjectActionFilter.java` to control the visibility of context menu
 actions in the Navigator.
 
 ==== Integration with Other Views and Editors
 
-In Eclipse, the use of a "Navigate -> Show In" command is a common way
+In Eclipse, the use of a menu:Navigate[Show In] command is a common way
 to link the selection in one view to the input of another. For instance,
 a "Show in Package Explorer" command is visible in the context menu for
 a selected class in the source editor. When invoked, the class in the
@@ -93,12 +93,12 @@ This approach should be used as a general, non intrusive pattern for
 view or editor linking. It is context sensitive, and reflects the
 intentions of the user.
 
-A "Navigate -> Show In Navigator" command should be included in any view
+A menu:Navigate[Show In Navigator] command should be included in any view
 where a resource may appear. If invoked, the command should select and
 reveal the resource in the navigator.
 
 TIP: [[guideline13.3]]*Guideline 13.3* +
-Use a "Navigate -> Show In Navigator" command in each view, to link
+Use a menu:Navigate[Show In Navigator] command in each view, to link
 resources back to the Navigator.
 
 === The Tasks View
@@ -142,7 +142,7 @@ target object as much as possible, to avoid adding the command to the
 wrong objects in the Tasks view. At an implementation level, each object
 in the Tasks view is a __marker__, a general mechanism for associate
 notes with a resource. Use the attributes within
-IMarkerActionFilter.java to control the visibility of Task object
+`IMarkerActionFilter.java` to control the visibility of Task object
 actions (see below). For more information on command filtering, refer to
 https://www.eclipse.org/articles/viewArticle/ViewArticle2.html[Creating
 an Eclipse View].
@@ -160,7 +160,7 @@ public interface IMarkerActionFilter extends IActionFilter {
 ----
 
 TIP: [[guideline14.4]]*Guideline 14.4* +
-Use the attributes defined in IMarkerActionFilter.java to control the
+Use the attributes defined in `IMarkerActionFilter.java` to control the
 visibility of context menu actions in the Tasks view.
 
 ==== Integration with Other Views and Editors
@@ -192,8 +192,8 @@ can use the standard selection dialogs available in Eclipse.
 ==== ContainerSelectionDialog
 
 Use
-https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fui%2Fdialogs%2FContainerSelectionDialog.html[ContainerSelectionDialog]
-when want to select an IContainer (IFolder/IProject) from the workspace.
+`https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fui%2Fdialogs%2FContainerSelectionDialog.html[ContainerSelectionDialog]`
+when you want to select an `IContainer` (`IFolder`/`IProject`) from the workspace.
 
 [source,java]
 ----
@@ -207,10 +207,10 @@ the respective object as the second parameter for the constructor.
 
 ==== ResourceSelectionDialog
 
-The ContainerSelectionDialog allowed you to select only one resource
+The `ContainerSelectionDialog` allowed you to select only one resource
 that too it should be a container. If you want to select multiple
 resources including files, then
-https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fui%2Fdialogs%2FResourceSelectionDialog.html[ResourceSelectionDialog]
+`https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fui%2Fdialogs%2FResourceSelectionDialog.html[ResourceSelectionDialog]`
 is the one you should be using.
 
 [source,java]
@@ -222,11 +222,11 @@ dialog.open();
 
 ==== ResourceListSelectionDialog
 
-The ResourceSelectionDialog is good when you want to present the entire
+The `ResourceSelectionDialog` is good when you want to present the entire
 set of resources under a parent and allow the user to select multiple
 resources. But if you have a set of resources and want the user to
 select only one from that, then probably you should be using
-https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ResourceListSelectionDialog.html[ResourceListSelectionDialog].
+`https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ResourceListSelectionDialog.html[ResourceListSelectionDialog]`.
 
 [source,java]
 ----
@@ -240,7 +240,7 @@ dialog.open();
 The above Dialogs are good to selecting workspace resources. But what if
 I have some elements on my own and I want to select from that? The first
 dialog you would be using is
-https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fui%2Fdialogs%2FElementListSelectionDialog.html[ElementListSelectionDialog].
+`https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fui%2Fdialogs%2FElementListSelectionDialog.html[ElementListSelectionDialog]`.
 The user can select an element from the set. You have to pass the
 elements as an array and supply a label provider to render the element.
 The user can filter using wildcards as well.
@@ -258,10 +258,10 @@ dialog.open();
 
 If you want the user to select multiple elements from the given set,
 then
-https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ListSelectionDialog.html[ListSelectionDialog]
-is the one to use. It is basically a single column TableViewer with
-SWT.CHECK style applied. You have to supply your own ContentProvider and
-LabelProvider for the TableViewer. It also has Select All & Deselect All
+`https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ListSelectionDialog.html[ListSelectionDialog]`
+is the one to use. It is basically a single column `TableViewer` with
+`SWT.CHECK` style applied. You have to supply your own `ContentProvider` and
+`LabelProvider` for the `TableViewer`. It also has btn:[Select All] and btn:[Deselect All]
 buttons.
 
 [source,java]
@@ -275,7 +275,7 @@ dlg.open();
 
 If you have your items in a tree structure and want to select few
 elements from them, then
-https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/CheckedTreeSelectionDialog.html[CheckedTreeSelectionDialog]
+`https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/CheckedTreeSelectionDialog.html[CheckedTreeSelectionDialog]`
 is your choice. You have to bring your own content & label provider and
 the input.
 
@@ -290,8 +290,8 @@ dialog.open();
 
 ==== ElementTreeSelectionDialog
 
-https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ElementTreeSelectionDialog.html[ElementTreeSelectionDialog]
-is the same as the CheckedTreeSelectionDialog except that it will allow
+`https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ElementTreeSelectionDialog.html[ElementTreeSelectionDialog]`
+is the same as the `CheckedTreeSelectionDialog` except that it will allow
 you to select a single element in the whole tree rather than multiple
 elements.
 
@@ -307,13 +307,13 @@ dialog.open();
 ==== FilteredItemsSelectionDialog
 
 Have you used the Open Type (kbd:[Ctrl + Shift + T]) or Open Resource
-(kbd:[Ctrl + Shift + R]) dialog? Its similar to the ElementListSelectionDialog,
+(kbd:[Ctrl + Shift + R]) dialog? Its similar to the `ElementListSelectionDialog`,
 but it has more features. It can select multiple items, display a detail
 pane about the item that is currently selected, it can even remember
 your previous selections; store them in history and present them before
 the other choices. To have that functionality, you have to extend the
 abstract class
-https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/FilteredItemsSelectionDialog.html[FilteredItemsSelectionDialog]
+`https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/FilteredItemsSelectionDialog.html[FilteredItemsSelectionDialog]`
 and provide the necessary implementation.
 
 === The Preference Dialog

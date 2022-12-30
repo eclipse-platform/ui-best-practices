@@ -284,7 +284,9 @@ include::eclipse_ui_full_checklist.adoc[]
   used to navigate a hierarchy of information (like the workspace), open
   an editor, or display properties for the active editor. Modifications
   made in a view are saved immediately (in contrast to an editor part,
-  which conforms to a more elaborate open-save-close lifecycle).*Wizard*::
+  which conforms to a more elaborate open-save-close lifecycle).
+
+*Wizard*::
   A Wizard is typically used to create new resources, import resources,
   or export resources.
   
@@ -340,7 +342,7 @@ The following is a draft of ongoing Eclipse v3.x UI Guideline updates.
 ===== Summary
 
 Use the common structure of error messages to help users diagnose and
-recover from errors. This will increase user’s self-sufficiency and
+recover from errors. This will increase user's self-sufficiency and
 reduce support costs for Eclipse-based products.
 
 ===== Problem Description
@@ -389,13 +391,13 @@ mind, we should transform programmatic error text into
 user-comprehensible description in most cases.
 
 *For error messages shown in the user interface (UI), do not show the
-message’s ID, but make it accessible.* UI error messages are intended
+message's ID, but make it accessible.* UI error messages are intended
 for end users, not developers. Therefore we should not intimidate end
 users with a (cryptic) message ID that add no immediate value to their
 understanding of the error condition. However, we should make the unique
 message ID accessible in the detailed explanation of the message, so
 that users can search on the Web using the message ID, or submit the ID
-to IBM’s support team for further assistance.
+to IBM's support team for further assistance.
 
 *Log each error message shown in the UI to a log file also.* Error or
 warning messages shown to end users in the UI should also be logged in a
@@ -435,8 +437,8 @@ Java developer), to scope the error text.
 
 *Sample Error Messages in Our Products*
 
-Here are some sample error messages from IBM’s products, to illustrate
-the inconsistency among messages and the user’s challenge in
+Here are some sample error messages from IBM's products, to illustrate
+the inconsistency among messages and the user's challenge in
 understanding error conditions.
 
 image::images/Error_msg1.jpg[error_msg1.jpg,title="error_msg1.jpg"]
@@ -465,9 +467,9 @@ Remove extra items from context menus on objects in editors and views.
 
 A context menu provides a quick and convenient way to give a user access
 to a great deal of functionality. Unfortunately, it is tempting to add
-too much functionality to an object’s context menu. The resulting menus
+too much functionality to an object's context menu. The resulting menus
 can become overly long and complicated, which slows down the efficiency
-of a user’s work with the product. Moreover, it is possible to create
+of a user's work with the product. Moreover, it is possible to create
 the same context menu for all objects, regardless of type, within an
 editor or view. Such uniformity deprives a user of subtle feedback about
 which type of object they are currently working with. Contextual
@@ -476,13 +478,13 @@ of each object type.
 
 ===== Best Practice
 
-There are at least three ways to trim an object’s context menu, so that
+There are at least three ways to trim an object's context menu, so that
 it will be quick to scan and well targeted at the object.
 
-First, remove menu items that don’t apply to the object at all. This may
+First, remove menu items that don't apply to the object at all. This may
 sound obvious, but in a complicated product environment, it is easy for
 unrelated items to creep into a context menu. Of course, a menu item
-that doesn’t apply could be grayed out. But if it never applies, it’s
+that doesn't apply could be grayed out. But if it never applies, it's
 better to remove the item entirely. For example, it would be confusing
 to have a "Run as" item on the context menu of a C++ header (.h) file in
 a navigator-style view, since run operations really apply to code
@@ -500,7 +502,7 @@ where. For example, view preferences should not be on the context menu
 for an object in that view, but rather on the context menu outside any
 object (or in the view menu).
 
-Finally, remove items from an object’s context menu that apply to other,
+Finally, remove items from an object's context menu that apply to other,
 nearby objects, but not to the specific one in question. The resulting
 menus will make more sense to the user, as the actions logically
 appropriate to the object will be there, but not actions logically
@@ -511,7 +513,7 @@ project level instead.
 
 ===== Tips and Tricks
 
-Sometimes there is value in adding a view-specific item to an object’s
+Sometimes there is value in adding a view-specific item to an object's
 context menu, if the action of the menu item can be customized in some
 way for the object. For example, a generic menu:New[] menu item might open up
 a new editor pre-populated with item(s) related to the selected object.

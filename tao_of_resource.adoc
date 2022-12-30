@@ -18,11 +18,11 @@ abstraction.
 some level, is a file.
 
 Resources are also important at the UI level. If an object command,
-decorator, or property page contribution is made to an IResource, the
+decorator, or property page contribution is made to an `IResource`, the
 platform will ensure that this contribution is visible in any view or
-editor where the resource appears. For instance, a .java file will be
+editor where the resource appears. For instance, a `.java` file will be
 visible in the Navigator, the Hierarchy view, and the Packages view. To
-the user, the .java file is the same object, regardless of the view
+the user, the `.java` file is the same object, regardless of the view
 where it appears, so the object appearance, context menu, and properties
 should be consistent in each view.
 
@@ -34,11 +34,11 @@ may apply resource contributions to the resource equivalent object. This
 ensures presentation consistency for an object in the platform.
 
 The underlying resource for an object is exposed by implementing
-IAdaptable on the model object, and answering an
-IContributorResourceAdapter. For more information on the implementation
-of an IContributorResourceAdapter, refer to the
+`IAdaptable` on the model object, and answering an
+`IContributorResourceAdapter`. For more information on the implementation
+`of an IContributorResourceAdapter`, refer to the
 https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fui%2FIContributorResourceAdapter.html[Eclipse Help Pages].
 
 TIP: [[guideline17.1]]*Guideline 17.1* +
 Expose the resource for resource equivalent model objects using an
-IContributorResourceAdapter.
+`IContributorResourceAdapter`.

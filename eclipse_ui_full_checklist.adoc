@@ -200,13 +200,13 @@ TIP: *Guideline 5.7* +
 Remove all programming message ID's from wizard text.
 
 TIP: *Guideline 5.8* +
-Use a Browse Button whenever an existing object is referenced in a
+Use a btn:[Browse] Button whenever an existing object is referenced in a
 wizard.
 
 TIP: *Guideline 5.9* +
 If a new file is created, open the file in an editor. If a group of
 files are created, open the most important, or central file in an
-editor. Open the readme.html file upon creation of an example project.
+editor. Open the `readme.html` file upon creation of an example project.
 
 TIP: *Guideline 5.10* +
 If a new project is created, prompt users and change the active
@@ -557,8 +557,8 @@ Add actions to the Navigator View menu, toolbar, and context menu using
 the plug-in registry.
 
 TIP: *Guideline 13.2* +
-Use the attributes defined in IResourceActionFilter.java and
-IProjectActionFilter.java to control the visibility of context menu
+Use the attributes defined in `IResourceActionFilter.java` and
+`IProjectActionFilter.java` to control the visibility of context menu
 actions in the Navigator.
 
 TIP: *Guideline 13.3* +
@@ -580,7 +580,7 @@ Add actions to the Tasks view menu, toolbar, and context menu using the
 plug-in registry.
 
 TIP: *Guideline 14.4* +
-Use the attributes defined in IMarkerActionFilter.java to control the
+Use the attributes defined in `IMarkerActionFilter.java` to control the
 visibility of context menu actions in the Tasks view.
 
 TIP: *Guideline 14.5* +
@@ -631,7 +631,7 @@ editor for the organization of the tree view in outline view.
 
 TIP: *Guideline 17.1* +
 Expose the resource for resource equivalent model objects using an
-IContributorResourceAdapter.
+`IContributorResourceAdapter`.
 
 
 === Accessibility
