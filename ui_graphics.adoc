@@ -988,6 +988,12 @@ ICO is used for the following type of graphics in Eclipse-based tooling:
 
 * Product icons (Windows)
 
+Implementation tip: Avoid using ICO files for other graphics in Eclipse.
+ICO files contain multiple different images with different sizes.
+Therefore _any_ of the available sizes might be used at runtime.
+This can lead to menu items or other components suddenly showing very large images
+instead of the expected 16 x 16 or 32 x 32 pixel resolutions. 
+
 ===== ICNS - Mac Icon format
 
 * Product icons (Mac)
