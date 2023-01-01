@@ -46,8 +46,8 @@ Each command must have a label, tool tip, and full color image. The
 label and tool tip must use Headline style capitalization.
 
 The tool tips for a command should describe the __behavior which
-occurs__if the command is invoked, independent of the current state. For
-push buttons, the label should decribe the result of users pushing the
+occurs__ if the command is invoked, independent of the current state. For
+push buttons, the label should describe the result of users pushing the
 button. For toggle buttons, it should describe its effect when the item
 is toggled on, and the label should not change depending on the state of
 the button. In Eclipse, it is recommended that the tool tip
@@ -65,7 +65,7 @@ label.
 For consistency, any command which has a similar behavior to existing
 commands in the workbench, should adopt the same terminology.
 
-When creating a resource, the term "New" should be used in an command or
+When creating a resource, the term "New" should be used in a command or
 wizard. For instance, "New File", "New Project" and "New Java Class".
 The term "Delete" should be used when deleting an existing resource.
 
@@ -79,14 +79,14 @@ commands.
 
 ==== Enablement
 
-An command should be enabled only if it can be completed successfully.
+A command should be enabled only if it can be completed successfully.
 If this is not the case, the command should be disabled.
 
 TIP: [[guideline3.4]]*Guideline 3.4* +
-An command should be enabled only if it can be completed successfully.
+A command should be enabled only if it can be completed successfully.
 
 Command enablement should be quick to calculate. If it is too expensive
-to calculate the enablement of an command, the command should be
+to calculate the enablement of a command, the command should be
 optimistically enabled. If the command is invoked, it should calculate
 the real enablement, and show a dialog to the user if it is not
 available.
@@ -122,13 +122,21 @@ selected files on the right.
 
 Slush Buckets should also have the following control buttons, in this
 order, for moving objects from the source the selected buckets.
-[cols=",",]
+[cols=",",options="header"]
 |=========================================================
-|*Button* |*Function*
-|Add -> |Add whatever is selected on the left to the right
-|<- Remove |Remove selected items from the right
-|Add All -> |Add all (whether they are selected or not)
-|<- Remove All |Remove all
+|Button |Function
+
+|Add ->
+|Add whatever is selected on the left to the right
+
+|<- Remove
+|Remove selected items from the right
+
+|Add All ->
+|Add all (whether they are selected or not)
+
+|<- Remove All
+|Remove all
 |=========================================================
 
 image::images/slushBucket.png[slushBucket]
@@ -417,7 +425,7 @@ editor should be added to the window menu bar.
 
 The following format is recommended, to ensure consistency across
 Eclipse and better ease of use.
-[cols=",,",]
+[cols=",,",options="header"]
 |=======================================================================
 |Edit |(one or more editor specific menus) |Window
 
@@ -539,9 +547,9 @@ In the platform, the menu and toolbar for an editor are automatically
 extended by the platform. In contrast, context menu extension is
 supported in collaboration between the editor and the platform. To
 achieve this collaboration, an editor must register each context menu it
-contains with the platform. It should also define an command filter for
-each object type in the editor. An command filter makes it easier for
-one plug-in to add an command to objects in an editor defined by another
+contains with the platform. It should also define a command filter for
+each object type in the editor. A command filter makes it easier for
+one plug-in to add a command to objects in an editor defined by another
 plug-in. The target is described using object type and attributes. For
 more information on the implementation of this concept, refer to
 https://www.eclipse.org/articles/viewArticle/ViewArticle2.html[Creating
@@ -551,7 +559,7 @@ TIP: [[guideline6.14]]*Guideline 6.14* +
 Register all context menus in the editor with the platform.
 
 TIP: [[guideline6.15]]*Guideline 6.15* +
-Implement an Command Filter for each object type in the editor.
+Implement a Command Filter for each object type in the editor.
 
 ==== Resource Deletion
 
@@ -1036,9 +1044,9 @@ In the platform, the menu and toolbar for a view are automatically
 extended by the platform. In contrast, context menu extension is
 supported in collaboration between the view and the platform. To achieve
 this collaboration, a view must register each context menu it contains
-with the platform. It should also define an command filter for each
-object type in the view. An command filter makes it easier for one
-plug-in to add an command to objects in a view defined by another
+with the platform. It should also define a command filter for each
+object type in the view. A command filter makes it easier for one
+plug-in to add a command to objects in a view defined by another
 plug-in. The command target is described using object type and
 attributes. For more information on the implementation of this concept,
 refer to
@@ -1049,7 +1057,7 @@ TIP: [[guideline7.17]]*Guideline 7.17* +
 Register all context menus in the view with the platform.
 
 TIP: [[guideline7.18]]*Guideline 7.18* +
-Implement an Command Filter for each object type in the view.
+Implement a Command Filter for each object type in the view.
 
 ==== Integration with the Window Menu Bar and Toolbar
 
@@ -1356,7 +1364,7 @@ states a desire to do so. If the user does not state a desire to do so,
 opening a new perspective may cause loss of context for the user.
 
 For instance, imagine a scenario where the user selects an object and
-invokes an command. In the perspective where the command is invoked, the
+invokes a command. In the perspective where the command is invoked, the
 user may have a set of views and editors open. These represent the
 working state, or context, of the user. If a new perspective is created,
 that context will be left behind, forcing the user to recreate the
@@ -1467,7 +1475,7 @@ toolbar if they will be frequently used.
 
 The contents of each action set should be defined using a task oriented
 approach. For instance, the Java action set contains actions to create a
-new package, class and interfaces. It also contains an command to open
+new package, class and interfaces. It also contains a command to open
 an editor on a class, Goto Type. These form a cohesive set of related
 actions, which can be turned on and off by the user, depending on the
 active task.
@@ -1522,7 +1530,7 @@ TIP: [[guideline9.7]]*Guideline 9.7* +
 Let the user control the visible action sets. Don't try to control it
 for them.
 
-A common example of an command which may be added to an action set is
+A common example of a command which may be added to an action set is
 menu:Navigate[Open Type]. This command can be used to open an editor on a
 type which is not visible in the current window, and is a form of
 lateral navigation. In general, all Open actions which take the form

@@ -1452,10 +1452,11 @@ Product icons occupy the full space allotted for all five sizes: 16 x
   16, 24 x 24, 32 x 32, 64 x 64, and 72 x 72 pixels. This shows how the
   16 x 16 product icon fills the entire space:
 
-[cols="1,1"]
+[cols="1,1",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space
+|Sample image in place
+
 |image:images/spec_size_prod16.png[spec_size_prod16,title="fig:spec_size_prod16"]
 |image:images/spec_size_prod16samp.png[spec_size_prod16samp,title="fig:spec_size_prod16samp"]
 |=======================================================================
@@ -1468,10 +1469,11 @@ The maximum image size is 16 x 16 pixels, but 15 x 15 is recommended.
 
 Image size in allotted space
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space
+|Sample image in place
+
 |image:images/spec_size_persp.png[spec_size_persp,title="fig:spec_size_persp"]
 |image:images/spec_size_perspsamp.png[spec_size_perspsamp,title="fig:spec_size_perspsamp"]
 |=======================================================================
@@ -1482,10 +1484,11 @@ The maximum image size is 16 x 16 pixels, but 15 x 15 is recommended.
   If the image is 15 x 15 or smaller, the empty pixels must be on the
   left and bottom, as shown here.
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space 
+|Sample image in place
+
 |image:images/spec_size_view.png[spec_size_view,title="fig:spec_size_view"]
 |image:images/spec_size_viewsamp.png[spec_size_viewsamp,title="fig:spec_size_viewsamp"]
 |=======================================================================
@@ -1495,10 +1498,11 @@ The maximum image size is 16 x 16 pixels, but 15 x 15 is recommended.
   If the image is 15 x 15 or smaller, the empty pixels must be on the
   left and top, as shown here.
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space 
+|Sample image in place
+
 |image:images/spec_size_tool.png[spec_size_tool,title="fig:spec_size_tool"]
 |image:images/spec_size_toolsamp.png[spec_size_toolsamp,title="fig:spec_size_toolsamp"]
 |=======================================================================
@@ -1508,10 +1512,11 @@ The maximum image size is 16 x 15 pixels, but 15 x 15 is recommended.
   Model Object icons must be no greater than 15 pixels high. The empty
   pixels must be on the left and bottom, as shown here.
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space 
+|Sample image in place
+
 |image:images/spec_size_obj.png[spec_size_obj,title="fig:spec_size_obj"]
 |image:images/spec_size_objsamp.png[spec_size_objsamp,title="fig:spec_size_objsamp"]
 |=======================================================================
@@ -1537,38 +1542,41 @@ Overlay icons should have an outer white keyline surrounding the image
 
 Standard object overlay with a maximum image size of 7 x 8 pixels:
 
-[cols=""]
+[cols="",options="header"]
 |=======================================================================
-|*Image size in allotted space*
+|Image size in allotted space
 |image:images/spec_size_ovr.png[spec_size_ovr,title="fig:spec_size_ovr"]
 |=======================================================================
 
 Example of a standard Project Nature—**Type**—object overlay in place:
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space
+|Sample image in place
+
 |image:images/spec_size_ovr-proj.png[spec_size_ovr-proj,title="fig:spec_size_ovr-proj"]
 |image:images/spec_size_ovr-projsamp.png[spec_size_ovr-projsamp,title="fig:spec_size_ovr-projsamp"]
 |=======================================================================
 
 Example of a standard Auxiliary—**Status**—object overlay in place:
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space 
+|Sample image in place
+
 |image:images/spec_size_ovr-aux.png[spec_size_ovr-aux,title="fig:spec_size_ovr-aux"]
 |image:images/spec_size_ovr-auxsamp.png[spec_size_ovr-auxsamp,title="fig:spec_size_ovr-auxsamp"]
 |=======================================================================
 
 Example of a standard Java—**Attribute**—object overlay in place:
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space 
+|Sample image in place
+
 |image:images/spec_size_ovr-java.png[spec_size_ovr-java,title="fig:spec_size_ovr-java"]
 |image:images/spec_size_ovr-javasamp.png[spec_size_ovr-javasamp,title="fig:spec_size_ovr-javasamp"]
 |=======================================================================
@@ -1576,20 +1584,22 @@ Example of a standard Java—**Attribute**—object overlay in place:
 Example of a standard Version Control—**Transition**-state—object
   overlay in place:
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space
+|Sample image in place
+
 |image:images/spec_size_ovr-vers.png[spec_size_ovr-vers,title="fig:spec_size_ovr-vers"]
 |image:images/spec_size_ovr-verssamp.png[spec_size_ovr-verssamp,title="fig:spec_size_ovr-verssamp"]
 |=======================================================================
 
 Example of two stacking Version Control object overlays in place:
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space 
+|Sample image in place
+
 |image:images/spec_size_ovr-cvs.png[spec_size_ovr-cvs,title="fig:spec_size_ovr-cvs"]
 |image:images/spec_size_ovr-cvssamp.png[spec_size_ovr-cvssamp,title="fig:spec_size_ovr-cvssamp"]
 |=======================================================================
@@ -1597,10 +1607,11 @@ Example of two stacking Version Control object overlays in place:
 *Multiplicity* object overlay with a maximum image size of 16 x 6
   pixels:
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space
+|Sample image in place
+
 |image:images/spec_size_ovr-mult.png[spec_size_ovr-mult,title="fig:spec_size_ovr-mult"]
 |image:images/spec_size_ovr-multsamp.png[spec_size_ovr-multsamp,title="fig:spec_size_ovr-multsamp"]
 |=======================================================================
@@ -1609,10 +1620,11 @@ Example of two stacking Version Control object overlays in place:
   recommended. The empty pixels must be on the left and bottom, as shown
   here:
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space
+|Sample image in place
+
 |image:images/spec_size_ovr-under.png[spec_size_ovr-under,title="fig:spec_size_ovr-under"]
 |image:images/spec_size_ovr-undersamp.png[spec_size_ovr-undersamp,title="fig:spec_size_ovr-undersamp"]
 |=======================================================================
@@ -1623,10 +1635,11 @@ The maximum image size is 15 x 14 pixels. Table icons must be no
   greater than 14 pixels high. The empty pixels must be on the top,
   bottom, and left, as shown here.
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space 
+|Sample image in place
+
 |image:images/spec_size_table.png[spec_size_table,title="fig:spec_size_table"]
 |image:images/spec_size_tablesamp.png[spec_size_tablesamp,title="fig:spec_size_tablesamp"]
 |=======================================================================
@@ -1637,10 +1650,11 @@ The maximum image size is 15 x 14 pixels. Table icons must be no
   greater than 15 pixels high. The empty pixels must be on the left and
   bottom, as shown here.
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space
+|Sample image in place
+
 |image:images/spec_size_pal16.png[spec_size_pal16,title="fig:spec_size_pal16"]
 |image:images/spec_size_pal16samp.png[spec_size_pal16samp,title="fig:spec_size_pal16samp"]
 |=======================================================================
@@ -1650,10 +1664,11 @@ The maximum image size is 15 x 14 pixels. Table icons must be no
   greater than 23 pixels high. The empty pixels must be on the left and
   bottom, as shown here.
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space 
+|Sample image in place
+
 |image:images/spec_size_pal24.png[spec_size_pal24,title="fig:spec_size_pal24"]
 |image:images/spec_size_pal24samp.png[spec_size_pal24samp,title="fig:spec_size_pal24samp"]
 |=======================================================================
@@ -1662,10 +1677,11 @@ The maximum image size is 15 x 14 pixels. Table icons must be no
   pixels with the image centered. The empty pixels are on all four sides
   of the image.
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space 
+|Sample image in place
+
 |image:images/spec_size_pal32.png[spec_size_pal32,title="fig:spec_size_pal32"]
 |image:images/spec_size_pal32samp.png[spec_size_pal32samp,title="fig:spec_size_pal32samp"]
 |=======================================================================
@@ -1674,10 +1690,11 @@ The maximum image size is 15 x 14 pixels. Table icons must be no
 *Small (10 x 10) canvas icon:* The maximum image size is 10 x 10
   pixels. The image fills the space as required.
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space 
+|Sample image in place
+
 |image:images/spec_size_dgm10.png[spec_size_dgm10,title="fig:spec_size_dgm10"]
 |image:images/spec_size_dgm10samp.png[spec_size_dgm10samp,title="fig:spec_size_dgm10samp"]
 |=======================================================================
@@ -1685,10 +1702,11 @@ The maximum image size is 15 x 14 pixels. Table icons must be no
 *Small (12 x 12) canvas icon:* The maximum image size is 12 x 12
   pixels. The image fills the space as required.
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space 
+|Sample image in place
+
 |image:images/spec_size_dgm12.png[spec_size_dgm12,title="fig:spec_size_dgm12"]
 |image:images/spec_size_dgm12samp.png[spec_size_dgm12samp,title="fig:spec_size_dgm12samp"]
 |=======================================================================
@@ -1697,10 +1715,11 @@ The maximum image size is 15 x 14 pixels. Table icons must be no
   pixels, but 15 x 15 is recommended. The empty pixels must be on the
   left and bottom, as shown here.
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space 
+|Sample image in place
+
 |image:images/spec_size_dgm16.png[spec_size_dgm16,title="fig:spec_size_dgm16"]
 |image:images/spec_size_dgm16samp.png[spec_size_dgm16samp,title="fig:spec_size_dgm16samp"]
 |=======================================================================
@@ -1709,10 +1728,11 @@ The maximum image size is 15 x 14 pixels. Table icons must be no
   pixels, but 23 x 23 is recommended. The empty pixels must be on the
   left and bottom, as shown here.
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space
+|Sample image in place
+
 |image:images/spec_size_dgm24.png[spec_size_dgm24,title="fig:spec_size_dgm24"]
 |image:images/spec_size_dgm24samp.png[spec_size_dgm24samp,title="fig:spec_size_dgm24samp"]
 |=======================================================================
@@ -1721,10 +1741,11 @@ The maximum image size is 15 x 14 pixels. Table icons must be no
   pixels, but 30 x 30 is recommended with the image centered. The empty
   pixels are on all four sides of the image.
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space 
+|Sample image in place
+
 |image:images/spec_size_dgm32.png[spec_size_dgm32,title="fig:spec_size_dgm32"]
 |image:images/spec_size_dgm32samp.png[spec_size_dgm32samp,title="fig:spec_size_dgm32samp"]
 |=======================================================================
@@ -1735,10 +1756,11 @@ The maximum image size is 16 x 15 pixels, but 15 x 15 is recommended.
   Progress indicator icons must be no greater than 15 pixels high. The
   empty pixels must be on the left and bottom, as shown here.
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space
+|Sample image in place
+
 |image:images/spec_size_prog.png[spec_size_prog,title="fig:spec_size_prog"]
 |image:images/spec_size_progsamp.png[spec_size_progsamp,title="fig:spec_size_progsamp"]
 |=======================================================================
@@ -1754,10 +1776,11 @@ The final size of the pointer and cursor masks is 32 x 32 pixels. The
 
 Pointer and cursor mask image sizes shown in the 32 x 32 pixel space:
 
-[cols=","]
+[cols=",",options="header"]
 |=======================================================================
-|*Image size in allotted space* 
-|*Sample image in place*
+|Image size in allotted space 
+|Sample image in place
+
 |image:images/spec_size_point.png[spec_size_point,title="fig:spec_size_point"]
 |image:images/spec_size_pointsamp.png[spec_size_pointsamp,title="fig:spec_size_pointsamp"]
 |=======================================================================
@@ -1816,17 +1839,17 @@ load it into the Actions Palette.
 
 1.  Make sure that the pink cut layer is turned on, in the psd file.
 2.  Play the Dupe and Flatten_main file action to create a new, flat
-file. (See A in the Detailed View of Cutting Actions below)
+file. (See _A_ in the Detailed View of Cutting Actions below)
 3.  Using the Marquee tool at a fixed size of 16 x 16 pixels, select the
 first icon to be cut.
-4.  Play the eclipse icon cuts_16s action. The action will then
-automatically move through the cutting process. (See B-F below)
+4.  Play the __eclipse icon cuts\_16s__ action. The action will then
+automatically move through the cutting process. (See __B__-__F__ below)
 5.  When prompted, provide a name for the icon in lower case and click
-Save to save it as a Compuserve .png in the folder you specify. (See G)
+Save to save it as a Compuserve .png in the folder you specify. (See _G_)
 6.  When you click btn:[OK] to finish saving the image as either a Normal or
 Interlaced .png file, the action then automatically moves the marquee
 selection down to the next icon and begins the process all over again.
-(See H) + 
+(See _H_) + 
 +
 To ensure the last step works properly, make sure the pink cut square
   for each icon is spaced exactly as specified in the
@@ -1852,16 +1875,16 @@ file.
 5.  Select the top layer set where you want to being cutting and ensure
 all other layer sets are not visible.
 6.  Play the Wizard Dupe and crop action to create a new file that is
-cropped to 75 x 66 pixels. (See A-C below)
+cropped to 75 x 66 pixels. (See __A__-__C__ below)
 7.  Play the Wizard cut action. The action will then automatically move
 through the cutting process from top to bottom in the layers palette.
-(See D below)
+(See _D_ below)
 8.  When prompted, provide a name for the icon in lower case and click
-Save to save it as a Compuserve .png in the folder you specify. (See E)
+Save to save it as a Compuserve .png in the folder you specify. (See _E_)
 9.  When you click btn:[OK] to finish saving the image as either a Normal or
 Interlaced .png file, the action then automatically delete the current
 layer set, and moves to the next one and begins the process all over
-again. (See F) +
+again. (See _F_) +
 +
 To ensure the last step works properly, make sure each wizard graphic
   is contained in a layer set folder.

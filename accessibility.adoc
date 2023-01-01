@@ -16,15 +16,15 @@ mouse or the keyboard.
 The Eclipse platform has defined a large number of shortcut keys.
 Plug-in developers should make sure that the existing shortcut keys do
 not conflict with the shortcut keys defined in the plug-in.
-[cols="<,<,<,<,<,<,<",]
+[cols="<,<,<,<,<,<,<",options="header"]
 |=======================================================================
-|*Key*
-|*kbd:[Key] by itself*
-|*kbd:[Shift+Key]*
-|*kbd:[Ctrl+Key]*
-|*kbd:[Ctrl+Shift+Key]*
-|*kbd:[Alt+Key]*
-|*kbd:[Ctrl+Alt+Key]*
+|Key
+|kbd:[Key] by itself
+|kbd:[Shift+Key]
+|kbd:[Ctrl+Key]
+|kbd:[Ctrl+Shift+Key]
+|kbd:[Alt+Key]
+|kbd:[Ctrl+Alt+Key]
 
 |kbd:[A]
 |

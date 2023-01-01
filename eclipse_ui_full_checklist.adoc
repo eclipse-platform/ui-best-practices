@@ -153,7 +153,7 @@ Adopt the labeling terminology of the workbench for New, Delete and Add
 commands.
 
 TIP: *Guideline 3.4* +
-An command should be enabled only if it can be completed successfully.
+A command should be enabled only if it can be completed successfully.
 
 TIP: *Guideline 3.5* +
 Command enablement should be quick. If command enablement cannot be
@@ -280,7 +280,7 @@ TIP: *Guideline 6.14* +
 Register all context menus in the editor with the platform.
 
 TIP: *Guideline 6.15* +
-Implement an Command Filter for each object type in the editor.
+Implement a Command Filter for each object type in the editor.
 
 TIP: *Guideline 6.16* +
 If the input to an editor is deleted, and the editor contains no
@@ -416,7 +416,7 @@ TIP: *Guideline 7.17* +
 Register all context menus in the view with the platform.
 
 TIP: *Guideline 7.18* +
-Implement an Command Filter for each object type in the view.
+Implement a Command Filter for each object type in the view.
 
 TIP: *Guideline 7.19* +
 If a view has support for Cut, Copy, Paste, or any of the global
