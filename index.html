@@ -2806,6 +2806,13 @@ treeview, and menu icons.</p>
 </li>
 </ul>
 </div>
+<div class="paragraph">
+<p>Implementation tip: Avoid using ICO files for other graphics in Eclipse.
+ICO files contain multiple different images with different sizes.
+Therefore <em>any</em> of the available sizes might be used at runtime.
+This can lead to menu items or other components suddenly showing very large images
+instead of the expected 16 x 16 or 32 x 32 pixel resolutions.</p>
+</div>
 </div>
 <div class="sect4">
 <h5 id="icns_mac_icon_format"><a class="anchor" href="#icns_mac_icon_format"></a>7.3.1.6. ICNS - Mac Icon format</h5>
@@ -12488,7 +12495,7 @@ titled "Component Development - Editors" (Guidelines 6.11-6.13).</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-01-01 14:24:38 UTC
+Last updated 2023-01-04 06:01:52 UTC
 </div>
 </div>
 </body>
