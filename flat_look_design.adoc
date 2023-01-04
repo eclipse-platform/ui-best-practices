@@ -1,3 +1,4 @@
+[[flat-look-design]]
 == Flat Look Design
 
 The Eclipse platform provides a Web user interface, also known as Flat

@@ -1,3 +1,4 @@
+[[eclipse-ui-full-checklist]]
 == Checklist for Developers
 
 Here is a checklist for developers who are developing UI plugins. This

@@ -1,3 +1,4 @@
+[[component-development]]
 == Component Development
 
 === Commands

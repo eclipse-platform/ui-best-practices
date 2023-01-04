@@ -13,28 +13,53 @@ That way the styles are automatically consistent.
 // Enable user interface macros like "kbd".
 // https://asciidoctor.org/docs/user-manual/#user-interface-macros
 :experimental:
+//
 // Normalize source listings to have no indent
 // https://docs.asciidoctor.org/asciidoc/latest/attributes/document-attributes-ref/#source-highlighting-and-formatting-attributes
 :source-indent: 0
+//
 // tabs with 4 spaces (default are 8), like in eclipse
 // https://asciidoctor.org/docs/user-manual/#builtin-attributes
 :tabsize: 4
+//
 // Use font characters for admonition icons
 // https://asciidoctor.org/docs/user-manual/#admonition-icons
 :icons: font
+//
 // explicitly use the "fontawesome-solid" icon set, since the default icon set is deprecated
 :icon-set: fas
+//
 // hide URI scheme from plain text links.
 // https://docs.asciidoctor.org/asciidoc/latest/macros/links/#hide-uri-scheme
 :hide-uri-scheme:
+//
 // enable section numbering up to level 4
 :sectnums:
 :sectnumlevels: 4
+//
 // strip the leading underscore from generated ids (HTML anchors)
 :idprefix:
+//
 // Enable section anchors in front of headlines.
 // https://asciidoctor.org/docs/user-manual/#anchors -->
 :sectanchors:
+//
 // enable source highlighting
 // https://docs.asciidoctor.org/asciidoc/latest/verbatim/source-highlighter/
 :source-highlighter: coderay
+//
+// define common URLs as attributes so they can be used like macros
+//
+:best-practice-repo:                    https://github.com/eclipse-platform/ui-best-practices
+:issues:                                {best-practice-repo}/issues
+:discussions:                           {best-practice-repo}/discussions
+:working-group:                         https://wiki.eclipse.org/User_Interface_Best_Practices_Working_Group
+:help:                                  https://help.eclipse.org/latest/topic
+:CheckedTreeSelectionDialog:            {help}/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/CheckedTreeSelectionDialog.html
+:ContainerSelectionDialog:              {help}/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ContainerSelectionDialog.html
+:ElementListSelectionDialog:            {help}/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ElementListSelectionDialog.html
+:ElementTreeSelectionDialog:            {help}/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ElementTreeSelectionDialog.html
+:FilteredItemsSelectionDialog:          {help}/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/FilteredItemsSelectionDialog.html
+:ListSelectionDialog:                   {help}/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ListSelectionDialog.html
+:ResourceListSelectionDialog:           {help}/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ResourceListSelectionDialog.html
+:ResourceSelectionDialog:               {help}/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ResourceSelectionDialog.html

@@ -1,3 +1,4 @@
+[[accessibility]]
 == Accessibility
 
 In a view, editor, or other control, every features should be accessible

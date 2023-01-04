@@ -7,8 +7,7 @@ updates indicated with "(3.x update)"._
 
 *Nick Edgar, Kevin Haaland, Jin Li and Kimberley Peter, with
 contributions from members of the
-link:https://wiki.eclipse.org/User_Interface_Best_Practices_Working_Group[User Interface Best
-Practices Working Group]*.
+link:{working-group}[User Interface Best Practices Working Group]*.
 
 *Last major revision: November 2007*
 
@@ -18,23 +17,20 @@ Practices Working Group]*.
 Your feedback can influence the ideas and guidelines described here. If
 you have suggestions, please provide us with your feedback on the
 mailto:platform-ui-dev@eclipse.org?subject=UI%20Guidelines%20v2.1%20Feedback[UI
-mailing list] or on the
-https://github.com/eclipse-platform/ui-best-practices/discussions[discussion
-page].
+mailing list] or on the {discussions}[discussion page].
 
-NOTE: Please use the
-https://github.com/eclipse-platform/ui-best-practices/discussions[discussion
-page] to add comments instead of embedding them in this document.
+NOTE: Please use the {discussions}[discussion page] to
+add comments instead of embedding them in this document.
 
 
 == UI Checklist
 
 The xref:top_ten_lists.adoc[Top Ten Lists] is a shortlist of the most relevant
 and easy to apply Eclipse **User Interface Guidelines**. 
-Start by using xref:top_ten_lists.adoc[this list], referring to the linked guideline items for details, 
+Start by using xref:top_ten_lists.adoc#top-ten-lists[the top 10 list], referring to the linked guideline items for details, 
 then use the xref:eclipse_ui_full_checklist.adoc[Full Checklist] for additional guidance. 
 For comments please use the 
-https://github.com/eclipse-platform/ui-best-practices/issues[UI Best Practices GitHub Issues].
+{issues}[UI Best Practices GitHub Issues].
 
 
 == Introduction

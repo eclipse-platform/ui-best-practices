@@ -1,4 +1,5 @@
-== Quick Checklists and Top Ten Does and Dont's
+[[top-ten-lists]]
+== Quick Checklists and Top Ten Do's and Don'ts
 
 === Quick UI Checklist
 
@@ -7,22 +8,21 @@ xref:index.adoc[*User Interface Guidelines*].
 Start by using this list, referring to the linked guideline items for details, 
 then use the xref:eclipse_ui_full_checklist.adoc[Full Checklist] 
 for additional guidance.  For comments please use the 
-https://github.com/eclipse-platform/ui-best-practices/issues[UI Best Practices GitHub Issues].
+{issues}[UI Best Practices GitHub Issues].
 
 ==== Views & Editors
 
 . Put only the most commonly used commands on the view toolbar. 
   Any command on a toolbar must also appear in a menu, either the window menu, 
-  context menu or the view menu.  
-  (xref:index.adoc#guideline7.12[Guideline 7.12])
+  context menu or the view menu  
+  (xref:index.adoc#guideline7.12[Guideline 7.12]).
 . Use the view pulldown menu for commands not tied to selection 
   (xref:index.adoc#guideline7.10[Guideline 7.10]). 
   Fill the context menu with selection oriented actions 
   (xref:index.adoc#guideline7.13[Guideline 7.13]).
 . If a view or editor has support for Cut, Copy, Paste, or any of the global commands, 
-  these commands must be executable from the same commands in the window menu bar and toolbar.
-  (xref:index.adoc#guideline6.9[Guideline 6.9]), 
-  (xref:index.adoc#guideline7.19[Guideline 7.19])
+  these commands must be executable from the same commands in the window menu bar and toolbar.  (xref:index.adoc#guideline6.9[Guideline 6.9], 
+  xref:index.adoc#guideline7.19[Guideline 7.19]).
     
 . Modifications of workspace resources made in an editor should follow an open-save-close lifecycle model
   (xref:index.adoc#guideline6.2[Guideline 6.2]), 
@@ -34,18 +34,18 @@ https://github.com/eclipse-platform/ui-best-practices/issues[UI Best Practices G
 
 ==== Wizards & Dialogs
 
-. Start a wizard with a prompt, not an error message. 
-  (xref:index.adoc#guideline5.3[Guideline 5.3])
+. Start a wizard with a prompt, not an error message
+  (xref:index.adoc#guideline5.3[Guideline 5.3]).
   
-. Seed the fields within a wizard using the current workbench state. 
-  (xref:index.adoc#guideline5.4[Guideline 5.4])
+. Seed the fields within a wizard using the current workbench state
+  (xref:index.adoc#guideline5.4[Guideline 5.4]).
   
 . When a dialog opens, set the initial focus to the first input control in the container. 
   If there are no input controls, the initial focus should be assigned to the default button 
-  (xref:index.adoc#guideline4.1[Guideline 4.1])
+  (xref:index.adoc#guideline4.1[Guideline 4.1]).
   
-. Use a Browse Button whenever an existing object is referenced in a wizard. 
-  (xref:index.adoc#guideline5.8[Guideline 5.8])
+. Use a Browse Button whenever an existing object is referenced in a wizard
+  (xref:index.adoc#guideline5.8[Guideline 5.8]).
 
 ==== Workbench & Preferences
 
@@ -65,8 +65,8 @@ https://github.com/eclipse-platform/ui-best-practices/issues[UI Best Practices G
   
 . If you must create a new preference group, use the root page for frequently used preferences, 
   or those preferences which have wide spread effect. Specialize within the sub pages. 
-  The root preference page should not be blank. 
-  (xref:index.adoc#guideline2.2[Guideline 2.2])
+  The root preference page should not be blank
+  (xref:index.adoc#guideline2.2[Guideline 2.2]).
 
 === Top Ten Lists
 

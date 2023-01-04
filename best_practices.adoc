@@ -1,3 +1,4 @@
+[[best-practices]]
 == Best Practices
 
 In this section, we provide examples of best practices for designing and

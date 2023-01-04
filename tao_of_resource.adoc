@@ -1,3 +1,4 @@
+[[tao-of-resource]]
 == The Tao of Resource
 
 In Eclipse, the notion of a tool disappears. In its place, is the idea
