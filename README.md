@@ -12,10 +12,13 @@ Feedback & Contact
 ------------------
 
 We'd like to hear your feedback. It really matters to us! 
+
 There are several ways to submit feedback:
 * Submit an [issue](https://github.com/eclipse-platform/ui-best-practices/issues), or
 * Submit a [pull request](https://github.com/eclipse-platform/ui-best-practices/pulls) 
-(please read 'contributing' below).
+* Start a [discussion](https://github.com/eclipse-platform/ui-best-practices/discussions)
+
+If you submit a PR, please read 'contributing' below)
 
 
 Contributing
