@@ -2,15 +2,10 @@
 include::_settings.adoc[]
 :toc: left
 
-_This document is a working draft. Version 2.1 is the base with 3.x
-updates indicated with "(3.x update)"._
+_This document is a working draft_
 
-*Nick Edgar, Kevin Haaland, Jin Li and Kimberley Peter, with
-contributions from members of the
-link:{working-group}[User Interface Best Practices Working Group]*.
-
-*Last major revision: November 2007*
-
+Originally written by *Nick Edgar, Kevin Haaland, Jin Li and Kimberley Peter.
+Maintained by the Eclipse open source community.
 
 == How to contribute to this document
 
