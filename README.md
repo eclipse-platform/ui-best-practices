@@ -20,6 +20,10 @@ There are several ways to submit feedback:
 
 If you submit a PR, please read 'contributing' below)
 
+Content
+-------
+
+See [Github pages](https://eclipse-platform.github.io/ui-best-practices/) for the current content.
 
 Contributing
 ------------
