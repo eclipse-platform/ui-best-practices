@@ -7,14 +7,15 @@ Our [Eclipse UI Guidelines](eclipse_ui_guidelines.adoc) describe guidelines for 
 Please do not hesitate to give feedback and send send improvement suggestions via pull requests.
 
 
+
 Feedback & Contact
 ------------------
 
-We'd like to hear your feedback. It really matters to us! There are several ways
-to submit feedback:
-* Subscribe to [our mailing list](https://dev.eclipse.org/mailman/listinfo/ui-best-practices-working-group) and start a discussion, or
-* Submit an issue, or
-* Submit a pull request (please read 'contributing' below).
+We'd like to hear your feedback. It really matters to us! 
+There are several ways to submit feedback:
+* Submit an [issue](https://github.com/eclipse-platform/ui-best-practices/issues), or
+* Submit a [pull request](https://github.com/eclipse-platform/ui-best-practices/pulls) 
+(please read 'contributing' below).
 
 
 Contributing
