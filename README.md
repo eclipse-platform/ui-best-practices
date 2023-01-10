@@ -17,6 +17,10 @@ There are several ways to submit feedback:
 * Submit a [pull request](https://github.com/eclipse-platform/ui-best-practices/pulls) 
 (please read 'contributing' below).
 
+Content
+-------
+
+See [Github pages](https://eclipse-platform.github.io/ui-best-practices/) for the current content.
 
 Contributing
 ------------
