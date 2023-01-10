@@ -70,17 +70,8 @@ TIP: [[guideline1.34]]*Guideline 1.3* +
 Be careful not to mix UI metaphors. It may blur the original concept,
 and your own application.
 
-Eclipse is an open source project. If you feel your ideas are generally
-useful, join the Eclipse community, write a proposal, and work with the
-Eclipse community to make Eclipse a better platform for product
-development and increase customer satisfaction.
-
-Visit https://www.eclipse.org/[www.eclipse.org] and join the 
-mailto:ui-best-practices-working-group@eclipse.org[Eclipse UI mailing list]. 
-
 TIP: [[guideline1.4]]*Guideline 1.4* +
-If you have an interesting idea, work with the Eclipse community to make
-Eclipse a better platform for all.
+If you have an interesting idea, work with the Eclipse community to make Eclipse a better platform for all.
 
 === Capitalization
 
