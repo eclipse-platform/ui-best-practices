@@ -909,21 +909,8 @@ different graphic types.
 
 ===== GIF - Graphics Interchange Format
 
-GIF images are raster-based, can have transparency, and tend to use a
-small amount of memory and disk space. Each GIF file contains a color
-palette of up to 256 individual colors. This format is most suited to
-images that use flat colors or have a limited number of colors. It is
-not a suitable format for photographic images.
-
-GIF files use lossless compression, but that may be misleading. A GIF
-image is not necessarily identical to original image. Because GIF images
-can contain a maximum of 256 colors, images that contain greater than
-256 colors must be reduced to 256 colors through quantization (and
-optionally, dithering) to approximate the original colors. It is not
-necessary to quantize or dither GIF icons that are 16 x 16 pixels
-because such icons contain only 256 pixels. The GIF file palette
-limitation is, however, something to be aware of when creating larger
-images.
+GIF images should not be used as they can look bad on the selected theme of the Eclipse IDE.
+Prefer the usage of PNG files.
 
 ===== PNG - Portable Network Graphics
 
