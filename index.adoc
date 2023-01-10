@@ -14,14 +14,12 @@ link:{working-group}[User Interface Best Practices Working Group]*.
 
 == How to contribute to this document
 
-Your feedback can influence the ideas and guidelines described here. If
-you have suggestions, please provide us with your feedback on the
-mailto:platform-ui-dev@eclipse.org?subject=UI%20Guidelines%20v2.1%20Feedback[UI
-mailing list] or on the {discussions}[discussion page].
+Your feedback can influence the ideas and guidelines described here.
 
-NOTE: Please use the {discussions}[discussion page] to
-add comments instead of embedding them in this document.
-
+There are several ways to submit feedback:
+* Submit an https://github.com/eclipse-platform/ui-best-practices/issues[issue]
+* Submit a https://github.com/eclipse-platform/ui-best-practices/pulls[pull request] 
+* Start a https://github.com/eclipse-platform/ui-best-practices/discussions[discussion]
 
 == UI Checklist
 
