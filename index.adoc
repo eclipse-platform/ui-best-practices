@@ -25,7 +25,7 @@ add comments instead of embedding them in this document.
 
 == UI Checklist
 
-The xref:top_ten_lists.adoc[Top Ten Lists] is a shortlist of the most relevant
+The xref:top_ten_lists.adoc#top-ten-lists[top 10 list] is a shortlist of the most relevant
 and easy to apply Eclipse **User Interface Guidelines**. 
 Start by using xref:top_ten_lists.adoc#top-ten-lists[the top 10 list], referring to the linked guideline items for details, 
 then use the xref:eclipse_ui_full_checklist.adoc[Full Checklist] for additional guidance. 
