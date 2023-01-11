@@ -49,18 +49,11 @@ Please refere to
 [AsciiDoc Syntax Quick Reference](http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/).
 
 ### Making changes
-Ensure that lines in `.adoc` files are *hard wrapped* at 80 columns. This makes it
-much easier to view the diffs in git. How you do this depends on your particular
-text editor.
 
-As a sanity check, please install the Git hooks contained in this repository
-by running `bin/git/install-hooks`. The pre-commit hook script will run 
-automatically before you make a commit and warn you if you have lines longer 
-than 80 characters.
+Ensure that every sentence is in one line.
+This is the so-called _One sentence per line_ best practice from Asciidoc, see https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line for details. 
 
-Sometimes, it is *not* possible to break at 80 columns, e.g., because you have a
-URL that cannot be split across lines. In that case, you can use `git commit
---no-verify` to temporarily bypass the check.
+
 
 ### Update Process
 Please submit pull requests for any proposals/semantic changes/enhancements.
