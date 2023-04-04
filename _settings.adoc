@@ -53,6 +53,7 @@ That way the styles are automatically consistent.
 :best-practice-repo:                    https://github.com/eclipse-platform/ui-best-practices
 :issues:                                {best-practice-repo}/issues
 :discussions:                           {best-practice-repo}/discussions
+:pulls:                                 {best-practice-repo}/pulls
 :working-group:                         https://wiki.eclipse.org/User_Interface_Best_Practices_Working_Group
 :help:                                  https://help.eclipse.org/latest/topic
 :CheckedTreeSelectionDialog:            {help}/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/CheckedTreeSelectionDialog.html
