@@ -3,7 +3,7 @@ Eclipse UI Best Practices
 
 Welcome to the Eclipse UI Best Practices repository. 
 This repository provides useful information for developers of the Eclipse IDE and Eclipse Plug-Ins.
-Our [Eclipse UI Guidelines](eclipse_ui_guidelines.adoc) describe guidelines for  Eclipse Plug-In developers. 
+Our [Eclipse UI Guidelines](https://eclipse-platform.github.io/ui-best-practices/) describe guidelines for  Eclipse Plug-In developers. 
 Please do not hesitate to give feedback and send send improvement suggestions via pull requests.
 
 
@@ -28,7 +28,7 @@ See [Github pages](https://eclipse-platform.github.io/ui-best-practices/) for th
 Contributing
 ------------
 
-This directory contains the source for the [Eclipse UI Guidelines](eclipse_ui_guidelines.adoc)
+This directory contains the source for the [Eclipse UI Guidelines](https://eclipse-platform.github.io/ui-best-practices/)
 in AsciiDoc format, the build script, and generated output. The build script is
 configured to generate output for a specific version of the document and running
 the build (`make`) may overwrite any existing document.
