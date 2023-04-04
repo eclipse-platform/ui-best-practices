@@ -1884,10 +1884,6 @@ To ensure the last step works properly, make sure each wizard graphic
   is contained in a layer set folder.
 
 
-====== Detailed View of Cutting Actions
-
-image::images/imp_cut_wizards.png[imp_cut_wizards,title="fig:imp_cut_wizards"]
-
 TIP: [[guideline2.11]]*Guideline 2.11* + 
 Use the cutting actions provided to increase the speed and efficiency of
 cutting a large number of graphics.
