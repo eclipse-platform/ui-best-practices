@@ -256,10 +256,10 @@ image::images/des_colour_pal.png[des_colour_pal]
 The *_Eclipse-style palette_* contains the core and dominant colors
   used in Eclipse-based icons, wizard banner graphics, and user
   assistance graphics. You can download the palette in the
-  https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.aco[".aco"],
-  https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/tools/eclipse-style_palette.ai[".ai"]
+  link:media/eclipse-style_palette.aco[.aco]
+  link:media/eclipse-style_palette.ai[.ai]
   and
-  https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.gpl[".gpl"]
+  link:media/eclipse-style_palette.gpl[.gpl]
   file format.
 
 image::images/des_styl_blueyellow.png[des_styl_blueyellow]
