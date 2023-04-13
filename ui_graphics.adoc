@@ -345,35 +345,31 @@ In some special cases, a single icon may appear on multiple
 
 . *Download the palette* + 
 You can download the palette in the
-https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.aco[".aco"],
-https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.ai[".ai"],
-and
-https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.gpl[".gpl"]
-file format.
+  link:media/eclipse-style_palette.aco[.aco]
+  link:media/eclipse-style_palette.ai[.ai]
+  and
+  link:media/eclipse-style_palette.gpl[.gpl]
+  file format.
 +
-To load the palette in Adobe Photoshop, open the "Swatches" palette
-  and choose menu:Load Swatches...[]; then navigate to where you saved the
-  https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.aco
-  "eclipse-style_palette.aco"] palette.
+To load the palette in Adobe Photoshop, open the "Swatches" palette and choose menu:Load Swatches...[]; then navigate to where you saved the
+  link:media/eclipse-style_palette.aco[eclipse-style_palette.aco]
+  palette.
 +
 To load the palette in Adobe Illustrator, first save the
-https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.ai["eclipse-style_palette.ai"]
-palette in the Adobe Illustrator > Presets > Swatches folder. If you
-have Adobe Illustrator already open, you will need to restart it after
-adding this file. Once you restart Illustrator, go to menu:Windows[Swatch Libraries] and choose the "eclipse-style_palette.ai" palette from the
-list.
+  link:media/eclipse-style_palette.ai[eclipse-style_palette.ai]
+  palette in the Adobe Illustrator > Presets > Swatches folder. If you have Adobe Illustrator already open, you will need to restart it after adding this file. Once you restart Illustrator, go to menu:Windows[Swatch Libraries] and choose the 
+  link:media/eclipse-style_palette.ai[eclipse-style_palette.ai]
+  palette from the list.
 +
 To use the 
-https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.gpl[".gpl"] palette in The GIMP open the "Palettes" dialog and choose
-  "Import Palette" entry from the context menu. 
+  link:media/eclipse-style_palette.gpl[eclipse-style_palette.gpl]
+  palette in The GIMP open the "Palettes" dialog and choose "Import Palette" entry from the context menu. 
 +
-The
-  https://github.com/eclipse-platform/eclipse.platform.images/tree/master/org.eclipse.images/tools/eclipse-style_palette.gpl[".gpl"]
-  file format can also be used in Inkscape. Just copy the palette file
-  into the user's profile into the `/~/.config/inkscape/palettes`
-  folder.
+The 
+  link:media/eclipse-style_palette.gpl[eclipse-style_palette.gpl]
+  palette can also be used in Inkscape. Just copy the palette file into the user's profile into the `/~/.config/inkscape/palettes` folder.
 +
-Save your images with the palette as a base
+Save your images with the palette as a base.
 +
 In Adobe Photoshop, when an image is complete and ready to be saved to
   GIF, index the image to "exact" color. This indexing preserves all of
