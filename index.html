@@ -2928,7 +2928,57 @@ Format
 </div>
 </div>
 <div class="sect4">
-<h5 id="fast_view"><a class="anchor" href="#fast_view"></a>7.3.2.3. Fast View</h5>
+<h5 id="perspective_onboarding_image"><a class="anchor" href="#perspective_onboarding_image"></a>7.3.2.3. Perspective Onboarding Image</h5>
+<div class="paragraph">
+<p>Starting with Eclipse 4.28 each perspective can provide so called "Onboarding Information".
+This is shown in the empty editor area when no editor is open and contains an image.
+This image is shown in a watermark-like style. So it&#8217;s gray scale and in low contrast.
+This image should be derived from the perspective icon - basically a blow-up gray scale version of the perspective icon.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/spec_type_onboarding.png" alt="spec_type_onboarding">
+</div>
+</div>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Type
+</td>
+<td class="hdlist2">
+<p>Onboarding Image</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Folder name
+</td>
+<td class="hdlist2">
+<p>&lt;top level&gt;</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Size
+</td>
+<td class="hdlist2">
+<p>250 x 250 pixels</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Format
+</td>
+<td class="hdlist2">
+<p>PNG</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect4">
+<h5 id="fast_view"><a class="anchor" href="#fast_view"></a>7.3.2.4. Fast View</h5>
 <div class="paragraph">
 <p>Fast View icons allow users to quickly display different views that
   have been created as fast views. These icons are by default located in
@@ -2980,7 +3030,7 @@ Format
 </div>
 </div>
 <div class="sect4">
-<h5 id="toolbar"><a class="anchor" href="#toolbar"></a>7.3.2.4. Toolbar</h5>
+<h5 id="toolbar"><a class="anchor" href="#toolbar"></a>7.3.2.5. Toolbar</h5>
 <div class="paragraph">
 <p>Toolbar icons are located on the main toolbar across the top of the
   workbench. They represent actions, and will invoke a command, either
@@ -3029,7 +3079,7 @@ Format
 </div>
 </div>
 <div class="sect4">
-<h5 id="toolbar_wizard"><a class="anchor" href="#toolbar_wizard"></a>7.3.2.5. Toolbar Wizard</h5>
+<h5 id="toolbar_wizard"><a class="anchor" href="#toolbar_wizard"></a>7.3.2.6. Toolbar Wizard</h5>
 <div class="paragraph">
 <p>Toolbar wizard icons are found on the main toolbar across the top of
   the workbench as well as in the New wizard dialog list. Selecting one
@@ -3083,7 +3133,7 @@ Format
 </div>
 </div>
 <div class="sect4">
-<h5 id="view"><a class="anchor" href="#view"></a>7.3.2.6. View</h5>
+<h5 id="view"><a class="anchor" href="#view"></a>7.3.2.7. View</h5>
 <div class="paragraph">
 <p>View icons are found on the left side of the titlebar of each view
   within the workbench. These icons indicate each view&#8217;s function or the
@@ -3132,7 +3182,7 @@ Format
 </div>
 </div>
 <div class="sect4">
-<h5 id="local_toolbar"><a class="anchor" href="#local_toolbar"></a>7.3.2.7. Local Toolbar</h5>
+<h5 id="local_toolbar"><a class="anchor" href="#local_toolbar"></a>7.3.2.8. Local Toolbar</h5>
 <div class="paragraph">
 <p>Local toolbar icons are found to the right of the view icon on the
   titlebar of each view within the workbench. They represent actions,
@@ -3184,7 +3234,7 @@ Format
 </div>
 </div>
 <div class="sect4">
-<h5 id="model_object"><a class="anchor" href="#model_object"></a>7.3.2.8. Model Object</h5>
+<h5 id="model_object"><a class="anchor" href="#model_object"></a>7.3.2.9. Model Object</h5>
 <div class="paragraph">
 <p>Model Object icons are found in tree views, list views, and on editor
   tabs within the workbench. They represent objects and sometimes
@@ -3253,7 +3303,7 @@ Format
 </div>
 </div>
 <div class="sect4">
-<h5 id="object_overlay_and_underlay"><a class="anchor" href="#object_overlay_and_underlay"></a>7.3.2.9. Object Overlay (and Underlay)</h5>
+<h5 id="object_overlay_and_underlay"><a class="anchor" href="#object_overlay_and_underlay"></a>7.3.2.10. Object Overlay (and Underlay)</h5>
 <div class="paragraph">
 <p>Object overlay icons are decorator elements that are used in tree or
   list views. They are appended to model object icons as signifiers of
@@ -3653,7 +3703,7 @@ Format
 </div>
 </div>
 <div class="sect4">
-<h5 id="table"><a class="anchor" href="#table"></a>7.3.2.10. Table</h5>
+<h5 id="table"><a class="anchor" href="#table"></a>7.3.2.11. Table</h5>
 <div class="paragraph">
 <p>Table icons are a type of model object icon used specifically in
   tables as labels, status indication, or to give additional information
@@ -3709,7 +3759,7 @@ Format
 </div>
 </div>
 <div class="sect4">
-<h5 id="palette"><a class="anchor" href="#palette"></a>7.3.2.11. Palette</h5>
+<h5 id="palette"><a class="anchor" href="#palette"></a>7.3.2.12. Palette</h5>
 <div class="paragraph">
 <p>Palette icons are located on the palette and most commonly accompany
   diagrams or some editable canvas space. In this context, palette icons
@@ -3770,7 +3820,7 @@ Format
 </div>
 </div>
 <div class="sect4">
-<h5 id="diagram"><a class="anchor" href="#diagram"></a>7.3.2.12. Diagram</h5>
+<h5 id="diagram"><a class="anchor" href="#diagram"></a>7.3.2.13. Diagram</h5>
 <div class="paragraph">
 <p>Diagram icons come in two subtypes: Canvas and Action Bar. Canvas
   icons are used in the diagram or canvas area. These icons commonly
@@ -3829,7 +3879,7 @@ icons, which are SVG.</p>
 </div>
 </div>
 <div class="sect4">
-<h5 id="progress_indicator"><a class="anchor" href="#progress_indicator"></a>7.3.2.13. Progress Indicator</h5>
+<h5 id="progress_indicator"><a class="anchor" href="#progress_indicator"></a>7.3.2.14. Progress Indicator</h5>
 <div class="paragraph">
 <p>The progress indicator icon is located in lower right of user
   interface to the right of the actual progress indicator, which shows
@@ -3878,7 +3928,7 @@ Format
 </div>
 </div>
 <div class="sect4">
-<h5 id="pointer_and_cursor_mask"><a class="anchor" href="#pointer_and_cursor_mask"></a>7.3.2.14. Pointer and Cursor Mask</h5>
+<h5 id="pointer_and_cursor_mask"><a class="anchor" href="#pointer_and_cursor_mask"></a>7.3.2.15. Pointer and Cursor Mask</h5>
 <div class="paragraph">
 <p>Pointer icons are cursors and each requires a cursor mask. The cursor
   mask is an inverted image, or a complete mask, of the pointer.</p>
@@ -3930,7 +3980,7 @@ Format
 </div>
 </div>
 <div class="sect4">
-<h5 id="wizard_banner"><a class="anchor" href="#wizard_banner"></a>7.3.2.15. Wizard Banner</h5>
+<h5 id="wizard_banner"><a class="anchor" href="#wizard_banner"></a>7.3.2.16. Wizard Banner</h5>
 <div class="paragraph">
 <p>Wizard banner graphics are located on the right side of the wizard
   banner. They visually represent the outcome of the wizard, such as a
@@ -12451,7 +12501,7 @@ titled "Component Development - Editors" (Guidelines 6.11-6.13).</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-04-05 14:02:45 UTC
+Last updated 2023-04-14 07:53:35 UTC
 </div>
 </div>
 </body>
