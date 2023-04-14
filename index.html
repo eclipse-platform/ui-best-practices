@@ -1826,10 +1826,7 @@ list.</p>
 <p>Save your images with the palette as a base</p>
 </div>
 <div class="paragraph">
-<p>In Adobe Photoshop, when an image is complete and ready to be saved to
-  GIF, index the image to "exact" color. This indexing preserves all of
-  the colors the graphic was created with, including any colors you have
-  added that are not contained in the base palette.</p>
+<p>In Adobe Photoshop, when an image is complete and ready to be saved to PNG, index the image to "exact" color. This indexing preserves all of the colors the graphic was created with, including any colors you have added that are not contained in the base palette.</p>
 </div>
 <div class="paragraph">
 <p>In The GIMP, simply Save As PNG.</p>
@@ -2083,17 +2080,6 @@ categories of color are applied to wizard banner graphics.</p>
   a light blue curvilinear element that does not vary. However, the
   background color of the banner area does vary from one operation
   system and theme to another.</p>
-<div class="paragraph">
-<p>Previous to Eclipse 3.3, all wizard banner graphics were in GIF
-  format, which meant that the blue curvilinear element blended to a
-  white background that was part of the final cut image. This worked
-  well on standard Windows and OSX themes that have a white banner
-  background, but not on Linux flavors that have a grey banner
-  background. Fortunately, Eclipse now supports the PNG graphic format
-  and all Eclipse Project (SDK) wizard banner graphics have been
-  converted to PNG so that graphic blends to whatever background color
-  it sits on.</p>
-</div>
 </dd>
 </dl>
 </div>
@@ -2647,7 +2633,7 @@ different graphic types.</p>
 <div class="sect4">
 <h5 id="gif_graphics_interchange_format"><a class="anchor" href="#gif_graphics_interchange_format"></a>7.3.1.1. GIF - Graphics Interchange Format</h5>
 <div class="paragraph">
-<p>GIF images should not be used as they can look bad on the selected theme of the Eclipse IDE.
+<p>GIF images should not be used. The cannot handle transparency very well and because of this they can look bad on the selected theme of the Eclipse IDE.
 Prefer the usage of PNG files.</p>
 </div>
 </div>
@@ -12501,7 +12487,7 @@ titled "Component Development - Editors" (Guidelines 6.11-6.13).</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-04-14 07:53:35 UTC
+Last updated 2023-04-14 07:54:10 UTC
 </div>
 </div>
 </body>
