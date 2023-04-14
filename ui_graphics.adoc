@@ -1050,6 +1050,20 @@ Folder name:: `view16`
 Size:: 16 x 16 pixels
 Format:: PNG
 
+===== Perspective Onboarding Image
+Starting with Eclipse 4.28 each perspective can provide so called "Onboarding Information".
+This is shown in the empty editor area when no editor is open and contains an image.
+This image is shown in a watermark-like style. So it's gray scale and in low contrast.
+This image should be derived from the perspective icon - basically a blow-up gray scale version of the perspective icon.
+
+image::images/spec_type_onboarding.png[spec_type_onboarding]
+
+[horizontal]
+Type:: Onboarding Image
+Folder name:: <top level>
+Size:: 250 x 250 pixels
+Format:: PNG
+
 ===== Fast View
 Fast View icons allow users to quickly display different views that
   have been created as fast views. These icons are by default located in
