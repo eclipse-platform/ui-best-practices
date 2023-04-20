@@ -408,32 +408,25 @@ Lighting for the wizard banner graphics can be a simple unidirectional
 image:images/des_styl_wiz_lighting.png[des_styl_wiz_lighting]
 
 Shadow::
-For rectilinear objects, such as folders and files, an additional
-  light source is implied from the left-front of the graphic, casting a
-  shadow to the right of the graphic. This shadow is angled backward - to
-  the right-back - at 45 degrees. When designing these types of graphics,
-  consider the space the shadow will require by locating the graphical
-  elements on the left side of the designated image area. 
-+   
-image::images/des_styl_wiz_shadow1.png[des_styl_wiz_shadow1,title="fig:des_styl_wiz_shadow1"]
+For rectilinear objects, such as folders and files, an additional ight source is implied from the left-front of the graphic, casting a shadow to the right of the graphic.
+This shadow is angled backward - to the right-back - at 45 degrees. 
+When designing these types of graphics, consider the space the shadow will require by locating the graphical elements on the left side of the designated image area.
 +
-Spherical objects have a different shadow treatment than their
-  rectangular counterparts. The shadow is positioned directly below the
-  object and is elliptical in shape. The sphere touches the shadow,
-  which has the effect of grounding the sphere to the surface below. Use
-  this type of shadow for spherical and flat-bottomed round objects,
-  such as the "Java Method" sphere and "Service" bell, which are
-  centered in the designated image area. + 
-image:images/des_styl_wiz_shadow2.png[des_styl_wiz_shadow2] 
+image::images/des_styl_wiz_shadow1.png[des_styl_wiz_shadow1]
++
+Spherical objects have a different shadow treatment than their rectangular counterparts. 
+The shadow is positioned directly below the object and is elliptical in shape. 
+The sphere touches the shadow, which has the effect of grounding the sphere to the surface below. 
+Use this type of shadow for spherical and flat-bottomed round objects, such as the "Java Method" sphere and "Service" bell, which are centered in the designated image area.
 + 
-Floating objects have a similar shadow to spherical objects in that
-  the shadow is also elliptical in shape and positioned below the
-  object. However, unlike the shadow for spherical objects, it does not
-  touch the object. The object floats above the surface and casts a
-  shadow directly below it. Use this type of shadow for elements that
-  are centered and floating within the designated image area. 
+image::images/des_styl_wiz_shadow2.png[des_styl_wiz_shadow2]
 + 
-image::images/des_styl_wiz_shadow3.png[des_styl_wiz_shadow3,title="fig:des_styl_wiz_shadow3"]
+Floating objects have a similar shadow to spherical objects in that the shadow is also elliptical in shape and positioned below the object. 
+However, unlike the shadow for spherical objects, it does not touch the object. 
+The object floats above the surface and casts a shadow directly below it. 
+Use this type of shadow for elements that are centered and floating within the designated image area.
++ 
+image::images/des_styl_wiz_shadow3.png[des_styl_wiz_shadow3]
 
 Outlines::
 Each element within an individual wizard graphic has a keyline to
