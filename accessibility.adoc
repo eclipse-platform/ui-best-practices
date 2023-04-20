@@ -1,22 +1,18 @@
 [[accessibility]]
 == Accessibility
 
-In a view, editor, or other control, every features should be accessible
-using a mouse or the keyboard.
+In a view, editor, or other control, every features should be accessible using a mouse or the keyboard.
 
-In a dialog or wizard, a shortcut key should be defined for each button
-or control. The shortcut key should be displayed with an underline
-beneath the appropriate shortcut character.
+In a dialog or wizard, a shortcut key should be defined for each button or control. 
+The shortcut key should be displayed with an underline beneath the appropriate shortcut character.
 
 TIP: [[guideline18.1]]*Guideline 18.1* +
-All of the features provided by a tool should be accessible using a
-mouse or the keyboard.
+All of the features provided by a tool should be accessible using a mouse or the keyboard.
 
 === Standard Accelerators
 
 The Eclipse platform has defined a large number of shortcut keys.
-Plug-in developers should make sure that the existing shortcut keys do
-not conflict with the shortcut keys defined in the plug-in.
+Plug-in developers should make sure that the existing shortcut keys do not conflict with the shortcut keys defined in the plug-in.
 [cols="<,<,<,<,<,<,<",options="header"]
 |=======================================================================
 |Key
