@@ -677,16 +677,7 @@ make them look disabled. It happens quickly so if you want to
 deconstruct it, you will need to enable the dialog boxes to show while
 you run the action. These toggles on located on the left side of the
 Actions palette.
-5.  Once the disabled state is made, there is usually some minor
-adjustments required. We recommend you go through each icon and tweak
-any pixels that don't look right and to give a consistent treatment to
-similar elements.
-
-
-Here is what the "Create Disabled State" action looks like in the
-  Actions palette:
-
-image::images/des_states_disabled-atn.png[des_states_disabled-atn,title="fig:des_states_disabled-atn"]
+5.  Once the disabled state is made, there is usually some minor adjustments required. We recommend you go through each icon and tweak any pixels that don't look right and to give a consistent treatment to similar elements.
 
 ====== Toggled states
 The toggled state is used on toolbars, local toolbars, and in menus.
@@ -1287,9 +1278,6 @@ These are displayed under model objects in the treeview of some tools.
   with a 2 pixel radius on each corner, and are light in color so they
   are clean and not overstated when seen multiple times in a treeview.
 +
-*Example:*
-+
-image::images/spec_type_ovr-undersamp.png[spec_type_ovr-undersamp]
 [horizontal]
 Type:: Object Overlay
 Folder name:: `ovr16`
@@ -1378,12 +1366,7 @@ Size:: 16 x 16 pixels
 Format:: PNG
 
 ===== Pointer and Cursor Mask
-Pointer icons are cursors and each requires a cursor mask. The cursor
-  mask is an inverted image, or a complete mask, of the pointer.
-
-Pointer and cursor mask examples
-
-image::images/spec_type_cursor_mask.png[ spec_type_cursor_mask,title="fig: spec_type_cursor_mask"]
+Pointer icons are cursors and each requires a cursor mask. The cursor mask is an inverted image, or a complete mask, of the pointer.
 
 [horizontal]
 Types:: Pointer and Cursor Mask
