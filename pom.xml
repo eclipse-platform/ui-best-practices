@@ -7,7 +7,7 @@
 	<name>Eclipse UI best practices</name>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<asciidoctor.maven.plugin.version>2.2.2</asciidoctor.maven.plugin.version>
+		<asciidoctor.maven.plugin.version>2.2.3</asciidoctor.maven.plugin.version>
 		<best.practices.document.version>v4-DRAFT</best.practices.document.version>
 	</properties>
 	<build>
@@ -60,12 +60,12 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>3.2.0</version>
+                <version>3.2.1</version>
                 <dependencies>
                     <dependency>
                         <groupId>io.spring.nohttp</groupId>
                         <artifactId>nohttp-checkstyle</artifactId>
-                        <version>0.0.10</version>
+                        <version>0.0.11</version>
                     </dependency>
                 </dependencies>
                 <configuration>
