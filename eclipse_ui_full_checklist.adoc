@@ -387,7 +387,7 @@ If a view displays a resource tree, consider using the window input as
 the root of visible information in the view.
 
 TIP: *Guideline 7.10* +
-Use the view pulldonw menu for presentation commands, not
+Use the view pulldown menu for presentation commands, not
 selection-oriented commands.
 
 TIP: *Guideline 7.11* +
