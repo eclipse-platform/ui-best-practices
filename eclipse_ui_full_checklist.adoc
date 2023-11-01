@@ -201,8 +201,7 @@ TIP: *Guideline 5.7* +
 Remove all programming message ID's from wizard text.
 
 TIP: *Guideline 5.8* +
-Use a btn:[Browse] Button whenever an existing object is referenced in a
-wizard.
+Use a btn:[Browse...] Button whenever an existing object is referenced in a wizard.
 
 TIP: *Guideline 5.9* +
 If a new file is created, open the file in an editor. If a group of

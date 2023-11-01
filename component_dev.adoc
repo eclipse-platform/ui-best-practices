@@ -53,8 +53,7 @@ button. For toggle buttons, it should describe its effect when the item
 is toggled on, and the label should not change depending on the state of
 the button. In Eclipse, it is recommended that the tool tip
 for a command uses the same text as that for the command label. For
-instance, in the following snapshot the behavior of the Show Type
-Hierarchy button is shown using one tool tips text.
+instance, in the following snapshot the behavior of the Show Type Hierarchy button is shown using a tool tip text.
 
 image::images/goodTooltips.png[goodTooltips]
 
@@ -255,7 +254,7 @@ Remove all programming message ID's from wizard text.
 ==== Browse Buttons
 An edit field and btn:[Browse...] button combination should be used whenever
 an existing object is referenced within a wizard. The edit field is used
-for direct input of the existing object, and the btn:[Browse] button is used
+for direct input of the existing object, and the btn:[Browse...] button is used
 to browse and select the object from a list of all possible choices.
 
 For instance, in the New Java Class wizard, a btn:[Browse...] button is
@@ -266,7 +265,7 @@ between a new object and an old one. The btn:[Browse...] button should be
 located to the right of the edit field.
 
 TIP: [[guideline5.8]]*Guideline 5.8* +
-Use a btn:[Browse] button whenever an existing object is referenced in a
+Use a btn:[Browse...] button whenever an existing object is referenced in a
 wizard.
 
 In the Browse Dialog, invalid choices should not appear. When the dialog
@@ -615,12 +614,13 @@ typically used to edit or browse a file, document or other input object.
 This statement is appropriate whether a file is read-only or not. In
 either case, the user should be able to select the file, open it, and
 browse the contents within an editor. If the file is read-only, the menu:File[Save] command should be disabled and the menu:File[Save As] should be
-enabled. In the status bar area, "Read-only" should be shown instead of
-the default "Writable" message.
+enabled. In the status bar area, _Read-only_ should be shown instead of
+the default _Writable_ message.
 
 TIP: [[guideline6.19]]*Guideline 6.19* +
-Treat read-only editor input as you would any other input. Enable the
-Save As if possible. Display "Read-only" in the status bar area.
+Treat read-only editor input as you would any other input.
+Enable the menu:Save As[] if possible.
+Display _Read-only_ in the status bar area.
 
 ==== Integration with Other Views
 
@@ -812,11 +812,11 @@ should be persisted to the edit model. If it is a property of a file,
 persist to file.
 
 In the past, some views have tried to implement an editor style
-lifecycle, with a Save command. This can cause confusion. The menu:File[] menu
-within a workbench window contains a Save command, but it applies to
+lifecycle, with a menu:Save[] command. This can cause confusion. The menu:File[] menu
+within a workbench window contains a menu:Save[] command, but it applies to
 only the active editor. It should not target the active view. This leads
 to a situation where the menu:File[Save] command is in contradiction to the
-Save command within the view.
+menu:Save[] command within the view.
 
 TIP: [[guideline7.2]]*Guideline 7.2* +
 Modifications made within a view must be saved immediately.

@@ -58,7 +58,7 @@ an Eclipse View]. The standard attributes for resources are defined in
 
 [source,java]
 ----
-public interface IResourceActionFilter extends IActionFilter {        
+public interface IResourceActionFilter extends IActionFilter {
    public static final String NAME = "name";
    public static final String EXTENSION = "extension";
    public static final String PATH = "path";
@@ -262,7 +262,7 @@ then
 `{ListSelectionDialog}[ListSelectionDialog]`
 is the one to use. It is basically a single column `TableViewer` with
 `SWT.CHECK` style applied. You have to supply your own `ContentProvider` and
-`LabelProvider` for the `TableViewer`. It also has btn:[Select All] and btn:[Deselect All]
+`LabelProvider` for the `TableViewer`. It also has btn:[Select{nbsp}All] and btn:[Deselect{nbsp}All]
 buttons.
 
 [source,java]
