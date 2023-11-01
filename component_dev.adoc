@@ -127,25 +127,26 @@ order, for moving objects from the source the selected buckets.
 |=========================================================
 |Button |Function
 
-|Add ->
+|btn:[Add{nbsp}->]
 |Add whatever is selected on the left to the right
 
-|<- Remove
+|btn:[<-{nbsp}Remove]
 |Remove selected items from the right
 
-|Add All ->
+|btn:[Add{nbsp}All{nbsp}->]
 |Add all (whether they are selected or not)
 
-|<- Remove All
+|btn:[<-{nbsp}Remove{nbsp}All]
 |Remove all
 |=========================================================
 
 image::images/slushBucket.png[slushBucket]
 
 TIP: [[guideline4.2]]*Guideline 4.2*
-Slush Bucket widget (or Twin Box) should flow from left to right with
-the source objects on the left hand side. It should have the control
-buttons in this order: 'Add ->', '', '
+Slush Bucket widget (or Twin Box) should flow from left to right with the source objects on the left hand side.
+It should have the control buttons in this order:
+btn:[Add{nbsp}->], btn:[<-{nbsp}Remove], btn:[Add{nbsp}All{nbsp}->], btn:[<-{nbsp}Remove{nbsp}All].
+Note that the shown example violates the order.
 
 === Wizards
 
@@ -234,7 +235,7 @@ Error messages should be displayed only when user input is invalid.
 
 image::images/wizardErrorMsgs2.png[wizardErrorMsgs2]
 
-TIP: [[guideline5.5]]*Guideline 5.5* + 
+TIP: [[guideline5.5]]*Guideline 5.5* +
 Validate the wizard data in tab order. Display a prompt when information
 is absent, and an error when information is invalid.
 
@@ -452,7 +453,7 @@ A complete list of the global commands is declared in the
 
 [source,java]
 ----
-/** 
+/**
  * From IWorkbenchActionConstants.
  * Standard global commands in a workbench window.
  */
@@ -672,7 +673,7 @@ neither the container nor any of its descendents have errors. For
 instance, in the following line, the addFastView method has an error, so
 an error image is added to the item and its parent.
 
-image::images/errorsInOutline.png[errorsInOutline] 
+image::images/errorsInOutline.png[errorsInOutline]
 
 For this to work, care must be taken to design icons with overlay in
 mind, so that glyphs can be applied to the ancestor's icon.
@@ -745,7 +746,7 @@ image:images/cell2.png[]
 drop-down is visible- supports the kbd:[Enter] key as a way of making an explicit selection via
 the keyboard when the drop-down is visible- supports the kbd:[Esc] key as a way of canceling a selection via the
 keyboard when the drop-down is visible- when put in edit mode, the drop-down control (the down-arrow image)
-appears with current selection active & highlighted + 
+appears with current selection active & highlighted +
 image:images/cell3.png[]
 
 - when put in edit mode, it is possible to arrow key through the choices
@@ -965,7 +966,7 @@ Any command which appears in the toolbar must also appear in the menu
 (either the context menu or the view menu), but there is no need to
 duplicate every command in the menu within the toolbar.
 
-TIP: [[guideline7.12]]*Guideline 7.12*  +   
+TIP: [[guideline7.12]]*Guideline 7.12*  +
 Put only the most commonly used commands on the toolbar. Any command on
 a toolbar must also appear in a menu, either the context menu or the
 view menu.
@@ -1023,7 +1024,7 @@ and the Packages view. To the user, these objects are all the same,
 regardless of location, so the context menu for the .java file should be
 the same in each.
 
-Implementation tip: To achieve a consistent context menu, plug-in developers 
+Implementation tip: To achieve a consistent context menu, plug-in developers
 which introduce a new object type should contribute commands to the context
 menu using an action group (ActionGroup class), a Java class which
 populates the context menu. If this approach is used, the action group
@@ -1073,9 +1074,9 @@ result as selection of the same command in the view.
 A complete list of the global commands and built-in menus as declared in
 `IWorkbenchActionConstants.java` (see below).
 
-- menu:File[] menu: menu:Revert[], menu:Move[], menu:Rename[], menu:Refresh[], menu:Print[], menu:Properties[] 
-- menu:Edit[] menu: menu:Undo[], menu:Redo[], menu:Cut[], menu:Copy[], menu:Paste[], menu:Delete[], menu:Select All[], menu:Find/Replace[], 
-  menu:Add Bookmark[], menu:Add Task[] 
+- menu:File[] menu: menu:Revert[], menu:Move[], menu:Rename[], menu:Refresh[], menu:Print[], menu:Properties[]
+- menu:Edit[] menu: menu:Undo[], menu:Redo[], menu:Cut[], menu:Copy[], menu:Paste[], menu:Delete[], menu:Select All[], menu:Find/Replace[],
+  menu:Add Bookmark[], menu:Add Task[]
 - menu:Navigate[] menu: menu:Go Into[], menu:Back[], menu:Forward[], menu:Up One Level[], menu:Next[], menu:Previous[], menu:Back[]
 - menu:Project[] menu: menu:Open Project[], menu:Close Project[], menu:Build Project[], menu:Rebuild Project[]
 
@@ -1090,7 +1091,7 @@ in Eclipse v2.1, it can still cause commands to appear there using
 "action set / part associations" (the `actionSetPartAssociations`
 extension point) which lets you associate action sets with particular
 parts (views or editors). For example, the Java tooling in Eclipse uses
-this for the Package Explorer. All commands for the view (or editor) should be 
+this for the Package Explorer. All commands for the view (or editor) should be
 made available on the
 main menubar, and only frequently used commands are on the context
 menu. In addition, the primary perspective(s) for such views (e.g., the Java
@@ -1338,7 +1339,7 @@ in the perspective, as well as any extra views that may be important for
 the task at hand. The menu:Navigate[Show In] menu should be used to allow
 users to navigate in their contents.
 
-image::images/ShowViewMenu.gif[showViewMenu] 
+image::images/ShowViewMenu.gif[showViewMenu]
 
 The application development lifecycle should be considered when
 populating the the menu:Window[Open Perspective] menu. The development of
@@ -1561,8 +1562,8 @@ the Properties Dialog.
 
 Within Eclipse, there are two ways to edit the properties of an object:
 
- - in the Properties dialog, and 
- - in the Properties view. 
+ - in the Properties dialog, and
+ - in the Properties view.
 
 Each of these is applicable in different situations.
 
@@ -1621,51 +1622,51 @@ effectiveness and efficiency of a Properties view.
 ===== Best Practice
 
 Use the standard tabbed view for product consistency.::
-xref:PropertiesView_Figure[xrefstyle=short] below shows an example. Both tabs 
-and a table of Properties should be supported – the tabs for novices, the table 
-for experts. Ideally, the tabs and table will be toggled via toolbar control, 
+xref:PropertiesView_Figure[xrefstyle=short] below shows an example. Both tabs
+and a table of Properties should be supported – the tabs for novices, the table
+for experts. Ideally, the tabs and table will be toggled via toolbar control,
 for quick transitions. If there is no toggle and the table will be presented on
 the last tab instead, the best name for this tab is "All". This is a descriptive
-and accurate name, and the tabular presentation will help to keep problematic 
+and accurate name, and the tabular presentation will help to keep problematic
 items out of the hands of novices.
 
-Tabs should be labeled in order: General, ..., All.:: 
+Tabs should be labeled in order: General, ..., All.::
 Every Properties view should feature a General tab, which contains the most
-frequently used properties. This will speed up new users as they get oriented. 
-The last tab should be named All and contain a table view, if one is supported. 
-The middle tabs? They should follow relevant concepts in other products, where 
+frequently used properties. This will speed up new users as they get oriented.
+The last tab should be named All and contain a table view, if one is supported.
+The middle tabs? They should follow relevant concepts in other products, where
 possible, using similar names and organization. Otherwise, there are no specific
 recommendations for middle tabs.
 
-Avoid using sub-tabs when possible.:: 
-There are several reasons for this recommendation. First, sub-tabs are not 
+Avoid using sub-tabs when possible.::
+There are several reasons for this recommendation. First, sub-tabs are not
 easily discoverable by users, since the sub-tabs usually aren't visible unless a
-top-level tab is selected. Second, sub-tabs take longer to navigate to, even 
-when a user is familiar with them. Finally, sub-tabs add a level of complexity 
-that in most cases can be designed around, especially through the use of an 
+top-level tab is selected. Second, sub-tabs take longer to navigate to, even
+when a user is familiar with them. Finally, sub-tabs add a level of complexity
+that in most cases can be designed around, especially through the use of an
 "All" tab.
 
-A Properties view must be accessible via a context menu for an object or editor.:: 
-Allow users to detach or Fastview this view to support an open editor. Such 
-support is needed to let users see a large diagram editor and properties at the 
-same time. Detached views (via the view context menu) are supported in 
-Eclipse 3.1 and beyond and can easily work for Properties. Such views have the 
-advantage of persisting across opening and closing, but they have the 
-disadvantage of always being on top (obscuring the editor). Another good option 
-is to make a Fast View of Properties, so that it can be displayed on top as 
+A Properties view must be accessible via a context menu for an object or editor.::
+Allow users to detach or Fastview this view to support an open editor. Such
+support is needed to let users see a large diagram editor and properties at the
+same time. Detached views (via the view context menu) are supported in
+Eclipse 3.1 and beyond and can easily work for Properties. Such views have the
+advantage of persisting across opening and closing, but they have the
+disadvantage of always being on top (obscuring the editor). Another good option
+is to make a Fast View of Properties, so that it can be displayed on top as
 needed.
 
-Tab layout should gracefully adapt to view orientation (horizontal or vertical).:: 
-Depending on the other tools that a user works with, screen real estate may 
-require opening a Properties view in either orientation. As needed, tab content 
-should be laid out dynamically for re-orientation. It is reasonable to design a 
-Properties view for a predominant orientation, depending on use case, but the 
+Tab layout should gracefully adapt to view orientation (horizontal or vertical).::
+Depending on the other tools that a user works with, screen real estate may
+require opening a Properties view in either orientation. As needed, tab content
+should be laid out dynamically for re-orientation. It is reasonable to design a
+Properties view for a predominant orientation, depending on use case, but the
 less common orientation should be addressed as well.
 
-Dynamic Help and tooltips can clarify fields and data.:: 
-Simple properties can initially be confusing for novice users, and complex 
-properties can occasionally be confusing even for expert users. Accordingly, 
-use Dynamic Help when possible. Field-level Dynamic Help is desirable; 
+Dynamic Help and tooltips can clarify fields and data.::
+Simple properties can initially be confusing for novice users, and complex
+properties can occasionally be confusing even for expert users. Accordingly,
+use Dynamic Help when possible. Field-level Dynamic Help is desirable;
 otherwise, a backup approach is to provide hover help (tooltips).
 
 ===== Tips and Tricks
