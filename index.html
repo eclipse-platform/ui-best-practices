@@ -1558,7 +1558,7 @@ object type or function of an individual or set of icons.</p>
   corner to denote the creation of a sparkling "new" object. The
   sparkle, though an object itself, is a metaphor for creating something
   new. Its location in the icon space is precisely 1 pixel down from the
-  top and flush with the right edge of the 16 x 16 icon space. Using
+  top and flush with the right edge of the 16&times;16 icon space. Using
   this exact location ensures a clean uncluttered presentation when seen
   across a number of "new" action icons on the toolbar or in the menu.
   For example:<br>
@@ -1600,7 +1600,7 @@ object type or function of an individual or set of icons.</p>
   alignment of objects within the icon design space is important. This
   is particularly true of repeated objects that use the same elements.
   For example, a file or folder used as a base for a series of model
-  object images, should be located in the same place within the 16 x 16
+  object images, should be located in the same place within the 16&times;16
   pixel icon space in all of the images within the series. To illustrate
   the difference between aligned and not aligned objects, first, here is
   an example showing the base element—in this case the yellow folder—not
@@ -2143,8 +2143,7 @@ Elements</a> page.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Click <a href="media/core_icon_concepts.zip"><strong>here</strong></a> or on the image above to
-download the <code>core_icon_concepts.psd</code>.</p>
+<p><a href="media/core_icon_concepts.zip">Download</a> the <code>core_icon_concepts.psd</code> file.</p>
 </div>
 </div>
 <div class="sect4">
@@ -2155,9 +2154,7 @@ download the <code>core_icon_concepts.psd</code>.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Click <a href="media/core_wizard_concepts.zip"> <strong>here</strong></a> or on the image above to
-download the <code>core_wizard_concepts.ai</code> and the
-<code>core_wizard_concepts.psd</code> files.</p>
+<p><a href="media/core_wizard_concepts.zip">Download</a> the <code>core_wizard_concepts.ai</code> and the <code>core_wizard_concepts.psd</code> files.</p>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -2194,7 +2191,7 @@ elements and promote consistency throughout the user interface.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Click <a href="media/common_icon_elements.zip"> <strong>here</strong></a> to download the
+<p><a href="media/common_icon_elements.zip">Download</a> the
   <code>common_icon_elements_eclipse-proj.psd</code> for Eclipse Project icons and
   the <code>common_icon_elements_eclipse-tools.psd</code> file for a subset of
   icons related to Eclipse-based tools.</p>
@@ -2208,7 +2205,7 @@ elements and promote consistency throughout the user interface.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Click <a href="media/common_wizard_elements.zip"> <strong>here</strong></a> to download the
+<p><a href="media/common_wizard_elements.zip">Download</a> the
   <code>common_wizard_elements.ai</code> vector-based file for designing wizard
   banner graphics and the <code>common_wizard_elements.psd</code> raster-based file
   for cutting them.</p>
@@ -2292,23 +2289,20 @@ It is important to implement the graphical versions of the
 <div class="sect5">
 <h6 id="creating_the_disabled_icon_state"><a class="anchor" href="#creating_the_disabled_icon_state"></a>Creating the disabled icon state</h6>
 <div class="paragraph">
-<p>To create this state, you will use the
-  <code>eclipse_disabledrender_R3V6.atn</code> action in the Eclipse-style Actions
-  palette. Click <a href="media/eclipse-style_actions.zip"><strong>here</strong></a> to download
-  the Eclipse-style Actions.</p>
+<p>To create this state, you will use the <code>eclipse_disabledrender_R3V6.atn</code> action in the Eclipse-style Actions palette.
+<a href="media/eclipse-style_actions.zip">Download</a> the Eclipse-style Actions.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Load the <code>eclipse_disabledrender_R3V6.atn</code> into the the Adobe
-Photoshop Actions palette.</p>
+<p>Load the <code>eclipse_disabledrender_R3V6.atn</code> into the the Adobe Photoshop Actions palette.</p>
 </li>
 <li>
 <p>Use the marquee tool to select all the enabled versions of the
 toolbar and local toolbar icons you plan to create a disabled state for.</p>
 </li>
 <li>
-<p>Next, hold the <kbd>Ctrl</kbd> key and hit the left or right arrow key once,
+<p>Next, hold the <kbd>Ctrl</kbd> key and hit <kbd>&#8592;</kbd> or <kbd>&#8594;</kbd> once,
 then let go of the <kbd>Ctrl</kbd> key and hit the opposite arrow key to bump
 the images back into their exact initial position.</p>
 </li>
@@ -2343,36 +2337,31 @@ Actions palette.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Sometimes a toggle is not a simple on/off state. For example, there
-  might be two different ways information can be displayed in a view. In
-  this case, two buttons with two separate icons are required. The
-  buttons sit beside one another on the local toolbar and when one is
-  on, the other is off.</p>
+<p>Sometimes a toggle is not a simple on/off state.
+For example, there might be two different ways information can be displayed in a view.
+In this case, two buttons with two separate icons are required.
+The buttons sit beside one another on the local toolbar and when one is on, the other is off.</p>
 </div>
 </div>
 <div class="sect5">
 <h6 id="opened_and_closed_folder_states"><a class="anchor" href="#opened_and_closed_folder_states"></a>Opened and closed folder states</h6>
 <div class="paragraph">
-<p>In the treeview, ideally, folders would be closed when the -/+ widget
-  beside the folder icon is in a closed state, as in [], and opened
-  when the -/ widget beside the folder icon is in an opened state, as
-  in [-]. Because Eclipse does not animate opened and closed folder
-  states in the treeview, project folders and regular folders are closed
-  on the toolbar and local toolbar, but open in wizard banners and in
-  treeviews. Here is the reasoning:</p>
+<p>In the treeview, ideally, folders would be closed when the <code>[-]</code>/<code>[+]</code> widget beside the folder icon is in a closed state, as in <code>[+]</code>,
+and opened when the <code>[-]</code>/<code>[+]</code> widget beside the folder icon is in an opened state, as in <code>[-]</code>.
+Because Eclipse does not animate opened and closed folder states in the treeview,
+project folders and regular folders are closed on the toolbar and local toolbar,
+but open in wizard banners and in treeviews.
+Here is the reasoning:</p>
 </div>
 <div class="paragraph">
-<p>On the toolbar, a closed folder represents one that has not been
-  created yet.
-     In a wizard banner, an open folder represents one that will be created
-  in the form of a model object in the treeview.
-     In the treeview, an open folder represents one an existing and active
-  folder.</p>
+<p>On the toolbar, a closed folder represents one that has not been created yet.
+In a wizard banner, an open folder represents one that will be created in the form of a model object in the treeview.
+In the treeview, an open folder represents one an existing and active folder.</p>
 </div>
 <div class="paragraph">
-<p>One notable exception to open folders in the treeview is when used to
-  represent a "group", as is the case with high-level project groupings
-  in the Project Explorer View. These are shown with closed folders.</p>
+<p>One notable exception to open folders in the treeview is when used to represent a "group",
+as is the case with high-level project groupings in the Project Explorer View.
+These are shown with closed folders.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -2420,7 +2409,7 @@ to work with them is provided to help you get started quickly and
 working effectively.</p>
 </div>
 <div class="paragraph">
-<p>All design templates <a href="media/eclipse3.0_ui_design_resources.zip"><strong>here</strong></a>.</p>
+<p><a href="media/eclipse3.0_ui_design_resources.zip">Download</a> all design templates.</p>
 </div>
 <div class="paragraph">
 <p>This section provides design files for producing different types of user
@@ -2693,7 +2682,7 @@ tooling:</p>
 </div>
 <div class="paragraph">
 <p>In designing graphics for SVG output, use a minimal number of elements
-in each image, especially for small 16 x 16 icons. This will help ensure
+in each image, especially for small 16&times;16 icons. This will help ensure
 image clarity, and fewer elements will keep the file size small.</p>
 </div>
 </div>
@@ -2739,7 +2728,7 @@ treeview, and menu icons.</p>
 ICO files contain multiple different images with different sizes.
 Therefore <em>any</em> of the available sizes might be used at runtime.
 This can lead to menu items or other components suddenly showing very large images
-instead of the expected 16 x 16 or 32 x 32 pixel resolutions.</p>
+instead of the expected 16&times;16 or 32&times;32 pixel resolutions.</p>
 </div>
 </div>
 <div class="sect4">
@@ -2794,7 +2783,7 @@ interface.</p>
 <div class="paragraph">
 <p>The Eclipse style graphics have been categorized into separate types so
 that each can be optimized for its specific location. The majority of
-interface graphics are 16 x 16 pixels in size, though there are some
+interface graphics are 16&times;16 pixels in size, though there are some
 graphic types that come in additional or unconventional sizes suited
 specifically to their use. Details on size and placement of the image
 see the next subsection on <a href="#icon_size_placement">Icon Size &amp;
@@ -2876,7 +2865,7 @@ Folder name
 Size
 </td>
 <td class="hdlist2">
-<p>16 x 16 pixels</p>
+<p>16&times;16 pixels</p>
 </td>
 </tr>
 <tr>
@@ -2926,7 +2915,7 @@ Folder name
 Size
 </td>
 <td class="hdlist2">
-<p>250 x 250 pixels</p>
+<p>250&times;250 pixels</p>
 </td>
 </tr>
 <tr>
@@ -2978,7 +2967,7 @@ Folder name
 Size
 </td>
 <td class="hdlist2">
-<p>16 x 16 pixels</p>
+<p>16&times;16 pixels</p>
 </td>
 </tr>
 <tr>
@@ -3027,7 +3016,7 @@ Folder names
 Size
 </td>
 <td class="hdlist2">
-<p>16 x 16 pixels</p>
+<p>16&times;16 pixels</p>
 </td>
 </tr>
 <tr>
@@ -3081,7 +3070,7 @@ Folder names
 Size
 </td>
 <td class="hdlist2">
-<p>16 x 16 pixels</p>
+<p>16&times;16 pixels</p>
 </td>
 </tr>
 <tr>
@@ -3130,7 +3119,7 @@ Folder name
 Size
 </td>
 <td class="hdlist2">
-<p>16 x 16 pixels</p>
+<p>16&times;16 pixels</p>
 </td>
 </tr>
 <tr>
@@ -3182,7 +3171,7 @@ Folder names
 Size
 </td>
 <td class="hdlist2">
-<p>16 x 16 pixels</p>
+<p>16&times;16 pixels</p>
 </td>
 </tr>
 <tr>
@@ -3251,7 +3240,7 @@ Folder name
 Size
 </td>
 <td class="hdlist2">
-<p>16 x 16 pixels</p>
+<p>16&times;16 pixels</p>
 </td>
 </tr>
 <tr>
@@ -3289,7 +3278,7 @@ Format
 <p><strong>Project Nature</strong> or <strong>Type</strong><br>
 These overlays are displayed in the Navigator and the Package views.
   They are completely superimposed on the model object at the top right
-  corner of the 16 x 16 icon space.</p>
+  corner of the 16&times;16 icon space.</p>
 <div class="paragraph">
 <p>Only a few project nature overlay icons have been created to prevent
   crowding in the interface. Project nature overlays quickly identify
@@ -3327,7 +3316,7 @@ Folder name
 Size
 </td>
 <td class="hdlist2">
-<p>7 x 8 pixels</p>
+<p>7&times;8 pixels</p>
 </td>
 </tr>
 <tr>
@@ -3345,7 +3334,7 @@ Format
 <p><strong>Auxiliary</strong> or <strong><em>Status</em></strong><br>
 These overlays are displayed in all tree views. This type of overlay
   is completely superimposed on the model object at the bottom left
-  corner of the 16 x 16 icon space.</p>
+  corner of the 16&times;16 icon space.</p>
 <div class="paragraph">
 <p>The auxiliary overlay quickly identifies the status of an object.
   Examples of auxiliary overlays are warning, error, failure, and
@@ -3378,7 +3367,7 @@ Folder name
 Size
 </td>
 <td class="hdlist2">
-<p>7 x 8 pixels</p>
+<p>7&times;8 pixels</p>
 </td>
 </tr>
 <tr>
@@ -3396,8 +3385,8 @@ Format
 <p><strong>Java</strong> or <strong><em>Attribute</em></strong><br>
 These overlays are displayed in the Outline, Hierarchy, and Package
   views. The Java overlays are appended to the model object icon, so
-  they extend the 16 x 16 icon space. They are placed to the right of a
-  model object icon, overlapping the 16 x 16 model object space by 3
+  they extend the 16&times;16 icon space. They are placed to the right of a
+  model object icon, overlapping the 16&times;16 model object space by 3
   pixels. A maximum of 3 java overlays can be put on the model object.</p>
 <div class="paragraph">
 <p>The order in which an overlay appears depends on the order in which it
@@ -3468,7 +3457,7 @@ Folder name
 Size
 </td>
 <td class="hdlist2">
-<p>7 x 8 pixels</p>
+<p>7&times;8 pixels</p>
 </td>
 </tr>
 <tr>
@@ -3487,12 +3476,12 @@ Format
 These overlays are displayed in the Navigator view and in the
   Structure View of the Merge Editor in EGit. When they are displayed in
   the Navigator view, the overlay is completely superimposed on the
-  model object at the right of the 16 x 16 icon space.</p>
+  model object at the right of the 16&times;16 icon space.</p>
 <div class="paragraph">
 <p>When the version control overlays are displayed in the Structure View
   of the Merge Editor in EGit, they are appended to the model object, so
-  they extend the 16 x 16 space. They are placed to the right of a model
-  object icon, overlapping the 16 x 16 model object space by 3 pixels.
+  they extend the 16&times;16 space. They are placed to the right of a model
+  object icon, overlapping the 16&times;16 model object space by 3 pixels.
   In EGit there is a maximum of 2 overlays on the right of the object.</p>
 </div>
 <div class="paragraph">
@@ -3542,7 +3531,7 @@ Folder name
 Size
 </td>
 <td class="hdlist2">
-<p>Typically 7 x 8 pixels, though some are larger</p>
+<p>Typically 7&times;8 pixels, though some are larger</p>
 </td>
 </tr>
 <tr>
@@ -3595,7 +3584,7 @@ Folder name
 Size
 </td>
 <td class="hdlist2">
-<p>16 x 6 pixels image size but a final cut size of 16 x 16
+<p>16&times;6 pixels image size but a final cut size of 16&times;16
 pixels</p>
 </td>
 </tr>
@@ -3640,7 +3629,7 @@ Folder name
 Size
 </td>
 <td class="hdlist2">
-<p>16 x 16 pixels</p>
+<p>16&times;16 pixels</p>
 </td>
 </tr>
 <tr>
@@ -3698,8 +3687,8 @@ Folder name
 Size
 </td>
 <td class="hdlist2">
-<p>They are designed in the 16 x 16 pixel space, but the actual
-image size is no greater than 15 x 14 pixels.</p>
+<p>They are designed in the 16&times;16 pixel space, but the actual
+image size is no greater than 15&times;14 pixels.</p>
 </td>
 </tr>
 <tr>
@@ -3758,9 +3747,9 @@ Size
 </td>
 <td class="hdlist2">
 <p>Size varies depending on the context of the palette. The
-default size is 16 x 16 pixels but can be changed by the user to "Use
-large icons", which are 24 x 24 pixels in size. There are also rare
-cases where 32 x 32 pixel icons are used on the palette.</p>
+default size is 16&times;16 pixels but can be changed by the user to "Use
+large icons", which are 24&times;24 pixels in size. There are also rare
+cases where 32&times;32 pixel icons are used on the palette.</p>
 </td>
 </tr>
 <tr>
@@ -3814,10 +3803,10 @@ Folder name
 Size
 </td>
 <td class="hdlist2">
-<p>Canvas icons may be 16 x 16, 24 x 24, or 32 x 32 pixel in
-size. There are also instances of 15 x 15, 12 x 12, and 10 x 10 pixel
-icons in some Web Tooling diagrams. 15 x 15 and 10 x 10 icons are used
-in site navigation diagrams, and 12 x 12 icons are used in the editor
+<p>Canvas icons may be 16&times;16, 24&times;24, or 32&times;32 pixel in
+size. There are also instances of 15&times;15, 12&times;12, and 10&times;10 pixel
+icons in some Web Tooling diagrams. 15&times;15 and 10&times;10 icons are used
+in site navigation diagrams, and 12&times;12 icons are used in the editor
 preview mode to show content types and formatting.</p>
 </td>
 </tr>
@@ -3868,7 +3857,7 @@ Folder name
 Size
 </td>
 <td class="hdlist2">
-<p>16 x 16 pixels</p>
+<p>16&times;16 pixels</p>
 </td>
 </tr>
 <tr>
@@ -3910,7 +3899,7 @@ Folder name
 Size
 </td>
 <td class="hdlist2">
-<p>32 x 32 pixels</p>
+<p>32&times;32 pixels</p>
 </td>
 </tr>
 <tr>
@@ -3958,7 +3947,7 @@ Folder name
 Size
 </td>
 <td class="hdlist2">
-<p>75 x 66 pixels</p>
+<p>75&times;66 pixels</p>
 </td>
 </tr>
 <tr>
@@ -3995,9 +3984,9 @@ icons, as well as what the placement and drawing area is within the
 allotted space.</p>
 </div>
 <div class="paragraph">
-<p>The majority of Eclipse style icons are designed within an area of 16 x
-16 pixels. That is the final cut size of the image. Within that area, a
-15 x 15 pixel space is reserved for the image itself, leaving both a
+<p>The majority of Eclipse style icons are designed within an area of 16&times;16 pixels.
+That is the final cut size of the image. Within that area, a
+15&times;15 pixel space is reserved for the image itself, leaving both a
 vertical and horizontal line of empty pixels to allow for proper
 alignment of the image within the user interface. In the size and
 placement images below, the light blue represents the image area and the
@@ -4005,20 +3994,20 @@ bright pink represents the empty pixel area.</p>
 </div>
 <div class="paragraph">
 <p>If the height and width of the image are an even number of pixels
-smaller than 16 x 16 pixels, it is a rule of thumb to center the image
-within the 16 x 16 space. For example, a 14 x 14 pixel image will have a
+smaller than 16&times;16 pixels, it is a rule of thumb to center the image
+within the 16&times;16 space. For example, a 14&times;14 pixel image will have a
 single row of empty pixels on all four sides.</p>
 </div>
 <div class="paragraph">
-<p>Exceptions to the common 16 x 16 image size are also detailed below. All
+<p>Exceptions to the common 16&times;16 image size are also detailed below. All
 sizes are indicated with width before height.</p>
 </div>
 <div class="sect4">
 <h5 id="product_2"><a class="anchor" href="#product_2"></a>7.3.3.1. Product</h5>
 <div class="paragraph">
-<p>Product icons occupy the full space allotted for all five sizes: 16 x
-  16, 24 x 24, 32 x 32, 64 x 64, and 72 x 72 pixels. This shows how the
-  16 x 16 product icon fills the entire space:</p>
+<p>Product icons occupy the full space allotted for all five sizes: 16&times;16,
+24&times;24, 32&times;32, 64&times;64, and 72&times;72 pixels. This shows how the
+  16&times;16 product icon fills the entire space:</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -4042,8 +4031,8 @@ sizes are indicated with width before height.</p>
 <div class="sect4">
 <h5 id="perspective_and_fast_view"><a class="anchor" href="#perspective_and_fast_view"></a>7.3.3.2. Perspective and Fast View</h5>
 <div class="paragraph">
-<p>The maximum image size is 16 x 16 pixels, but 15 x 15 is recommended.
-  If the image is 15 x 15 or smaller, the empty pixels must be on the
+<p>The maximum image size is 16&times;16 pixels, but 15&times;15 is recommended.
+  If the image is 15&times;15 or smaller, the empty pixels must be on the
   right and bottom, as shown here.</p>
 </div>
 <div class="paragraph">
@@ -4071,8 +4060,8 @@ sizes are indicated with width before height.</p>
 <div class="sect4">
 <h5 id="view_2"><a class="anchor" href="#view_2"></a>7.3.3.3. View</h5>
 <div class="paragraph">
-<p>The maximum image size is 16 x 16 pixels, but 15 x 15 is recommended.
-  If the image is 15 x 15 or smaller, the empty pixels must be on the
+<p>The maximum image size is 16&times;16 pixels, but 15&times;15 is recommended.
+  If the image is 15&times;15 or smaller, the empty pixels must be on the
   left and bottom, as shown here.</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
@@ -4097,8 +4086,8 @@ sizes are indicated with width before height.</p>
 <div class="sect4">
 <h5 id="toolbar_toolbar_wizard_and_local_toolbar"><a class="anchor" href="#toolbar_toolbar_wizard_and_local_toolbar"></a>7.3.3.4. Toolbar, Toolbar Wizard, and Local Toolbar</h5>
 <div class="paragraph">
-<p>The maximum image size is 16 x 16 pixels, but 15 x 15 is recommended.
-  If the image is 15 x 15 or smaller, the empty pixels must be on the
+<p>The maximum image size is 16&times;16 pixels, but 15&times;15 is recommended.
+  If the image is 15&times;15 or smaller, the empty pixels must be on the
   left and top, as shown here.</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
@@ -4123,7 +4112,7 @@ sizes are indicated with width before height.</p>
 <div class="sect4">
 <h5 id="model_object_2"><a class="anchor" href="#model_object_2"></a>7.3.3.5. Model Object</h5>
 <div class="paragraph">
-<p>The maximum image size is 16 x 15 pixels, but 15 x 15 is recommended.
+<p>The maximum image size is 16&times;15 pixels, but 15&times;15 is recommended.
   Model Object icons must be no greater than 15 pixels high. The empty
   pixels must be on the left and bottom, as shown here.</p>
 </div>
@@ -4149,12 +4138,12 @@ sizes are indicated with width before height.</p>
 <div class="sect4">
 <h5 id="object_overlay_and_underlay_2"><a class="anchor" href="#object_overlay_and_underlay_2"></a>7.3.3.6. Object Overlay (and Underlay)</h5>
 <div class="paragraph">
-<p>Most object overlay icons are a maximum image size of 7 x 8 pixels,
+<p>Most object overlay icons are a maximum image size of 7&times;8 pixels,
   always centered. There are some exceptions to this size, two of which
   are covered here: the "multiplicity" overlay and the "underlay". The
   multiplicity overlay spans the width of the model object to a maximum
   of 16 pixels wide and 6 pixels high. The underlay is a maximum size of
-  15 x 16 pixels, though commonly they are a square 15 x 15 pixels in
+  15&times;16 pixels, though commonly they are a square 15&times;15 pixels in
   size so they are uniform when seen multiple times in the treeview.</p>
 </div>
 <div class="paragraph">
@@ -4169,7 +4158,7 @@ sizes are indicated with width before height.</p>
   the model object, see the subsection on Positioning in the UI.</p>
 </div>
 <div class="paragraph">
-<p>Standard object overlay with a maximum image size of 7 x 8 pixels:</p>
+<p>Standard object overlay with a maximum image size of 7&times;8 pixels:</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -4293,7 +4282,7 @@ sizes are indicated with width before height.</p>
 </tbody>
 </table>
 <div class="paragraph">
-<p><strong>Multiplicity</strong> object overlay with a maximum image size of 16 x 6
+<p><strong>Multiplicity</strong> object overlay with a maximum image size of 16&times;6
   pixels:</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
@@ -4315,7 +4304,7 @@ sizes are indicated with width before height.</p>
 </tbody>
 </table>
 <div class="paragraph">
-<p><strong>Underlay</strong> with a maximum image size of 16 x 15 pixels, but 15 x 15 is
+<p><strong>Underlay</strong> with a maximum image size of 16&times;15 pixels, but 15&times;15 is
   recommended. The empty pixels must be on the left and bottom, as shown
   here:</p>
 </div>
@@ -4341,7 +4330,7 @@ sizes are indicated with width before height.</p>
 <div class="sect4">
 <h5 id="table_2"><a class="anchor" href="#table_2"></a>7.3.3.7. Table</h5>
 <div class="paragraph">
-<p>The maximum image size is 15 x 14 pixels. Table icons must be no
+<p>The maximum image size is 15&times;14 pixels. Table icons must be no
   greater than 14 pixels high. The empty pixels must be on the top,
   bottom, and left, as shown here.</p>
 </div>
@@ -4367,8 +4356,7 @@ sizes are indicated with width before height.</p>
 <div class="sect4">
 <h5 id="palette_2"><a class="anchor" href="#palette_2"></a>7.3.3.8. Palette</h5>
 <div class="paragraph">
-<p><strong>Standard small (16 x 16) palette icon:</strong> The maximum image size is 16
-  x 15 pixels, but 15 x 15 is recommended. Palette icons must be no
+<p><strong>Standard small (16&times;16) palette icon:</strong> The maximum image size is 16&times;15 pixels, but 15&times;15 is recommended. Palette icons must be no
   greater than 15 pixels high. The empty pixels must be on the left and
   bottom, as shown here.</p>
 </div>
@@ -4391,8 +4379,7 @@ sizes are indicated with width before height.</p>
 </tbody>
 </table>
 <div class="paragraph">
-<p><strong>Standard large (24 x 24) palette icon:</strong> The maximum image size is 24
-  x 23 pixels, but 23 x 23 is recommended. Palette icons must be no
+<p><strong>Standard large (24&times;24) palette icon:</strong> The maximum image size is 24&times;23 pixels, but 23&times;23 is recommended. Palette icons must be no
   greater than 23 pixels high. The empty pixels must be on the left and
   bottom, as shown here.</p>
 </div>
@@ -4415,7 +4402,7 @@ sizes are indicated with width before height.</p>
 </tbody>
 </table>
 <div class="paragraph">
-<p><strong>Large (32 x 32) palette icon:</strong> The maximum image size is 30 x 30
+<p><strong>Large (32&times;32) palette icon:</strong> The maximum image size is 30&times;30
   pixels with the image centered. The empty pixels are on all four sides
   of the image.</p>
 </div>
@@ -4441,7 +4428,7 @@ sizes are indicated with width before height.</p>
 <div class="sect4">
 <h5 id="diagram_2"><a class="anchor" href="#diagram_2"></a>7.3.3.9. Diagram</h5>
 <div class="paragraph">
-<p><strong>Small (10 x 10) canvas icon:</strong> The maximum image size is 10 x 10
+<p><strong>Small (10&times;10) canvas icon:</strong> The maximum image size is 10&times;10
   pixels. The image fills the space as required.</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
@@ -4463,7 +4450,7 @@ sizes are indicated with width before height.</p>
 </tbody>
 </table>
 <div class="paragraph">
-<p><strong>Small (12 x 12) canvas icon:</strong> The maximum image size is 12 x 12
+<p><strong>Small (12&times;12) canvas icon:</strong> The maximum image size is 12&times;12
   pixels. The image fills the space as required.</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
@@ -4485,8 +4472,8 @@ sizes are indicated with width before height.</p>
 </tbody>
 </table>
 <div class="paragraph">
-<p><strong>Small (16 x 16) canvas icon:</strong> The maximum image size is 16 x 15
-  pixels, but 15 x 15 is recommended. The empty pixels must be on the
+<p><strong>Small (16&times;16) canvas icon:</strong> The maximum image size is 16&times;15
+  pixels, but 15&times;15 is recommended. The empty pixels must be on the
   left and bottom, as shown here.</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
@@ -4508,8 +4495,8 @@ sizes are indicated with width before height.</p>
 </tbody>
 </table>
 <div class="paragraph">
-<p><strong>Large (24 x 24) canvas icon:</strong> The maximum image size is 24 x 23
-  pixels, but 23 x 23 is recommended. The empty pixels must be on the
+<p><strong>Large (24&times;24) canvas icon:</strong> The maximum image size is 24&times;23
+  pixels, but 23&times;23 is recommended. The empty pixels must be on the
   left and bottom, as shown here.</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
@@ -4531,8 +4518,8 @@ sizes are indicated with width before height.</p>
 </tbody>
 </table>
 <div class="paragraph">
-<p><strong>Large (32 x 32) canvas icon:</strong> The maximum image size is 32 x 32
-  pixels, but 30 x 30 is recommended with the image centered. The empty
+<p><strong>Large (32&times;32) canvas icon:</strong> The maximum image size is 32&times;32
+  pixels, but 30&times;30 is recommended with the image centered. The empty
   pixels are on all four sides of the image.</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
@@ -4557,7 +4544,7 @@ sizes are indicated with width before height.</p>
 <div class="sect4">
 <h5 id="progress_indicator_2"><a class="anchor" href="#progress_indicator_2"></a>7.3.3.10. Progress Indicator</h5>
 <div class="paragraph">
-<p>The maximum image size is 16 x 15 pixels, but 15 x 15 is recommended.
+<p>The maximum image size is 16&times;15 pixels, but 15&times;15 is recommended.
   Progress indicator icons must be no greater than 15 pixels high. The
   empty pixels must be on the left and bottom, as shown here.</p>
 </div>
@@ -4583,15 +4570,15 @@ sizes are indicated with width before height.</p>
 <div class="sect4">
 <h5 id="pointer_and_cursor_mask_2"><a class="anchor" href="#pointer_and_cursor_mask_2"></a>7.3.3.11. Pointer and Cursor Mask</h5>
 <div class="paragraph">
-<p>The final size of the pointer and cursor masks is 32 x 32 pixels. The
-  actual image size of the pointer is usually fewer than 20 x 20 pixels,
-  often 16 x 16 pixels, but can also fill the entire 32 x 32 space.
+<p>The final size of the pointer and cursor masks is 32&times;32 pixels. The
+  actual image size of the pointer is usually fewer than 20&times;20 pixels,
+  often 16&times;16 pixels, but can also fill the entire 32&times;32 space.
   There are no empty pixels in the pointer and cursor mask images. Both
   are filled completely with black and white, with the mask being the
   opposite of the pointer or masking it out entirely.</p>
 </div>
 <div class="paragraph">
-<p>Pointer and cursor mask image sizes shown in the 32 x 32 pixel space:</p>
+<p>Pointer and cursor mask image sizes shown in the 32&times;32 pixel space:</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -4616,11 +4603,11 @@ sizes are indicated with width before height.</p>
 <h5 id="wizard_banner_2"><a class="anchor" href="#wizard_banner_2"></a>7.3.3.12. Wizard Banner</h5>
 <div class="paragraph">
 <p>All wizard banner graphics are designed to fit within a specified
-  screen space of 75 x 66 pixels on the right side of the wizard banner.</p>
+  screen space of 75&times;66 pixels on the right side of the wizard banner.</p>
 </div>
 <div class="paragraph">
 <p>The actual size of each graphic will vary depending on the elements
-  involved, but will generally be around 67 x 50 pixels in size.</p>
+  involved, but will generally be around 67&times;50 pixels in size.</p>
 </div>
 <div class="paragraph">
 <p>Within the banner space allocation, there is no firm rule for where to
@@ -4677,9 +4664,9 @@ wizard banner graphics to get them ready for implementation.</p>
 </div>
 <div class="paragraph">
 <p>In the process described here for creating icons, we use the term 'cut'
-to mean the action of generating the individual .png files for each
+to mean the action of generating the individual <code>.png</code> files for each
 icon. This term refers to the fact that the icons are created in a
-single original .psd file that contains all the icons for a given
+single original <code>.psd</code> file that contains all the icons for a given
 product (the <code>icon_template.psd</code> file), and then the individual icons are
 'cut' out of the file into individual files.</p>
 </div>
@@ -4692,23 +4679,23 @@ start the action and when prompted, name and save each icon into its
 proper folder.</p>
 </div>
 <div class="paragraph">
-<p>To use these actions, click here to download the
-media:eclipse_cutting_R3V6.zip[eclipse_cutting_R3V6.atn] file, and then
+<p>To use these actions, download the
+<a href="media/eclipse_cutting_R3V6.zip">eclipse_cutting_R3V6.atn</a> file, and then
 load it into the Actions Palette.</p>
 </div>
 <div class="sect4">
-<h5 id="cutting_16_x_16_pixel_icons"><a class="anchor" href="#cutting_16_x_16_pixel_icons"></a>7.4.1.1. Cutting 16 x 16 Pixel Icons</h5>
+<h5 id="cutting_1616_pixel_icons"><a class="anchor" href="#cutting_1616_pixel_icons"></a>7.4.1.1. Cutting 16&times;16 Pixel Icons</h5>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Make sure that the pink cut layer is turned on, in the psd file.</p>
+<p>Make sure that the pink cut layer is turned on, in the <code>.psd</code> file.</p>
 </li>
 <li>
-<p>Play the Dupe and Flatten_main file action to create a new, flat
+<p>Play the <em>Dupe and Flatten_main file</em> action to create a new, flat
 file. (See <em>A</em> in the Detailed View of Cutting Actions below)</p>
 </li>
 <li>
-<p>Using the Marquee tool at a fixed size of 16 x 16 pixels, select the
+<p>Using the <em>Marquee</em> tool at a fixed size of 16&times;16 pixels, select the
 first icon to be cut.</p>
 </li>
 <li>
@@ -4717,11 +4704,11 @@ automatically move through the cutting process. (See <em>B</em>-<em>F</em> below
 </li>
 <li>
 <p>When prompted, provide a name for the icon in lower case and click
-Save to save it as a Compuserve .png in the folder you specify. (See <em>G</em>)</p>
+<b class="menuref">Save</b> to save it as a <code>.png</code> in the folder you specify. (See <em>G</em>)</p>
 </li>
 <li>
 <p>When you click <b class="button">OK</b> to finish saving the image as either a Normal or
-Interlaced .png file, the action then automatically moves the marquee
+Interlaced <code>.png</code> file, the action then automatically moves the marquee
 selection down to the next icon and begins the process all over again.
 (See <em>H</em>)<br></p>
 <div class="paragraph">
@@ -4742,9 +4729,9 @@ selection down to the next icon and begins the process all over again.
 </div>
 </div>
 <div class="sect4">
-<h5 id="cutting_7_x_8_pixel_object_overlay_icons"><a class="anchor" href="#cutting_7_x_8_pixel_object_overlay_icons"></a>7.4.1.2. Cutting 7 x 8 Pixel Object Overlay Icons</h5>
+<h5 id="cutting_78_pixel_object_overlay_icons"><a class="anchor" href="#cutting_78_pixel_object_overlay_icons"></a>7.4.1.2. Cutting 7&times;8 Pixel Object Overlay Icons</h5>
 <div class="paragraph">
-<p>Follow the steps as laid out above, except cut the icon at 7 x 8 pixels,
+<p>Follow the steps as laid out above, except cut the icon at 7&times;8 pixels,
 using the Eclipse icon cuts_overlays action.</p>
 </div>
 </div>
@@ -4753,11 +4740,11 @@ using the Eclipse icon cuts_overlays action.</p>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Ensure that the wizard psd has a path called "wizard cut path" under
+<p>Ensure that the wizard psd has a path called <em>wizard cut path</em> under
 <strong>Paths</strong> tab.</p>
 </li>
 <li>
-<p>Play the Dupe and Flatten_main file action to create a new, flat
+<p>Play the <em>Dupe and Flatten_main file</em> action to create a new, flat
 file.</p>
 </li>
 <li>
@@ -4771,8 +4758,8 @@ file.</p>
 all other layer sets are not visible.</p>
 </li>
 <li>
-<p>Play the Wizard Dupe and crop action to create a new file that is
-cropped to 75 x 66 pixels. (See <em>A</em>-<em>C</em> below)</p>
+<p>Play the <em>Wizard Dupe and crop</em> action to create a new file that is
+cropped to 75&times;66 pixels. (See <em>A</em>-<em>C</em> below)</p>
 </li>
 <li>
 <p>Play the Wizard cut action. The action will then automatically move
@@ -4781,11 +4768,11 @@ through the cutting process from top to bottom in the layers palette.
 </li>
 <li>
 <p>When prompted, provide a name for the icon in lower case and click
-Save to save it as a Compuserve .png in the folder you specify. (See <em>E</em>)</p>
+Save to save it as a <code>.png</code> in the folder you specify. (See <em>E</em>)</p>
 </li>
 <li>
 <p>When you click <b class="button">OK</b> to finish saving the image as either a Normal or
-Interlaced .png file, the action then automatically delete the current
+Interlaced <code>.png</code> file, the action then automatically delete the current
 layer set, and moves to the next one and begins the process all over
 again. (See <em>F</em>)<br></p>
 <div class="paragraph">
@@ -4859,7 +4846,7 @@ table below for suffix suggestions.</p>
 <p>Icons that have multiple sizes within one folder, such as multiple
 palette icon sizes, are differentiated by adding the icon size to the
 suffix. For example, file_pal, file_pal24, file_pal32, where
-*_pal represents the default 16 x 16 pixel size and the *_pal24 and
+*_pal represents the default 16&times;16 pixel size and the *_pal24 and
 *_pal32 represent larger sizes of the same icon.</p>
 </div>
 </div>
@@ -5015,7 +5002,7 @@ palette (<code>pal</code>), pointer (<code>point</code>), product (<code>prod</c
 <p>The last two digits of the folder name are intended to indicate the
 size of the icons within. However, only a small number of folders show
 size in the name. These names will persist, but all folder types may now
-contain multiple sizes of images, such as 16 x 16 and 24 x 24 pixel
+contain multiple sizes of images, such as 16&times;16 and 24&times;24 pixel
 versions of palette icons. The <a href="#_naming_conventions">Naming
 Conventions</a> subsection addresses file naming for multiple sizes within
 one folder.</p>
@@ -5194,8 +5181,7 @@ button. For toggle buttons, it should describe its effect when the item
 is toggled on, and the label should not change depending on the state of
 the button. In Eclipse, it is recommended that the tool tip
 for a command uses the same text as that for the command label. For
-instance, in the following snapshot the behavior of the Show Type
-Hierarchy button is shown using one tool tips text.</p>
+instance, in the following snapshot the behavior of the Show Type Hierarchy button is shown using a tool tip text.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -5345,19 +5331,19 @@ order, for moving objects from the source the selected buckets.</p>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Add &#8594;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><b class="button">Add&#160;&#8594;</b></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Add whatever is selected on the left to the right</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">&#8592; Remove</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><b class="button">&#8592;&#160;Remove</b></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Remove selected items from the right</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Add All &#8594;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><b class="button">Add&#160;All&#160;&#8594;</b></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Add all (whether they are selected or not)</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">&#8592; Remove All</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><b class="button">&#8592;&#160;Remove&#160;All</b></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Remove all</p></td>
 </tr>
 </tbody>
@@ -5375,9 +5361,10 @@ order, for moving objects from the source the selected buckets.</p>
 </td>
 <td class="content">
 <a id="guideline4.2"></a><strong>Guideline 4.2</strong>
-Slush Bucket widget (or Twin Box) should flow from left to right with
-the source objects on the left hand side. It should have the control
-buttons in this order: 'Add &#8594;', '', '
+Slush Bucket widget (or Twin Box) should flow from left to right with the source objects on the left hand side.
+It should have the control buttons in this order:
+<b class="button">Add&#160;&#8594;</b>, <b class="button">&#8592;&#160;Remove</b>, <b class="button">Add&#160;All&#160;&#8594;</b>, <b class="button">&#8592;&#160;Remove&#160;All</b>.
+Note that the shown example violates the order.
 </td>
 </tr>
 </table>
@@ -5598,7 +5585,7 @@ Remove all programming message ID&#8217;s from wizard text.
 <div class="paragraph">
 <p>An edit field and <b class="button">Browse&#8230;&#8203;</b> button combination should be used whenever
 an existing object is referenced within a wizard. The edit field is used
-for direct input of the existing object, and the <b class="button">Browse</b> button is used
+for direct input of the existing object, and the <b class="button">Browse&#8230;&#8203;</b> button is used
 to browse and select the object from a list of all possible choices.</p>
 </div>
 <div class="paragraph">
@@ -5617,7 +5604,7 @@ located to the right of the edit field.</p>
 </td>
 <td class="content">
 <a id="guideline5.8"></a><strong>Guideline 5.8</strong><br>
-Use a <b class="button">Browse</b> button whenever an existing object is referenced in a
+Use a <b class="button">Browse&#8230;&#8203;</b> button whenever an existing object is referenced in a
 wizard.
 </td>
 </tr>
@@ -6297,8 +6284,8 @@ typically used to edit or browse a file, document or other input object.
 <p>This statement is appropriate whether a file is read-only or not. In
 either case, the user should be able to select the file, open it, and
 browse the contents within an editor. If the file is read-only, the <span class="menuseq"><b class="menu">File</b>&#160;<i class="fa fa-angle-right caret"></i> <b class="menuitem">Save</b></span> command should be disabled and the <span class="menuseq"><b class="menu">File</b>&#160;<i class="fa fa-angle-right caret"></i> <b class="menuitem">Save As</b></span> should be
-enabled. In the status bar area, "Read-only" should be shown instead of
-the default "Writable" message.</p>
+enabled. In the status bar area, <em>Read-only</em> should be shown instead of
+the default <em>Writable</em> message.</p>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -6308,8 +6295,9 @@ the default "Writable" message.</p>
 </td>
 <td class="content">
 <a id="guideline6.19"></a><strong>Guideline 6.19</strong><br>
-Treat read-only editor input as you would any other input. Enable the
-Save As if possible. Display "Read-only" in the status bar area.
+Treat read-only editor input as you would any other input.
+Enable the <b class="menuref">Save As</b> if possible.
+Display <em>Read-only</em> in the status bar area.
 </td>
 </tr>
 </table>
@@ -6664,11 +6652,11 @@ persist to file.</p>
 </div>
 <div class="paragraph">
 <p>In the past, some views have tried to implement an editor style
-lifecycle, with a Save command. This can cause confusion. The <b class="menuref">File</b> menu
-within a workbench window contains a Save command, but it applies to
+lifecycle, with a <b class="menuref">Save</b> command. This can cause confusion. The <b class="menuref">File</b> menu
+within a workbench window contains a <b class="menuref">Save</b> command, but it applies to
 only the active editor. It should not target the active view. This leads
 to a situation where the <span class="menuseq"><b class="menu">File</b>&#160;<i class="fa fa-angle-right caret"></i> <b class="menuitem">Save</b></span> command is in contradiction to the
-Save command within the view.</p>
+<b class="menuref">Save</b> command within the view.</p>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -8678,7 +8666,7 @@ then
 <code><a href="https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/ListSelectionDialog.html">ListSelectionDialog</a></code>
 is the one to use. It is basically a single column <code>TableViewer</code> with
 <code>SWT.CHECK</code> style applied. You have to supply your own <code>ContentProvider</code> and
-<code>LabelProvider</code> for the <code>TableViewer</code>. It also has <b class="button">Select All</b> and <b class="button">Deselect All</b>
+<code>LabelProvider</code> for the <code>TableViewer</code>. It also has <b class="button">Select&#160;All</b> and <b class="button">Deselect&#160;All</b>
 buttons.</p>
 </div>
 <div class="listingblock">
@@ -10463,8 +10451,7 @@ Remove all programming message ID&#8217;s from wizard text.
 </td>
 <td class="content">
 <strong>Guideline 5.8</strong><br>
-Use a <b class="button">Browse</b> Button whenever an existing object is referenced in a
-wizard.
+Use a <b class="button">Browse&#8230;&#8203;</b> Button whenever an existing object is referenced in a wizard.
 </td>
 </tr>
 </table>
@@ -12374,7 +12361,7 @@ titled "Component Development - Editors" (Guidelines 6.11-6.13).</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-10-25 05:05:23 UTC
+Last updated 2023-11-01 15:07:59 UTC
 </div>
 </div>
 </body>
