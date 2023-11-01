@@ -83,5 +83,6 @@
                 </executions>
             </plugin>
 		</plugins>
+		<defaultGoal>verify</defaultGoal>
 	</build>
 </project>
