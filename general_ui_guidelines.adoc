@@ -4,14 +4,14 @@
 
 This document defines UI guidelines that are unique and specific to the
 Eclipse platform. It is a supplement to the other standard UI guidelines
-such as 
+such as
 
 - https://learn.microsoft.com/en-us/windows/apps/design/[Microsoft® Windows Design Guidelines]
 - https://developer.apple.com/design/human-interface-guidelines/guidelines/overview/[Apple® Human Interface Guidelines]
 - https://developer.gnome.org/hig/[GNOME Human Interface Guidelines]
-- https://www.oracle.com/java/technologies/java-look-and-feel-graphics-repository.html[Java Look and Feel Guidelines] 
+- https://www.oracle.com/java/technologies/java-look-and-feel-graphics-repository.html[Java Look and Feel Guidelines]
 
-You should continue to consult those guidelines for basic UI design and 
+You should continue to consult those guidelines for basic UI design and
 implementation recommendations.
 
 It is expected that you already have a basic understanding of the
@@ -117,7 +117,7 @@ Create localized version of the resources within your plug-in.
 If an error occurs in Eclipse, the appropriate response will be
 dependent on the context of the error.
 
-Please refer to xref:component_dev.adoc#wizards[Wizards] section for 
+Please refer to xref:component_dev.adoc#wizards[Wizards] section for
 guidelines on how to handle user input errors in a wizard.
 
 Please refer to xref:component_dev.adoc#editors[Editors] section for guidelines
