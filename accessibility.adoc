@@ -3,7 +3,7 @@
 
 In a view, editor, or other control, every features should be accessible using a mouse or the keyboard.
 
-In a dialog or wizard, a shortcut key should be defined for each button or control. 
+In a dialog or wizard, a shortcut key should be defined for each button or control.
 The shortcut key should be displayed with an underline beneath the appropriate shortcut character.
 
 TIP: [[guideline18.1]]*Guideline 18.1* +
@@ -35,451 +35,451 @@ Plug-in developers should make sure that the existing shortcut keys do not confl
 |
 |
 |menu:Project[Build]
-| 
-| 
+|
+|
 |(View) Bookmarks
 
-|kbd:[C] 
-| 
-| 
+|kbd:[C]
+|
+|
 |menu:Edit[Copy]
-| 
-| 
+|
+|
 |
 
-|kbd:[D] 
-| 
-| 
+|kbd:[D]
+|
+|
 |(JDT editor) menu:Display[]
-| 
-| 
+|
+|
 |
 
-|kbd:[E] 
-| 
-| 
+|kbd:[E]
+|
+|
 |(JDT editor) menu:Next Problem[]
 |(JDT editor) menu:Previous Problem[]
-| 
+|
 |
 
-|kbd:[F] 
-| 
-| 
+|kbd:[F]
+|
+|
 |menu:Edit[Find/Replace]
-| 
-| 
+|
+|
 |
 
-|kbd:[G] 
-| 
-| 
-| 
-| 
-| 
+|kbd:[G]
+|
+|
+|
+|
+|
 |
 
 
-|kbd:[H] 
-| 
-| 
+|kbd:[H]
+|
+|
 |menu:Edit[Search]
-| 
-| 
+|
+|
 |
 
-|kbd:[I] 
-| 
-| 
-| 
-| 
-| 
+|kbd:[I]
+|
+|
+|
+|
+|
 |
 
-|kbd:[J] 
-| 
-| 
-| 
-| 
-| 
+|kbd:[J]
+|
+|
+|
+|
+|
 |
 
-|kbd:[K] 
-| 
-| 
-| 
-| 
-| 
+|kbd:[K]
+|
+|
+|
+|
+|
 |(View) Tasks
 
 |kbd:[L]
-| 
-| 
+|
+|
 |menu:Edit[Go to Line]
-| 
-| 
+|
+|
 |
 
 
-|kbd:[M] 
-| 
-| 
-| 
+|kbd:[M]
+|
+|
+|
 |(JDT editor) menu:Add Import[]
-| 
+|
 |(JDT) menu:Refactor[Move]
 
-|kbd:[N] 
-| 
-| 
-|menu:File[New > Other] 
-| 
-| 
+|kbd:[N]
+|
+|
+|menu:File[New > Other]
+|
+|
 |(View) Navigator
 
-|kbd:[O] 
-| 
-| 
-| 
-|(JDT editor) menu:Organize Imports[] 
-| 
+|kbd:[O]
+|
+|
+|
+|(JDT editor) menu:Organize Imports[]
+|
 |(View) Outline
 
-|kbd:[P] 
-| 
-| 
-|menu:File[Print] 
-| 
-| 
+|kbd:[P]
+|
+|
+|menu:File[Print]
+|
+|
 |(View) Properties
 
-|kbd:[Q] 
-| 
-| 
-|(JDT editor) menu:Inspect[] 
-| 
-| 
+|kbd:[Q]
+|
+|
+|(JDT editor) menu:Inspect[]
+|
+|
 |
 
-|kbd:[R] 
-| 
-| 
-| 
-| 
-| 
+|kbd:[R]
+|
+|
+|
+|
+|
 |
 
-|kbd:[S] 
-| 
-| 
-|menu:File[Save] 
-| 
-|menu:File[Save All] 
+|kbd:[S]
+|
+|
+|menu:File[Save]
+|
+|menu:File[Save All]
 |menu:Window[Switch to Editor]
 
-|kbd:[T] 
-| 
-| 
-| 
-|(JDT) menu:Open Type[] 
-| 
+|kbd:[T]
+|
+|
+|
+|(JDT) menu:Open Type[]
+|
 |
 
-|kbd:[U] 
-| 
-| 
-| 
-| 
-| 
+|kbd:[U]
+|
+|
+|
+|
+|
 |
 
-|kbd:[V] 
-| 
-| 
-|menu:Edit[Paste] 
-| 
-| 
+|kbd:[V]
+|
+|
+|menu:Edit[Paste]
+|
+|
 |
 
-|kbd:[W] 
-| 
-| 
-| 
-| 
-| 
+|kbd:[W]
+|
+|
+|
+|
+|
 |
 
-|kbd:[X] 
-| 
-| 
-|menu:Edit[Cut] 
-| 
-| 
+|kbd:[X]
+|
+|
+|menu:Edit[Cut]
+|
+|
 |(JDT) menu:Refactor[Extract method]
 
-|kbd:[Y] 
-| 
-| 
-|menu:Edit[Redo] 
-|(JDT) menu:Refactor[Redo] 
-| 
+|kbd:[Y]
+|
+|
+|menu:Edit[Redo]
+|(JDT) menu:Refactor[Redo]
+|
 |
 
-|kbd:[Z] 
-| 
-| 
-|menu:Edit[Undo] 
-|(JDT) menu:Refactor[Undo] 
-| 
+|kbd:[Z]
+|
+|
+|menu:Edit[Undo]
+|(JDT) menu:Refactor[Undo]
+|
 |
 
-|kbd:[Space] 
-| 
-| 
-|(JDT editor) Content Assist 
-| 
-| 
+|kbd:[Space]
+|
+|
+|(JDT editor) Content Assist
+|
+|
 |
 
-|kbd:[Backspace] 
-| 
-| 
-| 
-| 
-|Windows: menu:Undo[] 
+|kbd:[Backspace]
 |
-
-
-|kbd:[Tab] 
-| 
-| 
-|(JDT editor) Shift Right 
-|(JDT editor) Shift Left 
-| 
+|
+|
+|
+|Windows: menu:Undo[]
 |
 
 
-|kbd:[Insert] 
-| 
-|Windows: menu:Paste[] 
-|Windows: menu:Copy[] 
-| 
-| 
+|kbd:[Tab]
+|
+|
+|(JDT editor) Shift Right
+|(JDT editor) Shift Left
+|
 |
 
 
-|kbd:[Delete] 
-|menu:Edit[Delete] 
-|Windows: menu:Cut[] 
-|menu:Edit[Delete] 
-| 
-| 
+|kbd:[Insert]
 |
-
-|kbd:[Home] 
-| 
-| 
-| 
-| 
-| 
+|Windows: menu:Paste[]
+|Windows: menu:Copy[]
+|
+|
 |
 
 
-|kbd:[End] 
-| 
-| 
-| 
-| 
-| 
+|kbd:[Delete]
+|menu:Edit[Delete]
+|Windows: menu:Cut[]
+|menu:Edit[Delete]
+|
+|
+|
+
+|kbd:[Home]
+|
+|
+|
+|
+|
 |
 
 
-|kbd:[Page Up] 
-| 
-| 
-| 
-| 
-| 
+|kbd:[End]
+|
+|
+|
+|
+|
 |
 
 
-|kbd:[Page Down] 
-| 
-| 
-| 
-| 
-| 
+|kbd:[Page Up]
+|
+|
+|
+|
+|
 |
 
 
-|kbd:[Insert] 
-| 
-| 
-| 
-| 
-| 
+|kbd:[Page Down]
+|
+|
+|
+|
+|
 |
 
 
-|kbd:[Delete] 
-| 
-| 
-| 
-| 
-| 
+|kbd:[Insert]
+|
+|
+|
+|
+|
+|
+
+
+|kbd:[Delete]
+|
+|
+|
+|
+|
 |
 
 
 |kbd:[-] (Minus)
-| 
-| 
-| 
-| 
-|Show System Menu 
+|
+|
+|
+|
+|Show System Menu
 |Show View Menu
 
 
-|kbd:[Left Arrow] 
-| 
-| 
-| 
-| 
-| 
+|kbd:[Left Arrow]
+|
+|
+|
+|
+|
 |
 
 
-|kbd:[Right Arrow] 
-| 
-| 
-| 
-| 
-| 
+|kbd:[Right Arrow]
+|
+|
+|
+|
+|
 |
 
 
-|kbd:[Up Arrow] 
-| 
-| 
-| 
-| 
-| 
+|kbd:[Up Arrow]
+|
+|
+|
+|
+|
 |
 
 
-|kbd:[Down Arrow] 
-| 
-| 
-| 
-| 
-| 
+|kbd:[Down Arrow]
+|
+|
+|
+|
+|
 |
 
 
-|kbd:[F1] 
-|Help 
-|Help 
-|Help 
-|Help 
-| 
+|kbd:[F1]
+|Help
+|Help
+|Help
+|Help
+|
 |
 
 
-|kbd:[F2] 
-|(Navigator view) menu:Rename[], (JDT editor) menu:Open JavaDoc[] 
-| 
-| 
-| 
-| 
+|kbd:[F2]
+|(Navigator view) menu:Rename[], (JDT editor) menu:Open JavaDoc[]
+|
+|
+|
+|
 |
 
 
-|kbd:[F3] 
-|(JDT editor) menu:Open on Selection[] 
-| 
-| 
-| 
-| 
+|kbd:[F3]
+|(JDT editor) menu:Open on Selection[]
+|
+|
+|
+|
 |
 
 
-|kbd:[F4] 
-|(JDT editor) menu:Open Type Hierarchy[] 
-| 
-| 
-|menu:File[Close All] 
-|menu:File[Close] 
+|kbd:[F4]
+|(JDT editor) menu:Open Type Hierarchy[]
+|
+|
+|menu:File[Close All]
+|menu:File[Close]
 |
 
 
-|kbd:[F5] 
-|(Navigator view) menu:Refresh[], (Properties view) menu:Refresh[], (Debug) menu:Step Into[] 
-| 
-| 
-| 
-| 
+|kbd:[F5]
+|(Navigator view) menu:Refresh[], (Properties view) menu:Refresh[], (Debug) menu:Step Into[]
+|
+|
+|
+|
 |
 
 
-|kbd:[F6] 
-|(Debug) menu:Step Over[] 
-| 
-|menu:Next Editor[] 
-|menu:Previous Editor[] 
-| 
+|kbd:[F6]
+|(Debug) menu:Step Over[]
+|
+|menu:Next Editor[]
+|menu:Previous Editor[]
+|
 |
 
 
-|kbd:[F7] 
-|(Debug) menu:Run to Return[] 
-| 
-|menu:Next View[] 
-|menu:Previous View[] 
-| 
+|kbd:[F7]
+|(Debug) menu:Run to Return[]
+|
+|menu:Next View[]
+|menu:Previous View[]
+|
 |
 
 
-|kbd:[F8] 
-|(Debug) menu:Resume[] 
-| 
-| 
-| 
-| 
+|kbd:[F8]
+|(Debug) menu:Resume[]
+|
+|
+|
+|
 |
 
 
-|kbd:[F9] 
-| 
-| 
-| 
-| 
-| 
+|kbd:[F9]
+|
+|
+|
+|
+|
 |
 
 
-|kbd:[F10] 
-|(Debug) menu:Relaunch last[] 
-| 
-| 
-| 
-| 
+|kbd:[F10]
+|(Debug) menu:Relaunch last[]
+|
+|
+|
+|
 |
 
 
-|kbd:[F11] 
-|(Debug) menu:Debug[] 
-| 
-|(Debug) menu:Run[] 
-| 
-| 
+|kbd:[F11]
+|(Debug) menu:Debug[]
+|
+|(Debug) menu:Run[]
+|
+|
 |
 
 
-|kbd:[F12] 
-|menu:Activate Editor[] 
-| 
-|menu:Activate Editor[] 
-| 
-| 
+|kbd:[F12]
+|menu:Activate Editor[]
+|
+|menu:Activate Editor[]
+|
+|
 |
 |=======================================================================
 
