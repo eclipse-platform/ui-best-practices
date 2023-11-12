@@ -1,60 +1,48 @@
 [[standard-components]]
 == Standard Components
 
-In this section we'll look at the standard components which ship with
-Eclipse. The Eclipse SDK contains a number of views, including the
-Navigator, Outline, Properties, Tasks, and Bookmarks view. Eclipse also
-contains a default text editor and a Resource perspective.
+In this section we'll look at the standard components which ship with Eclipse.
+The Eclipse SDK contains a number of views, including the Navigator, Outline, Properties, Tasks, and Bookmarks view.
+Eclipse also contains a default text editor and a Resource perspective.
 
-As a plug-in developer, you should try to add new actions to the
-existing parts. This leads to better integration with the platform, and
-the existing knowledge of the user.
+As a plug-in developer, you should try to add new actions to the existing parts.
+This leads to better integration with the platform, and the existing knowledge of the user.
 
 TIP: [[guideline12.1]]*Guideline 12.1* +
-If appropriate, add actions to standard components of Eclipse using the
-plug-in registry.
+If appropriate, add actions to standard components of Eclipse using the plug-in registry.
 
-When extending the standard components such as the Navigator, Outline,
-Properties, Tasks, and Bookmark views, make sure your specialized
-components carry over the base component's characteristics (drag and
-drop support, keyboard navigation, selection behaviour, etc.)
+When extending the standard components such as the Navigator, Outline, Properties, Tasks, and Bookmark views,
+make sure your specialized components carry over the base component's characteristics
+(drag and drop support, keyboard navigation, selection behaviour, etc.)
 
 TIP: [[guideline12.2]]*Guideline 12.2* +
-If you subclass or copy any of the standard components, always carry
-over the standard components' characteristics.
+If you subclass or copy any of the standard components, always carry over the standard components' characteristics.
 
 === The Navigator View
 
-The Navigator is used to navigate the workspace, create new resources,
-modify resources, and open an editor on a resource. Plug-in developers
-may contribute new actions to the menu, toolbar, and context menu.
+The Navigator is used to navigate the workspace, create new resources, modify resources, and open an editor on a resource.
+Plug-in developers may contribute new actions to the menu, toolbar, and context menu.
 
 ==== Adding Actions
 
 This is done by adding an extension to the plug-in registry.
 
 TIP: [[guideline13.1]]*Guideline 13.1* +
-Add actions to the Navigator View menu, toolbar, and context menu using
-the plug-in registry.
+Add actions to the Navigator View menu, toolbar, and context menu using the plug-in registry.
 
-If object contributions are made to the context menu, try to qualify the
-target object as much as possible, to avoid adding the command to the
-wrong objects in the Navigator. For instance, a Java command may target
-``IFile``s with a `.java` extension, or ``IProject``s with a Java nature. It will
-cause confusion if Java actions appear on non-java objects.
+If object contributions are made to the context menu, try to qualify the target object as much as possible,
+to avoid adding the command to the wrong objects in the Navigator.
+For instance, a Java command may target ``File``s with a `.java` extension, or ``IProject``s with a Java nature.
+It will cause confusion if Java actions appear on non-java objects.
 
-Some actions are a reflection of tool use, rather than object type. For
-instance, a repository plug-in may provide actions for file check in,
-check out, etc. These actions should appear on the resources in the
-Navigator only if the user has actively chosen to use the repository
-tool. To control the visibility of these actions, the plug-in should
-apply a project nature to the managed resources, and use the project
-nature attribute in all context menu contributions.
+Some actions are a reflection of tool use, rather than object type.
+For instance, a repository plug-in may provide actions for file check in, check out, etc.
+These actions should appear on the resources in the Navigator only if the user has actively chosen to use the repository tool.
+To control the visibility of these actions, the plug-in should apply a project nature to the managed resources,
+and use the project nature attribute in all context menu contributions.
 
-For more information on command filtering, refer to
-https://www.eclipse.org/articles/viewArticle/ViewArticle2.html[Creating
-an Eclipse View]. The standard attributes for resources are defined in
-`IResourceActionFilter.java` (see below).
+For more information on command filtering, refer to https://www.eclipse.org/articles/viewArticle/ViewArticle2.html[Creating an Eclipse View].
+The standard attributes for resources are defined in `IResourceActionFilter.java` (see below).
 
 [source,java]
 ----
@@ -67,8 +55,7 @@ public interface IResourceActionFilter extends IActionFilter {
 }
 ----
 
-The standard attributes for project filtering are defined in
-`IProjectActionFilter.java`.
+The standard attributes for project filtering are defined in `IProjectActionFilter.java`.
 
 [source,java]
 ----
@@ -79,55 +66,44 @@ public interface IProjectActionFilter extends IResourceActionFilter {
 ----
 
 TIP: [[guideline13.2]]*Guideline 13.2* +
-Use the attributes defined in `IResourceActionFilter.java` and
-`IProjectActionFilter.java` to control the visibility of context menu
-actions in the Navigator.
+Use the attributes defined in `IResourceActionFilter.java` and `IProjectActionFilter.java`
+to control the visibility of context menu actions in the Navigator.
 
 ==== Integration with Other Views and Editors
 
-In Eclipse, the use of a menu:Navigate[Show In] command is a common way
-to link the selection in one view to the input of another. For instance,
-a "Show in Package Explorer" command is visible in the context menu for
-a selected class in the source editor. When invoked, the class in the
-source editor is selected and revealed in the Package Explorer view.
-This approach should be used as a general, non intrusive pattern for
-view or editor linking. It is context sensitive, and reflects the
-intentions of the user.
+In Eclipse, the use of a menu:Navigate[Show In] command is a common way to link the selection in one view to the input of another.
+For instance, a "Show in Package Explorer" command is visible in the context menu for a selected class in the source editor.
+When invoked, the class in the source editor is selected and revealed in the Package Explorer view.
+This approach should be used as a general, non intrusive pattern for view or editor linking.
+It is context sensitive, and reflects the intentions of the user.
 
-A menu:Navigate[Show In Navigator] command should be included in any view
-where a resource may appear. If invoked, the command should select and
-reveal the resource in the navigator.
+A menu:Navigate[Show In Navigator] command should be included in any view where a resource may appear.
+If invoked, the command should select and reveal the resource in the navigator.
 
 TIP: [[guideline13.3]]*Guideline 13.3* +
-Use a menu:Navigate[Show In Navigator] command in each view, to link
-resources back to the Navigator.
+Use a menu:Navigate[Show In Navigator] command in each view, to link resources back to the Navigator.
 
 === The Tasks View
 
-The Tasks view is used to display the current tasks, errors and warnings
-in the workspace. A plug-in developer may contribute new tasks, errors,
-and warnings to the workspace, and rely upon the Tasks view to display
-those objects. You can also contribute new actions to the menu, toolbar,
-and context menu. This is done by adding an extension to the plug-in
-registry.
+The Tasks view is used to display the current tasks, errors and warnings in the workspace.
+A plug-in developer may contribute new tasks, errors, and warnings to the workspace,
+and rely upon the Tasks view to display those objects.
+You can also contribute new actions to the menu, toolbar, and context menu.
+This is done by adding an extension to the plug-in registry.
 
 ==== Adding Tasks
 
-A new task, error or warning can be created using the Marker Manager
-services from the Core Resources Management plugin.
+A new task, error or warning can be created using the Marker Manager services from the Core Resources Management plugin.
 
 TIP: [[guideline14.1]]*Guideline 14.1* +
-Add markers (tasks, errors and warnings) to the Tasks view using the
-Marker Manager services from the Core Resources Management plugin.
+Add markers (tasks, errors and warnings) to the Tasks view using the Marker Manager services from the Core Resources Management plugin.
 
-The Tasks view is a table, containing columns for the task image,
-completion status, priority, description, resource, and line number. The
-description text of each marker should be short and concise, so that it
-will fit in the status line of Eclipse.
+The Tasks view is a table, containing columns for the task image, completion status, priority, description, resource, and line number.
+The description text of each marker should be short and concise, so that it will fit in the status line of Eclipse.
 
 TIP: [[guideline14.2]]*Guideline 14.2* +
-The description text of each marker should be short and concise, so that
-it will fit in the status line of Eclipse.
+The description text of each marker should be short and concise,
+so that it will fit in the status line of Eclipse.
 
 ==== Adding Actions
 
@@ -135,18 +111,14 @@ You can contribute new actions to the menu, toolbar, and context menu.
 This is done by adding an extension to the plug-in registry.
 
 TIP: [[guideline14.3]]*Guideline 14.3* +
-Add actions to the Tasks view menu, toolbar, and context menu using the
-plug-in registry.
+Add actions to the Tasks view menu, toolbar, and context menu using the plug-in registry.
 
-If object contributions are made to the context menu, try to qualify the
-target object as much as possible, to avoid adding the command to the
-wrong objects in the Tasks view. At an implementation level, each object
-in the Tasks view is a __marker__, a general mechanism for associate
-notes with a resource. Use the attributes within
-`IMarkerActionFilter.java` to control the visibility of Task object
-actions (see below). For more information on command filtering, refer to
-https://www.eclipse.org/articles/viewArticle/ViewArticle2.html[Creating
-an Eclipse View].
+If object contributions are made to the context menu, try to qualify the target object as much as possible,
+to avoid adding the command to the wrong objects in the Tasks view.
+At an implementation level, each object in the Tasks view is a __marker__,
+a general mechanism for associate notes with a resource.
+Use the attributes within `IMarkerActionFilter.java` to control the visibility of Task object actions (see below).
+For more information on command filtering, refer to https://www.eclipse.org/articles/viewArticle/ViewArticle2.html[Creating an Eclipse View].
 
 [source,java]
 ----
@@ -161,34 +133,29 @@ public interface IMarkerActionFilter extends IActionFilter {
 ----
 
 TIP: [[guideline14.4]]*Guideline 14.4* +
-Use the attributes defined in `IMarkerActionFilter.java` to control the
-visibility of context menu actions in the Tasks view.
+Use the attributes defined in `IMarkerActionFilter.java` to control the visibility of context menu actions in the Tasks view.
 
 ==== Integration with Other Views and Editors
 
-In an editor, task objects are commonly used to mark a location within a
-document. Once a task has been created, it appears in the Task view. If
-this task is selected (via double clicking), you should reopen the
-editor at the location defined in the task. The focus should be changed
-from the Task view to the editor.
+In an editor, task objects are commonly used to mark a location within a document.
+Once a task has been created, it appears in the Task view.
+If this task is selected (via double clicking),
+you should reopen the editor at the location defined in the task.
+The focus should be changed from the Task view to the editor.
 
-If appropriate, support for the creation of new task objects in an
-editor should be implemented by the editor. For more information on
-this, see xref:component_dev.adoc#editors[Editors].
+If appropriate, support for the creation of new task objects in an editor should be implemented by the editor.
+For more information on this, see xref:component_dev.adoc#editors[Editors].
 
 ==== Adding F1 Help to Task View
 
-Plug-ins should support kbd:[F1] keyboard command and link it to an infopop
-that gives a detailed description of the selected item in the Task view.
+Plug-ins should support kbd:[F1] keyboard command and link it to an infopop that gives a detailed description of the selected item in the Task view.
 
 TIP: [[guideline14.5]]*Guideline 14.5* +
-Support kbd:[F1] keyboard command and link it to an infopop that gives a
-detailed description of the selected item in the Task view.
+Support kbd:[F1] keyboard command and link it to an infopop that gives a detailed description of the selected item in the Task view.
 
 === Selection Dialogs
 
-When you want the user to select items from a given list of items, you
-can use the standard selection dialogs available in Eclipse.
+When you want the user to select items from a given list of items, you can use the standard selection dialogs available in Eclipse.
 
 ==== ContainerSelectionDialog
 
@@ -203,16 +170,13 @@ dialog.setTitle("Container Selection");
 dialog.open();
 ----
 
-You can restrict the resource to be within a project/folder by passing
-the respective object as the second parameter for the constructor.
+You can restrict the resource to be within a project/folder by passing the respective object as the second parameter for the constructor.
 
 ==== ResourceSelectionDialog
 
-The `ContainerSelectionDialog` allowed you to select only one resource
-that too it should be a container. If you want to select multiple
-resources including files, then
-`{ResourceSelectionDialog}[ResourceSelectionDialog]`
-is the one you should be using.
+The `ContainerSelectionDialog` allowed you to select only one resource that too it should be a container.
+If you want to select multiple resources including files,
+then `{ResourceSelectionDialog}[ResourceSelectionDialog]` is the one you should be using.
 
 [source,java]
 ----
@@ -223,11 +187,9 @@ dialog.open();
 
 ==== ResourceListSelectionDialog
 
-The `ResourceSelectionDialog` is good when you want to present the entire
-set of resources under a parent and allow the user to select multiple
-resources. But if you have a set of resources and want the user to
-select only one from that, then probably you should be using
-`{ResourceListSelectionDialog}[ResourceListSelectionDialog]`.
+The `ResourceSelectionDialog` is good when you want to present the entire set of resources under a parent and allow the user to select multiple resources.
+But if you have a set of resources and want the user to select only one from that,
+then probably you should be using `{ResourceListSelectionDialog}[ResourceListSelectionDialog]`.
 
 [source,java]
 ----
@@ -238,12 +200,11 @@ dialog.open();
 
 ==== ElementListSelectionDialog
 
-The above Dialogs are good to selecting workspace resources. But what if
-I have some elements on my own and I want to select from that? The first
-dialog you would be using is
-`{ElementListSelectionDialog}[ElementListSelectionDialog]`.
-The user can select an element from the set. You have to pass the
-elements as an array and supply a label provider to render the element.
+The above Dialogs are good to selecting workspace resources.
+But what if I have some elements on my own and I want to select from that?
+The first dialog you would be using is `{ElementListSelectionDialog}[ElementListSelectionDialog]`.
+The user can select an element from the set.
+You have to pass the elements as an array and supply a label provider to render the element.
 The user can filter using wildcards as well.
 
 [source,java]
@@ -258,12 +219,10 @@ dialog.open();
 ==== ListSelectionDialog
 
 If you want the user to select multiple elements from the given set,
-then
-`{ListSelectionDialog}[ListSelectionDialog]`
-is the one to use. It is basically a single column `TableViewer` with
-`SWT.CHECK` style applied. You have to supply your own `ContentProvider` and
-`LabelProvider` for the `TableViewer`. It also has btn:[Select{nbsp}All] and btn:[Deselect{nbsp}All]
-buttons.
+then `{ListSelectionDialog}[ListSelectionDialog]` is the one to use.
+It is basically a single column `TableViewer` with `SWT.CHECK` style applied.
+You have to supply your own `ContentProvider` and `LabelProvider` for the `TableViewer`.
+It also has btn:[Select{nbsp}All] and btn:[Deselect{nbsp}All] buttons.
 
 [source,java]
 ----
@@ -274,11 +233,9 @@ dlg.open();
 
 ==== CheckedTreeSelectionDialog
 
-If you have your items in a tree structure and want to select few
-elements from them, then
-`{CheckedTreeSelectionDialog}[CheckedTreeSelectionDialog]`
-is your choice. You have to bring your own content & label provider and
-the input.
+If you have your items in a tree structure and want to select few elements from them,
+then `{CheckedTreeSelectionDialog}[CheckedTreeSelectionDialog]` is your choice.
+You have to bring your own content and label provider and the input.
 
 [source,java]
 ----
@@ -291,10 +248,8 @@ dialog.open();
 
 ==== ElementTreeSelectionDialog
 
-`{ElementTreeSelectionDialog}[ElementTreeSelectionDialog]`
-is the same as the `CheckedTreeSelectionDialog` except that it will allow
-you to select a single element in the whole tree rather than multiple
-elements.
+`{ElementTreeSelectionDialog}[ElementTreeSelectionDialog]` is the same as the `CheckedTreeSelectionDialog`
+except that it will allow you to select a single element in the whole tree rather than multiple elements.
 
 [source,java]
 ----
@@ -307,136 +262,115 @@ dialog.open();
 
 ==== FilteredItemsSelectionDialog
 
-Have you used the Open Type (kbd:[Ctrl + Shift + T]) or Open Resource
-(kbd:[Ctrl + Shift + R]) dialog? It's similar to the `ElementListSelectionDialog`,
-but it has more features. It can select multiple items, display a detail
-pane about the item that is currently selected, it can even remember
-your previous selections; store them in history and present them before
-the other choices. To have that functionality, you have to extend the
-abstract class
-`{FilteredItemsSelectionDialog}[FilteredItemsSelectionDialog]`
-and provide the necessary implementation.
+Have you used the Open Type (kbd:[Ctrl + Shift + T]) or Open Resource (kbd:[Ctrl + Shift + R]) dialog?
+It's similar to the `ElementListSelectionDialog`, but it has more features.
+It can select multiple items, display a detail pane about the item that is currently selected,
+it can even remember your previous selections;
+store them in history and present them before the other choices.
+To have that functionality, you have to extend the abstract class `{FilteredItemsSelectionDialog}[FilteredItemsSelectionDialog]` and provide the necessary implementation.
 
 === The Preference Dialog
 
-The Preference Dialog is used to edit the global preference for a
-feature in the workbench.
+The Preference Dialog is used to edit the global preference for a feature in the workbench.
 
-A new preference page should be created when you need to expose global
-options to the user. For instance, the global preferences for Java
-compilation are exposed as a group of preference pages in the Preference
-Dialog. If these preferences are changed, they affect the entire Java
-plug-in.
+A new preference page should be created when you need to expose global options to the user.
+For instance, the global preferences for Java compilation are exposed as a group of preference pages in the Preference Dialog.
+If these preferences are changed, they affect the entire Java plug-in.
 
 TIP: [[guideline15.1]]*Guideline 15.1* +
 Global options should be exposed within the Preferences Dialog.
 
-A preference page should not be used to expose the local options for a
-particular instance of a view, editor, or window. In this situation, the
-user will look to the menu and toolbar of the control itself to
-customize it. If these options are exposed in the Preference Dialog, it
-will blur the location of customization, and confuse the user.
+A preference page should not be used to expose the local options for a particular instance of a view, editor, or window.
+In this situation, the user will look to the menu and toolbar of the control itself to customize it.
+If these options are exposed in the Preference Dialog, it will blur the location of customization, and confuse the user.
 
 TIP: [[guideline15.2]]*Guideline 15.2* +
-Expose the preferences for a particular view, editor or window in the
-view itself, via a menu or tool item.
+Expose the preferences for a particular view, editor or window in the view itself, via a menu or tool item.
 
 ==== Preference Page Design
 
-In the simplest case, any plug-in which needs to expose an option to the
-user will define a single preference page. This preference page should
-contain all of the options for the plug-in, until the number of options
-starts to overload the page. At that point a nested design for
-preference pages should be adopted.
+In the simplest case, any plug-in which needs to expose an option to the user will define a single preference page.
+This preference page should contain all of the options for the plug-in,
+until the number of options starts to overload the page.
+At that point a nested design for preference pages should be adopted.
 
 TIP: [[guideline15.3]]*Guideline 15.3* +
-Start out with a single preference page. Then evolve to more if you need
-to.
+Start out with a single preference page.
+Then evolve to more if you need to.
 
-In a nested design, a root preference page is added to the preference
-dialog, and then sub pages are added to the root preference page. The
-root preference page should never be blank. Instead, it should contain
-the most commonly used preferences, or those preferences which have a
-wide spread effect upon the plug-in behavior. Beneath the root page, a
-sub page should be created for each major chunk of functionality within
-the plug-in.
+In a nested design, a root preference page is added to the preference dialog,
+and then sub pages are added to the root preference page.
+The root preference page should never be blank.
+Instead, it should contain the most commonly used preferences,
+or those preferences which have a wide spread effect upon the plug-in behavior.
+Beneath the root page, a sub page should be created for each major chunk of functionality within the plug-in.
 
-There is no reason to set the focus in a preference page, because focus
-is always set to the tree, by the Eclipse platform, after the preference
-page is made visible.
+There is no reason to set the focus in a preference page,
+because focus is always set to the tree, by the Eclipse platform, after the preference page is made visible.
 
 TIP: [[guideline15.4]]*Guideline 15.4* +
-If you create a preference group, use the root page for frequently used
-preferences, or those preferences which have wide spread effect.
-Specialize within the sub pages. The root preference page should not be
-blank.
+If you create a preference group, use the root page for frequently used preferences,
+or those preferences which have wide spread effect.
+Specialize within the sub pages.
+The root preference page should not be blank.
 
-Each new plug-in should integrate its plug-in preferences, wizards, and
-views into existing preference, wizard, and view categories where it
-makes sense, rather than the blind creation of new categories for
-itself.
+Each new plug-in should integrate its plug-in preferences, wizards, and views
+into existing preference, wizard, and view categories where it makes sense,
+rather than the blind creation of new categories for itself.
 
 TIP: [[guideline15.5]]*Guideline 15.5* +
-Attempt to integrate plug-in preferences, wizards, and views into
-existing categories for a new plug-in first, before considering the
-creation of a new category.
+Attempt to integrate plug-in preferences, wizards, and views into existing categories for a new plug-in first,
+before considering the creation of a new category.
 
 === The Outline View
 
-In Eclipse, there is a special relationship between an editor and the
-Outline view. When an editor is opened, the Outline view will connect to
-the editor, and ask it for an outline model. If the editor answers an
-outline model, that model will be displayed in the Outline view whenever
-the editor is active. The outline is used to navigate through the edit
-data, or interact with the edit data at a higher level of abstraction.
+In Eclipse, there is a special relationship between an editor and the Outline view.
+When an editor is opened, the Outline view will connect to the editor, and ask it for an outline model.
+If the editor answers an outline model, that model will be displayed in the Outline view whenever the editor is active.
+The outline is used to navigate through the edit data,
+or interact with the edit data at a higher level of abstraction.
 
-If you are an editor developer, the relationship between an editor and
-the Outline view is important. For more information on the collaboration
-between these two, see xref:component_dev.adoc#editors[Editors].
+If you are an editor developer, the relationship between an editor and the Outline view is important.
+For more information on the collaboration between these two, see xref:component_dev.adoc#editors[Editors].
 
 === The Properties View
 
-The Properties view shows the properties for the active part in the
-workbench, or the selection within that part. These properties are
-supplied by the active part itself. The Properties view is simply a
-container for their presentation.
+The Properties view shows the properties for the active part in the workbench,
+or the selection within that part.
+These properties are supplied by the active part itself.
+The Properties view is simply a container for their presentation.
 
-Within Eclipse, the properties for an object can be exposed using a
-Properties dialog, or the Properties view. The Properties view is
-commonly used to edit the properties for a set of objects in an editor,
-where quick access to the properties is important, and you switch from
-one object to another quickly.
+Within Eclipse, the properties for an object can be exposed using a Properties dialog, or the Properties view.
+The Properties view is commonly used to edit the properties for a set of objects in an editor,
+where quick access to the properties is important, and you switch from one object to another quickly.
 
-For more information on the use of the Properties view, or Properties
-dialog, refer to xref:component_dev.adoc#properties[Properties].
+For more information on the use of the Properties view, or Properties dialog,
+refer to xref:component_dev.adoc#properties[Properties].
 
 === The Bookmarks View
 
-The Bookmarks view is used to bookmark files, and open them quickly. A
-plug-in developer may contribute new bookmarks to the workspace, and
-rely upon the Bookmarks view to display those bookmarks. You can also
-contribute new actions to the menu, toolbar, and context menu. This is
-done by adding an extension to the plug-in registry.
+The Bookmarks view is used to bookmark files, and open them quickly.
+A plug-in developer may contribute new bookmarks to the workspace,
+and rely upon the Bookmarks view to display those bookmarks.
+You can also contribute new actions to the menu, toolbar, and context menu.
+This is done by adding an extension to the plug-in registry.
 
-In an editor, bookmark objects are commonly used to mark a location
-within a document. Once a bookmark has been created, it appears in the
-Bookmarks view. If this bookmark is selected, you may reopen the editor
-at the location defined in the bookmark.
+In an editor, bookmark objects are commonly used to mark a location within a document.
+Once a bookmark has been created, it appears in the Bookmarks view.
+If this bookmark is selected, you may reopen the editor at the location defined in the bookmark.
 
-If appropriate, support for the creation of new bookmark objects should
-be implemented by the editor. For more information on this, see
-xref:component_dev.adoc#editors[Editors].
+If appropriate, support for the creation of new bookmark objects should be implemented by the editor.
+For more information on this, see xref:component_dev.adoc#editors[Editors].
 
 === The Text Editor
 
-The Text Editor is commonly used to edit text files. A plug-in developer
-can contribute new actions to the menu, toolbar, and context menu. This
-is done by adding an extension to the plug-in registry. For more
-information on this, see xref:component_dev.adoc#editors[Editors].
+The Text Editor is commonly used to edit text files.
+A plug-in developer can contribute new actions to the menu, toolbar, and context menu.
+This is done by adding an extension to the plug-in registry.
+For more information on this, see xref:component_dev.adoc#editors[Editors].
 
 === The Resource Perspective
 
-The Resource perspective contains a Navigator, Outline, Task view, and
-editor area. Plug-in developers may contribute a new command, action
-set, or view to the Resource perspective. For more information, refer to
-xref:component_dev.adoc#perspectives[Perspectives].
+The Resource perspective contains a Navigator, Outline, Task view, and editor area.
+Plug-in developers may contribute a new command, action set, or view to the Resource perspective.
+For more information, refer to xref:component_dev.adoc#perspectives[Perspectives].

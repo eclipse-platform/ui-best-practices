@@ -7,7 +7,8 @@ In this section, we provide examples of best practices for designing and impleme
 
 When designing editors that provide syntax or compilation checking support, follow the Java tooling design in the Eclipse platform.
 
-Provide on the fly syntax checking if possible. Use red "squiggle" to indicate where the potential error is located in the source code.
+Provide on the fly syntax checking if possible.
+Use red "squiggle" to indicate where the potential error is located in the source code.
 Use a red box on the side bar on the right side to indicate the approximate error position in the file.
 Use a prominent marker on the upper right hand corner to indicate that the file contains errors or warnings.
 Use red color to indicate errors, and use yellow to indicate warnings.
@@ -64,7 +65,8 @@ The objective is to reduce the number of context menu items to *no more than 20*
 
 For Flat Look design, when using buttons with ellipses (except for the btn:[More...] button), it should pop up a secondary window which can be a dialog box or a wizard.
 
-Use Title capitalization for section titles. The distance between section columns should be 32 pixels.
+Use Title capitalization for section titles.
+The distance between section columns should be 32 pixels.
 
 On pages with listbox on the left hand side, the distance be between the list box and the right-hand column (e.g., showing properties for a selected listbox item) should be 10 pixels.
 

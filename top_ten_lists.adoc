@@ -3,12 +3,10 @@
 
 === Quick UI Checklist
 
-This is is a shortlist of the most relevant and easy to apply Eclipse
-xref:index.adoc[*User Interface Guidelines*].
+This is is a shortlist of the most relevant and easy to apply Eclipse xref:index.adoc[*User Interface Guidelines*].
 Start by using this list, referring to the linked guideline items for details,
-then use the xref:eclipse_ui_full_checklist.adoc#eclipse-ui-full-checklist[Full Checklist]
-for additional guidance.  For comments please use the
-{issues}[UI Best Practices GitHub Issues].
+then use the xref:eclipse_ui_full_checklist.adoc#eclipse-ui-full-checklist[Full Checklist] for additional guidance.
+For comments please use the {issues}[UI Best Practices GitHub Issues].
 
 ==== Views & Editors
 
@@ -71,9 +69,8 @@ for additional guidance.  For comments please use the
 === Top Ten Lists
 
 This is a starter set of top ten Eclipse UI Guidelines and Violations.
-The purpose of these lists is to be a starting point for Eclipse UI
-designers and developers, providing the most important practices to
-follow and to avoid, respectively.
+The purpose of these lists is to be a starting point for Eclipse UI designers and developers,
+providing the most important practices to follow and to avoid, respectively.
 
 To see all considerations to-date go to the
 link:https://wiki.eclipse.org/Top_Ten_Lists_Working_Page[Top Ten Lists Working Page].
@@ -81,11 +78,9 @@ link:https://wiki.eclipse.org/Top_Ten_Lists_Working_Page[Top Ten Lists Working P
 ==== Top Ten Eclipse UI Guidelines
 
 . Use the Eclipse look and feel if extending or plugging into Eclipse.
-. Use common SWT controls to get what SWT offers for cross-platform adaptability
-  and accessibility.
+. Use common SWT controls to get what SWT offers for cross-platform adaptability and accessibility.
 . Be familiar with APIs for the UIs you are building.
-. Use icons and graphics consistent with the Eclipse style, decorations, states,
-  and quality.
+. Use icons and graphics consistent with the Eclipse style, decorations, states, and quality.
 . Understand the conventions of the OSs you are developing for.
 . Use understandable messages to help people recover from error conditions.
 . Don't initiate dialogs or wizards in an error state.
@@ -99,8 +94,7 @@ link:https://wiki.eclipse.org/Top_Ten_Lists_Working_Page[Top Ten Lists Working P
 . Useless dialogs
 . Cryptic error messages
 . Messages with concatenated strings
-. Property pages that don't adhere to platform uses where possible (normal and
-  tabbed)
+. Property pages that don't adhere to platform uses where possible (normal and tabbed)
 . Assuming more importance than other contributions
 . Using too many custom colors and fonts
 . Flooding the system with updates

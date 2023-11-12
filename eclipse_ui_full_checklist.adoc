@@ -1,45 +1,41 @@
 [[eclipse-ui-full-checklist]]
 == Checklist for Developers
 
-Here is a checklist for developers who are developing UI plugins. This
-_could_ be used for certification purposes.
+Here is a checklist for developers who are developing UI plugins.
+This _could_ be used for certification purposes.
 
 === General UI Guidelines
 
 ==== The Spirit of Eclipse
 
 TIP: *Guideline 1.1* +
-Follow and apply good user interface design principles: user in control,
-directness, consistency, forgiveness, feedback, aesthetics, and
-simplicity.
+Follow and apply good user interface design principles:
+user in control, directness, consistency, forgiveness, feedback, aesthetics, and simplicity.
 
 TIP: *Guideline 1.2* +
 Follow the platform lead for user interface conventions.
 
 TIP: *Guideline 1.3* +
-Be careful not to mix UI metaphors. It may blur the original concept,
-and your own application.
+Be careful not to mix UI metaphors.
+It may blur the original concept, and your own application.
 
 TIP: *Guideline 1.4* +
-If you have an interesting idea, work with the Eclipse community to make
-Eclipse a better platform for all.
+If you have an interesting idea, work with the Eclipse community to make Eclipse a better platform for all.
 
 ==== Capitalization
 
 
 TIP: *Guideline 1.5* +
 Use Headline style capitalization for menus, tooltip and all titles,
-including those used for windows, dialogs, tabs, column headings and
-push buttons. Capitalize the first and last words, and all nouns,
-pronouns, adjectives, verbs and adverbs. Do not include ending
-punctuation.
+including those used for windows, dialogs, tabs, column headings and push buttons.
+Capitalize the first and last words, and all nouns, pronouns, adjectives, verbs and adverbs.
+Do not include ending punctuation.
 
 
 TIP: *Guideline 1.6* +
-Use Sentence style capitalization for all control labels in a dialog or
-window, including those for check boxes, radio buttons, group labels,
-and simple text fields. Capitalize the first letter of the first word,
-and any proper names such as the word Java.
+Use Sentence style capitalization for all control labels in a dialog or window,
+including those for check boxes, radio buttons, group labels, and simple text fields.
+Capitalize the first letter of the first word, and any proper names such as the word Java.
 
 ==== Language
 TIP: *Guideline 1.7* +
@@ -47,13 +43,11 @@ Create localized version of the resources within your plug-in.
 
 ==== Error Handling
 TIP: *Guideline 1.8* +
-When an error occurs which requires either an explicit user input or
-immediate attention from users, communicate the occurrence with a modal
-dialog.
+When an error occurs which requires either an explicit user input or immediate attention from users,
+communicate the occurrence with a modal dialog.
 
 TIP: *Guideline 1.9* +
-If a programming error occurs in the product, communicate the occurrence
-with a dialog, and log it.
+If a programming error occurs in the product, communicate the occurrence with a dialog, and log it.
 
 
 === UI Graphics
@@ -70,17 +64,14 @@ Re-use the core visual concepts to maintain consistent representation
 and meaning across Eclipse plug-ins.
 
 TIP: *Guideline 2.4* +
-Re-use existing graphics from the Common Elements library or other
-Eclipse-based plugins.
+Re-use existing graphics from the Common Elements library or other Eclipse-based plugins.
 
 TIP: *Guideline 2.5* +
-Create and implement the graphical versions of the disabled state of
-toolbar and local toolbar icons.
+Create and implement the graphical versions of the disabled state of toolbar and local toolbar icons.
 
 TIP: *Guideline 2.6* +
-Use the design templates for creating and maintaining UI graphics to
-facilitate easy file sharing and efficient production of a large set of
-graphics.
+Use the design templates for creating and maintaining UI graphics
+to facilitate easy file sharing and efficient production of a large set of graphics.
 
 ==== Specifications
 
@@ -88,37 +79,33 @@ TIP: *Guideline 2.7* +
 Use the file format specified for the graphic type.
 
 TIP: *Guideline 2.8* +
-Use the appropriate graphic type in the location it is designed for
-within the user interface.
+Use the appropriate graphic type in the location it is designed for within the user interface.
 
 TIP: *Guideline 2.9* +
 Follow the specific size specifications for each type of graphic.
 
 TIP: *Guideline 2.10* +
-Cut the graphics with the specific placement shown to ensure alignment
-in the user interface.
+Cut the graphics with the specific placement shown to ensure alignment in the user interface.
 
 ==== Implementation
 
 TIP: *Guideline 2.11* +
-Use the cutting actions provided to increase the speed and efficiency of
-cutting a large number of graphics.
+Use the cutting actions provided to increase the speed and efficiency of cutting a large number of graphics.
 
 TIP: *Guideline 2.12* +
-Abbreviate file name instead of using the full icon name, e.g., New
-Interface becomes "newint".
+Abbreviate file name instead of using the full icon name,
+e.g., New Interface becomes "newint".
 
 TIP: *Guideline 2.13* +
 Use lower case characters in your file names, e.g., DTD becomes "dtd".
 
 TIP: *Guideline 2.14* +
-Use 10 characters or fewer in your file names if possible (underscores
-count as a character).
+Use 10 characters or fewer in your file names if possible
+(underscores count as a character).
 
 TIP: *Guideline 2.15* +
-Use a file name suffix that describes its location or function in the
-tool, e.g., newint_wiz, or its size in the case of icons that require
-multiple sizes.
+Use a file name suffix that describes its location or function in the tool,
+e.g., newint_wiz, or its size in the case of icons that require multiple sizes.
 
 TIP: *Guideline 2.16* +
 Keep the original file names provided.
@@ -130,8 +117,8 @@ TIP: *Guideline 2.18* +
 Keep the original directory names provided.
 
 TIP: *Guideline 2.19* +
-Minimize duplication of graphics within a plugin by keeping all graphics
-in one, or few, first level user interface directories.
+Minimize duplication of graphics within a plugin by keeping all graphics in one,
+or few, first level user interface directories.
 
 TIP: *Guideline 2.20* +
 Use the active, enabled, and disabled states provided.
@@ -141,47 +128,44 @@ Use the active, enabled, and disabled states provided.
 ==== Commands
 
 TIP: *Guideline 3.1* +
-Each command must have a label, tool tip, and full color image. The
-label and tool tip must use Headline style capitalization.
+Each command must have a label, tool tip, and full color image.
+The label and tool tip must use Headline style capitalization.
 
 TIP: *Guideline 3.2* +
-The command tooltip should describe the result of the command, not the
-current state of the command. Use the text same as that for the command
-label.
+The command tooltip should describe the result of the command,
+not the current state of the command.
+Use the text same as that for the command label.
 
 TIP: *Guideline 3.3* +
-Adopt the labeling terminology of the workbench for New, Delete and Add
-commands.
+Adopt the labeling terminology of the workbench for New, Delete and Add commands.
 
 TIP: *Guideline 3.4* +
 A command should be enabled only if it can be completed successfully.
 
 TIP: *Guideline 3.5* +
-Command enablement should be quick. If command enablement cannot be
-quick, enable the command optimistically and display an appropriate
-message if the command is invoked, but cannot be completed.
+Command enablement should be quick.
+If command enablement cannot be quick,
+enable the command optimistically and display an appropriate message if the command is invoked,
+but cannot be completed.
 
 ==== Dialogs
 
 TIP: *Guideline 4.1*
-When a dialog opens, set the initial focus to the first input control in
-the container. If there are no input controls, the initial focus should
-be assigned to the default button.
+When a dialog opens, set the initial focus to the first input control in the container.
+If there are no input controls, the initial focus should be assigned to the default button.
 
 TIP: *Guideline 4.2* +
-Slush Bucket widget (or Twin Box) should flow from left to right with
-the source objects on the left hand side. It should have the >, >,
+Slush Bucket widget (or Twin Box) should flow from left to right with the source objects on the left hand side.
+It should have the >, >,
 
 ==== Wizards
 
 TIP: *Guideline 5.1* +
-Use a wizard for any task consisting of many steps, which must be
-completed in a specific order.
+Use a wizard for any task consisting of many steps, which must be completed in a specific order.
 
 TIP: *Guideline 5.2* +
-Each wizard must contain a header with a banner graphic and a text area
-for user feedback. It must also contain btn:[Back], btn:[Next], btn:[Finish], and btn:[Cancel]
-buttons in the footer.
+Each wizard must contain a header with a banner graphic and a text area for user feedback.
+It must also contain btn:[Back], btn:[Next], btn:[Finish], and btn:[Cancel] buttons in the footer.
 
 TIP: *Guideline 5.3* +
 Start the wizard with a prompt, not an error message.
@@ -190,12 +174,11 @@ TIP: *Guideline 5.4* +
 Seed the fields within the wizard using the current workbench state.
 
 TIP: *Guideline 5.5* +
-Validate the wizard data in tab order. Display a prompt when information
-is absent, and an error when information is invalid.
+Validate the wizard data in tab order.
+Display a prompt when information is absent, and an error when information is invalid.
 
 TIP: *Guideline 5.6* +
-Enable the btn:[Next] and btn:[Finish] buttons only if all required information in the
-dialog is present and valid.
+Enable the btn:[Next] and btn:[Finish] buttons only if all required information in the dialog is present and valid.
 
 TIP: *Guideline 5.7* +
 Remove all programming message ID's from wizard text.
@@ -204,67 +187,57 @@ TIP: *Guideline 5.8* +
 Use a btn:[Browse...] Button whenever an existing object is referenced in a wizard.
 
 TIP: *Guideline 5.9* +
-If a new file is created, open the file in an editor. If a group of
-files are created, open the most important, or central file in an
-editor. Open the `readme.html` file upon creation of an example project.
+If a new file is created, open the file in an editor.
+If a group of files are created, open the most important, or central file in an editor.
+Open the `readme.html` file upon creation of an example project.
 
 TIP: *Guideline 5.10* +
-If a new project is created, prompt users and change the active
-perspective to suit the project type.
+If a new project is created, prompt users and change the active perspective to suit the project type.
 
 TIP: *Guideline 5.11* +
-If a new object is created, select and reveal the new object in the
-appropriate view.
+If a new object is created, select and reveal the new object in the appropriate view.
 
 TIP: *Guideline 5.12* +
 Create folder objects in a wizard if reasonable defaults can be defined.
 
 TIP: *Guideline 5.13* +
-Use the term "Project name" for the input field label when the item must
-be a Project; otherwise, use the term "Folder name". Do not qualify the
-term.
+Use the term "Project name" for the input field label when the item must be a Project;
+otherwise, use the term "Folder name".
+Do not qualify the term.
 
 ==== Editors
 
 TIP: *Guideline 6.1* +
-Use an editor to edit or browse a file, document, or other primary
-content.
+Use an editor to edit or browse a file, document, or other primary content.
 
 TIP: *Guideline 6.2* +
-Modifications made in an editor should follow an open-save-close
-lifecycle model.
+Modifications made in an editor should follow an open-save-close lifecycle model.
 
 TIP: *Guideline 6.3* +
-Only one instance of an editor may exist, for each editor input, within
-a perspective.
+Only one instance of an editor may exist, for each editor input, within a perspective.
 
 TIP: *Guideline 6.4* +
-It must be possible to open a separate instance of an editor for each
-different input.
+It must be possible to open a separate instance of an editor for each different input.
 
 TIP: *Guideline 6.5* +
-The editor should be labeled with the name of the file, document, or
-input being edited.
+The editor should be labeled with the name of the file, document, or input being edited.
 
 TIP: *Guideline 6.6* +
-In multipage editors, use a tab control for page activation. Tab labels
-should be kept to one word, and two words at most.
+In multipage editors, use a tab control for page activation.
+Tab labels should be kept to one word, and two words at most.
 
 TIP: *Guideline 6.7* +
-All of the commands, except for the obvious commands, available in the
-editor should be added to the window menu bar.
+All of the commands, except for the obvious commands, available in the editor should be added to the window menu bar.
 
 TIP: *Guideline 6.8* +
 Use the standard format for editor contributions in the window menu bar.
 
 TIP: *Guideline 6.9* +
-If an editor has support for Cut, Copy, Paste, or any of the global
-commands, these commands must be executable from the same commands in
-the window menu bar and toolbar.
+If an editor has support for Cut, Copy, Paste, or any of the global commands,
+these commands must be executable from the same commands in the window menu bar and toolbar.
 
 TIP: *Guideline 6.10* +
-Fill the editor toolbar with the most commonly used items in the view
-menu.
+Fill the editor toolbar with the most commonly used items in the view menu.
 
 TIP: *Guideline 6.11* +
 Fill the context menu with selection oriented commands.
@@ -273,8 +246,8 @@ TIP: *Guideline 6.12* +
 Use the standard format for editor context menus.
 
 TIP: *Guideline 6.13* +
-Fill the context menu with a fixed set of commands for each selection
-type, and then enable or disable each to reflect the selection state.
+Fill the context menu with a fixed set of commands for each selection type,
+and then enable or disable each to reflect the selection state.
 
 TIP: *Guideline 6.14* +
 Register all context menus in the editor with the platform.
@@ -283,38 +256,33 @@ TIP: *Guideline 6.15* +
 Implement a Command Filter for each object type in the editor.
 
 TIP: *Guideline 6.16* +
-If the input to an editor is deleted, and the editor contains no
-changes, the editor should be closed.
+If the input to an editor is deleted, and the editor contains no changes, the editor should be closed.
 
 TIP: *Guideline 6.17* +
 If the input to an editor is deleted, and the editor contains changes,
-the editor should give the user a chance to save their changes to
-another location, and then close.
+the editor should give the user a chance to save their changes to another location, and then close.
 
 TIP: *Guideline 6.18* +
-If the resource is dirty, prefix the resource name presented in the
-editor tab with an asterisk.
+If the resource is dirty, prefix the resource name presented in the editor tab with an asterisk.
 
 TIP: *Guideline 6.19* +
-Treat read-only editor input as you would any other input. Enable the
-Save As if possible. Display "Read-only" in the status bar area.
+Treat read-only editor input as you would any other input.
+Enable the menu:[Save As] if possible.
+Display "Read-only" in the status bar area.
 
 TIP: *Guideline 6.20* +
 If the data within an editor is too extensive to see on a single screen,
-and will yield a structured outline, the editor should provide an
-outline model to the Outline view.
+and will yield a structured outline, the editor should provide an outline model to the Outline view.
 
 TIP: *Guideline 6.21* +
-Notification about location between an editor and the Outline view
-should be two-way. A context menu should be available in the Outline
-view as appropriate.
+Notification about location between an editor and the Outline view should be two-way.
+A context menu should be available in the Outline view as appropriate.
 
 TIP: *Guideline 6.22* +
-An error or warning image should be added to items with the error or
-warning respectively. A container should have a red X if it there are
-errors on the container itself, a gray X if any of its descendents have
-errors (but not the container itself), and no X if neither the container
-nor any of its descendents have errors.
+An error or warning image should be added to items with the error or warning respectively.
+A container should have a red X if it there are errors on the container itself,
+a gray X if any of its descendents have errors (but not the container itself),
+and no X if neither the container nor any of its descendents have errors.
 
 TIP: *Guideline 6.23* +
 If appropriate, implement the "Add Task" feature in your editor.
@@ -324,32 +292,29 @@ If appropriate, implement the "Add Bookmark" feature in your editor.
 
 TIP: *Guideline 6.25* +
 Editors with source lines of text should show the current line and
-optionally column numbers the status line. It's optional for the editor
-to show line numbers for each line in the editor itself.
+optionally column numbers the status line.
+It's optional for the editor to show line numbers for each line in the editor itself.
 
 TIP: *Guideline 6.26* +
-Table cell editors should support the single-click activation model, and
-in edit mode, they should render complex controls upon single-click.
+Table cell editors should support the single-click activation model,
+and in edit mode, they should render complex controls upon single-click.
 
 TIP: *Guideline 6.27* +
-Changes made in a table cell editor should be committed when a user
-clicks off the cell or hits the kbd:[Enter] key. Selection should be
-cancelled when user hits the kbd:[Esc] key. First letter navigation should be
-supported as a cursoring mechanism within a cell.
+Changes made in a table cell editor should be committed when a user clicks off the cell or hits the kbd:[Enter] key.
+Selection should be cancelled when user hits the kbd:[Esc] key.
+First letter navigation should be supported as a cursoring mechanism within a cell.
 
 TIP: *Guideline 6.28* +
-When performing fine-grain error validation in an editor, use red
-squiggles to underline the invalid content. When users move the mouse
-over the red squiggles, display the error text in a fly-over pop up box.
+When performing fine-grain error validation in an editor, use red squiggles to underline the invalid content.
+When users move the mouse over the red squiggles, display the error text in a fly-over pop up box.
 
 TIP: *Guideline 6.29* +
 Use the Task view to show errors found when the Save command is invoked.
 
 TIP: *Guideline 6.30* +
-If modifications to a resource are made outside of the workbench, users
-should be prompted to either override the changes made outside of the
-workbench, or back out of the Save operation when the Save command is
-invoked in the editor.
+If modifications to a resource are made outside of the workbench,
+users should be prompted to either override the changes made outside of the workbench,
+or back out of the Save operation when the Save command is invoked in the editor.
 
 ==== Views
 
@@ -370,47 +335,40 @@ TIP: *Guideline 7.5* +
 A view can be opened from the menu:Window[Show View] menu.
 
 TIP: *Guideline 7.6* +
-The view label in the title bar must be prefixed with the label of the
-view in the menu:Perspective[Show View] menu.
+The view label in the title bar must be prefixed with the label of the view in the menu:Perspective[Show View] menu.
 
 TIP: *Guideline 7.7* +
-If a view contains more than one control, it may be advisable to split
-it up into two or more views.
+If a view contains more than one control, it may be advisable to split it up into two or more views.
 
 TIP: *Guideline 7.8* +
-When a view first opens, derive the view input from the state of the
-perspective.
+When a view first opens, derive the view input from the state of the perspective.
 
 TIP: *Guideline 7.9* +
-If a view displays a resource tree, consider using the window input as
-the root of visible information in the view.
+If a view displays a resource tree, consider using the window input as the root of visible information in the view.
 
 TIP: *Guideline 7.10* +
-Use the view pulldown menu for presentation commands, not
-selection-oriented commands.
+Use the view pulldown menu for presentation commands, not selection-oriented commands.
 
 TIP: *Guideline 7.11* +
 Use the standard order of commands for view pulldown menus.
 
 TIP: *Guideline 7.12* +
-Put only the most commonly used commands on the toolbar. Any command on
-a toolbar must also appear in a menu, either the context menu or the
-view menu.
+Put only the most commonly used commands on the toolbar.
+Any command on a toolbar must also appear in a menu,
+either the context menu or the view menu.
 
 TIP: *Guideline 7.13* +
-Fill the context menu with selection oriented actions, not presentation
-actions.
+Fill the context menu with selection oriented actions, not presentation actions.
 
 TIP: *Guideline 7.14* +
 Use the standard order of commands for view context menus.
 
 TIP: *Guideline 7.15* +
-Fill the context menu with a fixed set of commands for each selection
-type, and then enable or disable each to reflect the selection state.
+Fill the context menu with a fixed set of commands for each selection type,
+and then enable or disable each to reflect the selection state.
 
 TIP: *Guideline 7.16* +
-If an object appears in more than one view, it should have the same
-context menu in each.
+If an object appears in more than one view, it should have the same context menu in each.
 
 TIP: *Guideline 7.17* +
 Register all context menus in the view with the platform.
@@ -419,59 +377,50 @@ TIP: *Guideline 7.18* +
 Implement a Command Filter for each object type in the view.
 
 TIP: *Guideline 7.19* +
-If a view has support for Cut, Copy, Paste, or any of the global
-commands, these commands must be executable from the same commands in
-the window menu bar and toolbar.
+If a view has support for Cut, Copy, Paste, or any of the global commands,
+these commands must be executable from the same commands in the window menu bar and toolbar.
 
 TIP: *Guideline 7.20* +
 Persist the state of each view between sessions.
 
 TIP: *Guideline 7.21* +
- Navigation views should support "Link with Editor" on the view menu
+Navigation views should support "Link with Editor" on the view menu.
 
 ==== Perspectives
 
 TIP: *Guideline 8.1* +
-Create a new perspective type for long lived tasks, which involve the
-performance of smaller, non-modal tasks.
+Create a new perspective type for long lived tasks, which involve the performance of smaller, non-modal tasks.
 
 TIP: *Guideline 8.2* +
-If you just want to expose a single view, or two, extend an existing
-perspective type.
+If you just want to expose a single view, or two, extend an existing perspective type.
 
 TIP: *Guideline 8.3* +
-The size and position of each view in a perspective should be defined in
-a reasonable manner, such that the user can resize or move a view if
-they desire it. When defining the initial layout, it is important to
-consider the overall flow between the views (and editors) in the
-perspective.
+The size and position of each view in a perspective should be defined in a reasonable manner,
+such that the user can resize or move a view if they desire it.
+When defining the initial layout,
+it is important to consider the overall flow between the views (and editors) in the perspective.
 
 TIP: *Guideline 8.4* +
-If a perspective has just one part, it may be better suited as a view or
-editor.
+If a perspective has just one part, it may be better suited as a view or editor.
 
 TIP: *Guideline 8.5* +
 If it is undesirable to have an editor area in a perspective, hide it.
-Do not resize the editor area to the point where it is no longer
-visible.
+Do not resize the editor area to the point where it is no longer visible.
 
 TIP: *Guideline 8.6* +
-Populate the window menu bar with commands and command sets which are
-appropriate to the task orientation of the perspective, and any larger
-workflow.
+Populate the window menu bar with commands and command sets which are appropriate to the task orientation of the perspective,
+and any larger workflow.
 
 TIP: *Guideline 8.7* +
-A new perspective should be opened only if the user explicitly states a
-desire to do so. In making this statement, the user agrees to leave
-their old context, and create a new one.
+A new perspective should be opened only if the user explicitly states a desire to do so.
+In making this statement, the user agrees to leave their old context, and create a new one.
 
 TIP: *Guideline 8.8* +
-If a new perspective is opened as a side effect of another command, the
-user should be able to turn this behavior off.
+If a new perspective is opened as a side effect of another command, the user should be able to turn this behavior off.
 
 TIP: *Guideline 8.9* +
-If a new perspective is opened, it should be opened within the current
-window, or in a new window, depending on the user preference.
+If a new perspective is opened, it should be opened within the current window,
+or in a new window, depending on the user preference.
 
 TIP: *Guideline 8.10* +
 The list of shortcuts added to the menu:New[], menu:Open Perspective[], and menu:Show View[]
@@ -480,35 +429,30 @@ menus should be at most 7 plus / minus 2 items.
 ==== Windows
 
 TIP: *Guideline 9.1* +
-Use an Action Set to contribute actions to the window menu bar and
-toolbar.
+Use an Action Set to contribute actions to the window menu bar and toolbar.
 
 TIP: *Guideline 9.2* +
 Follow the platform lead when distributing actions within an Action Set.
 
 TIP: *Guideline 9.3* +
-Contribute actions to the window menu bar first, and then to the window
-toolbar if they will be frequently used.
+Contribute actions to the window menu bar first, and then to the window toolbar if they will be frequently used.
 
 TIP: *Guideline 9.4* +
 Define each action set with a specific task in mind.
 
 TIP: *Guideline 9.5* +
-An action set should contain the smallest possible semantic chunking of
-actions. Avoid the temptation to provide only one action set for an
-entire plug-in.
+An action set should contain the smallest possible semantic chunking of actions.
+Avoid the temptation to provide only one action set for an entire plug-in.
 
 TIP: *Guideline 9.6* +
-Use an action set to share a set of actions which are useful in two or
-more views or editors.
+Use an action set to share a set of actions which are useful in two or more views or editors.
 
 TIP: *Guideline 9.7* +
-Let the user control the visible action sets. Don't try to control it
-for them.
+Let the user control the visible action sets.
+Don't try to control it for them.
 
 TIP: *Guideline 9.8* +
-"Open Object" actions must appear in the menu:Navigate[] pulldown menu of the
-window.
+"Open Object" actions must appear in the menu:Navigate[] pulldown menu of the window.
 
 TIP: *Guideline 9.9* +
 Always use the global status bar to display status related messages.
@@ -516,76 +460,62 @@ Always use the global status bar to display status related messages.
 ==== Properties
 
 TIP: *Guideline 10.1* +
-Use the Properties view to edit the properties of an object when quick
-access is important, and you will switch quickly from object to object.
+Use the Properties view to edit the properties of an object when quick access is important,
+and you will switch quickly from object to object.
 
 TIP: *Guideline 10.2* +
-Use a Properties Dialog to edit the properties of an object which are
-expensive to calculate.
+Use a Properties Dialog to edit the properties of an object which are expensive to calculate.
 
 TIP: *Guideline 10.3* +
-Use a Properties Dialog to edit the properties of an object which
-contain complex relationships to one another.
+Use a Properties Dialog to edit the properties of an object which contain complex relationships to one another.
 
 TIP: *Guideline 10.4* +
-Properties Dialog should contain the superset of items shown in the
-Properties view.
+Properties Dialog should contain the superset of items shown in the Properties view.
 
 ==== Widgets
 
 TIP: *Guideline 11.1* +
-For Tree and Table widgets that have a checkbox associated with a cell
-item, changing the current selection should not automatically change the
-check state of the selected item. However, the current selection should
-be set to a given item when its check state is changed.
+For Tree and Table widgets that have a checkbox associated with a cell item,
+changing the current selection should not automatically change the check state of the selected item.
+However, the current selection should be set to a given item when its check state is changed.
 
 
 === Standard Components
 
 TIP: *Guideline 12.1* +
-If appropriate, add actions to standard components of Eclipse using the
-plug-in registry.
+If appropriate, add actions to standard components of Eclipse using the plug-in registry.
 
 TIP: *Guideline 12.2* +
-If you subclass or copy any of the standard components, always carry
-over the standard components' characteristics.
+If you subclass or copy any of the standard components, always carry over the standard components' characteristics.
 
 ==== The Navigator View
 
 TIP: *Guideline 13.1* +
-Add actions to the Navigator View menu, toolbar, and context menu using
-the plug-in registry.
+Add actions to the Navigator View menu, toolbar, and context menu using the plug-in registry.
 
 TIP: *Guideline 13.2* +
 Use the attributes defined in `IResourceActionFilter.java` and
-`IProjectActionFilter.java` to control the visibility of context menu
-actions in the Navigator.
+`IProjectActionFilter.java` to control the visibility of context menu actions in the Navigator.
 
 TIP: *Guideline 13.3* +
-Use a menu:Navigate[Show In Navigator] command in each view, to link
-resources back to the Navigator.
+Use a menu:Navigate[Show In Navigator] command in each view, to link resources back to the Navigator.
 
 ==== The Tasks View
 
 TIP: *Guideline 14.1* +
-Add markers (tasks, errors and warnings) to the Tasks view using the
-Marker Manager services from the Core Resources Management plugin.
+Add markers (tasks, errors and warnings) to the Tasks view using the Marker Manager services from the Core Resources Management plugin.
 
 TIP: *Guideline 14.2* +
-The description text of each marker should be short and concise, so that
-it will fit in the status line of Eclipse.
+The description text of each marker should be short and concise, so that it will fit in the status line of Eclipse.
 
 TIP: *Guideline 14.3* +
-Add actions to the Tasks view menu, toolbar, and context menu using the
-plug-in registry.
+Add actions to the Tasks view menu, toolbar, and context menu using the plug-in registry.
 
 TIP: *Guideline 14.4* +
-Use the attributes defined in `IMarkerActionFilter.java` to control the
-visibility of context menu actions in the Tasks view.
+Use the attributes defined in `IMarkerActionFilter.java` to control the visibility of context menu actions in the Tasks view.
 
 TIP: *Guideline 14.5* +
-Support kbd:[F1] keyboard command and link it to an infopop that gives a
-detailed description of the selected item in the Task view.
+Support kbd:[F1] keyboard command and link it to an infopop that gives a detailed description of the selected item in the Task view.
 
 ==== The Preference Dialog
 
@@ -593,49 +523,42 @@ TIP: *Guideline 15.1* +
 Global options should be exposed within the Preferences Dialog.
 
 TIP: *Guideline 15.2* +
-Expose the preferences for a particular view, editor or window in the
-view itself, via a menu or tool item.
+Expose the preferences for a particular view, editor or window in the view itself, via a menu or tool item.
 
 TIP: *Guideline 15.3* +
-Start out with a single preference page. Then evolve to more if you need
-to.
+Start out with a single preference page.
+Then evolve to more if you need to.
 
 TIP: *Guideline 15.4* +
-If you create a preference group, use the root page for frequently used
-preferences, or those preferences which have wide spread effect.
-Specialize within the sub pages. The root preference page should not be
-blank.
+If you create a preference group, use the root page for frequently used preferences,
+or those preferences which have wide spread effect
+Specialize within the sub pages.
+The root preference page should not be blank.
 
 TIP: *Guideline 15.5* +
-Attempt to integrate plug-in preferences, wizards, and views into
-existing categories for a new plug-in first, before considering the
-creation of a new category.
+Attempt to integrate plug-in preferences, wizards, and views into existing categories for a new plug-in first,
+before considering the creation of a new category.
 
 
 === Flat Look Design
 
 TIP: *Guideline 16.1* +
-Use Flat Look design for user scenarios that involves extensive property
-and configuration editing.
+Use Flat Look design for user scenarios that involves extensive property and configuration editing.
 
 TIP: *Guideline 16.2* +
-Have the core sections on the overview page expanded, and provide a
-"Home" icon on other pages to take users back to the overview page.
+Have the core sections on the overview page expanded, and provide a "Home" icon on other pages to take users back to the overview page.
 
 TIP: *Guideline 16.3* +
-Use grouping elements corresponding to tabs in the Flat Look content
-editor for the organization of the tree view in outline view.
+Use grouping elements corresponding to tabs in the Flat Look content editor for the organization of the tree view in outline view.
 
 
 === The Tao of Resource
 
 TIP: *Guideline 17.1* +
-Expose the resource for resource equivalent model objects using an
-`IContributorResourceAdapter`.
+Expose the resource for resource equivalent model objects using an `IContributorResourceAdapter`.
 
 
 === Accessibility
 
 TIP: *Guideline 18.1* +
-All of the features provided by a tool should be accessible using a
-mouse or the keyboard.
+All of the features provided by a tool should be accessible using a mouse or the keyboard.

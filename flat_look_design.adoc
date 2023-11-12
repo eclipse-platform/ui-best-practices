@@ -9,7 +9,8 @@ image::images/Flatlook1.gif[flatlook1]
 The Flat Look design may be more suitable for certain type of user tasks, and more appealing to certain user profile.
 However, this design should not be used just because it provides a different look than the native platform look and feel.
 The use of Flat Look design should be considered in the context of the supported user scenarios.
-This design is usually a good fit for extensive property and configuration editing, such as editing Eclipse's `plugin.xml` file, and J2EE Web application's deployment descriptors.
+This design is usually a good fit for extensive property and configuration editing,
+such as editing Eclipse's `plugin.xml` file, and J2EE Web application's deployment descriptors.
 
 TIP: [[guideline16.1]]*Guideline 16.1* +
 Use Flat Look design for user scenarios that involve extensive property and configuration editing.
@@ -23,11 +24,13 @@ image::images/Flatlook3.gif[flatlook3]
 TIP: [[guideline16.2]]*Guideline 16.2* +
 Have the core sections on the overview page expanded.
 
-Don't use tabs within a Flat Look editor tab. Use an alternative design or rendering of the tabs.
+Don't use tabs within a Flat Look editor tab.
+Use an alternative design or rendering of the tabs.
 
 image::images/Flatlook4.gif[flatlook4]
 
-When applicable, always provide a "Source" tab. Assign mnemonics for sections, controls, etc. for keyboard navigation.
+When applicable, always provide a "Source" tab.
+Assign mnemonics for sections, controls, etc. for keyboard navigation.
 
 image::images/Flatlook5.gif[flatlook5]
 

@@ -1,45 +1,37 @@
 [[tao-of-resource]]
 == The Tao of Resource
 
-In Eclipse, the notion of a tool disappears. In its place, is the idea
-of a universal tool platform - an open, extensible IDE - where tool
-plug-ins are added to extend the capabilities of the platform. These
-plug-ins "teach" Eclipse how to work with things - java files, web
-content, graphics, video - almost anything you can imagine. At an
-implementation level, these plug-ins communicate using resources
-(projects, folders, and files). The resource is the common medium for
-integration between plugins and external tools.
+In Eclipse, the notion of a tool disappears.
+In its place, is the idea of a universal tool platform
+- an open, extensible IDE - where tool plug-ins are added to extend the capabilities of the platform.
+These plug-ins "teach" Eclipse how to work with things - java files, web
+content, graphics, video - almost anything you can imagine.
+At an implementation level, these plug-ins communicate using resources (projects, folders, and files).
+The resource is the common medium for integration between plugins and external tools.
 
 The resource concept was developed for a number of reasons:
 
-  1. Integration between a plug-in from one vendor, and a plug-in from
-another, is possible only if there is a common, well known data
-abstraction.
-  2. Integration with external tools is possible only if everything, at
-some level, is a file.
+. Integration between a plug-in from one vendor, and a plug-in from another,
+is possible only if there is a common, well known data abstraction.
 
-Resources are also important at the UI level. If an object command,
-decorator, or property page contribution is made to an `IResource`, the
-platform will ensure that this contribution is visible in any view or
-editor where the resource appears. For instance, a `.java` file will be
-visible in the Navigator, the Hierarchy view, and the Packages view. To
-the user, the `.java` file is the same object, regardless of the view
-where it appears, so the object appearance, context menu, and properties
-should be consistent in each view.
+. Integration with external tools is possible only if everything, at some level, is a file.
 
-In some cases, the implementation of a particular view or editor may
-wrap a resource within another object, for presentation purposes. If the
-wrapper is equivalent to a resource, it is important to expose this
-equivalence to the platform. If the resource is exposed, the platform
-may apply resource contributions to the resource equivalent object. This
-ensures presentation consistency for an object in the platform.
+Resources are also important at the UI level.
+If an object command, decorator, or property page contribution is made to an `IResource`,
+the platform will ensure that this contribution is visible in any view or editor where the resource appears.
+For instance, a `.java` file will be visible in the Navigator, the Hierarchy view, and the Packages view.
+To the user, the `.java` file is the same object, regardless of the view where it appears,
+so the object appearance, context menu, and properties should be consistent in each view.
 
-The underlying resource for an object is exposed by implementing
-`IAdaptable` on the model object, and answering an
-`IContributorResourceAdapter`. For more information on the implementation
-`of an IContributorResourceAdapter`, refer to the
-https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fui%2FIContributorResourceAdapter.html[Eclipse Help Pages].
+In some cases, the implementation of a particular view or editor may wrap a resource within another object, for presentation purposes.
+If the wrapper is equivalent to a resource, it is important to expose this equivalence to the platform.
+If the resource is exposed, the platform may apply resource contributions to the resource equivalent object.
+This ensures presentation consistency for an object in the platform.
+
+The underlying resource for an object is exposed by implementing `IAdaptable` on the model object,
+and answering an `IContributorResourceAdapter`.
+For more information on the implementation `of an IContributorResourceAdapter`,
+refer to the https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fui%2FIContributorResourceAdapter.html[Eclipse Help Pages].
 
 TIP: [[guideline17.1]]*Guideline 17.1* +
-Expose the resource for resource equivalent model objects using an
-`IContributorResourceAdapter`.
+Expose the resource for resource equivalent model objects using an `IContributorResourceAdapter`.
