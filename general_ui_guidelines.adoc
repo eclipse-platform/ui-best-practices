@@ -50,11 +50,6 @@ TIP: [[guideline1.2]]*Guideline 1.2* +
 Follow the platform lead for user interface conventions.
 
 If you decide to reuse the conventions of Eclipse, be careful not to misappropriate Eclipse specific UI conventions.
-For instance, the active part in a workbench window is indicated by a shaded title.
-The use of shaded titles within an editor (see below) may be one way to indicate where the focus is,
-within that part, but it will also blur the concept of part activation in the window.
-
-image::images/badHilight.png[badHilight]
 
 TIP: [[guideline1.34]]*Guideline 1.3* +
 Be careful not to mix UI metaphors.
