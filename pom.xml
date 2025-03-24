@@ -7,7 +7,7 @@
 	<name>Eclipse UI best practices</name>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<asciidoctor.maven.plugin.version>3.1.1</asciidoctor.maven.plugin.version>
+		<asciidoctor.maven.plugin.version>3.2.0</asciidoctor.maven.plugin.version>
 		<best.practices.document.version>v4-DRAFT</best.practices.document.version>
 	</properties>
 	<build>
