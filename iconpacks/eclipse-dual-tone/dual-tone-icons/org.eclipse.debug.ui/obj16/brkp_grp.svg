@@ -24,9 +24,9 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#545454"
-     inkscape:zoom="45.254834"
-     inkscape:cx="5.6126601"
-     inkscape:cy="7.8997086"
+     inkscape:zoom="32"
+     inkscape:cx="6.078125"
+     inkscape:cy="9.703125"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
@@ -66,21 +66,21 @@
        id="perspective1-4" />
   </defs>
   <circle
-     style="fill:#c80000;fill-opacity:1;stroke:none;stroke-width:3.00001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+     style="fill:#a8a8a8;fill-opacity:1;stroke:none;stroke-width:3.00001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
      id="path48-5"
      cx="12.375"
-     cy="11.472665"
+     cy="11.786332"
      r="3.625" />
   <circle
-     style="fill:#c80000;fill-opacity:1;stroke:none;stroke-width:3.00001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+     style="fill:#a8a8a8;fill-opacity:1;stroke:none;stroke-width:3.00001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
      id="path48-5-6"
      cx="8"
-     cy="3.9000001"
+     cy="4.2136679"
      r="3.625" />
   <circle
-     style="fill:#c80000;fill-opacity:1;stroke:none;stroke-width:3.00001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+     style="fill:#a8a8a8;fill-opacity:1;stroke:none;stroke-width:3.00001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
      id="path48-5-3"
      cx="3.625"
-     cy="11.472665"
+     cy="11.786332"
      r="3.625" />
 </svg>
