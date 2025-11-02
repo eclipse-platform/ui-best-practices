@@ -92,13 +92,9 @@ This section outlines the design rules for Eclipse icons in the dual tone icon p
 **Dual-Tonality**
 - The spacing between the main part and the key element must be 1.5 px wide.
 - The key element itself must have a width AND/OR a height of 10.0 px.
-- The key element should be placed in the top or bottom right corner of the view area, if it has an clickable/action purpose.
+- The key element should be placed in the top or bottom right corner of the view area.
 
    <img src="https://github.com/user-attachments/assets/7cade825-786e-4a7e-9464-36a449c712b1" width="200"/>
-
-- The key element should be placed in the top or bottom left corner of the view area, if it has an informational purpose. The following example shows an icon for the type of a breakpoint:
-
-    <img src="https://github.com/user-attachments/assets/36577223-a103-4136-841d-ada7f2550ec1" width="200"/>
 
 - The color of the key element or Overlay icon can be chosen from the following table:
 
@@ -108,5 +104,6 @@ This section outlines the design rules for Eclipse icons in the dual tone icon p
   | **Red**     | Error, alert, or stop (e.g., "Stop")             | `#C80000` |
   | **Yellow**  | Warnings                                         | `#FFD700` |
   | **Blue**    | General Information                              | `#0065C7` |
+  | **Orange**  | Interaction, Pause, Control                      | `#FF7F27` |
 
 
