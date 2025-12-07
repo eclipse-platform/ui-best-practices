@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   xml:space="preserve"
+   style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;"
+   id="svg1"
+   sodipodi:docname="expandall.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:serif="http://www.serif.com/"><defs
+   id="defs1" /><sodipodi:namedview
+   id="namedview1"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="48.3125"
+   inkscape:cx="7.9896507"
+   inkscape:cy="8"
+   inkscape:window-width="1920"
+   inkscape:window-height="991"
+   inkscape:window-x="-9"
+   inkscape:window-y="-9"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg1" />
+    <path
+   id="rect5"
+   d="M12.5,8C12.5,8.552 12.052,9 11.5,9L4.5,9C3.948,9 3.5,8.552 3.5,8C3.5,7.448 3.948,7 4.5,7L11.5,7C12.052,7 12.5,7.448 12.5,8Z"
+   style="fill:rgb(168,168,168);" />
+    <g
+   id="rect51"
+   serif:id="rect5"
+   transform="matrix(0,1,-1,0,16,-0)">
+        <path
+   d="M12.5,8C12.5,8.552 12.052,9 11.5,9L4.5,9C3.948,9 3.5,8.552 3.5,8C3.5,7.448 3.948,7 4.5,7L11.5,7C12.052,7 12.5,7.448 12.5,8Z"
+   style="fill:rgb(168,168,168);"
+   id="path1" />
+    </g>
+    <path
+   id="rect1"
+   d="M15,2L15,14C15,14.552 14.552,15 14,15L2,15C1.448,15 1,14.552 1,14L1,2C1,1.448 1.448,1 2,1L14,1C14.552,1 15,1.448 15,2Z"
+   style="fill:none;stroke:rgb(168,168,168);stroke-width:2px;" />
+</svg>
