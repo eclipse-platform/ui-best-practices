@@ -274,6 +274,9 @@
     "org.eclipse.ui/icons/full/etool16/save_edit.svg",
     "org.eclipse.compare.win32/icons/full/elcl16/save.svg"
   ],
+  "save-all": [
+    "org.eclipse.ui/icons/full/etool16/saveall_edit.svg"
+  ],  
   "collapse.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/collapseall.svg",
     "org.eclipse.e4.tools.context.spy/icons/collapseall.svg",
