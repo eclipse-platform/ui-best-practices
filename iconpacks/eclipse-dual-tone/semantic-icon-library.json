@@ -39,6 +39,7 @@
   "external-tools.svg": "Run and configuration action for external tools.",
   "disconnect.svg": "Disconnect action.",
   "remove-all.svg": "Remove all action.",
+  "remove.svg": "Remove action.",
   "skip-breakpoint.svg": "Enable/Disable skipping of breakpoints in debug mode.",
   "thread.svg": "Indicator for a thread in debug mode.",
   "drop-to-frame.svg": "Drop to selected frame in debug mode.",

@@ -209,6 +209,18 @@
     "org.eclipse.ui/icons/full/elcl16/progress_remall.svg",
     "org.eclipse.ui/icons/full/elcl16/removeall.svg"
   ],
+  "remove.svg": [
+    "org.eclipse.debug.ui/icons/full/elcl16/removememory_tsk.svg",
+    "org.eclipse.ant.ui/icons/full/elcl16/remove_co.png",
+    "org.eclipse.e4.ui.progress/icons/full/elcl16/progress_rem.png",
+    "org.eclipse.jdt.astview/icons/e/clear.png",
+    "org.eclipse.jdt.ui/icons/full/elcl16/remove_exc.png",
+    "org.eclipse.pde.api.tools.ui/icons/full/elcl16/remove_exc.png",
+    "org.eclipse.team.ui/icons/full/elcl16/participant_rem.png",
+    "org.eclipse.ui/icons/full/elcl16/progress_rem.png",
+    "org.eclipse.ui/icons/full/elcl16/remove.png",
+    "org.eclipse.ui.console/icons/full/elcl16/rem_co.png",
+  ],
   "skip-breakpoint.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/skip_brkp.svg"
   ],
