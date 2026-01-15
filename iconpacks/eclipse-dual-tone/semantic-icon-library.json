@@ -63,6 +63,7 @@
   "rundebug.svg": "Indicator for run debug configuration.",
   "synchronize.svg": "Synchronize action.",
   "save.svg": "Save action.",
+  "save-all.svg": "Save all action",
   "collapse.svg": "Collapse elements in view action.",
   "expand.svg": "Expand elements in view action.",
   "variable-view.svg": "Indicator for the variable view.",
