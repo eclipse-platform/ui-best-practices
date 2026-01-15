@@ -340,5 +340,8 @@
   ],
   "create.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/monitorexpression_tsk.svg"
+  ],
+  "breakpoint_view.svg" : [
+    "org.eclipse.debug.iu/icons/full/eview16/breakpoint_view.svg"
   ]
 }

@@ -72,5 +72,6 @@
   "go-forward-to-visited-file.svg": "Go forward to visited file.",
   "toggle-type-names.svg": "Toggle type names for columns in variable view.",
   "toggle-logical-structure.svg": "Toggle the structure for certain items like hashmaps in the variable view.",
-  "create.svg": "Create an element."
+  "create.svg": "Create an element.",
+  "breakpoint_view.svg": "A view to display breakpoints."
 }
