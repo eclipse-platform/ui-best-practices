@@ -120,6 +120,22 @@
     "org.eclipse.ui.ide/icons/full/obj16/welcome_editor.svg",
     "org.eclipse.debug.ui/icons/obj16/file_obj.svg"
   ],
+  "filter_ps.svg": [
+    "org.eclipse.jdt.ui/icons/full/elcl16/filter_ps.png",
+    "org.eclipse.ltk.ui.refactoring/icons/full/elcl16/filter_ps.png",
+    "org.eclipse.pde.api.tools.ui/icons/full/elcl16/filter_ps.png",
+    "org.eclipse.pde.ui/icons/elcl16/filter_ps.png",
+    "org.eclipse.search/icons/full/elcl16/filter_ps.png",
+    "org.eclipse.team.cvs.ui/icons/full/elcl16/filter_history.png",
+    "org.eclipse.team.ui/icons/full/elcl16/filter_change.png",
+    "org.eclipse.team.ui/icons/full/elcl16/filter_history.png",
+    "org.eclipse.ui.ide/icons/full/elcl16/filter_ps.png",
+    "org.eclipse.ui.navigator/icons/full/elcl16/filter_ps.png",
+    "org.eclipse.ui.navigator.resources/icons/full/elcl16/filter_ps.png",
+    "org.eclipse.ui.views/icons/full/elcl16/filter_ps.png",
+    "org.eclipse.ui.views.log/icons/elcl16/filter_ps.png"
+  ]
+  ,
   "folder.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/fldr_obj.svg",
     "org.eclipse.e4.ui.workbench.swt/icons/full/obj16/fldr_obj.svg",
