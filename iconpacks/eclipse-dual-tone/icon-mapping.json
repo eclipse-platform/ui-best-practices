@@ -222,11 +222,37 @@
   "active-frame.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/stckframe_running_obj.svg"
   ],
-  "frame.svg": ["org.eclipse.debug.ui/icons/full/obj16/stckframe_obj.svg"],
-  "refresh.svg": ["org.eclipse.debug.ui/icons/full/obj16/refresh_tab.svg"],
-  "check.svg": ["org.eclipse.debug.ui/icons/full/obj16/check.svg"],
-  "uncheck.svg": ["org.eclipse.debug.ui/icons/full/obj16/uncheck.svg"],
-  "project-explorer.svg": ["org.eclipse.debug.ui/icons/full/obj16/workset.svg"],
+  "frame.svg": [
+    "org.eclipse.debug.ui/icons/full/obj16/stckframe_obj.svg"
+  ],
+  "refresh.svg": [
+    "org.eclipse.debug.ui/icons/full/obj16/refresh_tab.svg",
+    "org.eclipse.jdt.astview/icons/e/refresh.png",
+    "org.eclipse.jdt.jeview/icons/c/refresh.png",
+    "org.eclipse.pde.ui/icons/elcl16/refresh.png",
+    "org.eclipse.ant.ui/icons/full/elcl16/refresh.png",
+    "org.eclipse.e4.tools.bundle.spy/icons/refresh.png",
+    "org.eclipse.e4.tools.context.spy/icons/refresh.png",
+    "org.eclipse.jdt.ui/icons/full/elcl16/refresh.png",
+    "org.eclipse.pde.runtime/icons/elcl16/refresh.png",
+    "org.eclipse.ui.glance/icons/full/elcl16/refresh.png",
+    "org.eclipse.ui.views.log/icons/elcl16/refresh.png",
+    "org.eclipse.team.cvs.ui/icons/full/elcl16/refresh.png",
+    "org.eclipse.team.cvs.ui/icons/full/glyphs/glyph7.png",
+    "org.eclipse.ui.browser/icons/clcl16/nav_refresh.png",
+    "org.eclipse.ui.browser/icons/elcl16/nav_refresh.png",
+    "org.eclipse.ui.glance/icons/full/elcl16/nav_refresh_2.png",
+    "org.eclipse.search/icons/full/elcl16/refresh.svg"
+  ],
+  "check.svg": [
+    "org.eclipse.debug.ui/icons/full/obj16/check.svg"
+  ],
+  "uncheck.svg": [
+    "org.eclipse.debug.ui/icons/full/obj16/uncheck.svg"
+  ],
+  "project-explorer.svg": [
+    "org.eclipse.debug.ui/icons/full/obj16/workset.svg"
+  ],
   "export-config.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/export_config_obj.svg"
   ],
