@@ -13,6 +13,7 @@
   "suspend.svg": "Suspend a running execution in debug mode.",
   "stop.svg": "Stop action.",
   "debug.svg": "Debug action.",
+  "debug-process.svg": "Indicator for a process that is being debugged.",
   "run.svg": "Run action.",
   "expression.svg": "Indicator for an expression in the expression tab of the debug perspective.",
   "breakpoint.svg": "Indicator for a breakpoint.",

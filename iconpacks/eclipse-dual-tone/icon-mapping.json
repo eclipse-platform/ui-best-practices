@@ -69,6 +69,9 @@
     "org.eclipse.pde.ui/icons/obj16/debug_exc.svg",
     "org.eclipse.debug.ui/obj16/ldebug_obj.svg"
   ],
+  "debug-process.svg": [
+    "org.eclipse.debug.ui/icons/full/obj16/debugt_obj.svg"
+  ],
   "run.svg": [
     "org.eclipse.ant.ui/icons/full/elcl16/run_tool.svg",
     "org.eclipse.debug.ui/icons/full/etool16/run_exc.svg",
