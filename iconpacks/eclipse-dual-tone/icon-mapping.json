@@ -253,7 +253,7 @@
   ],
   "copyedit.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/copy_edit_co.svg"
-  ]
+  ],
   "synchronize.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/synced.svg",
     "org.eclipse.ant.ui/icons/elcl16/synced.svg",
@@ -306,7 +306,7 @@
     "org.eclipse.e4.tools.context.spy/icons/expandall.png",
     "org.eclipse.jdt.astview/icons/e/expandall.png",
     "org.eclipse.search/icons/full/elcl16/expandall.png",
-    "org.eclipse.ui/icons/full/elcl16/expandall.png",
+    "org.eclipse.ui/icons/full/elcl16/expandall.png"
   ],
   "variable-view.svg": [
     "org.eclipse.debug.ui/icons/full/eview16/variable_view.svg"
@@ -314,7 +314,7 @@
   "go-to.svg": [
     "org.eclipse.search/icons/full/elcl16/search_goto.svg",
     "org.eclipse.jdt.ui/icons/full/elcl16/goto_input.png",
-    "org.eclipse.pde.ui/icons/elcl16/goto_obj.png",
+    "org.eclipse.pde.ui/icons/elcl16/goto_obj.png"
   ],
   "go-back-to-visited-file.svg": [
     "org.eclipse.ui.editors/icons/etool16/prev_nav.svg"
@@ -330,5 +330,5 @@
   ],
   "create.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/monitorexpression_tsk.svg"
-  ],
+  ]
 }
