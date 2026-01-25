@@ -5,12 +5,8 @@
     "org.eclipse.debug.terminal/icons/console_view.svg",
     "org.eclipse.terminal.view.ui/icons/eview16/console_view.svg"
   ],
-  "undo.svg": [
-    "org.eclipse.ui/icons/full/etool16/undo_edit.svg"
-  ],
-  "redo.svg": [
-    "org.eclipse.ui/icons/full/etool16/redo_edit.svg"
-  ],
+  "undo.svg": ["org.eclipse.ui/icons/full/etool16/undo_edit.svg"],
+  "redo.svg": ["org.eclipse.ui/icons/full/etool16/redo_edit.svg"],
   "search.svg": [
     "org.eclipse.ui/icons/full/etool16/search.svg",
     "org.eclipse.ant.ui/icons/full/elcl16/search.svg",
@@ -24,6 +20,20 @@
   "visit-next-edited-location.svg": [
     "org.eclipse.ui.editors/icons/etool16/next_edit_pos.svg"
   ],
+  "go-backward-to-visited-file.svg": [
+    "org.eclipse.ui/icons/full/elcl16/backward_nav.svg",
+    "org.eclipse.ui.browser/icons/clcl16/nav_backward.png",
+    "org.eclipse.ui.browser/icons/elcl16/nav_backward.png",
+    "org.eclipse.ui.intro/icons/full/elcl16/backward_nav.png"
+  ],
+  "go-forward-to-visited-file.svg": [
+    "org.eclipse.ui/icons/full/elcl16/forward_nav.png",
+    "org.eclipse.ui.browser/icons/clcl16/nav_forward.png",
+    "org.eclipse.ui.browser/icons/elcl16/nav_forward.png",
+    "org.eclipse.ui.intro/icons/full/elcl16/forward_nav.png",
+    "org.eclipse.ui/icons/full/elcl16/step_current.png",
+    "org.eclipse.ui.ide/icons/full/elcl16/step_current.png"
+  ],
   "resume.svg": [
     "org.eclipse.jdt.debug.ui/icons/full/elcl16/resume_co.svg",
     "org.eclipse.debug.ui/icons/full/elcl16/resume_co.svg"
@@ -35,9 +45,7 @@
   "toggle-breakpoint-filter.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/stepbystep_co.svg"
   ],
-  "step-over.svg": [
-    "org.eclipse.debug.ui/icons/full/elcl16/stepover_co.svg"
-  ],
+  "step-over.svg": ["org.eclipse.debug.ui/icons/full/elcl16/stepover_co.svg"],
   "step-return.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/stepreturn_co.svg"
   ],
@@ -154,9 +162,7 @@
     "org.eclipse.debug.ui/icons/full/obj16/write_obj.svg",
     "org.eclipse.ui.workbench.texteditor/icons/full/elcl16/edit_template.svg"
   ],
-  "read.svg": [
-    "org.eclipse.debug.ui/icons/full/obj16/read_obj.svg"
-  ],
+  "read.svg": ["org.eclipse.debug.ui/icons/full/obj16/read_obj.svg"],
   "thread-running.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/thread_obj.svg",
     "org.eclipse.jdt.debug.ui/icons/full/obj16/thread_obj.svg"
@@ -197,21 +203,11 @@
   "active-frame.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/stckframe_running_obj.svg"
   ],
-  "frame.svg": [
-    "org.eclipse.debug.ui/icons/full/obj16/stckframe_obj.svg"
-  ],
-  "refresh.svg": [
-    "org.eclipse.debug.ui/icons/full/obj16/refresh_tab.svg"
-  ],
-  "check.svg": [
-    "org.eclipse.debug.ui/icons/full/obj16/check.svg"
-  ],
-  "uncheck.svg": [
-    "org.eclipse.debug.ui/icons/full/obj16/uncheck.svg"
-  ],
-  "project-explorer.svg": [
-    "org.eclipse.debug.ui/icons/full/obj16/workset.svg"
-  ],
+  "frame.svg": ["org.eclipse.debug.ui/icons/full/obj16/stckframe_obj.svg"],
+  "refresh.svg": ["org.eclipse.debug.ui/icons/full/obj16/refresh_tab.svg"],
+  "check.svg": ["org.eclipse.debug.ui/icons/full/obj16/check.svg"],
+  "uncheck.svg": ["org.eclipse.debug.ui/icons/full/obj16/uncheck.svg"],
+  "project-explorer.svg": ["org.eclipse.debug.ui/icons/full/obj16/workset.svg"],
   "export-config.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/export_config_obj.svg"
   ],
@@ -239,21 +235,13 @@
   "instruction-pointer-top-of-stack.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/inst_ptr_top.svg"
   ],
-  "launch-group.svg": [
-    "org.eclipse.debug.ui/icons/full/obj16/lgroup_obj.svg"
-  ],
+  "launch-group.svg": ["org.eclipse.debug.ui/icons/full/obj16/lgroup_obj.svg"],
   "memorychanged.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/memorychanged_obj.svg"
   ],
-  "prototype.svg": [
-    "org.eclipse.debug.ui/icons/full/obj16/proto_tab.svg"
-  ],
-  "rundebug.svg": [
-    "org.eclipse.debug.ui/icons/full/obj16/rundebug.svg"
-  ],
-  "copyedit.svg": [
-    "org.eclipse.debug.ui/icons/full/elcl16/copy_edit_co.svg"
-  ],
+  "prototype.svg": ["org.eclipse.debug.ui/icons/full/obj16/proto_tab.svg"],
+  "rundebug.svg": ["org.eclipse.debug.ui/icons/full/obj16/rundebug.svg"],
+  "copyedit.svg": ["org.eclipse.debug.ui/icons/full/elcl16/copy_edit_co.svg"],
   "synchronize.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/synced.svg",
     "org.eclipse.ant.ui/icons/elcl16/synced.svg",
@@ -316,10 +304,10 @@
     "org.eclipse.jdt.ui/icons/full/elcl16/goto_input.png",
     "org.eclipse.pde.ui/icons/elcl16/goto_obj.png"
   ],
-  "go-back-to-visited-file.svg": [
+  "go-previous-in-current-file.svg": [
     "org.eclipse.ui.editors/icons/etool16/prev_nav.svg"
   ],
-  "go-forward-to-visited-file.svg": [
+  "go-next-in-current-file.svg": [
     "org.eclipse.ui.editors/icons/etool16/next_nav.svg"
   ],
   "toggle-type-names.svg": [
