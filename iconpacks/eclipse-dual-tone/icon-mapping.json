@@ -78,6 +78,7 @@
     "org.eclipse.debug.ui/obj16/ldebug_obj.svg"
   ],
   "debug-process.svg": [
+    "org.eclipse.debug.ui/icons/full/elcl16/debugt_obj.svg",
     "org.eclipse.debug.ui/icons/full/obj16/debugt_obj.svg"
   ],
   "run.svg": [
@@ -223,10 +224,6 @@
   ],
   "skip-breakpoint.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/skip_brkp.svg"
-  ],
-  "thread.svg": [
-    "org.eclipse.debug.ui/icons/full/elcl16/debugt_obj.svg",
-    "org.eclipse.debug.ui/icons/full/obj16/debugt_obj.svg"
   ],
   "drop-to-frame.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/drop_to_frame.svg"
@@ -380,6 +377,6 @@
     "org.eclipse.debug.ui/icons/full/elcl16/monitorexpression_tsk.svg"
   ],
   "breakpoint_view.svg" : [
-    "org.eclipse.debug.iu/icons/full/eview16/breakpoint_view.svg"
+    "org.eclipse.debug.ui/icons/full/eview16/breakpoint_view.svg"
   ]
 }
