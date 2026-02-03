@@ -384,5 +384,14 @@
   ],
   "save_as.svg" : [
 	"org.eclipse.ui/icons/full/etool16/saveas_edit.svg"
+  ],
+  "import_wiz.svg" : [
+	"org.eclipse.ui.ide/icons/full/etool16/import_wiz.svg",
+	"org.eclipse.mylyn.tasks.ui/icons/etool16/import.png"
+  ],
+  "export_wiz.svg" : [
+	"org.eclipse.ui.ide/icons/full/etool16/export_wiz.svg",
+	"org.eclipse.mylyn.tasks.ui/icons/etool16/export.png",
+	"org.eclipse.e4.tools.bundle.spy/icons/state_uninstalled.png"
   ]
 }
