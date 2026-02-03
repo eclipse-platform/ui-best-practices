@@ -76,5 +76,7 @@
   "create.svg": "Create an element.",
   "breakpoint_view.svg": "A view to display breakpoints.",
   "cut.svg" : "Removes the selected content and places it on the clipboard.",
-  "save_as.svg" : "Save as action."
+  "save_as.svg" : "Save as action.",
+  "import_wiz.svg": "Opens import wizard",
+  "export_wiz.svg": "Opens export wizard"
 }
