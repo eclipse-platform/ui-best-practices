@@ -378,5 +378,8 @@
   ],
   "breakpoint_view.svg" : [
     "org.eclipse.debug.ui/icons/full/eview16/breakpoint_view.svg"
+  ],
+  "cut.svg" : [
+    "org.eclipse.ui/icons/full/etool16/cut_edit.svg"
   ]
 }
