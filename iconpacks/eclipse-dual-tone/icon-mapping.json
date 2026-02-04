@@ -381,5 +381,8 @@
   ],
   "cut.svg" : [
     "org.eclipse.ui/icons/full/etool16/cut_edit.svg"
+  ],
+  "save_as.svg" : [
+	"org.eclipse.ui/icons/full/etool16/saveas_edit.svg"
   ]
 }
