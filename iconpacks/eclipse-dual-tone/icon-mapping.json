@@ -119,6 +119,30 @@
     "org.eclipse.jdt.jeview/icons/c/properties.svg",
     "org.eclipse.pde.ui/icons/elcl16/properties.svg"
   ],
+  "single_orientation.svg" : [
+    "org.eclipse.search/icons/full/elcl16/singleOrientation.svg",
+    "org.eclipse.debug.ui/icons/full/elcl16/det_pane_hide.svg",
+    "org.eclipse.jdt.ui/icons/full/elcl16/th_single.svg"
+  ],
+  "automatic_orientation.svg" : [
+    "org.eclipse.search/icons/full/elcl16/automaticOrientation.svg",
+    "org.eclipse.debug.ui/icons/full/elcl16/det_pane_auto.svg",
+    "org.eclipse.jdt.junit/icons/full/elcl16/th_automatic.svg",
+    "org.eclipse.jdt.ui/icons/full/elcl16/th_automatic.svg"
+  ],
+  "horizontal_orientation.svg" : [
+    "org.eclipse.search/icons/full/elcl16/horizontalOrientation.svg",
+    "org.eclipse.debug.ui/icons/full/elcl16/det_pane_right.svg",
+    "org.eclipse.pde.runtime/icons/eview16/horizontal_view.svg"
+  ],
+  "vertical_orientation.svg" : [
+    "org.eclipse.search/icons/full/elcl16/verticalOrientation.svg",
+    "org.eclipse.debug.ui/icons/full/elcl16/det_pane_under.svg",
+    "org.eclipse.jdt.junit/icons/full/elcl16/th_vertical.svg",
+    "org.eclipse.jdt.ui/icons/full/elcl16/th_vertical.svg",
+    "org.eclipse.pde.runtime/icons/eview16/vertical_view.svg",
+    "org.eclipse.pde.ui/icons/elcl16/th_vertical.svg"
+  ],
   "environment.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/environment_obj.svg",
     "org.eclipse.debug.ui/icons/full/etool16/environment_co.svg"
