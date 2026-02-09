@@ -377,6 +377,10 @@
     "org.eclipse.search/icons/full/elcl16/expandall.png",
     "org.eclipse.ui/icons/full/elcl16/expandall.png"
   ],
+  "rename.svg" : [
+    "org.eclipse.ui/icons/full/etool16/editor_area.svg",
+    "org.eclipse.compare.win32/icons/full/elcl16/editor_area.svg"
+  ],
   "variable-view.svg": [
     "org.eclipse.debug.ui/icons/full/eview16/variable_view.svg"
   ],
