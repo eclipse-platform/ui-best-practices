@@ -3,6 +3,8 @@
   "undo.svg": "Undo action.",
   "redo.svg": "Redo action.",
   "search.svg": "Search action.",
+  "copy.svg" : "Duplicates the selected content to the clipboard without removing it.",
+  "paste.svg" : "Inserts the clipboard content at the current location.",
   "go-previous-in-current-file.svg": "Go to previous annotation in current file",
   "go-next-in-current-file.svg": "Go to next annotation in current file",
   "visit-last-edited-location.svg": "Visit last edited location.",

@@ -5,6 +5,13 @@
     "org.eclipse.debug.terminal/icons/console_view.svg",
     "org.eclipse.terminal.view.ui/icons/eview16/console_view.svg"
   ],
+  "copy.svg" : [
+    "org.eclipse.ui/icons/full/etool16/copy_edit.svg",
+    "org.eclipse.debug.ui/icons/full/elcl16/copy_edit_co.svg"
+  ],
+  "paste.svg" : [
+    "org.eclipse.ui/icons/full/etool16/paste_edit.svg"
+  ],
   "undo.svg": ["org.eclipse.ui/icons/full/etool16/undo_edit.svg"],
   "redo.svg": ["org.eclipse.ui/icons/full/etool16/redo_edit.svg"],
   "search.svg": [
