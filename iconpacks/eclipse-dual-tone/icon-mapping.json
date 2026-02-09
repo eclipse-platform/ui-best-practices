@@ -22,17 +22,17 @@
   ],
   "go-backward-to-visited-file.svg": [
     "org.eclipse.ui/icons/full/elcl16/backward_nav.svg",
-    "org.eclipse.ui.browser/icons/clcl16/nav_backward.png",
-    "org.eclipse.ui.browser/icons/elcl16/nav_backward.png",
-    "org.eclipse.ui.intro/icons/full/elcl16/backward_nav.png"
+    "org.eclipse.ui.browser/icons/clcl16/nav_backward.svg",
+    "org.eclipse.ui.browser/icons/elcl16/nav_backward.svg",
+    "org.eclipse.ui.intro/icons/full/elcl16/backward_nav.svg"
   ],
   "go-forward-to-visited-file.svg": [
-    "org.eclipse.ui/icons/full/elcl16/forward_nav.png",
-    "org.eclipse.ui.browser/icons/clcl16/nav_forward.png",
-    "org.eclipse.ui.browser/icons/elcl16/nav_forward.png",
-    "org.eclipse.ui.intro/icons/full/elcl16/forward_nav.png",
-    "org.eclipse.ui/icons/full/elcl16/step_current.png",
-    "org.eclipse.ui.ide/icons/full/elcl16/step_current.png"
+    "org.eclipse.ui/icons/full/elcl16/forward_nav.svg",
+    "org.eclipse.ui.browser/icons/clcl16/nav_forward.svg",
+    "org.eclipse.ui.browser/icons/elcl16/nav_forward.svg",
+    "org.eclipse.ui.intro/icons/full/elcl16/forward_nav.svg",
+    "org.eclipse.ui/icons/full/elcl16/step_current.svg",
+    "org.eclipse.ui.ide/icons/full/elcl16/step_current.svg"
   ],
   "resume.svg": [
     "org.eclipse.jdt.debug.ui/icons/full/elcl16/resume_co.svg",
@@ -157,19 +157,19 @@
     "org.eclipse.debug.ui/icons/obj16/file_obj.svg"
   ],
   "filter_ps.svg": [
-    "org.eclipse.jdt.ui/icons/full/elcl16/filter_ps.png",
-    "org.eclipse.ltk.ui.refactoring/icons/full/elcl16/filter_ps.png",
-    "org.eclipse.pde.api.tools.ui/icons/full/elcl16/filter_ps.png",
-    "org.eclipse.pde.ui/icons/elcl16/filter_ps.png",
-    "org.eclipse.search/icons/full/elcl16/filter_ps.png",
-    "org.eclipse.team.cvs.ui/icons/full/elcl16/filter_history.png",
-    "org.eclipse.team.ui/icons/full/elcl16/filter_change.png",
-    "org.eclipse.team.ui/icons/full/elcl16/filter_history.png",
-    "org.eclipse.ui.ide/icons/full/elcl16/filter_ps.png",
-    "org.eclipse.ui.navigator/icons/full/elcl16/filter_ps.png",
-    "org.eclipse.ui.navigator.resources/icons/full/elcl16/filter_ps.png",
-    "org.eclipse.ui.views/icons/full/elcl16/filter_ps.png",
-    "org.eclipse.ui.views.log/icons/elcl16/filter_ps.png"
+    "org.eclipse.jdt.ui/icons/full/elcl16/filter_ps.svg",
+    "org.eclipse.ltk.ui.refactoring/icons/full/elcl16/filter_ps.svg",
+    "org.eclipse.pde.api.tools.ui/icons/full/elcl16/filter_ps.svg",
+    "org.eclipse.pde.ui/icons/elcl16/filter_ps.svg",
+    "org.eclipse.search/icons/full/elcl16/filter_ps.svg",
+    "org.eclipse.team.cvs.ui/icons/full/elcl16/filter_history.svg",
+    "org.eclipse.team.ui/icons/full/elcl16/filter_change.svg",
+    "org.eclipse.team.ui/icons/full/elcl16/filter_history.svg",
+    "org.eclipse.ui.ide/icons/full/elcl16/filter_ps.svg",
+    "org.eclipse.ui.navigator/icons/full/elcl16/filter_ps.svg",
+    "org.eclipse.ui.navigator.resources/icons/full/elcl16/filter_ps.svg",
+    "org.eclipse.ui.views/icons/full/elcl16/filter_ps.svg",
+    "org.eclipse.ui.views.log/icons/elcl16/filter_ps.svg"
   ]
   ,
   "folder.svg": [
@@ -236,15 +236,15 @@
   ],
   "remove.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/removememory_tsk.svg",
-    "org.eclipse.ant.ui/icons/full/elcl16/remove_co.png",
-    "org.eclipse.e4.ui.progress/icons/full/elcl16/progress_rem.png",
-    "org.eclipse.jdt.astview/icons/e/clear.png",
-    "org.eclipse.jdt.ui/icons/full/elcl16/remove_exc.png",
-    "org.eclipse.pde.api.tools.ui/icons/full/elcl16/remove_exc.png",
-    "org.eclipse.team.ui/icons/full/elcl16/participant_rem.png",
-    "org.eclipse.ui/icons/full/elcl16/progress_rem.png",
-    "org.eclipse.ui/icons/full/elcl16/remove.png",
-    "org.eclipse.ui.console/icons/full/elcl16/rem_co.png",
+    "org.eclipse.ant.ui/icons/full/elcl16/remove_co.svg",
+    "org.eclipse.e4.ui.progress/icons/full/elcl16/progress_rem.svg",
+    "org.eclipse.jdt.astview/icons/e/clear.svg",
+    "org.eclipse.jdt.ui/icons/full/elcl16/remove_exc.svg",
+    "org.eclipse.pde.api.tools.ui/icons/full/elcl16/remove_exc.svg",
+    "org.eclipse.team.ui/icons/full/elcl16/participant_rem.svg",
+    "org.eclipse.ui/icons/full/elcl16/progress_rem.svg",
+    "org.eclipse.ui/icons/full/elcl16/remove.svg",
+    "org.eclipse.ui.console/icons/full/elcl16/rem_co.svg",
   ],
   "skip-breakpoint.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/skip_brkp.svg"
@@ -260,21 +260,21 @@
   ],
   "refresh.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/refresh_tab.svg",
-    "org.eclipse.jdt.astview/icons/e/refresh.png",
-    "org.eclipse.jdt.jeview/icons/c/refresh.png",
-    "org.eclipse.pde.ui/icons/elcl16/refresh.png",
-    "org.eclipse.ant.ui/icons/full/elcl16/refresh.png",
-    "org.eclipse.e4.tools.bundle.spy/icons/refresh.png",
-    "org.eclipse.e4.tools.context.spy/icons/refresh.png",
-    "org.eclipse.jdt.ui/icons/full/elcl16/refresh.png",
-    "org.eclipse.pde.runtime/icons/elcl16/refresh.png",
-    "org.eclipse.ui.glance/icons/full/elcl16/refresh.png",
-    "org.eclipse.ui.views.log/icons/elcl16/refresh.png",
-    "org.eclipse.team.cvs.ui/icons/full/elcl16/refresh.png",
-    "org.eclipse.team.cvs.ui/icons/full/glyphs/glyph7.png",
-    "org.eclipse.ui.browser/icons/clcl16/nav_refresh.png",
-    "org.eclipse.ui.browser/icons/elcl16/nav_refresh.png",
-    "org.eclipse.ui.glance/icons/full/elcl16/nav_refresh_2.png",
+    "org.eclipse.jdt.astview/icons/e/refresh.svg",
+    "org.eclipse.jdt.jeview/icons/c/refresh.svg",
+    "org.eclipse.pde.ui/icons/elcl16/refresh.svg",
+    "org.eclipse.ant.ui/icons/full/elcl16/refresh.svg",
+    "org.eclipse.e4.tools.bundle.spy/icons/refresh.svg",
+    "org.eclipse.e4.tools.context.spy/icons/refresh.svg",
+    "org.eclipse.jdt.ui/icons/full/elcl16/refresh.svg",
+    "org.eclipse.pde.runtime/icons/elcl16/refresh.svg",
+    "org.eclipse.ui.glance/icons/full/elcl16/refresh.svg",
+    "org.eclipse.ui.views.log/icons/elcl16/refresh.svg",
+    "org.eclipse.team.cvs.ui/icons/full/elcl16/refresh.svg",
+    "org.eclipse.team.cvs.ui/icons/full/glyphs/glyph7.svg",
+    "org.eclipse.ui.browser/icons/clcl16/nav_refresh.svg",
+    "org.eclipse.ui.browser/icons/elcl16/nav_refresh.svg",
+    "org.eclipse.ui.glance/icons/full/elcl16/nav_refresh_2.svg",
     "org.eclipse.search/icons/full/elcl16/refresh.svg"
   ],
   "check.svg": [
@@ -375,10 +375,10 @@
   ],
   "expand.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/expandall.svg",
-    "org.eclipse.e4.tools.context.spy/icons/expandall.png",
-    "org.eclipse.jdt.astview/icons/e/expandall.png",
-    "org.eclipse.search/icons/full/elcl16/expandall.png",
-    "org.eclipse.ui/icons/full/elcl16/expandall.png"
+    "org.eclipse.e4.tools.context.spy/icons/expandall.svg",
+    "org.eclipse.jdt.astview/icons/e/expandall.svg",
+    "org.eclipse.search/icons/full/elcl16/expandall.svg",
+    "org.eclipse.ui/icons/full/elcl16/expandall.svg"
   ],
   "rename.svg" : [
     "org.eclipse.ui/icons/full/etool16/editor_area.svg",
@@ -389,8 +389,8 @@
   ],
   "go-to.svg": [
     "org.eclipse.search/icons/full/elcl16/search_goto.svg",
-    "org.eclipse.jdt.ui/icons/full/elcl16/goto_input.png",
-    "org.eclipse.pde.ui/icons/elcl16/goto_obj.png"
+    "org.eclipse.jdt.ui/icons/full/elcl16/goto_input.svg",
+    "org.eclipse.pde.ui/icons/elcl16/goto_obj.svg"
   ],
   "go-previous-in-current-file.svg": [
     "org.eclipse.ui.editors/icons/etool16/prev_nav.svg"
@@ -416,13 +416,13 @@
   "save_as.svg" : [
 	"org.eclipse.ui/icons/full/etool16/saveas_edit.svg"
   ],
-  "import_wiz.svg" : [
+  "import.svg" : [
 	"org.eclipse.ui.ide/icons/full/etool16/import_wiz.svg",
-	"org.eclipse.mylyn.tasks.ui/icons/etool16/import.png"
+	"org.eclipse.mylyn.tasks.ui/icons/etool16/import.svg"
   ],
-  "export_wiz.svg" : [
+  "export.svg" : [
 	"org.eclipse.ui.ide/icons/full/etool16/export_wiz.svg",
-	"org.eclipse.mylyn.tasks.ui/icons/etool16/export.png",
-	"org.eclipse.e4.tools.bundle.spy/icons/state_uninstalled.png"
+	"org.eclipse.mylyn.tasks.ui/icons/etool16/export.svg",
+	"org.eclipse.e4.tools.bundle.spy/icons/state_uninstalled.svg"
   ]
 }
