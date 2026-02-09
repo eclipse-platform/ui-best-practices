@@ -64,6 +64,7 @@
   "register-indicator.svg": "Indicator for a register in the registers view.",
   "instruction-pointer.svg": "Indicator for current instruction pointer in debug mode.",
   "instruction-pointer-top-of-stack.svg": "Indicator for the current instruction pointer in debug mode if the instruction is on top of the stack.",
+  "print.svg" : "Print a resource",
   "launch-group.svg": "Indicator for launch group in run configurations.",
   "memorychanged.svg": "Indicator for changed memory in range in the memory view.",
   "open_new_resource_wizard.svg": "Open the create new resource wizard.",

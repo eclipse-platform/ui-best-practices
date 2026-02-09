@@ -309,6 +309,13 @@
   "partition.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/arraypartition_obj.svg"
   ],
+  "print.svg" : [
+    "org.eclipse.ui/icons/full/etool16/print_edit.svg",
+    "org.eclipse.help.ui/icons/etool16/print_topic.svg",
+    "org.eclipse.ui.browser/icons/clcl16/nav_print.svg",
+    "org.eclipse.ui.browser/icons/elcl16/nav_print.svg",
+    "org.eclipse.debug.ui/icons/full/elcl16/printview_tsk.svg"
+  ],
   "register-group-indicator.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/genericreggroup_obj.svg"
   ],
