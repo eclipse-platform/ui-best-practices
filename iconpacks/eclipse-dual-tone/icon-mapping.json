@@ -67,6 +67,10 @@
     "org.eclipse.ui/icons/full/elcl16/step_current.svg",
     "org.eclipse.ui.ide/icons/full/elcl16/step_current.svg"
   ],
+  "problems_view.svg" : [
+    "org.eclipse.ui/icons/full/eview16/problems_view.svg",
+    "org.eclipse.ui.ide/icons/full/eview16/problems_view.svg"
+  ],
   "resume.svg": [
     "org.eclipse.jdt.debug.ui/icons/full/elcl16/resume_co.svg",
     "org.eclipse.debug.ui/icons/full/elcl16/resume_co.svg"
