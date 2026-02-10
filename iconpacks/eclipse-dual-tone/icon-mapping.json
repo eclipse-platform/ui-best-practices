@@ -34,6 +34,10 @@
   "paste.svg" : [
     "org.eclipse.ui/icons/full/etool16/paste_edit.svg"
   ],
+  "outline.svg": [
+    "org.eclipse.ui/icons/full/eview16/outline_co.svg",
+    "org.eclipse.ui.views/icons/full/eview16/outline_co.svg"
+  ],
   "undo.svg": ["org.eclipse.ui/icons/full/etool16/undo_edit.svg"],
   "redo.svg": ["org.eclipse.ui/icons/full/etool16/redo_edit.svg"],
   "search.svg": [
