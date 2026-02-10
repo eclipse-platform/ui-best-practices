@@ -64,6 +64,7 @@
   "instruction-pointer-top-of-stack.svg": "Indicator for the current instruction pointer in debug mode if the instruction is on top of the stack.",
   "launch-group.svg": "Indicator for launch group in run configurations.",
   "memorychanged.svg": "Indicator for changed memory in range in the memory view.",
+  "open_new_resource_wizard.svg": "Open the create new resource wizard.",
   "prototype.svg": "Indicator for prototype tab in run configuration.",
   "rundebug.svg": "Indicator for run debug configuration.",
   "synchronize.svg": "Synchronize action.",
