@@ -24,6 +24,7 @@
   "properties.svg": "Indicator for generic properties.",
   "environment.svg": "Indicator for the environment settings of a run/debug configuration.",
   "file.svg": "Indicator for a file.",
+  "problems_view.svg" : "Problems view indicator.",
   "filter_ps.svg": "Filter action",
   "folder.svg": "Indicator for a folder.",
   "generic-variable.svg": "Indicator for a generic variable.",
