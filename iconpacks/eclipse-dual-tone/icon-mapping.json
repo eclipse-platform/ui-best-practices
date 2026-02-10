@@ -317,6 +317,9 @@
   "memorychanged.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/memorychanged_obj.svg"
   ],
+  "open_new_resource_wizard.svg" : [
+    "org.eclipse.ui/icons/full/etool16/new_wiz.svg"
+  ],
   "prototype.svg": ["org.eclipse.debug.ui/icons/full/obj16/proto_tab.svg"],
   "rundebug.svg": ["org.eclipse.debug.ui/icons/full/obj16/rundebug.svg"],
   "copyedit.svg": ["org.eclipse.debug.ui/icons/full/elcl16/copy_edit_co.svg"],
