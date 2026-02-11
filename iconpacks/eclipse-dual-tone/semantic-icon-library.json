@@ -30,7 +30,7 @@
   "folder.svg": "Indicator for a folder.",
   "generic-variable.svg": "Indicator for a generic variable.",
   "zip.svg": "Indicator for a zipped file.",
-  "perspective.svg": "Indicator for a generic perspective.",
+  "perspective.svg": "Open perspective action.",
   "single_orientation.svg" : "Single orientation of detail views in tabs.",
   "automatic_orientation.svg" : "Automatic orientation of detail views in tabs.",
   "horizontal_orientation.svg" : "Horizontal orientation of detail views in tabs.",
