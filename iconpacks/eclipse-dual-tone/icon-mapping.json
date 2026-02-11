@@ -252,7 +252,13 @@
     "org.eclipse.team.ui/icons/full/elcl16/participant_rem.svg",
     "org.eclipse.ui/icons/full/elcl16/progress_rem.svg",
     "org.eclipse.ui/icons/full/elcl16/remove.svg",
-    "org.eclipse.ui.console/icons/full/elcl16/rem_co.svg",
+    "org.eclipse.ui.console/icons/full/elcl16/rem_co.svg"
+  ],
+  "import_dir.svg": [
+    "org.eclipse.ui.ide/icons/full/etool16/importdir_wiz.svg"
+  ],
+  "export_dir.svg" : [
+    "org.eclipse.ui.ide/icons/full/etool16/exportdir_wiz.svg"
   ],
   "skip-breakpoint.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/skip_brkp.svg"
