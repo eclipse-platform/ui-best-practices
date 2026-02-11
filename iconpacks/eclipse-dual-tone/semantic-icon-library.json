@@ -57,6 +57,7 @@
   "project-explorer.svg": "Indicator for the project explorer.",
   "export-config.svg": "Export configuration action.",
   "import-config.svg": "Import configuration action.",
+  "pin.svg" : "Pin various views",
   "os-process-running.svg": "Indicator for a running os process.",
   "os-process-terminated.svg": "Indicator for a terminated os process.",
   "partition.svg": "Indicator for a partition that is created for large indexed collections like lists in the variable view in debug mode.",
