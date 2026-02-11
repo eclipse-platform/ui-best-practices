@@ -47,6 +47,8 @@
   "remove-all.svg": "Remove all action.",
   "remove.svg": "Remove action.",
   "skip-breakpoint.svg": "Enable/Disable skipping of breakpoints in debug mode.",
+  "import_dir.svg": "Open projects from file system in file menu.",
+  "export_dir.svg": "Export general projects in export menu.",
   "thread.svg": "Indicator for a thread in debug mode.",
   "drop-to-frame.svg": "Drop to selected frame in debug mode.",
   "active-frame.svg": "Indicator for the active frame in debug mode.",
