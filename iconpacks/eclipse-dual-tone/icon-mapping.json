@@ -300,6 +300,11 @@
   "import-config.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/import_config_obj.svg"
   ],
+  "pin.svg" : [
+    "org.eclipse.search/icons/full/elcl16/pin_view.svg",
+    "org.eclipse.jdt.ui/icons/full/elcl16/pin_view.svg",
+    "org.eclipse.ui/icons/full/etool16/pin_editor.svg"
+  ],
   "os-process-running.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/osprc_obj.svg"
   ],
