@@ -199,7 +199,8 @@
   ],
   "perspective.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/persp_tab.svg",
-    "org.eclipse.team.cvs.ui/icons/full/elcl16/local_history_mode.svg"
+    "org.eclipse.team.cvs.ui/icons/full/elcl16/local_history_mode.svg",
+    "org.eclipse.ui/icons/full/eview16/new_persp.svg"
   ],
   "project.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/prj_obj.svg",
