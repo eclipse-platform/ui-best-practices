@@ -5,6 +5,28 @@
     "org.eclipse.debug.terminal/icons/console_view.svg",
     "org.eclipse.terminal.view.ui/icons/eview16/console_view.svg"
   ],
+  "hierarchical_layout.svg": [
+    "org.eclipse.debug.ui/icons/full/elcl16/hierarchicalLayout.svg",
+    "org.eclipse.jdt.junit/icons/full/elcl16/hierarchicalLayout.svg",
+    "org.eclipse.jdt.ui/icons/full/elcl16/hierarchicalLayout.svg",
+    "org.eclipse.pde.ds.ui/icons/obj16/details_obj.svg",
+    "org.eclipse.pde.ui/icons/elcl16/hierarchicalLayout.svg",
+    "org.eclipse.search/icons/full/elcl16/hierarchicalLayout.svg",
+    "org.eclipse.team.ui/icons/full/elcl16/hierarchicalLayout.svg",
+    "org.eclipse.ui.cheatsheets/icons/elcl16/hierarchical.svg",
+    "org.eclipse.ui.ide/icons/full/elcl16/hierarchicalLayout.svg",
+    "org.eclipse.ui.ide/icons/full/etool16/problem_category.svg",
+    "org.eclipse.ui.views/icons/full/elcl16/tree_mode.svg",
+    "org.eclipse.ui.views.log/icons/obj16/hierarchical.svg"
+  ],
+  "flat_layout.svg" : [
+    "org.eclipse.search/icons/full/elcl16/flatLayout.svg",
+    "org.eclipse.jdt.junit/icons/full/elcl16/flatLayout.svg",
+    "org.eclipse.jdt.ui/icons/full/elcl16/flatLayout.svg",
+    "org.eclipse.pde.ui/icons/elcl16/flatLayout.svg",
+    "org.eclipse.team.ui/icons/full/elcl16/flatLayout.svg",
+    "org.eclipse.ui.ide/icons/full/elcl16/flatLayout.svg"
+  ],
   "copy.svg" : [
     "org.eclipse.ui/icons/full/etool16/copy_edit.svg",
     "org.eclipse.debug.ui/icons/full/elcl16/copy_edit_co.svg"
