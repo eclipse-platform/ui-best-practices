@@ -126,6 +126,15 @@
     "org.eclipse.jdt.jeview/icons/c/properties.svg",
     "org.eclipse.pde.ui/icons/elcl16/properties.svg"
   ],
+  "group_by_project.svg" : [
+    "org.eclipse.search/icons/full/etool16/group_by_project.svg"
+  ],
+  "group_by_folder.svg" : [
+    "org.eclipse.search/icons/full/etool16/group_by_folder.svg"
+  ],
+  "group_by_file.svg" : [
+    "org.eclipse.search/icons/full/etool16/group_by_file.svg"
+  ],
   "single_orientation.svg" : [
     "org.eclipse.search/icons/full/elcl16/singleOrientation.svg",
     "org.eclipse.debug.ui/icons/full/elcl16/det_pane_hide.svg",
