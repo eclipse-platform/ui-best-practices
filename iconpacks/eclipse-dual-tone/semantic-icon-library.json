@@ -90,5 +90,7 @@
   "cut.svg" : "Removes the selected content and places it on the clipboard.",
   "save_as.svg" : "Save as action.",
   "import.svg": "Opens import wizard",
-  "export.svg": "Opens export wizard"
+  "export.svg": "Opens export wizard",
+  "hierarchical_layout.svg" : "Show search results as tree view",
+  "flat_layout.svg" : "Show search results as list"
 }
