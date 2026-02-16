@@ -94,6 +94,6 @@
   "save_as.svg" : "Save as action.",
   "import.svg": "Opens import wizard",
   "export.svg": "Opens export wizard",
-  "hierarchical_layout.svg" : "Show search results as tree view",
-  "flat_layout.svg" : "Show search results as list"
+  "hierarchical_layout.svg" : "Show as tree view.",
+  "flat_layout.svg" : "Show as list view."
 }
