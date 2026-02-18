@@ -194,6 +194,7 @@
     "org.eclipse.debug.ui/icons/full/etool16/environment_co.svg"
   ],
   "file.svg": [
+	"org.eclipse.ui/icons/full/obj16/file_obj.svg",
     "org.eclipse.jdt.ui/icons/full/obj16/file_obj.svg",
     "org.eclipse.pde.ua.ui/icons/obj16/toc_leaftopic_obj.svg",
     "org.eclipse.pde.ui/icons/obj16/toc_leaftopic_obj.svg",
