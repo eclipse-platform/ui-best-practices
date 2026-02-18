@@ -340,6 +340,7 @@
     "org.eclipse.debug.ui/icons/full/obj16/uncheck.svg"
   ],
   "project-explorer.svg": [
+    "org.eclipse.jdt.ui/icons/full/eview16/package.svg",
     "org.eclipse.debug.ui/icons/full/obj16/workset.svg"
   ],
   "export-config.svg": [
