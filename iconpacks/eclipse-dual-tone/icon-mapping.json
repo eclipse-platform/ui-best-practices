@@ -219,6 +219,7 @@
   ]
   ,
   "folder.svg": [
+	"org.eclipse.ui/icons/full/obj16/fldr_obj.svg",
     "org.eclipse.debug.ui/icons/full/obj16/fldr_obj.svg",
     "org.eclipse.e4.ui.workbench.swt/icons/full/obj16/fldr_obj.svg",
     "org.eclipse.mylyn.tasks.ui/icons/etool16/category.svg",
