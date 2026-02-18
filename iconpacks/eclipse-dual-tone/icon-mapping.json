@@ -491,5 +491,14 @@
 	"org.eclipse.ui.ide/icons/full/etool16/export_wiz.svg",
 	"org.eclipse.mylyn.tasks.ui/icons/etool16/export.svg",
 	"org.eclipse.e4.tools.bundle.spy/icons/state_uninstalled.svg"
+  ],
+  "problems_view_error.svg" : [
+    "org.eclipse.ui.ide/icons/full/eview16/problems_view_error.svg"
+  ],
+  "problems_view_warning.svg" : [
+    "org.eclipse.ui.ide/icons/full/eview16/problems_view_warning.svg"
+  ],
+  "problems_view_info.svg" : [
+    "org.eclipse.ui.ide/icons/full/eview16/problems_view_info.svg"
   ]
 }

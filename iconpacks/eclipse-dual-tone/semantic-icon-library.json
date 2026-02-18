@@ -97,5 +97,8 @@
   "import.svg": "Opens import wizard",
   "export.svg": "Opens export wizard",
   "hierarchical_layout.svg" : "Show as tree view.",
-  "flat_layout.svg" : "Show as list view."
+  "flat_layout.svg" : "Show as list view.",
+  "problems_view_error.svg" : "Indicates problems view status error.",
+  "problems_view_warning.svg" : "Indicates problems view status warning.",
+  "problems_view_info.svg" : "Indicates problems view status information"
 }
