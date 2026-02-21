@@ -28,6 +28,26 @@ This repository contains the source for the [Eclipse UI Guidelines](https://ecli
 Build it with `mvn verify`.
 
 
+## Icon Replacement
+
+A utility script `replace_icons.sh` is provided to automate replacing icons in an existing Eclipse installation based on the `icon-mapping.json` file.
+
+**Usage:**
+```bash
+./replace_icons.sh <eclipse_plugins_dir> <mapping_json_file>
+```
+
+**Example:**
+```bash
+./replace_icons.sh /path/to/eclipse/plugins iconpacks/eclipse-dual-tone/icon-mapping.json
+```
+
+**Important:** After running the script, you **must** restart Eclipse with the following flags to ensure the icon cache is cleared and the new icons are displayed:
+```bash
+eclipse -clean -clearPersistedState
+```
+
+
 ### Making changes
 
 Please ensure that [every sentence is on a separate line](https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line).
