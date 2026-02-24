@@ -1,5 +1,7 @@
 {
   "terminal.svg": "Open a terminal/console.",
+  "error.svg" : "Indicates the presence of errors.",
+  "warning.svg" : "Indicates the presence of warnings.",
   "undo.svg": "Undo action.",
   "redo.svg": "Redo action.",
   "search.svg": "Search action.",
