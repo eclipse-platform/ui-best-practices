@@ -5,6 +5,25 @@
     "org.eclipse.debug.terminal/icons/console_view.svg",
     "org.eclipse.terminal.view.ui/icons/eview16/console_view.svg"
   ],
+  "error.svg" : [
+    "org.eclipse.ui/icons/full/obj16/error_tsk.svg",
+    "org.eclipse.ant.ui/icons/full/obj16/ant_target_err.svg",
+    "org.eclipse.compare/icons/full/ovr16/error_ov.svg",
+    "org.eclipse.jdt.ui/icons/full/obj16/error_obj.svg",
+    "org.eclipse.ltk.ui.refactoring/icons/full/obj16/error_obj.svg",
+    "org.eclipse.ui.externaltools/icons/full/obj16/invalid_build_tool.svg"
+  ],
+  "warning.svg" : [
+    "org.eclipse.ui/icons/full/obj16/warn_tsk.svg",
+    "org.eclipse.equinox.p2.ui.discovery/icons/ovr32/message_warning.svg",
+    "org.eclipse.jface/icons/full/message_warning.svg",
+    "org.eclipse.ui.ide/icons/full/elcl16/showwarn_tsk.svg",
+    "org.eclipse.ltk.ui.refactoring/icons/full/obj16/warning_obj.svg",
+    "org.eclipse.pde.runtime/icons/obj16/warning_st_obj.svg",
+    "org.eclipse.pde.ui/icons/obj16/warning_st_obj.svg",
+    "org.eclipse.ui.ide/icons/full/obj16/warning.svg",
+    "org.eclipse.ui.views.log/icons/obj16/warning_st_obj.svg"
+  ],
   "hierarchical_layout.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/hierarchicalLayout.svg",
     "org.eclipse.jdt.junit/icons/full/elcl16/hierarchicalLayout.svg",
