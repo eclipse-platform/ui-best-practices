@@ -502,5 +502,12 @@
   ],
   "problems_view_info.svg" : [
     "org.eclipse.ui.ide/icons/full/eview16/problems_view_info.svg"
+  ],
+  "info.svg" : [
+    "org.eclipse.ui/icons/full/obj16/info_tsk.svg",
+    "org.eclipse.ltk.ui.refactoring/icons/full/obj16/info_obj.svg",
+    "org.eclipse.pde.runtime/icons/obj16/info_st_obj.svg",
+    "org.eclipse.pde.ui/icons/obj16/info_st_obj.svg",
+    "org.eclipse.ui.views.log/icons/obj16/info_st_obj.svg"
   ]
 }
