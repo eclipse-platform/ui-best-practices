@@ -353,6 +353,16 @@
     "org.eclipse.ui/icons/full/elcl16/refresh_nav.svg",
     "org.eclipse.ui.ide/icons/full/elcl16/refresh_nav.svg"
   ],
+  "new_file.svg" : [
+    "org.eclipse.ui.ide/icons/full/etool16/newfile_wiz.svg"
+  ],
+  "new_folder.svg" : [
+    "org.eclipse.ui.ide/icons/full/etool16/newfolder_wiz.svg",
+    "org.eclipse.mylyn.tasks.ui/icons/etool16/category-new.svg"
+  ],
+  "new_group.svg" : [
+    "org.eclipse.ui.ide/icons/full/etool16/newgroup_wiz.svg"
+  ],
   "check.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/check.svg"
   ],
