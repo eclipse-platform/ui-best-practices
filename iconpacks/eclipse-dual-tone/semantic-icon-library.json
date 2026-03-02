@@ -1,5 +1,6 @@
 {
   "terminal.svg": "Open a terminal/console.",
+  "fatal_error.svg" : "Indicates the presence of fatal errors.",
   "error.svg" : "Indicates the presence of errors.",
   "warning.svg" : "Indicates the presence of warnings.",
   "undo.svg": "Undo action.",

@@ -5,6 +5,10 @@
     "org.eclipse.debug.terminal/icons/console_view.svg",
     "org.eclipse.terminal.view.ui/icons/eview16/console_view.svg"
   ],
+  "fatal_error.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/fatalerror_obj.svg",
+    "org.eclipse.ltk.ui.refactoring/icons/full/obj16/fatalerror_obj.svg"
+  ],
   "error.svg" : [
     "org.eclipse.ui/icons/full/obj16/error_tsk.svg",
     "org.eclipse.ant.ui/icons/full/obj16/ant_target_err.svg",
