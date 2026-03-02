@@ -1,6 +1,7 @@
 {
   "terminal.svg": "Open a terminal/console.",
   "error.svg" : "Indicates the presence of errors.",
+  "error_log.svg" : "Records detailed information about errors.",
   "warning.svg" : "Indicates the presence of warnings.",
   "undo.svg": "Undo action.",
   "redo.svg": "Redo action.",

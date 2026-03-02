@@ -20,6 +20,12 @@
     "org.eclipse.jface/bin/org/eclipse/jface/dialogs/images/message_error.svg",
     "org.eclipse.jface/icons/full/message_error.svg"
   ],
+  "error_log.svg" : [
+    "org.eclipse.ui.views.log/icons/eview16/error_log.svg",
+    "org.eclipse.pde.runtime/icons/obj16/error_stack.svg",
+    "org.eclipse.pde.ui/icons/view16/error_log.svg",
+    "org.eclipse.ui.views.log/icons/eview16/error_log.svg"
+  ],
   "warning.svg" : [
     "org.eclipse.ui/icons/full/obj16/warn_tsk.svg",
     "org.eclipse.equinox.p2.ui.discovery/icons/ovr32/message_warning.svg",
