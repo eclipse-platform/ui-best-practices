@@ -308,6 +308,9 @@
     "org.eclipse.team.cvs.ui/icons/full/elcl16/local_history_mode.svg",
     "org.eclipse.ui/icons/full/eview16/new_persp.svg"
   ],
+  "plugins.svg": [
+    "org.eclipse.pde.ui/icons/eview16/plugins.svg"
+  ],
   "project.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/prj_obj.svg",
     "org.eclipse.jdt.debug.ui/icons/full/obj16/prj_obj.svg"
