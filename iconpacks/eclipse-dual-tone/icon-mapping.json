@@ -587,5 +587,8 @@
     "org.eclipse.pde.runtime/icons/obj16/info_st_obj.svg",
     "org.eclipse.pde.ui/icons/obj16/info_st_obj.svg",
     "org.eclipse.ui.views.log/icons/obj16/info_st_obj.svg"
+  ],
+  "new_project.svg" : [
+    "org.eclipse.ui.ide/icons/full/etool16/newprj_wiz.svg"
   ]
 }

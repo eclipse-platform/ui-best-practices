@@ -107,5 +107,6 @@
   "problems_view_error.svg" : "Indicates problems view status error.",
   "problems_view_warning.svg" : "Indicates problems view status warning.",
   "problems_view_info.svg" : "Indicates problems view status information",
-  "info.svg" : "Indicates an information."
+  "info.svg" : "Indicates an information.",
+  "new_project.svg" : "Create a new project resource."
 }
