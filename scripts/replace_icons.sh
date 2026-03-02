@@ -56,7 +56,7 @@ jq -r 'to_entries[] | .key + " " + (.value | join(" "))' "$MAPPING_FILE" | while
         # Find the plugin in the plugins directory.
         # It could be a folder: plugin_id_version
         # or a jar: plugin_id_version.jar
-        plugin_path=$(find "$PLUGINS_DIR" -maxdepth 1 -name "${plugin_id}_*" | head -n 1)
+        plugin_path=$(find "$PLUGINS_DIR" -maxdepth 1 \( -name "${plugin_id}_*" \) \( -name "*.jar" -o -type d \) | sort -V | tail -n 1)
 
         if [ -z "$plugin_path" ]; then
             echo "Warning: Plugin $plugin_id not found in $PLUGINS_DIR. Skipping $target."
