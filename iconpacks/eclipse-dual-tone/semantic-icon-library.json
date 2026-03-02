@@ -53,6 +53,7 @@
   "thread-paused.svg": "Indicator for a paused thread in debug mode.",
   "thread-terminated.svg": "Indicator for a terminated thread in debug mode.",
   "external-tools.svg": "Run and configuration action for external tools.",
+  "bookmark.svg" : "Displays user defined bookmarks.",
   "disconnect.svg": "Disconnect action.",
   "remove-all.svg": "Remove all action.",
   "remove.svg": "Remove action.",

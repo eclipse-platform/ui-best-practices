@@ -523,6 +523,10 @@
     "org.eclipse.search/icons/full/elcl16/expandall.svg",
     "org.eclipse.ui/icons/full/elcl16/expandall.svg"
   ],
+  "bookmark.svg" : [
+    "org.eclipse.help.ui/icons/obj16/bookmarks_view.svg",
+    "org.eclipse.ui.ide/icons/full/eview16/bkmrk_nav.svg"
+  ],
   "rename.svg" : [
     "org.eclipse.ui/icons/full/etool16/editor_area.svg",
     "org.eclipse.compare.win32/icons/full/elcl16/editor_area.svg"
