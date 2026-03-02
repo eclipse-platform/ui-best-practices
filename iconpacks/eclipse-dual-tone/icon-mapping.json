@@ -385,6 +385,7 @@
     "org.eclipse.debug.ui/icons/full/obj16/stckframe_obj.svg"
   ],
   "refresh.svg": [
+    "org.eclipse.team.ui/icons/full/elcl16/refresh.svg",
     "org.eclipse.debug.ui/icons/full/obj16/refresh_tab.svg",
     "org.eclipse.jdt.astview/icons/e/refresh.svg",
     "org.eclipse.jdt.jeview/icons/c/refresh.svg",
@@ -485,6 +486,7 @@
     "org.eclipse.debug.ui/icons/full/elcl16/copy_edit_co.svg"
   ],
   "synchronize.svg": [
+    "org.eclipse.team.ui/icons/full/elcl16/synced.svg",
     "org.eclipse.debug.ui/icons/full/elcl16/synced.svg",
     "org.eclipse.ant.ui/icons/elcl16/synced.svg",
     "org.eclipse.ui.navigator/icons/full/clcl16/synced.svg",
@@ -564,10 +566,12 @@
     "org.eclipse.egit.ui/icons/elcl16/goto_input.svg"
   ],
   "go-previous-in-current-file.svg": [
+    "org.eclipse.team.ui/icons/full/elcl16/prev_nav.svg",
     "org.eclipse.ui.editors/icons/etool16/prev_nav.svg",
     "org.eclipse.egit.ui/icons/elcl16/prev_nav.svg"
   ],
   "go-next-in-current-file.svg": [
+    "org.eclipse.team.ui/icons/full/elcl16/next_nav.svg",
     "org.eclipse.ui.editors/icons/etool16/next_nav.svg",
     "org.eclipse.egit.ui/icons/elcl16/next_nav.svg"
   ],
