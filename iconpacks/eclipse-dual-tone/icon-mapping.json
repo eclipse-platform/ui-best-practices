@@ -568,6 +568,9 @@
     "org.eclipse.mylyn.tasks.ui/icons/etool16/export.svg",
     "org.eclipse.e4.tools.bundle.spy/icons/state_uninstalled.svg"
   ],
+  "minimap.svg" : [
+    "org.eclipse.ui.workbench.texteditor/icons/full/eview16/minimap.svg"
+  ],
   "problems_view_error.svg" : [
     "org.eclipse.ui.ide/icons/full/eview16/problems_view_error.svg"
   ],
