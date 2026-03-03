@@ -12,7 +12,6 @@
   "error.svg" : [
     "org.eclipse.ui/icons/full/obj16/error_tsk.svg",
     "org.eclipse.ant.ui/icons/full/obj16/ant_target_err.svg",
-    "org.eclipse.compare/icons/full/ovr16/error_ov.svg",
     "org.eclipse.jdt.ui/icons/full/obj16/error_obj.svg",
     "org.eclipse.ltk.ui.refactoring/icons/full/obj16/error_obj.svg",
     "org.eclipse.ui.externaltools/icons/full/obj16/invalid_build_tool.svg",
@@ -32,7 +31,6 @@
   ],
   "warning.svg" : [
     "org.eclipse.ui/icons/full/obj16/warn_tsk.svg",
-    "org.eclipse.equinox.p2.ui.discovery/icons/ovr32/message_warning.svg",
     "org.eclipse.jface/icons/full/message_warning.svg",
     "org.eclipse.ui.ide/icons/full/elcl16/showwarn_tsk.svg",
     "org.eclipse.ltk.ui.refactoring/icons/full/obj16/warning_obj.svg",
@@ -42,8 +40,7 @@
     "org.eclipse.ui.views.log/icons/obj16/warning_st_obj.svg",
     "org.eclipse.ui.ide/icons/full/obj16/warn_tsk.svg",
     "org.eclipse.jface/bin/org/eclipse/jface/dialogs/images/message_warning.svg",
-    "org.eclipse.jface/src/org/eclipse/jface/dialogs/images/message_warning.svg",
-    "org.eclipse.compare/icons/full/ovr16/warning_ov.svg"
+    "org.eclipse.jface/src/org/eclipse/jface/dialogs/images/message_warning.svg"
   ],
   "hierarchical_layout.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/hierarchicalLayout.svg",
@@ -165,8 +162,7 @@
     "org.eclipse.debug.ui/icons/full/eview16/debug_view.svg",
     "org.eclipse.jdt.debug.ui/icons/full/etool16/debug_exc.svg",
     "org.eclipse.pde.ui/icons/obj16/debug_exc.svg",
-    "org.eclipse.debug.ui/obj16/ldebug_obj.svg",
-    "org.eclipse.debug.ui/icons/full/ovr16/quickaccess_debug.svg"
+    "org.eclipse.debug.ui/obj16/ldebug_obj.svg"
   ],
   "debug-process.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/debugt_obj.svg",
@@ -181,8 +177,7 @@
     "org.eclipse.e4.ui.model.workbench.edit/icons/full/obj16/Handler.svg",
     "org.eclipse.jdt.debug.ui/icons/full/etool16/run_exc.svg",
     "org.eclipse.pde.ui/icons/obj16/run_exc.svg",
-    "org.eclipse.tips.ui/icons/run_exc.svg",
-    "org.eclipse.debug.ui/icons/full/ovr16/quickaccess_run.svg"
+    "org.eclipse.tips.ui/icons/run_exc.svg"
   ],
   "expression.svg": [
     "org.eclipse.jdt.debug.ui/icons/full/etool16/watch_exp.svg",
@@ -560,7 +555,9 @@
   ],
   "bookmark.svg" : [
     "org.eclipse.help.ui/icons/obj16/bookmarks_view.svg",
-    "org.eclipse.ui.ide/icons/full/eview16/bkmrk_nav.svg"
+    "org.eclipse.ui.ide/icons/full/eview16/bkmrk_nav.svg",
+    "org.eclipse.help.webapp/advanced/images/e_bookmarks_view.svg",
+    "org.eclipse.ui/icons/full/eview16/bkmrk_nav.svg"
   ],
   "rename.svg" : [
     "org.eclipse.ui/icons/full/etool16/editor_area.svg",
@@ -608,12 +605,18 @@
   ],
   "import.svg" : [
     "org.eclipse.ui.ide/icons/full/etool16/import_wiz.svg",
-    "org.eclipse.mylyn.tasks.ui/icons/etool16/import.svg"
+    "org.eclipse.mylyn.tasks.ui/icons/etool16/import.svg",
+    "org.eclipse.debug.ui/icons/full/elcl16/import_wiz.svg",
+    "org.eclipse.ui/icons/full/etool16/import_wiz.svg",
+    "org.eclipse.ui/icons/full/pref/import_wiz.svg"
   ],
   "export.svg" : [
     "org.eclipse.ui.ide/icons/full/etool16/export_wiz.svg",
     "org.eclipse.mylyn.tasks.ui/icons/etool16/export.svg",
-    "org.eclipse.e4.tools.bundle.spy/icons/state_uninstalled.svg"
+    "org.eclipse.e4.tools.bundle.spy/icons/state_uninstalled.svg",
+    "org.eclipse.debug.ui/icons/full/elcl16/export_wiz.svg",
+    "org.eclipse.ui/icons/full/etool16/export_wiz.svg",
+    "org.eclipse.ui/icons/full/pref/export_wiz.svg"
   ],
   "minimap.svg" : [
     "org.eclipse.ui.workbench.texteditor/icons/full/eview16/minimap.svg"
