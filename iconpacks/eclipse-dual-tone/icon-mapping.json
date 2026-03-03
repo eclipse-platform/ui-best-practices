@@ -636,5 +636,8 @@
   ],
   "new_project.svg" : [
     "org.eclipse.ui.ide/icons/full/etool16/newprj_wiz.svg"
+  ],
+  "new_text_file.svg" : [
+    "org.eclipse.ui.editors/icons/full/etool16/new_untitled_text_file.svg"
   ]
 }
