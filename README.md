@@ -34,12 +34,12 @@ A utility script `replace_icons.sh` is provided to automate replacing icons in a
 
 **Usage:**
 ```bash
-./replace_icons.sh <eclipse_plugins_dir> <mapping_json_file>
+./scripts/replace_icons.sh <eclipse_plugins_dir> <mapping_json_file>
 ```
 
 **Example:**
 ```bash
-./replace_icons.sh /path/to/eclipse/plugins iconpacks/eclipse-dual-tone/icon-mapping.json
+./scripts/replace_icons.sh /path/to/eclipse/plugins iconpacks/eclipse-dual-tone/icon-mapping.json
 ```
 
 **Important:** After running the script, you **must** restart Eclipse with the following flags to ensure the icon cache is cleared and the new icons are displayed:
