@@ -1,5 +1,9 @@
 {
   "terminal.svg": [
+    "org.eclipse.terminal.view.ui/icons/eview16/terminal_view.svg",
+    "org.eclipse.terminal.connector.local/icons/eview16/terminal_view.svg"
+  ],
+  "console.svg" : [
     "org.eclipse.ui.console/icons/full/eview/console_view.svg",
     "org.eclipse.ui.console/icons/full/cview/console_view.svg",
     "org.eclipse.debug.terminal/icons/console_view.svg",
