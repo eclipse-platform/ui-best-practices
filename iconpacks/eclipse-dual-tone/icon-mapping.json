@@ -462,6 +462,11 @@
     "org.eclipse.ui.browser/icons/elcl16/nav_print.svg",
     "org.eclipse.debug.ui/icons/full/elcl16/printview_tsk.svg"
   ],
+  "working_sets.svg" : [
+    "org.eclipse.ui/icons/full/obj16/workingsets.svg",
+    "org.eclipse.ui.navigator.resources/icons/full/obj16/otherprojects_workingsets.svg",
+    "org.eclipse.ui.ide/icons/full/elcl16/workingsets.svg"
+  ],
   "register-group-indicator.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/genericreggroup_obj.svg"
   ],
