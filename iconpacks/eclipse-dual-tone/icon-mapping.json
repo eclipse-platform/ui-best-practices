@@ -591,6 +591,29 @@
     "org.eclipse.ui.editors/icons/etool16/next_nav.svg",
     "org.eclipse.egit.ui/icons/elcl16/next_nav.svg"
   ],
+  "options.svg" : [
+    "org.eclipse.ui/icons/full/elcl16/view_menu.svg",
+    "org.eclipse.ui/icons/full/elcl16/thin_view_menu.svg",
+    "org.eclipse.ui/icons/full/elcl16/button_menu.svg"
+  ],
+  "close.svg" : [
+    "org.eclipse.ui/icons/full/elcl16/close_view.svg",
+    "org.eclipse.ui/icons/full/elcl16/thin_close_view.svg",
+    "org.eclipse.help.ui/icons/elcl16/close.svg",
+    "org.eclipse.ui.intro/icons/full/elcl16/close_view.svg",
+    "org.eclipse.equinox.p2.ui.sdk.scheduler/icons/tool/close.svg"
+  ],
+  "maximize.svg" : [
+    "org.eclipse.ui/icons/full/elcl16/thin_max_view.svg"
+  ],
+  "minimize.svg" : [
+    "org.eclipse.ui/icons/full/elcl16/min_view.svg",
+    "org.eclipse.ui/icons/full/elcl16/thin_min_view.svg"
+  ],
+  "restore_view.svg" : [
+    "org.eclipse.ui/icons/full/elcl16/thin_restore_view.svg",
+    "org.eclipse.ui/icons/full/etool16/fastview_restore.svg"
+  ],
   "toggle-type-names.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/tnames_co.svg"
   ],
