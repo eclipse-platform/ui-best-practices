@@ -450,6 +450,9 @@
     "org.eclipse.ui.console/icons/full/elcl16/pin.svg",
     "org.eclipse.debug.ui/icons/full/elcl16/pin.svg"
   ],
+  "tasks.svg" : [
+    "org.eclipse.ui/icons/full/eview16/tasks_tsk.svg"
+  ],
   "os-process-running.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/osprc_obj.svg"
   ],
