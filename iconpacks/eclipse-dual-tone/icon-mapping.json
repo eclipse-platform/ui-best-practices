@@ -650,6 +650,11 @@
     "org.eclipse.ui/icons/full/etool16/export_wiz.svg",
     "org.eclipse.ui/icons/full/pref/export_wiz.svg"
   ],
+  "progress_view.svg" : [
+    "org.eclipse.e4.ui.progress/icons/full/progress/pview.svg",
+    "org.eclipse.ui/icons/full/progress/pview.svg",
+    "org.eclipse.ui.ide/icons/full/eview16/pview.svg"
+  ],
   "minimap.svg" : [
     "org.eclipse.ui.workbench.texteditor/icons/full/eview16/minimap.svg"
   ],
