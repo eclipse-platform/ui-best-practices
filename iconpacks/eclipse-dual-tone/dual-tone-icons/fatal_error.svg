@@ -1,79 +1,63 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    width="16"
    height="16"
-   id="svg2"
+   viewBox="0 0 4.2333332 4.2333333"
    version="1.1"
+   id="svg1"
    inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
-   sodipodi:docname="fatalerror_obj.svg"
-   inkscape:export-filename="C:\Users\D019122\OneDrive - SAP SE\Desktop\iam_package.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
-   xml:space="preserve"
+   sodipodi:docname="fatal_error.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"><defs
-     id="defs4" /><sodipodi:namedview
-     id="base"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
      pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="22.627417"
-     inkscape:cx="-1.8340582"
-     inkscape:cy="8.7725435"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="true"
-     inkscape:window-width="1819"
-     inkscape:window-height="1229"
-     inkscape:window-x="1665"
-     inkscape:window-y="148"
-     inkscape:window-maximized="0"
-     showguides="false"
-     inkscape:guide-bbox="true"
-     inkscape:snap-global="false"
-     inkscape:snap-bbox="true"
-     inkscape:bbox-nodes="true"
-     inkscape:document-rotation="0"
+     bordercolor="#000000"
+     borderopacity="0.25"
      inkscape:showpageshadow="false"
+     inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#ffffff"><inkscape:grid
-       type="xygrid"
-       id="grid3999"
-       originx="0"
-       originy="0"
-       spacingy="1"
-       spacingx="1"
-       units="px"
-       visible="false"
-       enabled="true" /><inkscape:grid
+     inkscape:deskcolor="#ffffff"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="14.904485"
+     inkscape:cx="4.3946503"
+     inkscape:cy="20.530733"
+     inkscape:window-width="2894"
+     inkscape:window-height="1308"
+     inkscape:window-x="253"
+     inkscape:window-y="185"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     showguides="true">
+    <inkscape:grid
        id="grid1"
        units="px"
        originx="0"
        originy="0"
-       spacingx="1"
-       spacingy="1"
+       spacingx="0.26458333"
+       spacingy="0.26458333"
        empcolor="#0099e5"
        empopacity="0.30196078"
        color="#0099e5"
        opacity="0.14901961"
        empspacing="5"
        enabled="true"
-       visible="true" /></sodipodi:namedview><metadata
-     id="metadata7"><rdf:RDF><cc:Work
-         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><g
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"
-     style="display:inline"
-     transform="translate(0,-1036.3622)"><path
-       id="rect6032"
-       style="fill:#c80000;stroke-width:1.47265;stroke-opacity:0.74902"
-       d="M 1 1036.3622 C 0.446 1036.3622 0 1036.8082 0 1037.3622 L 0 1051.3622 C 0 1051.9162 0.446 1052.3622 1 1052.3622 L 15 1052.3622 C 15.554 1052.3622 16 1051.9162 16 1051.3622 L 16 1037.3622 C 16 1036.8082 15.554 1036.3622 15 1036.3622 L 1 1036.3622 z M 2.5 1043.3622 L 13.5 1043.3622 C 14.054 1043.3622 14.5 1043.8082 14.5 1044.3622 C 14.5 1044.9162 14.054 1045.3622 13.5 1045.3622 L 2.5 1045.3622 C 1.946 1045.3622 1.5 1044.9162 1.5 1044.3622 C 1.5 1043.8082 1.946 1043.3622 2.5 1043.3622 z " /></g></svg>
+     id="layer1">
+    <path
+       id="rect2"
+       style="fill:#c80000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583"
+       d="M 0.26458333 0 A 0.26458332 0.26458332 0 0 0 0 0.26458333 L 0 3.9687499 A 0.26458332 0.26458332 0 0 0 0.26458333 4.2333332 L 3.9687499 4.2333332 A 0.26458332 0.26458332 0 0 0 4.2333332 3.9687499 L 4.2333332 0.26458333 A 0.26458332 0.26458332 0 0 0 3.9687499 0 L 0.26458333 0 z M 0.62683511 1.8515665 L 3.6075317 1.8515665 A 0.2645835 0.2645835 0 0 1 3.8710815 2.1171834 A 0.2645835 0.2645835 0 0 1 3.6075317 2.3807332 L 0.62683511 2.3807332 A 0.2645835 0.2645835 0 0 1 0.36121825 2.1171834 A 0.2645835 0.2645835 0 0 1 0.62683511 1.8515665 z " />
+  </g>
+</svg>
