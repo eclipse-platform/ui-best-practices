@@ -730,5 +730,9 @@
     "org.eclipse.jdt.ui/icons/full/eview16/templates.svg",
     "org.eclipse.ui.workbench.texteditor/icons/full/eview16/templates.svg",
     "org.eclipse.ui.workbench.texteditor/icons/full/obj16/template_obj.svg"
+  ],
+  "module.svg" : [
+    "org.eclipse.debug.ui/icons/full/eview16/module_view.svg",
+    "org.eclipse.ui.externaltools/icons/full/obj16/classpath.svg"
   ]
 }
