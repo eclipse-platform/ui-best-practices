@@ -124,5 +124,6 @@
   "new_project.svg" : "Create a new project resource.",
   "new_text_file.svg" : "Create an empty untitled text file.",
   "templates.svg" : "Provides information about available templates.",
-  "tasks.svg" : "Displays manually added tasks."
+  "tasks.svg" : "Displays manually added tasks.",
+  "module.svg" : "Indicator for the module view and a classpath."
 }
