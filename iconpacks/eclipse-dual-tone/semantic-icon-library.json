@@ -1,6 +1,7 @@
 {
   "terminal.svg": "Open a terminal.",
   "console.svg" : "Opens console view.",
+  "build-projects.svg" : "Build projects action.",
   "fatal_error.svg" : "Indicates the presence of fatal errors.",
   "error.svg" : "Indicates the presence of errors.",
   "error_log.svg" : "Records detailed information about errors.",

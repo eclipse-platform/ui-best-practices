@@ -712,6 +712,11 @@
   "problems_view_info.svg" : [
     "org.eclipse.ui.ide/icons/full/eview16/problems_view_info.svg"
   ],
+  "build-projects.svg" : [
+    "org.eclipse.ui.ide/icons/full/etool16/build_exec.svg",
+    "org.eclipse.pde.ui/icons/full/etool16/build_exec.svg",
+    "org.eclipse.pde.ui/icons/full/obj16/build_exec.svg"
+  ],
   "info.svg" : [
     "org.eclipse.ui/icons/full/obj16/info_tsk.svg",
     "org.eclipse.ltk.ui.refactoring/icons/full/obj16/info_obj.svg",
