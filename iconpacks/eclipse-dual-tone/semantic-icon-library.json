@@ -27,6 +27,7 @@
   "debug-process.svg": "Indicator for a process that is being debugged.",
   "working_sets.svg" : "Group elements for display in views or for operations on a set of elements.",
   "run.svg": "Run action.",
+  "show-in-history-view.svg" : "Show in History action.",
   "expression.svg": "Indicator for an expression in the expression tab of the debug perspective.",
   "new_file.svg" : "Create a new file resource.",
   "new_folder.svg" : "Create a new folder resource.",
