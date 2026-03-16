@@ -128,5 +128,12 @@
   "new_text_file.svg" : "Create an empty untitled text file.",
   "templates.svg" : "Provides information about available templates.",
   "tasks.svg" : "Displays manually added tasks.",
-  "module.svg" : "Indicator for the module view and a classpath."
+  "module.svg" : "Indicator for the module view and a classpath.",
+  "compare-previous-difference.svg" : "Go to previous difference in compare view.",
+  "compare-next-difference.svg" : "Go to next difference in compare view.",
+  "compare-previous-change.svg" : "Go to previous change in compare view.",
+  "compare-next-change.svg" : "Go to next change in compare view.",
+  "copy-from-right-to-left.svg" : "Copy content from right to left in compare view.",
+  "copy-from-left-to-right.svg" : "Copy content from left to right in compare view.",
+  "compare-view.svg" : "Indicator for the compare view."
 }
