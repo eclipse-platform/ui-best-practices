@@ -230,6 +230,9 @@
   "group-breakpoints-by-breakpoint-types.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/brkp_type.svg"
   ],
+  "details.svg" : [
+    "org.eclipse.debug.ui/icons/full/eview16/details_view.svg"
+  ],
   "properties.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/common_tab.svg",
     "org.eclipse.debug.ui/icons/full/elcl16/prop_ps.svg",
