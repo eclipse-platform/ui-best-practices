@@ -739,5 +739,29 @@
   "module.svg" : [
     "org.eclipse.debug.ui/icons/full/eview16/module_view.svg",
     "org.eclipse.ui.externaltools/icons/full/obj16/classpath.svg"
+  ],
+  "compare-previous-difference.svg" : [
+    "org.eclipse.compare/icons/full/elcl16/prev_diff_nav.svg"
+  ],
+  "compare-next-difference.svg" : [
+    "org.eclipse.compare/icons/full/elcl16/next_diff_nav.svg"
+  ],
+  "compare-previous-change.svg" : [
+    "org.eclipse.compare/icons/full/elcl16/prev_change_nav.svg"
+  ],
+  "compare-next-change.svg" : [
+    "org.eclipse.compare/icons/full/elcl16/next_change_nav.svg"
+  ],
+  "copy-from-right-to-left.svg" : [
+    "org.eclipse.compare/icons/full/elcl16/copy_l_co.svg"
+  ],
+  "copy-from-left-to-right.svg" : [
+    "org.eclipse.compare/icons/full/elcl16/copy_r_co.svg"
+  ],
+  "compare-view.svg" : [
+    "org.eclipse.compare/icons/full/eview16/compare_view.svg",
+    "org.eclipse.team.ui/icons/full/eview16/compare_view.svg",
+    "org.eclipse.jdt.junit/icons/full/elcl16/compare.svg",
+    "org.eclipse.mylyn.tasks.ui/icons/etool16/compare.svg"
   ]
 }
