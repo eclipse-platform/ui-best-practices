@@ -1,5 +1,6 @@
 {
   "terminal.svg": "Open a terminal.",
+  "remove_stop.svg" : "Remove a stop action.",
   "console.svg" : "Opens console view.",
   "build-projects.svg" : "Build projects action.",
   "fatal_error.svg" : "Indicates the presence of fatal errors.",
