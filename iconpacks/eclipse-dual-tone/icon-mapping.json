@@ -3,6 +3,9 @@
     "org.eclipse.terminal.view.ui/icons/eview16/terminal_view.svg",
     "org.eclipse.terminal.connector.local/icons/eview16/terminal_view.svg"
   ],
+  "remove_stop.svg" : [
+    "org.eclipse.debug.ui/icons/full/elcl16/terminate_rem_co.svg"
+  ],
   "delete.svg" : [
     "org.eclipse.ui.workbench.texteditor/icons/full/elcl16/delete_template.svg",
     "org.eclipse.ui/icons/full/etool16/delete.svg",
