@@ -106,7 +106,11 @@
     "org.eclipse.search/icons/full/etool16/search.svg",
     "org.eclipse.search/icons/full/eview16/searchres.svg",
     "org.eclipse.ui.ide/icons/full/etool16/search_src.svg",
-    "org.eclipse.egit.ui/icons/elcl16/find.svg"
+    "org.eclipse.egit.ui/icons/elcl16/find.svg",
+    "org.eclipse.egit.ui/icons/dlcl16/find.svg",
+    "org.eclipse.egit.ui/icons/elcl16/search.svg",
+    "org.eclipse.egit.ui/icons/dlcl16/search.svg",
+    "org.eclipse.egit.ui/icons/obj16/search-commit.svg"
   ],
   "visit-last-edited-location.svg": [
     "org.eclipse.ui.editors/icons/etool16/last_edit_pos.svg"
@@ -299,7 +303,9 @@
     "org.eclipse.egit.ui/icons/elcl16/filter_project_funnel.svg",
     "org.eclipse.egit.ui/icons/elcl16/filter_folder_funnel.svg",
     "org.eclipse.egit.ui/icons/elcl16/filter_none_funnel.svg",
-    "org.eclipse.egit.ui/icons/elcl16/filter_resource_funnel.svg"
+    "org.eclipse.egit.ui/icons/elcl16/filter_resource_funnel.svg",
+    "org.eclipse.egit.ui/icons/elcl16/filter.svg",
+    "org.eclipse.egit.ui/icons/dlcl16/filter.svg"
   ]
   ,
   "folder.svg": [
