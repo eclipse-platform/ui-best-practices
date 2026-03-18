@@ -90,6 +90,9 @@
   "paste.svg" : [
     "org.eclipse.ui/icons/full/etool16/paste_edit.svg"
   ],
+  "memory.svg" : [
+    "org.eclipse.debug.ui/icons/full/eview16/memory_view.svg"
+  ],
   "outline.svg": [
     "org.eclipse.ui/icons/full/eview16/outline_co.svg",
     "org.eclipse.ui.views/icons/full/eview16/outline_co.svg"
