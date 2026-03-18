@@ -636,7 +636,8 @@
   "options.svg" : [
     "org.eclipse.ui/icons/full/elcl16/view_menu.svg",
     "org.eclipse.ui/icons/full/elcl16/thin_view_menu.svg",
-    "org.eclipse.ui/icons/full/elcl16/button_menu.svg"
+    "org.eclipse.ui/icons/full/elcl16/button_menu.svg",
+    "org.eclipse.e4.ui.workbench.renderers.swt/icons/full/elcl16/view_menu.svg"
   ],
   "show-in-history-view.svg" : [
     "org.eclipse.team.ui/icons/full/eview16/history_view.svg"
