@@ -106,6 +106,10 @@
   "redo.svg": [
     "org.eclipse.ui/icons/full/etool16/redo_edit.svg"
   ],
+  "restart_stop.svg" : [
+    "org.eclipse.debug.ui/icons/full/etool16/term_restart.svg",
+    "org.eclipse.debug.ui.launchview/icons/term_restart.svg"
+  ],
   "search.svg": [
     "org.eclipse.ui/icons/full/etool16/search.svg",
     "org.eclipse.ant.ui/icons/full/elcl16/search.svg",
