@@ -169,31 +169,6 @@ To contribute a new Icon please follow the upcoming steps:
 
 1. In the repository’s Issue overview (link), create a new issue using “Suggest an enhancement.”
 2. Delete the prefilled issue template 
-3. Use the provided issue template.**
+3. Use the provided issue template
 4. Fill out the template completely  
 5. Create the Issue
-
-**Template: Creating a new Issue**
-
-Dual-Tone-Icon-Pack: Platform Icon "undo_edit”
-
-Old Name:
-
-New Name:
-
-Purpose of use:
-
-Location:
-
-Known Duplicates:
-
-Original:
-
-Sketch for orientation:
-
-Similar Dual-Tone Icons to reuse parts from:
-
-
-**Example:**
-
-<img width="50%" height="50%" alt="Bildschirmfoto 2026-03-17 um 10 50 58" src="https://github.com/user-attachments/assets/47d022a2-d990-473e-b72f-a96531a547ff" />
