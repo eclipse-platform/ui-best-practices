@@ -779,5 +779,8 @@
     "org.eclipse.team.ui/icons/full/eview16/compare_view.svg",
     "org.eclipse.jdt.junit/icons/full/elcl16/compare.svg",
     "org.eclipse.mylyn.tasks.ui/icons/etool16/compare.svg"
+  ],
+  "whitespace.svg" : [
+    "org.eclipse.ui.workbench.texteditor/icons/full/etool16/show_whitespace_chars.svg"
   ]
 }
