@@ -128,6 +128,7 @@
   "problems_view_info.svg" : "Indicates problems view status information",
   "progress_view.svg" : "Displays the progress of running operations.",
   "info.svg" : "Indicates an information.",
+  "help.svg" : "Open help action.",
   "new_project.svg" : "Create a new project resource.",
   "new_text_file.svg" : "Create an empty untitled text file.",
   "templates.svg" : "Provides information about available templates.",
