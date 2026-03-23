@@ -98,6 +98,7 @@
   "rundebug.svg": "Indicator for run debug configuration.",
   "synchronize.svg": "Synchronize action.",
   "rename.svg" : "Rename resource action in file menu.",
+  "line-break.svg" : "Automatically breaks long lines.",
   "save.svg": "Save action.",
   "save-all.svg": "Save all action",
   "collapse.svg": "Collapse elements in view action.",

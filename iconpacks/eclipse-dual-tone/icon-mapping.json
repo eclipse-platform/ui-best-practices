@@ -342,6 +342,10 @@
     "org.eclipse.jdt.ui/icons/full/obj16/jar_obj.svg",
     "org.eclipse.jdt.ui/icons/full/obj16/jar_l_obj.svg"
   ],
+  "line-break.svg" : [
+    "org.eclipse.ui.workbench.texteditor/icons/full/etool16/wordwrap.svg",
+    "org.eclipse.ui.console/icons/full/elcl16/wordwrap.svg"
+  ],
   "perspective.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/persp_tab.svg",
     "org.eclipse.team.cvs.ui/icons/full/elcl16/local_history_mode.svg",
