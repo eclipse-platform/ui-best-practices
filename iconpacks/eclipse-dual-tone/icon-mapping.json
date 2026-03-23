@@ -405,6 +405,20 @@
     "org.eclipse.egit.ui/icons/elcl16/clear_co.svg",
     "org.eclipse.search/icons/full/elcl16/search_rem.svg"
   ],
+  "help.svg" : [
+    "org.eclipse.help.ui/icons/etool16/help.svg",
+    "org.eclipse.jface/icons/full/help.svg",
+    "org.eclipse.mylyn.wikitext.ui/icons/help.svg",
+    "org.eclipse.pde.api.tools.ui/icons/full/elcl16/help.svg",
+    "org.eclipse.pde.bnd.ui/icons/help.svg",
+    "org.eclipse.pde.ui/icons/elcl16/help.svg",
+    "org.eclipse.ui/icons/full/elcl16/linkto_help.svg",
+    "org.eclipse.ui.cheatsheets/icons/elcl16/linkto_help.svg",
+    "org.eclipse.ui/icons/full/etool16/help_contents.svg",
+    "org.eclipse.help.ui/icons/view16/help_view.svg",
+    "org.eclipse.pde.ui/icons/obj16/ctxhelp_context_obj.svg",
+    "org.eclipse.pde.ua.ui/icons/obj16/ctxhelp_context_obj.svg"
+  ],
   "import_dir.svg": [
     "org.eclipse.ui.ide/icons/full/etool16/importdir_wiz.svg"
   ],
