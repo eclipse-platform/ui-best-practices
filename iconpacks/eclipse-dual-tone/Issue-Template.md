@@ -1,4 +1,4 @@
-## Eclipse Dual Tone Icon Pack Style Guide
+## Eclipse Dual Tone Icon Pack Issue Template
 
 Dual-Tone-Icon-Pack: Platform Icon "<icon-name>”
 
