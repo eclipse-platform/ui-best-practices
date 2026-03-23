@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 4.2333332 4.2333333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="back.svg"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="false"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#ffffff"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="40.934734"
+     inkscape:cx="7.6341035"
+     inkscape:cy="8.4891231"
+     inkscape:window-width="1728"
+     inkscape:window-height="990"
+     inkscape:window-x="0"
+     inkscape:window-y="344"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     showguides="true"><inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="0.26458333"
+       spacingy="0.26458333"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" /></sodipodi:namedview><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><path
+       id="rect1"
+       style="fill:#ff7f27;fill-opacity:1;fill-rule:evenodd;stroke-width:0.243648"
+       d="M 2.2144409 0.39687499 A 0.11476011 0.20707073 0 0 0 2.1530897 0.4242635 L 1.5978615 1.0009725 A 125.00195 225.55089 0 0 0 1.254733 1.3580566 L 0.70081943 1.9373494 A 0.11476011 0.20707073 0 0 0 0.70081943 2.2959838 L 1.254733 2.8752766 A 125.00195 225.55089 0 0 0 1.5978615 3.2323608 L 2.1530897 3.8090697 A 0.11476011 0.20707073 0 0 0 2.3248731 3.6297525 L 2.3257495 2.9104166 L 3.9686467 2.9104166 A 0.26458332 0.26458332 0 0 0 4.2333333 2.6458333 L 4.2333333 1.5875 A 0.26458332 0.26458332 0 0 0 3.9686467 1.3229166 L 2.3257495 1.3229166 L 2.3248731 0.60358072 A 0.11476011 0.20707073 0 0 0 2.2144409 0.39687499 z "
+       transform="matrix(1.1792274,0,0,1,-0.75872935,0)" /></g></svg>

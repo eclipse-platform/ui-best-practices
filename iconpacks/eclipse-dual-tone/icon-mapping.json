@@ -118,6 +118,38 @@
     "org.eclipse.egit.ui/icons/dlcl16/search.svg",
     "org.eclipse.egit.ui/icons/obj16/search-commit.svg"
   ],
+  "back.svg" : [
+    "org.eclipse.help.webapp/advanced/images/e_back.svg"
+  ],
+  "forward.svg" : [
+    "org.eclipse.help.webapp/advanced/images/e_forward.svg"
+  ],
+  "next.svg" : [
+    "org.eclipse.compare/icons/full/elcl16/next_nav.svg",
+    "org.eclipse.jdt.junit/icons/full/elcl16/select_next.svg",
+    "org.eclipse.pde.api.tools/icons/full/elcl16/next_nav.svg",
+    "org.eclipse.pde.spy.bundle/icons/state_stopping.svg",
+    "org.eclipse.search/icons/full/elcl16/search_next.svg",
+    "org.eclipse.ui.views.log/icons/eview16/event_next.svg",
+    "org.eclipse.ui.workbench.texteditor/icons/full/elcl16/select_next.svg",
+    "org.eclipse.unittest.ui/icons/full/elcl16/select_next.svg",
+    "org.eclipse.team.ui/icons/full/elcl16/next_nav.svg",
+    "org.eclipse.ui.editors/icons/etool16/next_nav.svg",
+    "org.eclipse.egit.ui/icons/elcl16/next_nav.svg"
+  ],
+  "previous.svg" : [
+    "org.eclipse.compare/icons/full/elcl16/prev_nav.svg",
+    "org.eclipse.jdt.junit/icons/full/elcl16/select_prev.svg",
+    "org.eclipse.pde.api.tools/icons/full/elcl16/prev_nav.svg",
+    "org.eclipse.pde.spy.bundle/icons/state_starting.svg",
+    "org.eclipse.search/icons/full/elcl16/search_prev.svg",
+    "org.eclipse.ui.views.log/icons/eview16/event_prev.svg",
+    "org.eclipse.unittest.ui/icons/full/elcl16/select_prev.svg",
+    "org.eclipse.ui.workbench.texteditor/icons/full/elcl16/select_prev.svg",
+    "org.eclipse.team.ui/icons/full/elcl16/prev_nav.svg",
+    "org.eclipse.ui.editors/icons/etool16/prev_nav.svg",
+    "org.eclipse.egit.ui/icons/elcl16/prev_nav.svg"
+  ],
   "visit-last-edited-location.svg": [
     "org.eclipse.ui.editors/icons/etool16/last_edit_pos.svg"
   ],
@@ -628,15 +660,9 @@
     "org.eclipse.egit.ui/icons/elcl16/goto_input.svg"
   ],
   "go-previous-in-current-file.svg": [
-    "org.eclipse.team.ui/icons/full/elcl16/prev_nav.svg",
-    "org.eclipse.ui.editors/icons/etool16/prev_nav.svg",
-    "org.eclipse.egit.ui/icons/elcl16/prev_nav.svg",
     "org.eclipse.ui.ide/icons/full/etool16/prev_nav.svg"
   ],
   "go-next-in-current-file.svg": [
-    "org.eclipse.team.ui/icons/full/elcl16/next_nav.svg",
-    "org.eclipse.ui.editors/icons/etool16/next_nav.svg",
-    "org.eclipse.egit.ui/icons/elcl16/next_nav.svg",
     "org.eclipse.ui.ide/icons/full/etool16/next_nav.svg"
   ],
   "options.svg" : [
