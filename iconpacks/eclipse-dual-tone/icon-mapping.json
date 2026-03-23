@@ -15,6 +15,10 @@
     "org.eclipse.debug.ui/icons/full/elcl16/delete_config.svg",
     "org.eclipse.debug.ui.launchview/icons/delete_exc.svg"
   ],
+  "stop_all.svg" : [
+    "org.eclipse.debug.ui/icons/full/elcl16/terminate_all_co.svg",
+    "org.eclipse.debug.ui.launchview/icons/terminate_all_co.svg"
+  ],
   "console.svg" : [
     "org.eclipse.ui.console/icons/full/eview/console_view.svg",
     "org.eclipse.ui.console/icons/full/cview/console_view.svg",
