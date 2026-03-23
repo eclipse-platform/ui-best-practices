@@ -109,6 +109,7 @@ This section outlines the design rules for Eclipse icons in the dual tone icon p
 ---
 
 ### **Components**
+
 The following components represent already developed design elements of the icon pack. They serve as reusable building blocks and play an important role in maintaining a consistent and recognizable visual style.
 
 When creating new icons, these components should be used whenever they are thematically appropriate. This helps ensure that style, proportions, and visual language remain consistent throughout the icon pack, while also enabling faster and more efficient icon creation.
@@ -133,6 +134,7 @@ For each component, both the implemented example icon and the component itself a
 ---
 
 ### **Checklist for Icon Designs**
+
 This checklist provides a quick reference to ensure that newly created icons follow the design principles and visual standards of the Dual Tone Icon Pack.
 It is recommended to work with Inkscape.
 
@@ -150,6 +152,7 @@ It is recommended to work with Inkscape.
 ---
 
 ### **How to contribute a new Icon Design**
+
 To contribute a new Icon please follow the upcoming steps: 
 
 1. Choose an existing issue in the Dual Tone Icon Repo *
