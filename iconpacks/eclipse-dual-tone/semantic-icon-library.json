@@ -81,6 +81,7 @@
   "project-explorer.svg": "Indicator for the project explorer.",
   "export-config.svg": "Export configuration action.",
   "import-config.svg": "Import configuration action.",
+  "clear.svg" : "Clear elements action.",
   "pin.svg" : "Pin various views",
   "internal_browser.svg" : "Enables the use of an internal web browser.",
   "os-process-running.svg": "Indicator for a running os process.",
