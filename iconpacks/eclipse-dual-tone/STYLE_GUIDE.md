@@ -144,7 +144,7 @@ It is recommended to work with Inkscape.
 - [ ] All Strokes: 2px
 - [ ] Min. distance of elements: 1,5px
 - [ ] Corners: Rounded with a radius of 1.0px (only outer corners)
-- [ ] Does the color fit the purpose? (As listed in Color Assignment Section) < verlinken
+- [ ] Does the color fit the purpose? (As listed in Color Assignment Section)
 - [ ] Are all shapes transformed to paths?
 - [ ] Are all groups ungrouped?  
 - [ ] Is the file named according to the new Icon name?
