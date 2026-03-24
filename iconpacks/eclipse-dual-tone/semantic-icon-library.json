@@ -105,6 +105,7 @@
   "variable-view.svg": "Indicator for the variable view.",
   "go-to.svg": "Open resource action e.g. in system explorer.",
   "go-backward-to-visited-file.svg": "Go backward to visited file.",
+  "highlight.svg" : "Toggle the highlighting of occurrences of an element in a file editor.",
   "go-forward-to-visited-file.svg": "Go forward to visited file.",
   "options.svg" : "Show available options.",
   "close.svg" : "Close the current part.",

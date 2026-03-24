@@ -575,6 +575,13 @@
   "save-all": [
     "org.eclipse.ui/icons/full/etool16/saveall_edit.svg"
   ],  
+  "highlight.svg" : [
+    "org.eclipse.ant.ui/icons/full/etool16/mark_occurrences.svg",
+    "org.eclipse.help.ui/icons/elcl16/highlight.svg",
+    "org.eclipse.help.webapp/advanced/images/e_highlight.svg",
+    "org.eclipse.jdt.ui/icons/full/etool16/mark_occurrences.svg",
+    "org.eclipse.ui.genericeditor/icons/full/etool16/mark_occurrences.svg"
+  ],
   "collapse.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/collapseall.svg",
     "org.eclipse.e4.tools.context.spy/icons/collapseall.svg",
