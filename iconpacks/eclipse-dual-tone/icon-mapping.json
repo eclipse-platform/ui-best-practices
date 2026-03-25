@@ -512,7 +512,8 @@
     "org.eclipse.ui/icons/full/elcl16/refresh_nav.svg",
     "org.eclipse.ui.ide/icons/full/elcl16/refresh_nav.svg",
     "org.eclipse.egit.ui/icons/obj16/refresh.svg",
-    "org.eclipse.egit.ui/icons/elcl16/refresh.svg"
+    "org.eclipse.egit.ui/icons/elcl16/refresh.svg",
+    "org.eclipse.search/icons/full/elcl16/search_again.svg"
   ],
   "new_file.svg" : [
     "org.eclipse.ui.ide/icons/full/etool16/newfile_wiz.svg"
@@ -733,7 +734,9 @@
     "org.eclipse.e4.ui.workbench.renderers.swt/icons/full/elcl16/view_menu.svg"
   ],
   "show-in-history-view.svg" : [
-    "org.eclipse.team.ui/icons/full/eview16/history_view.svg"
+    "org.eclipse.team.ui/icons/full/eview16/history_view.svg",
+    "org.eclipse.search/icons/full/elcl16/tsearch_obj.svg",
+    "org.eclipse.search/icons/full/elcl16/search_history.svg"
   ],
   "close.svg" : [
     "org.eclipse.ui/icons/full/elcl16/close_view.svg",
