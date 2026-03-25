@@ -7,6 +7,9 @@
   "remove_stop.svg" : [
     "org.eclipse.debug.ui/icons/full/elcl16/terminate_rem_co.svg"
   ],
+  "pause-debug-process.svg" : [
+    "org.eclipse.debug.ui/icons/full/obj16/debugts_obj.svg"
+  ],
   "delete.svg" : [
     "org.eclipse.ui.workbench.texteditor/icons/full/elcl16/delete_template.svg",
     "org.eclipse.ui/icons/full/etool16/delete.svg",
