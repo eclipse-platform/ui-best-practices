@@ -106,6 +106,7 @@
   "synchronize.svg": "Synchronize action.",
   "rename.svg" : "Rename resource action in file menu.",
   "line-break.svg" : "Automatically breaks long lines.",
+  "block-selection.svg" : "Select and edit a rectangular (column) area of text.",
   "save.svg": "Save action.",
   "save-all.svg": "Save all action",
   "collapse.svg": "Collapse elements in view action.",

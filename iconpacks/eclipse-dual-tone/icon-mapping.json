@@ -628,6 +628,9 @@
   "copyedit.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/copy_edit_co.svg"
   ],
+  "block-selection.svg" : [
+    "org.eclipse.ui.workbench.texteditor/icons/full/etool16/block_selection_mode.svg"
+  ],
   "synchronize.svg": [
     "org.eclipse.team.ui/icons/full/elcl16/synced.svg",
     "org.eclipse.debug.ui/icons/full/elcl16/synced.svg",
