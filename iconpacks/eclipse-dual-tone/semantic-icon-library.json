@@ -1,5 +1,6 @@
 {
   "terminal.svg": "Open a terminal.",
+  "trash.svg" : "Collect repository garbage in git perspective.",
   "remove_stop.svg" : "Remove a stop action.",
   "pause-debug-process.svg" : "Indicator for a paused process that is being debugged.",
   "console.svg" : "Opens console view.",
