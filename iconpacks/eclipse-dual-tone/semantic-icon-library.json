@@ -150,5 +150,7 @@
   "copy-from-right-to-left.svg" : "Copy content from right to left in compare view.",
   "copy-from-left-to-right.svg" : "Copy content from left to right in compare view.",
   "compare-view.svg" : "Indicator for the compare view.",
-  "whitespace.svg" : "Shows spaces, tabs, and line breaks."
+  "whitespace.svg" : "Shows spaces, tabs, and line breaks.",
+  "export-breakpoints.svg" : "Saves breakpoints to reuse or share.",
+  "import-breakpoints.svg" : "Loads previously saved breakpoints."
 }

@@ -880,5 +880,11 @@
   ],
   "whitespace.svg" : [
     "org.eclipse.ui.workbench.texteditor/icons/full/etool16/show_whitespace_chars.svg"
+  ],
+  "export-breakpoints.svg" : [
+    "org.eclipse.debug.ui/icons/full/elcl16/export_brkpts.svg"
+  ],
+  "import-breakpoints.svg" : [
+    "org.eclipse.debug.ui/icons/full/elcl16/import_brkpts.svg"
   ]
 }
