@@ -83,6 +83,7 @@
   "frame.svg": "Indicator for a frame in debug mode.",
   "refresh.svg": "Refresh action.",
   "check.svg": "Indicator for a checked option in a menu.",
+  "plugin.svg" : "Indicates features provided by an installed Eclipse plugin.",
   "uncheck.svg": "Indicator for an unchecked option in a menu.",
   "project-explorer.svg": "Indicator for the project explorer.",
   "export-config.svg": "Export configuration action.",

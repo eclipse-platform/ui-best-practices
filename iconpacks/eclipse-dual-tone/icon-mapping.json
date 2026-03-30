@@ -806,6 +806,15 @@
     "org.eclipse.ui/icons/full/progress/pview.svg",
     "org.eclipse.ui.ide/icons/full/eview16/pview.svg"
   ],
+  "plugin.svg" : [
+    "org.eclipse.core.tools.resources/icons/plugin.svg",
+    "org.eclipse.pde.api.tools.ui/icons/full/obj16/plugin_obj.svg",
+    "org.eclipse.pde.runtime/icons/obj16/plugin_obj.svg",
+    "org.eclipse.pde.ui/icons/eview16/plugins.svg",
+    "org.eclipse.pde.ui/icons/obj16/plugin_obj.svg",
+    "org.eclipse.pde.ui/icons/view16/plugins.svg",
+    "org.eclipse.pde.ui/icons/view16/plugin_persp.svg"
+  ],
   "minimap.svg" : [
     "org.eclipse.ui.workbench.texteditor/icons/full/eview16/minimap.svg"
   ],
