@@ -54,6 +54,12 @@
     "org.eclipse.pde.ui/icons/view16/error_log.svg",
     "org.eclipse.ui.views.log/icons/eview16/error_log.svg"
   ],
+  "smartmode.svg" : [
+    "org.eclipse.compare/icons/full/elcl16/smartmode_co.svg",
+    "org.eclipse.jdt.ui/icons/full/elcl16/smartmode_co.svg",
+    "org.eclipse.ui.ide/icons/full/elcl16/smartmode_co.svg",
+    "org.eclipse.jdt.ui/icons/full/obj16/quickfix_obj.svg"
+  ],
   "warning.svg" : [
     "org.eclipse.ui/icons/full/obj16/warn_tsk.svg",
     "org.eclipse.jface/icons/full/message_warning.svg",
