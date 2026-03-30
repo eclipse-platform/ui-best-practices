@@ -20,6 +20,7 @@
   "go-next-in-current-file.svg": "Go to next annotation in current file",
   "visit-last-edited-location.svg": "Visit last edited location.",
   "visit-next-edited-location.svg": "Visit next edited location.",
+  "smartmode.svg" : "Indicator for quickfix view.",
   "resume.svg": "Resume until next breakpoint in debug mode.",
   "step-into.svg": "Step into next operation in debug mode.",
   "toggle-breakpoint-filter.svg": "Toggle for enabling breakpoint filtering in debug mode.",
