@@ -720,6 +720,11 @@
   "run-last-debug.svg" : [
     "org.eclipse.debug.ui/icons/full/elcl16/debuglast_co.svg"
   ],
+  "cheatsheet.svg" : [
+    "org.eclipse.ui.cheatsheets/icons/view16/cheatsheet_view.svg",
+    "org.eclipse.platform/icons/etool16/cheatsheet_view.svg",
+    "org.eclipse.pde.ua.ui/icons/obj16/cheatsheet_obj.svg"
+  ],
   "expand.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/expandall.svg",
     "org.eclipse.e4.tools.context.spy/icons/expandall.svg",
