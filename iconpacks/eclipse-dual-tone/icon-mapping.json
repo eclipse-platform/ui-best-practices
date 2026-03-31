@@ -703,6 +703,13 @@
     "org.eclipse.egit.ui/icons/elcl16/collapseall.svg",
     "org.eclipse.help.webapp/advanced/images/minus.svg"
   ],
+  "run-last.svg" : [
+    "org.eclipse.debug.ui/icons/full/elcl16/runlast_co.svg",
+    "org.eclipse.jdt.junit/icons/full/elcl16/relaunch.svg"
+  ],
+  "run-last-debug.svg" : [
+    "org.eclipse.debug.ui/icons/full/elcl16/debuglast_co.svg"
+  ],
   "expand.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/expandall.svg",
     "org.eclipse.e4.tools.context.spy/icons/expandall.svg",
