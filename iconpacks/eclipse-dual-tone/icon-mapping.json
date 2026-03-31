@@ -549,8 +549,9 @@
     "org.eclipse.debug.ui/icons/full/obj16/uncheck.svg",
     "org.eclipse.ui.ide/icons/full/obj16/incomplete_tsk.svg"
   ],
-  "project-explorer.svg": [
-    "org.eclipse.debug.ui/icons/full/obj16/workset.svg"
+  "explorer.svg": [
+    "org.eclipse.debug.ui/icons/full/obj16/workset.svg",
+    "org.eclipse.ui.ide.application/icons/full/eview16/resource_persp.svg"
   ],
   "export-config.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/export_config_obj.svg"
