@@ -134,6 +134,7 @@
   "save_as.svg" : "Save as action.",
   "minimap.svg" : "Provides a small preview code window.",
   "import.svg": "Opens import wizard",
+  "welcome.svg" : "Indicates the welcome page.",
   "export.svg": "Opens export wizard",
   "hierarchical_layout.svg" : "Show as tree view.",
   "flat_layout.svg" : "Show as list view.",

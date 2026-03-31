@@ -595,6 +595,10 @@
   "register-group-indicator.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/genericreggroup_obj.svg"
   ],
+  "welcome.svg" : [
+    "org.eclipse.ui.intro/icons/welcome16.svg",
+    "org.eclipse.ui.intro.universal/icons/welcome16.svg"
+  ],
   "register-indicator.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/genericregister_obj.svg",
     "org.eclipse.debug.ui/icons/full/eview16/register_view.svg"
