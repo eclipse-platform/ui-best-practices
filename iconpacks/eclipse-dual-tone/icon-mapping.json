@@ -908,5 +908,12 @@
   ],
   "import-breakpoints.svg" : [
     "org.eclipse.debug.ui/icons/full/elcl16/import_brkpts.svg"
+  ],
+  "home.svg" : [
+    "org.eclipse.ui.browser/icons/clcl16/nav_home.svg",
+    "org.eclipse.ui.browser/icons/clcl16/nav_home.svg",
+    "org.eclipse.ui.browser/icons/elcl16/nav_home.svg",
+    "org.eclipse.ui.intro/icons/full/elcl16/home_nav.svg",
+    "org.eclipse.ui/icons/full/elcl16/home_nav.svg"
   ]
 }

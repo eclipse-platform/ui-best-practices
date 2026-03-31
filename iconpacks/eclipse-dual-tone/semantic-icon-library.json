@@ -157,5 +157,6 @@
   "compare-view.svg" : "Indicator for the compare view.",
   "whitespace.svg" : "Shows spaces, tabs, and line breaks.",
   "export-breakpoints.svg" : "Saves breakpoints to reuse or share.",
-  "import-breakpoints.svg" : "Loads previously saved breakpoints."
+  "import-breakpoints.svg" : "Loads previously saved breakpoints.",
+  "home.svg" : "Jump to workspace/project root."
 }
