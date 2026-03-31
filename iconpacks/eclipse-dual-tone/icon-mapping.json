@@ -863,6 +863,9 @@
     "org.eclipse.ui.externaltools/icons/full/obj16/build_tab.svg",
     "org.eclipse.ui.externaltools/icons/full/obj16/builder.svg"
   ],
+  "debug-tool-tip.svg" : [
+    "org.eclipse.debug.ui/icons/full/obj16/debugtt_obj.svg"
+  ],
   "info.svg" : [
     "org.eclipse.ui/icons/full/obj16/info_tsk.svg",
     "org.eclipse.ltk.ui.refactoring/icons/full/obj16/info_obj.svg",
