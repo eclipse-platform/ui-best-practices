@@ -628,6 +628,11 @@
     "org.eclipse.mylyn.tasks.ui/icons/elcl16/context-clear.svg",
     "org.eclipse.mylyn.tasks.ui/icons/etool16/context-clear.svg"
   ],
+  "sort.svg" : [
+    "org.eclipse.jdt.ui/icons/full/elcl16/search_sortmatch.svg",
+    "org.eclipse.pde.ui/icons/elcl16/search_sortmatch.svg",
+    "org.eclipse.search/icons/full/elcl16/search_sortmatch.svg"
+  ],
   "prototype.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/proto_tab.svg"
   ],
