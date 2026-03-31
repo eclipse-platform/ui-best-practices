@@ -121,6 +121,7 @@
   "go-forward-to-visited-file.svg": "Go forward to visited file.",
   "options.svg" : "Show available options.",
   "close.svg" : "Close the current part.",
+  "explorer.svg" : "Resource/workspace navigation perspective.",
   "maximize.svg" : "Maximize the current part stack.",
   "minimize.svg" : "Minimize the current part stack.",
   "restore_view.svg" : "Restore the current part stack.",
