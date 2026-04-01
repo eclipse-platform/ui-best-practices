@@ -513,7 +513,6 @@
     "org.eclipse.ui.ide/icons/full/elcl16/refresh_nav.svg",
     "org.eclipse.egit.ui/icons/obj16/refresh.svg",
     "org.eclipse.egit.ui/icons/elcl16/refresh.svg",
-    "org.eclipse.search/icons/full/elcl16/search_again.svg"
   ],
   "new_file.svg" : [
     "org.eclipse.ui.ide/icons/full/etool16/newfile_wiz.svg"
