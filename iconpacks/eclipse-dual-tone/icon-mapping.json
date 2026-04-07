@@ -10,6 +10,10 @@
   "remove_stop.svg" : [
     "org.eclipse.debug.ui/icons/full/elcl16/terminate_rem_co.svg"
   ],
+  "run-to-line.svg" : [
+    "org.eclipse.debug.ui/icons/full/elcl16/runtoline_co.svg",
+    "org.eclipse.jdt.debug.ui/icons/full/elcl16/runtoline_co.svg"
+  ],
   "pause-debug-process.svg" : [
     "org.eclipse.debug.ui/icons/full/obj16/debugts_obj.svg"
   ],
