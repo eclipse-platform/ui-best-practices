@@ -286,6 +286,34 @@
     "org.eclipse.debug.ui/icons/full/elcl16/stepbystep_co.svg",
     "org.eclipse.debug.ui/elcl16/stepbystep_co.svg"
   ],
+  "java-perspective.svg" : [
+    "org.eclipse.jdt.ui/icons/full/eview16/jperspective.svg"
+  ],
+  "java-exception-breakpoint.svg" : [
+    "org.eclipse.jdt.ui/icons/full/elcl16/exc_catch.svg",
+    "org.eclipse.jdt.junit/icons/full/obj16/exc_catch.svg",
+    "org.eclipse.jdt.ui/icons/full/elcl16/exc_catch.svg",
+    "org.eclipse.jdt.debug.ui/icons/full/elcl16/exc_catch.svg"
+  ],
+  "java-class.svg" : [
+    "org.eclipse.jdt.ui/icons/full/elcl16/class_obj.svg",
+    "org.eclipse.jdt.ui/icons/full/obj16/innerclass_public_obj.svg",
+    "org.eclipse.pde.runtime/icons/obj16/class_obj.svg"
+  ],
+  "execute-expression.svg" : [
+    "org.eclipse.jdt.debug.ui/icons/full/etool16/run_sbook.svg"
+  ],
+  "java-display-expression.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/jsbook_obj.svg",
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/jsbook_obj.svg"
+  ],
+  "java-search.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/jsearch_obj.svg"
+  ],
+  "java-doc.svg" : [
+    "org.eclipse.jdt.ui/icons/full/etool16/javadoc.svg",
+    "org.eclipse.pde.runtime/icons/obj16/location_obj.svg"
+  ],
   "step-over.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/stepover_co.svg",
     "org.eclipse.debug.ui/elcl16/stepover_co.svg"
