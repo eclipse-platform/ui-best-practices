@@ -1233,6 +1233,12 @@
     "org.eclipse.mylyn.tasks.ui/icons/etool16/compare.svg",
     "org.eclipse.unittest.ui/icons/full/elcl16/compare.svg"
   ],
+  "default.svg" : [
+    "org.eclipse.ant.ui/icons/full/obj16/eclipse_obj.svg",
+    "org.eclipse.pde.ui.tests/icons/sample.svg",
+    "org.eclipse.ui.examples.javaeditor/icons/resolver.svg",
+    "org.eclipse.ui.examples.javaeditor/icons/sample.svg"
+  ],
   "whitespace.svg" : [
     "org.eclipse.ui.workbench.texteditor/icons/full/etool16/show_whitespace_chars.svg",
     "org.eclipse.ui.editors/etool16/show_whitespace_chars.svg",
