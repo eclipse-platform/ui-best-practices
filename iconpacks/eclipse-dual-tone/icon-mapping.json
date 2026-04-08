@@ -1252,5 +1252,11 @@
     "org.eclipse.ui.intro/icons/full/elcl16/home_nav.svg",
     "org.eclipse.ui/icons/full/elcl16/home_nav.svg",
     "org.eclipse.help.webapp/advanced/images/e_home.svg"
+  ],
+  "console-error-output.svg" : [
+    "org.eclipse.debug.ui/icons/full/elcl16/writeerr_co.svg"
+  ],
+  "console-standard-output.svg" : [
+    "org.eclipse.debug.ui/icons/full/elcl16/writeout_co.svg"
   ]
 }
