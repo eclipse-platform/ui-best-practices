@@ -1275,6 +1275,9 @@
   "export-breakpoints.svg" : [
     "org.eclipse.debug.ui/icons/full/elcl16/export_brkpts.svg"
   ],
+  "resource-count.svg" : [
+    "org.eclipse.core.tools.resources/icons/spy.svg"
+  ],
   "import-breakpoints.svg" : [
     "org.eclipse.debug.ui/icons/full/elcl16/import_brkpts.svg",
     "org.eclipse.debug.ui/elcl16/import_brkpts.svg"
