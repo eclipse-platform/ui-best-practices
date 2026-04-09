@@ -112,6 +112,9 @@
     "org.eclipse.jdt.ui/icons/full/obj16/warning_obj.svg",
     "org.eclipse.ltk.ui.refactoring/obj16/warning_obj.svg"
   ],
+  "install-software.svg" : [
+    "org.eclipse.pde.ui/icons/obj16/feature_obj.svg"
+  ],
   "hierarchical_layout.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/hierarchicalLayout.svg",
     "org.eclipse.jdt.junit/icons/full/elcl16/hierarchicalLayout.svg",
