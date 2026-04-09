@@ -206,6 +206,9 @@
     "org.eclipse.jdt.doc.user/gettingStarted/images/search.svg",
     "org.eclipse.help.ui/icons/obj16/sinfocenter_obj.svg"
   ],
+  "update.svg" : [
+    "org.eclipse.equinox.p2.ui/icons/obj/iu_update_obj.svg"
+  ],
   "back.svg" : [
     "org.eclipse.help.webapp/advanced/images/e_back.svg",
     "org.eclipse.help.webapp/advanced/images/back.svg",
