@@ -21,6 +21,9 @@
     "org.eclipse.debug.ui/obj16/debugts_obj.svg",
     "org.eclipse.debug.ui/icons/full/obj16/debugts_obj.svg"
   ],
+  "all-instances.svg" : [
+    "org.eclipse.jdt.debug.ui/icons/full/elcl16/all_instances.svg"
+  ],
   "delete.svg" : [
     "org.eclipse.ui.workbench.texteditor/icons/full/elcl16/delete_template.svg",
     "org.eclipse.ui/icons/full/etool16/delete.svg",
