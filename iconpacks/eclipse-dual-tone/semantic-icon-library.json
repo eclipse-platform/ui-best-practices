@@ -83,6 +83,7 @@
   "readwrite.svg": "Indicator for read/write permissions.",
   "write.svg": "Indicator for write permissions.",
   "debug-tool-tip.svg" : "Identifies a terminated debug target.",
+  "synchronize-resources.svg" : "Indicator for the Team Synchronizing perspective.",
   "read.svg": "Indicator for read permissions.",
   "thread-running.svg": "Indicator for a running thread in debug mode.",
   "thread-paused.svg": "Indicator for a paused thread in debug mode.",
