@@ -21,6 +21,7 @@
   "paste.svg" : "Inserts the clipboard content at the current location.",
   "memory.svg" : "Indicator for the memory view.",
   "outline.svg": "Outline view indicator.",
+  "inspect-expression.svg" : "Inspect selected expression.",
   "go-previous-in-current-file.svg": "Go to previous annotation in current file",
   "go-next-in-current-file.svg": "Go to next annotation in current file",
   "visit-last-edited-location.svg": "Visit last edited location.",
