@@ -629,6 +629,10 @@
     "org.eclipse.terminal.view.ui/icons/elcl16/disconnect.svg",
     "org.eclipse.debug.ui/elcl16/disconnect_co.svg"
   ],
+  "synchronize-resources.svg" : [
+    "org.eclipse.team.ui/icons/full/eview16/synch_synch.svg",
+    "org.eclipse.team.ui/icons/full/elcl16/synch_participants.svg"
+  ],
   "remove-all.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/rem_all_co.svg",
     "org.eclipse.ant.ui/icons/full/elcl16/removeall_co.svg",
