@@ -11,6 +11,9 @@
     "org.eclipse.debug.ui/icons/full/elcl16/terminate_rem_co.svg",
     "org.eclipse.debug.ui/elcl16/terminate_rem_co.svg"
   ],
+  "all-references.svg" : [
+    "org.eclipse.jdt.debug.ui/icons/full/elcl16/all_references.svg"
+  ],
   "run-to-line.svg" : [
     "org.eclipse.debug.ui/icons/full/elcl16/runtoline_co.svg",
     "org.eclipse.jdt.debug.ui/icons/full/elcl16/runtoline_co.svg",
