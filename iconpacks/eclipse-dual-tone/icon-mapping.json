@@ -57,6 +57,13 @@
     "org.eclipse.pde.bnd.ui/icons/excludeMode_filter.svg",
     "org.eclipse.ltk.ui.refactoring/obj16/fatalerror_obj.svg"
   ],
+  "inspect-expression.svg" : [
+    "org.eclipse.pde.ui/icons/obj16/focus.svg",
+    "org.eclipse.jdt.astview/icons/e/setfocus.svg",
+    "org.eclipse.jdt.jeview/icons/c/setfocus.svg",
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/insp_sbook.svg",
+    "org.eclipse.jdt.debug.ui/icons/full/etool16/insp_sbook.svg"
+  ],
   "error.svg" : [
     "org.eclipse.ui/icons/full/obj16/error_tsk.svg",
     "org.eclipse.ant.ui/icons/full/obj16/ant_target_err.svg",
