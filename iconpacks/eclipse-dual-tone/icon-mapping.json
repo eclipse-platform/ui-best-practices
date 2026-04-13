@@ -159,6 +159,9 @@
     "org.eclipse.pde.spy.preferences/icons/flatLayout.svg",
     "org.eclipse.debug.ui/icons/full/elcl16/select_all.svg"
   ],
+  "inherited-members-filter.svg" : [
+    "org.eclipse.ui.ide/icons/full/obj16/inheritable_filter.svg"
+  ],
   "copy.svg" : [
     "org.eclipse.ui/icons/full/etool16/copy_edit.svg",
     "org.eclipse.debug.ui/icons/full/elcl16/copy_edit_co.svg",
