@@ -15,7 +15,8 @@
     "org.eclipse.debug.ui/elcl16/terminate_rem_co.svg"
   ],
   "all-references.svg" : [
-    "org.eclipse.jdt.debug.ui/icons/full/elcl16/all_references.svg"
+    "org.eclipse.jdt.debug.ui/icons/full/elcl16/all_references.svg",
+    "org.eclipse.jdt.debug.ui/elcl16/all_references.svg"
   ],
   "run-to-line.svg" : [
     "org.eclipse.debug.ui/icons/full/elcl16/runtoline_co.svg",
@@ -28,7 +29,8 @@
     "org.eclipse.debug.ui/icons/full/obj16/debugts_obj.svg"
   ],
   "all-instances.svg" : [
-    "org.eclipse.jdt.debug.ui/icons/full/elcl16/all_instances.svg"
+    "org.eclipse.jdt.debug.ui/icons/full/elcl16/all_instances.svg",
+    "org.eclipse.jdt.debug.ui/elcl16/all_instances.svg"
   ],
   "delete.svg" : [
     "org.eclipse.ui.workbench.texteditor/icons/full/elcl16/delete_template.svg",
@@ -71,7 +73,10 @@
     "org.eclipse.jdt.astview/icons/e/setfocus.svg",
     "org.eclipse.jdt.jeview/icons/c/setfocus.svg",
     "org.eclipse.jdt.debug.ui/icons/full/obj16/insp_sbook.svg",
-    "org.eclipse.jdt.debug.ui/icons/full/etool16/insp_sbook.svg"
+    "org.eclipse.jdt.debug.ui/icons/full/etool16/insp_sbook.svg",
+    "org.eclipse.jdt.debug.ui/etool16/insp_sbook.svg",
+    "org.eclipse.jdt.debug.ui/obj16/insp_sbook.svg",
+    "org.eclipse.ui.workbench.texteditor/icons/full/obj16/preview.svg"
   ],
   "error.svg" : [
     "org.eclipse.ui/icons/full/obj16/error_tsk.svg",
@@ -88,7 +93,10 @@
     "org.eclipse.jface/icons/full/message_error.svg",
     "org.eclipse.ui.ide/icons/full/elcl16/showerr_tsk.svg",
     "org.eclipse.platform.doc.user/images/ant_target_err.svg",
-    "org.eclipse.jface/src/org/eclipse/jface/dialogs/images/message_error.svg"
+    "org.eclipse.jface/src/org/eclipse/jface/dialogs/images/message_error.svg",
+    "org.eclipse.ltk.ui.refactoring/obj16/error_obj.svg",
+    "org.eclipse.platform.doc.user/images/error_obj.svg",
+    "org.eclipse.pde.ui/icons/obj16/error_st_obj.svg"
   ],
   "error_log.svg" : [
     "org.eclipse.ui.views.log/icons/eview16/error_log.svg",
@@ -145,7 +153,9 @@
     "org.eclipse.ui.cheatsheets/icons/elcl16/tree_explorer.svg",
     "org.eclipse.platform.doc.user/images/tree_mode.svg",
     "org.eclipse.jdt.astview/icons/view.svg",
-    "org.eclipse.jdt.jeview/icons/view.svg"
+    "org.eclipse.jdt.jeview/icons/view.svg",
+    "org.eclipse.jdt.ui/icons/full/eview16/class_hi.svg",
+    "org.eclipse.ui.navigator/icons/full/elcl16/content.svg"
   ],
   "flat_layout.svg" : [
     "org.eclipse.search/icons/full/elcl16/flatLayout.svg",
@@ -321,26 +331,46 @@
     "org.eclipse.jdt.ui/icons/full/elcl16/exc_catch.svg",
     "org.eclipse.jdt.junit/icons/full/obj16/exc_catch.svg",
     "org.eclipse.jdt.ui/icons/full/elcl16/exc_catch.svg",
-    "org.eclipse.jdt.debug.ui/icons/full/elcl16/exc_catch.svg"
+    "org.eclipse.jdt.debug.ui/icons/full/elcl16/exc_catch.svg",
+    "org.eclipse.jdt.debug.ui/elcl16/exc_catch.svg",
+    "org.eclipse.jdt.junit/obj16/exc_catch.svg",
+    "org.eclipse.unittest.ui/icons/full/obj16/exc_catch.svg",
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/jexcept_obj.svg",
+    "org.eclipse.jdt.ui/icons/full/obj16/jexception_obj.svg",
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/jexception_obj.svg",
+    "org.eclipse.jdt.ui/obj16/jexception_obj.svg",
+    "org.eclipse.jdt.debug.ui/obj16/jexception_obj.svg"
   ],
   "java-class.svg" : [
     "org.eclipse.jdt.ui/icons/full/elcl16/class_obj.svg",
     "org.eclipse.jdt.ui/icons/full/obj16/innerclass_public_obj.svg",
-    "org.eclipse.pde.runtime/icons/obj16/class_obj.svg"
+    "org.eclipse.pde.runtime/icons/obj16/class_obj.svg",
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/class_obj.svg",
+    "org.eclipse.jdt.ui/obj16/class_obj.svg",
+    "org.eclipse.jdt.ui/icons/full/obj16/class_obj.svg",
+    "org.eclipse.jdt.debug.ui/obj16/class_obj.svg",
+    "org.eclipse.pde.ds.ui/icons/obj16/class_obj.svg",
+    "org.eclipse.core.tools.resources/icons/classes.svg",
+    "org.eclipse.pde.ui/icons/elcl16/generate_class.svg"
   ],
   "execute-expression.svg" : [
     "org.eclipse.jdt.debug.ui/icons/full/etool16/run_sbook.svg"
   ],
   "java-display-expression.svg" : [
     "org.eclipse.jdt.ui/icons/full/obj16/jsbook_obj.svg",
-    "org.eclipse.jdt.debug.ui/icons/full/obj16/jsbook_obj.svg"
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/jsbook_obj.svg",
+    "org.eclipse.jdt.debug.ui/icons/full/etool16/disp_sbook.svg",
+    "org.eclipse.jdt.debug.ui/etool16/disp_sbook.svg",
+    "org.eclipse.jdt.debug.ui/obj16/jsbook_obj.svg"
   ],
   "java-search.svg" : [
-    "org.eclipse.jdt.ui/icons/full/obj16/jsearch_obj.svg"
+    "org.eclipse.jdt.ui/icons/full/obj16/jsearch_obj.svg",
+    "org.eclipse.jdt.ui/obj16/jsearch_obj.svg"
   ],
   "java-doc.svg" : [
     "org.eclipse.jdt.ui/icons/full/etool16/javadoc.svg",
-    "org.eclipse.pde.runtime/icons/obj16/location_obj.svg"
+    "org.eclipse.pde.runtime/icons/obj16/location_obj.svg",
+    "org.eclipse.jdt.ui/icons/full/eview16/javadoc.svg"
   ],
   "step-over.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/stepover_co.svg",
@@ -479,7 +509,8 @@
   "single_orientation.svg" : [
     "org.eclipse.search/icons/full/elcl16/singleOrientation.svg",
     "org.eclipse.debug.ui/icons/full/elcl16/det_pane_hide.svg",
-    "org.eclipse.jdt.ui/icons/full/elcl16/th_single.svg"
+    "org.eclipse.jdt.ui/icons/full/elcl16/th_single.svg",
+    "org.eclipse.debug.ui/elcl16/det_pane_hide.svg"
   ],
   "automatic_orientation.svg" : [
     "org.eclipse.search/icons/full/elcl16/automaticOrientation.svg",
@@ -498,7 +529,8 @@
     "org.eclipse.jdt.junit/icons/full/elcl16/th_horizontal.svg",
     "org.eclipse.unittest.ui/icons/full/elcl16/th_horizontal.svg",
     "org.eclipse.pde.ui/icons/elcl16/th_horizontal.svg",
-    "org.eclipse.jdt.ui/icons/full/elcl16/th_horizontal.svg"
+    "org.eclipse.jdt.ui/icons/full/elcl16/th_horizontal.svg",
+    "org.eclipse.debug.ui/elcl16/det_pane_right.svg"
   ],
   "vertical_orientation.svg" : [
     "org.eclipse.search/icons/full/elcl16/verticalOrientation.svg",
@@ -508,7 +540,8 @@
     "org.eclipse.pde.runtime/icons/eview16/vertical_view.svg",
     "org.eclipse.pde.ui/icons/elcl16/th_vertical.svg",
     "org.eclipse.ui.ide.application/icons/full/elcl16/split_vertical.svg",
-    "org.eclipse.unittest.ui/icons/full/elcl16/th_vertical.svg"
+    "org.eclipse.unittest.ui/icons/full/elcl16/th_vertical.svg",
+    "org.eclipse.debug.ui/elcl16/det_pane_under.svg"
   ],
   "environment.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/environment_obj.svg",
@@ -605,11 +638,13 @@
     "org.eclipse.debug.ui/icons/full/obj16/write_obj.svg",
     "org.eclipse.ui.workbench.texteditor/icons/full/elcl16/edit_template.svg",
     "org.eclipse.debug.ui.launchview/icons/edit_template.svg",
-    "org.eclipse.jdt.debug.ui/obj16/write_obj.svg"
+    "org.eclipse.jdt.debug.ui/obj16/write_obj.svg",
+    "org.eclipse.debug.ui/icons/full/elcl16/bp_label.svg"
   ],
   "read.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/read_obj.svg",
-    "org.eclipse.jdt.debug.ui/obj16/read_obj.svg"
+    "org.eclipse.jdt.debug.ui/obj16/read_obj.svg",
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/jwatch_obj.svg"
   ],
   "thread-running.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/thread_obj.svg",
@@ -637,7 +672,8 @@
   ],
   "synchronize-resources.svg" : [
     "org.eclipse.team.ui/icons/full/eview16/synch_synch.svg",
-    "org.eclipse.team.ui/icons/full/elcl16/synch_participants.svg"
+    "org.eclipse.team.ui/icons/full/elcl16/synch_participants.svg",
+    "org.eclipse.platform.doc.user/images/synch_participants.svg"
   ],
   "remove-all.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/rem_all_co.svg",
@@ -785,7 +821,9 @@
     "org.eclipse.debug.ui/elcl16/enabled_co.svg",
     "org.eclipse.pde.ui/icons/obj16/ok_st_obj.svg",
     "org.eclipse.jdt.ui/obj16/translate.svg",
-    "org.eclipse.jdt.ui/icons/full/obj16/translate.svg"
+    "org.eclipse.jdt.ui/icons/full/obj16/translate.svg",
+    "org.eclipse.platform.doc.user/images/complete_task.svg",
+    "org.eclipse.ui.cheatsheets/icons/elcl16/complete_task.svg"
   ],
   "uncheck.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/uncheck.svg",
@@ -797,7 +835,8 @@
   "explorer.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/workset.svg",
     "org.eclipse.ui.ide.application/icons/full/eview16/resource_persp.svg",
-    "org.eclipse.ui.navigator.resources/icons/full/eview16/resource_persp.svg"
+    "org.eclipse.ui.navigator.resources/icons/full/eview16/resource_persp.svg",
+    "org.eclipse.ui.ide/icons/full/obj16/fileFolderType_filter.svg"
   ],
   "export-config.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/export_config_obj.svg"
@@ -997,7 +1036,9 @@
     "org.eclipse.jdt.junit/icons/full/elcl16/collapseall.svg",
     "org.eclipse.pde.spy.context/icons/collapseall.svg",
     "org.eclipse.jdt.ui/elcl16/collapseall.svg",
-    "org.eclipse.debug.ui/elcl16/collapseall.svg"
+    "org.eclipse.debug.ui/elcl16/collapseall.svg",
+    "org.eclipse.platform.doc.user/images/collapse_expand_all.svg",
+    "org.eclipse.ui.cheatsheets/icons/elcl16/collapse_expand_all.svg"
   ],
   "run-last.svg" : [
     "org.eclipse.debug.ui/icons/full/elcl16/runlast_co.svg",
@@ -1042,7 +1083,8 @@
     "org.eclipse.help.webapp/advanced/images/e_bookmarks_view.svg",
     "org.eclipse.ui/icons/full/eview16/bkmrk_nav.svg",
     "org.eclipse.ui.ide/icons/full/obj16/bkmrk_tsk.svg",
-    "org.eclipse.help.ui/icons/obj16/bookmark_obj.svg"
+    "org.eclipse.help.ui/icons/obj16/bookmark_obj.svg",
+    "org.eclipse.platform.doc.user/images/bookmark_obj.svg"
   ],
   "rename.svg" : [
     "org.eclipse.ui/icons/full/etool16/editor_area.svg",
@@ -1075,7 +1117,8 @@
   "go-next-in-current-file.svg": [
     "org.eclipse.ui.ide/icons/full/etool16/next_nav.svg",
     "org.eclipse.ui.editors/icons/full/etool16/next_nav.svg",
-    "org.eclipse.platform.doc.user/images/next_nav.svg"
+    "org.eclipse.platform.doc.user/images/next_nav.svg",
+    "org.eclipse.ui.editors/etool16/next_nav.svg"
   ],
   "options.svg" : [
     "org.eclipse.ui/icons/full/elcl16/view_menu.svg",
@@ -1168,7 +1211,8 @@
     "org.eclipse.ui/icons/full/etool16/import_wiz.svg",
     "org.eclipse.ui/icons/full/pref/import_wiz.svg",
     "org.eclipse.jdt.junit/icons/full/etool16/import_wiz.svg",
-    "org.eclipse.platform.doc.user/images/import_wiz.svg"
+    "org.eclipse.platform.doc.user/images/import_wiz.svg",
+    "org.eclipse.ant.ui/icons/full/ovr16/import_co.svg"
   ],
   "export.svg" : [
     "org.eclipse.ui.ide/icons/full/etool16/export_wiz.svg",
@@ -1233,7 +1277,10 @@
     "org.eclipse.jface/src/org/eclipse/jface/dialogs/images/message_info.svg",
     "org.eclipse.compare/icons/full/obj16/message_info.svg",
     "org.eclipse.jface/bin/org/eclipse/jface/dialogs/images/message_info.svg",
-    "org.eclipse.jface/icons/full/message_info.svg"
+    "org.eclipse.jface/icons/full/message_info.svg",
+    "org.eclipse.jdt.ui/icons/full/obj16/info_obj.svg",
+    "org.eclipse.platform.doc.user/images/info_obj.svg",
+    "org.eclipse.ltk.ui.refactoring/obj16/info_obj.svg"
   ],
   "new_project.svg" : [
     "org.eclipse.ui.ide/icons/full/etool16/newprj_wiz.svg",
@@ -1251,7 +1298,7 @@
     "org.eclipse.jdt.ui/obj16/template_obj.svg",
     "org.eclipse.jdt.ui/icons/full/elcl16/templateprop_co.svg"
   ],
-  "module.svg" : [
+  "library.svg" : [
     "org.eclipse.debug.ui/icons/full/eview16/module_view.svg",
     "org.eclipse.ui.externaltools/icons/full/obj16/classpath.svg",
     "eclipse.platform.releng.aggregator/sites/eclipse/overview/images/build_done.svg",
@@ -1305,7 +1352,8 @@
     "org.eclipse.platform.doc.user/images/show_whitespace_chars.svg"
   ],
   "export-breakpoints.svg" : [
-    "org.eclipse.debug.ui/icons/full/elcl16/export_brkpts.svg"
+    "org.eclipse.debug.ui/icons/full/elcl16/export_brkpts.svg",
+    "org.eclipse.debug.ui/elcl16/export_brkpts.svg"
   ],
   "resource-count.svg" : [
     "org.eclipse.core.tools.resources/icons/spy.svg"
@@ -1320,12 +1368,16 @@
     "org.eclipse.ui.browser/icons/elcl16/nav_home.svg",
     "org.eclipse.ui.intro/icons/full/elcl16/home_nav.svg",
     "org.eclipse.ui/icons/full/elcl16/home_nav.svg",
-    "org.eclipse.help.webapp/advanced/images/e_home.svg"
+    "org.eclipse.help.webapp/advanced/images/e_home.svg",
+    "org.eclipse.platform.doc.user/images/home_nav.svg",
+    "org.eclipse.help.webapp/advanced/images/home.svg"
   ],
   "console-error-output.svg" : [
-    "org.eclipse.debug.ui/icons/full/elcl16/writeerr_co.svg"
+    "org.eclipse.debug.ui/icons/full/elcl16/writeerr_co.svg",
+    "org.eclipse.debug.ui/elcl16/writeerr_co.svg"
   ],
   "console-standard-output.svg" : [
-    "org.eclipse.debug.ui/icons/full/elcl16/writeout_co.svg"
+    "org.eclipse.debug.ui/icons/full/elcl16/writeout_co.svg",
+    "org.eclipse.debug.ui/elcl16/writeout_co.svg"
   ]
 }

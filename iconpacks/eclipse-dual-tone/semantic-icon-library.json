@@ -170,7 +170,7 @@
   "templates.svg" : "Provides information about available templates.",
   "tasks.svg" : "Displays manually added tasks.",
   "default.svg" : "Default icon, used as fallback icon when no specific one exists.",
-  "module.svg" : "Indicator for the module view and a classpath.",
+  "library.svg" : "Indicator for the module view and a classpath.",
   "compare-previous-difference.svg" : "Go to previous difference in compare view.",
   "compare-next-difference.svg" : "Go to next difference in compare view.",
   "resource-count.svg" : "Counts visited resources.",
