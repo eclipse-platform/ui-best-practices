@@ -23,6 +23,7 @@
   "outline.svg": "Outline view indicator.",
   "inspect-expression.svg" : "Focus and inspect selected element.",
   "go-previous-in-current-file.svg": "Go to previous annotation in current file",
+  "inherited-members-filter.svg" : "Toggles visibility of inherited methods/fields in views",
   "go-next-in-current-file.svg": "Go to next annotation in current file",
   "visit-last-edited-location.svg": "Visit last edited location.",
   "visit-next-edited-location.svg": "Visit next edited location.",
