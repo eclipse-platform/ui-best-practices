@@ -233,6 +233,9 @@
     "org.eclipse.jdt.ui/elcl16/forward_nav.svg",
     "org.eclipse.platform.doc.user/images/forward_nav.svg"
   ],
+  "open-type.svg" : [
+    "org.eclipse.jdt.ui/icons/full/etool16/opentype.svg"
+  ],
   "next.svg" : [
     "org.eclipse.compare/icons/full/elcl16/next_nav.svg",
     "org.eclipse.jdt.junit/icons/full/elcl16/select_next.svg",
