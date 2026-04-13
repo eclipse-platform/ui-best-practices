@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 4.2333332 4.2333333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="open-type.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="false"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#ffffff"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="21.078125"
+     inkscape:cx="8.4447739"
+     inkscape:cy="8.3736101"
+     inkscape:window-width="1805"
+     inkscape:window-height="1371"
+     inkscape:window-x="1342"
+     inkscape:window-y="122"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     showguides="true">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="0.26458333"
+       spacingy="0.26458333"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path1"
+       transform="matrix(1.0040223,0,0,1.1458313,0.44046792,2.4175598)"
+       inkscape:transform-center-y="-0.73138223"
+       d="m 3.6280028,1.5817797 -1.6998236,0.00269 a 163.28141,163.28141 2.5055939e-7 0 1 -0.5173913,0 l -1.69982364,-0.00269 A 0.14990519,0.14990519 60 0 1 -0.41873853,1.3571279 L 0.42884095,-0.11630907 A 163.28141,163.28141 120 0 1 0.68753662,-0.5643831 L 1.5397808,-2.035127 a 0.14990519,0.14990519 2.5055945e-7 0 1 0.2594055,0 l 0.8522441,1.47074384 a 163.28141,163.28141 60 0 1 0.2586957,0.44807403 L 3.7577056,1.3571279 A 0.14990519,0.14990519 120 0 1 3.6280028,1.5817797 Z"
+       style="fill:#ff7f27;fill-opacity:1;stroke:none;stroke-width:0.493356;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none" />
+  </g>
+</svg>
