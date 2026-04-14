@@ -98,6 +98,9 @@
     "org.eclipse.platform.doc.user/images/error_obj.svg",
     "org.eclipse.pde.ui/icons/obj16/error_st_obj.svg"
   ],
+  "breadcrumb.svg" : [
+    "org.eclipse.jdt.ui/icons/full/etool16/toggle_breadcrumb.svg"
+  ],
   "error_log.svg" : [
     "org.eclipse.ui.views.log/icons/eview16/error_log.svg",
     "org.eclipse.pde.runtime/icons/obj16/error_stack.svg",
