@@ -197,6 +197,10 @@
     "org.eclipse.ui/icons/full/etool16/undo_edit.svg",
     "org.eclipse.platform.doc.user/images/undo_edit.svg"
   ],
+  "copy-qualified-name.svg" : [
+    "org.eclipse.pde.runtime/icons/elcl16/cpyqual_menu.svg",
+    "org.eclipse.jdt.ui/icons/full/elcl16/cpyqual_menu.svg"
+  ],
   "redo.svg": [
     "org.eclipse.ui/icons/full/etool16/redo_edit.svg",
     "org.eclipse.platform.doc.user/images/redo_edit.svg"
