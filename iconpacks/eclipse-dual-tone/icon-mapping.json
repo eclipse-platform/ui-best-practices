@@ -285,6 +285,9 @@
     "org.eclipse.jdt.doc.user/gettingStarted/images/search_next.svg",
     "org.eclipse.jdt.junit/elcl16/select_next.svg"
   ],
+  "file-navigator.svg" : [
+    "org.eclipse.e4.ui.tests/icons/filenav_nav.svg"
+  ],
   "previous.svg" : [
     "org.eclipse.compare/icons/full/elcl16/prev_nav.svg",
     "org.eclipse.jdt.junit/icons/full/elcl16/select_prev.svg",

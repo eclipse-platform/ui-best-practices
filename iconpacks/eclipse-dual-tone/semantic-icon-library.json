@@ -72,6 +72,7 @@
   "environment.svg": "Indicator for the environment settings of a run/debug configuration.",
   "segment-selection.svg" : "Edit selected segment.",
   "file.svg": "Indicator for a file.",
+  "file-navigator.svg" : "Shows raw project structure.",
   "problems_view.svg" : "Problems view indicator.",
   "install-software.svg" : "Install new plugins/software.",
   "filter.svg": "Filter action",
