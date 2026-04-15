@@ -898,6 +898,11 @@
     "org.eclipse.ui.intro/icons/welcome16.svg",
     "org.eclipse.ui.intro.universal/icons/welcome16.svg"
   ],
+  "classpath.svg" : [
+    "org.eclipse.jdt.ui/icons/full/etool16/classpath_obj.svg",
+    "org.eclipse.ant.ui/icons/full/obj16/classpath.svg",
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/classpath_obj.svg"
+  ],
   "register-indicator.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/genericregister_obj.svg",
     "org.eclipse.debug.ui/icons/full/eview16/register_view.svg"

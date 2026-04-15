@@ -81,6 +81,7 @@
   "forward.svg" : "Go to next page in wizard action.",
   "update.svg" : "Checks for available updates.",
   "next.svg" : "Select next element in list action.",
+  "classpath.svg" : "Java classpath container.",
   "previous.svg" : "Select previous element in list action.",
   "readwrite.svg": "Indicator for read/write permissions.",
   "write.svg": "Indicator for write permissions.",
