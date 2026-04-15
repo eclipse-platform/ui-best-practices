@@ -945,6 +945,9 @@
   "prototype.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/proto_tab.svg"
   ],
+  "compact-view.svg" : [
+    "org.eclipse.debug.ui/icons/full/elcl16/debug_view_compact.svg"
+  ],
   "rundebug.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/rundebug.svg"
   ],
