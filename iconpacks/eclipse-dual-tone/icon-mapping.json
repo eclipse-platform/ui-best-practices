@@ -341,6 +341,10 @@
     "org.eclipse.jdt.ui/obj16/jexception_obj.svg",
     "org.eclipse.jdt.debug.ui/obj16/jexception_obj.svg"
   ],
+  "segment-selection.svg" : [
+    "org.eclipse.ui.workbench.texteditor/icons/full/etool16/segment_edit.svg",
+    "org.eclipse.jdt.ui/icons/full/etool16/segment_edit.svg"
+  ],
   "java-class.svg" : [
     "org.eclipse.jdt.ui/icons/full/elcl16/class_obj.svg",
     "org.eclipse.jdt.ui/icons/full/obj16/innerclass_public_obj.svg",
