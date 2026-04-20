@@ -246,6 +246,9 @@
     "org.eclipse.jdt.ui/elcl16/forward_nav.svg",
     "org.eclipse.platform.doc.user/images/forward_nav.svg"
   ],
+  "tree-view.svg" : [
+    "org.eclipse.debug.ui/icons/full/elcl16/debug_view_tree.svg"
+  ],
   "open-type.svg" : [
     "org.eclipse.jdt.ui/icons/full/etool16/opentype.svg"
   ],
