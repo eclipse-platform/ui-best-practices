@@ -52,6 +52,7 @@
   "expression.svg": "Indicator for an expression in the expression tab of the debug perspective.",
   "add-bookmark.svg" : "Add new bookmark.",
   "new_file.svg" : "Create a new file resource.",
+  "previous-step-into.svg" : "Navigate into previous element.",
   "new_folder.svg" : "Create a new folder resource.",
   "new_group.svg" : "Create a new group resource.",
   "breakpoint.svg": "Indicator for a breakpoint.",
