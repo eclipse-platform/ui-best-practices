@@ -300,6 +300,10 @@
     "org.eclipse.ui.browser/icons/clcl16/nav_backward.svg",
     "org.eclipse.ui.browser/icons/elcl16/nav_backward.svg"
   ],
+  "container.svg" : [
+    "org.eclipse.help.ui/icons/obj16/container_obj.svg",
+    "org.eclipse.ui.intro/icons/container_obj.svg"
+  ],
   "go-forward-to-visited-file.svg": [
     "org.eclipse.ui.browser/icons/clcl16/nav_forward.svg",
     "org.eclipse.ui.browser/icons/elcl16/nav_forward.svg",
