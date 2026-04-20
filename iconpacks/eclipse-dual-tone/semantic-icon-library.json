@@ -61,6 +61,7 @@
   "group-breakpoints-by-breakpoint-types.svg": "Group breakpoints by breakpoint types in breakpoint view.",
   "properties.svg": "Indicator for generic properties.",
   "environment.svg": "Indicator for the environment settings of a run/debug configuration.",
+  "segment-selection.svg" : "Edit selected segment.",
   "file.svg": "Indicator for a file.",
   "problems_view.svg" : "Problems view indicator.",
   "install-software.svg" : "Install new plugins/software.",
