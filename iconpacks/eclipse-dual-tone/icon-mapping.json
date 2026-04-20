@@ -286,6 +286,9 @@
     "org.eclipse.jdt.doc.user/gettingStarted/images/search_prev.svg",
     "org.eclipse.jdt.junit/elcl16/select_prev.svg"
   ],
+  "sync-navigation.svg" : [
+    "org.eclipse.help.webapp/advanced/images/synch_toc_nav.svg"
+  ],
   "visit-last-edited-location.svg": [
     "org.eclipse.ui.editors/icons/etool16/last_edit_pos.svg",
     "org.eclipse.ui.editors/icons/full/etool16/last_edit_pos.svg",
