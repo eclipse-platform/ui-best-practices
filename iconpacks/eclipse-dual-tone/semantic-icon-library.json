@@ -46,6 +46,7 @@
   "run.svg": "Run action.",
   "show-in-history-view.svg" : "Show in History action.",
   "expression.svg": "Indicator for an expression in the expression tab of the debug perspective.",
+  "add-bookmark.svg" : "Add new bookmark.",
   "new_file.svg" : "Create a new file resource.",
   "new_folder.svg" : "Create a new folder resource.",
   "new_group.svg" : "Create a new group resource.",
