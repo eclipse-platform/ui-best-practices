@@ -35,6 +35,7 @@
   "step-return.svg": "Step out of current operation and return to last operation in debug mode.",
   "suspend.svg": "Suspend a running execution in debug mode.",
   "open-type.svg" : "Open Java type by name.",
+  "tree-view.svg" : "Tree debug view layout.",
   "details.svg" : "Indicator for the details view.",
   "stop.svg": "Stop action.",
   "run-last.svg" : "Run last launched run configuration again.",
