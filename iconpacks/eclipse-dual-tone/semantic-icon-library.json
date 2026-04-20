@@ -53,6 +53,7 @@
   "java-perspective.svg" : "Switch to Java development layout.",
   "java-exception-breakpoint.svg" : "Break on thrown exceptions.",
   "java-class.svg" : "Represents a Java class.",
+  "search-history.svg" : "Show a list of previous searches.",
   "execute-expression.svg" : "Execute selected code.",
   "java-display-expression.svg" : "Display expression value.",
   "java-search.svg" : "Search Java elements.",
