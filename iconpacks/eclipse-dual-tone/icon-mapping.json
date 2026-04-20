@@ -229,6 +229,11 @@
   "update.svg" : [
     "org.eclipse.equinox.p2.ui/icons/obj/iu_update_obj.svg"
   ],
+  "date.svg" : [
+    "org.eclipse.compare/icons/full/obj16/date_obj.svg",
+    "org.eclipse.ltk.ui.refactoring/icons/full/obj16/date_obj.svg",
+    "org.eclipse.team.ui/icons/full/obj/dates.svg"
+  ],
   "back.svg" : [
     "org.eclipse.help.webapp/advanced/images/e_back.svg",
     "org.eclipse.help.webapp/advanced/images/back.svg",

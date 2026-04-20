@@ -31,6 +31,7 @@
   "resume.svg": "Resume until next breakpoint in debug mode.",
   "step-into.svg": "Step into next operation in debug mode.",
   "toggle-breakpoint-filter.svg": "Toggle for enabling breakpoint filtering in debug mode.",
+  "date.svg" : "Represents date value.",
   "step-over.svg": "Step over next operation in debug mode.",
   "step-return.svg": "Step out of current operation and return to last operation in debug mode.",
   "suspend.svg": "Suspend a running execution in debug mode.",
