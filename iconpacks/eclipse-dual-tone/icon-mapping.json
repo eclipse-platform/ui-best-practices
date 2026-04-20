@@ -198,6 +198,9 @@
     "org.eclipse.ui/icons/full/etool16/redo_edit.svg",
     "org.eclipse.platform.doc.user/images/redo_edit.svg"
   ],
+  "previous-step-into.svg" : [
+    "org.eclipse.compare/icons/full/elcl16/prev_nav_into.svg"
+  ],
   "restart_stop.svg" : [
     "org.eclipse.debug.ui/icons/full/etool16/term_restart.svg",
     "org.eclipse.debug.ui.launchview/icons/term_restart.svg",
