@@ -310,6 +310,10 @@
     "org.eclipse.ui/icons/full/eview16/problems_view.svg",
     "org.eclipse.ui.ide/icons/full/eview16/problems_view.svg"
   ],
+  "add-bookmark.svg" : [
+    "org.eclipse.help.ui/icons/elcl16/addbkmrk_co.svg",
+    "org.eclipse.help.webapp/advanced/images/e_add_bkmrk.svg"
+  ],
   "resume.svg": [
     "org.eclipse.jdt.debug.ui/icons/full/elcl16/resume_co.svg",
     "org.eclipse.debug.ui/icons/full/elcl16/resume_co.svg",
