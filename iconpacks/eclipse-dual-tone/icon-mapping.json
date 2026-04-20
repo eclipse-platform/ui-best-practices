@@ -320,6 +320,9 @@
     "org.eclipse.debug.ui/icons/full/elcl16/stepinto_co.svg",
     "org.eclipse.debug.ui/elcl16/stepinto_co.svg"
   ],
+  "search-history.svg" : [
+    "org.eclipse.search/icons/full/elcl16/search_history.svg"
+  ],
   "toggle-breakpoint-filter.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/stepbystep_co.svg",
     "org.eclipse.debug.ui/elcl16/stepbystep_co.svg"
