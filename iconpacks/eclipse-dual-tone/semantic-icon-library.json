@@ -152,6 +152,7 @@
   "options.svg" : "Show available options.",
   "close.svg" : "Close the current part.",
   "explorer.svg" : "Resource/workspace navigation perspective.",
+  "copy-view-to-clipboard.svg" : "Copy view content to clipboard.",
   "maximize.svg" : "Maximize the current part stack.",
   "minimize.svg" : "Minimize the current part stack.",
   "restore_view.svg" : "Restore the current part stack.",
