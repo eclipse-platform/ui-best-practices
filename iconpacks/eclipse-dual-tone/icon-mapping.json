@@ -1399,6 +1399,9 @@
     "org.eclipse.debug.ui/icons/full/elcl16/import_brkpts.svg",
     "org.eclipse.debug.ui/elcl16/import_brkpts.svg"
   ],
+  "edit-navigator.svg" : [
+    "org.eclipse.debug.ui/icons/full/elcl16/edtsrclkup_co.svg"
+  ],
   "home.svg" : [
     "org.eclipse.ui.browser/icons/clcl16/nav_home.svg",
     "org.eclipse.ui.browser/icons/clcl16/nav_home.svg",
