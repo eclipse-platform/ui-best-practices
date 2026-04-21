@@ -1319,6 +1319,16 @@
     "org.eclipse.platform.doc.user/images/info_obj.svg",
     "org.eclipse.ltk.ui.refactoring/obj16/info_obj.svg"
   ],
+  "copy-content-to-left.svg" : [
+    "org.eclipse.compare/icons/full/elcl16/copycont_l_co.svg",
+    "org.eclipse.team.ui/icons/full/elcl16/checkout_action.svg",
+    "org.eclipse.compare/icons/full/elcl16/copycont_l_co.svg"
+  ],
+  "copy-content-to-right.svg" : [
+    "org.eclipse.compare/icons/full/elcl16/copycont_r_co.svg",
+    "org.eclipse.team.ui/icons/full/elcl16/checkin_action.svg",
+    "org.eclipse.compare/icons/full/elcl16/copycont_r_co.svg"
+  ],
   "new_project.svg" : [
     "org.eclipse.ui.ide/icons/full/etool16/newprj_wiz.svg",
     "org.eclipse.platform.doc.user/images/newprj_wiz.svg"

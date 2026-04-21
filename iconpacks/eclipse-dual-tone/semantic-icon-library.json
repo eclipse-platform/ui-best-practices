@@ -141,6 +141,8 @@
   "line-break.svg" : "Automatically breaks long lines.",
   "block-selection.svg" : "Select and edit a rectangular (column) area of text.",
   "save.svg": "Save action.",
+  "copy-content-to-left.svg" : "Copy content to the left.",
+  "copy-content-to-right.svg" : "Copy content to the right",
   "save-all.svg": "Save all action",
   "collapse.svg": "Collapse elements in view action.",
   "expand.svg": "Expand elements in view action.",
