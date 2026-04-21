@@ -1413,6 +1413,9 @@
     "org.eclipse.debug.ui/icons/full/elcl16/writeerr_co.svg",
     "org.eclipse.debug.ui/elcl16/writeerr_co.svg"
   ],
+  "launch-configuration.svg" : [
+    "org.eclipse.debug.ui/icons/full/obj16/launchConfiguration.svg"
+  ],
   "console-standard-output.svg" : [
     "org.eclipse.debug.ui/icons/full/elcl16/writeout_co.svg",
     "org.eclipse.debug.ui/elcl16/writeout_co.svg"
