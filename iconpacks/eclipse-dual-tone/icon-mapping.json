@@ -1370,6 +1370,11 @@
     "org.eclipse.compare/icons/full/elcl16/copy_r_co.svg",
     "org.eclipse.platform.doc.user/images/copy_r_co.svg"
   ],
+  "layout.svg" : [
+    "org.eclipse.e4.ui.workbench.addons.swt/icons/full/obj16/layout_co.svg",
+    "org.eclipse.help.ui/icons/elcl16/layout_co.svg"
+    "org.eclipse.ui/icons/full/obj16/layout_co.svg"
+  ],
   "compare-view.svg" : [
     "org.eclipse.compare/icons/full/eview16/compare_view.svg",
     "org.eclipse.team.ui/icons/full/eview16/compare_view.svg",
