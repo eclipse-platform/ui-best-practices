@@ -1279,6 +1279,9 @@
   "minimap.svg" : [
     "org.eclipse.ui.workbench.texteditor/icons/full/eview16/minimap.svg"
   ],
+  "code-coverage.svg" : [
+    "org.eclipse.debug.ui.launchview/icons/coverage.svg"
+  ],
   "problems_view_error.svg" : [
     "org.eclipse.ui.ide/icons/full/eview16/problems_view_error.svg"
   ],
