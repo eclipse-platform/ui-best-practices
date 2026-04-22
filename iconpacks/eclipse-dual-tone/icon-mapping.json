@@ -1418,7 +1418,7 @@
     "org.eclipse.debug.ui/icons/full/elcl16/import_brkpts.svg",
     "org.eclipse.debug.ui/elcl16/import_brkpts.svg"
   ],
-  "edit-navigator.svg" : [
+  "edit-source-lookup-path.svg" : [
     "org.eclipse.debug.ui/icons/full/elcl16/edtsrclkup_co.svg"
   ],
   "home.svg" : [

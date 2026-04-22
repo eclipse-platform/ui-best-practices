@@ -189,7 +189,7 @@
   "compare-next-difference.svg" : "Go to next difference in compare view.",
   "resource-count.svg" : "Counts visited resources.",
   "compare-previous-change.svg" : "Go to previous change in compare view.",
-  "edit-navigator.svg" : "Update editor timing/state.",
+  "edit-source-lookup-path.svg" : "Add, edit or remove source containers.",
   "compare-next-change.svg" : "Go to next change in compare view.",
   "copy-from-right-to-left.svg" : "Copy content from right to left in compare view.",
   "copy-from-left-to-right.svg" : "Copy content from left to right in compare view.",
