@@ -173,6 +173,7 @@
   "flat_layout.svg" : "Show as list view.",
   "sort.svg" : "Sort search results by match relevance.",
   "layout.svg" : "Change the layout.",
+  "favorite.svg" : "Mark as favorite.",
   "problems_view_error.svg" : "Indicates problems view status error.",
   "problems_view_warning.svg" : "Indicates problems view status warning.",
   "problems_view_info.svg" : "Indicates problems view status information",
