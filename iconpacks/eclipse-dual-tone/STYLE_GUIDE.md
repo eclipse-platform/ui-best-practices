@@ -140,7 +140,7 @@ It is recommended to work with Inkscape.
 
 - [ ] Canvas size: 16x16px
 - [ ] Icon size: Minimum dimension of 16 px on one side
-- [ ] Key Element size: 7px on one side
+- [ ] Key Element size: 8px on one side
 - [ ] All Strokes: 2px
 - [ ] Min. distance of elements: 1,5px
 - [ ] Corners: Rounded with a radius of 1.0px (only outer corners)
