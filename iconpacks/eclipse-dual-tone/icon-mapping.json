@@ -1339,6 +1339,11 @@
   "new_text_file.svg" : [
     "org.eclipse.ui.editors/icons/full/etool16/new_untitled_text_file.svg"
   ],
+  "profile-execution.svg" : [
+    "org.eclipse.debug.ui/icons/full/etool16/profile_exc.svg",
+    "org.eclipse.e4.ui.model.workbench.edit/icons/full/obj16/CommandParameter.svg",
+    "org.eclipse.pde.ui/icons/obj16/profile_exc.svg"
+  ],
   "templates.svg" : [
     "org.eclipse.jdt.ui/icons/full/eview16/templates.svg",
     "org.eclipse.ui.workbench.texteditor/icons/full/eview16/templates.svg",
