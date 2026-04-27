@@ -1332,6 +1332,9 @@
     "org.eclipse.team.ui/icons/full/elcl16/checkin_action.svg",
     "org.eclipse.compare/icons/full/elcl16/copycont_r_co.svg"
   ],
+  "favorite.svg" : [
+    "org.eclipse.debug.ui.launchview/icons/favorite_star.svg"
+  ],
   "new_project.svg" : [
     "org.eclipse.ui.ide/icons/full/etool16/newprj_wiz.svg",
     "org.eclipse.platform.doc.user/images/newprj_wiz.svg"
@@ -1389,7 +1392,7 @@
   ],
   "layout.svg" : [
     "org.eclipse.e4.ui.workbench.addons.swt/icons/full/obj16/layout_co.svg",
-    "org.eclipse.help.ui/icons/elcl16/layout_co.svg"
+    "org.eclipse.help.ui/icons/elcl16/layout_co.svg",
     "org.eclipse.ui/icons/full/obj16/layout_co.svg"
   ],
   "compare-view.svg" : [
