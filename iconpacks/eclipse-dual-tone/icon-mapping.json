@@ -1367,6 +1367,9 @@
     "org.eclipse.debug.ui/icons/full/elcl16/copyviewtoclipboard_tsk.svg",
     "org.eclipse.pde.ui/icons/obj16/copyviewtoclipboard_tsk.svg"
   ],
+  "font.svg" : [
+    "org.eclipse.ui/icons/full/obj16/font.svg"
+  ],
   "compare-next-difference.svg" : [
     "org.eclipse.compare/icons/full/elcl16/next_diff_nav.svg",
     "org.eclipse.platform.doc.user/images/next_diff_nav.svg"

@@ -189,6 +189,7 @@
   "compare-previous-difference.svg" : "Go to previous difference in compare view.",
   "compare-next-difference.svg" : "Go to next difference in compare view.",
   "resource-count.svg" : "Counts visited resources.",
+  "font.svg" : "Change font settings.",
   "compare-previous-change.svg" : "Go to previous change in compare view.",
   "edit-source-lookup-path.svg" : "Add, edit or remove source containers.",
   "compare-next-change.svg" : "Go to next change in compare view.",
