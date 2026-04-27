@@ -1348,6 +1348,9 @@
     "org.eclipse.jdt.ui/obj16/template_obj.svg",
     "org.eclipse.jdt.ui/icons/full/elcl16/templateprop_co.svg"
   ],
+  "new-terminal.svg" : [
+    "org.eclipse.terminal.view.ui/icons/elcl16/new_terminal_view.svg"
+  ],
   "library.svg" : [
     "org.eclipse.debug.ui/icons/full/eview16/module_view.svg",
     "org.eclipse.ui.externaltools/icons/full/obj16/classpath.svg",
