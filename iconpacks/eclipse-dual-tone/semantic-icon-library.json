@@ -185,6 +185,7 @@
   "templates.svg" : "Provides information about available templates.",
   "tasks.svg" : "Displays manually added tasks.",
   "default.svg" : "Default icon, used as fallback icon when no specific one exists.",
+  "new-terminal.svg" : "Open new terminal view.",
   "library.svg" : "Indicator for the module view and a classpath.",
   "compare-previous-difference.svg" : "Go to previous difference in compare view.",
   "compare-next-difference.svg" : "Go to next difference in compare view.",
