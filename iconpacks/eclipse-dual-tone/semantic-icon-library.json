@@ -195,6 +195,7 @@
   "copy-from-right-to-left.svg" : "Copy content from right to left in compare view.",
   "copy-from-left-to-right.svg" : "Copy content from left to right in compare view.",
   "compare-view.svg" : "Indicator for the compare view.",
+  "main-tab.svg" : "Main configuration tab.",
   "console-error-output.svg" : "Writes error output in console view.",
   "console-standard-output.svg" : "Writes standard output in console view.",
   "whitespace.svg" : "Shows spaces, tabs, and line breaks.",
