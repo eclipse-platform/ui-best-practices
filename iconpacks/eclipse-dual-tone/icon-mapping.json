@@ -1405,6 +1405,11 @@
     "org.eclipse.ui.examples.javaeditor/icons/resolver.svg",
     "org.eclipse.ui.examples.javaeditor/icons/sample.svg"
   ],
+  "main-tab.svg" : [
+    "org.eclipse.ant.ui/icons/full/obj16/main_tab.svg",
+    "org.eclipse.pde.ui/icons/obj16/main_tab.svg",
+    "org.eclipse.ui.externaltools/icons/full/obj16/main_tab.svg"
+  ],
   "whitespace.svg" : [
     "org.eclipse.ui.workbench.texteditor/icons/full/etool16/show_whitespace_chars.svg",
     "org.eclipse.ui.editors/etool16/show_whitespace_chars.svg",
