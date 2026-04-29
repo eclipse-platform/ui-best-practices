@@ -28,6 +28,22 @@
     "org.eclipse.debug.ui/obj16/debugts_obj.svg",
     "org.eclipse.debug.ui/icons/full/obj16/debugts_obj.svg"
   ],
+  "progress-error.svg" : [
+    "org.eclipse.e4.ui.progress/icons/full/progress/progress_error.svg",
+    "org.eclipse.ui/icons/full/progress/progress_error.svg"
+  ],
+  "progress-none.svg" : [
+    "org.eclipse.e4.ui.progress/icons/full/progress/progress_none.svg",
+    "org.eclipse.ui/icons/full/progress/progress_none.svg"
+  ],
+  "progress-ok.svg" : [
+    "org.eclipse.e4.ui.progress/icons/full/progress/progress_ok.svg",
+    "org.eclipse.ui/icons/full/progress/progress_ok.svg"
+  ],
+  "progress-task.svg" : [
+    "org.eclipse.e4.ui.progress/icons/full/progress/progress_task.svg",
+    "org.eclipse.ui/icons/full/progress/progress_task.svg"
+  ],
   "all-instances.svg" : [
     "org.eclipse.jdt.debug.ui/icons/full/elcl16/all_instances.svg",
     "org.eclipse.jdt.debug.ui/elcl16/all_instances.svg"
