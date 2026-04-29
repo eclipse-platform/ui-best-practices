@@ -7,6 +7,10 @@
   "nested-projects.svg" : [
     "org.eclipse.ui.navigator.resources/icons/full/obj16/nested_projects.svg"
   ],
+  "external-browser.svg" : [
+    "org.eclipse.jdt.ui/icons/full/elcl16/external_browser.svg",
+    "org.eclipse.jdt.ui/icons/full/elcl16/open_browser.svg"
+  ],
   "trash.svg" : [
     "org.eclipse.ui/icons/full/elcl16/trash.svg"
   ],
