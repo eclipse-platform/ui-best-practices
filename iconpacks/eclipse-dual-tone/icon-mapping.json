@@ -18,6 +18,10 @@
     "org.eclipse.jdt.debug.ui/icons/full/elcl16/all_references.svg",
     "org.eclipse.jdt.debug.ui/elcl16/all_references.svg"
   ],
+  "locked.svg" : [
+    "org.eclipse.e4.ui.progress/icons/full/progress/lockedstate.svg",
+    "org.eclipse.ui/icons/full/progress/lockedstate.svg"
+  ],
   "run-to-line.svg" : [
     "org.eclipse.debug.ui/icons/full/elcl16/runtoline_co.svg",
     "org.eclipse.jdt.debug.ui/icons/full/elcl16/runtoline_co.svg",

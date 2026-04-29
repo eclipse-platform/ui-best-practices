@@ -4,6 +4,7 @@
   "trash.svg" : "Deletes the selected item.",
   "remove_stop.svg" : "Remove a stop action.",
   "pause-debug-process.svg" : "Indicator for a paused process that is being debugged.",
+  "locked.svg" : "Resource is locked.",
   "run-to-line.svg" : "Run program to the selected line in debug mode.",
   "console.svg" : "Opens console view.",
   "all-references.svg" : "Show all references.",
