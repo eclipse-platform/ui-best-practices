@@ -11,6 +11,14 @@
     "org.eclipse.jdt.ui/icons/full/elcl16/external_browser.svg",
     "org.eclipse.jdt.ui/icons/full/elcl16/open_browser.svg"
   ],
+  "sleeping.svg" : [
+    "org.eclipse.e4.ui.progress/icons/full/progress/sleeping.svg",
+    "org.eclipse.ui/icons/full/progress/sleeping.svg"
+  ],
+  "waiting.svg" : [
+    "org.eclipse.e4.ui.progress/icons/full/progress/waiting.svg",
+    "org.eclipse.ui/icons/full/progress/waiting.svg"
+  ],
   "trash.svg" : [
     "org.eclipse.ui/icons/full/elcl16/trash.svg"
   ],
