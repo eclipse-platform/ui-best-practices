@@ -34,6 +34,8 @@
   "all-instances.svg" : "Show all instances.",
   "enum.svg" : "Indicates an enum.",
   "search.svg": "Search action.",
+  "drag-handle-horizontal.svg" : "Drag handle (horizontal).",
+  "drag-handle-vertical.svg" : "Drag handle (vertical).",
   "copy.svg" : "Duplicates the selected content to the clipboard without removing it.",
   "java-browsing-view.svg" : "Opens Java browsing view.",
   "paste.svg" : "Inserts the clipboard content at the current location.",
