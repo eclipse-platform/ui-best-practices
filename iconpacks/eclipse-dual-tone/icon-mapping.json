@@ -4,6 +4,10 @@
     "org.eclipse.terminal.connector.local/icons/eview16/terminal_view.svg",
     "org.eclipse.debug.terminal/icons/console_view.svg"
   ],
+  "tip.svg" : [
+    "org.eclipse.pde.bnd.ui/icons/tricks.svg",
+    "org.eclipse.ui/icons/full/etool16/tricks.svg"
+  ],
   "nested-projects.svg" : [
     "org.eclipse.ui.navigator.resources/icons/full/obj16/nested_projects.svg"
   ],
