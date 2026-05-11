@@ -34,6 +34,14 @@
     "org.eclipse.jdt.debug.ui/icons/full/elcl16/all_references.svg",
     "org.eclipse.jdt.debug.ui/elcl16/all_references.svg"
   ],
+  "testcase.svg" : [
+    "org.eclipse.jdt.junit/icons/full/obj16/test.svg",
+    "org.eclipse.pde.ui/icons/obj16/test.svg",
+    "org.eclipse.pde.unittest.junit/icons/full/obj16/test.svg",
+    "org.eclipse.jdt.junit/obj16/test.svg",
+    "org.eclipse.jdt.ui.unittest.junit/icons/full/obj16/test.svg",
+    "org.eclipse.unittest.ui/icons/full/obj16/test.svg"
+  ],
   "locked.svg" : [
     "org.eclipse.e4.ui.progress/icons/full/progress/lockedstate.svg",
     "org.eclipse.ui/icons/full/progress/lockedstate.svg"

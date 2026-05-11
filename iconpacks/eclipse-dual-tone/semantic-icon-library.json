@@ -11,6 +11,7 @@
   "waiting.svg" : "Waiting for process.",
   "run-to-line.svg" : "Run program to the selected line in debug mode.",
   "console.svg" : "Opens console view.",
+  "testcase.svg" : "Indicates a test.",
   "all-references.svg" : "Show all references.",
   "build-projects.svg" : "Build projects action.",
   "fatal_error.svg" : "Indicates the presence of fatal errors.",
