@@ -11,6 +11,12 @@
   "nested-projects.svg" : [
     "org.eclipse.ui.navigator.resources/icons/full/obj16/nested_projects.svg"
   ],
+  "annotation.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/annotation_obj.svg",
+    "org.eclipse.pde.api.tools.ui/icons/full/obj16/annotation_obj.svg",
+    "org.eclipse.pde.spy.context/icons/annotation_obj.svg",
+    "org.eclipse.jdt.ui/obj16/annotation_obj.svg"
+  ],
   "external-browser.svg" : [
     "org.eclipse.jdt.ui/icons/full/elcl16/external_browser.svg",
     "org.eclipse.jdt.ui/icons/full/elcl16/open_browser.svg"
