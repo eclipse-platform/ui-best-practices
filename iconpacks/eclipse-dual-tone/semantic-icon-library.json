@@ -1,5 +1,6 @@
 {
   "terminal.svg": "Open a terminal.",
+  "record.svg" : "Indicates a record.",
   "tip.svg" : "Show tips and tricks.",
   "nested-projects.svg" : "Controls whether projects inside other projects are shown as nested or flat.",
   "external-browser.svg" : "Open in external browser.",
