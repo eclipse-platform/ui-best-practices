@@ -19,6 +19,11 @@
     "org.eclipse.e4.ui.progress/icons/full/progress/sleeping.svg",
     "org.eclipse.ui/icons/full/progress/sleeping.svg"
   ],
+  "interface.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/int_obj.svg",
+    "org.eclipse.pde.runtime/icons/obj16/int_obj.svg",
+    "org.eclipse.pde.ds.ui/icons/obj16/int_obj.svg"
+  ],
   "waiting.svg" : [
     "org.eclipse.e4.ui.progress/icons/full/progress/waiting.svg",
     "org.eclipse.ui/icons/full/progress/waiting.svg"
