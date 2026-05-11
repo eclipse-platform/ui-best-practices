@@ -8,6 +8,7 @@
   "pause-debug-process.svg" : "Indicator for a paused process that is being debugged.",
   "locked.svg" : "Resource is locked.",
   "sleeping.svg" : "Sleeping state.",
+  "interface.svg" : "Indicates an interface.",
   "waiting.svg" : "Waiting for process.",
   "run-to-line.svg" : "Run program to the selected line in debug mode.",
   "console.svg" : "Opens console view.",
