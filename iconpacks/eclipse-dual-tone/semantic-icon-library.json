@@ -29,6 +29,7 @@
   "undo.svg": "Undo action.",
   "redo.svg": "Redo action.",
   "all-instances.svg" : "Show all instances.",
+  "enum.svg" : "Indicates an enum.",
   "search.svg": "Search action.",
   "copy.svg" : "Duplicates the selected content to the clipboard without removing it.",
   "paste.svg" : "Inserts the clipboard content at the current location.",

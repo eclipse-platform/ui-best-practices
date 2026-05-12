@@ -962,6 +962,10 @@
     "org.eclipse.ui.navigator.resources/icons/full/eview16/resource_persp.svg",
     "org.eclipse.ui.ide/icons/full/obj16/fileFolderType_filter.svg"
   ],
+  "enum.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/enum_obj.svg",
+    "org.eclipse.jdt.ui/obj16/enum_obj.svg"
+  ],
   "export-config.svg": [
     "org.eclipse.debug.ui/icons/full/obj16/export_config_obj.svg"
   ],
