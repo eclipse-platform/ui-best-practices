@@ -222,5 +222,10 @@
   "export-breakpoints.svg" : "Saves breakpoints to reuse or share.",
   "import-breakpoints.svg" : "Loads previously saved breakpoints.",
   "launch-configuration.svg" : "Manage run/debug configurations.",
+  "new-testcase.svg" : "Create a new test case.",
+  "new-class.svg" : "Create a new class.",
+  "new-enum.svg" : "Create a new enum.",
+  "new-annotation.svg" : "Create a new annotation.",
+  "new-interface.svg" : "Create a new interface.",
   "home.svg" : "Jump to workspace/project root."
 }
