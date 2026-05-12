@@ -30,6 +30,8 @@
   "redo.svg": "Redo action.",
   "all-instances.svg" : "Show all instances.",
   "search.svg": "Search action.",
+  "drag-handle-horizontal.svg" : "Drag handle (horizontal).",
+  "drag-handle-vertical.svg" : "Drag handle (vertical).",
   "copy.svg" : "Duplicates the selected content to the clipboard without removing it.",
   "paste.svg" : "Inserts the clipboard content at the current location.",
   "memory.svg" : "Indicator for the memory view.",

@@ -102,6 +102,12 @@
     "org.eclipse.platform.doc.user/images/delete_edit.svg",
     "org.eclipse.ui.views.log/icons/elcl16/remove.svg"
   ],
+  "drag-handle-horizontal.svg" : [
+    "org.eclipse.e4.ui.workbench.swt/images/dragHandle-rotated.svg"
+  ],
+  "drag-handle-vertical.svg" : [
+    "org.eclipse.e4.ui.workbench.swt/images/dragHandle.svg"
+  ],
   "stop_all.svg" : [
     "org.eclipse.debug.ui/icons/full/elcl16/terminate_all_co.svg",
     "org.eclipse.debug.ui.launchview/icons/terminate_all_co.svg",
