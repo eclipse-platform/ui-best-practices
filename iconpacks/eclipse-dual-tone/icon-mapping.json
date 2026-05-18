@@ -456,6 +456,9 @@
     "org.eclipse.jdt.ui/obj16/jexception_obj.svg",
     "org.eclipse.jdt.debug.ui/obj16/jexception_obj.svg"
   ],
+  "ant-view.svg" : [
+    "org.eclipse.ant.ui/icons/full/eview16/ant_view.svg"
+  ],
   "segment-selection.svg" : [
     "org.eclipse.ui.workbench.texteditor/icons/full/etool16/segment_edit.svg",
     "org.eclipse.jdt.ui/icons/full/etool16/segment_edit.svg",
