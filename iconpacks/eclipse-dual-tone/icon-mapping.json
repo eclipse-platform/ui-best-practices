@@ -491,6 +491,9 @@
     "org.eclipse.pde.runtime/icons/obj16/location_obj.svg",
     "org.eclipse.jdt.ui/icons/full/eview16/javadoc.svg"
   ],
+  "java-browsing-view.svg" : [
+    "org.eclipse.jdt.ui/icons/full/eview16/browse_persp.svg"
+  ],
   "step-over.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/stepover_co.svg",
     "org.eclipse.debug.ui/elcl16/stepover_co.svg"
