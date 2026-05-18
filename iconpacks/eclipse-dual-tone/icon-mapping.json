@@ -423,6 +423,12 @@
     "org.eclipse.debug.ui/icons/full/elcl16/stepinto_co.svg",
     "org.eclipse.debug.ui/elcl16/stepinto_co.svg"
   ],
+  "zoom-in.svg" : [
+    "org.eclipse.ui.workbench.texteditor/icons/full/etool16/zoomIn.svg"
+  ],
+  "zoom-out.svg" : [
+    "org.eclipse.ui.workbench.texteditor/icons/full/etool16/zoomOut.svg"
+  ],
   "search-history.svg" : [
     "org.eclipse.search/icons/full/elcl16/search_history.svg",
     "org.eclipse.help.webapp/advanced/images/e_quick_search.svg",
