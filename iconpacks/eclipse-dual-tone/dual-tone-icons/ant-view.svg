@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 4.2333332 4.2333333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="ant-view.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="false"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#ffffff"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="21.078125"
+     inkscape:cx="8.4684952"
+     inkscape:cy="12.169014"
+     inkscape:window-width="1728"
+     inkscape:window-height="990"
+     inkscape:window-x="0"
+     inkscape:window-y="344"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="0.26458333"
+       spacingy="0.26458333"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;fill-opacity:1;stroke:#a8a8a8;stroke-width:0.529083;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 0.26454148,0.66136729 0.89589515,1.2671914"
+       id="path2" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#a8a8a8;stroke-width:0.529083;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 0.26454148,3.5719657 0.67994463,3.2427146"
+       id="path2-4" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#a8a8a8;stroke-width:0.529081;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 0.26580871,2.1100815 H 0.87503306"
+       id="path4" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#a8a8a8;stroke-width:0.529083;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 3.9687917,0.66136729 3.3374381,1.2671914"
+       id="path2-1" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#a8a8a8;stroke-width:0.529083;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 3.9687917,3.5719657 3.5533886,3.2427146"
+       id="path2-4-1" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#a8a8a8;stroke-width:0.529081;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 3.9675245,2.1100815 H 3.3583001"
+       id="path4-3" />
+    <path
+       id="path1"
+       style="fill:#a8a8a8;stroke-width:0.529081;stroke-linecap:round;stroke-linejoin:round"
+       d="m 2.1166666,0.39687499 a 0.59532631,0.59612686 0 0 0 -0.5953263,0.5961382 0.59532631,0.59612686 0 0 0 0,0.0031 0.59532631,0.59612688 0 0 0 0,0.002583 0.59532631,0.59612688 0 0 0 0.2134286,0.45717701 0.59532631,0.59612686 0 0 0 -0.2134286,0.4561439 0.59532631,0.59612686 0 0 0 0,0.00258 0.59532631,0.59612688 0 0 0 0,0.0031 0.59532631,0.59612688 0 0 0 0.1881065,0.434964 0.79376843,0.79483582 0 0 0 -0.3865486,0.6818912 0.79376843,0.79483582 0 0 0 0,0.0031 0.79376843,0.79483582 0 0 0 0,0.00258 0.79376843,0.79483582 0 0 0 0.7937684,0.7950231 0.79376843,0.79483582 0 0 0 0.7937684,-0.7950231 0.79376843,0.79483582 0 0 0 0,-0.00258 0.79376843,0.79483582 0 0 0 0,-0.0031 0.79376843,0.79483582 0 0 0 -0.3865486,-0.6818912 0.59532631,0.59612688 0 0 0 0.1881065,-0.434964 0.59532631,0.59612688 0 0 0 0,-0.0031 0.59532631,0.59612686 0 0 0 0,-0.00258 0.59532631,0.59612686 0 0 0 -0.2129118,-0.4561439 0.59532631,0.59612688 0 0 0 0.2129118,-0.45717701 0.59532631,0.59612688 0 0 0 0,-0.002583 0.59532631,0.59612686 0 0 0 0,-0.0031 0.59532631,0.59612686 0 0 0 -0.5953263,-0.5961382 z" />
+  </g>
+</svg>

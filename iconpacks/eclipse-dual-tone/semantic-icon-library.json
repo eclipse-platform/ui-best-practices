@@ -28,6 +28,7 @@
   "progress-task.svg" : "Task in progress.",
   "undo.svg": "Undo action.",
   "redo.svg": "Redo action.",
+  "ant-view.svg" : "Open Ant build view.",
   "all-instances.svg" : "Show all instances.",
   "search.svg": "Search action.",
   "copy.svg" : "Duplicates the selected content to the clipboard without removing it.",
