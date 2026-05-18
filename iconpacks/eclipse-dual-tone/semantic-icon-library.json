@@ -34,6 +34,7 @@
   "all-instances.svg" : "Show all instances.",
   "search.svg": "Search action.",
   "copy.svg" : "Duplicates the selected content to the clipboard without removing it.",
+  "java-browsing-view.svg" : "Opens Java browsing view.",
   "paste.svg" : "Inserts the clipboard content at the current location.",
   "memory.svg" : "Indicator for the memory view.",
   "outline.svg": "Outline view indicator.",
