@@ -563,6 +563,11 @@
     "org.eclipse.debug.ui/icons/full/obj16/debugt_obj.svg",
     "org.eclipse.debug.ui/obj16/debugt_obj.svg"
   ],
+  "java-file.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.svg",
+    "org.eclipse.jdt.ui/obj16/jcu_obj.svg",
+    "org.eclipse.pde.bnd.ui/icons/jcu_obj.svg"
+  ],
   "run.svg": [
     "org.eclipse.ant.ui/icons/full/elcl16/run_tool.svg",
     "org.eclipse.debug.ui/icons/full/etool16/run_exc.svg",
