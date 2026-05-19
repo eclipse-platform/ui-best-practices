@@ -108,6 +108,24 @@
   "drag-handle-vertical.svg" : [
     "org.eclipse.e4.ui.workbench.swt/images/dragHandle.svg"
   ],
+  "package.svg" : [
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/package_obj.svg",
+    "org.eclipse.pde.bnd.ui/icons/package_obj.svg",
+    "org.eclipse.jdt.debug.ui/obj16/package_obj.svg",
+    "org.eclipse.pde.ui/icons/elcl16/package_obj.svg",
+    "org.eclipse.jdt.ui/obj16/package_obj.svg",
+    "org.eclipse.pde.runtime/icons/obj16/package_obj.svg",
+    "org.eclipse.jdt.ui/icons/full/obj16/package_obj.svg"
+  ],
+  "package-folder.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/packagefolder_obj.svg",
+    "org.eclipse.jdt.doc.user/gettingStarted/images/packagefolder_obj.svg",
+    "org.eclipse.jdt.ui/obj16/packagefolder_obj.svg"
+  ],
+  "new-package.svg" : [
+    "org.eclipse.jdt.ui/icons/full/etool16/newpack_wiz.svg",
+    "org.eclipse.jdt.ui/etool16/newpack_wiz.svg"
+  ],
   "stop_all.svg" : [
     "org.eclipse.debug.ui/icons/full/elcl16/terminate_all_co.svg",
     "org.eclipse.debug.ui.launchview/icons/terminate_all_co.svg",
