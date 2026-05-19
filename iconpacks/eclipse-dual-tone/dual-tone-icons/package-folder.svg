@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 4.2333332 4.2333333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="package-folder.svg"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="false"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#ffffff"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="17.625"
+     inkscape:cx="-7.8865248"
+     inkscape:cy="17.304965"
+     inkscape:window-width="2894"
+     inkscape:window-height="1308"
+     inkscape:window-x="402"
+     inkscape:window-y="109"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     showguides="true"><inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="0.26458333"
+       spacingy="0.26458333"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" /></sodipodi:namedview><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><path
+       id="rect5"
+       style="fill:#a8a8a8;fill-opacity:1;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 0.26458333 0.39687499 C 0.11800423 0.39687499 -3.91662e-17 0.51452156 0 0.66094156 L 0 1.1172444 C 0 1.1302794 0.00078032636 1.142965 0.0025838216 1.155485 C 0.00077382636 1.168018 1.8359156e-18 1.1806766 0 1.1937256 L 0 3.5718749 C 0 3.718454 0.11800423 3.8364583 0.26458333 3.8364583 L 3.9687499 3.8364583 C 4.1153289 3.8364583 4.2333334 3.718454 4.2333332 3.5718749 L 4.2333332 1.1937256 C 4.2333332 1.0471464 4.1153289 0.92914223 3.9687499 0.92914223 L 2.3807332 0.92914223 L 2.0257161 0.57154133 A 0.59163513 0.59099267 0 0 0 1.6055867 0.39687499 L 0.26458333 0.39687499 z M 2.1171834 1.3223999 A 0.2645835 0.2645835 0 0 1 2.3807332 1.5880167 L 2.3807332 2.1171834 L 2.9098998 2.1171834 A 0.2645835 0.2645835 0 0 1 3.1760335 2.3807332 A 0.2645835 0.2645835 0 0 1 2.9098998 2.64635 L 2.3807332 2.64635 L 2.3807332 3.1760335 A 0.2645835 0.2645835 0 0 1 2.1171834 3.4395833 A 0.2645835 0.2645835 0 0 1 1.8515665 3.1760335 L 1.8515665 2.64635 L 1.3223999 2.64635 A 0.2645835 0.2645835 0 0 1 1.0588501 2.3807332 A 0.2645835 0.2645835 0 0 1 1.3223999 2.1171834 L 1.8515665 2.1171834 L 1.8515665 1.5880167 A 0.2645835 0.2645835 0 0 1 2.1171834 1.3223999 z M 1.3079305 1.3234334 A 0.26458332 0.26458332 0 0 1 1.5869832 1.5725138 A 0.26458332 0.26458332 0 0 1 1.3379028 1.8515665 A 0.26458332 0.26458332 0 0 1 1.0588501 1.6030029 L 1.0588501 1.6024861 A 0.26458332 0.26458332 0 0 1 1.3079305 1.3234334 z M 2.8954304 1.3234334 A 0.26458332 0.26458332 0 0 1 3.1744832 1.5725138 A 0.26458332 0.26458332 0 0 1 2.9254028 1.8515665 A 0.26458332 0.26458332 0 0 1 2.64635 1.6030029 L 2.64635 1.6024861 A 0.26458332 0.26458332 0 0 1 2.8954304 1.3234334 z M 1.3079305 2.9109334 A 0.26458332 0.26458332 0 0 1 1.5869832 3.1600138 A 0.26458332 0.26458332 0 0 1 1.3379028 3.4390665 A 0.26458332 0.26458332 0 0 1 1.0588501 3.1905029 L 1.0588501 3.1899861 A 0.26458332 0.26458332 0 0 1 1.3079305 2.9109334 z M 2.8954304 2.9109334 A 0.26458332 0.26458332 0 0 1 3.1744832 3.1600138 A 0.26458332 0.26458332 0 0 1 2.9254028 3.4390665 A 0.26458332 0.26458332 0 0 1 2.64635 3.1905029 L 2.64635 3.1899861 A 0.26458332 0.26458332 0 0 1 2.8954304 2.9109334 z " /></g></svg>
