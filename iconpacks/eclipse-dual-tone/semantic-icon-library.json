@@ -1,5 +1,8 @@
 {
   "terminal.svg": "Open a terminal.",
+  "protected-access-modifier.svg" : "Indicates a protected access modifier.",
+  "public-access-modifier.svg" : "Indicates a public access modifier.",
+  "private-access-modifier.svg" : "Indicates a private access modifier.",
   "record.svg" : "Indicates a record.",
   "tip.svg" : "Show tips and tricks.",
   "nested-projects.svg" : "Controls whether projects inside other projects are shown as nested or flat.",
