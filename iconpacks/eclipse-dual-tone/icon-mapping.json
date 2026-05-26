@@ -4,6 +4,9 @@
     "org.eclipse.terminal.connector.local/icons/eview16/terminal_view.svg",
     "org.eclipse.debug.terminal/icons/console_view.svg"
   ],
+  "junit.svg" : [
+    "org.eclipse.jdt.junit/icons/full/eview16/junit.svg"
+  ],
   "protected-access-modifier.svg" : [
     "org.eclipse.jdt.ui/icons/full/obj16/methpro_obj.svg",
     "org.eclipse.jdt.ui/obj16/methpro_obj.svg"

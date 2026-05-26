@@ -1,5 +1,6 @@
 {
   "terminal.svg": "Open a terminal.",
+  "junit.svg" : "View JUnit tests.",
   "protected-access-modifier.svg" : "Indicates a protected access modifier.",
   "public-access-modifier.svg" : "Indicates a public access modifier.",
   "private-access-modifier.svg" : "Indicates a private access modifier.",
