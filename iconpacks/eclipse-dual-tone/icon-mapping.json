@@ -103,6 +103,15 @@
     "org.eclipse.jdt.debug.ui/icons/full/elcl16/all_instances.svg",
     "org.eclipse.jdt.debug.ui/elcl16/all_instances.svg"
   ],
+  "hide-fields.svg" : [
+    "org.eclipse.jdt.ui/icons/full/elcl16/fields_co.svg"
+  ],
+  "hide-static-methods.svg" : [
+    "org.eclipse.jdt.ui/icons/full/elcl16/static_co.svg"
+  ],
+  "hide-local-types.svg" : [
+    "org.eclipse.jdt.ui/icons/full/elcl16/localtypes_co.svg"
+  ],
   "delete.svg" : [
     "org.eclipse.ui.workbench.texteditor/icons/full/elcl16/delete_template.svg",
     "org.eclipse.ui/icons/full/etool16/delete.svg",
