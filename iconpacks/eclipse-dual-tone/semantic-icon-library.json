@@ -6,6 +6,7 @@
   "private-access-modifier.svg" : "Indicates a private access modifier.",
   "record.svg" : "Indicates a record.",
   "tip.svg" : "Show tips and tricks.",
+  "new-record.svg" : "Create a new record.",
   "nested-projects.svg" : "Controls whether projects inside other projects are shown as nested or flat.",
   "external-browser.svg" : "Open in external browser.",
   "annotation.svg" : "Indicates an annotation.",
