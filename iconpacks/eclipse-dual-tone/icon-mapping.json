@@ -13,6 +13,9 @@
     "org.eclipse.pde.spy.context/icons/methpub_obj.svg",
     "org.eclipse.jdt.ui/obj16/methpub_obj.svg"
   ],
+  "new-record.svg" : [
+    "org.eclipse.jdt.ui/icons/full/etool16/newrecord_wiz.svg"
+  ],
   "private-access-modifier.svg" : [
     "org.eclipse.jdt.ui/icons/full/obj16/methpri_obj.svg",
     "org.eclipse.jdt.ui/obj16/methpri_obj.svg"
