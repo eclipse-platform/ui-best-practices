@@ -246,5 +246,10 @@
   "new-enum.svg" : "Create a new enum.",
   "new-annotation.svg" : "Create a new annotation.",
   "new-interface.svg" : "Create a new interface.",
-  "home.svg" : "Jump to workspace/project root."
+  "home.svg" : "Jump to workspace/project root.",
+
+
+  "newclass_wiz.svg" : "New class wizard wizban icon.",
+  "newinterface_wiz.svg" : "New interface wizard wizban icon.",
+  "new_wiz.svg" : "New wizard wizban icon."
 }
