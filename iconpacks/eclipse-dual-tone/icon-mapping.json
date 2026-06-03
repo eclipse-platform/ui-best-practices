@@ -1,4 +1,27 @@
 {
+  "ovr-warning.svg" : [
+    "org.eclipse.jface/bin/org/eclipse/jface/fieldassist/images/warn_ovr.svg",
+    "org.eclipse.jface/src/org/eclipse/jface/fieldassist/images/warn_ovr.svg",
+    "org.eclipse.pde.api.tools.ui/icons/full/ovr16/warning_ovr.svg",
+    "org.eclipse.ui/icons/full/ovr16/warning_ovr.svg"
+  ],
+  "ovr-java.svg" : [
+    "org.eclipse.jdt.ui/ovr16/java_ovr.svg",
+    "org.eclipse.jdt.ui/icons/full/ovr16/java_ovr.svg"
+  ],
+  "ovr-run.svg" : [
+    "org.eclipse.ui/icons/full/ovr16/running_ovr.svg"
+  ],
+  "ovr-error.svg" : [
+    "org.eclipse.unittest.ui/icons/full/ovr16/error_ovr.svg",
+    "org.eclipse.jface/bin/org/eclipse/jface/fieldassist/images/error_ovr.svg",
+    "org.eclipse.jface/src/org/eclipse/jface/fieldassist/images/error_ovr.svg",
+    "org.eclipse.ui/icons/full/ovr16/error_ovr.svg",
+    "org.eclipse.jdt.junit/icons/full/ovr16/error_ovr.svg",
+    "org.eclipse.pde.api.tools.ui/icons/full/ovr16/error_ovr.svg"
+  ],
+  
+  
   "terminal.svg": [
     "org.eclipse.terminal.view.ui/icons/eview16/terminal_view.svg",
     "org.eclipse.terminal.connector.local/icons/eview16/terminal_view.svg",
@@ -1691,4 +1714,7 @@
     "org.eclipse.ui/icons/full/wizban/new_wiz.svg",
     "org.eclipse.ui.ide/icons/full/wizban/new_wiz.svg"
   ]
+
+
+
 }
