@@ -1678,5 +1678,17 @@
   "console-standard-output.svg" : [
     "org.eclipse.debug.ui/icons/full/elcl16/writeout_co.svg",
     "org.eclipse.debug.ui/elcl16/writeout_co.svg"
+  ],
+
+
+  "newclass_wiz.svg" : [
+    "org.eclipse.jdt.ui/icons/full/wizban/newclass_wiz.svg"
+  ],
+  "newinterface_wiz.svg" : [
+    "org.eclipse.jdt.ui/icons/full/wizban/newint_wiz.svg"
+  ],
+  "new_wiz.svg" : [
+    "org.eclipse.ui/icons/full/wizban/new_wiz.svg",
+    "org.eclipse.ui.ide/icons/full/wizban/new_wiz.svg"
   ]
 }
