@@ -20,8 +20,9 @@
     "org.eclipse.jdt.junit/icons/full/ovr16/error_ovr.svg",
     "org.eclipse.pde.api.tools.ui/icons/full/ovr16/error_ovr.svg"
   ],
-  
-  
+  "annotation-private.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/annotation_private_obj.svg"
+  ],
   "terminal.svg": [
     "org.eclipse.terminal.view.ui/icons/eview16/terminal_view.svg",
     "org.eclipse.terminal.connector.local/icons/eview16/terminal_view.svg",

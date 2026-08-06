@@ -3,8 +3,7 @@
   "ovr-java.svg" : "Indicates a java file as overlay icon.",
   "ovr-run.svg" : "Indicates a running action as overlay icon.",
   "ovr-error.svg" : "Indicates an error as overlay icon.",
-
-
+  "annotation-private.svg" : "Private Java annotation type.",
   "terminal.svg": "Open a terminal.",
   "junit.svg" : "View JUnit tests.",
   "protected-access-modifier.svg" : "Indicates a protected access modifier.",
