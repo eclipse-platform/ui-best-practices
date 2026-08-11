@@ -5,6 +5,10 @@
     "org.eclipse.pde.api.tools.ui/icons/full/ovr16/warning_ovr.svg",
     "org.eclipse.ui/icons/full/ovr16/warning_ovr.svg"
   ],
+  "thread-and-monitor.svg" : [
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/thread_and_monitor_obj.svg",
+    "org.eclipse.jdt.debug.ui/icons/full/eview16/thread_and_monitor_view.svg"
+  ],
   "ovr-java.svg" : [
     "org.eclipse.jdt.ui/ovr16/java_ovr.svg",
     "org.eclipse.jdt.ui/icons/full/ovr16/java_ovr.svg"
