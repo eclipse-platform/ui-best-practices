@@ -15,6 +15,7 @@
   "nested-projects.svg" : "Controls whether projects inside other projects are shown as nested or flat.",
   "external-browser.svg" : "Open in external browser.",
   "annotation.svg" : "Indicates an annotation.",
+  "java-exception-red.svg" : "Represents a JRE/runtime exception in the Eclipse Java debugger.",
   "trash.svg" : "Deletes the selected item.",
   "remove_stop.svg" : "Remove a stop action.",
   "pause-debug-process.svg" : "Indicator for a paused process that is being debugged.",

@@ -50,6 +50,11 @@
     "org.eclipse.jdt.ui/icons/full/obj16/methpri_obj.svg",
     "org.eclipse.jdt.ui/obj16/methpri_obj.svg"
   ],
+  "java-exception-red.svg" : [
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/jrtexception_obj.svg",
+    "org.eclipse.jdt.doc.user/images/org.eclipse.jdt.debug.ui/obj16/jrtexception_obj.svg",
+    "org.eclipse.jdt.ui/icons/full/obj16/jrtexception_obj.svg"
+  ],
   "record.svg" : [
     "org.eclipse.jdt.ui/icons/full/obj16/record_obj.svg"
   ],
