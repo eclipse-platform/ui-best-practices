@@ -20,6 +20,12 @@
     "org.eclipse.jdt.junit/icons/full/ovr16/error_ovr.svg",
     "org.eclipse.pde.api.tools.ui/icons/full/ovr16/error_ovr.svg"
   ],
+  "local-variable.svg" : [
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/localvariable_obj.svg",
+    "org.eclipse.jdt.ui/icons/full/obj16/localvariable_obj.svg",
+    "org.eclipse.jdt.ui/obj16/localvariable_obj.svg",
+    "org.eclipse.jdt.debug.ui/obj16/localvariable_obj.svg"
+  ],
   "annotation-private.svg" : [
     "org.eclipse.jdt.ui/icons/full/obj16/annotation_private_obj.svg"
   ],
