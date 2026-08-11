@@ -107,6 +107,10 @@
     "org.eclipse.ui/icons/full/progress/lockedstate.svg",
     "org.eclipse.pde.bnd.ui/icons/lockedstate.svg"
   ],
+  "java-stacktrace.svg" : [
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/java_stacktrace.svg",
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/javastacktrace_console.svg"
+  ],
   "run-to-line.svg" : [
     "org.eclipse.debug.ui/icons/full/elcl16/runtoline_co.svg",
     "org.eclipse.jdt.debug.ui/icons/full/elcl16/runtoline_co.svg",
