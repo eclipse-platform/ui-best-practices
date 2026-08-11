@@ -79,6 +79,9 @@
     "org.eclipse.pde.runtime/icons/obj16/int_obj.svg",
     "org.eclipse.pde.ds.ui/icons/obj16/int_obj.svg"
   ],
+  "call-hierarchy.svg" : [
+    "org.eclipse.jdt.ui/icons/full/eview16/call_hierarchy.svg"
+  ],
   "waiting.svg" : [
     "org.eclipse.e4.ui.progress/icons/full/progress/waiting.svg",
     "org.eclipse.ui/icons/full/progress/waiting.svg"
