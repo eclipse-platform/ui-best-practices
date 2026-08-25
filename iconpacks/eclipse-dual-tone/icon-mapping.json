@@ -16,6 +16,23 @@
   "ovr-run.svg" : [
     "org.eclipse.ui/icons/full/ovr16/running_ovr.svg"
   ],
+  "record-package-private.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/record_default_obj.svg"
+  ],
+  "interface-package-private.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/int_default_obj.svg",
+    "org.eclipse.jdt.ui/icons/full/obj16/innerinterface_default_obj.svg"
+  ],
+  "class-package-private.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/class_default_obj.svg",
+    "org.eclipse.jdt.ui/obj16/class_default_obj.svg"
+  ],
+  "annotation-package-private.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/annotation_default_obj.svg"
+  ],
+  "enum-package-private.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/enum_default_obj.svg"
+  ],
   "ovr-error.svg" : [
     "org.eclipse.unittest.ui/icons/full/ovr16/error_ovr.svg",
     "org.eclipse.jface/bin/org/eclipse/jface/fieldassist/images/error_ovr.svg",
