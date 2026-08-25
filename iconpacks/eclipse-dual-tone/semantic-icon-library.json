@@ -1,5 +1,6 @@
 {
   "ovr-warning.svg" : "Indicates a warning as overlay icon.",
+  "package-private-access-modifier.svg" : "Indicates a package-private (default) access modifier.",
   "thread-and-monitor.svg" : "Indicate a thread that currently holds a synchronization monitor during a debug session.",
   "ovr-java.svg" : "Indicates a java file as overlay icon.",
   "ovr-run.svg" : "Indicates a running action as overlay icon.",

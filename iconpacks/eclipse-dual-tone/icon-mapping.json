@@ -5,6 +5,9 @@
     "org.eclipse.pde.api.tools.ui/icons/full/ovr16/warning_ovr.svg",
     "org.eclipse.ui/icons/full/ovr16/warning_ovr.svg"
   ],
+  "package-private-access-modifier.svg" : [
+    "org.eclipse.jdt.ui/icons/full/elcl16/default_co.svg"
+  ],
   "thread-and-monitor.svg" : [
     "org.eclipse.jdt.debug.ui/icons/full/obj16/thread_and_monitor_obj.svg",
     "org.eclipse.jdt.debug.ui/icons/full/eview16/thread_and_monitor_view.svg"
