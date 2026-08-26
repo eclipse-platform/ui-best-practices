@@ -1,46 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    width="16"
    height="16"
-   viewBox="0 0 4.2333332 4.2333333"
+   viewBox="0 0 16 16"
+   fill="none"
    version="1.1"
-   id="svg1"
-   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   id="svg6"
    sodipodi:docname="new-interface.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   inkscape:export-filename="import_config_obj_16x16.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview1"
+     id="namedview6"
      pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="false"
-     inkscape:pageopacity="0.0"
+     bordercolor="#0c0005"
+     borderopacity="0.36078431"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#ffffff"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="14.904485"
-     inkscape:cx="7.1455001"
-     inkscape:cy="6.4410142"
-     inkscape:window-width="2074"
-     inkscape:window-height="1340"
-     inkscape:window-x="1623"
-     inkscape:window-y="35"
+     inkscape:zoom="19.987395"
+     inkscape:cx="1.4258987"
+     inkscape:cy="6.1788943"
+     inkscape:window-width="1972"
+     inkscape:window-height="1211"
+     inkscape:window-x="1551"
+     inkscape:window-y="126"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1"
-     showguides="true">
+     inkscape:current-layer="svg6"
+     showguides="true"
+     showgrid="true"
+     inkscape:lockguides="false">
     <inkscape:grid
        id="grid1"
        units="px"
        originx="0"
        originy="0"
-       spacingx="0.26458333"
-       spacingy="0.26458333"
+       spacingx="1"
+       spacingy="1"
        empcolor="#0099e5"
        empopacity="0.30196078"
        color="#0099e5"
@@ -50,18 +52,13 @@
        visible="true" />
   </sodipodi:namedview>
   <defs
-     id="defs1" />
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <path
-       id="path1"
-       style="fill:#a8a8a8;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round"
-       d="M 2.1166666 0 A 2.1166666 2.1166666 0 0 0 0 2.1166666 A 2.1166666 2.1166666 0 0 0 2.1166666 4.2333332 A 2.1166666 2.1166666 0 0 0 2.5517822 4.187858 C 2.5269575 4.1189778 2.5135416 4.0453313 2.5135416 3.9687499 L 2.5135416 3.8364583 L 2.38125 3.8364583 C 2.2356508 3.8364583 2.0997879 3.7874173 1.9895426 3.7052001 L 1.5234212 3.7052001 A 0.264584 0.264584 0 0 1 1.2598714 3.4395833 A 0.264584 0.264584 0 0 1 1.5234212 3.1760335 L 1.7197916 3.1760335 L 1.7197916 3.1749999 C 1.7197916 3.0291035 1.7690391 2.8931439 1.8515665 2.7827758 L 1.8515665 1.0588501 L 1.5234212 1.0588501 A 0.264584 0.264584 0 0 1 1.2598714 0.79271646 A 0.264584 0.264584 0 0 1 1.5234212 0.52916666 L 2.7088785 0.52916666 A 0.264584 0.264584 0 0 1 2.9744954 0.79271646 A 0.264584 0.264584 0 0 1 2.7088785 1.0588501 L 2.3807332 1.0588501 L 2.3807332 2.5135416 L 2.38125 2.5135416 L 2.5135416 2.5135416 L 2.5135416 2.38125 C 2.5135416 2.0206494 2.8143874 1.7197916 3.1749999 1.7197916 C 3.5356124 1.7197916 3.8364583 2.0206494 3.8364583 2.38125 L 3.8364583 2.5135416 L 3.9687499 2.5135416 C 4.0453301 2.5135416 4.1189773 2.5269555 4.187858 2.5517822 A 2.1166666 2.1166666 0 0 0 4.2333332 2.1166666 A 2.1166666 2.1166666 0 0 0 2.1166666 0 z M 3.1749999 3.0427083 A 0.39691468 0.39691468 0 0 1 3.0427083 3.1749999 A 0.39691468 0.39691468 0 0 1 3.1749999 3.3072916 A 0.39691468 0.39691468 0 0 1 3.3072916 3.1749999 A 0.39691468 0.39691468 0 0 1 3.1749999 3.0427083 z " />
-    <path
-       id="path1-4"
-       style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#499c54;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;enable-background:accumulate;stop-color:#000000"
-       d="M 3.1749999,2.1166666 A 0.26458333,0.26458333 0 0 0 2.9104166,2.3812499 V 2.9104166 H 2.3812499 A 0.26458333,0.26458333 0 0 0 2.1166666,3.1749999 0.26458333,0.26458333 0 0 0 2.3812499,3.4395834 H 2.9104166 V 3.96875 A 0.26458333,0.26458333 0 0 0 3.1749999,4.2333332 0.26458333,0.26458333 0 0 0 3.4395832,3.96875 V 3.4395834 H 3.9687499 A 0.26458333,0.26458333 0 0 0 4.2333332,3.1749999 0.26458333,0.26458333 0 0 0 3.9687499,2.9104166 H 3.4395832 V 2.3812499 A 0.26458333,0.26458333 0 0 0 3.1749999,2.1166666 Z" />
-  </g>
+     id="defs6" />
+  <path
+     id="path2"
+     style="fill:#a8a8a8;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"
+     d="M 8.0214844 0 A 8 8 0 0 0 4.0234375 1.0585938 A 8 8 0 0 0 1.0488281 11.960938 A 8 8 0 0 0 9.6484375 15.828125 C 9.5561957 15.569623 9.5058594 15.293439 9.5058594 15.005859 L 9.5058594 14.503906 L 9.0039062 14.503906 C 8.6104865 14.503907 8.2347157 14.408293 7.9003906 14.240234 L 6.3105469 14.240234 A 1 1 0 0 1 5.3105469 13.240234 A 1 1 0 0 1 6.3105469 12.240234 L 6.5117188 12.240234 C 6.5038054 12.160749 6.5 12.079304 6.5 11.998047 C 6.5000002 11.446185 6.6869906 10.931396 7 10.513672 L 7 3.7597656 L 6.3105469 3.7597656 A 1 1 0 0 1 5.3105469 2.7597656 A 1 1 0 0 1 6.3105469 1.7597656 L 9.6894531 1.7597656 A 1 1 0 0 1 10.689453 2.7597656 A 1 1 0 0 1 9.6894531 3.7597656 L 9 3.7597656 L 9 9.4960938 C 9.001302 9.4960917 9.0026038 9.4960937 9.0039062 9.4960938 L 9.5058594 9.4960938 L 9.5058594 9.0019531 C 9.5058594 7.6387633 10.637053 6.499996 12 6.5 C 13.362944 6.500002 14.503906 7.638767 14.503906 9.0019531 L 14.503906 9.4960938 L 15.005859 9.4960938 C 15.293649 9.4960941 15.571422 9.5476567 15.830078 9.640625 A 8 8 0 0 0 14.96875 4.0722656 L 14.931641 4.0078125 A 8 8 0 0 0 8.0214844 0 z " />
+  <path
+     id="path1"
+     style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#499c54;stroke-width:0.999999;stroke-linecap:round;stroke-linejoin:round;enable-background:accumulate;stop-color:#000000"
+     d="M 12.000001,7.9999999 A 1,1 0 0 0 10.999999,8.9999998 V 11 H 9.0000007 a 1,1 0 0 0 -1.000002,1 1,1 0 0 0 1.000002,1 h 1.9999983 v 2 A 1,1 0 0 0 12.000001,16 1,1 0 0 0 13,15 v -2 h 2.000001 A 1,1 0 0 0 16,12 1,1 0 0 0 15.000001,11 H 13 V 8.9999998 A 1,1 0 0 0 12.000001,7.9999999 Z" />
 </svg>
