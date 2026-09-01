@@ -645,6 +645,10 @@
     "org.eclipse.ui.navigator/icons/full/clcl16/pause.svg",
     "org.eclipse.debug.ui/elcl16/suspend_co.svg"
   ],
+  "final-variable.svg" : [
+    "org.eclipse.jdt.ui/ovr16/final_co.svg",
+    "org.eclipse.jdt.ui/icons/full/ovr16/final_co.svg"
+  ],
   "stop.svg": [
     "org.eclipse.ui.browser/icons/elcl16/nav_stop.svg",
     "org.eclipse.ui.browser/icons/clcl16/nav_stop.svg",
