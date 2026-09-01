@@ -95,6 +95,8 @@
   "container.svg" : "Generic container element.",
   "working_sets.svg" : "Group elements for display in views or for operations on a set of elements.",
   "run.svg": "Run action.",
+  "caller-hierarchy.svg" : "Shows caller hierarchy in hierarchy view.",
+  "callee-hierarchy.svg" : "Shows callee hierarchy in hierarchy view.",
   "show-in-history-view.svg" : "Show in History action.",
   "expression.svg": "Indicator for an expression in the expression tab of the debug perspective.",
   "add-bookmark.svg" : "Add new bookmark.",

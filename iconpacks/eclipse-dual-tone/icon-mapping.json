@@ -397,6 +397,16 @@
     "org.eclipse.debug.ui.launchview/icons/term_restart.svg",
     "org.eclipse.debug.ui/etool16/term_restart.svg"
   ],
+  "caller-hierarchy.svg" : [
+    "org.eclipse.jdt.ui/icons/full/elcl16/ch_callers.svg",
+    "org.eclipse.jdt.ui/elcl16/ch_callers.svg",
+    "org.eclipse.pde.ui/icons/elcl16/ch_callers.svg"
+  ],
+  "callee-hierarchy.svg" : [
+    "org.eclipse.jdt.ui/elcl16/ch_callees.svg",
+    "org.eclipse.pde.ui/icons/elcl16/ch_callees.svg",
+    "org.eclipse.jdt.ui/icons/full/elcl16/ch_callees.svg"
+  ],
   "search.svg": [
     "org.eclipse.ui/icons/full/etool16/search.svg",
     "org.eclipse.ant.ui/icons/full/elcl16/search.svg",
