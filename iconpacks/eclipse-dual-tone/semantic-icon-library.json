@@ -1,5 +1,13 @@
 {
   "ovr-warning.svg" : "Indicates a warning as overlay icon.",
+  "record-protected.svg" : "Indicates a protected record.",
+  "innerinterface-protected.svg" : "Indicates a protected inner interface.",
+  "innerclass-protected.svg" : "Indicates a protected inner class.",
+  "enum-protected.svg" : "Indicates a protected enum.",
+  "record-private.svg" : "Indicates a private record.",
+  "innerinterface-private.svg" : "Indicates a private inner interface.",
+  "innerclass-private.svg" : "Indicates a private innerclass.",
+  "enum-private.svg" : "Indicates a private enum.",
   "package-private-access-modifier.svg" : "Indicates a package-private (default) access modifier.",
   "thread-and-monitor.svg" : "Indicate a thread that currently holds a synchronization monitor during a debug session.",
   "ovr-java.svg" : "Indicates a java file as overlay icon.",

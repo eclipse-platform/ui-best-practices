@@ -5,6 +5,32 @@
     "org.eclipse.pde.api.tools.ui/icons/full/ovr16/warning_ovr.svg",
     "org.eclipse.ui/icons/full/ovr16/warning_ovr.svg"
   ],
+  "record-protected.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/record_protected_obj.svg"
+  ],
+  "innerinterface-protected.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/innerinterface_protected_obj.svg"
+  ],
+  "innerclass-protected.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/innerclass_protected_obj.svg",
+    "org.eclipse.jdt.ui/obj16/innerclass_protected_obj.svg"
+  ],
+  "enum-protected.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/enum_protected_obj.svg"
+  ],
+  "record-private.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/record_private_obj.svg"
+  ],
+  "innerinterface-private.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/innerinterface_private_obj.svg"
+  ],
+  "innerclass-private.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/innerclass_private_obj.svg",
+    "org.eclipse.jdt.ui/obj16/innerclass_private_obj.svg"
+  ],
+  "enum-private.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/enum_private_obj.svg"
+  ],
   "package-private-access-modifier.svg" : [
     "org.eclipse.jdt.ui/icons/full/elcl16/default_co.svg"
   ],
