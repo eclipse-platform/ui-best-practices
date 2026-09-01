@@ -269,6 +269,22 @@
     "org.eclipse.jdt.debug.ui/icons/full/obj16/monitor_obj.svg",
     "org.eclipse.jdt.debug.ui/icons/full/elcl16/monitor_view.svg"
   ],
+  "quickfix-error.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/quickfix_error_obj.svg",
+    "org.eclipse.jdt.ui/obj16/quickfix_error_obj.svg",
+    "org.eclipse.platform.doc.user/images/quickfix_error_obj.svg",
+    "org.eclipse.ui.ide/icons/full/obj16/quickfix_error_obj.svg"
+  ],
+  "quickfix-info.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/quickfix_info_obj.svg",
+    "org.eclipse.ui.ide/icons/full/obj16/quickfix_info_obj.svg"
+  ],
+  "quickfix-warning.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/quickfix_warning_obj.svg",
+    "org.eclipse.ui.ide/icons/full/obj16/quickfix_warning_obj.svg",
+    "org.eclipse.platform.doc.user/images/quickfix_warning_obj.svg",
+    "org.eclipse.jdt.ui/obj16/quickfix_warning_obj.svg"
+  ],
   "fatal_error.svg" : [
     "org.eclipse.jdt.ui/icons/full/obj16/fatalerror_obj.svg",
     "org.eclipse.ltk.ui.refactoring/icons/full/obj16/fatalerror_obj.svg",
