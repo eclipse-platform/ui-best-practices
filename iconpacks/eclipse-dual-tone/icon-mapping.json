@@ -1799,7 +1799,30 @@
   ],
   "annotation-protected.svg" : [
     "org.eclipse.jdt.ui/icons/full/obj16/annotation_protected_obj.svg"
+  ],
+  "test-run.svg" : [
+    "org.eclipse.jdt.junit/icons/full/obj16/testrun.svg",
+    "org.eclipse.unittest.ui/icons/full/obj16/testrun.svg",
+    "org.eclipse.jdt.junit/obj16/testrun.svg"
+  ],
+  "test-ok.svg" : [
+    "org.eclipse.jdt.junit/obj16/testok.svg",
+    "org.eclipse.unittest.ui/icons/full/obj16/testok.svg",
+    "org.eclipse.jdt.junit/icons/full/obj16/testok.svg"
+  ],
+  "test-fail.svg" : [
+    "org.eclipse.jdt.junit/obj16/testfail.svg",
+    "org.eclipse.jdt.junit/icons/full/obj16/testfail.svg",
+    "org.eclipse.unittest.ui/icons/full/obj16/testfail.svg"
+  ],
+  "test-error.svg" : [
+    "org.eclipse.unittest.ui/icons/full/obj16/testerr.svg",
+    "org.eclipse.jdt.junit/icons/full/obj16/testerr.svg",
+    "org.eclipse.jdt.junit/obj16/testerr.svg"
+  ],
+  "test-assumption-fail.svg" : [
+    "org.eclipse.jdt.junit/obj16/testassumptionfailed.svg",
+    "org.eclipse.jdt.junit/icons/full/obj16/testassumptionfailed.svg",
+    "org.eclipse.unittest.ui/icons/full/obj16/testassumptionfailed.svg"
   ]
-
-
 }
