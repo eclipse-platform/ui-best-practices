@@ -25,8 +25,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#545454"
      inkscape:zoom="31.236242"
-     inkscape:cx="9.9883973"
-     inkscape:cy="9.2680802"
+     inkscape:cx="10.004404"
+     inkscape:cy="9.2680803"
      inkscape:window-width="1728"
      inkscape:window-height="990"
      inkscape:window-x="0"
@@ -124,14 +124,14 @@
      style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#a8a8a8;stroke-width:0.999996;stroke-linecap:round;stroke-linejoin:round;enable-background:accumulate;stop-color:#000000"
      d="M 7.85937,0 C 2.942253,0 0.157936,4.460938 0.157936,4.460938 A 1.0000341,1 0 0 0 0.460681,5.841797 1.0000341,1 0 0 0 1.841587,5.539063 c 0,0 2.3421,-3.539063 6.017783,-3.539063 2.003302,0 3.625524,1.0466544 4.687659,2 h -0.546893 a 1.0000341,1 0 0 0 -1.000035,1 1.0000341,1 0 0 0 1.000035,1 h 3.000102 A 1.0000341,1 0 0 0 15.131101,5.9922 1.0000341,1 0 0 0 16.000272,5.000013 V 2.0000025 a 1.0000341,1 0 0 0 -1.000034,-1 1.0000341,1 0 0 0 -1.000034,1 V 2.5898438 C 12.68432,1.3724279 10.594265,0 7.85937,0 Z" />
   <circle
-     style="fill:#a8a8a8;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+     style="fill:#0065c7;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill-opacity:1"
      id="path1"
      cx="11"
      cy="-9"
      transform="scale(1,-1)"
      r="1" />
   <circle
-     style="fill:#a8a8a8;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+     style="fill:#0065c7;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill-opacity:1"
      id="path1-8"
      cx="15"
      cy="-9"
@@ -139,6 +139,6 @@
      r="1" />
   <path
      id="path7"
-     style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#a8a8a8;stroke-linecap:round;stroke-linejoin:round;enable-background:accumulate;stop-color:#000000"
+     style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#0065c7;stroke-linecap:round;stroke-linejoin:round;enable-background:accumulate;stop-color:#000000;fill-opacity:1"
      d="M 11 10.5 A 1 1 0 0 0 10 11.5 L 10 12.990234 A 1 1 0 0 0 11 13.990234 A 1 1 0 0 0 11.091797 13.986328 A 1 1 0 0 0 11.1875 13.990234 L 14 13.990234 L 14 15 A 1 1 0 0 0 15 16 A 1 1 0 0 0 16 15 L 16 11.5 A 1 1 0 0 0 15 10.5 A 1 1 0 0 0 14 11.5 L 14 11.990234 L 12 11.990234 L 12 11.5 A 1 1 0 0 0 11 10.5 z " />
 </svg>
