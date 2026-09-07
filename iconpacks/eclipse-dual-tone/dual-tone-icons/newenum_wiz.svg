@@ -7,7 +7,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
-   sodipodi:docname="newinterface_wiz.svg"
+   sodipodi:docname="newenum_wiz.svg"
    inkscape:export-filename="/Users/d021678/git/eclipse.jdt.ui/org.eclipse.jdt.ui/icons/full/wizban/newclass_wiz2.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
@@ -446,15 +446,15 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="4.3024335"
-     inkscape:cx="28.239832"
-     inkscape:cy="54.039185"
+     inkscape:cx="28.356045"
+     inkscape:cy="54.155398"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="true"
-     inkscape:window-width="1419"
-     inkscape:window-height="1257"
-     inkscape:window-x="1673"
-     inkscape:window-y="131"
+     inkscape:window-width="1999"
+     inkscape:window-height="1246"
+     inkscape:window-x="1569"
+     inkscape:window-y="135"
      inkscape:window-maximized="0"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -494,8 +494,8 @@
      inkscape:label="Background"
      style="display:inline">
     <path
-       id="path2"
-       style="fill:#a8a8a8;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"
-       d="M 37.565461,9.0000827 A 24.000094,23.999211 0 0 0 25.571278,12.17576 24.000094,23.999211 0 0 0 16.647412,44.881718 24.000094,23.999211 0 0 0 49.331134,53.881421 24.000094,23.999211 0 0 0 58.40734,21.216479 l -0.11133,-0.19335 A 24.000094,23.999211 0 0 0 37.565461,9.0000767 Z m -5.132829,5.2791243 h 10.136757 a 3.0000117,2.9999014 0 0 1 3.000012,2.999901 3.0000117,2.9999014 0 0 1 -3.000012,2.999901 h -2.068368 v 25.44057 h 2.068368 a 3.0000117,2.9999014 0 0 1 3.000012,2.999901 3.0000117,2.9999014 0 0 1 -3.000012,2.999901 H 32.432632 A 3.0000117,2.9999014 0 0 1 29.43262,48.71948 3.0000117,2.9999014 0 0 1 32.432632,45.719579 h 2.068365 v -25.44057 h -2.068365 a 3.0000117,2.9999014 0 0 1 -3.000012,-2.999901 3.0000117,2.9999014 0 0 1 3.000012,-2.999901 z" />
+       id="path1"
+       style="fill:#a8a8a8;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+       d="m 37.5,9 a 23.999998,23.999998 0 0 0 -24,24 23.999998,23.999998 0 0 0 24,24 23.999998,23.999998 0 0 0 24,-24 23.999998,23.999998 0 0 0 -24,-24 z m -6,6 h 12.855468 a 3,3 0 0 1 3,3 3,3 0 0 1 -3,3 H 34.5 v 9 h 6.861327 a 3,3 0 0 1 3,3 3,3 0 0 1 -3,3 H 34.5 v 9 h 9.855468 a 3,3 0 0 1 3,3 3,3 0 0 1 -3,3 H 31.5 a 3.000015,3.000015 0 0 1 -3,-3 V 33 18 a 3,3 0 0 1 3,-3 z" />
   </g>
 </svg>
