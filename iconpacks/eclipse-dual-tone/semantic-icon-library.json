@@ -277,5 +277,10 @@
   "annotation-protected.svg" : "Protected Java annotation type.",
   "newclass_wiz.svg" : "New class wizard wizban icon.",
   "newinterface_wiz.svg" : "New interface wizard wizban icon.",
-  "new_wiz.svg" : "New wizard wizban icon."
+  "new_wiz.svg" : "New wizard wizban icon.",
+  "test-run.svg" : "Indicates a test case ready to run.",
+  "test-ok.svg" : "Indicates an successful test case.",
+  "test-fail.svg" : "Indicates an failed test case.",
+  "test-error.svg" : "Indicates a test case error.",
+  "test-assumption-fail.svg" : "Indicates a test case assumption fail."
 }
