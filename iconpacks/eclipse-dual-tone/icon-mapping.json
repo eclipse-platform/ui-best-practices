@@ -5,6 +5,14 @@
     "org.eclipse.pde.api.tools.ui/icons/full/ovr16/warning_ovr.svg",
     "org.eclipse.ui/icons/full/ovr16/warning_ovr.svg"
   ],
+  "junit-fail.svg" : [
+    "org.eclipse.jdt.junit/eview16/juniterr.svg",
+    "org.eclipse.jdt.junit/icons/full/eview16/juniterr.svg"
+  ],
+  "junit-ok.svg" : [
+    "org.eclipse.jdt.junit/eview16/junitsucc.svg",
+    "org.eclipse.jdt.junit/icons/full/eview16/junitsucc.svg"
+  ],
   "static-variable.svg" : [
     "org.eclipse.jdt.ui/icons/full/ovr16/static_co.svg",
     "org.eclipse.jdt.ui/ovr16/static_co.svg"
