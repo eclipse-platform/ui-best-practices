@@ -24,6 +24,19 @@
   "innerinterface-private.svg" : [
     "org.eclipse.jdt.ui/icons/full/obj16/innerinterface_private_obj.svg"
   ],
+  "packages.svg" : [
+    "org.eclipse.jdt.ui/icons/full/eview16/packages.svg"
+  ],
+  "package-folder-test.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/packagefolder_test_obj.svg",
+    "org.eclipse.jdt.ui/icons/full/obj16/packagefolder_testsources_obj.svg"
+  ],
+  "package-hierarchy.svg" : [
+    "org.eclipse.jdt.ui/icons/full/eview16/package.svg"
+  ],
+  "sort-packages.svg" : [
+    "org.eclipse.jdt.ui/icons/full/elcl16/package_mode.svg"
+  ],
   "innerclass-private.svg" : [
     "org.eclipse.jdt.ui/icons/full/obj16/innerclass_private_obj.svg",
     "org.eclipse.jdt.ui/obj16/innerclass_private_obj.svg"
