@@ -1818,8 +1818,31 @@
     "org.eclipse.debug.ui/icons/full/elcl16/writeout_co.svg",
     "org.eclipse.debug.ui/elcl16/writeout_co.svg"
   ],
-
-
+  "test-suite.svg" : [
+    "org.eclipse.unittest.ui/icons/full/obj16/tsuite.svg",
+    "org.eclipse.jdt.junit/icons/full/obj16/tsuite.svg",
+    "org.eclipse.jdt.junit/obj16/tsuite.svg"
+  ],
+  "test-suite-error.svg" : [
+    "org.eclipse.jdt.junit/obj16/tsuiteerror.svg",
+    "org.eclipse.unittest.ui/icons/full/obj16/tsuiteerror.svg",
+    "org.eclipse.jdt.junit/icons/full/obj16/tsuiteerror.svg"
+  ],
+  "test-suite-fail.svg" : [
+    "org.eclipse.jdt.junit/obj16/tsuitefail.svg",
+    "org.eclipse.jdt.junit/icons/full/obj16/tsuitefail.svg",
+    "org.eclipse.unittest.ui/icons/full/obj16/tsuitefail.svg"
+  ],
+  "test-suite-ok.svg" : [
+    "org.eclipse.unittest.ui/icons/full/obj16/tsuiteok.svg",
+    "org.eclipse.jdt.junit/icons/full/obj16/tsuiteok.svg",
+    "org.eclipse.jdt.junit/obj16/tsuiteok.svg"
+  ],
+  "test-suite-run.svg" : [
+    "org.eclipse.jdt.junit/icons/full/obj16/tsuiterun.svg",
+    "org.eclipse.jdt.junit/obj16/tsuiterun.svg",
+    "org.eclipse.unittest.ui/icons/full/obj16/tsuiterun.svg"
+  ],
   "newclass_wiz.svg" : [
     "org.eclipse.jdt.ui/icons/full/wizban/newclass_wiz.svg"
   ],

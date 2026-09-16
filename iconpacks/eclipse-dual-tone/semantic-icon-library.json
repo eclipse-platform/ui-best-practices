@@ -290,5 +290,10 @@
   "test-ok.svg" : "Indicates an successful test case.",
   "test-fail.svg" : "Indicates an failed test case.",
   "test-error.svg" : "Indicates a test case error.",
-  "test-assumption-fail.svg" : "Indicates a test case assumption fail."
+  "test-assumption-fail.svg" : "Indicates a test case assumption fail.",
+  "test-suite.svg" : "Indicates a test suite.",
+  "test-suite-error.svg" : "Indicates a test suite error.",
+  "test-suite-fail.svg" : "Indicates a failed test suite.",
+  "test-suite-ok.svg" : "Indicates an successful test suite.",
+  "test-suite-run.svg" : "Indicates a test suite ready to run."
 }
