@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   fill="none"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="test-suite-run.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   inkscape:export-filename="import_config_obj_16x16.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#0c0005"
+     borderopacity="0.36078431"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#ffffff"
+     inkscape:zoom="19.987395"
+     inkscape:cx="11.75741"
+     inkscape:cy="15.784948"
+     inkscape:window-width="1972"
+     inkscape:window-height="1211"
+     inkscape:window-x="1501"
+     inkscape:window-y="137"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6"
+     showguides="true"
+     showgrid="true"
+     inkscape:lockguides="false">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs6" />
+  <path
+     style="color:#000000;display:inline;fill:#499c54;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers stroke fill"
+     d="m 10.240286,15.926006 5.503275,-3.460508 a 0.5456131,0.54893809 0 0 0 0,-0.930997 L 10.240286,8.0739944 a 0.48384764,0.48679622 0 0 0 -0.7402856,0.412802 v 7.0264066 a 0.48384764,0.48679622 0 0 0 0.7402856,0.412803 z"
+     id="path40-3-0" />
+  <path
+     id="rect1"
+     style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#a8a8a8;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;enable-background:accumulate;stop-color:#000000"
+     d="M 1 0 A 1.0001 1.0001 0 0 0 0 1 L 0 15 A 1.0001 1.0001 0 0 0 1 16 L 8.0625 16 C 8.0223996 15.85051 7.9999998 15.694113 8 15.53125 L 8 14 L 2 14 L 2 2 L 14 2 L 14 8.6367188 L 16 9.8964844 L 16 1 A 1.0001 1.0001 0 0 0 15 0 L 1 0 z M 16 14.105469 L 12.990234 16 L 15 16 A 1.0001 1.0001 0 0 0 16 15 L 16 14.105469 z " />
+  <path
+     style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#a8a8a8;stroke-linecap:round;stroke-linejoin:round;enable-background:accumulate;stop-color:#000000"
+     d="M 8.056641,3.5019531 A 1,1 0 0 0 7.333984,3.7539063 L 5.546875,5.349609 5.283203,5.017578 A 1,1 0 0 0 3.878906,4.855469 1,1 0 0 0 3.716797,6.259766 l 0.921875,1.162109 a 1.0001,1.0001 0 0 0 1.449219,0.125 L 8.666016,5.246094 A 1,1 0 0 0 8.746096,3.8339844 1,1 0 0 0 8.056643,3.5019531 Z"
+     id="path5" />
+  <path
+     id="path5-8"
+     style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#a8a8a8;stroke-linecap:round;stroke-linejoin:round;enable-background:accumulate;stop-color:#000000"
+     d="M 8.0195312 8.1992188 A 1 1 0 0 0 7.3339844 8.453125 L 5.546875 10.048828 L 5.2832031 9.7167969 A 1 1 0 0 0 3.8789062 9.5546875 A 1 1 0 0 0 3.7167969 10.960938 L 4.6386719 12.121094 A 1.0001 1.0001 0 0 0 6.0878906 12.246094 L 8 10.539062 L 8 8.46875 C 8.0000001 8.3772419 8.0064357 8.2867349 8.0195312 8.1992188 z " />
+  <path
+     id="path2"
+     style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#a8a8a8;stroke-linecap:round;stroke-linejoin:round;enable-background:accumulate;stop-color:#000000"
+     d="M 11.5 3.5 A 1 1 0 0 0 10.5 4.5 L 10.5 6.25 A 1 1 0 0 0 10.548828 6.5605469 C 10.720904 6.6060124 10.890817 6.6785776 11.050781 6.7792969 L 11.748047 7.21875 A 1 1 0 0 0 12.5 6.25 L 12.5 4.5 A 1 1 0 0 0 11.5 3.5 z " />
+</svg>
