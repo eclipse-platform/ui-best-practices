@@ -297,5 +297,6 @@
   "test-suite-error.svg" : "Indicates a test suite error.",
   "test-suite-fail.svg" : "Indicates a failed test suite.",
   "test-suite-ok.svg" : "Indicates an successful test suite.",
-  "test-suite-run.svg" : "Indicates a test suite ready to run."
+  "test-suite-run.svg" : "Indicates a test suite ready to run.",
+  "thread-group.svg" : "Indicates a thread group object."
 }
