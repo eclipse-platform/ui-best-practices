@@ -1908,5 +1908,9 @@
     "org.eclipse.jdt.junit/icons/full/obj16/testassumptionfailed.svg",
     "org.eclipse.unittest.ui/icons/full/obj16/testassumptionfailed.svg",
     "org.eclipse.jdt.junit/icons/full/obj16/testignored.svg"
+  ],
+  "thread-group.svg" : [
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/threadgroup_obj.svg",
+    "org.eclipse.jdt.doc.user/images/org.eclipse.jdt.debug.ui/obj16/threadgroup_obj.svg"
   ]
 }
