@@ -26,6 +26,7 @@
   "class-package-private.svg" : "Indicates a package-private class.",
   "annotation-package-private.svg" : "Indicates a package private annotation.",
   "enum-package-private.svg" : "Indicates a package private enum.",
+  "open-console.svg" : "Opens the console.",
   "terminal.svg": "Open a terminal.",
   "local-variable.svg" : "Represents a local variable.",
   "junit.svg" : "View JUnit tests.",
