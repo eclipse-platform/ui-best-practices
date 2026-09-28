@@ -1,5 +1,6 @@
 {
   "ovr-warning.svg" : "Indicates a warning as overlay icon.",
+  "grouped-frame.svg" : "Indicates a group of stackframes.",
   "junit-ok.svg" : "Indicates a successful JUnit test.",
   "junit-fail.svg" : "Indicates a failed JUnit test.",
   "static-variable.svg" : "Indicates a static variable.",
