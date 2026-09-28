@@ -7,6 +7,7 @@
   "innerinterface-protected.svg" : "Indicates a protected inner interface.",
   "innerclass-protected.svg" : "Indicates a protected inner class.",
   "enum-protected.svg" : "Indicates a protected enum.",
+  "tab-error-warning.svg" : "Indicates the error / warning tab.",
   "record-private.svg" : "Indicates a private record.",
   "innerinterface-private.svg" : "Indicates a private inner interface.",
   "packages.svg" : "Indicates multiple packages.",
