@@ -356,6 +356,16 @@
     "org.eclipse.jdt.debug.ui/obj16/insp_sbook.svg",
     "org.eclipse.ui.workbench.texteditor/icons/full/obj16/preview.svg"
   ],
+  "java-project.svg" : [
+    "org.eclipse.jdt.ui/icons/full/eview16/projects.svg"
+  ],
+  "java-working-sets.svg" : [
+    "org.eclipse.jdt.ui/icons/full/obj16/jworkingSet_obj.svg",
+    "org.eclipse.jdt.ui/obj16/jworkingSet_obj.svg"
+  ],
+  "java-application.svg" : [
+    "org.eclipse.jdt.debug.ui/icons/full/etool16/java_app.svg"
+  ],
   "error.svg" : [
     "org.eclipse.ui/icons/full/obj16/error_tsk.svg",
     "org.eclipse.ant.ui/icons/full/obj16/ant_target_err.svg",
