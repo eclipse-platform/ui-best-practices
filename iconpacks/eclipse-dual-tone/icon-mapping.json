@@ -31,6 +31,9 @@
   "tab-error-warning.svg" : [
     "org.eclipse.jdt.ui/icons/full/eview16/errorwarning_tab.svg"
   ],
+  "clipboard-variable.svg" : [
+    "org.eclipse.jdt.debug.ui/icons/full/elcl16/compareVariableClipboard.svg"
+  ],
   "record-protected.svg" : [
     "org.eclipse.jdt.ui/icons/full/obj16/record_protected_obj.svg"
   ],
