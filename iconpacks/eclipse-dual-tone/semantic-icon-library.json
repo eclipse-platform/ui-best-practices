@@ -1,5 +1,7 @@
 {
   "ovr-warning.svg" : "Indicates a warning as overlay icon.",
+  "shift-left.svg" : "Left Shift with Edit Indicator.",
+  "shift-right.svg" : "Right Shift with Edit Indicator.",
   "grouped-frame.svg" : "Indicates a group of stackframes.",
   "junit-ok.svg" : "Indicates a successful JUnit test.",
   "junit-fail.svg" : "Indicates a failed JUnit test.",
