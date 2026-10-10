@@ -1,4 +1,7 @@
 {
+  "application-model.svg" : [
+    "org.eclipse.e4.tools.emf.editor3x/icons/full/obj16/application_view_tile.svg"
+  ],
   "ovr-warning.svg" : [
     "org.eclipse.jface/org/eclipse/jface/fieldassist/images/warn_ovr.svg",
     "org.eclipse.pde.api.tools.ui/icons/full/ovr16/warning_ovr.svg",
