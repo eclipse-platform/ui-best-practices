@@ -836,6 +836,7 @@
     "org.eclipse.ui.ide/icons/full/obj16/welcome_editor.svg",
     "org.eclipse.debug.ui/icons/full/obj16/file_obj.svg",
     "org.eclipse.ui.ide/icons/full/obj16/fileType_filter.svg",
+    "org.eclipse.ui.genericeditor/icons/full/obj16/generic_editor.svg",
     "org.eclipse.platform.doc.user/images/file_obj.svg"
   ],
   "filter.svg": [
