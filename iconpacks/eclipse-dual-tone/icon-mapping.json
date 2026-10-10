@@ -1701,6 +1701,9 @@
   "newinterface_wiz.svg" : [
     "org.eclipse.jdt.ui/icons/full/wizban/newint_wiz.svg"
   ],
+  "newenum_wiz.svg" : [
+    "org.eclipse.jdt.ui/icons/full/wizban/newenum_wiz.svg"
+  ],
   "new_wiz.svg" : [
     "org.eclipse.ui/icons/full/wizban/new_wiz.svg",
     "org.eclipse.ui.ide/icons/full/wizban/new_wiz.svg"
