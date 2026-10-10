@@ -1,4 +1,7 @@
 {
+  "application-model.svg" : [
+    "org.eclipse.e4.tools.emf.editor3x/icons/full/obj16/application_view_tile.svg"
+  ],
   "commit.svg" : [
     "org.eclipse.egit.ui/icons/elcl16/commit.svg",
     "org.eclipse.egit.ui/icons/obj16/commit.svg"
