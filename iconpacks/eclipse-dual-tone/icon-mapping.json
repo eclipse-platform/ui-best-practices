@@ -1,4 +1,73 @@
 {
+  "commit.svg" : [
+    "org.eclipse.egit.ui/icons/elcl16/commit.svg",
+    "org.eclipse.egit.ui/icons/obj16/commit.svg"
+  ],
+  "push.svg" : [
+    "org.eclipse.egit.ui/icons/obj16/push.svg"
+  ],
+  "fetch.svg" : [
+    "org.eclipse.egit.ui/icons/obj16/fetch.svg"
+  ],
+  "pull.svg" : [
+    "org.eclipse.egit.ui/icons/obj16/pull.svg",
+    "org.eclipse.egit.ui/icons/obj16/pull_with_options.svg"
+  ],
+  "branch.svg" : [
+    "org.eclipse.egit.ui/icons/obj16/branch_obj.svg",
+    "org.eclipse.egit.ui/icons/obj16/branches_obj.svg"
+  ],
+  "new-branch.svg" : [
+    "org.eclipse.egit.ui/icons/obj16/new_branch_obj.svg"
+  ],
+  "checkout.svg" : [
+    "org.eclipse.egit.ui/icons/obj16/checkout.svg"
+  ],
+  "merge.svg" : [
+    "org.eclipse.egit.ui/icons/obj16/merge.svg",
+    "org.eclipse.egit.ui/icons/obj16/mergetool.svg"
+  ],
+  "rebase.svg" : [
+    "org.eclipse.egit.ui/icons/obj16/rebase.svg",
+    "org.eclipse.egit.ui/icons/obj16/rebase_interactive.svg",
+    "org.eclipse.egit.ui/icons/eview16/rebase_interactive.svg"
+  ],
+  "stash.svg" : [
+    "org.eclipse.egit.ui/icons/obj16/stash.svg"
+  ],
+  "stash-create.svg" : [
+    "org.eclipse.egit.ui/icons/obj16/stash-create.svg"
+  ],
+  "stash-apply.svg" : [
+    "org.eclipse.egit.ui/icons/obj16/stash-apply.svg"
+  ],
+  "stage.svg" : [
+    "org.eclipse.egit.ui/icons/obj16/add.svg",
+    "org.eclipse.egit.ui/icons/elcl16/add.svg",
+    "org.eclipse.egit.ui/icons/elcl16/add_all.svg"
+  ],
+  "unstage.svg" : [
+    "org.eclipse.egit.ui/icons/obj16/unstage.svg",
+    "org.eclipse.egit.ui/icons/elcl16/unstage_all.svg"
+  ],
+  "staging-view.svg" : [
+    "org.eclipse.egit.ui/icons/eview16/staging.svg"
+  ],
+  "tag.svg" : [
+    "org.eclipse.egit.ui/icons/obj16/tags.svg",
+    "org.eclipse.egit.ui/icons/obj16/annotated-tag.svg"
+  ],
+  "new-tag.svg" : [
+    "org.eclipse.egit.ui/icons/obj16/new_tag_obj.svg"
+  ],
+  "git-repository.svg" : [
+    "org.eclipse.egit.ui/icons/obj16/repository_rep.svg",
+    "org.eclipse.egit.ui/icons/obj16/gitrepository.svg",
+    "org.eclipse.egit.ui/icons/eview16/repo_rep.svg"
+  ],
+  "clone.svg" : [
+    "org.eclipse.egit.ui/icons/obj16/cloneGit.svg"
+  ],
   "ovr-warning.svg" : [
     "org.eclipse.jface/org/eclipse/jface/fieldassist/images/warn_ovr.svg",
     "org.eclipse.pde.api.tools.ui/icons/full/ovr16/warning_ovr.svg",
