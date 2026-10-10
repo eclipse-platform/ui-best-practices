@@ -360,7 +360,8 @@
     "org.eclipse.compare/icons/full/elcl16/smartmode_co.svg",
     "org.eclipse.jdt.ui/icons/full/elcl16/smartmode_co.svg",
     "org.eclipse.ui.ide/icons/full/elcl16/smartmode_co.svg",
-    "org.eclipse.jdt.ui/icons/full/obj16/quickfix_obj.svg"
+    "org.eclipse.jdt.ui/icons/full/obj16/quickfix_obj.svg",
+    "org.eclipse.tips.ui/icons/lightbulb.svg"
   ],
   "warning.svg" : [
     "org.eclipse.ui/icons/full/obj16/warn_tsk.svg",
@@ -1376,7 +1377,8 @@
     "org.eclipse.ui/icons/full/elcl16/button_menu.svg",
     "org.eclipse.e4.ui.workbench.renderers.swt/icons/full/elcl16/view_menu.svg",
     "org.eclipse.compare/icons/full/elcl16/view_menu.svg",
-    "org.eclipse.platform.doc.user/images/view_menu.svg"
+    "org.eclipse.platform.doc.user/images/view_menu.svg",
+    "org.eclipse.tips.ui/icons/popup_menu.svg"
   ],
   "show-in-history-view.svg" : [
     "org.eclipse.team.ui/icons/full/eview16/history_view.svg",
