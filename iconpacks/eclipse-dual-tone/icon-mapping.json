@@ -5,8 +5,7 @@
     "org.eclipse.ui/icons/full/ovr16/warning_ovr.svg"
   ],
   "synchronization-interrupted.svg" : [
-    "org.eclipse.jdt.ui/icons/full/elcl16/sync_broken.svg",
-    "org.eclipse.jdt.ui/elcl16/sync_broken.svg"
+    "org.eclipse.jdt.ui/icons/full/elcl16/sync_broken.svg"
   ],
   "shift-left.svg" : [
     "org.eclipse.jdt.ui/icons/full/etool16/shift_l_edit.svg"
