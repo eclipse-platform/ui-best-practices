@@ -1,4 +1,7 @@
 {
+  "lightbulb.svg" : [
+    "org.eclipse.tips.ui/icons/lightbulb.svg"
+  ],
   "ovr-warning.svg" : [
     "org.eclipse.jface/org/eclipse/jface/fieldassist/images/warn_ovr.svg",
     "org.eclipse.pde.api.tools.ui/icons/full/ovr16/warning_ovr.svg",
@@ -1377,7 +1380,8 @@
     "org.eclipse.ui/icons/full/elcl16/button_menu.svg",
     "org.eclipse.e4.ui.workbench.renderers.swt/icons/full/elcl16/view_menu.svg",
     "org.eclipse.compare/icons/full/elcl16/view_menu.svg",
-    "org.eclipse.platform.doc.user/images/view_menu.svg"
+    "org.eclipse.platform.doc.user/images/view_menu.svg",
+    "org.eclipse.tips.ui/icons/popup_menu.svg"
   ],
   "show-in-history-view.svg" : [
     "org.eclipse.team.ui/icons/full/eview16/history_view.svg",
