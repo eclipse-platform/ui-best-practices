@@ -1734,5 +1734,32 @@
   "thread-group.svg" : [
     "org.eclipse.jdt.debug.ui/icons/full/obj16/threadgroup_obj.svg",
     "org.eclipse.jdt.doc.user/images/org.eclipse.jdt.debug.ui/obj16/threadgroup_obj.svg"
+  ],
+  "failure-progress-bar-1.svg" : [
+    "org.eclipse.jdt.junit/icons/full/prgss/ff1.svg"
+  ],
+  "failure-progress-bar-2.svg" : [
+    "org.eclipse.jdt.junit/icons/full/prgss/ff2.svg"
+  ],
+  "failure-progress-bar-3.svg" : [
+    "org.eclipse.jdt.junit/icons/full/prgss/ff3.svg"
+  ],
+  "failure-progress-bar-4.svg" : [
+    "org.eclipse.jdt.junit/icons/full/prgss/ff4.svg"
+  ],
+  "failure-progress-bar-5.svg" : [
+    "org.eclipse.jdt.junit/icons/full/prgss/ff5.svg"
+  ],
+  "failure-progress-bar-6.svg" : [
+    "org.eclipse.jdt.junit/icons/full/prgss/ff6.svg"
+  ],
+  "failure-progress-bar-7.svg" : [
+    "org.eclipse.jdt.junit/icons/full/prgss/ff7.svg"
+  ],
+  "failure-progress-bar-8.svg" : [
+    "org.eclipse.jdt.junit/icons/full/prgss/ff8.svg"
+  ],
+  "failure-progress-bar-9.svg" : [
+    "org.eclipse.jdt.junit/icons/full/prgss/ff9.svg"
   ]
 }
