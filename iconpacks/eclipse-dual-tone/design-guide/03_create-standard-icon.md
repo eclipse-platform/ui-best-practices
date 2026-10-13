@@ -11,13 +11,14 @@ Only work on icons that have an open, approved issue. This prevents duplicate ef
 1. Open the **Issues** tab of the repository on GitHub.
 2. Filter by the label **"enhancement"** to find icon proposals.
 3. Pick an unassigned issue — check that no one else has already claimed it.
-4. Leave a comment on the issue to signal that you are working on it (e.g. _"I'll pick this up."_).
+4. Leave a comment on the issue to signal that you are working on it (e.g. _"I'll pick this up."_) or assign it to your GitHub user.
 
 ---
 
 ## Open Inkscape and Set All Preferences
 
-Getting the Inkscape workspace configured correctly before drawing ensures your icon will meet the spec without manual corrections later.
+Getting the Inkscape workspace configured correctly before drawing ensures your icon will meet the spec without manual corrections later. 
+It is also possible to copy and open an already existing icon and continue working from this file to have all configurations in place.
 
 ### 1. Create a new document with the correct canvas size
 
@@ -88,7 +89,7 @@ Before saving, every shape must be a plain SVG path — no rectangles, circles, 
 
 ### 6. Ungroup everything
 
-The final SVG must contain no groups.
+The final SVG must contain no groups. Removing unnecessary groups keeps the SVG structure clean and maintainable, making the icons easier to edit and reducing redundant code.
 
 1. Select all (`Ctrl+A`).
 2. Go to **Object → Ungroup** (`Ctrl+Shift+G`).
@@ -96,9 +97,10 @@ The final SVG must contain no groups.
 
 ### 7. Save as plain SVG
 
-1. Go to **File → Save As** (`Shift+Ctrl+S`).
-2. Choose **Plain SVG** (not Inkscape SVG) as the format to keep the file clean.
-3. Name the file according to the **New Name** field from the GitHub issue (e.g. `clipboard-variable.svg`).
+1. Use Inkscape’s cleanup feature to clean up the file and remove any unnecessary elements (`File → Cleanup Document`)
+2. Go to **File → Save As** (`Shift+Ctrl+S`).
+3. Choose **Plain SVG** (not Inkscape SVG) as the format to keep the file clean.
+4. Name the file according to the **New Name** field from the GitHub issue (e.g. `clipboard-variable.svg`).
 
 ---
 
