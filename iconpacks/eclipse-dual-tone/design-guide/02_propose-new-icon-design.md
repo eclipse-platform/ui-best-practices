@@ -1,6 +1,6 @@
 # 02 How to Propose a New Icon Design
 
-Before designing a new icon, you first need to identify it within Eclipse and document it properly via a GitHub issue. This process ensures that no duplicate work happens and that reviewers have all the context they need.
+Before designing a new icon, you first should to identify it within Eclipse and document it properly via a GitHub issue. This process ensures that no duplicate work happens and that reviewers have all the context they need.
 
 ---
 
@@ -89,4 +89,4 @@ Once the template is fully filled out, submit the issue. A maintainer will revie
 
 ## Next Steps
 
-With an approved issue in place, you are ready to open Inkscape and design the icon. Continue with the next guide to learn about the icon design workflow in Inkscape.
+With an issue in place, you are ready to open Inkscape and design the icon. Continue with the next guide to learn about the icon design workflow in Inkscape.
