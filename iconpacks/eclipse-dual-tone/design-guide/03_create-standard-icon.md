@@ -87,9 +87,9 @@ Before saving, every shape must be a plain SVG path — no rectangles, circles, 
 1. Select all objects (`Ctrl+A`).
 2. Go to **Path → Object to Path** (`Shift+Ctrl+C`).
 
-### 6. Ungroup everything
+### 6. Remove unnecessary groups
 
-The final SVG must contain no groups. Removing unnecessary groups keeps the SVG structure clean and maintainable, making the icons easier to edit and reducing redundant code.
+The final SVG should have a clean, simple, and maintainable structure. Remove unnecessary or redundant groups, but keep groups that serve a purpose, such as organizing related elements or applying shared transformations or styles.
 
 1. Select all (`Ctrl+A`).
 2. Go to **Object → Ungroup** (`Ctrl+Shift+G`).
