@@ -6,9 +6,9 @@ The `IconReplacer` tool copies the dual tone icons into the actual Eclipse plugi
 
 ---
 
-## Open the Project in VS Code
+## Open the Project in your favorite IDE
 
-1. Open VS Code.
+1. Open your favorite IDE.
 2. Go to **File → Open Folder** and select the `ui-best-practices` repository root.
 3. Make sure the following paths are present in the project:
    - `iconpacks/eclipse-dual-tone/icon-mapping.json`
@@ -19,7 +19,7 @@ The `IconReplacer` tool copies the dual tone icons into the actual Eclipse plugi
 
 ## Compile the Java File
 
-1. Open the integrated terminal in VS Code with `` Ctrl+` `` (or **Terminal → New Terminal**).
+1. Open the integrated terminal in your IDE.
 2. Navigate to the `IconReplacementAlgorithm` folder:
    ```bash
    cd iconpacks/IconReplacementAlgorithm

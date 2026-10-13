@@ -82,7 +82,7 @@ Apply the color to the key element path via **Object → Fill and Stroke** (`Shi
 
 The 1.5 px gap between the base icon and the key element is created by expanding the key element's outline by exactly 1.5 px on all sides and using that expanded shape to cut into the base icon. A 3 px stroke expands 1.5 px outward on each side, making it the perfect tool for generating the cutout shape.
 
-> **Video demo:** [Demo_Formen_ausschneiden.mov](Demo_Formen_ausschneiden.mov)
+> **Video demo:** [Formen ausschneiden Demo Video](https://youtu.be/Dg05LQKSK_4)
 
 ### Steps
 
