@@ -1526,6 +1526,8 @@
   ],
   "import.svg" : [
     "org.eclipse.ui.ide/icons/full/etool16/import_wiz.svg",
+    "org.eclipse.egit.ui/icons/obj16/import_obj.svg",
+    "org.eclipse.egit.ui/icons/obj16/import_prj.svg",
     "org.eclipse.mylyn.tasks.ui/icons/etool16/import.svg",
     "org.eclipse.debug.ui/icons/full/elcl16/import_wiz.svg",
     "org.eclipse.ui/icons/full/etool16/import_wiz.svg",
