@@ -663,6 +663,18 @@
     "org.eclipse.platform.doc.user/images/addbkmrk_co.svg",
     "org.eclipse.platform.doc.user/tips/images/help_bookmarks_1.svg"
   ],
+  "set-hit-count.svg" : [
+    "org.eclipse.jdt.debug.ui/icons/full/elcl16/sethitcount_co.svg",
+    "org.eclipse.jdt.doc.user/images/org.eclipse.jdt.debug.ui/elcl16/sethitcount_co.svg"
+  ],
+  "breakpoint-disabled.svg" : [
+    "org.eclipse.debug.ui/icons/full/obj16/brkpd_obj.svg",
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/brkpd_obj.svg",
+    "org.eclipse.jdt.doc.user/images/org.eclipse.debug.ui/obj16/brkpd_obj.svg"
+  ],
+  "java-line-breakpoint.svg" : [
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/jline_obj.svg"
+  ],
   "resume.svg": [
     "org.eclipse.jdt.debug.ui/icons/full/elcl16/resume_co.svg",
     "org.eclipse.debug.ui/icons/full/elcl16/resume_co.svg"
