@@ -562,7 +562,8 @@
     "org.eclipse.help.ui/icons/obj16/sinfocenter_obj.svg"
   ],
   "update.svg" : [
-    "org.eclipse.equinox.p2.ui/icons/obj/iu_update_obj.svg"
+    "org.eclipse.equinox.p2.ui/icons/obj/iu_update_obj.svg",
+    "org.eclipse.equinox.p2.ui.sdk/icons/obj/iu_update_obj.svg"
   ],
   "date.svg" : [
     "org.eclipse.compare/icons/full/obj16/date_obj.svg",
