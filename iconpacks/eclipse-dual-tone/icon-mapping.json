@@ -742,6 +742,12 @@
   "java-browsing-view.svg" : [
     "org.eclipse.jdt.ui/icons/full/eview16/browse_persp.svg"
   ],
+  "owned-monitor.svg" : [
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/owned_monitor_obj.svg"
+  ],
+  "contended-monitor.svg" : [
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/contended_monitor_obj.svg"
+  ],
   "step-over.svg": [
     "org.eclipse.debug.ui/icons/full/elcl16/stepover_co.svg"
   ],
