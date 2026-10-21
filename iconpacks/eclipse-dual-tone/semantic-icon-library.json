@@ -1,5 +1,6 @@
 {
   "application-model.svg" : "Indicates an e4 application model.",
+  "java-applet.svg" : "Indicates a Java applet launch configuration.",
   "commit.svg" : "Commits the staged changes.",
   "push.svg" : "Pushes local commits to a remote repository.",
   "fetch.svg" : "Fetches changes from a remote repository.",
