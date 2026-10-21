@@ -3,6 +3,7 @@
   "commit.svg" : "Commits the staged changes.",
   "push.svg" : "Pushes local commits to a remote repository.",
   "fetch.svg" : "Fetches changes from a remote repository.",
+  "environment-variable.svg" : "Represents an environment variable in a run/debug configuration.",
   "pull.svg" : "Fetches and merges changes from a remote repository.",
   "branch.svg" : "Indicates a Git branch.",
   "new-branch.svg" : "Creates a new Git branch.",

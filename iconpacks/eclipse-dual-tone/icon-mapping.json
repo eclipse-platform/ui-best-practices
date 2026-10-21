@@ -79,6 +79,12 @@
   "synchronization-interrupted.svg" : [
     "org.eclipse.jdt.ui/icons/full/elcl16/sync_broken.svg"
   ],
+  "environment-variable.svg" : [
+    "org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/envvar_obj.svg",
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/envvar_obj.svg",
+    "org.eclipse.debug.ui/icons/full/obj16/envvar_obj.svg",
+    "org.eclipse.jdt.ui/icons/full/obj16/envvar_obj.svg"
+  ],
   "shift-left.svg" : [
     "org.eclipse.jdt.ui/icons/full/etool16/shift_l_edit.svg"
   ],
