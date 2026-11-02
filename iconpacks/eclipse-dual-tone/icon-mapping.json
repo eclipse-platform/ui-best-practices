@@ -1890,5 +1890,8 @@
   ],
   "failure-progress-bar-9.svg" : [
     "org.eclipse.jdt.junit/icons/full/prgss/ff9.svg"
+  ],
+  "c-file.svg" : [
+    "org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif"
   ]
 }
