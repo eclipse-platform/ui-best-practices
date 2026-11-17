@@ -5,6 +5,17 @@
   "java-applet.svg" : [
     "org.eclipse.jdt.debug.ui/icons/full/etool16/java_applet.svg"
   ],
+  "breakpoint-installed.svg" : [
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/brkpi_obj.svg",
+    "org.eclipse.pde.bnd.ui/icons/brkpi_obj.svg",
+    "org.eclipse.jdt.ui/icons/full/obj16/brkpi_obj.svg"
+  ],
+  "java-classload-breakpoint.svg" : [
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/jload_obj.svg"
+  ],
+  "java-method-breakpoint.svg" : [
+    "org.eclipse.jdt.debug.ui/icons/full/obj16/jmeth_obj.svg"
+  ],
   "commit.svg" : [
     "org.eclipse.egit.ui/icons/elcl16/commit.svg",
     "org.eclipse.egit.ui/icons/obj16/commit.svg"
