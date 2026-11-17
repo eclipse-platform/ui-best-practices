@@ -47,6 +47,7 @@
   "thread-and-monitor.svg" : "Indicate a thread that currently holds a synchronization monitor during a debug session.",
   "ovr-java.svg" : "Indicates a java file as overlay icon.",
   "ovr-run.svg" : "Indicates a running action as overlay icon.",
+  "java-attach.svg" : "Indicates a Java attach to VM launch configuration.",
   "ovr-error.svg" : "Indicates an error as overlay icon.",
   "annotation-private.svg" : "Private Java annotation type.",
   "record-package-private.svg" : "Indicates a package-private record.",
