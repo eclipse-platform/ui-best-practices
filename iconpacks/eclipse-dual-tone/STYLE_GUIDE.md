@@ -1,5 +1,3 @@
-<img width="1450" height="331" alt="image" src="https://github.com/user-attachments/assets/00194d80-d7ad-483a-8bae-9c13a0afa747" />
-
 ## Eclipse Dual Tone Icon Pack Style Guide
 This style guide serves as an orientation for designing icons in the dual tone Eclipse icon pack. Its primary goal is to ensure visual consistency across all icons so they appear as part of a cohesive design system. The rules outlined here provide a solid foundation for icon creation and help maintain a unified look and feel.
 
@@ -19,8 +17,7 @@ Every Icon is categorized into one of three distinct types.
 ---
 
 ### **Icon Specifications**
-
-<img width=25% height=25% alt="image" src="https://github.com/user-attachments/assets/2f5b45a7-c3c1-4019-a614-e876f3ed5083" />
+<img width=25% height=25% alt="Dokument" src="https://github.com/user-attachments/assets/698d881e-8ebe-41bf-a44d-5eada3b97ef2" />
 
 **Icon Sizes & Placement**
 
