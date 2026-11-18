@@ -24,34 +24,37 @@ Every Icon is categorized into one of three distinct types.
 
 **Icon Sizes & Placement**
 
-- Base Icon: 16 x 16 px
-- Key Element: 8 x 8 px
+- Canvas: 16 x 16 px
+- Live area: 14 x 14 px, centered, with a 1 px margin on all sides
+- Key Element: 7 x 7 px
 
 **Please note:** 
-- The icon’s motive must be centered within the view area.
-- The design should fully utilize the available space while maintaining balance and clarity.
-- If full width and height cannot be used simultaneously, at least one of them should be fully utilized.
+- The icon’s motive must be centered within the canvas.
+- All painted pixels — including the outer edges of strokes — must stay within the 14 x 14 live area (coordinates 1–15). The 1 px margin must never be crossed.
+- The design should fill the 14 x 14 live area in at least one dimension (full width or full height) while maintaining balance and clarity.
+- When updating existing icons, redraw them on the 14 px grid. Do not rescale old art — scaling pushes edges off the pixel grid and softens the result.
 
 **Stroke & Shape**
-- All paths and strokes must have a fixed width of 2.0 px.
-- This ensures consistent visibility at small sizes.
+- All paths and strokes must have a fixed width of 1 px.
+- Keep stroke widths uniform — do not mix weights. Never use 2 px or 1.5 px.
+- Stroke centerlines must sit on half-pixels (0.5, 1.5, 2.5 …) so 1 px strokes render crisp at 100 % scaling.
 
 **Corners**
 - All stroke and shape corners should be rounded.
 - Use a corner radius of 1.0 px.
 
 **Spacing**
-- Spacing between elements within an icon should be 1.5 px.
-- The spacing between the main icon element and the key element must also be 1.5 px.
+- Spacing between elements within an icon should be 1 px.
+- The spacing between the main icon element and the key element must also be 1 px.
 
 **Key Elements Details**
 
 The key element provides the second visual tone of the icon.
 
 - The key element must be colored according to the defined color specifications.
-- It must have a width and/or height of 8 px.
-- The key element should be positioned in the top-right or bottom-right corner of the view area.
-- Maintain 1.5 px spacing between the key element and the main icon element.
+- It must have a width and/or height of 7 px.
+- The key element should be positioned in the top-right or bottom-right corner of the live area.
+- Maintain 1 px spacing between the key element and the main icon element.
 
 **Wizard Icons Details**
 - Standard size: **75x58 pixels**
@@ -117,11 +120,13 @@ This checklist provides a quick reference to ensure that newly created icons fol
 It is recommended to work with Inkscape.
 
 - [ ] Canvas size: 16x16px
-- [ ] Icon size: Minimum dimension of 16 px on one side
-- [ ] Key Element size: 8px on one side
-- [ ] All Strokes: 2px
-- [ ] Min. distance of elements: 1,5px
+- [ ] Live area: 14x14px, centered, with a 1px margin on all sides (all painted pixels within coordinates 1–15)
+- [ ] Icon size: fills the 14x14 live area in at least one dimension
+- [ ] Key Element size: 7px on one side
+- [ ] All Strokes: 1px, uniform (no 2px or 1.5px), centerlines on half-pixels
+- [ ] Min. distance of elements: 1px
 - [ ] Corners: Rounded with a radius of 1.0px (only outer corners)
+- [ ] Redrawn on the 14px grid (not rescaled from old art)
 - [ ] Does the color fit the purpose? (As listed in Color Assignment Section)
 - [ ] Are all shapes transformed to paths?
 - [ ] Are all groups ungrouped?  

@@ -30,21 +30,21 @@ It is also possible to copy and open an already existing icon and continue worki
 
 ### 2. Enable the pixel grid
 
-A 1 px grid aligned to the canvas makes it easy to place elements at whole-pixel coordinates.
+A 0.5 px grid lets you place 1 px stroke centerlines on half-pixels (0.5, 1.5, 2.5 …), which is what keeps 1 px strokes crisp at 100 % scaling.
 
 1. Open **File → Document Properties → Grids** tab.
 2. Click **Add** and select **Rectangular grid**.
-3. Set both **Spacing X** and **Spacing Y** to `1 px`.
+3. Set both **Spacing X** and **Spacing Y** to `0.5 px`.
 4. Set **Origin X** and **Origin Y** to `0`.
 5. Enable **"Snap to grids"** (`%` key to toggle snapping on/off while drawing).
 
 ### 3. Configure stroke defaults
 
-All strokes in the icon pack must be `2 px` wide with round caps and joins.
+All strokes in the icon pack must be `1 px` wide, uniform (never 2 px or 1.5 px), with round caps and joins.
 
 1. Draw any temporary path, then open **Object → Fill and Stroke** (`Shift+Ctrl+F`).
 2. Under **Stroke style**, set:
-   - **Width:** `2 px`
+   - **Width:** `1 px`
    - **Line cap:** Round
    - **Line join:** Round
 3. Delete the temporary path — Inkscape remembers these defaults for the session.
@@ -66,14 +66,14 @@ Before drawing anything, check the [`components/`](../components/) folder. Open 
 
 ### 2. Draw the icon shape
 
-- Keep all shapes within the **16 × 16 px** canvas.
-- The motive must be **centered** and must reach **16 px on at least one axis** (full width or full height).
+- Keep all shapes within the **14 × 14 px live area** — a 1 px margin inside the 16 × 16 px canvas. All painted pixels, including the outer edges of strokes, must stay within coordinates 1–15.
+- The motive must be **centered** and must fill the **14 × 14 live area on at least one axis** (full width or full height).
 - Use the **Pen/Bézier tool** (`B`) for custom paths or the **Rectangle/Circle tools** for geometric shapes.
 - Apply `1.0 px` corner radius to all rounded corners: select the shape, then drag the corner handles in the canvas or set the radius numerically in the toolbar.
 
 ### 3. Maintain spacing rules
 
-- Keep a minimum of **1.5 px** between any two separate elements within the icon.
+- Keep a minimum of **1 px** between any two separate elements within the icon.
 - Use the grid and the **Align and Distribute** panel (`Shift+Ctrl+A`) to position elements precisely.
 
 ### 4. Apply the correct color
@@ -109,10 +109,11 @@ The final SVG should have a clean, simple, and maintainable structure. Remove un
 Use this checklist before marking the issue as done or opening a pull request. Go through each item in Inkscape with your icon open.
 
 - **Canvas size:** Document is exactly 16 × 16 px (`File → Document Properties`)
-- **Icon fills the canvas:** The icon reaches 16 px on at least one axis
-- **All strokes are 2 px:** Check each path in `Object → Fill and Stroke → Stroke style`
+- **Live area respected:** All painted pixels stay within the 14 × 14 live area (coordinates 1–15); the 1 px margin is never crossed
+- **Icon fills the live area:** The icon fills the 14 × 14 live area on at least one axis
+- **All strokes are 1 px:** Uniform, no 2 px or 1.5 px; centerlines on half-pixels. Check each path in `Object → Fill and Stroke → Stroke style`
 - **Stroke caps and joins are round:** Verify in `Stroke style`
-- **Minimum spacing 1.5 px:** No two elements are closer than 1.5 px apart
+- **Minimum spacing 1 px:** No two elements are closer than 1 px apart
 - **Corners are rounded with 1.0 px radius:** Only outer corners; inner corners may stay sharp
 - **Color matches purpose:** Gray `#A8A8A8` for base icons, or the correct color per the table above
 - **All shapes converted to paths:** `Path → Object to Path` — no rectangles, circles, or text remain

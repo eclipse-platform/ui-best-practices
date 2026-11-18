@@ -62,10 +62,11 @@ Before designing any icon, read the [Style Guide](../STYLE_GUIDE.md) carefully. 
 | Rule | Value |
 |------|-------|
 | Canvas size | 16 × 16 px |
-| Key element size | 8 × 8 px |
-| Stroke width | 2.0 px |
+| Live area | 14 × 14 px, centered (1 px margin all sides) |
+| Key element size | 7 × 7 px |
+| Stroke width | 1 px (uniform; centerlines on half-pixels) |
 | Corner radius | 1.0 px (rounded) |
-| Minimum spacing between elements | 1.5 px |
+| Minimum spacing between elements | 1 px |
 
 ---
 
