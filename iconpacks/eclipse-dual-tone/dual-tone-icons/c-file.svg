@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   fill="none"
+   version="1.1"
+   id="svg5"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs5" /><path
+     id="rect1"
+     style="fill:#a8a8a8;display:inline;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+     d="M 2.75 -2.5e-08 C 2.335786 -2.5e-08 2 0.44769998 2 0.99999998 L 2 15 C 2 15.5523 2.335786 16 2.75 16 L 12.419922 16 C 11.846771 15.306703 11.5 14.422974 11.5 13.470703 L 11.5 10.470703 C 11.5 8.8191731 12.54528 7.3728984 14 6.7695312 L 14 3.9414062 A 2.3753742 2.3753742 0 0 0 13.308594 2.265625 L 11.794922 0.7441406 A 2.5296687 2.5296687 0 0 0 10.001953 -2.5e-08 L 2.75 -2.5e-08 z "
+     transform="translate(-2,0.0292969)" /><path
+     id="rect6"
+     style="fill:none;stroke:#0065c7;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+     d="M 15,10.5 A 1.5,1.5 0 0 0 13.5,9 1.5,1.5 0 0 0 12,10.5 v 3 A 1.5,1.5 0 0 0 13.5,15 1.5,1.5 0 0 0 15,13.5" /></svg>
