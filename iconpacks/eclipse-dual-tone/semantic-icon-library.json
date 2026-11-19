@@ -356,5 +356,6 @@
   "failure-progress-bar-8.svg" : "Frame 8 of 9 in the failure progress bar animation series.",
   "failure-progress-bar-9.svg" : "Frame 9 of 9 in the failure progress bar animation series.",
   "c-file.svg" : "Indicates a C/C++ source file.",
-  "h-file.svg" : "Indicates a C/C++ header file."
+  "h-file.svg" : "Indicates a C/C++ header file.",
+  "s-file.svg" : "Indicates an assembly source file."
 }

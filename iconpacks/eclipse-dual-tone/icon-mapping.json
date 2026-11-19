@@ -1896,5 +1896,8 @@
   ],
   "h-file.svg" : [
     "org.eclipse.cdt.ui/icons/obj16/h_file_obj.svg"
+  ],
+  "s-file.svg" : [
+    "org.eclipse.cdt.ui/icons/obj16/s_file_obj.svg"
   ]
 }
