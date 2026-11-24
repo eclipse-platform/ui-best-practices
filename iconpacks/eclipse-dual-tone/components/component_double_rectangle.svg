@@ -1,54 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+  Eclipse Dual Tone icon template
+  - Canvas: 16x16 px
+  - Live area: 14x14 px, 1 px margin (guides at 1 and 15)
+  - Grid: 0.5 px (snap 1 px stroke centerlines to x.5)
+  - Default stroke: 1 px, round join/cap, no fill
+  - Tone swatches in <defs> (Gray #A8A8A8 default + accents)
+  Draw inside the guides, then Path > Stroke to Path before export.
+-->
+
 <svg
    width="16"
    height="16"
-   id="svg2"
+   viewBox="0 0 16 16"
    version="1.1"
-   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   id="svg-dual-tone-template"
    sodipodi:docname="component_double_rectangle.svg"
-   inkscape:export-filename="C:\Users\D019122\OneDrive - SAP SE\Desktop\iam_package.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
-   xml:space="preserve"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"><defs
-     id="defs4" /><sodipodi:namedview
-     id="base"
+   xmlns:sodipodi0="http://sodipodi.sourceforge.net/DTD/sodipodi-0.0.dtd">
+  <sodipodi:namedview
+     id="namedview1"
      pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="25.626311"
-     inkscape:cx="7.1996316"
-     inkscape:cy="9.0727065"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="true"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="26.845948"
+     inkscape:cx="3.4269603"
+     inkscape:cy="9.9456348"
      inkscape:window-width="1728"
-     inkscape:window-height="990"
+     inkscape:window-height="999"
      inkscape:window-x="0"
-     inkscape:window-y="344"
+     inkscape:window-y="33"
      inkscape:window-maximized="0"
-     showguides="true"
-     inkscape:guide-bbox="true"
-     inkscape:snap-global="false"
-     inkscape:snap-bbox="true"
-     inkscape:bbox-nodes="true"
-     inkscape:document-rotation="0"
-     inkscape:showpageshadow="false"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#ffffff"><sodipodi:guide
-       position="-32.526912,-1.7218637"
-       orientation="1,0"
-       id="guide1"
-       inkscape:locked="false" /><inkscape:grid
-       id="grid14"
+     inkscape:current-layer="layer-icon"
+     showgrid="true">
+    <inkscape:grid
+       id="grid1"
        units="px"
        originx="0"
        originy="0"
@@ -60,28 +54,158 @@
        opacity="0.14901961"
        empspacing="5"
        enabled="true"
-       visible="true"
-       dotted="false" /><sodipodi:guide
-       position="-14.318912,58.426407"
-       orientation="0,-1"
-       id="guide16"
-       inkscape:locked="false" /><sodipodi:guide
-       position="-15.202796,51.708892"
-       orientation="0.70710678,-0.70710678"
-       id="guide17"
-       inkscape:locked="false" /><sodipodi:guide
-       position="-4.065864,27.711456"
-       orientation="0,-1"
-       id="guide18"
-       inkscape:locked="false" /></sodipodi:namedview><metadata
-     id="metadata7"><rdf:RDF><cc:Work
-         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><g
-     inkscape:label="Layer 1"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs-tones">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1"
+       radius="1"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <!-- Dual Tone palette (from STYLE_GUIDE.md) -->
+    <!-- Gray  #A8A8A8  default base icon color -->
+    <!-- Green #499C54  action        Red #C80000 error/stop -->
+    <!-- Yellow #FFD700 warning       Blue #0065C7 information -->
+    <!-- Orange #FF7F27 interaction -->
+    <inkscape:swatch
+       id="tone-gray"
+       style="fill:#a8a8a8;stroke:#a8a8a8"
+       inkscape:label="Gray (default)" />
+    <inkscape:swatch
+       id="tone-green"
+       style="fill:#499c54;stroke:#499c54"
+       inkscape:label="Green (action)" />
+    <inkscape:swatch
+       id="tone-red"
+       style="fill:#c80000;stroke:#c80000"
+       inkscape:label="Red (error)" />
+    <inkscape:swatch
+       id="tone-yellow"
+       style="fill:#ffd700;stroke:#ffd700"
+       inkscape:label="Yellow (warning)" />
+    <inkscape:swatch
+       id="tone-blue"
+       style="fill:#0065c7;stroke:#0065c7"
+       inkscape:label="Blue (information)" />
+    <inkscape:swatch
+       id="tone-orange"
+       style="fill:#ff7f27;stroke:#ff7f27"
+       inkscape:label="Orange (interaction)" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2-2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1"
+       radius="1"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2-2-2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1"
+       radius="1"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <sodipodi0:namedview
+     id="namedview-template"
+     pagecolor="#ffffff"
+     bordercolor="#0c0005"
+     inkscape:deskcolor="#ffffff"
+     inkscape:document-units="px"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     showgrid="true"
+     inkscape:snap-grids="true"
+     inkscape:snap-to-guides="true"
+     inkscape:snap-page="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:zoom="32"
+     inkscape:cx="8"
+     inkscape:cy="8">
+    <!-- 0.5 px grid: lands stroke centerlines on x.5 for crisp 1 px strokes -->
+    <inkscape:grid
+       id="grid-half-px"
+       type="xygrid"
+       units="px"
+       spacingx="0.5"
+       spacingy="0.5"
+       empspacing="2"
+       color="#3f3fff"
+       opacity="0.12"
+       empcolor="#3f3fff"
+       empopacity="0.24" />
+    <!-- 14x14 live area: 1 px margin on every side -->
+    <sodipodi0:guide
+       id="guide-left"
+       position="1,8"
+       orientation="1,0"
+       inkscape:locked="true"
+       inkscape:label="live area" />
+    <sodipodi0:guide
+       id="guide-right"
+       position="15,8"
+       orientation="1,0"
+       inkscape:locked="true" />
+    <sodipodi0:guide
+       id="guide-top"
+       position="8,15"
+       orientation="0,1"
+       inkscape:locked="true" />
+    <sodipodi0:guide
+       id="guide-bottom"
+       position="8,1"
+       orientation="0,1"
+       inkscape:locked="true" />
+  </sodipodi0:namedview>
+  <!-- Locked reference layer: live-area outline + default-style sample. Hide or delete before export. -->
+  <!-- Draw your icon here. New shapes inherit this 1 px round-stroke default style. -->
+  <g
      inkscape:groupmode="layer"
-     id="layer1"
-     style="display:inline"
-     transform="translate(0,-1036.3622)"><path
-       id="rect1-7"
-       style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;fill:#a8a8a8;fill-rule:evenodd;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
-       d="M 1.0996094 1036.3622 C 0.50394134 1036.3622 -1.4802974e-16 1036.8681 0 1037.4638 L 0 1047.7626 C 0 1048.3583 0.50394135 1048.8622 1.0996094 1048.8622 L 3.5 1048.8622 L 3.5 1051.2626 C 3.5 1051.8583 4.0039414 1052.3622 4.5996094 1052.3622 L 14.900391 1052.3622 C 15.496059 1052.3622 16 1051.8583 16 1051.2626 L 16 1040.9638 C 16 1040.3681 15.496059 1039.8622 14.900391 1039.8622 L 12.5 1039.8622 L 12.5 1037.4638 C 12.5 1036.8681 11.996059 1036.3622 11.400391 1036.3622 L 1.0996094 1036.3622 z M 2 1038.3622 L 10.5 1038.3622 L 10.5 1039.8622 L 4.5996094 1039.8622 C 4.0039414 1039.8622 3.5 1040.3681 3.5 1040.9638 L 3.5 1046.8622 L 2 1046.8622 L 2 1038.3622 z M 5.5 1041.8622 L 14 1041.8622 L 14 1050.3622 L 5.5 1050.3622 L 5.5 1041.8622 z " /></g></svg>
+     id="layer-icon"
+     inkscape:label="icon"
+     style="fill:none;stroke:#a8a8a8;stroke-width:1;stroke-linecap:round;stroke-linejoin:round">
+    <path
+       style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#a8a8a8;stroke:none;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+       d="M 3.5,3 A 0.5000475,0.5000475 0 0 0 3,3.5 v 11 A 0.5000475,0.5000475 0 0 0 3.5,15 h 11 A 0.5000475,0.5000475 0 0 0 15,14.5 V 3.5 A 0.5000475,0.5000475 0 0 0 14.5,3 Z M 4,4 H 14 V 14 H 4 Z"
+       id="rect1" />
+    <path
+       id="rect1-9"
+       style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#a8a8a8;stroke:none;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+       d="M 1.5 1 A 0.50005 0.50005 0 0 0 1 1.5 L 1 12.5 A 0.50005 0.50005 0 0 0 1.5 13 L 4 13 L 4 12 L 2 12 L 2 2 L 12 2 L 12 4 L 13 4 L 13 1.5 A 0.50005 0.50005 0 0 0 12.5 1 L 1.5 1 z " />
+  </g>
+</svg>

@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+  Eclipse Dual Tone icon template
+  - Canvas: 16x16 px
+  - Live area: 14x14 px, 1 px margin (guides at 1 and 15)
+  - Grid: 0.5 px (snap 1 px stroke centerlines to x.5)
+  - Default stroke: 1 px, round join/cap, no fill
+  - Tone swatches in <defs> (Gray #A8A8A8 default + accents)
+  Draw inside the guides, then Path > Stroke to Path before export.
+-->
+
 <svg
    width="16"
    height="16"
    viewBox="0 0 16 16"
-   fill="none"
    version="1.1"
-   id="svg6"
+   id="svg-dual-tone-template"
    sodipodi:docname="component-java.svg"
    inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
-   inkscape:export-filename="import_config_obj_16x16.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
+   xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <path
-     id="rect9"
-     style="fill:#0065c7;fill-rule:evenodd;stroke-width:1"
-     d="m 14.996875,8 a 0.99921941,1 0 0 0 -0.99922,1 v 4.5 h 0.002 c 0.0041,0.177503 -0.08427,0.347062 -0.253708,0.443359 -0.249722,0.141929 -0.535891,0.05888 -0.679158,-0.193359 -0.04631,-0.08154 -0.07055,-0.166629 -0.0722,-0.25 v -0.199219 h 0.0039 A 0.99927397,1.00398 0 0 0 12.86963,12.8125 l -0.0059,-0.0078 a 0.99927397,1.00398 0 0 0 -0.862567,-0.503919 0.99927397,1.00398 0 0 0 -0.497658,0.132813 0.99927397,1.00398 0 0 0 -0.503513,0.867187 H 10.9961 V 13.5 H 11 c -0.0023,0.422562 0.10256,0.85043 0.323966,1.240234 0.675544,1.189365 2.220029,1.613512 3.409445,0.9375 0.80406,-0.456993 1.259283,-1.306821 1.262683,-2.177734 V 9 A 0.99921941,1 0 0 0 14.996875,8 Z" />
-  <sodipodi:namedview
-     id="namedview6"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:sodipodi0="http://sodipodi.sourceforge.net/DTD/sodipodi-0.0.dtd"><sodipodi:namedview
+     id="namedview1"
      pagecolor="#ffffff"
-     bordercolor="#0c0005"
-     borderopacity="0.36078431"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#ffffff"
-     inkscape:zoom="16.152772"
-     inkscape:cx="9.162514"
-     inkscape:cy="9.5339672"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="37.803047"
+     inkscape:cx="6.4941856"
+     inkscape:cy="9.3907775"
      inkscape:window-width="1728"
-     inkscape:window-height="993"
+     inkscape:window-height="999"
      inkscape:window-x="0"
      inkscape:window-y="33"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg6"
-     showguides="true"
-     showgrid="true"
-     inkscape:lockguides="false">
-    <inkscape:grid
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer-icon"
+     showgrid="true"><inkscape:grid
        id="grid1"
        units="px"
        originx="0"
@@ -53,8 +53,122 @@
        opacity="0.14901961"
        empspacing="5"
        enabled="true"
-       visible="true" />
-  </sodipodi:namedview>
-  <defs
-     id="defs6" />
-</svg>
+       visible="true" /></sodipodi:namedview><defs
+     id="defs-tones"><inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1"
+       radius="1"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" /><!-- Dual Tone palette (from STYLE_GUIDE.md) --><!-- Gray  #A8A8A8  default base icon color --><!-- Green #499C54  action        Red #C80000 error/stop --><!-- Yellow #FFD700 warning       Blue #0065C7 information --><!-- Orange #FF7F27 interaction --><inkscape:swatch
+       id="tone-gray"
+       style="fill:#a8a8a8;stroke:#a8a8a8"
+       inkscape:label="Gray (default)" /><inkscape:swatch
+       id="tone-green"
+       style="fill:#499c54;stroke:#499c54"
+       inkscape:label="Green (action)" /><inkscape:swatch
+       id="tone-red"
+       style="fill:#c80000;stroke:#c80000"
+       inkscape:label="Red (error)" /><inkscape:swatch
+       id="tone-yellow"
+       style="fill:#ffd700;stroke:#ffd700"
+       inkscape:label="Yellow (warning)" /><inkscape:swatch
+       id="tone-blue"
+       style="fill:#0065c7;stroke:#0065c7"
+       inkscape:label="Blue (information)" /><inkscape:swatch
+       id="tone-orange"
+       style="fill:#ff7f27;stroke:#ff7f27"
+       inkscape:label="Orange (interaction)" /><inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2-2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1"
+       radius="1"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" /><inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2-2-2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1"
+       radius="1"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" /></defs><sodipodi0:namedview
+     id="namedview-template"
+     pagecolor="#ffffff"
+     bordercolor="#0c0005"
+     inkscape:deskcolor="#ffffff"
+     inkscape:document-units="px"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     showgrid="true"
+     inkscape:snap-grids="true"
+     inkscape:snap-to-guides="true"
+     inkscape:snap-page="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:zoom="32"
+     inkscape:cx="8"
+     inkscape:cy="8"><!-- 0.5 px grid: lands stroke centerlines on x.5 for crisp 1 px strokes --><inkscape:grid
+       id="grid-half-px"
+       type="xygrid"
+       units="px"
+       spacingx="0.5"
+       spacingy="0.5"
+       empspacing="2"
+       color="#3f3fff"
+       opacity="0.12"
+       empcolor="#3f3fff"
+       empopacity="0.24" /><!-- 14x14 live area: 1 px margin on every side --><sodipodi0:guide
+       id="guide-left"
+       position="1,8"
+       orientation="1,0"
+       inkscape:locked="true"
+       inkscape:label="live area" /><sodipodi0:guide
+       id="guide-right"
+       position="15,8"
+       orientation="1,0"
+       inkscape:locked="true" /><sodipodi0:guide
+       id="guide-top"
+       position="8,15"
+       orientation="0,1"
+       inkscape:locked="true" /><sodipodi0:guide
+       id="guide-bottom"
+       position="8,1"
+       orientation="0,1"
+       inkscape:locked="true" /></sodipodi0:namedview><!-- Locked reference layer: live-area outline + default-style sample. Hide or delete before export. --><!-- Draw your icon here. New shapes inherit this 1 px round-stroke default style. --><g
+     inkscape:groupmode="layer"
+     id="layer-icon"
+     inkscape:label="icon"
+     style="fill:none;stroke:#a8a8a8;stroke-width:1;stroke-linecap:round;stroke-linejoin:round"><path
+       id="path2"
+       style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#0065c7;stroke:none;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1;fill-opacity:1"
+       d="M 14.5 8 A 0.5 0.5 0 0 0 14 8.5 L 14 12.984375 A 0.5 0.5 0 0 0 14 13 A 0.5 0.5 0 0 0 14 13.015625 C 13.9983 13.33649 13.904539 13.618698 13.789062 13.789062 C 13.673583 13.959426 13.572214 14.000442 13.498047 14 C 13.42388 13.999558 13.322191 13.955832 13.207031 13.783203 C 13.091871 13.610574 13 13.328691 13 13.007812 A 0.5 0.5 0 0 0 12.5 12.507812 A 0.5 0.5 0 0 0 12 13.007812 C 12 13.509203 12.129837 13.970381 12.375 14.337891 C 12.620163 14.7054 13.015633 14.99716 13.492188 15 C 13.968742 15.0028 14.369465 14.715071 14.617188 14.349609 C 14.864909 13.984148 14.997319 13.522864 15 13.021484 A 0.5 0.5 0 0 0 14.998047 13.003906 A 0.5 0.5 0 0 0 15 12.984375 L 15 8.5 A 0.5 0.5 0 0 0 14.5 8 z " /></g></svg>

@@ -1,42 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+  Eclipse Dual Tone icon template
+  - Canvas: 16x16 px
+  - Live area: 14x14 px, 1 px margin (guides at 1 and 15)
+  - Grid: 0.5 px (snap 1 px stroke centerlines to x.5)
+  - Default stroke: 1 px, round join/cap, no fill
+  - Tone swatches in <defs> (Gray #A8A8A8 default + accents)
+  Draw inside the guides, then Path > Stroke to Path before export.
+-->
+
 <svg
    width="16"
    height="16"
    viewBox="0 0 16 16"
-   fill="none"
    version="1.1"
-   id="svg5"
+   id="svg-dual-tone-template"
    sodipodi:docname="component_folder.svg"
-   inkscape:export-filename="fldr_obj_32x32.png"
-   inkscape:export-xdpi="192"
-   inkscape:export-ydpi="192"
    inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:sodipodi0="http://sodipodi.sourceforge.net/DTD/sodipodi-0.0.dtd">
   <sodipodi:namedview
-     id="namedview5"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#505050"
-     showgrid="true"
-     showguides="false"
-     inkscape:zoom="32"
-     inkscape:cx="6.703125"
-     inkscape:cy="10.296875"
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="35.158443"
+     inkscape:cx="8.5328011"
+     inkscape:cy="8.1630464"
      inkscape:window-width="1728"
-     inkscape:window-height="990"
+     inkscape:window-height="999"
      inkscape:window-x="0"
-     inkscape:window-y="344"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg5">
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer-icon"
+     showgrid="true">
     <inkscape:grid
-       id="grid5"
+       id="grid1"
        units="px"
        originx="0"
        originy="0"
@@ -47,19 +53,17 @@
        color="#0099e5"
        opacity="0.14901961"
        empspacing="5"
-       dotted="false"
-       gridanglex="30"
-       gridanglez="30"
+       enabled="true"
        visible="true" />
   </sodipodi:namedview>
   <defs
-     id="defs5">
+     id="defs-tones">
     <inkscape:path-effect
        effect="fillet_chamfer"
-       id="path-effect5"
+       id="path-effect1"
        is_visible="true"
        lpeversion="1"
-       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0.93154167,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       nodesatellites_param="F,0,0,1,0,1.0248374,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0.97335995,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,0.97544325,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0.96975471,0,1"
        radius="0"
        unit="px"
        method="auto"
@@ -73,11 +77,11 @@
        hide_knots="false" />
     <inkscape:path-effect
        effect="fillet_chamfer"
-       id="path-effect7"
+       id="path-effect2"
        is_visible="true"
        lpeversion="1"
-       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,1,1,0,0.77593665,0,1 @ F,0,0,1,0,0.77593665,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
-       radius="0"
+       nodesatellites_param="F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1"
+       radius="1"
        unit="px"
        method="auto"
        mode="F"
@@ -88,34 +92,136 @@
        apply_with_radius="true"
        only_selected="false"
        hide_knots="false" />
-    <mask
-       id="path-1-inside-1_1_2"
-       fill="#ffffff">
-      <rect
-         width="10"
-         height="10"
-         rx="1"
-         id="rect2"
-         x="0"
-         y="0" />
-    </mask>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath1">
-      <g
-         id="g3">
-        <rect
-           width="16"
-           height="16"
-           fill="#ffffff"
-           id="rect3"
-           x="0"
-           y="0" />
-      </g>
-    </clipPath>
+    <!-- Dual Tone palette (from STYLE_GUIDE.md) -->
+    <!-- Gray  #A8A8A8  default base icon color -->
+    <!-- Green #499C54  action        Red #C80000 error/stop -->
+    <!-- Yellow #FFD700 warning       Blue #0065C7 information -->
+    <!-- Orange #FF7F27 interaction -->
+    <inkscape:swatch
+       id="tone-gray"
+       style="fill:#a8a8a8;stroke:#a8a8a8"
+       inkscape:label="Gray (default)" />
+    <inkscape:swatch
+       id="tone-green"
+       style="fill:#499c54;stroke:#499c54"
+       inkscape:label="Green (action)" />
+    <inkscape:swatch
+       id="tone-red"
+       style="fill:#c80000;stroke:#c80000"
+       inkscape:label="Red (error)" />
+    <inkscape:swatch
+       id="tone-yellow"
+       style="fill:#ffd700;stroke:#ffd700"
+       inkscape:label="Yellow (warning)" />
+    <inkscape:swatch
+       id="tone-blue"
+       style="fill:#0065c7;stroke:#0065c7"
+       inkscape:label="Blue (information)" />
+    <inkscape:swatch
+       id="tone-orange"
+       style="fill:#ff7f27;stroke:#ff7f27"
+       inkscape:label="Orange (interaction)" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2-2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1"
+       radius="1"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2-2-2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1"
+       radius="1"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
   </defs>
-  <path
-     id="rect5"
-     style="fill:#a8a8a8;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-opacity:1;paint-order:markers stroke fill"
-     d="m 1,1.5000001 c -0.55399997,0 -1,0.4446484 -1,0.9980469 V 4.2226563 C 0,4.2719221 0.00293476,4.3198701 0.00976563,4.3671876 0.00293507,4.4145555 0,4.4624007 0,4.5117189 V 13.5 c 0,0.554 0.44600003,1 1,1 h 14 c 0.554,0 1,-0.446 1,-1 V 4.5117189 c 0,-0.554 -0.446,-1 -1,-1 H 8.9980469 L 7.65625,2.1601563 A 2.2361013,2.2336731 0 0 0 6.0683594,1.5000001 Z" />
+  <sodipodi0:namedview
+     id="namedview-template"
+     pagecolor="#ffffff"
+     bordercolor="#0c0005"
+     inkscape:deskcolor="#ffffff"
+     inkscape:document-units="px"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     showgrid="true"
+     inkscape:snap-grids="true"
+     inkscape:snap-to-guides="true"
+     inkscape:snap-page="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:zoom="32"
+     inkscape:cx="8"
+     inkscape:cy="8">
+    <!-- 0.5 px grid: lands stroke centerlines on x.5 for crisp 1 px strokes -->
+    <inkscape:grid
+       id="grid-half-px"
+       type="xygrid"
+       units="px"
+       spacingx="0.5"
+       spacingy="0.5"
+       empspacing="2"
+       color="#3f3fff"
+       opacity="0.12"
+       empcolor="#3f3fff"
+       empopacity="0.24" />
+    <!-- 14x14 live area: 1 px margin on every side -->
+    <sodipodi0:guide
+       id="guide-left"
+       position="1,8"
+       orientation="1,0"
+       inkscape:locked="true"
+       inkscape:label="live area" />
+    <sodipodi0:guide
+       id="guide-right"
+       position="15,8"
+       orientation="1,0"
+       inkscape:locked="true" />
+    <sodipodi0:guide
+       id="guide-top"
+       position="8,15"
+       orientation="0,1"
+       inkscape:locked="true" />
+    <sodipodi0:guide
+       id="guide-bottom"
+       position="8,1"
+       orientation="0,1"
+       inkscape:locked="true" />
+  </sodipodi0:namedview>
+  <!-- Locked reference layer: live-area outline + default-style sample. Hide or delete before export. -->
+  <!-- Draw your icon here. New shapes inherit this 1 px round-stroke default style. -->
+  <g
+     inkscape:groupmode="layer"
+     id="layer-icon"
+     inkscape:label="icon"
+     style="fill:none;stroke:#a8a8a8;stroke-width:1;stroke-linecap:round;stroke-linejoin:round">
+    <path
+       id="rect1"
+       style="fill:#a8a8a8;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 1,3.0248374 V 4 13.02664 A 0.97335995,0.97335995 45 0 0 1.9733599,14 L 14,14 a 1,1 135 0 0 1,-1 V 4.9754432 A 0.97544325,0.97544325 45 0 0 14.024557,4 H 9 L 8,3 7.6857201,2.6857201 A 2.341195,2.341195 22.5 0 0 6.0302453,2 H 2.0248374 A 1.0248374,1.0248374 135 0 0 1,3.0248374 Z"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:path-effect="#path-effect1"
+       inkscape:original-d="M 1,2 V 4 14 H 15 V 4 H 9 L 8,3 7,2 Z" />
+  </g>
 </svg>

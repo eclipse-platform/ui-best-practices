@@ -1,46 +1,53 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<!--
+  Eclipse Dual Tone icon template
+  - Canvas: 16x16 px
+  - Live area: 14x14 px, 1 px margin (guides at 1 and 15)
+  - Grid: 0.5 px (snap 1 px stroke centerlines to x.5)
+  - Default stroke: 1 px, round join/cap, no fill
+  - Tone swatches in <defs> (Gray #A8A8A8 default + accents)
+  Draw inside the guides, then Path > Stroke to Path before export.
+-->
 
 <svg
    width="16"
    height="16"
-   viewBox="0 0 4.2333332 4.2333333"
+   viewBox="0 0 16 16"
    version="1.1"
-   id="svg1"
-   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   id="svg-dual-tone-template"
    sodipodi:docname="component_repeat-action.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:sodipodi0="http://sodipodi.sourceforge.net/DTD/sodipodi-0.0.dtd">
   <sodipodi:namedview
      id="namedview1"
      pagecolor="#ffffff"
      bordercolor="#000000"
      borderopacity="0.25"
-     inkscape:showpageshadow="false"
+     inkscape:showpageshadow="2"
      inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#ffffff"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="28.459365"
-     inkscape:cx="7.537062"
-     inkscape:cy="8.1344049"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="27.715877"
+     inkscape:cx="4.0229649"
+     inkscape:cy="9.2726635"
      inkscape:window-width="1728"
-     inkscape:window-height="990"
+     inkscape:window-height="999"
      inkscape:window-x="0"
      inkscape:window-y="33"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg1"
-     showguides="true">
+     inkscape:current-layer="layer-icon"
+     showgrid="true">
     <inkscape:grid
        id="grid1"
        units="px"
        originx="0"
        originy="0"
-       spacingx="0.26458333"
-       spacingy="0.26458333"
+       spacingx="1"
+       spacingy="1"
        empcolor="#0099e5"
        empopacity="0.30196078"
        color="#0099e5"
@@ -50,13 +57,185 @@
        visible="true" />
   </sodipodi:namedview>
   <defs
-     id="defs1" />
+     id="defs-tones">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect6"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0.5121649,0,1 @ F,0,0,1,0,0.40062367,0,1 @ F,0,0,1,0,0.50962233,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0.54903248,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect5"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="1"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1"
+       radius="1"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <!-- Dual Tone palette (from STYLE_GUIDE.md) -->
+    <!-- Gray  #A8A8A8  default base icon color -->
+    <!-- Green #499C54  action        Red #C80000 error/stop -->
+    <!-- Yellow #FFD700 warning       Blue #0065C7 information -->
+    <!-- Orange #FF7F27 interaction -->
+    <inkscape:swatch
+       id="tone-gray"
+       style="fill:#a8a8a8;stroke:#a8a8a8"
+       inkscape:label="Gray (default)" />
+    <inkscape:swatch
+       id="tone-green"
+       style="fill:#499c54;stroke:#499c54"
+       inkscape:label="Green (action)" />
+    <inkscape:swatch
+       id="tone-red"
+       style="fill:#c80000;stroke:#c80000"
+       inkscape:label="Red (error)" />
+    <inkscape:swatch
+       id="tone-yellow"
+       style="fill:#ffd700;stroke:#ffd700"
+       inkscape:label="Yellow (warning)" />
+    <inkscape:swatch
+       id="tone-blue"
+       style="fill:#0065c7;stroke:#0065c7"
+       inkscape:label="Blue (information)" />
+    <inkscape:swatch
+       id="tone-orange"
+       style="fill:#ff7f27;stroke:#ff7f27"
+       inkscape:label="Orange (interaction)" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2-2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1"
+       radius="1"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2-2-2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1"
+       radius="1"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <sodipodi0:namedview
+     id="namedview-template"
+     pagecolor="#ffffff"
+     bordercolor="#0c0005"
+     inkscape:deskcolor="#ffffff"
+     inkscape:document-units="px"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     showgrid="true"
+     inkscape:snap-grids="true"
+     inkscape:snap-to-guides="true"
+     inkscape:snap-page="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:zoom="32"
+     inkscape:cx="8"
+     inkscape:cy="8">
+    <!-- 0.5 px grid: lands stroke centerlines on x.5 for crisp 1 px strokes -->
+    <inkscape:grid
+       id="grid-half-px"
+       type="xygrid"
+       units="px"
+       spacingx="0.5"
+       spacingy="0.5"
+       empspacing="2"
+       color="#3f3fff"
+       opacity="0.12"
+       empcolor="#3f3fff"
+       empopacity="0.24" />
+    <!-- 14x14 live area: 1 px margin on every side -->
+    <sodipodi0:guide
+       id="guide-left"
+       position="1,8"
+       orientation="1,0"
+       inkscape:locked="true"
+       inkscape:label="live area" />
+    <sodipodi0:guide
+       id="guide-right"
+       position="15,8"
+       orientation="1,0"
+       inkscape:locked="true" />
+    <sodipodi0:guide
+       id="guide-top"
+       position="8,15"
+       orientation="0,1"
+       inkscape:locked="true" />
+    <sodipodi0:guide
+       id="guide-bottom"
+       position="8,1"
+       orientation="0,1"
+       inkscape:locked="true" />
+  </sodipodi0:namedview>
+  <!-- Locked reference layer: live-area outline + default-style sample. Hide or delete before export. -->
+  <!-- Draw your icon here. New shapes inherit this 1 px round-stroke default style. -->
   <g
-     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1" />
-  <path
-     id="path1-4"
-     style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#ff7f27;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;enable-background:accumulate;stop-color:#000000"
-     d="m 3.7521411,2.1167029 a 0.26423611,0.26620985 0 0 0 -0.2121114,0.1013883 0.26423611,0.26620985 0 0 0 0.044899,0.3753974 c 0,0 0.04665,0.0391 0.077929,0.098269 0.043072,0.081477 0.051667,0.1671501 0.029417,0.2360531 -0.031358,0.097107 -0.098295,0.1328656 -0.2244974,0.1804195 -0.039754,0.014979 -0.1239707,0.021748 -0.2451407,0.024437 H 3.0192992 l 0.1094102,-0.110228 a 0.26423461,0.26620834 0 0 0 0,-0.376437 0.26423461,0.26620834 0 0 0 -0.1868231,-0.077991 0.26423461,0.26620834 0 0 0 -0.1868231,0.077991 L 2.1971745,3.2080586 a 0.26423594,0.26620968 0 0 0 -0.023223,0.025997 0.26423461,0.26620834 0 0 0 -0.00103,0.00104 0.26423594,0.26620968 0 0 0 -0.053672,0.1263456 0.26423461,0.26620834 0 0 0 -0.00207,0.031196 0.26423461,0.26620834 0 0 0 -5.16e-4,0.00415 0.26423461,0.26620834 0 0 0 5.16e-4,0.0078 0.26423461,0.26620834 0 0 0 0.076897,0.1861388 l 0.5604693,0.5646558 a 0.26423461,0.26620834 0 0 0 0.3736461,0 0.26423461,0.26620834 0 0 0 0,-0.3764372 L 3.0239439,3.6739255 c 0.2294288,0.00718 0.4276706,0.00799 0.6296248,-0.068112 C 3.8245152,3.5413999 4.0953941,3.4025093 4.1954587,3.0926317 4.2686204,2.8660664 4.229964,2.6324168 4.1293998,2.4421857 4.0402254,2.2734999 3.9126438,2.1749363 3.9126438,2.1749363 A 0.26423611,0.26620985 0 0 0 3.7521411,2.1167029 Z" />
+     id="layer-icon"
+     inkscape:label="icon"
+     style="fill:none;stroke:#a8a8a8;stroke-width:1;stroke-linecap:round;stroke-linejoin:round">
+    <path
+       id="path4"
+       style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;fill:#ff7f27;stroke:none;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+       d="m 11.053435,9.0005064 c -0.155257,-0.00283 -0.309388,0.00619 -0.46289,0.027344 C 9.9765361,9.1124548 9.3888235,9.3862666 8.9206229,9.8364439 7.9842217,10.736798 7.7331622,12.14491 8.3014822,13.313006 c 0.56832,1.168096 1.8307898,1.839135 3.1171878,1.658203 a 0.5,0.5 0 0 0 0.425781,-0.564453 0.5,0.5 0 0 0 -0.564453,-0.425781 C 10.419048,14.102068 9.5822005,13.657212 9.2018729,12.875506 8.8215452,12.0938 8.9873069,11.161651 9.6139822,10.5591 10.240658,9.9565484 11.179696,9.8262157 11.946013,10.236834 c 0.659777,0.353531 1.057738,1.03506 1.056641,1.763672 h -0.628906 a 0.37375982,0.27991712 0 0 0 -0.322266,0.419922 l 0.5625,0.730469 0.539063,0.699218 a 0.40266343,0.30156368 0 0 0 0.697265,0 l 0.539063,-0.699218 0.560547,-0.728516 a 0.37562455,0.28131365 0 0 0 -0.324219,-0.421875 h -0.615234 -0.0098 C 14.0006,10.909974 13.402119,9.8839871 12.416717,9.3559752 11.987331,9.125896 11.519208,9.0089943 11.053435,9.0005064 Z" />
+  </g>
 </svg>
