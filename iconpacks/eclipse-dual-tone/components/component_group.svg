@@ -32,7 +32,7 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="26.972692"
-     inkscape:cx="7.6373541"
+     inkscape:cx="7.6558914"
      inkscape:cy="8.4159193"
      inkscape:window-width="1728"
      inkscape:window-height="999"
@@ -200,16 +200,8 @@
      inkscape:label="icon"
      style="fill:none;stroke:#a8a8a8;stroke-width:1;stroke-linecap:round;stroke-linejoin:round">
     <path
-       style="fill:none;stroke:#a8a8a8;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
-       d="M 1.4999999,1.5000051 V 14.499995"
-       id="path2" />
-    <path
-       style="fill:none;stroke:#a8a8a8;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
-       d="M 5.499969,1.5 H 1.5000312"
-       id="path2-0" />
-    <path
-       style="fill:none;stroke:#a8a8a8;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
-       d="M 5.4999378,14.5 H 1.5"
-       id="path2-0-0" />
+       id="path2"
+       style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#7a7a7a;stroke:none;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1;fill-opacity:1"
+       d="M 1.5 1 A 0.5 0.5 0 0 0 1 1.5 L 1 14.5 A 0.5 0.5 0 0 0 1.5 15 L 5.5 15 A 0.5 0.5 0 0 0 6 14.5 A 0.5 0.5 0 0 0 5.5 14 L 2 14 L 2 2 L 5.5 2 A 0.5 0.5 0 0 0 6 1.5 A 0.5 0.5 0 0 0 5.5 1 L 1.5 1 z " />
   </g>
 </svg>

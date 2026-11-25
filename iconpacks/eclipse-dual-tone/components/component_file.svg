@@ -31,9 +31,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="46.264048"
-     inkscape:cx="6.0954459"
-     inkscape:cy="7.3707342"
+     inkscape:zoom="32.823997"
+     inkscape:cx="7.0527669"
+     inkscape:cy="8.56081"
      inkscape:window-width="1728"
      inkscape:window-height="999"
      inkscape:window-x="0"
@@ -63,7 +63,7 @@
        id="path-effect3"
        is_visible="true"
        lpeversion="1"
-       nodesatellites_param="F,0,0,1,0,0.96769888,0,1 @ F,0,0,1,0,1.0216151,0,1 @ F,0,0,1,0,1.0129538,0,1 @ F,0,0,1,0,0.99177106,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0.98099573,0,1"
+       nodesatellites_param="F,0,0,1,0,0.54118166,0,1 @ F,0,0,1,0,0.53416684,0,1 @ F,0,0,1,0,0.55597106,0,1 @ F,0,0,1,0,0.53478832,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0.52878901,0,1"
        radius="0"
        unit="px"
        method="auto"
@@ -218,8 +218,8 @@
      style="fill:none;stroke:#a8a8a8;stroke-width:1;stroke-linecap:round;stroke-linejoin:round">
     <path
        id="rect2"
-       style="fill:#a8a8a8;stroke:none;stroke-width:0.999996;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
-       d="M 3,1.9676989 V 13.978385 A 1.0216151,1.0216151 45 0 0 4.0216151,15 H 11.987046 A 1.0129538,1.0129538 135 0 0 13,13.987046 V 4.9976305 A 2.3967255,2.3967255 67.520105 0 0 12.299204,3.3040794 L 11.609375,2.6132812 10.692827,1.694509 A 2.3642794,2.3642794 22.534724 0 0 9.0190043,1 H 3.9676989 A 0.96769888,0.96769888 135 0 0 3,1.9676989 Z"
+       style="fill:#7a7a7a;stroke:none;stroke-width:0.999996;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;fill-opacity:1"
+       d="M 3,1.5411817 3,14.465833 A 0.53416684,0.53416684 45 0 0 3.5341668,15 H 12.444029 A 0.55597106,0.55597106 135 0 0 13,14.444029 V 4.5406477 A 1.2923757,1.2923757 67.520105 0 0 12.622113,3.6274417 L 11.609375,2.6132812 10.373457,1.3743632 A 1.2744245,1.2744245 22.534724 0 0 9.471211,1 H 3.5411817 A 0.54118166,0.54118166 135 0 0 3,1.5411817 Z"
        inkscape:path-effect="#path-effect3"
        inkscape:original-d="M 3,1 V 15 H 13 V 4.0058594 L 11.609375,2.6132812 10,1 Z" />
   </g>

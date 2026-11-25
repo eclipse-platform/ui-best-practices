@@ -201,7 +201,7 @@
      style="fill:none;stroke:#a8a8a8;stroke-width:1;stroke-linecap:round;stroke-linejoin:round">
     <path
        id="path2"
-       style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;fill:#ff7f27;stroke:none;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+       style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;fill:#d55e00;stroke:none;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1;fill-opacity:1"
        d="m 12.498951,8 a 0.49999949,0.49999949 0 0 0 -0.5,0.5 v 4.800781 L 10.85442,12.148438 a 0.5,0.5 0 0 0 -0.707031,-0.002 0.5,0.5 0 0 0 -0.002,0.707032 l 1.986328,2 A 0.5,0.5 0 0 0 12.498951,15 0.5,0.5 0 0 0 12.868092,14.853516 l 1.986328,-2 a 0.5,0.5 0 0 0 -0.002,-0.707032 0.5,0.5 0 0 0 -0.707032,0.002 l -1.146484,1.154296 V 8.5 a 0.49999949,0.49999949 0 0 0 -0.5,-0.5 z" />
   </g>
 </svg>

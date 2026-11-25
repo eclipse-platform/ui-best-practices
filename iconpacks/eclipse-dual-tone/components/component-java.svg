@@ -32,13 +32,13 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="37.803047"
-     inkscape:cx="6.4941856"
-     inkscape:cy="9.3907775"
+     inkscape:cx="6.507412"
+     inkscape:cy="9.4040039"
      inkscape:window-width="1728"
-     inkscape:window-height="999"
+     inkscape:window-height="998"
      inkscape:window-x="0"
      inkscape:window-y="33"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      inkscape:current-layer="layer-icon"
      showgrid="true"><inkscape:grid
        id="grid1"
@@ -170,5 +170,5 @@
      inkscape:label="icon"
      style="fill:none;stroke:#a8a8a8;stroke-width:1;stroke-linecap:round;stroke-linejoin:round"><path
        id="path2"
-       style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#0065c7;stroke:none;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1;fill-opacity:1"
+       style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#0086ff;stroke:none;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1;fill-opacity:1"
        d="M 14.5 8 A 0.5 0.5 0 0 0 14 8.5 L 14 12.984375 A 0.5 0.5 0 0 0 14 13 A 0.5 0.5 0 0 0 14 13.015625 C 13.9983 13.33649 13.904539 13.618698 13.789062 13.789062 C 13.673583 13.959426 13.572214 14.000442 13.498047 14 C 13.42388 13.999558 13.322191 13.955832 13.207031 13.783203 C 13.091871 13.610574 13 13.328691 13 13.007812 A 0.5 0.5 0 0 0 12.5 12.507812 A 0.5 0.5 0 0 0 12 13.007812 C 12 13.509203 12.129837 13.970381 12.375 14.337891 C 12.620163 14.7054 13.015633 14.99716 13.492188 15 C 13.968742 15.0028 14.369465 14.715071 14.617188 14.349609 C 14.864909 13.984148 14.997319 13.522864 15 13.021484 A 0.5 0.5 0 0 0 14.998047 13.003906 A 0.5 0.5 0 0 0 15 12.984375 L 15 8.5 A 0.5 0.5 0 0 0 14.5 8 z " /></g></svg>
