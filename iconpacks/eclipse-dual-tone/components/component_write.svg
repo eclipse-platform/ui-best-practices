@@ -1,46 +1,53 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<!--
+  Eclipse Dual Tone icon template
+  - Canvas: 16x16 px
+  - Live area: 14x14 px, 1 px margin (guides at 1 and 15)
+  - Grid: 0.5 px (snap 1 px stroke centerlines to x.5)
+  - Default stroke: 1 px, round join/cap, no fill
+  - Tone swatches in <defs> (Gray #A8A8A8 default + accents)
+  Draw inside the guides, then Path > Stroke to Path before export.
+-->
 
 <svg
    width="16"
    height="16"
-   viewBox="0 0 4.2333332 4.2333333"
+   viewBox="0 0 16 16"
    version="1.1"
-   id="svg1"
-   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   id="svg-dual-tone-template"
    sodipodi:docname="component_write.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:sodipodi0="http://sodipodi.sourceforge.net/DTD/sodipodi-0.0.dtd">
   <sodipodi:namedview
      id="namedview1"
      pagecolor="#ffffff"
      bordercolor="#000000"
      borderopacity="0.25"
-     inkscape:showpageshadow="false"
+     inkscape:showpageshadow="2"
      inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#ffffff"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="29.80897"
-     inkscape:cx="8.1183617"
-     inkscape:cy="9.3092784"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="33.439679"
+     inkscape:cx="8.6274752"
+     inkscape:cy="9.928325"
      inkscape:window-width="1728"
-     inkscape:window-height="990"
+     inkscape:window-height="999"
      inkscape:window-x="0"
      inkscape:window-y="33"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1"
-     showguides="true">
+     inkscape:current-layer="layer-icon"
+     showgrid="true">
     <inkscape:grid
        id="grid1"
        units="px"
        originx="0"
        originy="0"
-       spacingx="0.26458333"
-       spacingy="0.26458333"
+       spacingx="1"
+       spacingy="1"
        empcolor="#0099e5"
        empopacity="0.30196078"
        color="#0099e5"
@@ -50,14 +57,151 @@
        visible="true" />
   </sodipodi:namedview>
   <defs
-     id="defs1" />
+     id="defs-tones">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1"
+       radius="1"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <!-- Dual Tone palette (from STYLE_GUIDE.md) -->
+    <!-- Gray  #A8A8A8  default base icon color -->
+    <!-- Green #499C54  action        Red #C80000 error/stop -->
+    <!-- Yellow #FFD700 warning       Blue #0065C7 information -->
+    <!-- Orange #FF7F27 interaction -->
+    <inkscape:swatch
+       id="tone-gray"
+       style="fill:#a8a8a8;stroke:#a8a8a8"
+       inkscape:label="Gray (default)" />
+    <inkscape:swatch
+       id="tone-green"
+       style="fill:#499c54;stroke:#499c54"
+       inkscape:label="Green (action)" />
+    <inkscape:swatch
+       id="tone-red"
+       style="fill:#c80000;stroke:#c80000"
+       inkscape:label="Red (error)" />
+    <inkscape:swatch
+       id="tone-yellow"
+       style="fill:#ffd700;stroke:#ffd700"
+       inkscape:label="Yellow (warning)" />
+    <inkscape:swatch
+       id="tone-blue"
+       style="fill:#0065c7;stroke:#0065c7"
+       inkscape:label="Blue (information)" />
+    <inkscape:swatch
+       id="tone-orange"
+       style="fill:#ff7f27;stroke:#ff7f27"
+       inkscape:label="Orange (interaction)" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2-2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1"
+       radius="1"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2-2-2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1"
+       radius="1"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <sodipodi0:namedview
+     id="namedview-template"
+     pagecolor="#ffffff"
+     bordercolor="#0c0005"
+     inkscape:deskcolor="#ffffff"
+     inkscape:document-units="px"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     showgrid="true"
+     inkscape:snap-grids="true"
+     inkscape:snap-to-guides="true"
+     inkscape:snap-page="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:zoom="32"
+     inkscape:cx="8"
+     inkscape:cy="8">
+    <!-- 0.5 px grid: lands stroke centerlines on x.5 for crisp 1 px strokes -->
+    <inkscape:grid
+       id="grid-half-px"
+       type="xygrid"
+       units="px"
+       spacingx="0.5"
+       spacingy="0.5"
+       empspacing="2"
+       color="#3f3fff"
+       opacity="0.12"
+       empcolor="#3f3fff"
+       empopacity="0.24" />
+    <!-- 14x14 live area: 1 px margin on every side -->
+    <sodipodi0:guide
+       id="guide-left"
+       position="1,8"
+       orientation="1,0"
+       inkscape:locked="true"
+       inkscape:label="live area" />
+    <sodipodi0:guide
+       id="guide-right"
+       position="15,8"
+       orientation="1,0"
+       inkscape:locked="true" />
+    <sodipodi0:guide
+       id="guide-top"
+       position="8,15"
+       orientation="0,1"
+       inkscape:locked="true" />
+    <sodipodi0:guide
+       id="guide-bottom"
+       position="8,1"
+       orientation="0,1"
+       inkscape:locked="true" />
+  </sodipodi0:namedview>
+  <!-- Locked reference layer: live-area outline + default-style sample. Hide or delete before export. -->
+  <!-- Draw your icon here. New shapes inherit this 1 px round-stroke default style. -->
   <g
-     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer-icon"
+     inkscape:label="icon"
+     style="fill:none;stroke:#a8a8a8;stroke-width:1;stroke-linecap:round;stroke-linejoin:round">
     <path
        id="rect2-2-1-1"
-       style="fill:#a8a8a8;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264582"
-       d="M 3.3302071,0.08365715 A 0.26995741,0.24919166 45 0 0 2.9630715,0.06885636 L 2.5847453,0.44718274 3.7861482,1.6485855 4.1644746,1.2702591 A 0.26995741,0.24919166 45 0 0 4.1496738,0.90312385 Z M 2.3074985,0.72442948 0.92126441,2.1106637 0.64401761,2.3879105 0.51694611,2.5149819 a 0.16024842,0.17979227 44.999998 0 0 -3.704e-4,3.678e-4 l -0.025633,0.025631 0.00254,0.00252 a 0.16024842,0.17979227 44.999998 0 0 -0.024908,0.050179 l -0.4599119,1.43461 a 0.16024842,0.17979227 44.999998 0 0 0.1963833,0.1963832 L 1.6396409,3.7647676 a 0.16024842,0.17979227 44.999998 0 0 0.050179,-0.024908 l 0.00254,0.00254 0.025641,-0.025641 a 0.16024842,0.17979227 44.999998 0 0 3.704e-4,-3.704e-4 L 1.8454238,3.5893269 2.1226706,3.3120801 3.5089048,1.925846 Z" />
+       style="fill:#7a7a7a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.999995"
+       d="M 11.396484 1 A 0.89277396 0.82409971 45 0 0 10.798828 1.2285156 L 10.427734 1.5996094 L 10.417969 1.5917969 L 9.7285156 2.28125 L 13.710938 6.2617188 L 14.771484 5.2011719 A 0.89277396 0.82409971 45 0 0 14.722656 3.9863281 L 12.013672 1.2773438 A 0.89277396 0.82409971 45 0 0 11.396484 1 z M 9.0214844 2.9882812 L 6.9960938 5.0136719 L 7.0039062 5.0234375 L 4.046875 7.9804688 L 3.1289062 8.8964844 L 2.7089844 9.3164062 A 0.52995624 0.59458955 44.999998 0 0 2.7089844 9.3183594 L 2.6230469 9.4023438 L 2.6328125 9.4121094 A 0.52995624 0.59458955 44.999998 0 0 2.5488281 9.578125 L 1.0292969 14.322266 A 0.52995624 0.59458955 44.999998 0 0 1.6777344 14.970703 L 6.421875 13.451172 A 0.52995624 0.59458955 44.999998 0 0 6.5878906 13.367188 L 6.5976562 13.376953 L 6.6816406 13.291016 A 0.52995624 0.59458955 44.999998 0 0 6.6835938 13.291016 L 7.1035156 12.871094 L 8.0195312 11.953125 L 12.603516 7.3691406 L 12.597656 7.3632812 L 12.996094 6.9648438 L 9.0214844 2.9882812 z " />
   </g>
 </svg>
